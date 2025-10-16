@@ -1,0 +1,357 @@
+; ORDER transactions for 2022-02
+
+2022-02-07 * "Invoice #35 INV-0030"
+  Income:Sales:SalesItem:Sell18kJewelry -2100 HKD
+  category: "Jewelry"
+  sku: "DDFFFFFF0400000000000003"
+  qty: 1
+  referenceNo: "35"
+  orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
+  type: "Invoice Item"
+  sourceId: "58495806-022f-4d47-89c1-dc618243116a"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "35"
+  orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
+  type: "Invoice"
+  sourceId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
+  contact: "852 60276419 (MR. WONG MATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
+2022-02-07 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #35 #9cb9d27f-f175-4116-acff-b5bdc9badc50"
+  Assets:CurrentAssets:Cash:CashInHand 2100 HKD
+  type: "Invoice Payment"
+  sourceId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
+  referenceNo: "35"
+  orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
+  Assets:CurrentAssets:AccountReceivable -2100 HKD
+  type: "Invoice Payment"
+  sourceId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
+  referenceNo: "35"
+  orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
+  contact: "852 60276419 (MR. WONG MATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
+2022-02-08 * "Invoice #161 INV-0029"
+  Income:Sales:SalesItem:Sell18kJewelry -3750.53 HKD
+  category: "Jewelry"
+  sku: "DDFFFFFF0500000000000061"
+  qty: 1
+  referenceNo: "161"
+  orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
+  type: "Invoice Item"
+  sourceId: "e63a9d88-45e2-4307-9d06-769454f294a7"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "161"
+  orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
+  type: "Invoice"
+  sourceId: "d03a5659-8907-4464-8fdf-a33efebca16d"
+  contact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
+2022-02-08 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #11 #885f4901-bed5-4c5a-ac61-60e9759615fc"
+  Assets:CurrentAssets:Cash:CashInHand 1340 HKD
+  type: "Invoice Payment"
+  sourceId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
+  referenceNo: "11"
+  orderId: "e631bca7-cfc8-44bf-b64a-1e6328271c7a"
+  Assets:CurrentAssets:AccountReceivable -1340 HKD
+  type: "Invoice Payment"
+  sourceId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
+  referenceNo: "11"
+  orderId: "e631bca7-cfc8-44bf-b64a-1e6328271c7a"
+  contact: "852 95001836 (Mr Ho Lam) [bbdb6572-6747-437c-ab69-43a230072e5e]"
+2022-02-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd" "Invoice Payment for Invoice #161 #cc839736-c987-48c8-80ad-d6820ed2b3f1"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd 3750 HKD
+  type: "Invoice Payment"
+  sourceId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
+  referenceNo: "161"
+  orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
+  Assets:CurrentAssets:AccountReceivable -3750 HKD
+  type: "Invoice Payment"
+  sourceId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
+  referenceNo: "161"
+  orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
+  contact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
+2022-02-12 * "Invoice #58 INV-0035 "
+  Income:Sales:SalesItem:Sell18kJewelry -23000.6 HKD
+  category: "Ring Setting"
+  sku: "DDFFFFFF0B00000000000030"
+  qty: 1
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  type: "Invoice Item"
+  sourceId: "3528667e-7410-4fb1-8879-e01d43b8ff2e"
+  Income:Sales:SalesItem:SellDiamond -0 HKD
+  category: "Natural Diamond"
+  sku: "DDFFFFFF0800006213992763"
+  qty: 1
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  type: "Invoice Item"
+  sourceId: "5559edc5-2211-459a-ad32-977fc69c7424"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  type: "Invoice"
+  sourceId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  contact: "852 93865330 (MS. SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+2022-02-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd" "Invoice Payment for Invoice #58 #05d92e61-c319-4545-a4e5-a23d41ab0a24"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd 5000 HKD
+  type: "Invoice Payment"
+  sourceId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Assets:CurrentAssets:AccountReceivable -5000 HKD
+  type: "Invoice Payment"
+  sourceId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  contact: "852 93865330 (MS. SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+2022-02-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd" "Invoice Payment for Invoice #58 #cd317673-79a8-44b8-8ab5-c2db652b62d7"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd 6000 HKD
+  type: "Invoice Payment"
+  sourceId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Assets:CurrentAssets:AccountReceivable -6000 HKD
+  type: "Invoice Payment"
+  sourceId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  contact: "852 93865330 (MS. SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+2022-02-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd" "Invoice Payment for Invoice #58 #ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd 12000 HKD
+  type: "Invoice Payment"
+  sourceId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Assets:CurrentAssets:AccountReceivable -12000 HKD
+  type: "Invoice Payment"
+  sourceId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
+  referenceNo: "58"
+  orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  contact: "852 93865330 (MS. SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+2022-02-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd" "Invoice Payment for Invoice #163 #c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd 4500 HKD
+  type: "Invoice Payment"
+  sourceId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
+  referenceNo: "163"
+  orderId: "bbbeed00-3cff-4af2-8198-6cda2ef6b23b"
+  Assets:CurrentAssets:AccountReceivable -4500 HKD
+  type: "Invoice Payment"
+  sourceId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
+  referenceNo: "163"
+  orderId: "bbbeed00-3cff-4af2-8198-6cda2ef6b23b"
+  contact: "852 62872786 (MR. LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]"
+2022-02-17 * "Bill #70 15 pcs og GEMS"
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 1115 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "274061f0-09f1-4831-aa4f-c4552521bfa2"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 20486 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "49f7c0cd-990e-4397-bda1-a829550e8781"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 25428 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "b025355f-da25-4299-ab96-f88996f5e532"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 179 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "f1114a89-4d67-42d3-815b-9246197f83dd"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 4449 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "1e9e8e18-bb77-46cc-b9c7-6971b272e84d"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 1467 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "ebc015a8-2e62-4a01-9e94-e68ca5614d48"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 3422 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "d3d1abf2-6dd3-459c-8215-a6296cf32aeb"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 17512 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "e0b2d940-ab74-4309-b333-22efbe2249cd"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 4753 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "7feb976e-1491-40e0-981e-3e82884eba7c"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 12602 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "cb52faca-ef92-4e96-a5a8-41e7f135aa01"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 5286 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "6e7b0f60-33c2-4aeb-80dc-f95c4a50aba3"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 13543 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "c5646240-54b6-401f-8891-dff69134c460"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 23804 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "d69ef84c-4a14-452c-aa32-adcb2d18631b"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 2148 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "2a2c1175-f0fb-4dc7-a3e8-e99e5675ff2b"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 48806 HKD
+  category: "Jewelry"
+  sku: "GEM"
+  qty: 1
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill Item"
+  sourceId: "7eb032d6-28f9-490b-a1a5-7f384a3905a2"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  type: "Bill"
+  sourceId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  contact: "998 12345711 (Fathima Gems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
+2022-02-17 * "998 12345711 (Fathima Gems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]" "Bill Payment for Bill #70 #fff687b3-326e-4cf0-95e0-76235ec763a7"
+  contact: "998 12345711 (Fathima Gems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
+  Liabilities:CurrentLiabilities:AccountPayable 185000 HKD
+  type: "Bill Payment"
+  sourceId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -185000 HKD
+  type: "Bill Payment"
+  sourceId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
+  referenceNo: "70"
+  orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
+2022-02-18 * "Bill #615 SI-10202"
+  referenceNo: "615"
+  orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 7708 HKD
+  category: "Jewelry"
+  sku: "DDFFFFFF0500000000000006"
+  qty: 1
+  referenceNo: "615"
+  orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
+  type: "Bill Item"
+  sourceId: "c72de1cd-84a7-4159-9590-9b69a8a57464"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "615"
+  orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
+  type: "Bill"
+  sourceId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
+  contact: "998 12345767 (SkyHigh Holdings Group Ltd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+2022-02-22 * "Bill #71 EX00031"
+  referenceNo: "71"
+  orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating 475 HKD
+  qty: "1"
+  description: "323電費(2022-1月)"
+  referenceNo: "71"
+  orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
+  type: "Bill Item"
+  sourceId: "6fb68559-0f5b-4fc7-b4a9-49d6443c7d50"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "71"
+  orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
+  type: "Bill"
+  sourceId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
+  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+2022-02-24 * "Bill #106 EX00030 EX00029"
+  referenceNo: "106"
+  orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
+  type: "Bill"
+  Expenses:GeneralExpense:Rent 19400 HKD
+  qty: "1"
+  description: "323租金(2022-3月) EX00030"
+  referenceNo: "106"
+  orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
+  type: "Bill Item"
+  sourceId: "31f68a2a-1646-48be-ac7a-1010ea31bf96"
+  Expenses:GeneralExpense:Rent 1648 HKD
+  qty: "1"
+  description: "323管理費(2022-3月) EX00029"
+  referenceNo: "106"
+  orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
+  type: "Bill Item"
+  sourceId: "752a022f-d1ca-4ab6-9003-a69dc50b7a24"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "106"
+  orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
+  type: "Bill"
+  sourceId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
+  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+2022-02-27 * "Bill #66 EX00028"
+  referenceNo: "66"
+  orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm 380 HKD
+  qty: "1"
+  description: "323上網(2022-2月)"
+  referenceNo: "66"
+  orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
+  type: "Bill Item"
+  sourceId: "2ce5c43c-a2ab-43ad-a8ec-9e0210211ce9"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "66"
+  orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
+  type: "Bill"
+  sourceId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
+  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"

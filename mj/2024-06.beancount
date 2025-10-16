@@ -1,0 +1,46 @@
+; MJ transactions for 2024-06
+
+2024-06-03 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to VISA"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 40000 HKD
+  type: "MJ"
+  sourceId: "60ff9e15-a409-4893-bfc7-7a2179ac789c"
+  orderId: "60ff9e15-a409-4893-bfc7-7a2179ac789c"
+  referenceNo: "523"
+  Assets:CurrentAssets:Bank:BocSavingBank -40000 HKD
+  type: "MJ"
+  sourceId: "60ff9e15-a409-4893-bfc7-7a2179ac789c"
+  orderId: "60ff9e15-a409-4893-bfc7-7a2179ac789c"
+  referenceNo: "523"
+2024-06-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay134"
+  Assets:CurrentAssets:Bank:BocSavingBank 8667 HKD
+  type: "MJ"
+  sourceId: "7446df6b-01d2-4983-84ef-f3f9950b6bb8"
+  orderId: "7446df6b-01d2-4983-84ef-f3f9950b6bb8"
+  referenceNo: "511"
+  Assets:CurrentAssets:Bank:KpayBank -8667 HKD
+  type: "MJ"
+  sourceId: "7446df6b-01d2-4983-84ef-f3f9950b6bb8"
+  orderId: "7446df6b-01d2-4983-84ef-f3f9950b6bb8"
+  referenceNo: "511"
+2024-06-13 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
+  Assets:CurrentAssets:Bank:BocSavingBank -100000 HKD
+  type: "MJ"
+  sourceId: "3e405f2d-9f16-432b-b9c7-c5098bfc39db"
+  orderId: "3e405f2d-9f16-432b-b9c7-c5098bfc39db"
+  referenceNo: "515"
+  Assets:CurrentAssets:Bank:BocCurrentBank 100000 HKD
+  type: "MJ"
+  sourceId: "3e405f2d-9f16-432b-b9c7-c5098bfc39db"
+  orderId: "3e405f2d-9f16-432b-b9c7-c5098bfc39db"
+  referenceNo: "515"
+2024-06-28 * "Expenses:CostOfHedging金" "Dubai Hedging Lost-2024-06"
+  Assets:CurrentAssets:E-tradingPlatform:DubaiSTradingLlcHedging金 -119127.99 USDT
+  type: "MJ"
+  sourceId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
+  orderId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
+  referenceNo: "184"
+  Expenses:CostOfHedging金 119127.99 USDT
+  type: "MJ"
+  sourceId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
+  orderId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
+  referenceNo: "184"
