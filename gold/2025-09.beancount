@@ -1,15 +1,5 @@
 ; GOLD transactions for 2025-09
 
-2025-09-15 * "Reservation Delivery R#GR2025091500002S D#D20250915001"
-  rsv-ref: "GR2025091500002S"
-  del-ref: "D20250915001"
-  Liabilities:CurrentLiabilities:ClientDeposit -135702.21 USDT @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250915001"
-  sourceId: "04f7c7a2-13ad-4640-8551-c4e5ecc967f2"
-  orderId: "f7c9d771-a8fe-4a04-bef3-3953c2ad7653"
-  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:In-Stock 1158.14 XAU {}
 2025-09-15 * "Reservation Delivery R#GR2025091500002S D#D20250915003"
   rsv-ref: "GR2025091500002S"
   del-ref: "D20250915003"
@@ -20,6 +10,16 @@
   orderId: "f7c9d771-a8fe-4a04-bef3-3953c2ad7653"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:In-Stock 2000 XAU {}
+2025-09-15 * "Reservation Delivery R#GR2025091500002S D#D20250915001"
+  rsv-ref: "GR2025091500002S"
+  del-ref: "D20250915001"
+  Liabilities:CurrentLiabilities:ClientDeposit -135702.21 USDT @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250915001"
+  sourceId: "04f7c7a2-13ad-4640-8551-c4e5ecc967f2"
+  orderId: "f7c9d771-a8fe-4a04-bef3-3953c2ad7653"
+  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:In-Stock 1158.14 XAU {}
 2025-09-15 * "Reservation Payment R#GR2025091500004B P#P20250915001"
   rsv-ref: "GR2025091500004B"
   pay-ref: "P20250915001"
@@ -93,18 +93,6 @@
   sourceId: "0c347a8a-dedc-41dc-9500-ce4deded4546"
   orderId: "25221ff2-3e96-453c-8062-90a187d1b92e"
   contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
-2025-09-15 * "Reservation Delivery R#GR2025091500003B D#D20250915004"
-  rsv-ref: "GR2025091500003B"
-  del-ref: "D20250915004"
-  Liabilities:CurrentLiabilities:ClientDeposit 234185.96 USD @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250915004"
-  sourceId: "844ee6b6-c455-4c50-9f7f-881a2cec9225"
-  orderId: "25221ff2-3e96-453c-8062-90a187d1b92e"
-  contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
-  Income:Sales:Gold -1821966.77 HKD
-  Assets:Inventory:Gold:In-Stock -2000 XAU {}
-  Expenses:Cogs:Gold
 2025-09-15 * "Reservation Delivery R#GR2025091500004B D#D20250915002"
   rsv-ref: "GR2025091500004B"
   del-ref: "D20250915002"
@@ -116,6 +104,18 @@
   contact: "82 220887071 () [33b780b2-8816-4462-87a0-73152f99e7b4]"
   Income:Sales:Gold -1054911.91 HKD
   Assets:Inventory:Gold:In-Stock -1158.14 XAU {}
+  Expenses:Cogs:Gold
+2025-09-15 * "Reservation Delivery R#GR2025091500003B D#D20250915004"
+  rsv-ref: "GR2025091500003B"
+  del-ref: "D20250915004"
+  Liabilities:CurrentLiabilities:ClientDeposit 234185.96 USD @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250915004"
+  sourceId: "844ee6b6-c455-4c50-9f7f-881a2cec9225"
+  orderId: "25221ff2-3e96-453c-8062-90a187d1b92e"
+  contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
+  Income:Sales:Gold -1821966.77 HKD
+  Assets:Inventory:Gold:In-Stock -2000 XAU {}
   Expenses:Cogs:Gold
 2025-09-18 * "Reservation Delivery R#GR2025091800001S D#D20250918002"
   rsv-ref: "GR2025091800001S"

@@ -124,20 +124,6 @@
   Income:Sales:Gold -30493249 HKD
   Assets:Inventory:Gold:In-Stock -50000 XAU {}
   Expenses:Cogs:Gold
-2024-08-14 * "Reservation Payment R#GR2024081400002S P#P20240814003"
-  rsv-ref: "GR2024081400002S"
-  pay-ref: "P20240814003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料 -40797.62 USDT @ 7.82 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240814003"
-  sourceId: "84f4c2da-d2cb-4e1e-9f5a-a21e80415904"
-  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
-  Assets:CurrentAssets:ClientDeposit 40797.62 USDT @ 7.82 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240814003"
-  sourceId: "84f4c2da-d2cb-4e1e-9f5a-a21e80415904"
-  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
-  contact: "852 55350646 (張啟翔 Cheung  Kai Cheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
 2024-08-14 * "Reservation Payment R#GR2024081400001S P#P20240814002"
   rsv-ref: "GR2024081400001S"
   pay-ref: "P20240814002"
@@ -152,6 +138,20 @@
   sourceId: "6be450df-8fe3-475c-a819-6b9032c4c4d2"
   orderId: "70479143-0122-4a71-a368-799052f7c316"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+2024-08-14 * "Reservation Payment R#GR2024081400002S P#P20240814003"
+  rsv-ref: "GR2024081400002S"
+  pay-ref: "P20240814003"
+  Assets:CurrentAssets:Wallet:DkkCWallet金料 -40797.62 USDT @ 7.82 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240814003"
+  sourceId: "84f4c2da-d2cb-4e1e-9f5a-a21e80415904"
+  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
+  Assets:CurrentAssets:ClientDeposit 40797.62 USDT @ 7.82 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240814003"
+  sourceId: "84f4c2da-d2cb-4e1e-9f5a-a21e80415904"
+  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
+  contact: "852 55350646 (張啟翔 Cheung  Kai Cheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
 2024-08-14 * "Reservation Payment R#GR2024081400004B P#P20240814001"
   rsv-ref: "GR2024081400004B"
   pay-ref: "P20240814001"
@@ -172,16 +172,6 @@
   sourceId: "99eaba1a-5d5c-4f32-9ce1-c0d57d67eb31"
   orderId: "cbf8cdb3-cc38-4ba3-a7b9-0e1f5f4d35ed"
   contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-2024-08-14 * "Reservation Delivery R#GR2024081400002S D#D20240814006"
-  rsv-ref: "GR2024081400002S"
-  del-ref: "D20240814006"
-  Assets:CurrentAssets:ClientDeposit -40797.62 USDT @ 7.82 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20240814006"
-  sourceId: "d0edc195-160e-482f-b0ae-83af4feb2ff9"
-  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
-  contact: "852 55350646 (張啟翔 Cheung  Kai Cheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
-  Assets:Inventory:Gold:In-Stock 520.33 XAU {}
 2024-08-14 * "Reservation Delivery R#GR2024081400001S D#D20240814005"
   rsv-ref: "GR2024081400001S"
   del-ref: "D20240814005"
@@ -192,6 +182,16 @@
   orderId: "70479143-0122-4a71-a368-799052f7c316"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:In-Stock 20000 XAU {}
+2024-08-14 * "Reservation Delivery R#GR2024081400002S D#D20240814006"
+  rsv-ref: "GR2024081400002S"
+  del-ref: "D20240814006"
+  Assets:CurrentAssets:ClientDeposit -40797.62 USDT @ 7.82 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20240814006"
+  sourceId: "d0edc195-160e-482f-b0ae-83af4feb2ff9"
+  orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
+  contact: "852 55350646 (張啟翔 Cheung  Kai Cheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
+  Assets:Inventory:Gold:In-Stock 520.33 XAU {}
 2024-08-14 * "Reservation Delivery R#GR2024081400004B D#D20240814004"
   rsv-ref: "GR2024081400004B"
   del-ref: "D20240814004"
@@ -298,20 +298,6 @@
   Income:Sales:Gold -18378530 HKD
   Assets:Inventory:Gold:In-Stock -30000 XAU {}
   Expenses:Cogs:Gold
-2024-08-16 * "Reservation Payment R#GR2024081600002S P#P20240816004"
-  rsv-ref: "GR2024081600002S"
-  pay-ref: "P20240816004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料 -314169.65 USDT @ 7.82 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240816004"
-  sourceId: "e5481a66-e418-43f2-9128-3588ea18bc8d"
-  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
-  Assets:CurrentAssets:ClientDeposit 314169.65 USDT @ 7.82 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240816004"
-  sourceId: "e5481a66-e418-43f2-9128-3588ea18bc8d"
-  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
-  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 2024-08-16 * "Reservation Payment R#GR2024081600003S P#P20240816005"
   rsv-ref: "GR2024081600003S"
   pay-ref: "P20240816005"
@@ -325,6 +311,20 @@
   referenceNo: "P20240816005"
   sourceId: "130ef053-8287-47f2-9094-b9fe74e1d082"
   orderId: "9cb7f5d1-419b-404a-893b-07c07acbeb14"
+  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+2024-08-16 * "Reservation Payment R#GR2024081600002S P#P20240816004"
+  rsv-ref: "GR2024081600002S"
+  pay-ref: "P20240816004"
+  Assets:CurrentAssets:Wallet:DkkCWallet金料 -314169.65 USDT @ 7.82 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240816004"
+  sourceId: "e5481a66-e418-43f2-9128-3588ea18bc8d"
+  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
+  Assets:CurrentAssets:ClientDeposit 314169.65 USDT @ 7.82 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240816004"
+  sourceId: "e5481a66-e418-43f2-9128-3588ea18bc8d"
+  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 2024-08-16 * "Reservation Payment R#GR2024081600005B P#P20240816003"
   rsv-ref: "GR2024081600005B"
@@ -346,32 +346,32 @@
   sourceId: "6cbd9443-ec6f-47f7-9488-6bc8d07e50db"
   orderId: "be8cbdd2-1991-4192-afe8-ec276cbad608"
   contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-2024-08-16 * "Reservation Delivery R#GR2024081600002S D#D20240816010"
-  rsv-ref: "GR2024081600002S"
-  del-ref: "D20240816010"
-  Assets:CurrentAssets:ClientDeposit -314169.65 USDT @ 7.82 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20240816010"
-  sourceId: "c03e1720-283f-412b-b71f-43d9523ecadc"
-  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
-  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:In-Stock 4000 XAU {}
 2024-08-16 * "Reservation Delivery R#GR2024081600003S D#D20240816009"
   rsv-ref: "GR2024081600003S"
   del-ref: "D20240816009"
-  Assets:CurrentAssets:ClientDeposit -3939754.63 USDT @ 7.82 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20240816009"
-  sourceId: "493bdfe3-2474-4e10-80e2-0e3cd411ce02"
-  orderId: "9cb7f5d1-419b-404a-893b-07c07acbeb14"
-  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Liabilities:CurrentLiabilities:ClientDeposit -0.02 USDT @ 7.82 HKD
+  Assets:CurrentAssets:ClientDeposit -3939754.65 USDT @ 7.82 HKD
   type: "Reservation Delivery"
   referenceNo: "D20240816009"
   sourceId: "493bdfe3-2474-4e10-80e2-0e3cd411ce02"
   orderId: "9cb7f5d1-419b-404a-893b-07c07acbeb14"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:In-Stock 50000 XAU {}
+2024-08-16 * "Reservation Delivery R#GR2024081600002S D#D20240816010"
+  rsv-ref: "GR2024081600002S"
+  del-ref: "D20240816010"
+  Assets:CurrentAssets:ClientDeposit -314169.63 USDT @ 7.82 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20240816010"
+  sourceId: "c03e1720-283f-412b-b71f-43d9523ecadc"
+  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
+  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Liabilities:CurrentLiabilities:ClientDeposit -0.02 USDT @ 7.82 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20240816010"
+  sourceId: "c03e1720-283f-412b-b71f-43d9523ecadc"
+  orderId: "a13d8967-e599-4380-90cd-2f2217b69b46"
+  contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:In-Stock 4000 XAU {}
 2024-08-16 * "Reservation Payment R#GR2024081600001B P#P20240816002"
   rsv-ref: "GR2024081600001B"
   pay-ref: "P20240816002"
@@ -526,26 +526,6 @@
   Income:Sales:Gold -18704431 HKD
   Assets:Inventory:Gold:In-Stock -30000 XAU {}
   Expenses:Cogs:Gold
-2024-08-20 * "Reservation Payment R#GR2024082000003B P#P20240820001"
-  rsv-ref: "GR2024082000003B"
-  pay-ref: "P20240820001"
-  Assets:CurrentAssets:Cash:Cash金料 31422952 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240820001"
-  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
-  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
-  Assets:CurrentAssets:ClientDeposit -1 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240820001"
-  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
-  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
-  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Liabilities:CurrentLiabilities:ClientDeposit -31422951 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240820001"
-  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
-  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
-  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
 2024-08-20 * "Reservation Payment R#GR2024082000001S P#P20240820004"
   rsv-ref: "GR2024082000001S"
   pay-ref: "P20240820004"
@@ -566,6 +546,26 @@
   sourceId: "53337a63-c52a-4b7f-96a5-b7dbe2409aa2"
   orderId: "299608c7-bff5-4658-b5fc-d9ddd9ee150d"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+2024-08-20 * "Reservation Payment R#GR2024082000003B P#P20240820001"
+  rsv-ref: "GR2024082000003B"
+  pay-ref: "P20240820001"
+  Assets:CurrentAssets:Cash:Cash金料 31422952 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240820001"
+  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
+  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
+  Assets:CurrentAssets:ClientDeposit -1 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240820001"
+  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
+  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
+  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
+  Liabilities:CurrentLiabilities:ClientDeposit -31422951 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240820001"
+  sourceId: "791a6f2c-edb4-4949-9392-be05cbc2830c"
+  orderId: "da3de376-31b3-4280-ad8b-50267adf0d60"
+  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
 2024-08-20 * "Reservation Delivery R#GR2024081900001S D#D20240820008"
   rsv-ref: "GR2024081900001S"
   del-ref: "D20240820008"
@@ -870,26 +870,6 @@
   Income:Sales:Gold -31184736 HKD
   Assets:Inventory:Gold:In-Stock -50000 XAU {}
   Expenses:Cogs:Gold
-2024-08-27 * "Reservation Payment R#GR2024082700006B P#P20240827002"
-  rsv-ref: "GR2024082700006B"
-  pay-ref: "P20240827002"
-  Assets:CurrentAssets:Cash:Cash金料 31306176 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240827002"
-  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
-  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
-  Assets:CurrentAssets:ClientDeposit -3 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240827002"
-  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
-  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
-  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Liabilities:CurrentLiabilities:ClientDeposit -31306173 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240827002"
-  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
-  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
-  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
 2024-08-27 * "Reservation Payment R#GR2024082700003S P#P20240827003"
   rsv-ref: "GR2024082700003S"
   pay-ref: "P20240827003"
@@ -910,6 +890,26 @@
   sourceId: "11ea7ff7-c1e6-4b0c-87fb-728721ed447a"
   orderId: "60ae29e6-6f9d-4074-9613-c9d6252d7312"
   contact: "852 62244422 (Milways Gold Ltd 萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+2024-08-27 * "Reservation Payment R#GR2024082700006B P#P20240827002"
+  rsv-ref: "GR2024082700006B"
+  pay-ref: "P20240827002"
+  Assets:CurrentAssets:Cash:Cash金料 31306176 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240827002"
+  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
+  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
+  Assets:CurrentAssets:ClientDeposit -3 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240827002"
+  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
+  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
+  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
+  Liabilities:CurrentLiabilities:ClientDeposit -31306173 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240827002"
+  sourceId: "e6f7754c-78ba-404e-82e1-1ce89792678d"
+  orderId: "e3a166d6-08b1-4a12-92bf-d03c1088504c"
+  contact: "852 57934440 (SERAPHIC LIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
 2024-08-27 * "Reservation Delivery R#GR2024082700003S D#D20240827006"
   rsv-ref: "GR2024082700003S"
   del-ref: "D20240827006"
@@ -1032,20 +1032,6 @@
   Income:Sales:Gold -15648399 HKD
   Assets:Inventory:Gold:In-Stock -25000 XAU {}
   Expenses:Cogs:Gold
-2024-08-31 * "Reservation Payment R#GR2024083100002S P#P20240831002"
-  rsv-ref: "GR2024083100002S"
-  pay-ref: "P20240831002"
-  Assets:CurrentAssets:Cash:Cash金料 -30000 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240831002"
-  sourceId: "f3f1b399-5e9d-4198-ab45-4b043f5207e5"
-  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
-  Assets:CurrentAssets:ClientDeposit 30000 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20240831002"
-  sourceId: "f3f1b399-5e9d-4198-ab45-4b043f5207e5"
-  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
-  contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
 2024-08-31 * "Reservation Payment R#GR2024083100003S P#P20240831003"
   rsv-ref: "GR2024083100003S"
   pay-ref: "P20240831003"
@@ -1059,6 +1045,20 @@
   referenceNo: "P20240831003"
   sourceId: "44c83eb5-f286-4f49-8cf2-c0189a6e0e13"
   orderId: "0e905088-939f-43ce-b778-0974157c7467"
+  contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
+2024-08-31 * "Reservation Payment R#GR2024083100002S P#P20240831002"
+  rsv-ref: "GR2024083100002S"
+  pay-ref: "P20240831002"
+  Assets:CurrentAssets:Cash:Cash金料 -30000 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240831002"
+  sourceId: "f3f1b399-5e9d-4198-ab45-4b043f5207e5"
+  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
+  Assets:CurrentAssets:ClientDeposit 30000 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20240831002"
+  sourceId: "f3f1b399-5e9d-4198-ab45-4b043f5207e5"
+  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
   contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
 2024-08-31 * "Reservation Payment R#GR2024083100001S P#P20240831004"
   rsv-ref: "GR2024083100001S"
@@ -1074,16 +1074,6 @@
   sourceId: "626fcda4-d44c-4a25-8021-be4d2ed57fc3"
   orderId: "f644d30a-4eb9-4b74-bd24-6df74738f452"
   contact: "852 55350646 (張啟翔 Cheung  Kai Cheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
-2024-08-31 * "Reservation Delivery R#GR2024083100002S D#D20240831006"
-  rsv-ref: "GR2024083100002S"
-  del-ref: "D20240831006"
-  Assets:CurrentAssets:ClientDeposit -30000 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20240831006"
-  sourceId: "3fd286d4-9657-40d5-b38a-409eb1e139da"
-  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
-  contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
-  Assets:Inventory:Gold:In-Stock 48.5673 XAU {}
 2024-08-31 * "Reservation Delivery R#GR2024083100003S D#D20240831004"
   rsv-ref: "GR2024083100003S"
   del-ref: "D20240831004"
@@ -1094,6 +1084,16 @@
   orderId: "0e905088-939f-43ce-b778-0974157c7467"
   contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
   Assets:Inventory:Gold:In-Stock 820.8927 XAU {}
+2024-08-31 * "Reservation Delivery R#GR2024083100002S D#D20240831006"
+  rsv-ref: "GR2024083100002S"
+  del-ref: "D20240831006"
+  Assets:CurrentAssets:ClientDeposit -30000 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20240831006"
+  sourceId: "3fd286d4-9657-40d5-b38a-409eb1e139da"
+  orderId: "44bbfd1c-ac6e-481d-82f8-099d7d67da3d"
+  contact: "852 57129852 (縣文 鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
+  Assets:Inventory:Gold:In-Stock 48.5673 XAU {}
 2024-08-31 * "Reservation Delivery R#GR2024083100001S D#D20240831005"
   rsv-ref: "GR2024083100001S"
   del-ref: "D20240831005"
