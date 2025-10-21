@@ -11,17 +11,6 @@
   sourceId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
   orderId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
   referenceNo: "45"
-2025-03-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 215"
-  Assets:CurrentAssets:Bank:BocSavingBank 7091 HKD
-  type: "MJ"
-  sourceId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
-  orderId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
-  referenceNo: "468"
-  Assets:CurrentAssets:Bank:KpayBank -7091 HKD
-  type: "MJ"
-  sourceId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
-  orderId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
-  referenceNo: "468"
 2025-03-04 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 216"
   Assets:CurrentAssets:Bank:BocSavingBank 2461.5 HKD
   type: "MJ"
@@ -33,6 +22,17 @@
   sourceId: "042474ae-28b7-4656-b30a-7e6abd41ec34"
   orderId: "042474ae-28b7-4656-b30a-7e6abd41ec34"
   referenceNo: "458"
+2025-03-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 215"
+  Assets:CurrentAssets:Bank:BocSavingBank 7091 HKD
+  type: "MJ"
+  sourceId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
+  orderId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
+  referenceNo: "468"
+  Assets:CurrentAssets:Bank:KpayBank -7091 HKD
+  type: "MJ"
+  sourceId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
+  orderId: "1605cd88-a7e3-4ee7-8ebd-f5c8fb98195c"
+  referenceNo: "468"
 2025-03-05 * "Assets:CurrentAssets:Bank:KpayBank" "Felix/Piu - M.Card+ Kpay交易測試 (03/2025)"
   Assets:CurrentAssets:Bank:KpayBank 1 HKD
   type: "MJ"
@@ -132,6 +132,28 @@
   sourceId: "7628e0c7-d13b-4040-9cd6-97f5c04f36c7"
   orderId: "7628e0c7-d13b-4040-9cd6-97f5c04f36c7"
   referenceNo: "1170"
+2025-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" " INTEREST - BOC SAV 3/2025"
+  Assets:CurrentAssets:Bank:BocSavingBank 16.07 HKD
+  type: "MJ"
+  sourceId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
+  orderId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
+  referenceNo: "13"
+  Income:OtherIncome:Interest-bank -16.07 HKD
+  type: "MJ"
+  sourceId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
+  orderId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
+  referenceNo: "13"
+2025-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 222"
+  Assets:CurrentAssets:Bank:BocSavingBank 6697 HKD
+  type: "MJ"
+  sourceId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
+  orderId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
+  referenceNo: "38"
+  Assets:CurrentAssets:Bank:KpayBank -6697 HKD
+  type: "MJ"
+  sourceId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
+  orderId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
+  referenceNo: "38"
 2025-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2025"
   Assets:OtherAssets:Prepayments 1352.5 HKD
   type: "MJ"
@@ -153,17 +175,6 @@
   sourceId: "35c9ea26-8150-476b-9419-4d4966352fa6"
   orderId: "35c9ea26-8150-476b-9419-4d4966352fa6"
   referenceNo: "1197"
-2025-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" " INTEREST - BOC SAV 3/2025"
-  Assets:CurrentAssets:Bank:BocSavingBank 16.07 HKD
-  type: "MJ"
-  sourceId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
-  orderId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
-  referenceNo: "13"
-  Income:OtherIncome:Interest-bank -16.07 HKD
-  type: "MJ"
-  sourceId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
-  orderId: "60cb4f69-2f44-4e65-92ca-223d4f1131c4"
-  referenceNo: "13"
 2025-03-31 * "Expenses:OtherExpenses:RefiningExpense金" "Closing 31/3/2025 - USD"
   Expenses:OtherExpenses:RefiningExpense金 20.95 USD
   type: "MJ"
@@ -175,14 +186,3 @@
   sourceId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
   orderId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
   referenceNo: "1191"
-2025-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 222"
-  Assets:CurrentAssets:Bank:BocSavingBank 6697 HKD
-  type: "MJ"
-  sourceId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
-  orderId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
-  referenceNo: "38"
-  Assets:CurrentAssets:Bank:KpayBank -6697 HKD
-  type: "MJ"
-  sourceId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
-  orderId: "3ee541f9-d238-4c00-abdd-85a7ea3575ef"
-  referenceNo: "38"

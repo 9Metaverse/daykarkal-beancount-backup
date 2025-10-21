@@ -22,6 +22,17 @@
   sourceId: "2a016abf-0bbe-488d-8218-776d215ad80f"
   orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
   referenceNo: "350"
+2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
+  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
+  type: "MJ"
+  sourceId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
+  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
+  type: "MJ"
+  sourceId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
 2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
   Assets:CurrentAssets:Cash:CashInHand 50000 HKD
   type: "MJ"
@@ -66,17 +77,6 @@
   sourceId: "caab9cd4-93af-4166-acad-757bdf6bc2cd"
   orderId: "caab9cd4-93af-4166-acad-757bdf6bc2cd"
   referenceNo: "305"
-2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
-  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
-  type: "MJ"
-  sourceId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
-  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
-  type: "MJ"
-  sourceId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
 2023-03-14 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd" "Deposit HKD 80000 to MAHEK"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd 80000 HKD
   type: "MJ"
@@ -99,6 +99,17 @@
   sourceId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
   orderId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
   referenceNo: "648"
+2023-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2023"
+  Expenses:GeneralExpense:BuildingManagementFee -1648 HKD
+  type: "MJ"
+  sourceId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
+  Assets:OtherAssets:Prepayments 1648 HKD
+  type: "MJ"
+  sourceId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
 2023-03-31 * "Expenses:CostOfSales:ClosingInventoryBalance" "Inventory Closing 31/3/2023"
   Assets:CurrentAssets:ShopInventory:NaturalDiamond 153534.77 HKD
   type: "MJ"
@@ -120,14 +131,3 @@
   sourceId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
   orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
   referenceNo: "1188"
-2023-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2023"
-  Expenses:GeneralExpense:BuildingManagementFee -1648 HKD
-  type: "MJ"
-  sourceId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  referenceNo: "1193"
-  Assets:OtherAssets:Prepayments 1648 HKD
-  type: "MJ"
-  sourceId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  referenceNo: "1193"
