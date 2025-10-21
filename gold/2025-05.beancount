@@ -13,7 +13,7 @@
 2025-05-01 * "Reservation Delivery R#GR2025050100003B D#D20250501003"
   rsv-ref: "GR2025050100003B"
   del-ref: "D20250501003"
-  Assets:CurrentAssets:ClientDeposit 321580.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 321580.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250501003"
   sourceId: "f1914651-38ed-4f35-bf28-7b504dfa907a"
@@ -22,28 +22,10 @@
   Income:Sales:Gold -321580 HKD
   Assets:Inventory:Gold:In-Stock -400.07 XAU {}
   Expenses:Cogs:Gold
-2025-05-01 * "Reservation Delivery R#GR2025050100001B D#D20250501002"
-  rsv-ref: "GR2025050100001B"
-  del-ref: "D20250501002"
-  Liabilities:CurrentLiabilities:ClientDeposit 7.50 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250501002"
-  sourceId: "57e3d1c1-3308-4d66-9485-9b847078d3e7"
-  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Assets:CurrentAssets:ClientDeposit 191390.83 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250501002"
-  sourceId: "57e3d1c1-3308-4d66-9485-9b847078d3e7"
-  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Income:Sales:Gold -191398.33 HKD
-  Assets:Inventory:Gold:In-Stock -238.8 XAU {}
-  Expenses:Cogs:Gold
 2025-05-01 * "Reservation Delivery R#GR2025050100002B D#D20250501001"
   rsv-ref: "GR2025050100002B"
   del-ref: "D20250501001"
-  Assets:CurrentAssets:ClientDeposit 191377.69 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 191377.69 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250501001"
   sourceId: "10ee05b1-6e42-4fa3-ae60-3d91e67bd64f"
@@ -51,6 +33,18 @@
   contact: "86 18823767410 (ZENGQUNFANG曾群芳) [8e7771c4-a2c6-4161-9466-17c487eabbd2]"
   Income:Sales:Gold -191377.69 HKD
   Assets:Inventory:Gold:In-Stock -238.85 XAU {}
+  Expenses:Cogs:Gold
+2025-05-01 * "Reservation Delivery R#GR2025050100001B D#D20250501002"
+  rsv-ref: "GR2025050100001B"
+  del-ref: "D20250501002"
+  Liabilities:CurrentLiabilities:ClientDeposit 191398.33 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250501002"
+  sourceId: "57e3d1c1-3308-4d66-9485-9b847078d3e7"
+  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
+  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
+  Income:Sales:Gold -191398.33 HKD
+  Assets:Inventory:Gold:In-Stock -238.8 XAU {}
   Expenses:Cogs:Gold
 2025-05-01 * "Reservation Payment R#GR2025050100001B P#P20250501001"
   rsv-ref: "GR2025050100001B"
@@ -60,7 +54,7 @@
   referenceNo: "P20250501001"
   sourceId: "4a7febb2-5090-4db0-b35b-257ff377b7fa"
   orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  Assets:CurrentAssets:ClientDeposit -191389.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -191389.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250501001"
   sourceId: "4a7febb2-5090-4db0-b35b-257ff377b7fa"
@@ -74,13 +68,7 @@
   referenceNo: "P20250501002"
   sourceId: "cbcf1a8d-8cea-4ea1-82a1-3a75a6b8a8eb"
   orderId: "8b212ce7-db34-44da-8344-8178a787544c"
-  Assets:CurrentAssets:ClientDeposit -191378.69 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250501002"
-  sourceId: "cbcf1a8d-8cea-4ea1-82a1-3a75a6b8a8eb"
-  orderId: "8b212ce7-db34-44da-8344-8178a787544c"
-  contact: "86 18823767410 (ZENGQUNFANG曾群芳) [8e7771c4-a2c6-4161-9466-17c487eabbd2]"
-  Liabilities:CurrentLiabilities:ClientDeposit -52.31 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -191431.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250501002"
   sourceId: "cbcf1a8d-8cea-4ea1-82a1-3a75a6b8a8eb"
@@ -94,7 +82,7 @@
   referenceNo: "P20250501003"
   sourceId: "4c6530ac-644a-4788-96b6-707c3aedde08"
   orderId: "6f114547-82ba-401d-bee7-3726018447bc"
-  Assets:CurrentAssets:ClientDeposit -321580.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -321580.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250501003"
   sourceId: "4c6530ac-644a-4788-96b6-707c3aedde08"
@@ -120,28 +108,10 @@
   orderId: "cb2360d9-c84e-4de4-b496-8a0eed44dc11"
   contact: "852 66424929 (李駿逸) [40f531be-5d25-4468-b22f-2ade72671a4d]"
   Assets:Inventory:Gold:In-Stock 222.83 XAU {}
-2025-05-02 * "Reservation Delivery R#GR2025050100001B D#D20250502002"
-  rsv-ref: "GR2025050100001B"
-  del-ref: "D20250502002"
-  Assets:CurrentAssets:ClientDeposit 223097.67 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250502002"
-  sourceId: "996d85e9-3f1f-493b-a85c-f76905275c0f"
-  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Income:Sales:Gold -223097.67 HKD
-  Assets:Inventory:Gold:In-Stock -278.35 XAU {}
-  Expenses:Cogs:Gold
 2025-05-02 * "Reservation Delivery R#GR2025050100002B D#D20250502001"
   rsv-ref: "GR2025050100002B"
   del-ref: "D20250502001"
-  Liabilities:CurrentLiabilities:ClientDeposit 52.31 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250502001"
-  sourceId: "55fff6f1-4fcf-4ba9-93ff-d17db8eaff9a"
-  orderId: "8b212ce7-db34-44da-8344-8178a787544c"
-  contact: "86 18823767410 (ZENGQUNFANG曾群芳) [8e7771c4-a2c6-4161-9466-17c487eabbd2]"
-  Assets:CurrentAssets:ClientDeposit 212302.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 212354.31 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250502001"
   sourceId: "55fff6f1-4fcf-4ba9-93ff-d17db8eaff9a"
@@ -149,6 +119,18 @@
   contact: "86 18823767410 (ZENGQUNFANG曾群芳) [8e7771c4-a2c6-4161-9466-17c487eabbd2]"
   Income:Sales:Gold -212354.31 HKD
   Assets:Inventory:Gold:In-Stock -265.03 XAU {}
+  Expenses:Cogs:Gold
+2025-05-02 * "Reservation Delivery R#GR2025050100001B D#D20250502002"
+  rsv-ref: "GR2025050100001B"
+  del-ref: "D20250502002"
+  Liabilities:CurrentLiabilities:ClientDeposit 223097.67 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250502002"
+  sourceId: "996d85e9-3f1f-493b-a85c-f76905275c0f"
+  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
+  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
+  Income:Sales:Gold -223097.67 HKD
+  Assets:Inventory:Gold:In-Stock -278.35 XAU {}
   Expenses:Cogs:Gold
 2025-05-02 * "Reservation Payment R#GR2025050100002B P#P20250502001"
   rsv-ref: "GR2025050100002B"
@@ -158,7 +140,7 @@
   referenceNo: "P20250502001"
   sourceId: "53d8d018-0f62-497b-98ea-b23395d77509"
   orderId: "8b212ce7-db34-44da-8344-8178a787544c"
-  Assets:CurrentAssets:ClientDeposit -212300.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -212300.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250502001"
   sourceId: "53d8d018-0f62-497b-98ea-b23395d77509"
@@ -172,13 +154,7 @@
   referenceNo: "P20250502002"
   sourceId: "2043c791-71ca-40b2-a287-4c547273a777"
   orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  Assets:CurrentAssets:ClientDeposit -223099.50 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250502002"
-  sourceId: "2043c791-71ca-40b2-a287-4c547273a777"
-  orderId: "932430f1-701d-4679-9c18-17ced5662d52"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Liabilities:CurrentLiabilities:ClientDeposit -8.50 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -223108.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250502002"
   sourceId: "2043c791-71ca-40b2-a287-4c547273a777"
@@ -251,7 +227,7 @@
 2025-05-05 * "Reservation Delivery R#GR2025050500003B D#D20250505003"
   rsv-ref: "GR2025050500003B"
   del-ref: "D20250505003"
-  Assets:CurrentAssets:ClientDeposit 40598.82 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 40598.82 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250505003"
   sourceId: "444b328a-c26a-4d25-9333-1989d75af8c4"
@@ -263,7 +239,7 @@
 2025-05-05 * "Reservation Delivery R#GR2025050500003B D#D20250505004"
   rsv-ref: "GR2025050500003B"
   del-ref: "D20250505004"
-  Assets:CurrentAssets:ClientDeposit 40744.54 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 40744.54 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250505004"
   sourceId: "f464d0d5-e4c9-47f5-b066-7445c318b4cd"
@@ -275,7 +251,7 @@
 2025-05-05 * "Reservation Delivery R#GR2025050500003B D#D20250505002"
   rsv-ref: "GR2025050500003B"
   del-ref: "D20250505002"
-  Assets:CurrentAssets:ClientDeposit 40534.06 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 40534.06 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250505002"
   sourceId: "46377193-7042-4f48-9005-5ea869e28bbd"
@@ -287,7 +263,7 @@
 2025-05-05 * "Reservation Delivery R#GR2025050500003B D#D20250505005"
   rsv-ref: "GR2025050500003B"
   del-ref: "D20250505005"
-  Assets:CurrentAssets:ClientDeposit 40493.58 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 40493.58 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250505005"
   sourceId: "47c6ae79-859c-47a1-aa94-3e75f8b69a32"
@@ -304,7 +280,7 @@
   referenceNo: "P20250505002"
   sourceId: "932a4247-399f-4f6c-8463-178fbcce92f7"
   orderId: "12e1e537-b64e-4417-b42c-a6588b1fba81"
-  Assets:CurrentAssets:ClientDeposit -81104.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -81104.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250505002"
   sourceId: "932a4247-399f-4f6c-8463-178fbcce92f7"
@@ -318,7 +294,7 @@
   referenceNo: "P20250505003"
   sourceId: "245252b0-9dde-4a81-8eec-6e434d30b1d7"
   orderId: "12e1e537-b64e-4417-b42c-a6588b1fba81"
-  Assets:CurrentAssets:ClientDeposit -81267.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -81267.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250505003"
   sourceId: "245252b0-9dde-4a81-8eec-6e434d30b1d7"
@@ -391,7 +367,7 @@
 2025-05-06 * "Reservation Delivery R#GR2025050500002B D#D20250506003"
   rsv-ref: "GR2025050500002B"
   del-ref: "D20250506003"
-  Assets:CurrentAssets:ClientDeposit 225488.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 225488.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250506003"
   sourceId: "51952396-6ef4-447c-8e2f-51f88b39c602"
@@ -399,18 +375,6 @@
   contact: "86 18823767410 (ZENGQUNFANG曾群芳) [8e7771c4-a2c6-4161-9466-17c487eabbd2]"
   Income:Sales:Gold -225488 HKD
   Assets:Inventory:Gold:In-Stock -268.32 XAU {}
-  Expenses:Cogs:Gold
-2025-05-06 * "Reservation Delivery R#GR2025050600003B D#D20250506004"
-  rsv-ref: "GR2025050600003B"
-  del-ref: "D20250506004"
-  Assets:CurrentAssets:ClientDeposit 42096.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250506004"
-  sourceId: "01f096c3-003e-4439-8445-89d76dc75acd"
-  orderId: "0f6c0ee3-cb9f-4788-a750-30f853cfb934"
-  contact: "852 59589397 (ZHILINCHEN) [39a84bc0-2517-45ee-b2c2-d8366488be68]"
-  Income:Sales:Gold -42096 HKD
-  Assets:Inventory:Gold:In-Stock -50 XAU {}
   Expenses:Cogs:Gold
 2025-05-06 * "Reservation Delivery R#GR2025050600002B D#D20250506001"
   rsv-ref: "GR2025050600002B"
@@ -424,6 +388,18 @@
   Income:Sales:Gold -75512 HKD
   Assets:Inventory:Gold:In-Stock -90.08 XAU {}
   Expenses:Cogs:Gold
+2025-05-06 * "Reservation Delivery R#GR2025050600003B D#D20250506004"
+  rsv-ref: "GR2025050600003B"
+  del-ref: "D20250506004"
+  Liabilities:CurrentLiabilities:ClientDeposit 42096.00 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250506004"
+  sourceId: "01f096c3-003e-4439-8445-89d76dc75acd"
+  orderId: "0f6c0ee3-cb9f-4788-a750-30f853cfb934"
+  contact: "852 59589397 (ZHILINCHEN) [39a84bc0-2517-45ee-b2c2-d8366488be68]"
+  Income:Sales:Gold -42096 HKD
+  Assets:Inventory:Gold:In-Stock -50 XAU {}
+  Expenses:Cogs:Gold
 2025-05-06 * "Reservation Payment R#GR2025050500002B P#P20250506003"
   rsv-ref: "GR2025050500002B"
   pay-ref: "P20250506003"
@@ -432,7 +408,7 @@
   referenceNo: "P20250506003"
   sourceId: "eb49d1e0-68e4-49c2-9f96-3cd6c0ea06d1"
   orderId: "28876437-92c5-41c6-9a82-306028e964f0"
-  Assets:CurrentAssets:ClientDeposit -225488.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -225488.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250506003"
   sourceId: "eb49d1e0-68e4-49c2-9f96-3cd6c0ea06d1"
@@ -446,7 +422,7 @@
   referenceNo: "P20250506005"
   sourceId: "37aca291-6549-4ed6-ab17-7c55c623611f"
   orderId: "0f6c0ee3-cb9f-4788-a750-30f853cfb934"
-  Assets:CurrentAssets:ClientDeposit -42096.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -42096.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250506005"
   sourceId: "37aca291-6549-4ed6-ab17-7c55c623611f"
@@ -560,13 +536,7 @@
   referenceNo: "P20250507007"
   sourceId: "649a1056-fefd-4096-b87c-5eeb56423bda"
   orderId: "d2879b1d-3203-4dd1-b0d8-7ae368a46f83"
-  Assets:CurrentAssets:ClientDeposit -0.30 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250507007"
-  sourceId: "649a1056-fefd-4096-b87c-5eeb56423bda"
-  orderId: "d2879b1d-3203-4dd1-b0d8-7ae368a46f83"
-  contact: "86 13413646696 (MOZHIYI莫志藝莫志艺) [0da1c53f-174b-49b6-8961-d98e569e3d1e]"
-  Liabilities:CurrentLiabilities:ClientDeposit -79329.70 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -79330.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250507007"
   sourceId: "649a1056-fefd-4096-b87c-5eeb56423bda"
@@ -586,18 +556,6 @@
   sourceId: "fcdfd397-52f6-4605-ba69-6710afa694d9"
   orderId: "523feb65-4196-4b83-a9a1-97e449f73079"
   contact: "880 801 (8888walkin街客(金料)) [c3e2db6d-ed4f-469e-897f-1600e63febdf]"
-2025-05-07 * "Reservation Delivery R#GR2025050700002B D#D20250507005"
-  rsv-ref: "GR2025050700002B"
-  del-ref: "D20250507005"
-  Liabilities:CurrentLiabilities:ClientDeposit 33188.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250507005"
-  sourceId: "0a3864a8-d52e-416a-8901-e5c37675d197"
-  orderId: "62d846e9-213f-4b68-9e2d-3b059671d7fd"
-  contact: "852 53047126 (美焕袁) [c945fa61-1c8f-41f1-a79d-692a8e975429]"
-  Income:Sales:Gold -33188 HKD
-  Assets:Inventory:Gold:In-Stock -39.31 XAU {}
-  Expenses:Cogs:Gold
 2025-05-07 * "Reservation Delivery R#GR2025050700003B D#D20250507003"
   rsv-ref: "GR2025050700003B"
   del-ref: "D20250507003"
@@ -622,28 +580,22 @@
   Income:Sales:Gold -215913.15 HKD
   Assets:Inventory:Gold:In-Stock -256.1 XAU {}
   Expenses:Cogs:Gold
-2025-05-07 * "Reservation Delivery R#GR2025050700005B D#D20250507006"
-  rsv-ref: "GR2025050700005B"
-  del-ref: "D20250507006"
-  Assets:CurrentAssets:ClientDeposit 107161.60 USDT @ 7.78 HKD
+2025-05-07 * "Reservation Delivery R#GR2025050700002B D#D20250507005"
+  rsv-ref: "GR2025050700002B"
+  del-ref: "D20250507005"
+  Liabilities:CurrentLiabilities:ClientDeposit 33188.00 HKD @ 1 HKD
   type: "Reservation Delivery"
-  referenceNo: "D20250507006"
-  sourceId: "8fb45478-291a-49b3-8e95-1a5ac3c67cfc"
-  orderId: "2013d05f-7d11-48e0-80de-5b8b161a501c"
-  contact: "852 95324387 (HAIHE) [a28ff4be-c920-45a6-9a53-04312f57f15c]"
-  Income:Sales:Gold -833717.25 HKD
-  Assets:Inventory:Gold:In-Stock -1016.81 XAU {}
+  referenceNo: "D20250507005"
+  sourceId: "0a3864a8-d52e-416a-8901-e5c37675d197"
+  orderId: "62d846e9-213f-4b68-9e2d-3b059671d7fd"
+  contact: "852 53047126 (美焕袁) [c945fa61-1c8f-41f1-a79d-692a8e975429]"
+  Income:Sales:Gold -33188 HKD
+  Assets:Inventory:Gold:In-Stock -39.31 XAU {}
   Expenses:Cogs:Gold
 2025-05-07 * "Reservation Delivery R#GR2025050700004B D#D20250507002"
   rsv-ref: "GR2025050700004B"
   del-ref: "D20250507002"
-  Liabilities:CurrentLiabilities:ClientDeposit 79329.70 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250507002"
-  sourceId: "f1351e12-a248-419f-8b65-9a6b3516fb35"
-  orderId: "d2879b1d-3203-4dd1-b0d8-7ae368a46f83"
-  contact: "86 13413646696 (MOZHIYI莫志藝莫志艺) [0da1c53f-174b-49b6-8961-d98e569e3d1e]"
-  Assets:CurrentAssets:ClientDeposit 0.30 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 79330.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250507002"
   sourceId: "f1351e12-a248-419f-8b65-9a6b3516fb35"
@@ -651,6 +603,18 @@
   contact: "86 13413646696 (MOZHIYI莫志藝莫志艺) [0da1c53f-174b-49b6-8961-d98e569e3d1e]"
   Income:Sales:Gold -79330 HKD
   Assets:Inventory:Gold:In-Stock -94.13 XAU {}
+  Expenses:Cogs:Gold
+2025-05-07 * "Reservation Delivery R#GR2025050700005B D#D20250507006"
+  rsv-ref: "GR2025050700005B"
+  del-ref: "D20250507006"
+  Liabilities:CurrentLiabilities:ClientDeposit 107161.60 USDT @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250507006"
+  sourceId: "8fb45478-291a-49b3-8e95-1a5ac3c67cfc"
+  orderId: "2013d05f-7d11-48e0-80de-5b8b161a501c"
+  contact: "852 95324387 (HAIHE) [a28ff4be-c920-45a6-9a53-04312f57f15c]"
+  Income:Sales:Gold -833717.25 HKD
+  Assets:Inventory:Gold:In-Stock -1016.81 XAU {}
   Expenses:Cogs:Gold
 2025-05-08 * "Reservation Delivery R#GR2025050800003S D#D20250508002"
   rsv-ref: "GR2025050800003S"
@@ -778,13 +742,7 @@
   referenceNo: "P20250509003"
   sourceId: "c883e8c4-d210-4657-9223-5a68bdf64de5"
   orderId: "66bf6af1-1093-43c7-a286-c4b6f189cd0b"
-  Assets:CurrentAssets:ClientDeposit -7.00 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250509003"
-  sourceId: "c883e8c4-d210-4657-9223-5a68bdf64de5"
-  orderId: "66bf6af1-1093-43c7-a286-c4b6f189cd0b"
-  contact: "852 57934440 (SERAPHICLIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Liabilities:CurrentLiabilities:ClientDeposit -3999993.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -4000000.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250509003"
   sourceId: "c883e8c4-d210-4657-9223-5a68bdf64de5"
@@ -819,7 +777,7 @@
 2025-05-09 * "Reservation Delivery R#GR2025050900001B D#D20250509006"
   rsv-ref: "GR2025050900001B"
   del-ref: "D20250509006"
-  Assets:CurrentAssets:ClientDeposit 82761.51 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 82761.51 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250509006"
   sourceId: "4cc3ae4e-e0d8-40f1-a300-bc8ea395bf45"
@@ -831,7 +789,7 @@
 2025-05-09 * "Reservation Delivery R#GR2025050900001B D#D20250509007"
   rsv-ref: "GR2025050900001B"
   del-ref: "D20250509007"
-  Assets:CurrentAssets:ClientDeposit 84496.49 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 84496.49 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250509007"
   sourceId: "ff2ce79a-6dd7-4fae-a53f-ad071788137d"
@@ -840,16 +798,22 @@
   Income:Sales:Gold -84496.49 HKD
   Assets:Inventory:Gold:In-Stock -101.3 XAU {}
   Expenses:Cogs:Gold
+2025-05-09 * "Reservation Delivery R#GR2025050900005B D#D20250509009"
+  rsv-ref: "GR2025050900005B"
+  del-ref: "D20250509009"
+  Liabilities:CurrentLiabilities:ClientDeposit 50223.00 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250509009"
+  sourceId: "0fa3f01c-7edd-4506-b941-618e8c411a23"
+  orderId: "5377ea7d-ba70-4c27-8aec-84887e020e6b"
+  contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
+  Income:Sales:Gold -50223 HKD
+  Assets:Inventory:Gold:In-Stock -60.38 XAU {}
+  Expenses:Cogs:Gold
 2025-05-09 * "Reservation Delivery R#GR2025050900002B D#D20250509002"
   rsv-ref: "GR2025050900002B"
   del-ref: "D20250509002"
-  Liabilities:CurrentLiabilities:ClientDeposit 7999993.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250509002"
-  sourceId: "047032db-ee49-4376-bd89-8363fd0f2bdb"
-  orderId: "66bf6af1-1093-43c7-a286-c4b6f189cd0b"
-  contact: "852 57934440 (SERAPHICLIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Assets:CurrentAssets:ClientDeposit 8566806.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 16566799.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250509002"
   sourceId: "047032db-ee49-4376-bd89-8363fd0f2bdb"
@@ -861,7 +825,7 @@
 2025-05-09 * "Reservation Delivery R#GR2025050900002B D#D20250509003"
   rsv-ref: "GR2025050900002B"
   del-ref: "D20250509003"
-  Assets:CurrentAssets:ClientDeposit 16566799.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 16566799.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250509003"
   sourceId: "f49c443a-04b1-489e-94ea-55581eb3992e"
@@ -869,18 +833,6 @@
   contact: "852 57934440 (SERAPHICLIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
   Income:Sales:Gold -16566799 HKD
   Assets:Inventory:Gold:In-Stock -20000 XAU {}
-  Expenses:Cogs:Gold
-2025-05-09 * "Reservation Delivery R#GR2025050900005B D#D20250509009"
-  rsv-ref: "GR2025050900005B"
-  del-ref: "D20250509009"
-  Assets:CurrentAssets:ClientDeposit 50223.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250509009"
-  sourceId: "0fa3f01c-7edd-4506-b941-618e8c411a23"
-  orderId: "5377ea7d-ba70-4c27-8aec-84887e020e6b"
-  contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
-  Income:Sales:Gold -50223 HKD
-  Assets:Inventory:Gold:In-Stock -60.38 XAU {}
   Expenses:Cogs:Gold
 2025-05-09 * "Reservation Payment R#GR2025050900002B P#P20250509006"
   rsv-ref: "GR2025050900002B"
@@ -890,7 +842,7 @@
   referenceNo: "P20250509006"
   sourceId: "68b33ae4-4783-4dd4-b14f-3f93e1572e10"
   orderId: "66bf6af1-1093-43c7-a286-c4b6f189cd0b"
-  Assets:CurrentAssets:ClientDeposit -25133597.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -25133597.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250509006"
   sourceId: "68b33ae4-4783-4dd4-b14f-3f93e1572e10"
@@ -904,7 +856,7 @@
   referenceNo: "P20250509007"
   sourceId: "2f43814e-93d0-4254-854b-c1fff4dc845f"
   orderId: "15de49d6-249f-4695-b20c-817f438c272d"
-  Assets:CurrentAssets:ClientDeposit -167257.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -167257.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250509007"
   sourceId: "2f43814e-93d0-4254-854b-c1fff4dc845f"
@@ -932,7 +884,7 @@
   referenceNo: "P20250509008"
   sourceId: "aaa09b99-49ff-4d14-927b-6be7b88521fb"
   orderId: "5377ea7d-ba70-4c27-8aec-84887e020e6b"
-  Assets:CurrentAssets:ClientDeposit -50223.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -50223.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250509008"
   sourceId: "aaa09b99-49ff-4d14-927b-6be7b88521fb"
@@ -1037,7 +989,7 @@
 2025-05-10 * "Reservation Delivery R#GR2025051000002B D#D20250510001"
   rsv-ref: "GR2025051000002B"
   del-ref: "D20250510001"
-  Assets:CurrentAssets:ClientDeposit 50103.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 50103.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250510001"
   sourceId: "5232eae5-7cb3-4640-931c-4a4fbaf1639c"
@@ -1054,7 +1006,7 @@
   referenceNo: "P20250510002"
   sourceId: "bcf77ca8-2514-4727-9bd6-54a58f64f221"
   orderId: "edfff4cb-75da-40aa-aba1-4a8de0493fd2"
-  Assets:CurrentAssets:ClientDeposit -50103.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -50103.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250510002"
   sourceId: "bcf77ca8-2514-4727-9bd6-54a58f64f221"
@@ -1073,13 +1025,7 @@
 2025-05-11 * "Reservation Delivery R#GR2025050600001B D#D20250511002"
   rsv-ref: "GR2025050600001B"
   del-ref: "D20250511002"
-  Liabilities:CurrentLiabilities:ClientDeposit 8.50 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250511002"
-  sourceId: "aff0969b-63ed-42c0-a5d9-5e9c47e6d835"
-  orderId: "e80d2f8f-ccfd-4a03-9d95-dfe9653e0e94"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Assets:CurrentAssets:ClientDeposit 134965.50 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 134974.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250511002"
   sourceId: "aff0969b-63ed-42c0-a5d9-5e9c47e6d835"
@@ -1096,13 +1042,7 @@
   referenceNo: "P20250511001"
   sourceId: "0db9c45b-afc5-44d7-aaa4-6ecff60b8d75"
   orderId: "e80d2f8f-ccfd-4a03-9d95-dfe9653e0e94"
-  Assets:CurrentAssets:ClientDeposit -134965.50 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250511001"
-  sourceId: "0db9c45b-afc5-44d7-aaa4-6ecff60b8d75"
-  orderId: "e80d2f8f-ccfd-4a03-9d95-dfe9653e0e94"
-  contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Liabilities:CurrentLiabilities:ClientDeposit -8.50 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -134974.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250511001"
   sourceId: "0db9c45b-afc5-44d7-aaa4-6ecff60b8d75"
@@ -1122,16 +1062,6 @@
   sourceId: "24a39281-d725-4f07-8505-ce7cabe6e82d"
   orderId: "51a4a95e-a428-4d17-bc74-5ac01d284421"
   contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-2025-05-12 * "Reservation Delivery R#GR2025051200013S D#D20250512007"
-  rsv-ref: "GR2025051200013S"
-  del-ref: "D20250512007"
-  Liabilities:CurrentLiabilities:ClientDeposit -8591.78 USDT @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250512007"
-  sourceId: "95a823c5-e3ad-4f73-93cf-0d6bed12e22f"
-  orderId: "6478c73a-ed14-4c92-9e30-433e01471e0e"
-  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:In-Stock 82.8 XAU {}
 2025-05-12 * "Reservation Delivery R#GR2025051200011S D#D20250512004"
   rsv-ref: "GR2025051200011S"
   del-ref: "D20250512004"
@@ -1142,6 +1072,16 @@
   orderId: "99374e2e-f4db-4216-88c4-990d85d4359a"
   contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:In-Stock 2000 XAU {}
+2025-05-12 * "Reservation Delivery R#GR2025051200013S D#D20250512007"
+  rsv-ref: "GR2025051200013S"
+  del-ref: "D20250512007"
+  Liabilities:CurrentLiabilities:ClientDeposit -8591.78 USDT @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250512007"
+  sourceId: "95a823c5-e3ad-4f73-93cf-0d6bed12e22f"
+  orderId: "6478c73a-ed14-4c92-9e30-433e01471e0e"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:In-Stock 82.8 XAU {}
 2025-05-12 * "Reservation Delivery R#GR2025051200002S D#D20250512001"
   rsv-ref: "GR2025051200002S"
   del-ref: "D20250512001"
@@ -1174,7 +1114,7 @@
   referenceNo: "P20250512009"
   sourceId: "97896849-675d-477e-8c4e-6c3728c20e6b"
   orderId: "2013d05f-7d11-48e0-80de-5b8b161a501c"
-  Assets:CurrentAssets:ClientDeposit -107161.60 USDT @ 7.78 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -107161.60 USDT @ 7.78 HKD
   type: "Reservation Payment"
   referenceNo: "P20250512009"
   sourceId: "97896849-675d-477e-8c4e-6c3728c20e6b"
@@ -1211,7 +1151,7 @@
 2025-05-12 * "Reservation Delivery R#GR2025051200012B D#D20250512005"
   rsv-ref: "GR2025051200012B"
   del-ref: "D20250512005"
-  Assets:CurrentAssets:ClientDeposit 88436.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 88436.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250512005"
   sourceId: "ba1e8bd8-c93c-41de-9880-c38205361fc2"
@@ -1235,7 +1175,7 @@
 2025-05-12 * "Reservation Delivery R#GR2025051200007B D#D20250512003"
   rsv-ref: "GR2025051200007B"
   del-ref: "D20250512003"
-  Assets:CurrentAssets:ClientDeposit 219984.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 219984.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250512003"
   sourceId: "0270f3e6-ba3b-4a0e-b248-a822d48ffc38"
@@ -1252,7 +1192,7 @@
   referenceNo: "P20250512003"
   sourceId: "373770e0-bafd-4c82-b77d-619855e5a641"
   orderId: "2965ed59-987f-4618-9970-01c3c80f2687"
-  Assets:CurrentAssets:ClientDeposit -219984.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -219984.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250512003"
   sourceId: "373770e0-bafd-4c82-b77d-619855e5a641"
@@ -1294,7 +1234,7 @@
   referenceNo: "P20250512005"
   sourceId: "edee6bf1-acea-41e3-8c74-fa833bcd27b3"
   orderId: "75645967-93fd-4c2a-a2ae-d40192ef696b"
-  Assets:CurrentAssets:ClientDeposit -40000.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -40000.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250512005"
   sourceId: "edee6bf1-acea-41e3-8c74-fa833bcd27b3"
@@ -1308,13 +1248,7 @@
   referenceNo: "P20250512006"
   sourceId: "18e18264-54c1-4dae-bbd0-7914a4bd6590"
   orderId: "75645967-93fd-4c2a-a2ae-d40192ef696b"
-  Assets:CurrentAssets:ClientDeposit -48436.00 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250512006"
-  sourceId: "18e18264-54c1-4dae-bbd0-7914a4bd6590"
-  orderId: "75645967-93fd-4c2a-a2ae-d40192ef696b"
-  contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
-  Liabilities:CurrentLiabilities:ClientDeposit -161.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -48597.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250512006"
   sourceId: "18e18264-54c1-4dae-bbd0-7914a4bd6590"
@@ -1566,24 +1500,6 @@
   Income:Sales:Gold -81919 HKD
   Assets:Inventory:Gold:In-Stock -101.34 XAU {}
   Expenses:Cogs:Gold
-2025-05-14 * "Reservation Delivery R#GR2025051400003B D#D20250514003"
-  rsv-ref: "GR2025051400003B"
-  del-ref: "D20250514003"
-  Liabilities:CurrentLiabilities:ClientDeposit 208176.12 USD @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250514003"
-  sourceId: "70b25e99-316e-4944-8728-df34e361e48a"
-  orderId: "6197b55f-f9b9-4494-ba22-328b645a7b6e"
-  contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
-  Assets:CurrentAssets:ClientDeposit 0.18 USD @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250514003"
-  sourceId: "70b25e99-316e-4944-8728-df34e361e48a"
-  orderId: "6197b55f-f9b9-4494-ba22-328b645a7b6e"
-  contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
-  Income:Sales:Gold -1619611.61 HKD
-  Assets:Inventory:Gold:In-Stock -2000 XAU {}
-  Expenses:Cogs:Gold
 2025-05-14 * "Reservation Delivery R#GR2025051400001B D#D20250514001"
   rsv-ref: "GR2025051400001B"
   del-ref: "D20250514001"
@@ -1595,6 +1511,18 @@
   contact: "86 13692258116 (CHENCANCHENG陳燦城) [f58fefd5-46b9-4d7a-89f2-d54ea72f8aa7]"
   Income:Sales:Gold -32787 HKD
   Assets:Inventory:Gold:In-Stock -40.65 XAU {}
+  Expenses:Cogs:Gold
+2025-05-14 * "Reservation Delivery R#GR2025051400003B D#D20250514003"
+  rsv-ref: "GR2025051400003B"
+  del-ref: "D20250514003"
+  Liabilities:CurrentLiabilities:ClientDeposit 208176.30 USD @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250514003"
+  sourceId: "70b25e99-316e-4944-8728-df34e361e48a"
+  orderId: "6197b55f-f9b9-4494-ba22-328b645a7b6e"
+  contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
+  Income:Sales:Gold -1619611.61 HKD
+  Assets:Inventory:Gold:In-Stock -2000 XAU {}
   Expenses:Cogs:Gold
 2025-05-14 * "Reservation Payment R#GR2025051400002S P#P20250514004"
   rsv-ref: "GR2025051400002S"
@@ -1624,16 +1552,6 @@
   sourceId: "fe3043b0-999e-430a-a65e-9f209bcf84f0"
   orderId: "57b4269e-c954-4832-8790-e7802f21d879"
   contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-2025-05-16 * "Reservation Delivery R#GR2025051600008S D#D20250516004"
-  rsv-ref: "GR2025051600008S"
-  del-ref: "D20250516004"
-  Liabilities:CurrentLiabilities:ClientDeposit -12839.43 USDT @ 7.78 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250516004"
-  sourceId: "f93d2c6e-64cd-4c54-a803-04acf2098dac"
-  orderId: "43e42544-daf0-4fa8-a65f-d9212b5136e9"
-  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:In-Stock 123.47 XAU {}
 2025-05-16 * "Reservation Delivery R#GR2025051600005S D#D20250516002"
   rsv-ref: "GR2025051600005S"
   del-ref: "D20250516002"
@@ -1644,6 +1562,16 @@
   orderId: "25a3e73e-edc1-4b38-9c88-d3171d80818a"
   contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:In-Stock 30000 XAU {}
+2025-05-16 * "Reservation Delivery R#GR2025051600008S D#D20250516004"
+  rsv-ref: "GR2025051600008S"
+  del-ref: "D20250516004"
+  Liabilities:CurrentLiabilities:ClientDeposit -12839.43 USDT @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20250516004"
+  sourceId: "f93d2c6e-64cd-4c54-a803-04acf2098dac"
+  orderId: "43e42544-daf0-4fa8-a65f-d9212b5136e9"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:In-Stock 123.47 XAU {}
 2025-05-16 * "Reservation Payment R#GR2025051600006B P#P20250516003"
   rsv-ref: "GR2025051600006B"
   pay-ref: "P20250516003"
@@ -1652,13 +1580,7 @@
   referenceNo: "P20250516003"
   sourceId: "ab52fe02-de61-4cb3-96eb-aa5be3d82487"
   orderId: "51f51cd3-a3b4-456d-827d-eefa7fa4bd99"
-  Assets:CurrentAssets:ClientDeposit -8.00 HKD @ 1 HKD
-  type: "Reservation Payment"
-  referenceNo: "P20250516003"
-  sourceId: "ab52fe02-de61-4cb3-96eb-aa5be3d82487"
-  orderId: "51f51cd3-a3b4-456d-827d-eefa7fa4bd99"
-  contact: "852 57934440 (SERAPHICLIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Liabilities:CurrentLiabilities:ClientDeposit -9999992.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -10000000.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250516003"
   sourceId: "ab52fe02-de61-4cb3-96eb-aa5be3d82487"
@@ -1721,13 +1643,7 @@
 2025-05-16 * "Reservation Delivery R#GR2025051600006B D#D20250516001"
   rsv-ref: "GR2025051600006B"
   del-ref: "D20250516001"
-  Liabilities:CurrentLiabilities:ClientDeposit 22999992.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20250516001"
-  sourceId: "5aaaa639-67ea-428d-873d-f3ce63f00eb7"
-  orderId: "51f51cd3-a3b4-456d-827d-eefa7fa4bd99"
-  contact: "852 57934440 (SERAPHICLIMITED) [7c17ab7e-8fd2-4912-aa52-4fd6ca98e388]"
-  Assets:CurrentAssets:ClientDeposit 1066606.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit 24066598.00 HKD @ 1 HKD
   type: "Reservation Delivery"
   referenceNo: "D20250516001"
   sourceId: "5aaaa639-67ea-428d-873d-f3ce63f00eb7"
@@ -1744,7 +1660,7 @@
   referenceNo: "P20250516005"
   sourceId: "ac6ee10d-713a-4e8b-a103-ef055fda0b9a"
   orderId: "51f51cd3-a3b4-456d-827d-eefa7fa4bd99"
-  Assets:CurrentAssets:ClientDeposit -1066598.00 HKD @ 1 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit -1066598.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20250516005"
   sourceId: "ac6ee10d-713a-4e8b-a103-ef055fda0b9a"
