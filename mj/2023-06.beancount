@@ -11,17 +11,6 @@
   sourceId: "ad842fd4-5ee9-46cb-9d3c-6f206f93ed91"
   orderId: "ad842fd4-5ee9-46cb-9d3c-6f206f93ed91"
   referenceNo: "501"
-2023-06-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "from Milrich"
-  Assets:CurrentAssets:Bank:BocSavingBank 200000 HKD
-  type: "MJ"
-  sourceId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
-  orderId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
-  referenceNo: "643"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -200000 HKD
-  type: "MJ"
-  sourceId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
-  orderId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
-  referenceNo: "643"
 2023-06-05 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
   Assets:CurrentAssets:Bank:BocSavingBank -40000 HKD
   type: "MJ"
@@ -33,6 +22,17 @@
   sourceId: "41cdfde0-4ad7-4558-b910-168b8037074e"
   orderId: "41cdfde0-4ad7-4558-b910-168b8037074e"
   referenceNo: "639"
+2023-06-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "from Milrich"
+  Assets:CurrentAssets:Bank:BocSavingBank 200000 HKD
+  type: "MJ"
+  sourceId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
+  orderId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
+  referenceNo: "643"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -200000 HKD
+  type: "MJ"
+  sourceId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
+  orderId: "6ba929eb-d384-4b61-b8dd-aaa16ef70e09"
+  referenceNo: "643"
 2023-06-06 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "david take cash HKD 1400"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 1400 HKD
   type: "MJ"
@@ -110,17 +110,6 @@
   sourceId: "e94e2da3-b1a0-428d-bf33-baa9766b4d07"
   orderId: "e94e2da3-b1a0-428d-bf33-baa9766b4d07"
   referenceNo: "631"
-2023-06-28 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-NjDiamonds" "deposit HKD 1221500 to NJ"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-NjDiamonds 1221500 HKD
-  type: "MJ"
-  sourceId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
-  orderId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
-  referenceNo: "136"
-  Assets:CurrentAssets:Cash:CashInHand -1221500 HKD
-  type: "MJ"
-  sourceId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
-  orderId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
-  referenceNo: "136"
 2023-06-28 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay067"
   Assets:CurrentAssets:Bank:BocSavingBank 2864.2 HKD
   type: "MJ"
@@ -132,6 +121,28 @@
   sourceId: "9bc0d67c-6929-4902-9a08-69d9247e6585"
   orderId: "9bc0d67c-6929-4902-9a08-69d9247e6585"
   referenceNo: "623"
+2023-06-28 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-NjDiamonds" "deposit HKD 1221500 to NJ"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-NjDiamonds 1221500 HKD
+  type: "MJ"
+  sourceId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
+  orderId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
+  referenceNo: "136"
+  Assets:CurrentAssets:Cash:CashInHand -1221500 HKD
+  type: "MJ"
+  sourceId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
+  orderId: "0eeaa366-8f60-4ca4-99ea-79c1b3e06976"
+  referenceNo: "136"
+2023-06-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds" "deposit HKD 1070800 to VN"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds 1070800 HKD
+  type: "MJ"
+  sourceId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
+  orderId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
+  referenceNo: "619"
+  Assets:CurrentAssets:Cash:CashInHand -1070800 HKD
+  type: "MJ"
+  sourceId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
+  orderId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
+  referenceNo: "619"
 2023-06-30 * "Assets:CurrentAssets:Cash:CashInHand" "borrow HKD 2906800 from 217"
   Assets:CurrentAssets:Cash:CashInHand 2906800 HKD
   type: "MJ"
@@ -154,14 +165,3 @@
   sourceId: "5a562d08-4599-46c8-944e-e7c971220830"
   orderId: "5a562d08-4599-46c8-944e-e7c971220830"
   referenceNo: "628"
-2023-06-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds" "deposit HKD 1070800 to VN"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds 1070800 HKD
-  type: "MJ"
-  sourceId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
-  orderId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
-  referenceNo: "619"
-  Assets:CurrentAssets:Cash:CashInHand -1070800 HKD
-  type: "MJ"
-  sourceId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
-  orderId: "4401d7de-6083-4d49-988d-2871e5cb0f5a"
-  referenceNo: "619"
