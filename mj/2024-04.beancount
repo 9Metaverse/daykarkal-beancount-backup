@@ -1,16 +1,27 @@
 ; MJ transactions for 2024-04
 
-2024-04-01 * "Expenses:GeneralExpense:Rent" "Opening 1/4/2024"
+2024-04-01 * "Expenses:GeneralExpense:Rent" "Opening 1/4/2024 - HKD"
   Expenses:GeneralExpense:Rent 48000 HKD
   type: "MJ"
-  sourceId: "8e05e74b-f42c-4725-aed5-4eae91a81f61"
+  sourceId: "f7622441-6103-47b6-bcc1-4424c2d67ddf"
   orderId: "456fe565-b743-462b-ad86-dd90e12f85f1"
   referenceNo: "1196"
   Assets:OtherAssets:Prepayments -48000 HKD
   type: "MJ"
-  sourceId: "20065371-af25-4009-b6e2-0aa2515a2d4e"
+  sourceId: "0282738f-69b0-4dc8-8fd8-7e8592836c95"
   orderId: "456fe565-b743-462b-ad86-dd90e12f85f1"
   referenceNo: "1196"
+2024-04-01 * "Expenses:GeneralExpense:WebErpDev" "Opening 1/4/2024 - USD"
+  Assets:OtherAssets:Prepayments -13108 USD
+  type: "MJ"
+  sourceId: "018eef8c-84dd-402a-bfe7-f520f01bfdb9"
+  orderId: "abbe1acc-755d-4335-a8e3-5186eb8447b6"
+  referenceNo: "1362"
+  Expenses:GeneralExpense:WebErpDev 13108 USD
+  type: "MJ"
+  sourceId: "5d0ceee8-d75b-4647-80b6-55e7f3e25366"
+  orderId: "abbe1acc-755d-4335-a8e3-5186eb8447b6"
+  referenceNo: "1362"
 2024-04-06 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "ICMarket 入金"
   Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 100000 USDT
   type: "MJ"
@@ -77,17 +88,6 @@
   sourceId: "3570"
   orderId: "60ddfa6f-cd4c-4289-85cb-63c710781525"
   referenceNo: "537"
-2024-04-19 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay129"
-  Assets:CurrentAssets:Bank:BocSavingBank 13301.42 HKD
-  type: "MJ"
-  sourceId: "3969"
-  orderId: "778392cb-fe6f-47ab-a2c4-6b3589b4d447"
-  referenceNo: "315"
-  Assets:CurrentAssets:Bank:KpayBank -13301.42 HKD
-  type: "MJ"
-  sourceId: "3970"
-  orderId: "778392cb-fe6f-47ab-a2c4-6b3589b4d447"
-  referenceNo: "315"
 2024-04-19 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
   Assets:CurrentAssets:Bank:BocSavingBank -70000 HKD
   type: "MJ"
@@ -99,6 +99,17 @@
   sourceId: "2712"
   orderId: "c8732a53-fd12-41d8-9410-0d827aaf847a"
   referenceNo: "528"
+2024-04-19 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay129"
+  Assets:CurrentAssets:Bank:BocSavingBank 13301.42 HKD
+  type: "MJ"
+  sourceId: "3969"
+  orderId: "778392cb-fe6f-47ab-a2c4-6b3589b4d447"
+  referenceNo: "315"
+  Assets:CurrentAssets:Bank:KpayBank -13301.42 HKD
+  type: "MJ"
+  sourceId: "3970"
+  orderId: "778392cb-fe6f-47ab-a2c4-6b3589b4d447"
+  referenceNo: "315"
 2024-04-22 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "ICMarket 入金"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan -10100 USDT
   type: "MJ"

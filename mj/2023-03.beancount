@@ -22,17 +22,6 @@
   sourceId: "4330"
   orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
   referenceNo: "350"
-2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
-  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
-  type: "MJ"
-  sourceId: "4327"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
-  type: "MJ"
-  sourceId: "4328"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
 2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 52000 from 217"
   Assets:CurrentAssets:Cash:CashInHand 52000 HKD
   type: "MJ"
@@ -55,17 +44,6 @@
   sourceId: "4821"
   orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
   referenceNo: "371"
-2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
-  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
-  type: "MJ"
-  sourceId: "2487"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
-  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
-  type: "MJ"
-  sourceId: "2488"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
 2023-03-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay063"
   Assets:CurrentAssets:Bank:BocSavingBank 35853 HKD
   type: "MJ"
@@ -77,6 +55,17 @@
   sourceId: "3836"
   orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
   referenceNo: "658"
+2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
+  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
+  type: "MJ"
+  sourceId: "4327"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
+  type: "MJ"
+  sourceId: "4328"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
 2023-03-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 107360 to 217"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 107360 HKD
   type: "MJ"
@@ -88,6 +77,17 @@
   sourceId: "4326"
   orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
   referenceNo: "659"
+2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
+  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
+  type: "MJ"
+  sourceId: "2487"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
+  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
+  type: "MJ"
+  sourceId: "2488"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
 2023-03-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "sav to cur"
   Assets:CurrentAssets:Bank:BocSavingBank -20000 HKD
   type: "MJ"
@@ -99,6 +99,27 @@
   sourceId: "2081"
   orderId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
   referenceNo: "648"
+2023-03-31 * "Expenses:GeneralExpense:WebErpDev" "Closing 31/3/2023"
+  Assets:OtherAssets:Prepayments 1648 HKD
+  type: "MJ"
+  sourceId: "b75a3c60-af59-4444-8b05-e1e174f66401"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
+  Expenses:GeneralExpense:BuildingManagementFee -1648 HKD
+  type: "MJ"
+  sourceId: "77a3c021-5004-4ad2-bf27-0e492c4e9f9f"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
+  Expenses:GeneralExpense:WebErpDev 19980 HKD
+  type: "MJ"
+  sourceId: "5bdd0b30-27a2-4469-918a-4fb55ceec471"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
+  Liabilities:CurrentLiabilities:AccruedExpenses -19980 HKD
+  type: "MJ"
+  sourceId: "007f7d8c-9238-4dc0-9041-a9bcba0d22df"
+  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
+  referenceNo: "1193"
 2023-03-31 * "Expenses:CostOfSales:ClosingInventoryBalance" "Closing Inventory 31/3/2023"
   Assets:CurrentAssets:ShopInventory:NaturalDiamond 153534.77 HKD
   type: "MJ"
@@ -120,14 +141,3 @@
   sourceId: "5f6c79b8-e174-428f-883e-61628be571db"
   orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
   referenceNo: "1188"
-2023-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2023"
-  Expenses:GeneralExpense:BuildingManagementFee -1648 HKD
-  type: "MJ"
-  sourceId: "94d0d2c7-bf70-4a73-a581-735183f1ea80"
-  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  referenceNo: "1193"
-  Assets:OtherAssets:Prepayments 1648 HKD
-  type: "MJ"
-  sourceId: "d8fbbc02-8e81-49f2-80b1-6adcb41c2058"
-  orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
-  referenceNo: "1193"

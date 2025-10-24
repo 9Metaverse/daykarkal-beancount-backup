@@ -187,28 +187,6 @@
   sourceId: "3661"
   orderId: "4355dac4-466b-40d2-a0eb-7fbf60f5896e"
   referenceNo: "167"
-2024-03-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "DKK C Wallet金料 TO Director"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料 -81999 USDT
-  type: "MJ"
-  sourceId: "3612"
-  orderId: "6e44589b-8408-44c4-b894-70f411cf4dd8"
-  referenceNo: "126"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 81999 USDT
-  type: "MJ"
-  sourceId: "3613"
-  orderId: "6e44589b-8408-44c4-b894-70f411cf4dd8"
-  referenceNo: "126"
-2024-03-31 * "Assets:CurrentAssets:Wallet:DkkCWallet金料" "Cash 金料 TO DKK C Wallet金料"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料 115011854.49 USDT
-  type: "MJ"
-  sourceId: "4229"
-  orderId: "15976b20-f3cb-47b7-94d3-2032e41e0e6d"
-  referenceNo: "144"
-  Assets:CurrentAssets:Cash:Cash金料 -115011854.49 USDT
-  type: "MJ"
-  sourceId: "4230"
-  orderId: "15976b20-f3cb-47b7-94d3-2032e41e0e6d"
-  referenceNo: "144"
 2024-03-31 * "Assets:CurrentAssets:Cash:CashInHand" "Petty cash to cash in hand"
   Assets:CurrentAssets:Cash:CashInHand 7000 HKD
   type: "MJ"
@@ -220,17 +198,50 @@
   sourceId: "ef29aae5-d1d6-454c-943f-c8820c01ffb2"
   orderId: "ec9e723e-42a1-452e-a139-9c96813031b2"
   referenceNo: "1185"
-2024-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2024"
+2024-03-31 * "Assets:CurrentAssets:Wallet:DkkCWallet金料" "Cash 金料 TO DKK C Wallet金料"
+  Assets:CurrentAssets:Wallet:DkkCWallet金料 115011854.49 USDT
+  type: "MJ"
+  sourceId: "4229"
+  orderId: "15976b20-f3cb-47b7-94d3-2032e41e0e6d"
+  referenceNo: "144"
+  Assets:CurrentAssets:Cash:Cash金料 -115011854.49 USDT
+  type: "MJ"
+  sourceId: "4230"
+  orderId: "15976b20-f3cb-47b7-94d3-2032e41e0e6d"
+  referenceNo: "144"
+2024-03-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "DKK C Wallet金料 TO Director"
+  Assets:CurrentAssets:Wallet:DkkCWallet金料 -81999 USDT
+  type: "MJ"
+  sourceId: "3612"
+  orderId: "6e44589b-8408-44c4-b894-70f411cf4dd8"
+  referenceNo: "126"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 81999 USDT
+  type: "MJ"
+  sourceId: "3613"
+  orderId: "6e44589b-8408-44c4-b894-70f411cf4dd8"
+  referenceNo: "126"
+2024-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2024 - HKD"
   Assets:OtherAssets:Prepayments 48000 HKD
   type: "MJ"
-  sourceId: "6136b75d-89ff-44d6-a541-8d029f910ee2"
+  sourceId: "cc993d2e-2149-4478-a1f1-d5ffd7e7bdb4"
   orderId: "897c48c4-1bf6-4876-9026-86fed522c470"
   referenceNo: "1195"
   Expenses:GeneralExpense:Rent -48000 HKD
   type: "MJ"
-  sourceId: "5d34093b-fe6f-452f-b85e-6628f0c1400a"
+  sourceId: "c3511ccc-03a8-4365-ac84-4887a197395d"
   orderId: "897c48c4-1bf6-4876-9026-86fed522c470"
   referenceNo: "1195"
+2024-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2024 - USD"
+  Assets:OtherAssets:Prepayments 13108 USD
+  type: "MJ"
+  sourceId: "f160b5fb-7440-4116-8f24-02e3828f23bf"
+  orderId: "abbe1acc-755d-4335-a8e3-5186eb8447b6"
+  referenceNo: "1362"
+  Expenses:GeneralExpense:WebErpDev -13108 USD
+  type: "MJ"
+  sourceId: "8421bb2a-af25-4b62-a23f-6bc85b04360e"
+  orderId: "abbe1acc-755d-4335-a8e3-5186eb8447b6"
+  referenceNo: "1362"
 2024-03-31 * "Assets:CurrentAssets:ShopInventory:GoldJewelry" "Closing Inventory 31/3/2024"
   Expenses:CostOfSales:ClosingInventoryBalance 3026554.77 HKD
   type: "MJ"
