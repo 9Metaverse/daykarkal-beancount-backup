@@ -1873,13 +1873,6 @@
   orderId: "5331d483-041f-41f7-a45a-01746992809e"
   type: "Bill Item"
   sourceId: "9e6cfa87-5be7-488d-b471-48e51165d9be"
-  Expenses:GeneralExpense:CardFeeExpense -500.00 HKD
-  qty: "1"
-  description: "Cash Rebate"
-  referenceNo: "895"
-  orderId: "5331d483-041f-41f7-a45a-01746992809e"
-  type: "Bill Item"
-  sourceId: "904c03cb-2062-408d-8ce1-7d3436e4af42"
   Liabilities:CurrentLiabilities:AccountPayable
   referenceNo: "895"
   orderId: "5331d483-041f-41f7-a45a-01746992809e"
@@ -1956,6 +1949,18 @@
   sourceId: "37fdbc63-1708-4101-90cb-1ef06c9ab52a"
   referenceNo: "901"
   orderId: "d8a51d58-5383-4d22-b4be-5e8f1604ede6"
+2023-11-27 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #895 #8021d0f7-da3d-4239-b635-e15e2b07b8a9"
+  Liabilities:CurrentLiabilities:AccountPayable 500.00 HKD
+  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill Payment"
+  sourceId: "8021d0f7-da3d-4239-b635-e15e2b07b8a9"
+  referenceNo: "895"
+  orderId: "5331d483-041f-41f7-a45a-01746992809e"
+  Income:OtherIncome:MiscellaneousIncome -500.00 HKD
+  type: "Bill Payment"
+  sourceId: "8021d0f7-da3d-4239-b635-e15e2b07b8a9"
+  referenceNo: "895"
+  orderId: "5331d483-041f-41f7-a45a-01746992809e"
 2023-11-27 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #308 #ec9d994d-ff5d-4dfc-b868-383fd9261069"
   Assets:CurrentAssets:Cash:CashInHand 2400.00 CNY
   type: "Invoice Payment"
