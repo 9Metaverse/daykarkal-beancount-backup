@@ -241,7 +241,8 @@
   contact: "971 508466440 (NoName) [4860047a-62d2-430a-bdd2-4b4fe49f25dd]"
 2025-10-08 * "Invoice #841 Bespoke 18K Pendant"
   Income:Sales:SalesItem:SellBespokeorotherFee -1800.00 HKD
-  description: "Bespoke 18K Pendant"
+  category: "Jewelry"
+  sku: "DDBESPOKE00000047"
   qty: 1
   referenceNo: "841"
   orderId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
@@ -679,3 +680,15 @@
   type: "Bill"
   sourceId: "995c3c6b-8b63-49f0-8ff0-5120926317ad"
   contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+2025-10-25 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #841 #17f1adcb-1d11-4b96-bd09-7b3c9f184e7e"
+  Assets:CurrentAssets:Bank:KpayBank 300.00 HKD
+  type: "Invoice Payment"
+  sourceId: "17f1adcb-1d11-4b96-bd09-7b3c9f184e7e"
+  referenceNo: "841"
+  orderId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
+  Assets:CurrentAssets:AccountReceivable -300.00 HKD
+  type: "Invoice Payment"
+  sourceId: "17f1adcb-1d11-4b96-bd09-7b3c9f184e7e"
+  referenceNo: "841"
+  orderId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
+  contact: "852 67177273 () [d4ede0de-055e-4a6d-8e5a-92040419284f]"
