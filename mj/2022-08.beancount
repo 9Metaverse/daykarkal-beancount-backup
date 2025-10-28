@@ -1,16 +1,5 @@
 ; MJ transactions for 2022-08
 
-2022-08-01 * "Assets:CurrentAssets:Cash:CashInHand" "HDL - HRISHI to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 102500 HKD
-  type: "MJ"
-  sourceId: "5423"
-  orderId: "09ad660a-0bcc-4fe6-aa5b-70bcd43e3918"
-  referenceNo: "968"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd -102500 HKD
-  type: "MJ"
-  sourceId: "5424"
-  orderId: "09ad660a-0bcc-4fe6-aa5b-70bcd43e3918"
-  referenceNo: "968"
 2022-08-01 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK HKD 250k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 250000 HKD
   type: "MJ"
@@ -22,17 +11,17 @@
   sourceId: "5426"
   orderId: "cdf66ea1-dd1d-4b0c-88ac-2102e39d406d"
   referenceNo: "157"
-2022-08-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay016"
-  Assets:CurrentAssets:Bank:BocSavingBank 15759 HKD
+2022-08-01 * "Assets:CurrentAssets:Cash:CashInHand" "HDL - HRISHI to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 102500 HKD
   type: "MJ"
-  sourceId: "3739"
-  orderId: "d38faf13-20eb-432f-8402-1ac2547104fa"
-  referenceNo: "172"
-  Assets:CurrentAssets:Bank:KpayBank -15759 HKD
+  sourceId: "5423"
+  orderId: "09ad660a-0bcc-4fe6-aa5b-70bcd43e3918"
+  referenceNo: "968"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd -102500 HKD
   type: "MJ"
-  sourceId: "3740"
-  orderId: "d38faf13-20eb-432f-8402-1ac2547104fa"
-  referenceNo: "172"
+  sourceId: "5424"
+  orderId: "09ad660a-0bcc-4fe6-aa5b-70bcd43e3918"
+  referenceNo: "968"
 2022-08-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay015"
   Assets:CurrentAssets:Bank:BocSavingBank 4174.41 HKD
   type: "MJ"
@@ -44,17 +33,17 @@
   sourceId: "3742"
   orderId: "4e565ec7-5b40-411b-a9b2-c5c562a3d866"
   referenceNo: "176"
-2022-08-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BtcBrilliantTradingConmpany1974Ltd" "Csh to BTC Brilliant Trading (DEPOSIT GIA 7232231182)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BtcBrilliantTradingConmpany1974Ltd 70800 HKD
+2022-08-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay016"
+  Assets:CurrentAssets:Bank:BocSavingBank 15759 HKD
   type: "MJ"
-  sourceId: "5421"
-  orderId: "e78d1653-927b-4200-8264-ef79023cb224"
-  referenceNo: "967"
-  Assets:CurrentAssets:Cash:CashInHand -70800 HKD
+  sourceId: "3739"
+  orderId: "d38faf13-20eb-432f-8402-1ac2547104fa"
+  referenceNo: "172"
+  Assets:CurrentAssets:Bank:KpayBank -15759 HKD
   type: "MJ"
-  sourceId: "5422"
-  orderId: "e78d1653-927b-4200-8264-ef79023cb224"
-  referenceNo: "967"
+  sourceId: "3740"
+  orderId: "d38faf13-20eb-432f-8402-1ac2547104fa"
+  referenceNo: "172"
 2022-08-05 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW MONEY)"
   Assets:CurrentAssets:Cash:CashInHand 70800 HKD
   type: "MJ"
@@ -76,6 +65,17 @@
   sourceId: "5418"
   orderId: "9c47479c-5497-4c03-851d-15cc853f1b8e"
   referenceNo: "966"
+2022-08-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BtcBrilliantTradingConmpany1974Ltd" "Csh to BTC Brilliant Trading (DEPOSIT GIA 7232231182)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BtcBrilliantTradingConmpany1974Ltd 70800 HKD
+  type: "MJ"
+  sourceId: "5421"
+  orderId: "e78d1653-927b-4200-8264-ef79023cb224"
+  referenceNo: "967"
+  Assets:CurrentAssets:Cash:CashInHand -70800 HKD
+  type: "MJ"
+  sourceId: "5422"
+  orderId: "e78d1653-927b-4200-8264-ef79023cb224"
+  referenceNo: "967"
 2022-08-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExdExcellentDiamondLtd" "Cash to EXD Excellent Diamond (DEPOSIT for 2 GIA)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExdExcellentDiamondLtd 168350 HKD
   type: "MJ"
@@ -87,6 +87,50 @@
   sourceId: "5420"
   orderId: "be24aa9f-aa7f-4584-9d08-0f3dcc071751"
   referenceNo: "198"
+2022-08-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (OUT CASH 28.8500 TO 217)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 288500 HKD
+  type: "MJ"
+  sourceId: "5405"
+  orderId: "944ac464-98c9-41d4-9741-9e4a39ff2b23"
+  referenceNo: "962"
+  Assets:CurrentAssets:Cash:CashInHand -288500 HKD
+  type: "MJ"
+  sourceId: "5406"
+  orderId: "944ac464-98c9-41d4-9741-9e4a39ff2b23"
+  referenceNo: "962"
+2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "RAINING DIAMOND to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 36060 HKD
+  type: "MJ"
+  sourceId: "5409"
+  orderId: "da982ce5-8732-4cf4-b886-5d6fdf3d2e97"
+  referenceNo: "156"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RainingDiamondLtd -36060 HKD
+  type: "MJ"
+  sourceId: "5410"
+  orderId: "da982ce5-8732-4cf4-b886-5d6fdf3d2e97"
+  referenceNo: "156"
+2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "EXD Excellent Diamond to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 168350 HKD
+  type: "MJ"
+  sourceId: "5403"
+  orderId: "3151c9da-adb7-44bf-af42-bc855711282a"
+  referenceNo: "961"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExdExcellentDiamondLtd -168350 HKD
+  type: "MJ"
+  sourceId: "5404"
+  orderId: "3151c9da-adb7-44bf-af42-bc855711282a"
+  referenceNo: "961"
+2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (IN CASH 3.48 FROM 217)"
+  Assets:CurrentAssets:Cash:CashInHand 34800 HKD
+  type: "MJ"
+  sourceId: "5407"
+  orderId: "4767dae1-f831-4942-b701-b9b94bacdc2b"
+  referenceNo: "963"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -34800 HKD
+  type: "MJ"
+  sourceId: "5408"
+  orderId: "4767dae1-f831-4942-b701-b9b94bacdc2b"
+  referenceNo: "963"
 2022-08-08 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-StarRaysDiamondHkLtd" "Cash to STAR RAYS (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-StarRaysDiamondHkLtd 34800 HKD
   type: "MJ"
@@ -109,17 +153,6 @@
   sourceId: "5414"
   orderId: "cf8904b4-5045-4fe1-9c30-b953980b102a"
   referenceNo: "965"
-2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "RAINING DIAMOND to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 36060 HKD
-  type: "MJ"
-  sourceId: "5409"
-  orderId: "da982ce5-8732-4cf4-b886-5d6fdf3d2e97"
-  referenceNo: "156"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RainingDiamondLtd -36060 HKD
-  type: "MJ"
-  sourceId: "5410"
-  orderId: "da982ce5-8732-4cf4-b886-5d6fdf3d2e97"
-  referenceNo: "156"
 2022-08-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay017"
   Assets:CurrentAssets:Bank:BocSavingBank 30435.5 HKD
   type: "MJ"
@@ -131,39 +164,6 @@
   sourceId: "3744"
   orderId: "51ea31a1-f0b9-4f1a-8c5c-00ef2514be8d"
   referenceNo: "207"
-2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "EXD Excellent Diamond to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 168350 HKD
-  type: "MJ"
-  sourceId: "5403"
-  orderId: "3151c9da-adb7-44bf-af42-bc855711282a"
-  referenceNo: "961"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExdExcellentDiamondLtd -168350 HKD
-  type: "MJ"
-  sourceId: "5404"
-  orderId: "3151c9da-adb7-44bf-af42-bc855711282a"
-  referenceNo: "961"
-2022-08-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (OUT CASH 28.8500 TO 217)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 288500 HKD
-  type: "MJ"
-  sourceId: "5405"
-  orderId: "944ac464-98c9-41d4-9741-9e4a39ff2b23"
-  referenceNo: "962"
-  Assets:CurrentAssets:Cash:CashInHand -288500 HKD
-  type: "MJ"
-  sourceId: "5406"
-  orderId: "944ac464-98c9-41d4-9741-9e4a39ff2b23"
-  referenceNo: "962"
-2022-08-08 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (IN CASH 3.48 FROM 217)"
-  Assets:CurrentAssets:Cash:CashInHand 34800 HKD
-  type: "MJ"
-  sourceId: "5407"
-  orderId: "4767dae1-f831-4942-b701-b9b94bacdc2b"
-  referenceNo: "963"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -34800 HKD
-  type: "MJ"
-  sourceId: "5408"
-  orderId: "4767dae1-f831-4942-b701-b9b94bacdc2b"
-  referenceNo: "963"
 2022-08-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay018"
   Assets:CurrentAssets:Bank:BocSavingBank 17729 HKD
   type: "MJ"
@@ -208,28 +208,6 @@
   sourceId: "3750"
   orderId: "26d61d65-929e-4f4f-949c-e886393f167c"
   referenceNo: "238"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHkTradingLtd" "Cash to H&A HK TRADING (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHkTradingLtd 36100 HKD
-  type: "MJ"
-  sourceId: "5389"
-  orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
-  referenceNo: "951"
-  Assets:CurrentAssets:Cash:CashInHand -36100 HKD
-  type: "MJ"
-  sourceId: "5390"
-  orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
-  referenceNo: "951"
-2022-08-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay021"
-  Assets:CurrentAssets:Bank:BocSavingBank 25490.8 HKD
-  type: "MJ"
-  sourceId: "3751"
-  orderId: "e65154ba-f064-40bf-ba3f-f60e137a5cfa"
-  referenceNo: "255"
-  Assets:CurrentAssets:Bank:KpayBank -25490.8 HKD
-  type: "MJ"
-  sourceId: "3752"
-  orderId: "e65154ba-f064-40bf-ba3f-f60e137a5cfa"
-  referenceNo: "255"
 2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Ved-VeniDiamLtd" "Cash to VED - VENI DIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Ved-VeniDiamLtd 145400 HKD
   type: "MJ"
@@ -241,17 +219,39 @@
   sourceId: "5392"
   orderId: "069e80a4-1890-4575-af34-6f71fab757c8"
   referenceNo: "952"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd" "Cash to VIB - VIBRANT JEWELS (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd 217900 HKD
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHkTradingLtd" "Cash to H&A HK TRADING (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHkTradingLtd 36100 HKD
   type: "MJ"
-  sourceId: "5395"
-  orderId: "53067f8c-b050-418d-a405-9660692dbb24"
-  referenceNo: "953"
-  Assets:CurrentAssets:Cash:CashInHand -217900 HKD
+  sourceId: "5389"
+  orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
+  referenceNo: "951"
+  Assets:CurrentAssets:Cash:CashInHand -36100 HKD
   type: "MJ"
-  sourceId: "5396"
-  orderId: "53067f8c-b050-418d-a405-9660692dbb24"
-  referenceNo: "953"
+  sourceId: "5390"
+  orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
+  referenceNo: "951"
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd" "Cash to DHARAM CREATIONS (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd 115600 HKD
+  type: "MJ"
+  sourceId: "5377"
+  orderId: "e860dd88-7090-4b4f-95ad-8fc06c894f95"
+  referenceNo: "950"
+  Assets:CurrentAssets:Cash:CashInHand -115600 HKD
+  type: "MJ"
+  sourceId: "5378"
+  orderId: "e860dd88-7090-4b4f-95ad-8fc06c894f95"
+  referenceNo: "950"
+2022-08-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay021"
+  Assets:CurrentAssets:Bank:BocSavingBank 25490.8 HKD
+  type: "MJ"
+  sourceId: "3751"
+  orderId: "e65154ba-f064-40bf-ba3f-f60e137a5cfa"
+  referenceNo: "255"
+  Assets:CurrentAssets:Bank:KpayBank -25490.8 HKD
+  type: "MJ"
+  sourceId: "3752"
+  orderId: "e65154ba-f064-40bf-ba3f-f60e137a5cfa"
+  referenceNo: "255"
 2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-HKImpexPvtLtd" "Cash to H.K. IMPEX PVT (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-HKImpexPvtLtd 134600 HKD
   type: "MJ"
@@ -263,6 +263,39 @@
   sourceId: "5398"
   orderId: "cc7de19a-019d-49e3-80ce-e1644383e80d"
   referenceNo: "954"
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Dh-DiaroughHongKongLtd" "Cash to DH - DIAROUGH (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Dh-DiaroughHongKongLtd 33900 HKD
+  type: "MJ"
+  sourceId: "5399"
+  orderId: "05e43e45-0585-4346-a2ce-d2d82b978094"
+  referenceNo: "154"
+  Assets:CurrentAssets:Cash:CashInHand -33900 HKD
+  type: "MJ"
+  sourceId: "5400"
+  orderId: "05e43e45-0585-4346-a2ce-d2d82b978094"
+  referenceNo: "154"
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd" "Cash to SUN SUNRISE DIA (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd 154400 HKD
+  type: "MJ"
+  sourceId: "5367"
+  orderId: "bfe159cf-ea1f-457b-afac-05587879e149"
+  referenceNo: "949"
+  Assets:CurrentAssets:Cash:CashInHand -154400 HKD
+  type: "MJ"
+  sourceId: "5368"
+  orderId: "bfe159cf-ea1f-457b-afac-05587879e149"
+  referenceNo: "949"
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan" "Cash to LCJ - LUCKY CHOI JADE (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan 213400 HKD
+  type: "MJ"
+  sourceId: "5393"
+  orderId: "1ce5bd21-f139-49e1-a4fc-89897a850791"
+  referenceNo: "121"
+  Assets:CurrentAssets:Cash:CashInHand -213400 HKD
+  type: "MJ"
+  sourceId: "5394"
+  orderId: "1ce5bd21-f139-49e1-a4fc-89897a850791"
+  referenceNo: "121"
 2022-08-12 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW ttl 1,257,200)"
   Assets:CurrentAssets:Cash:CashInHand 213400 HKD
   type: "MJ"
@@ -314,6 +347,17 @@
   sourceId: "5388"
   orderId: "68245c5a-cd6b-4874-a404-77a298c2ce7b"
   referenceNo: "119"
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd" "Cash to VIB - VIBRANT JEWELS (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd 217900 HKD
+  type: "MJ"
+  sourceId: "5395"
+  orderId: "53067f8c-b050-418d-a405-9660692dbb24"
+  referenceNo: "953"
+  Assets:CurrentAssets:Cash:CashInHand -217900 HKD
+  type: "MJ"
+  sourceId: "5396"
+  orderId: "53067f8c-b050-418d-a405-9660692dbb24"
+  referenceNo: "953"
 2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd" "Cash to SGV - SANGHVI STAR (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd 202400 HKD
   type: "MJ"
@@ -325,66 +369,6 @@
   sourceId: "4805"
   orderId: "2fc25d11-08c6-4a48-b4a5-521b7ad30062"
   referenceNo: "938"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd" "Cash to SUN SUNRISE DIA (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd 154400 HKD
-  type: "MJ"
-  sourceId: "5367"
-  orderId: "bfe159cf-ea1f-457b-afac-05587879e149"
-  referenceNo: "949"
-  Assets:CurrentAssets:Cash:CashInHand -154400 HKD
-  type: "MJ"
-  sourceId: "5368"
-  orderId: "bfe159cf-ea1f-457b-afac-05587879e149"
-  referenceNo: "949"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan" "Cash to LCJ - LUCKY CHOI JADE (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan 213400 HKD
-  type: "MJ"
-  sourceId: "5393"
-  orderId: "1ce5bd21-f139-49e1-a4fc-89897a850791"
-  referenceNo: "121"
-  Assets:CurrentAssets:Cash:CashInHand -213400 HKD
-  type: "MJ"
-  sourceId: "5394"
-  orderId: "1ce5bd21-f139-49e1-a4fc-89897a850791"
-  referenceNo: "121"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd" "Cash to DHARAM CREATIONS (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd 115600 HKD
-  type: "MJ"
-  sourceId: "5377"
-  orderId: "e860dd88-7090-4b4f-95ad-8fc06c894f95"
-  referenceNo: "950"
-  Assets:CurrentAssets:Cash:CashInHand -115600 HKD
-  type: "MJ"
-  sourceId: "5378"
-  orderId: "e860dd88-7090-4b4f-95ad-8fc06c894f95"
-  referenceNo: "950"
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Dh-DiaroughHongKongLtd" "Cash to DH - DIAROUGH (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Dh-DiaroughHongKongLtd 33900 HKD
-  type: "MJ"
-  sourceId: "5399"
-  orderId: "05e43e45-0585-4346-a2ce-d2d82b978094"
-  referenceNo: "154"
-  Assets:CurrentAssets:Cash:CashInHand -33900 HKD
-  type: "MJ"
-  sourceId: "5400"
-  orderId: "05e43e45-0585-4346-a2ce-d2d82b978094"
-  referenceNo: "154"
-2022-08-13 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 25.0430+13.85)"
-  Assets:CurrentAssets:Cash:CashInHand 250430 HKD
-  type: "MJ"
-  sourceId: "5361"
-  orderId: "67680b29-97df-45c4-aade-ade9685df521"
-  referenceNo: "947"
-  Assets:CurrentAssets:Cash:CashInHand 138500 HKD
-  type: "MJ"
-  sourceId: "5362"
-  orderId: "67680b29-97df-45c4-aade-ade9685df521"
-  referenceNo: "947"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -388930 HKD
-  type: "MJ"
-  sourceId: "5363"
-  orderId: "67680b29-97df-45c4-aade-ade9685df521"
-  referenceNo: "947"
 2022-08-13 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd" "Cash to HDL - HRISHI DIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd 389000 HKD
   type: "MJ"
@@ -401,6 +385,22 @@
   sourceId: "5366"
   orderId: "b1eaaa19-847a-43e7-811f-7ab61cdfe669"
   referenceNo: "948"
+2022-08-13 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 25.0430+13.85)"
+  Assets:CurrentAssets:Cash:CashInHand 250430 HKD
+  type: "MJ"
+  sourceId: "5361"
+  orderId: "67680b29-97df-45c4-aade-ade9685df521"
+  referenceNo: "947"
+  Assets:CurrentAssets:Cash:CashInHand 138500 HKD
+  type: "MJ"
+  sourceId: "5362"
+  orderId: "67680b29-97df-45c4-aade-ade9685df521"
+  referenceNo: "947"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -388930 HKD
+  type: "MJ"
+  sourceId: "5363"
+  orderId: "67680b29-97df-45c4-aade-ade9685df521"
+  referenceNo: "947"
 2022-08-15 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID back to MW)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1487000 HKD
   type: "MJ"
@@ -452,61 +452,6 @@
   sourceId: "5346"
   orderId: "029c8b14-f534-441e-8471-6a65cf97c41e"
   referenceNo: "1051"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "HDL - HRISHI DIAM to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 389000 HKD
-  type: "MJ"
-  sourceId: "5357"
-  orderId: "395acb72-f5b8-4a17-84dd-01f2d5afd9b6"
-  referenceNo: "946"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd -389000 HKD
-  type: "MJ"
-  sourceId: "5358"
-  orderId: "395acb72-f5b8-4a17-84dd-01f2d5afd9b6"
-  referenceNo: "946"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "VIB - VIBRANT JEWELS to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 217900 HKD
-  type: "MJ"
-  sourceId: "5349"
-  orderId: "24db68a2-e38f-4e7f-b7fc-aec4e57c5c66"
-  referenceNo: "1119"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd -217900 HKD
-  type: "MJ"
-  sourceId: "5350"
-  orderId: "24db68a2-e38f-4e7f-b7fc-aec4e57c5c66"
-  referenceNo: "1119"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "H.K. IMPEX to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 134600 HKD
-  type: "MJ"
-  sourceId: "5353"
-  orderId: "0324e24f-45df-4ce2-b212-b09a43ed62d2"
-  referenceNo: "945"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HKImpexPvtLtd -134600 HKD
-  type: "MJ"
-  sourceId: "5354"
-  orderId: "0324e24f-45df-4ce2-b212-b09a43ed62d2"
-  referenceNo: "945"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "STAR RAYS to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 34800 HKD
-  type: "MJ"
-  sourceId: "5351"
-  orderId: "9145cb06-6009-4217-97d9-248fe4053a20"
-  referenceNo: "944"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-StarRaysDiamondHkLtd -34800 HKD
-  type: "MJ"
-  sourceId: "5352"
-  orderId: "9145cb06-6009-4217-97d9-248fe4053a20"
-  referenceNo: "944"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "LCJ - LUCKY CHOI to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 213400 HKD
-  type: "MJ"
-  sourceId: "5347"
-  orderId: "18dada96-2dae-454e-b718-1c22987a04dd"
-  referenceNo: "943"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan -213400 HKD
-  type: "MJ"
-  sourceId: "5348"
-  orderId: "18dada96-2dae-454e-b718-1c22987a04dd"
-  referenceNo: "943"
 2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "SGV - SANGHVI STAR to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 202400 HKD
   type: "MJ"
@@ -518,17 +463,50 @@
   sourceId: "5336"
   orderId: "b373db88-6f33-4242-9f07-b3369072962c"
   referenceNo: "942"
-2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "VED - VENI DIAM to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 145400 HKD
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "LCJ - LUCKY CHOI to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 213400 HKD
   type: "MJ"
-  sourceId: "5359"
-  orderId: "1aea7957-a164-4071-b450-4bbdf96a5014"
-  referenceNo: "72"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Ved-VeniDiamLtd -145400 HKD
+  sourceId: "5347"
+  orderId: "18dada96-2dae-454e-b718-1c22987a04dd"
+  referenceNo: "943"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Lcj-LuckyChoiJadeDarshan -213400 HKD
   type: "MJ"
-  sourceId: "5360"
-  orderId: "1aea7957-a164-4071-b450-4bbdf96a5014"
-  referenceNo: "72"
+  sourceId: "5348"
+  orderId: "18dada96-2dae-454e-b718-1c22987a04dd"
+  referenceNo: "943"
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "STAR RAYS to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 34800 HKD
+  type: "MJ"
+  sourceId: "5351"
+  orderId: "9145cb06-6009-4217-97d9-248fe4053a20"
+  referenceNo: "944"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-StarRaysDiamondHkLtd -34800 HKD
+  type: "MJ"
+  sourceId: "5352"
+  orderId: "9145cb06-6009-4217-97d9-248fe4053a20"
+  referenceNo: "944"
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "H.K. IMPEX to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 134600 HKD
+  type: "MJ"
+  sourceId: "5353"
+  orderId: "0324e24f-45df-4ce2-b212-b09a43ed62d2"
+  referenceNo: "945"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HKImpexPvtLtd -134600 HKD
+  type: "MJ"
+  sourceId: "5354"
+  orderId: "0324e24f-45df-4ce2-b212-b09a43ed62d2"
+  referenceNo: "945"
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "HDL - HRISHI DIAM to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 389000 HKD
+  type: "MJ"
+  sourceId: "5357"
+  orderId: "395acb72-f5b8-4a17-84dd-01f2d5afd9b6"
+  referenceNo: "946"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd -389000 HKD
+  type: "MJ"
+  sourceId: "5358"
+  orderId: "395acb72-f5b8-4a17-84dd-01f2d5afd9b6"
+  referenceNo: "946"
 2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "DHARAM CREATIONS to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 115600 HKD
   type: "MJ"
@@ -551,6 +529,28 @@
   sourceId: "5334"
   orderId: "d4eb2aa8-12cd-42cb-ac11-423719e54a7f"
   referenceNo: "1104"
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "VIB - VIBRANT JEWELS to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 217900 HKD
+  type: "MJ"
+  sourceId: "5349"
+  orderId: "24db68a2-e38f-4e7f-b7fc-aec4e57c5c66"
+  referenceNo: "1119"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vib-VibrantJewelsLtd -217900 HKD
+  type: "MJ"
+  sourceId: "5350"
+  orderId: "24db68a2-e38f-4e7f-b7fc-aec4e57c5c66"
+  referenceNo: "1119"
+2022-08-15 * "Assets:CurrentAssets:Cash:CashInHand" "VED - VENI DIAM to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 145400 HKD
+  type: "MJ"
+  sourceId: "5359"
+  orderId: "1aea7957-a164-4071-b450-4bbdf96a5014"
+  referenceNo: "72"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Ved-VeniDiamLtd -145400 HKD
+  type: "MJ"
+  sourceId: "5360"
+  orderId: "1aea7957-a164-4071-b450-4bbdf96a5014"
+  referenceNo: "72"
 2022-08-15 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 20000 HKD
   type: "MJ"
@@ -595,17 +595,6 @@
   sourceId: "5332"
   orderId: "6cc5fc25-6f80-4103-ae66-5c6f7c627831"
   referenceNo: "1090"
-2022-08-18 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd 44900 HKD
-  type: "MJ"
-  sourceId: "4742"
-  orderId: "0a0b16c9-0833-4495-b993-ae45e6056b68"
-  referenceNo: "307"
-  Assets:CurrentAssets:Cash:CashInHand -44900 HKD
-  type: "MJ"
-  sourceId: "4743"
-  orderId: "0a0b16c9-0833-4495-b993-ae45e6056b68"
-  referenceNo: "307"
 2022-08-18 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (paid back 150+60k)"
   Assets:CurrentAssets:Cash:CashInHand -60000 HKD
   type: "MJ"
@@ -644,17 +633,17 @@
   sourceId: "5330"
   orderId: "799dc7dc-1676-4ecb-90b0-9e66e845760a"
   referenceNo: "935"
-2022-08-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq" "Cash to DIAMOND ICQ (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq 29800 HKD
+2022-08-18 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd 44900 HKD
   type: "MJ"
-  sourceId: "5324"
-  orderId: "506c6416-38a4-4b7d-801b-8434c6912e5a"
-  referenceNo: "934"
-  Assets:CurrentAssets:Cash:CashInHand -29800 HKD
+  sourceId: "4742"
+  orderId: "0a0b16c9-0833-4495-b993-ae45e6056b68"
+  referenceNo: "307"
+  Assets:CurrentAssets:Cash:CashInHand -44900 HKD
   type: "MJ"
-  sourceId: "5325"
-  orderId: "506c6416-38a4-4b7d-801b-8434c6912e5a"
-  referenceNo: "934"
+  sourceId: "4743"
+  orderId: "0a0b16c9-0833-4495-b993-ae45e6056b68"
+  referenceNo: "307"
 2022-08-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kv-KavirDiamHkLtd" "Cash to KV - KAVIR DIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kv-KavirDiamHkLtd 33900 HKD
   type: "MJ"
@@ -666,6 +655,17 @@
   sourceId: "4895"
   orderId: "073ec39e-da04-4bd6-b297-112a263cb6ca"
   referenceNo: "925"
+2022-08-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq" "Cash to DIAMOND ICQ (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq 29800 HKD
+  type: "MJ"
+  sourceId: "5324"
+  orderId: "506c6416-38a4-4b7d-801b-8434c6912e5a"
+  referenceNo: "934"
+  Assets:CurrentAssets:Cash:CashInHand -29800 HKD
+  type: "MJ"
+  sourceId: "5325"
+  orderId: "506c6416-38a4-4b7d-801b-8434c6912e5a"
+  referenceNo: "934"
 2022-08-19 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 33900+29800)"
   Assets:CurrentAssets:Cash:CashInHand 33900 HKD
   type: "MJ"
@@ -748,17 +748,6 @@
   sourceId: "3762"
   orderId: "94ab5fba-0993-4610-aa08-ca0ca6ee79c1"
   referenceNo: "223"
-2022-08-26 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd" "Cash to SUN SUNRISE (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd 64000 HKD
-  type: "MJ"
-  sourceId: "4842"
-  orderId: "61dd9441-820a-4bfc-bc16-d6396cc1dc58"
-  referenceNo: "924"
-  Assets:CurrentAssets:Cash:CashInHand -64000 HKD
-  type: "MJ"
-  sourceId: "4843"
-  orderId: "61dd9441-820a-4bfc-bc16-d6396cc1dc58"
-  referenceNo: "924"
 2022-08-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (RETURN 453k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 453000 HKD
   type: "MJ"
@@ -770,17 +759,17 @@
   sourceId: "5308"
   orderId: "0af8f5eb-826b-4337-a84c-601c2042b01d"
   referenceNo: "929"
-2022-08-26 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd" "Cash to DHARAM CREATIONS (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd 148050 HKD
+2022-08-26 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd" "Cash to SUN SUNRISE (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SunSunriseDiamondsLtd 64000 HKD
   type: "MJ"
-  sourceId: "5305"
-  orderId: "24855dac-dda0-43b1-a029-01d21cb4c653"
-  referenceNo: "1044"
-  Assets:CurrentAssets:Cash:CashInHand -148050 HKD
+  sourceId: "4842"
+  orderId: "61dd9441-820a-4bfc-bc16-d6396cc1dc58"
+  referenceNo: "924"
+  Assets:CurrentAssets:Cash:CashInHand -64000 HKD
   type: "MJ"
-  sourceId: "5306"
-  orderId: "24855dac-dda0-43b1-a029-01d21cb4c653"
-  referenceNo: "1044"
+  sourceId: "4843"
+  orderId: "61dd9441-820a-4bfc-bc16-d6396cc1dc58"
+  referenceNo: "924"
 2022-08-26 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 650k)"
   Assets:CurrentAssets:Cash:CashInHand 650000 HKD
   type: "MJ"
@@ -792,17 +781,17 @@
   sourceId: "5314"
   orderId: "c0efcfae-168e-469e-96c1-f98f2c92e9a6"
   referenceNo: "931"
-2022-08-27 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 293k)"
-  Assets:CurrentAssets:Cash:CashInHand 293000 HKD
+2022-08-26 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd" "Cash to DHARAM CREATIONS (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHkLtd 148050 HKD
   type: "MJ"
-  sourceId: "4629"
-  orderId: "c6781500-c95a-47fc-af38-7af80c3d29e8"
-  referenceNo: "920"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -293000 HKD
+  sourceId: "5305"
+  orderId: "24855dac-dda0-43b1-a029-01d21cb4c653"
+  referenceNo: "1044"
+  Assets:CurrentAssets:Cash:CashInHand -148050 HKD
   type: "MJ"
-  sourceId: "4630"
-  orderId: "c6781500-c95a-47fc-af38-7af80c3d29e8"
-  referenceNo: "920"
+  sourceId: "5306"
+  orderId: "24855dac-dda0-43b1-a029-01d21cb4c653"
+  referenceNo: "1044"
 2022-08-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd" "Cash to HDL-HRISHI DIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Hdl-HrishiDiamLtd 293000 HKD
   type: "MJ"
@@ -814,6 +803,17 @@
   sourceId: "5304"
   orderId: "86e73c63-5449-49c5-bbba-657fd763eaac"
   referenceNo: "928"
+2022-08-27 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 293k)"
+  Assets:CurrentAssets:Cash:CashInHand 293000 HKD
+  type: "MJ"
+  sourceId: "4629"
+  orderId: "c6781500-c95a-47fc-af38-7af80c3d29e8"
+  referenceNo: "920"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -293000 HKD
+  type: "MJ"
+  sourceId: "4630"
+  orderId: "c6781500-c95a-47fc-af38-7af80c3d29e8"
+  referenceNo: "920"
 2022-08-30 * "Assets:CurrentAssets:Cash:CashInHand" "HDL - HRISHI DIAM to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 131500 HKD
   type: "MJ"
@@ -825,28 +825,6 @@
   sourceId: "5302"
   orderId: "85582008-3624-4db7-ae6c-3e9382e9cf2f"
   referenceNo: "927"
-2022-08-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay027"
-  Assets:CurrentAssets:Bank:BocSavingBank 52351.75 HKD
-  type: "MJ"
-  sourceId: "3763"
-  orderId: "8dbd16da-9019-4bbc-9fbb-e1dddb7f1bb5"
-  referenceNo: "190"
-  Assets:CurrentAssets:Bank:KpayBank -52351.75 HKD
-  type: "MJ"
-  sourceId: "3764"
-  orderId: "8dbd16da-9019-4bbc-9fbb-e1dddb7f1bb5"
-  referenceNo: "190"
-2022-08-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd 76600 HKD
-  type: "MJ"
-  sourceId: "4780"
-  orderId: "23b0cf42-ca7a-4e8b-a669-8a6aba3b7f86"
-  referenceNo: "923"
-  Assets:CurrentAssets:Cash:CashInHand -76600 HKD
-  type: "MJ"
-  sourceId: "4781"
-  orderId: "23b0cf42-ca7a-4e8b-a669-8a6aba3b7f86"
-  referenceNo: "923"
 2022-08-30 * "Assets:CurrentAssets:Cash:CashInHand" "SUN SUNRISE DIAM to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 64000 HKD
   type: "MJ"
@@ -858,17 +836,39 @@
   sourceId: "5298"
   orderId: "e92dfe93-f6c6-4654-8016-69eef57c1052"
   referenceNo: "926"
-2022-08-30 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW)"
-  Assets:CurrentAssets:Cash:CashInHand 76600 HKD
+2022-08-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd 76600 HKD
   type: "MJ"
-  sourceId: "5309"
-  orderId: "4c320b4a-6379-4e2a-9aea-77e971d56190"
-  referenceNo: "930"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -76600 HKD
+  sourceId: "4780"
+  orderId: "23b0cf42-ca7a-4e8b-a669-8a6aba3b7f86"
+  referenceNo: "923"
+  Assets:CurrentAssets:Cash:CashInHand -76600 HKD
   type: "MJ"
-  sourceId: "5310"
-  orderId: "4c320b4a-6379-4e2a-9aea-77e971d56190"
-  referenceNo: "930"
+  sourceId: "4781"
+  orderId: "23b0cf42-ca7a-4e8b-a669-8a6aba3b7f86"
+  referenceNo: "923"
+2022-08-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay027"
+  Assets:CurrentAssets:Bank:BocSavingBank 52351.75 HKD
+  type: "MJ"
+  sourceId: "3763"
+  orderId: "8dbd16da-9019-4bbc-9fbb-e1dddb7f1bb5"
+  referenceNo: "190"
+  Assets:CurrentAssets:Bank:KpayBank -52351.75 HKD
+  type: "MJ"
+  sourceId: "3764"
+  orderId: "8dbd16da-9019-4bbc-9fbb-e1dddb7f1bb5"
+  referenceNo: "190"
+2022-08-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (RETURN 282k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 282000 HKD
+  type: "MJ"
+  sourceId: "5311"
+  orderId: "6f4dd2b0-7a33-4648-bdb4-d7852f35ae76"
+  referenceNo: "1060"
+  Assets:CurrentAssets:Cash:CashInHand -282000 HKD
+  type: "MJ"
+  sourceId: "5312"
+  orderId: "6f4dd2b0-7a33-4648-bdb4-d7852f35ae76"
+  referenceNo: "1060"
 2022-08-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq" "Cash to DIAMOND ICQ (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamondIcq 76000 HKD
   type: "MJ"
@@ -891,17 +891,17 @@
   sourceId: "5300"
   orderId: "f3037fd5-77ac-4f3d-b3fd-f8396c71011d"
   referenceNo: "1035"
-2022-08-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (RETURN 282k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 282000 HKD
+2022-08-30 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW)"
+  Assets:CurrentAssets:Cash:CashInHand 76600 HKD
   type: "MJ"
-  sourceId: "5311"
-  orderId: "6f4dd2b0-7a33-4648-bdb4-d7852f35ae76"
-  referenceNo: "1060"
-  Assets:CurrentAssets:Cash:CashInHand -282000 HKD
+  sourceId: "5309"
+  orderId: "4c320b4a-6379-4e2a-9aea-77e971d56190"
+  referenceNo: "930"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -76600 HKD
   type: "MJ"
-  sourceId: "5312"
-  orderId: "6f4dd2b0-7a33-4648-bdb4-d7852f35ae76"
-  referenceNo: "1060"
+  sourceId: "5310"
+  orderId: "4c320b4a-6379-4e2a-9aea-77e971d56190"
+  referenceNo: "930"
 2022-08-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay028"
   Assets:CurrentAssets:Bank:BocSavingBank 4234.5 HKD
   type: "MJ"

@@ -1,5 +1,16 @@
 ; MJ transactions for 2023-07
 
+2023-07-03 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 2956800 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 2956800 HKD
+  type: "MJ"
+  sourceId: "5749"
+  orderId: "cb1d0790-9009-4967-bd6e-b342c8ad367d"
+  referenceNo: "629"
+  Assets:CurrentAssets:Cash:CashInHand -2956800 HKD
+  type: "MJ"
+  sourceId: "5750"
+  orderId: "cb1d0790-9009-4967-bd6e-b342c8ad367d"
+  referenceNo: "629"
 2023-07-03 * "Assets:CurrentAssets:Cash:CashInHand" "HKD1836000 return from NJ"
   Assets:CurrentAssets:Cash:CashInHand 1836000 HKD
   type: "MJ"
@@ -22,28 +33,6 @@
   sourceId: "5037"
   orderId: "d7f8fb0e-ed6a-43b3-80ac-635cc8eda3b9"
   referenceNo: "618"
-2023-07-03 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 2956800 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 2956800 HKD
-  type: "MJ"
-  sourceId: "5749"
-  orderId: "cb1d0790-9009-4967-bd6e-b342c8ad367d"
-  referenceNo: "629"
-  Assets:CurrentAssets:Cash:CashInHand -2956800 HKD
-  type: "MJ"
-  sourceId: "5750"
-  orderId: "cb1d0790-9009-4967-bd6e-b342c8ad367d"
-  referenceNo: "629"
-2023-07-04 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to Sam VISA 0016"
-  Assets:CurrentAssets:Bank:BocVisaCard-SamBank 97 HKD
-  type: "MJ"
-  sourceId: "3634"
-  orderId: "bd475e3c-4f86-4e91-9ccc-3bab30d10bad"
-  referenceNo: "202"
-  Assets:CurrentAssets:Bank:BocSavingBank -97 HKD
-  type: "MJ"
-  sourceId: "3635"
-  orderId: "bd475e3c-4f86-4e91-9ccc-3bab30d10bad"
-  referenceNo: "202"
 2023-07-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay068"
   Assets:CurrentAssets:Bank:BocSavingBank 5867.72 HKD
   type: "MJ"
@@ -55,6 +44,17 @@
   sourceId: "3846"
   orderId: "4825767a-4c07-43f3-acd9-c34484f63b16"
   referenceNo: "624"
+2023-07-04 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to Sam VISA 0016"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank 97 HKD
+  type: "MJ"
+  sourceId: "3634"
+  orderId: "bd475e3c-4f86-4e91-9ccc-3bab30d10bad"
+  referenceNo: "202"
+  Assets:CurrentAssets:Bank:BocSavingBank -97 HKD
+  type: "MJ"
+  sourceId: "3635"
+  orderId: "bd475e3c-4f86-4e91-9ccc-3bab30d10bad"
+  referenceNo: "202"
 2023-07-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay069"
   Assets:CurrentAssets:Bank:BocSavingBank 133640.39 HKD
   type: "MJ"
