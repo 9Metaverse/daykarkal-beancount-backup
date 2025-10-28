@@ -45,25 +45,14 @@
 2022-04-01 * "Expenses:CostOfSales:OpeningInventoryBalance" "Opening inventory 1/4/2022"
   Expenses:CostOfSales:OpeningInventoryBalance 2992853.97 HKD
   type: "MJ"
-  sourceId: "e8e5765f-4939-4fb8-a7f9-f9d69e19bdec"
+  sourceId: "d68406f4-fdf1-4eb6-bce1-b309fb7043a1"
   orderId: "dc9d680c-4748-4a17-9860-8ac63691ff2d"
   referenceNo: "1187"
-  Expenses:CostOfSales:ClosingInventoryBalance -2992853.97 HKD
+  Assets:CurrentAssets:ShopInventory:BsInventory -2992853.97 HKD
   type: "MJ"
-  sourceId: "07e4d8bb-ac25-448b-80e5-23ecc1faf31a"
+  sourceId: "0ebe6b86-02cc-43bc-b1c8-48496285e712"
   orderId: "dc9d680c-4748-4a17-9860-8ac63691ff2d"
   referenceNo: "1187"
-2022-04-01 * "" "Opening inventory 1/4/2022"
-  Assets:CurrentAssets:ShopInventory:BsInventory 0 HKD
-  type: "MJ"
-  sourceId: "5f79f601-003a-4cce-9166-7e63da1d24ea"
-  orderId: "0a979b44-5ff1-4fb6-90ea-357004d0ebb2"
-  referenceNo: "1459"
-  Expenses:CostOfSales:OpeningInventoryBalance 0 HKD
-  type: "MJ"
-  sourceId: "f28f5491-8bbd-428e-a8e6-9c7ac862c3d5"
-  orderId: "0a979b44-5ff1-4fb6-90ea-357004d0ebb2"
-  referenceNo: "1459"
 2022-04-12 * "Assets:CurrentAssets:Cash:CashInHand" "Cash Received From David (Director)"
   Assets:CurrentAssets:Cash:CashInHand 80000 HKD
   type: "MJ"
@@ -108,17 +97,6 @@
   sourceId: "4691"
   orderId: "89f97c48-da21-48cf-ae95-c30a396232f7"
   referenceNo: "1078"
-2022-04-19 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (借美9430*7.845=73978)"
-  Assets:CurrentAssets:Cash:CashInHand 73978 HKD
-  type: "MJ"
-  sourceId: "4688"
-  orderId: "4b9a19fd-544b-4a0d-a5af-c2aec5c3312b"
-  referenceNo: "216"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -73978 HKD
-  type: "MJ"
-  sourceId: "4689"
-  orderId: "4b9a19fd-544b-4a0d-a5af-c2aec5c3312b"
-  referenceNo: "216"
 2022-04-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (付美9430-退801= 8637*7.845)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 67757 HKD
   type: "MJ"
@@ -130,6 +108,28 @@
   sourceId: "5659"
   orderId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
   referenceNo: "1087"
+2022-04-19 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (借美9430*7.845=73978)"
+  Assets:CurrentAssets:Cash:CashInHand 73978 HKD
+  type: "MJ"
+  sourceId: "4688"
+  orderId: "4b9a19fd-544b-4a0d-a5af-c2aec5c3312b"
+  referenceNo: "216"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -73978 HKD
+  type: "MJ"
+  sourceId: "4689"
+  orderId: "4b9a19fd-544b-4a0d-a5af-c2aec5c3312b"
+  referenceNo: "216"
+2022-04-21 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (Ronit Cash 付GIA石錢 1.5023*7.845)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 117855 HKD
+  type: "MJ"
+  sourceId: "5654"
+  orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+  referenceNo: "1086"
+  Assets:CurrentAssets:Cash:CashInHand -117855 HKD
+  type: "MJ"
+  sourceId: "5655"
+  orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+  referenceNo: "1086"
 2022-04-21 * "Assets:CurrentAssets:Cash:CashInHand" "BEE GEMS to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 166600 HKD
   type: "MJ"
@@ -152,17 +152,6 @@
   sourceId: "5657"
   orderId: "70b5130f-a42a-4da6-b465-3d9109300a26"
   referenceNo: "1085"
-2022-04-21 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (Ronit Cash 付GIA石錢 1.5023*7.845)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 117855 HKD
-  type: "MJ"
-  sourceId: "5654"
-  orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-  referenceNo: "1086"
-  Assets:CurrentAssets:Cash:CashInHand -117855 HKD
-  type: "MJ"
-  sourceId: "5655"
-  orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-  referenceNo: "1086"
 2022-04-25 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Milrich to Skyhigh #1889 (GIA按金 付她港10-1.4=8.6)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 86000 HKD
   type: "MJ"
@@ -196,17 +185,6 @@
   sourceId: "5786"
   orderId: "37817ece-e9f1-4b1a-a3df-009992ae6f4e"
   referenceNo: "494"
-2022-04-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Elma轉Skyhigh"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 50000 HKD
-  type: "MJ"
-  sourceId: "3407"
-  orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-  referenceNo: "124"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd -50000 HKD
-  type: "MJ"
-  sourceId: "3408"
-  orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-  referenceNo: "124"
 2022-04-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Milrich 代付GIA石錢 港10.1367"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 101367 HKD
   type: "MJ"
@@ -218,6 +196,17 @@
   sourceId: "4683"
   orderId: "94b0c81c-ef98-4ce5-bf08-dd4235e4afb1"
   referenceNo: "1077"
+2022-04-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Elma轉Skyhigh"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 50000 HKD
+  type: "MJ"
+  sourceId: "3407"
+  orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+  referenceNo: "124"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaJewelryLtd -50000 HKD
+  type: "MJ"
+  sourceId: "3408"
+  orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+  referenceNo: "124"
 2022-04-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Milrich to Skyhigh Deposit for GIA"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd 355025 HKD
   type: "MJ"
