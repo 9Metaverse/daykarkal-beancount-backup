@@ -663,6 +663,16 @@
   Income:Sales:Gold -45263.4 HKD
   Assets:Inventory:Gold:In-Stock -350.82 XAU {}
   Expenses:Cogs:Gold
+2025-10-30 * "Reservation Delivery R#GR2025103000004S D#D20251030003"
+  rsv-ref: "GR2025103000004S"
+  del-ref: "D20251030003"
+  Liabilities:CurrentLiabilities:ClientDeposit -38035.13 USDT @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251030003"
+  sourceId: "19b93ebf-3897-4d0e-83bc-5a63518a766f"
+  orderId: "5b7daeba-7842-4f50-af39-857178fc03d5"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:In-Stock 300.01 XAU {}
 2025-10-30 * "Reservation Payment R#GR2025103000003B P#P20251030008"
   rsv-ref: "GR2025103000003B"
   pay-ref: "P20251030008"
@@ -677,6 +687,32 @@
   sourceId: "1b827c3b-290c-4f2e-85f8-337638031533"
   orderId: "57fa6652-0d04-4970-9445-5582df515c8f"
   contact: "82 220887071 () [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-10-30 * "Reservation Payment R#GR2025103000003B P#P20251030009"
+  rsv-ref: "GR2025103000003B"
+  pay-ref: "P20251030009"
+  Assets:CurrentAssets:Cash:CashInHand 39966.00 USD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251030009"
+  sourceId: "dad172e3-beb7-49a1-8e4a-76973d88a041"
+  orderId: "57fa6652-0d04-4970-9445-5582df515c8f"
+  Liabilities:CurrentLiabilities:ClientDeposit -39966.00 USD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251030009"
+  sourceId: "dad172e3-beb7-49a1-8e4a-76973d88a041"
+  orderId: "57fa6652-0d04-4970-9445-5582df515c8f"
+  contact: "82 220887071 () [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-10-30 * "Reservation Delivery R#GR2025103000003B D#D20251030004"
+  rsv-ref: "GR2025103000003B"
+  del-ref: "D20251030004"
+  Liabilities:CurrentLiabilities:ClientDeposit 38035.00 USD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251030004"
+  sourceId: "1d69c688-ecd5-4b18-b4b2-d43e85f40526"
+  orderId: "57fa6652-0d04-4970-9445-5582df515c8f"
+  contact: "82 220887071 () [33b780b2-8816-4462-87a0-73152f99e7b4]"
+  Income:Sales:Gold -38035 HKD
+  Assets:Inventory:Gold:In-Stock -300.01 XAU {}
+  Expenses:Cogs:Gold
 2025-10-30 * "Reservation Payment R#GR2025102800001B P#P20251030007"
   rsv-ref: "GR2025102800001B"
   pay-ref: "P20251030007"
