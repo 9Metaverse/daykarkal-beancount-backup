@@ -1,5 +1,16 @@
 ; MJ transactions for 2022-12
 
+2022-12-01 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd" "Cash to BEE GEMS (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd 166600 HKD
+  type: "MJ"
+  sourceId: "5130"
+  orderId: "089dd21d-6574-4219-b16e-a006c603c47c"
+  referenceNo: "734"
+  Assets:CurrentAssets:Cash:CashInHand -166600 HKD
+  type: "MJ"
+  sourceId: "5131"
+  orderId: "089dd21d-6574-4219-b16e-a006c603c47c"
+  referenceNo: "734"
 2022-12-01 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 339.1k)"
   Assets:CurrentAssets:Cash:CashInHand 172500 HKD
   type: "MJ"
@@ -38,17 +49,17 @@
   sourceId: "3812"
   orderId: "f5bd4133-d9c1-4413-9c7f-ce4bbba25d8f"
   referenceNo: "195"
-2022-12-01 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd" "Cash to BEE GEMS (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd 166600 HKD
+2022-12-02 * "Assets:CurrentAssets:Cash:CashInHand" "SRD - SR Diam to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 172500 HKD
   type: "MJ"
-  sourceId: "5130"
-  orderId: "089dd21d-6574-4219-b16e-a006c603c47c"
-  referenceNo: "734"
-  Assets:CurrentAssets:Cash:CashInHand -166600 HKD
+  sourceId: "5022"
+  orderId: "94f7c078-052a-4125-bbd0-02ee40a8d3e7"
+  referenceNo: "490"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd -172500 HKD
   type: "MJ"
-  sourceId: "5131"
-  orderId: "089dd21d-6574-4219-b16e-a006c603c47c"
-  referenceNo: "734"
+  sourceId: "5023"
+  orderId: "94f7c078-052a-4125-bbd0-02ee40a8d3e7"
+  referenceNo: "490"
 2022-12-02 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 339.1k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 339100 HKD
   type: "MJ"
@@ -65,17 +76,6 @@
   sourceId: "4425"
   orderId: "00be7678-527c-4aea-9adf-95abf90789c2"
   referenceNo: "729"
-2022-12-02 * "Assets:CurrentAssets:Cash:CashInHand" "SRD - SR Diam to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 172500 HKD
-  type: "MJ"
-  sourceId: "5022"
-  orderId: "94f7c078-052a-4125-bbd0-02ee40a8d3e7"
-  referenceNo: "490"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd -172500 HKD
-  type: "MJ"
-  sourceId: "5023"
-  orderId: "94f7c078-052a-4125-bbd0-02ee40a8d3e7"
-  referenceNo: "490"
 2022-12-02 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
   Assets:CurrentAssets:Bank:BocSavingBank -40000 HKD
   type: "MJ"
@@ -87,28 +87,6 @@
   sourceId: "2127"
   orderId: "678f3676-71c7-43a3-99d0-5c8bfdb27a07"
   referenceNo: "720"
-2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd" "Cash to KIT - ANKIT GEMS (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd 39300 HKD
-  type: "MJ"
-  sourceId: "5092"
-  orderId: "05c0abf7-d0fb-4784-af09-8d0607ba2447"
-  referenceNo: "724"
-  Assets:CurrentAssets:Cash:CashInHand -39300 HKD
-  type: "MJ"
-  sourceId: "5093"
-  orderId: "05c0abf7-d0fb-4784-af09-8d0607ba2447"
-  referenceNo: "724"
-2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd 22200 HKD
-  type: "MJ"
-  sourceId: "5052"
-  orderId: "c52dc1a7-b7a8-4057-bd78-d73f25847251"
-  referenceNo: "723"
-  Assets:CurrentAssets:Cash:CashInHand -22200 HKD
-  type: "MJ"
-  sourceId: "5053"
-  orderId: "c52dc1a7-b7a8-4057-bd78-d73f25847251"
-  referenceNo: "723"
 2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading" "Cash to WWT - WE WIN TRADING (DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading 68000 HKD
   type: "MJ"
@@ -120,6 +98,28 @@
   sourceId: "5129"
   orderId: "6743565d-f2f2-4fab-bac9-f983f65ff7b5"
   referenceNo: "733"
+2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd 22200 HKD
+  type: "MJ"
+  sourceId: "5052"
+  orderId: "c52dc1a7-b7a8-4057-bd78-d73f25847251"
+  referenceNo: "723"
+  Assets:CurrentAssets:Cash:CashInHand -22200 HKD
+  type: "MJ"
+  sourceId: "5053"
+  orderId: "c52dc1a7-b7a8-4057-bd78-d73f25847251"
+  referenceNo: "723"
+2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd" "Cash to KIT - ANKIT GEMS (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd 39300 HKD
+  type: "MJ"
+  sourceId: "5092"
+  orderId: "05c0abf7-d0fb-4784-af09-8d0607ba2447"
+  referenceNo: "724"
+  Assets:CurrentAssets:Cash:CashInHand -39300 HKD
+  type: "MJ"
+  sourceId: "5093"
+  orderId: "05c0abf7-d0fb-4784-af09-8d0607ba2447"
+  referenceNo: "724"
 2022-12-06 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 129.5k)"
   Assets:CurrentAssets:Cash:CashInHand 68000 HKD
   type: "MJ"
@@ -141,17 +141,6 @@
   sourceId: "4420"
   orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
   referenceNo: "417"
-2022-12-07 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd" "Cash to BEE GEMS (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd 166600 HKD
-  type: "MJ"
-  sourceId: "5126"
-  orderId: "80e96836-7ae3-4327-92f4-31b4e08ceb62"
-  referenceNo: "599"
-  Assets:CurrentAssets:Cash:CashInHand -166600 HKD
-  type: "MJ"
-  sourceId: "5127"
-  orderId: "80e96836-7ae3-4327-92f4-31b4e08ceb62"
-  referenceNo: "599"
 2022-12-07 * "Assets:CurrentAssets:Cash:CashInHand" "MILRICH to Cash (BORROW 166.6k)"
   Assets:CurrentAssets:Cash:CashInHand 166600 HKD
   type: "MJ"
@@ -163,17 +152,17 @@
   sourceId: "4418"
   orderId: "12c06954-3f65-4e98-89a0-83e16f851068"
   referenceNo: "728"
-2022-12-08 * "Assets:CurrentAssets:Cash:CashInHand" "BEE GEMS to Cash (RETURN DEPOSIT)"
-  Assets:CurrentAssets:Cash:CashInHand 166600 HKD
+2022-12-07 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd" "Cash to BEE GEMS (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd 166600 HKD
   type: "MJ"
-  sourceId: "5124"
-  orderId: "83bd842a-fa5d-4427-8a28-788783d4c6fd"
-  referenceNo: "732"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd -166600 HKD
+  sourceId: "5126"
+  orderId: "80e96836-7ae3-4327-92f4-31b4e08ceb62"
+  referenceNo: "599"
+  Assets:CurrentAssets:Cash:CashInHand -166600 HKD
   type: "MJ"
-  sourceId: "5125"
-  orderId: "83bd842a-fa5d-4427-8a28-788783d4c6fd"
-  referenceNo: "732"
+  sourceId: "5127"
+  orderId: "80e96836-7ae3-4327-92f4-31b4e08ceb62"
+  referenceNo: "599"
 2022-12-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 166.6k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 166600 HKD
   type: "MJ"
@@ -185,28 +174,17 @@
   sourceId: "4416"
   orderId: "305786f8-0bcc-4d65-be9b-a0c762bafa0e"
   referenceNo: "727"
-2022-12-09 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 22.2k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 22200 HKD
+2022-12-08 * "Assets:CurrentAssets:Cash:CashInHand" "BEE GEMS to Cash (RETURN DEPOSIT)"
+  Assets:CurrentAssets:Cash:CashInHand 166600 HKD
   type: "MJ"
-  sourceId: "4413"
-  orderId: "f96f22a2-2799-4714-a986-2ab96c133a97"
-  referenceNo: "382"
-  Assets:CurrentAssets:Cash:CashInHand -22200 HKD
+  sourceId: "5124"
+  orderId: "83bd842a-fa5d-4427-8a28-788783d4c6fd"
+  referenceNo: "732"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd -166600 HKD
   type: "MJ"
-  sourceId: "4414"
-  orderId: "f96f22a2-2799-4714-a986-2ab96c133a97"
-  referenceNo: "382"
-2022-12-09 * "Assets:OtherAssets:Investment" "Cash to COM2000 (equity capital)"
-  Assets:OtherAssets:Investment 156948.84 HKD
-  type: "MJ"
-  sourceId: "4703"
-  orderId: "73b114b0-7168-4756-98c5-8623fcd24d7b"
-  referenceNo: "719"
-  Assets:CurrentAssets:Bank:BocSavingBank -156948.84 HKD
-  type: "MJ"
-  sourceId: "4704"
-  orderId: "73b114b0-7168-4756-98c5-8623fcd24d7b"
-  referenceNo: "719"
+  sourceId: "5125"
+  orderId: "83bd842a-fa5d-4427-8a28-788783d4c6fd"
+  referenceNo: "732"
 2022-12-09 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay052"
   Assets:CurrentAssets:Bank:BocSavingBank 41024.25 HKD
   type: "MJ"
@@ -229,40 +207,39 @@
   sourceId: "5051"
   orderId: "fbcafe9b-ce9c-431b-85fe-ceefde064017"
   referenceNo: "722"
-2022-12-12 * "Assets:CurrentAssets:Cash:CashInHand" "VD collection 4PCS GIA"
-  Assets:CurrentAssets:Cash:CashInHand 1460 USD
+2022-12-09 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 22.2k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 22200 HKD
   type: "MJ"
-  sourceId: "2279"
-  orderId: "4a9b2388-5089-4c1d-82d8-c062b9fa2d18"
-  referenceNo: "708"
-  Liabilities:CurrentLiabilities:AccountPayable -1460.00 USD
-  contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
+  sourceId: "4413"
+  orderId: "f96f22a2-2799-4714-a986-2ab96c133a97"
+  referenceNo: "382"
+  Assets:CurrentAssets:Cash:CashInHand -22200 HKD
   type: "MJ"
-  sourceId: "2278"
-  orderId: "4a9b2388-5089-4c1d-82d8-c062b9fa2d18"
-  referenceNo: "708"
-2022-12-12 * "Assets:CurrentAssets:Cash:CashInHand" "WWT - WE WIN TRADING to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 68000 HKD
+  sourceId: "4414"
+  orderId: "f96f22a2-2799-4714-a986-2ab96c133a97"
+  referenceNo: "382"
+2022-12-09 * "Assets:OtherAssets:Investment" "Cash to COM2000 (equity capital)"
+  Assets:OtherAssets:Investment 156948.84 HKD
   type: "MJ"
-  sourceId: "5122"
-  orderId: "b40efad6-5569-4c48-a132-efae31047848"
-  referenceNo: "583"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading -68000 HKD
+  sourceId: "4703"
+  orderId: "73b114b0-7168-4756-98c5-8623fcd24d7b"
+  referenceNo: "719"
+  Assets:CurrentAssets:Bank:BocSavingBank -156948.84 HKD
   type: "MJ"
-  sourceId: "5123"
-  orderId: "b40efad6-5569-4c48-a132-efae31047848"
-  referenceNo: "583"
-2022-12-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay053"
-  Assets:CurrentAssets:Bank:BocSavingBank 167449 HKD
+  sourceId: "4704"
+  orderId: "73b114b0-7168-4756-98c5-8623fcd24d7b"
+  referenceNo: "719"
+2022-12-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 68k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 68000 HKD
   type: "MJ"
-  sourceId: "3815"
-  orderId: "40ea0a1c-4b5a-4a63-aa78-0946b2ab8e6d"
-  referenceNo: "258"
-  Assets:CurrentAssets:Bank:KpayBank -167449 HKD
+  sourceId: "4407"
+  orderId: "f4e8e51a-3ce8-4363-beca-13303a0fd989"
+  referenceNo: "717"
+  Assets:CurrentAssets:Cash:CashInHand -68000 HKD
   type: "MJ"
-  sourceId: "3816"
-  orderId: "40ea0a1c-4b5a-4a63-aa78-0946b2ab8e6d"
-  referenceNo: "258"
+  sourceId: "4408"
+  orderId: "f4e8e51a-3ce8-4363-beca-13303a0fd989"
+  referenceNo: "717"
 2022-12-12 * "Assets:CurrentAssets:Cash:CashInHand" "Blue Star to Cash (RCVD USD100 *7.775)"
   Income:OtherIncome:MiscellaneousIncome 777.5 HKD
   type: "MJ"
@@ -284,28 +261,40 @@
   sourceId: "5181"
   orderId: "52654793-62b9-4475-8d33-73b2b4ba35e1"
   referenceNo: "737"
-2022-12-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 68k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 68000 HKD
+2022-12-12 * "Assets:CurrentAssets:Cash:CashInHand" "VD collection 4PCS GIA"
+  Assets:CurrentAssets:Cash:CashInHand 1460 USD
   type: "MJ"
-  sourceId: "4407"
-  orderId: "f4e8e51a-3ce8-4363-beca-13303a0fd989"
-  referenceNo: "717"
-  Assets:CurrentAssets:Cash:CashInHand -68000 HKD
+  sourceId: "2279"
+  orderId: "4a9b2388-5089-4c1d-82d8-c062b9fa2d18"
+  referenceNo: "708"
+  Liabilities:CurrentLiabilities:AccountPayable -1460.00 USD
+  contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
   type: "MJ"
-  sourceId: "4408"
-  orderId: "f4e8e51a-3ce8-4363-beca-13303a0fd989"
-  referenceNo: "717"
-2022-12-13 * "Assets:CurrentAssets:Cash:CashInHand" "borrow HKD 106000 from 217"
-  Assets:CurrentAssets:Cash:CashInHand 106000 HKD
+  sourceId: "2278"
+  orderId: "4a9b2388-5089-4c1d-82d8-c062b9fa2d18"
+  referenceNo: "708"
+2022-12-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay053"
+  Assets:CurrentAssets:Bank:BocSavingBank 167449 HKD
   type: "MJ"
-  sourceId: "4405"
-  orderId: "c973853f-7660-44dc-8ad1-158ba56b69c7"
-  referenceNo: "716"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -106000 HKD
+  sourceId: "3815"
+  orderId: "40ea0a1c-4b5a-4a63-aa78-0946b2ab8e6d"
+  referenceNo: "258"
+  Assets:CurrentAssets:Bank:KpayBank -167449 HKD
   type: "MJ"
-  sourceId: "4406"
-  orderId: "c973853f-7660-44dc-8ad1-158ba56b69c7"
-  referenceNo: "716"
+  sourceId: "3816"
+  orderId: "40ea0a1c-4b5a-4a63-aa78-0946b2ab8e6d"
+  referenceNo: "258"
+2022-12-12 * "Assets:CurrentAssets:Cash:CashInHand" "WWT - WE WIN TRADING to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 68000 HKD
+  type: "MJ"
+  sourceId: "5122"
+  orderId: "b40efad6-5569-4c48-a132-efae31047848"
+  referenceNo: "583"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading -68000 HKD
+  type: "MJ"
+  sourceId: "5123"
+  orderId: "b40efad6-5569-4c48-a132-efae31047848"
+  referenceNo: "583"
 2022-12-13 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd" "deposit HKD 106000 to SGV"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd 106000 HKD
   type: "MJ"
@@ -317,6 +306,17 @@
   sourceId: "4803"
   orderId: "1f5e770a-db09-4f27-a310-38413ca1f39f"
   referenceNo: "340"
+2022-12-13 * "Assets:CurrentAssets:Cash:CashInHand" "borrow HKD 106000 from 217"
+  Assets:CurrentAssets:Cash:CashInHand 106000 HKD
+  type: "MJ"
+  sourceId: "4405"
+  orderId: "c973853f-7660-44dc-8ad1-158ba56b69c7"
+  referenceNo: "716"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -106000 HKD
+  type: "MJ"
+  sourceId: "4406"
+  orderId: "c973853f-7660-44dc-8ad1-158ba56b69c7"
+  referenceNo: "716"
 2022-12-13 * "998 12345774 (VD)" "rcd USD 2055 from 217 to VD (mj 1460 + bill payment 235 + 360)"
   Liabilities:CurrentLiabilities:AccountPayable 1460.00 USD
   contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
@@ -351,17 +351,6 @@
   sourceId: "4404"
   orderId: "81bee148-112a-4831-9277-1f75ab407f30"
   referenceNo: "715"
-2022-12-16 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony" "Cash to Rstar - R-STAR (TONY) (DEPOSIT 4300USD7.775)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony 33432.5 HKD
-  type: "MJ"
-  sourceId: "5118"
-  orderId: "208de0a7-9d66-4ee9-99c8-2328414d32d2"
-  referenceNo: "714"
-  Assets:CurrentAssets:Cash:CashInHand -33432.5 HKD
-  type: "MJ"
-  sourceId: "5119"
-  orderId: "208de0a7-9d66-4ee9-99c8-2328414d32d2"
-  referenceNo: "714"
 2022-12-16 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 4300USD7.775)"
   Assets:CurrentAssets:Cash:CashInHand 33432.5 HKD
   type: "MJ"
@@ -373,55 +362,17 @@
   sourceId: "4402"
   orderId: "2c2f6b19-caf8-48f4-8b9c-75e25d3007fa"
   referenceNo: "712"
-2022-12-20 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay054"
-  Assets:CurrentAssets:Bank:BocSavingBank 95150 HKD
+2022-12-16 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony" "Cash to Rstar - R-STAR (TONY) (DEPOSIT 4300USD7.775)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony 33432.5 HKD
   type: "MJ"
-  sourceId: "3817"
-  orderId: "45e2caef-3ea2-46bb-b6eb-886f3c91c152"
-  referenceNo: "210"
-  Assets:CurrentAssets:Bank:KpayBank -95150 HKD
+  sourceId: "5118"
+  orderId: "208de0a7-9d66-4ee9-99c8-2328414d32d2"
+  referenceNo: "714"
+  Assets:CurrentAssets:Cash:CashInHand -33432.5 HKD
   type: "MJ"
-  sourceId: "3818"
-  orderId: "45e2caef-3ea2-46bb-b6eb-886f3c91c152"
-  referenceNo: "210"
-2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return USD 1460 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1460 USD
-  type: "MJ"
-  sourceId: "4315"
-  orderId: "0320b06d-e62e-42a9-945a-29e6e7738b5e"
-  referenceNo: "711"
-  Assets:CurrentAssets:Cash:CashInHand -1460 USD
-  type: "MJ"
-  sourceId: "4316"
-  orderId: "0320b06d-e62e-42a9-945a-29e6e7738b5e"
-  referenceNo: "711"
-2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK USD 179)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1391.72 HKD
-  type: "MJ"
-  sourceId: "4395"
-  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
-  referenceNo: "709"
-  Assets:CurrentAssets:Cash:CashInHand -777.5 HKD
-  type: "MJ"
-  sourceId: "4396"
-  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
-  referenceNo: "709"
-  Assets:CurrentAssets:Cash:CashInHand -614.22 HKD
-  type: "MJ"
-  sourceId: "4397"
-  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
-  referenceNo: "709"
-2022-12-20 * "Assets:CurrentAssets:Cash:CashInHand" "Rstar - R-STAR (TONY) to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 33432.5 HKD
-  type: "MJ"
-  sourceId: "5116"
-  orderId: "21c90b90-0b3f-40ac-a7bb-8b10160a3b85"
-  referenceNo: "707"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony -33432.5 HKD
-  type: "MJ"
-  sourceId: "5117"
-  orderId: "21c90b90-0b3f-40ac-a7bb-8b10160a3b85"
-  referenceNo: "707"
+  sourceId: "5119"
+  orderId: "208de0a7-9d66-4ee9-99c8-2328414d32d2"
+  referenceNo: "714"
 2022-12-20 * "Assets:CurrentAssets:Cash:CashInHand" "SHEETAL (FAR EAST) to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:CashInHand 10500 HKD
   type: "MJ"
@@ -433,28 +384,6 @@
   sourceId: "5115"
   orderId: "f4c7568a-f040-4c7e-87d2-363e635d3c5f"
   referenceNo: "706"
-2022-12-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
-  Assets:CurrentAssets:Bank:BocSavingBank -23000 HKD
-  type: "MJ"
-  sourceId: "1788"
-  orderId: "7e2e1865-99ae-42d5-a49f-4da8b5e04da9"
-  referenceNo: "705"
-  Assets:CurrentAssets:Bank:BocCurrentBank 23000 HKD
-  type: "MJ"
-  sourceId: "1789"
-  orderId: "7e2e1865-99ae-42d5-a49f-4da8b5e04da9"
-  referenceNo: "705"
-2022-12-20 * "Assets:CurrentAssets:Cash:CashInHand" "KIT - ANKIT GEMS to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand 39300 HKD
-  type: "MJ"
-  sourceId: "5090"
-  orderId: "7b20c527-aa1a-4f6e-9443-b3c1f6fff2f4"
-  referenceNo: "704"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd -39300 HKD
-  type: "MJ"
-  sourceId: "5091"
-  orderId: "7b20c527-aa1a-4f6e-9443-b3c1f6fff2f4"
-  referenceNo: "704"
 2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 49.8k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 49800 HKD
   type: "MJ"
@@ -471,6 +400,77 @@
   sourceId: "4400"
   orderId: "483abe50-8aa1-49fb-bd00-da232f6b04d1"
   referenceNo: "713"
+2022-12-20 * "Assets:CurrentAssets:Cash:CashInHand" "Rstar - R-STAR (TONY) to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 33432.5 HKD
+  type: "MJ"
+  sourceId: "5116"
+  orderId: "21c90b90-0b3f-40ac-a7bb-8b10160a3b85"
+  referenceNo: "707"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony -33432.5 HKD
+  type: "MJ"
+  sourceId: "5117"
+  orderId: "21c90b90-0b3f-40ac-a7bb-8b10160a3b85"
+  referenceNo: "707"
+2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK USD 179)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1391.72 HKD
+  type: "MJ"
+  sourceId: "4395"
+  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
+  referenceNo: "709"
+  Assets:CurrentAssets:Cash:CashInHand -777.5 HKD
+  type: "MJ"
+  sourceId: "4396"
+  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
+  referenceNo: "709"
+  Assets:CurrentAssets:Cash:CashInHand -614.22 HKD
+  type: "MJ"
+  sourceId: "4397"
+  orderId: "3b3655b4-73d6-4ddd-ad40-69d950588fee"
+  referenceNo: "709"
+2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return USD 1460 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1460 USD
+  type: "MJ"
+  sourceId: "4315"
+  orderId: "0320b06d-e62e-42a9-945a-29e6e7738b5e"
+  referenceNo: "711"
+  Assets:CurrentAssets:Cash:CashInHand -1460 USD
+  type: "MJ"
+  sourceId: "4316"
+  orderId: "0320b06d-e62e-42a9-945a-29e6e7738b5e"
+  referenceNo: "711"
+2022-12-20 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay054"
+  Assets:CurrentAssets:Bank:BocSavingBank 95150 HKD
+  type: "MJ"
+  sourceId: "3817"
+  orderId: "45e2caef-3ea2-46bb-b6eb-886f3c91c152"
+  referenceNo: "210"
+  Assets:CurrentAssets:Bank:KpayBank -95150 HKD
+  type: "MJ"
+  sourceId: "3818"
+  orderId: "45e2caef-3ea2-46bb-b6eb-886f3c91c152"
+  referenceNo: "210"
+2022-12-20 * "Assets:CurrentAssets:Cash:CashInHand" "KIT - ANKIT GEMS to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand 39300 HKD
+  type: "MJ"
+  sourceId: "5090"
+  orderId: "7b20c527-aa1a-4f6e-9443-b3c1f6fff2f4"
+  referenceNo: "704"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd -39300 HKD
+  type: "MJ"
+  sourceId: "5091"
+  orderId: "7b20c527-aa1a-4f6e-9443-b3c1f6fff2f4"
+  referenceNo: "704"
+2022-12-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
+  Assets:CurrentAssets:Bank:BocSavingBank -23000 HKD
+  type: "MJ"
+  sourceId: "1788"
+  orderId: "7e2e1865-99ae-42d5-a49f-4da8b5e04da9"
+  referenceNo: "705"
+  Assets:CurrentAssets:Bank:BocCurrentBank 23000 HKD
+  type: "MJ"
+  sourceId: "1789"
+  orderId: "7e2e1865-99ae-42d5-a49f-4da8b5e04da9"
+  referenceNo: "705"
 2022-12-21 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay055"
   Assets:CurrentAssets:Bank:BocSavingBank 2954 HKD
   type: "MJ"
@@ -493,17 +493,6 @@
   sourceId: "3822"
   orderId: "61d6ed48-ed47-40c0-a344-40cf3ef0f945"
   referenceNo: "710"
-2022-12-23 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
-  Assets:CurrentAssets:Bank:BocSavingBank -1700 HKD
-  type: "MJ"
-  sourceId: "1790"
-  orderId: "c04568eb-824a-4685-8493-66466570e7b2"
-  referenceNo: "691"
-  Assets:CurrentAssets:Bank:BocCurrentBank 1700 HKD
-  type: "MJ"
-  sourceId: "1791"
-  orderId: "c04568eb-824a-4685-8493-66466570e7b2"
-  referenceNo: "691"
 2022-12-23 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 3800)"
   Assets:CurrentAssets:Cash:CashInHand 3800 HKD
   type: "MJ"
@@ -515,6 +504,17 @@
   sourceId: "4394"
   orderId: "9d48878d-a6ef-4a86-8d5e-036d8ce0c7f9"
   referenceNo: "702"
+2022-12-23 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
+  Assets:CurrentAssets:Bank:BocSavingBank -1700 HKD
+  type: "MJ"
+  sourceId: "1790"
+  orderId: "c04568eb-824a-4685-8493-66466570e7b2"
+  referenceNo: "691"
+  Assets:CurrentAssets:Bank:BocCurrentBank 1700 HKD
+  type: "MJ"
+  sourceId: "1791"
+  orderId: "c04568eb-824a-4685-8493-66466570e7b2"
+  referenceNo: "691"
 2022-12-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 350k)"
   Assets:CurrentAssets:Bank:BocSavingBank -350000 HKD
   type: "MJ"
@@ -526,17 +526,6 @@
   sourceId: "4389"
   orderId: "620500c7-9b8f-4984-9ff0-6ff10012060d"
   referenceNo: "700"
-2022-12-29 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd 57400 HKD
-  type: "MJ"
-  sourceId: "5048"
-  orderId: "17be0385-256c-46ce-953e-ba90ab6a8cc2"
-  referenceNo: "692"
-  Assets:CurrentAssets:Cash:CashInHand -57400 HKD
-  type: "MJ"
-  sourceId: "5049"
-  orderId: "17be0385-256c-46ce-953e-ba90ab6a8cc2"
-  referenceNo: "692"
 2022-12-29 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 57.4k)"
   Assets:CurrentAssets:Cash:CashInHand 57400 HKD
   type: "MJ"
@@ -548,6 +537,28 @@
   sourceId: "4392"
   orderId: "6dda96ea-cb5f-42da-b119-9746ae906f63"
   referenceNo: "701"
+2022-12-29 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd 57400 HKD
+  type: "MJ"
+  sourceId: "5048"
+  orderId: "17be0385-256c-46ce-953e-ba90ab6a8cc2"
+  referenceNo: "692"
+  Assets:CurrentAssets:Cash:CashInHand -57400 HKD
+  type: "MJ"
+  sourceId: "5049"
+  orderId: "17be0385-256c-46ce-953e-ba90ab6a8cc2"
+  referenceNo: "692"
+2022-12-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay057"
+  Assets:CurrentAssets:Bank:BocSavingBank 34129.25 HKD
+  type: "MJ"
+  sourceId: "3823"
+  orderId: "1b3e896e-d5df-4869-ae3e-d1f61622670d"
+  referenceNo: "259"
+  Assets:CurrentAssets:Bank:KpayBank -34129.25 HKD
+  type: "MJ"
+  sourceId: "3824"
+  orderId: "1b3e896e-d5df-4869-ae3e-d1f61622670d"
+  referenceNo: "259"
 2022-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 57.4k)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 57400 HKD
   type: "MJ"
@@ -570,14 +581,3 @@
   sourceId: "5047"
   orderId: "d4d1eca5-de38-48bd-878a-752e4a714650"
   referenceNo: "690"
-2022-12-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay057"
-  Assets:CurrentAssets:Bank:BocSavingBank 34129.25 HKD
-  type: "MJ"
-  sourceId: "3823"
-  orderId: "1b3e896e-d5df-4869-ae3e-d1f61622670d"
-  referenceNo: "259"
-  Assets:CurrentAssets:Bank:KpayBank -34129.25 HKD
-  type: "MJ"
-  sourceId: "3824"
-  orderId: "1b3e896e-d5df-4869-ae3e-d1f61622670d"
-  referenceNo: "259"
