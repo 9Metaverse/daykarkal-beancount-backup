@@ -47,14 +47,6 @@
   referenceNo: "1464"
   orderId: "cb72f00d-c201-4941-a8e0-a200a5b65c78"
 2024-03-03 * "Invoice #380 AA39237"
-  Income:Sales:SalesItem:SellGoldJewelry -3223.00 HKD
-  category: "Gold Jewelry"
-  sku: "DDFF23051702000000000005"
-  qty: 1
-  referenceNo: "380"
-  orderId: "0dc13f1d-e294-42c9-a82a-b6338bc3e90f"
-  type: "Invoice Item"
-  sourceId: "bc31d25f-5137-4bf3-a782-afe4e7ca7058"
   Income:Sales:SalesItem:SellGoldJewelry -1950.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000226"
@@ -63,6 +55,14 @@
   orderId: "0dc13f1d-e294-42c9-a82a-b6338bc3e90f"
   type: "Invoice Item"
   sourceId: "f3c7083b-47ab-464a-a967-c46d79ed643b"
+  Income:Sales:SalesItem:SellGoldJewelry -3223.00 HKD
+  category: "Gold Jewelry"
+  sku: "DDFF23051702000000000005"
+  qty: 1
+  referenceNo: "380"
+  orderId: "0dc13f1d-e294-42c9-a82a-b6338bc3e90f"
+  type: "Invoice Item"
+  sourceId: "bc31d25f-5137-4bf3-a782-afe4e7ca7058"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "380"
   orderId: "0dc13f1d-e294-42c9-a82a-b6338bc3e90f"
@@ -233,6 +233,13 @@
   orderId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
   type: "Invoice Item"
   sourceId: "c10389b6-5286-4208-a3f3-791ae1662a0e"
+  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
+  description: "工費 380 X 2 件"
+  qty: 1
+  referenceNo: "383"
+  orderId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
+  type: "Invoice Item"
+  sourceId: "933adee0-4613-4bf1-b18b-e1eb53ccb363"
   Income:Sales:SalesItem:SellGoldJewelry -2503.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000119"
@@ -249,13 +256,6 @@
   orderId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
   type: "Invoice Item"
   sourceId: "7a12d112-1d28-4233-8448-1f7a39dc7016"
-  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
-  description: "工費 380 X 2 件"
-  qty: 1
-  referenceNo: "383"
-  orderId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
-  type: "Invoice Item"
-  sourceId: "933adee0-4613-4bf1-b18b-e1eb53ccb363"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "383"
   orderId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
@@ -263,6 +263,20 @@
   sourceId: "bd028d2d-8fa6-4a65-a67f-e4655cb652e6"
   contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
 2024-03-11 * "Invoice #384 AA39241"
+  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
+  description: "工費 380 X 2 件"
+  qty: 1
+  referenceNo: "384"
+  orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
+  type: "Invoice Item"
+  sourceId: "69c57af4-a22d-496f-bc22-101f057c4175"
+  Income:Sales:SalesItem:SellBespokeorotherFee -153.00 HKD
+  description: "2% Card Fee"
+  qty: 1
+  referenceNo: "384"
+  orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
+  type: "Invoice Item"
+  sourceId: "f0f8d7b7-ceb4-4158-95c6-77f17f2e7755"
   Income:Sales:SalesItem:SellGoldJewelry -4857.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051707000000000007"
@@ -279,20 +293,6 @@
   orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
   type: "Invoice Item"
   sourceId: "e9c33e1e-5576-46b0-9a37-627757e8796d"
-  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
-  description: "工費 380 X 2 件"
-  qty: 1
-  referenceNo: "384"
-  orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
-  type: "Invoice Item"
-  sourceId: "69c57af4-a22d-496f-bc22-101f057c4175"
-  Income:Sales:SalesItem:SellBespokeorotherFee -153.00 HKD
-  description: "2% Card Fee"
-  qty: 1
-  referenceNo: "384"
-  orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
-  type: "Invoice Item"
-  sourceId: "f0f8d7b7-ceb4-4158-95c6-77f17f2e7755"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "384"
   orderId: "3a93d636-7625-4006-b371-60d1851f5bc2"
@@ -1374,31 +1374,7 @@
   referenceNo: "905"
   orderId: "d67743c6-4f83-4b36-bdc6-f2164670aafa"
 2024-03-31 * "Invoice #843 Stock & COGS adjustment"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
-  category: "Other"
-  sku: "Processing 073"
-  qty: 1
-  referenceNo: "843"
-  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
-  type: "Invoice Item"
-  sourceId: "3267b5a8-e9f0-4aed-89c1-2f697a0770bb"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
-  category: "Other"
-  sku: "Processing 074"
-  qty: 1
-  referenceNo: "843"
-  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
-  type: "Invoice Item"
-  sourceId: "a44ea6ce-0f23-4e75-b4fb-49bfdb61f911"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
-  category: "Other"
-  sku: "Processing 075"
-  qty: 1
-  referenceNo: "843"
-  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
-  type: "Invoice Item"
-  sourceId: "862a094a-6aea-4e63-97e7-c84b2a56bad8"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
   category: "Other"
   sku: "Processing 076"
   qty: 1
@@ -1406,7 +1382,7 @@
   orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
   type: "Invoice Item"
   sourceId: "6d745e45-7ade-4da2-b06b-0ff0bf38279a"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
   category: "Other"
   sku: "Processing 077"
   qty: 1
@@ -1414,7 +1390,7 @@
   orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
   type: "Invoice Item"
   sourceId: "00568729-ebfc-435c-a9db-6937d41be1a6"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
   category: "Other"
   sku: "Processing 035"
   qty: 1
@@ -1422,7 +1398,7 @@
   orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
   type: "Invoice Item"
   sourceId: "6aa4daf4-c966-438d-ba0e-decba185a2ee"
-  Assets:CurrentAssets:ShopInventory:Jewelry -0.00 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
   category: "Other"
   sku: "Processing 082"
   qty: 1
@@ -1430,6 +1406,30 @@
   orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
   type: "Invoice Item"
   sourceId: "10721e6b-8b37-430d-8707-5647af785d81"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
+  category: "Other"
+  sku: "Processing 073"
+  qty: 1
+  referenceNo: "843"
+  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
+  type: "Invoice Item"
+  sourceId: "3267b5a8-e9f0-4aed-89c1-2f697a0770bb"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
+  category: "Other"
+  sku: "Processing 074"
+  qty: 1
+  referenceNo: "843"
+  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
+  type: "Invoice Item"
+  sourceId: "a44ea6ce-0f23-4e75-b4fb-49bfdb61f911"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
+  category: "Other"
+  sku: "Processing 075"
+  qty: 1
+  referenceNo: "843"
+  orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
+  type: "Invoice Item"
+  sourceId: "862a094a-6aea-4e63-97e7-c84b2a56bad8"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "843"
   orderId: "60a94adc-b1e6-4571-b688-6751307217b8"
