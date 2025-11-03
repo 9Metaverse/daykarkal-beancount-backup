@@ -22,3 +22,39 @@
   Income:Sales:Sales-Gold -42176 HKD
   Assets:Inventory:Gold:Gold-In-Stock -327.65 XAU {}
   Expenses:Cogs:Cogs-Gold
+2025-11-03 * "Reservation Delivery R#GR2025110300003S D#D20251103001"
+  rsv-ref: "GR2025110300003S"
+  del-ref: "D20251103001"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -44414.97 USDT @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251103001"
+  sourceId: "58256eae-f111-48b9-92dd-9dee09b68346"
+  orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock 344.36 XAU {}
+2025-11-03 * "Reservation Delivery R#GR2025110300004B D#D20251103002"
+  rsv-ref: "GR2025110300004B"
+  del-ref: "D20251103002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fengYang68008505 345682.00 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251103002"
+  sourceId: "53508e8e-6c67-4347-aa67-77d032f0d478"
+  orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
+  contact: " 68008505 (FENGYANG) [213f6578-72be-47bc-9bc4-544fbb06f829]"
+  Income:Sales:Sales-Gold -345682 HKD
+  Assets:Inventory:Gold:Gold-In-Stock -344.36 XAU {}
+  Expenses:Cogs:Cogs-Gold
+2025-11-03 * "Reservation Payment R#GR2025110300004B P#P20251103001"
+  rsv-ref: "GR2025110300004B"
+  pay-ref: "P20251103001"
+  Assets:CurrentAssets:Cash:Cash金料 345682.00 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251103001"
+  sourceId: "84b36cc4-424f-414f-b684-78bada8d9a79"
+  orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fengYang68008505 -345682.00 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251103001"
+  sourceId: "84b36cc4-424f-414f-b684-78bada8d9a79"
+  orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
+  contact: " 68008505 (FENGYANG) [213f6578-72be-47bc-9bc4-544fbb06f829]"
