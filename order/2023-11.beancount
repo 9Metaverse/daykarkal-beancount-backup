@@ -79,6 +79,13 @@
   referenceNo: "864"
   orderId: "f4438aa7-0219-4a9e-a5f1-e146e8c74d83"
   type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 0.00 HKD
+  qty: "0"
+  description: "COST BREAKDOWN = 498.86241(金重) + 4.45 (工費)  = hkd 503.31 / g"
+  referenceNo: "864"
+  orderId: "f4438aa7-0219-4a9e-a5f1-e146e8c74d83"
+  type: "Bill Item"
+  sourceId: "ce31bdde-4c50-49b4-8c03-a4aa4c513897"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGoldJewelry 503307.41 HKD
   category: "Gold Jewelry"
   sku: "GN000001"
@@ -87,13 +94,6 @@
   orderId: "f4438aa7-0219-4a9e-a5f1-e146e8c74d83"
   type: "Bill Item"
   sourceId: "b50c4330-875e-4ad2-b6fd-8aaddd32266e"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 0.00 HKD
-  qty: "0"
-  description: "COST BREAKDOWN = 498.86241(金重) + 4.45 (工費)  = hkd 503.31 / g"
-  referenceNo: "864"
-  orderId: "f4438aa7-0219-4a9e-a5f1-e146e8c74d83"
-  type: "Bill Item"
-  sourceId: "ce31bdde-4c50-49b4-8c03-a4aa4c513897"
   Liabilities:CurrentLiabilities:AccountPayable
   referenceNo: "864"
   orderId: "f4438aa7-0219-4a9e-a5f1-e146e8c74d83"
@@ -362,7 +362,7 @@
   sourceId: "65102cfd-599a-4435-aff9-a4d37385d2b5"
   Income:Sales:SalesItem:Sell18kJewelry -30.00 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 1
   referenceNo: "286"
   orderId: "12c7037d-0f26-48f7-a988-a2a1a87df279"
@@ -590,14 +590,6 @@
   referenceNo: "875"
   orderId: "7cb6d62c-0e19-4365-988c-bf793dbe3a12"
 2023-11-13 * "Invoice #294 "
-  Income:Sales:SalesItem:SellGoldJewelry -3429.00 HKD
-  category: "Gold Jewelry"
-  sku: "DDFF23051202000000000008"
-  qty: 1
-  referenceNo: "294"
-  orderId: "37afb02c-1ae8-4286-8c72-6e844ef3a1ed"
-  type: "Invoice Item"
-  sourceId: "3c8143a2-e52b-47ba-b05b-829d46875e8a"
   Income:Sales:SalesItem:SellGoldJewelry -2019.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051707000000000012"
@@ -606,6 +598,14 @@
   orderId: "37afb02c-1ae8-4286-8c72-6e844ef3a1ed"
   type: "Invoice Item"
   sourceId: "39b88d07-6125-4714-9337-612ffac7d941"
+  Income:Sales:SalesItem:SellGoldJewelry -3429.00 HKD
+  category: "Gold Jewelry"
+  sku: "DDFF23051202000000000008"
+  qty: 1
+  referenceNo: "294"
+  orderId: "37afb02c-1ae8-4286-8c72-6e844ef3a1ed"
+  type: "Invoice Item"
+  sourceId: "3c8143a2-e52b-47ba-b05b-829d46875e8a"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "294"
   orderId: "37afb02c-1ae8-4286-8c72-6e844ef3a1ed"
@@ -1151,7 +1151,7 @@
   referenceNo: "907"
   orderId: "28cd91e9-da4a-4786-9f6a-e0f6b51ba251"
 2023-11-20 * "Invoice #300 退貨給翠綠兩件 (B2365 / E2312) - 消數"
-  Assets:CurrentAssets:ShopInventory:Jewelry -1598.40 CNY
+  Income:Sales:SalesItem:SellGoldJewelry -1598.40 CNY
   category: "Gold Jewelry"
   sku: "DDFF23051706000000000008"
   qty: 1
@@ -1159,7 +1159,7 @@
   orderId: "60099056-d5f7-4203-9783-2102c05f2469"
   type: "Invoice Item"
   sourceId: "a125feec-ace0-4d53-99d0-db200fd93336"
-  Assets:CurrentAssets:ShopInventory:Jewelry -2000.00 CNY
+  Income:Sales:SalesItem:SellGoldJewelry -2000.00 CNY
   category: "Gold Jewelry"
   sku: "DDFF23051704000000000011"
   qty: 1
@@ -1265,7 +1265,7 @@
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1273,7 +1273,7 @@
   sourceId: "42d86640-c306-4de6-8515-9b771dd48e93"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1281,7 +1281,7 @@
   sourceId: "2dc83ebd-f1f7-4b63-b57f-7b95bd90c6bc"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1289,7 +1289,7 @@
   sourceId: "a727e9af-43fc-4ee9-bccd-0f6bca0eb12a"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1297,7 +1297,7 @@
   sourceId: "0bfac893-fac2-40db-ac23-ca7f234d7ff4"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1305,7 +1305,7 @@
   sourceId: "8bc2279e-063f-4589-8009-dd7a3e7a3554"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 365.61 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 5
   referenceNo: "886"
   orderId: "b57b6f71-b5af-455c-bead-4b282609092e"
@@ -1323,7 +1323,7 @@
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 126.49 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 2
   referenceNo: "1261"
   orderId: "d0232c4b-f3a9-45d3-aa49-611fcf0acc8d"
@@ -1331,7 +1331,7 @@
   sourceId: "93bcf738-1330-4b0f-8d9f-5a3e97dc0ae4"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 252.98 HKD
   category: "Jewelry"
-  sku: "HM000002"
+  sku: ""
   qty: 4
   referenceNo: "1261"
   orderId: "d0232c4b-f3a9-45d3-aa49-611fcf0acc8d"
