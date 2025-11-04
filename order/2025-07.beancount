@@ -1,14 +1,6 @@
 ; ORDER transactions for 2025-07
 
 2025-07-01 * "Invoice #740 合併項鏈"
-  Assets:CurrentAssets:ShopInventory:Jewelry -2001.00 HKD
-  category: "Jewelry"
-  sku: "DDFFFFFF0200000000000022"
-  qty: 1
-  referenceNo: "740"
-  orderId: "dc7d7297-14aa-4996-9ab9-5ddef584a44d"
-  type: "Invoice Item"
-  sourceId: "3f69e554-fd16-42fe-ba22-d8debbd02c2a"
   Assets:CurrentAssets:ShopInventory:Jewelry --3521.00 HKD
   category: "Jewelry"
   sku: "DK20250701002"
@@ -25,6 +17,14 @@
   orderId: "dc7d7297-14aa-4996-9ab9-5ddef584a44d"
   type: "Invoice Item"
   sourceId: "b58fe354-9c67-4f4c-bdcb-2dbcfd407bde"
+  Assets:CurrentAssets:ShopInventory:Jewelry -2001.00 HKD
+  category: "Jewelry"
+  sku: "DDFFFFFF0200000000000022"
+  qty: 1
+  referenceNo: "740"
+  orderId: "dc7d7297-14aa-4996-9ab9-5ddef584a44d"
+  type: "Invoice Item"
+  sourceId: "3f69e554-fd16-42fe-ba22-d8debbd02c2a"
   Assets:CurrentAssets:ShopInventory:Jewelry -2178.00 HKD
   category: "Jewelry"
   sku: "DDFFFFFF0200000000000021"
@@ -645,6 +645,22 @@
   referenceNo: "1366"
   orderId: "d7d4eff6-c10d-4917-826d-0528b52db346"
 2025-07-07 * "Invoice #745 合併項鏈"
+  Assets:CurrentAssets:ShopInventory:Jewelry -684.00 HKD
+  category: "Jewelry"
+  sku: "DD20250707002"
+  qty: 1
+  referenceNo: "745"
+  orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
+  type: "Invoice Item"
+  sourceId: "17bdaeb4-4816-42c7-be91-0457db056869"
+  Assets:CurrentAssets:ShopInventory:Jewelry -684.00 HKD
+  category: "Jewelry"
+  sku: "DD20250707001"
+  qty: 1
+  referenceNo: "745"
+  orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
+  type: "Invoice Item"
+  sourceId: "cd7b3b33-cd67-47f4-9e65-b51de9822eb5"
   Assets:CurrentAssets:ShopInventory:Jewelry --3477.00 HKD
   category: "Jewelry"
   sku: "DD20250707005"
@@ -693,14 +709,6 @@
   orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
   type: "Invoice Item"
   sourceId: "19b43595-a550-4e14-9600-081fc596daab"
-  Assets:CurrentAssets:ShopInventory:Jewelry -684.00 HKD
-  category: "Jewelry"
-  sku: "DD20250707002"
-  qty: 1
-  referenceNo: "745"
-  orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
-  type: "Invoice Item"
-  sourceId: "17bdaeb4-4816-42c7-be91-0457db056869"
   Assets:CurrentAssets:ShopInventory:Jewelry -3974.00 HKD
   category: "Jewelry"
   sku: "DDFFFFFF0200000000000018"
@@ -709,14 +717,6 @@
   orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
   type: "Invoice Item"
   sourceId: "40a3bb2c-c03d-41d4-82bc-b1f6e39860a0"
-  Assets:CurrentAssets:ShopInventory:Jewelry -684.00 HKD
-  category: "Jewelry"
-  sku: "DD20250707001"
-  qty: 1
-  referenceNo: "745"
-  orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
-  type: "Invoice Item"
-  sourceId: "cd7b3b33-cd67-47f4-9e65-b51de9822eb5"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "745"
   orderId: "d5299621-bddb-4155-87c8-93d555db54bb"
@@ -2193,6 +2193,37 @@
   sourceId: "85f3d1f0-7d60-45d0-af54-5fb6383d62bf"
   referenceNo: "1382"
   orderId: "bad84182-8e24-49e5-8448-5749189619d2"
+2025-07-25 * "Bill #1404 BOC VISA Card - Sam 7月 2025"
+  referenceNo: "1404"
+  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  type: "Bill"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 1654.84 HKD
+  qty: "1"
+  description: "Oversea Trip - Korea Expenses"
+  referenceNo: "1404"
+  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  type: "Bill Item"
+  sourceId: "91853eb6-ee06-4f76-9f2e-619b51acbdc0"
+  Expenses:GeneralExpense:Subscriptions 4272.07 HKD
+  qty: "1"
+  description: "DORIS 6月工資"
+  referenceNo: "1404"
+  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  type: "Bill Item"
+  sourceId: "5550911f-4c11-46e6-9f4e-92005f02fde7"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 2731.91 HKD
+  qty: "1"
+  description: "Milways Gold - 淘寶雜項"
+  referenceNo: "1404"
+  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  type: "Bill Item"
+  sourceId: "eeb3308a-efd3-43e1-916f-758133049cce"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "1404"
+  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  type: "Bill"
+  sourceId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
+  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 2025-07-25 * "Bill #1405 BOC VISA Card - David 7月 2025"
   referenceNo: "1405"
   orderId: "2d2cbdb4-5cce-47b9-98be-315de9fb5fe4"
@@ -2211,7 +2242,7 @@
   orderId: "2d2cbdb4-5cce-47b9-98be-315de9fb5fe4"
   type: "Bill Item"
   sourceId: "8cd34956-f569-4be6-be65-d4a67c1f0acd"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 93.00 HKD
+  Expenses:GeneralExpense:Subscriptions 93.00 HKD
   qty: "1"
   description: "集團 CCTV監控系統訂閱費 TP-LINK GLOBAL INC. 2 July 2025"
   referenceNo: "1405"
@@ -2244,37 +2275,6 @@
   orderId: "2d2cbdb4-5cce-47b9-98be-315de9fb5fe4"
   type: "Bill"
   sourceId: "2d2cbdb4-5cce-47b9-98be-315de9fb5fe4"
-  contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-2025-07-25 * "Bill #1404 BOC VISA Card - Sam 7月 2025"
-  referenceNo: "1404"
-  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
-  type: "Bill"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 1654.84 HKD
-  qty: "1"
-  description: "Oversea Trip - Korea Expenses"
-  referenceNo: "1404"
-  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
-  type: "Bill Item"
-  sourceId: "91853eb6-ee06-4f76-9f2e-619b51acbdc0"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 4272.07 HKD
-  qty: "1"
-  description: "DORIS 6月工資"
-  referenceNo: "1404"
-  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
-  type: "Bill Item"
-  sourceId: "5550911f-4c11-46e6-9f4e-92005f02fde7"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited 2731.91 HKD
-  qty: "1"
-  description: "Milways Gold - 淘寶雜項"
-  referenceNo: "1404"
-  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
-  type: "Bill Item"
-  sourceId: "eeb3308a-efd3-43e1-916f-758133049cce"
-  Liabilities:CurrentLiabilities:AccountPayable
-  referenceNo: "1404"
-  orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
-  type: "Bill"
-  sourceId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
   contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 2025-07-25 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1404 #63368179-2cbd-4b98-b71b-a7be1104c81c"
   Liabilities:CurrentLiabilities:AccountPayable 8658.82 HKD
@@ -2628,38 +2628,6 @@
   orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
   type: "Invoice Item"
   sourceId: "4001368c-a88a-4b2e-9f58-21d197131b37"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2277.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000173"
-  qty: 1
-  referenceNo: "760"
-  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
-  type: "Invoice Item"
-  sourceId: "5f953786-87d1-482f-9b8f-c8ad1545699a"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2501.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000174"
-  qty: 1
-  referenceNo: "760"
-  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
-  type: "Invoice Item"
-  sourceId: "9805216b-f62c-4115-9699-7e04513a8fcf"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2518.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000186"
-  qty: 1
-  referenceNo: "760"
-  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
-  type: "Invoice Item"
-  sourceId: "d4280594-36c7-4863-9d3c-f22e1468b91c"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2493.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000183"
-  qty: 1
-  referenceNo: "760"
-  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
-  type: "Invoice Item"
-  sourceId: "7956c394-cb3f-493c-8cc5-e0032d0bbab3"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -1471.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051206000000000004"
@@ -2716,6 +2684,38 @@
   orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
   type: "Invoice Item"
   sourceId: "1fa75f39-ee0f-4dfd-a951-9adda93d2587"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2277.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000173"
+  qty: 1
+  referenceNo: "760"
+  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
+  type: "Invoice Item"
+  sourceId: "5f953786-87d1-482f-9b8f-c8ad1545699a"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2501.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000174"
+  qty: 1
+  referenceNo: "760"
+  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
+  type: "Invoice Item"
+  sourceId: "9805216b-f62c-4115-9699-7e04513a8fcf"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2518.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000186"
+  qty: 1
+  referenceNo: "760"
+  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
+  type: "Invoice Item"
+  sourceId: "d4280594-36c7-4863-9d3c-f22e1468b91c"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2493.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000183"
+  qty: 1
+  referenceNo: "760"
+  orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
+  type: "Invoice Item"
+  sourceId: "7956c394-cb3f-493c-8cc5-e0032d0bbab3"
   Assets:CurrentAssets:AccountReceivable
   referenceNo: "760"
   orderId: "1314dadb-3f22-45a4-b0a4-0e7fb7034926"
@@ -2734,18 +2734,6 @@
   referenceNo: "772"
   orderId: "d28d15f4-ccda-466b-9b5b-816609e1f6b8"
   contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
-2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #758 #b8944b2b-3539-4b3c-bec5-0a08cdff852d"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 44072.00 HKD
-  type: "Invoice Payment"
-  sourceId: "b8944b2b-3539-4b3c-bec5-0a08cdff852d"
-  referenceNo: "758"
-  orderId: "d2d3bef3-b942-4409-a99e-a38e8fc4baeb"
-  Assets:CurrentAssets:AccountReceivable -44072.00 HKD
-  type: "Invoice Payment"
-  sourceId: "b8944b2b-3539-4b3c-bec5-0a08cdff852d"
-  referenceNo: "758"
-  orderId: "d2d3bef3-b942-4409-a99e-a38e8fc4baeb"
-  contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #766 #52b96220-0a01-40a6-abc0-487818a73702"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 59584.00 HKD
   type: "Invoice Payment"
@@ -2757,6 +2745,18 @@
   sourceId: "52b96220-0a01-40a6-abc0-487818a73702"
   referenceNo: "766"
   orderId: "ed54393c-3007-44c6-95ab-171bbbdf648f"
+  contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #758 #b8944b2b-3539-4b3c-bec5-0a08cdff852d"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 44072.00 HKD
+  type: "Invoice Payment"
+  sourceId: "b8944b2b-3539-4b3c-bec5-0a08cdff852d"
+  referenceNo: "758"
+  orderId: "d2d3bef3-b942-4409-a99e-a38e8fc4baeb"
+  Assets:CurrentAssets:AccountReceivable -44072.00 HKD
+  type: "Invoice Payment"
+  sourceId: "b8944b2b-3539-4b3c-bec5-0a08cdff852d"
+  referenceNo: "758"
+  orderId: "d2d3bef3-b942-4409-a99e-a38e8fc4baeb"
   contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #776 #b9ccab6e-b831-4826-a8bb-cf5216186c6d"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan 6315.00 HKD
@@ -3050,14 +3050,6 @@
   orderId: "5dd62572-64b8-408e-9fc8-a5c105a3f493"
   contact: "852 60772290 (RainbowMan) [e4e61b47-28c5-4337-9624-a32f61f58df2]"
 2025-07-31 * "Invoice #759 Gold Jewelry G17 to 417 @$831"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -781.00 HKD
-  category: "Gold Jewelry"
-  sku: "DDFF2305120A000000000017"
-  qty: 1
-  referenceNo: "759"
-  orderId: "612bb2a6-e699-4116-b9d8-24a93aac4a14"
-  type: "Invoice Item"
-  sourceId: "94cc27bf-8176-4450-81f6-909482f36a3a"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -747.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000108"
@@ -3178,6 +3170,14 @@
   orderId: "612bb2a6-e699-4116-b9d8-24a93aac4a14"
   type: "Invoice Item"
   sourceId: "736b7f20-0ae6-4d3d-8381-d19f59f6cb0b"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -781.00 HKD
+  category: "Gold Jewelry"
+  sku: "DDFF2305120A000000000017"
+  qty: 1
+  referenceNo: "759"
+  orderId: "612bb2a6-e699-4116-b9d8-24a93aac4a14"
+  type: "Invoice Item"
+  sourceId: "94cc27bf-8176-4450-81f6-909482f36a3a"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -3805.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF2305120A000000000061"
@@ -3352,6 +3352,46 @@
   sourceId: "d2d3bef3-b942-4409-a99e-a38e8fc4baeb"
   contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 2025-07-31 * "Invoice #761 Gold Jewelry G17 to 417 @$831"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1977.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000159"
+  qty: 1
+  referenceNo: "761"
+  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
+  type: "Invoice Item"
+  sourceId: "85b2f99b-abe5-4f45-b5f7-dfd7d327071a"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2667.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000165"
+  qty: 1
+  referenceNo: "761"
+  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
+  type: "Invoice Item"
+  sourceId: "8de4513e-0d8a-4ff6-9a44-87ff568b1d76"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2642.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000202"
+  qty: 1
+  referenceNo: "761"
+  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
+  type: "Invoice Item"
+  sourceId: "c03b257e-bda6-48de-9c9c-34d458a97ed2"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -2617.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000203"
+  qty: 1
+  referenceNo: "761"
+  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
+  type: "Invoice Item"
+  sourceId: "1eb5f677-b9ba-4c98-811b-8e49073d27ad"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -7362.00 HKD
+  category: "Gold Jewelry"
+  sku: "DDFF23051205000000000015"
+  qty: 1
+  referenceNo: "761"
+  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
+  type: "Invoice Item"
+  sourceId: "cc3ecc49-2b8b-4de1-a98d-e4184dbe80a7"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -4420.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000189"
@@ -3400,38 +3440,6 @@
   orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
   type: "Invoice Item"
   sourceId: "6ae6cee8-f2cc-4226-8c48-8b607b2ea4d4"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1977.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000159"
-  qty: 1
-  referenceNo: "761"
-  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
-  type: "Invoice Item"
-  sourceId: "85b2f99b-abe5-4f45-b5f7-dfd7d327071a"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2667.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000165"
-  qty: 1
-  referenceNo: "761"
-  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
-  type: "Invoice Item"
-  sourceId: "8de4513e-0d8a-4ff6-9a44-87ff568b1d76"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2642.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000202"
-  qty: 1
-  referenceNo: "761"
-  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
-  type: "Invoice Item"
-  sourceId: "c03b257e-bda6-48de-9c9c-34d458a97ed2"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -2617.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000203"
-  qty: 1
-  referenceNo: "761"
-  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
-  type: "Invoice Item"
-  sourceId: "1eb5f677-b9ba-4c98-811b-8e49073d27ad"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -3274.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000220"
@@ -3448,14 +3456,6 @@
   orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
   type: "Invoice Item"
   sourceId: "bbdde799-41a0-4767-b875-6bf2f07227d7"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -7362.00 HKD
-  category: "Gold Jewelry"
-  sku: "DDFF23051205000000000015"
-  qty: 1
-  referenceNo: "761"
-  orderId: "7d644a81-8e7a-4f4c-b69e-6545e2f64983"
-  type: "Invoice Item"
-  sourceId: "cc3ecc49-2b8b-4de1-a98d-e4184dbe80a7"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -3157.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000190"
@@ -3694,14 +3694,6 @@
   orderId: "d28d15f4-ccda-466b-9b5b-816609e1f6b8"
   type: "Invoice Item"
   sourceId: "8de8ac0b-96f1-4bc5-b06a-fd4cb5c0750f"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -4745.00 HKD
-  category: "Gold Jewelry"
-  sku: "DDFF23051702000000000006"
-  qty: 1
-  referenceNo: "772"
-  orderId: "d28d15f4-ccda-466b-9b5b-816609e1f6b8"
-  type: "Invoice Item"
-  sourceId: "59e967c6-6836-47a1-89bc-0f82dff30fb3"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -2917.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000227"
@@ -3726,6 +3718,14 @@
   orderId: "d28d15f4-ccda-466b-9b5b-816609e1f6b8"
   type: "Invoice Item"
   sourceId: "99a2a718-928c-4d1c-b7b4-15faef96d43f"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -4745.00 HKD
+  category: "Gold Jewelry"
+  sku: "DDFF23051702000000000006"
+  qty: 1
+  referenceNo: "772"
+  orderId: "d28d15f4-ccda-466b-9b5b-816609e1f6b8"
+  type: "Invoice Item"
+  sourceId: "59e967c6-6836-47a1-89bc-0f82dff30fb3"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -2427.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051702000000000008"
@@ -4105,6 +4105,14 @@
   orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
   type: "Invoice Item"
   sourceId: "710ca927-b60c-4753-9db3-76b2732e110e"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1654.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000020"
+  qty: 1
+  referenceNo: "773"
+  orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+  type: "Invoice Item"
+  sourceId: "47bf631f-0055-4056-8846-26d8a6d026b3"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -9083.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051206000000000006"
@@ -4121,14 +4129,6 @@
   orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
   type: "Invoice Item"
   sourceId: "b0cb3181-a0fe-4c75-b146-9d754296c985"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1654.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000020"
-  qty: 1
-  referenceNo: "773"
-  orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-  type: "Invoice Item"
-  sourceId: "47bf631f-0055-4056-8846-26d8a6d026b3"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -3141.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051706000000000005"
@@ -4206,6 +4206,14 @@
   sourceId: "93124b1c-960c-417f-ac9f-3741ecd2470f"
   contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 2025-07-31 * "Invoice #766 Gold Jewelry G17 to 417 @$831"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -4512.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000160"
+  qty: 1
+  referenceNo: "766"
+  orderId: "ed54393c-3007-44c6-95ab-171bbbdf648f"
+  type: "Invoice Item"
+  sourceId: "741966d7-4f30-4341-8ad9-6f1a5bea1366"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -4063.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000194"
@@ -4262,14 +4270,6 @@
   orderId: "ed54393c-3007-44c6-95ab-171bbbdf648f"
   type: "Invoice Item"
   sourceId: "7a0f60c7-8bdf-46cc-8402-57b0acbe936c"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -4512.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000160"
-  qty: 1
-  referenceNo: "766"
-  orderId: "ed54393c-3007-44c6-95ab-171bbbdf648f"
-  type: "Invoice Item"
-  sourceId: "741966d7-4f30-4341-8ad9-6f1a5bea1366"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -5875.00 HKD
   category: "Gold Jewelry"
   sku: "DDFF23051701000000000005"
@@ -4476,22 +4476,6 @@
   sourceId: "9c475a34-4591-459d-bda2-0d35c17ffb2b"
   contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 2025-07-31 * "Invoice #771 Gold Jewelry G17 to 417 @$831"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1146.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000057"
-  qty: 1
-  referenceNo: "771"
-  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
-  type: "Invoice Item"
-  sourceId: "607476db-a858-4314-94d3-3bba0e1254e7"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -963.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000050"
-  qty: 1
-  referenceNo: "771"
-  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
-  type: "Invoice Item"
-  sourceId: "e7d091b4-91b7-47fb-b271-ac7dac5a6d70"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -1013.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000052"
@@ -4516,30 +4500,6 @@
   orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
   type: "Invoice Item"
   sourceId: "0883b164-e7ec-49cc-b0c6-e0244c5707de"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1130.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000067"
-  qty: 1
-  referenceNo: "771"
-  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
-  type: "Invoice Item"
-  sourceId: "a876ed02-2e84-40c9-991f-e0e98b3623b3"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1130.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000065"
-  qty: 1
-  referenceNo: "771"
-  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
-  type: "Invoice Item"
-  sourceId: "5e9ebe80-7310-4802-b6e7-906f5297b51b"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry -1088.00 HKD
-  category: "Gold Jewelry"
-  sku: "DD2310200000000000000063"
-  qty: 1
-  referenceNo: "771"
-  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
-  type: "Invoice Item"
-  sourceId: "fe195a7a-a1c2-4906-ac9a-9f9593de6bea"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -31103.00 HKD
   category: "Gold Jewelry"
   sku: "DD2024112800000002"
@@ -4572,6 +4532,46 @@
   orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
   type: "Invoice Item"
   sourceId: "cae32388-591f-47e3-8fc7-bb6eed55a339"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1146.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000057"
+  qty: 1
+  referenceNo: "771"
+  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
+  type: "Invoice Item"
+  sourceId: "607476db-a858-4314-94d3-3bba0e1254e7"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -963.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000050"
+  qty: 1
+  referenceNo: "771"
+  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
+  type: "Invoice Item"
+  sourceId: "e7d091b4-91b7-47fb-b271-ac7dac5a6d70"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1130.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000067"
+  qty: 1
+  referenceNo: "771"
+  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
+  type: "Invoice Item"
+  sourceId: "a876ed02-2e84-40c9-991f-e0e98b3623b3"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1130.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000065"
+  qty: 1
+  referenceNo: "771"
+  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
+  type: "Invoice Item"
+  sourceId: "5e9ebe80-7310-4802-b6e7-906f5297b51b"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry -1088.00 HKD
+  category: "Gold Jewelry"
+  sku: "DD2310200000000000000063"
+  qty: 1
+  referenceNo: "771"
+  orderId: "93ddfc58-f23b-45d5-b81b-7816e4696c78"
+  type: "Invoice Item"
+  sourceId: "fe195a7a-a1c2-4906-ac9a-9f9593de6bea"
   Assets:CurrentAssets:ShopInventory:GoldJewelry -1171.00 HKD
   category: "Gold Jewelry"
   sku: "DD2310200000000000000075"
