@@ -12,3 +12,30 @@
   sourceId: "d1396f20-3c19-4056-9099-72b097be3d7f"
   referenceNo: "1479"
   orderId: "04577cee-913e-4c71-8ae0-7d481ca05f6a"
+2025-11-05 * "Invoice #846 Stock BR2524"
+  Income:Sales:SalesItem:Sell18kJewelry -4900.00 HKD
+  category: "Jewelry"
+  sku: "DD2025062400000006"
+  qty: 1
+  referenceNo: "846"
+  orderId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
+  type: "Invoice Item"
+  sourceId: "a7e4b700-260c-40c4-8fbe-e7e7d973f380"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "846"
+  orderId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
+  type: "Invoice"
+  sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
+  contact: "852 97046812 (NoName) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+2025-11-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #846 #277b5aa9-b33b-4f7d-b37f-04d823acea2a"
+  Assets:CurrentAssets:Bank:BocSavingBank 4900.00 HKD
+  type: "Invoice Payment"
+  sourceId: "277b5aa9-b33b-4f7d-b37f-04d823acea2a"
+  referenceNo: "846"
+  orderId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
+  Assets:CurrentAssets:AccountReceivable -4900.00 HKD
+  type: "Invoice Payment"
+  sourceId: "277b5aa9-b33b-4f7d-b37f-04d823acea2a"
+  referenceNo: "846"
+  orderId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
+  contact: "852 97046812 (NoName) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
