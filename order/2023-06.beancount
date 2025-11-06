@@ -2376,11 +2376,9 @@ PROCESS FEE (HKD 450) = HKD 96613"
   type: "Bill Item"
   sourceId: "46860f45-f55a-4856-b7b5-c0fdccd80edd"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 350.00 HKD
-  qty: "1"
-  description: "COST BREAKDOWN RG2309:
-DDFFFFFF0800005416867838 #5416867838 (HKD 42837)
-DDFFFFFF0B00000000000020 / S0051 (HKD 2364)
-PROCESSING FEE (HKD 350) = HKD 45551"
+  category: "Other"
+  sku: "PROCESSING088"
+  qty: 1
   referenceNo: "621"
   orderId: "1d1c11fd-2d39-4dda-b268-43657a0cac45"
   type: "Bill Item"
@@ -2423,12 +2421,10 @@ PROCESSING FEE (HKD 350) = HKD 47054"
   orderId: "1d1c11fd-2d39-4dda-b268-43657a0cac45"
   type: "Bill Item"
   sourceId: "8d477867-1bf0-499b-b712-07670773f43f"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee -350.00 HKD
-  qty: "-1"
-  description: "COST BREAKDOWN RG2309:
-DDFFFFFF0800005416867838 #5416867838 (HKD 42837)
-DDFFFFFF0B00000000000020 / S0051 (HKD 2364)
-PROCESSING FEE (HKD 350) = HKD 45551"
+  Assets:CurrentAssets:ShopInventory:Jewelry -350.00 HKD
+  category: "Other"
+  sku: "PROCESSING088"
+  qty: -1
   referenceNo: "621"
   orderId: "1d1c11fd-2d39-4dda-b268-43657a0cac45"
   type: "Bill Item"
