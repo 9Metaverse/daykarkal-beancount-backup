@@ -66,6 +66,17 @@
   sourceId: "5937"
   orderId: "0a5f389c-3c72-400c-a9a1-9e0fd6d6cb8d"
   referenceNo: "1151"
+2025-08-26 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 40000 HKD
+  type: "MJ"
+  sourceId: "5918"
+  orderId: "5a8e1791-29f8-49f1-84de-1fa35d44a175"
+  referenceNo: "1142"
+  Assets:CurrentAssets:Bank:BocSavingBank -40000 HKD
+  type: "MJ"
+  sourceId: "5919"
+  orderId: "5a8e1791-29f8-49f1-84de-1fa35d44a175"
+  referenceNo: "1142"
 2025-08-26 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 272"
   Assets:CurrentAssets:Bank:KpayBank -2855.5 HKD
   type: "MJ"
@@ -87,17 +98,6 @@
   sourceId: "5940"
   orderId: "c079393d-eee7-4444-b58a-46c1cf3f57eb"
   referenceNo: "1153"
-2025-08-26 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 40000 HKD
-  type: "MJ"
-  sourceId: "5918"
-  orderId: "5a8e1791-29f8-49f1-84de-1fa35d44a175"
-  referenceNo: "1142"
-  Assets:CurrentAssets:Bank:BocSavingBank -40000 HKD
-  type: "MJ"
-  sourceId: "5919"
-  orderId: "5a8e1791-29f8-49f1-84de-1fa35d44a175"
-  referenceNo: "1142"
 2025-08-26 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to SAM VISA"
   Assets:CurrentAssets:Bank:BocSavingBank -20000 HKD
   type: "MJ"
@@ -207,3 +207,14 @@
   sourceId: "5949"
   orderId: "a0c5d737-e0dc-40c7-a770-7abffd553ff9"
   referenceNo: "1156"
+2025-08-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "INTEREST - BOC Foreign 8/2025"
+  Income:OtherIncome:Interest-bank -5.04 USD
+  type: "MJ"
+  sourceId: "6684ed06-0859-4f93-a1da-9ddf7c005780"
+  orderId: "1113bab6-86f1-42c4-9ae3-153b0f0fc43f"
+  referenceNo: "1604"
+  Assets:CurrentAssets:Bank:BocForeignBank 5.04 USD
+  type: "MJ"
+  sourceId: "a1fc1d3b-9c5a-41fc-9a95-adc2393a3ce7"
+  orderId: "1113bab6-86f1-42c4-9ae3-153b0f0fc43f"
+  referenceNo: "1604"
