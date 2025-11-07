@@ -1756,8 +1756,25 @@
   referenceNo: "129"
   orderId: "c07908e1-1307-48a1-9b8e-5ee21d8e5eef"
   contact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
+2023-07-19 * "Bill #1502 test用"
+  referenceNo: "1502"
+  orderId: "d7ca01f8-df6a-41c2-8713-952b3dad1305"
+  type: "Bill"
+  Unknown-af898962-f0ab-4b19-91ed-3cc9499bcae0 0.00 HKD
+  qty: "1"
+  description: "test"
+  referenceNo: "1502"
+  orderId: "d7ca01f8-df6a-41c2-8713-952b3dad1305"
+  type: "Bill Item"
+  sourceId: "24faa144-6919-437c-85a4-b9903f3956d2"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "1502"
+  orderId: "d7ca01f8-df6a-41c2-8713-952b3dad1305"
+  type: "Bill"
+  sourceId: "d7ca01f8-df6a-41c2-8713-952b3dad1305"
+  contact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
 2023-07-19 * "Invoice #129 ✱ MISSING & REPAIR CHAIN (已遺失)"
-  Assets:CurrentAssets:ShopInventory:Jewelry -1500.00 HKD
+  Income:Sales:SalesItem:SellBespokeorotherFee -1500.00 HKD
   category: "Jewelry"
   sku: "DDFFFFFF0700000000000011"
   qty: 1
@@ -1765,7 +1782,7 @@
   orderId: "c07908e1-1307-48a1-9b8e-5ee21d8e5eef"
   type: "Invoice Item"
   sourceId: "761da26a-2e7b-43be-9d75-d90ab1d34893"
-  Assets:CurrentAssets:ShopInventory:Jewelry -1580.00 HKD
+  Income:Sales:SalesItem:SellBespokeorotherFee -1580.00 HKD
   category: "Jewelry"
   sku: "DDFFFFFF0700000000000010"
   qty: 1
