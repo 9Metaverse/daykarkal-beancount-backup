@@ -153,13 +153,27 @@
 2025-11-06 * "Reservation Delivery R#GR2025110600011S D#D20251106003"
   rsv-ref: "GR2025110600011S"
   del-ref: "D20251106003"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -106278.24 USD @ 7.78 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -106278.00 USD @ 7.78 HKD
   type: "Reservation Delivery"
   referenceNo: "D20251106003"
   sourceId: "362f9d5f-449c-4919-974b-af66a12768ef"
   orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
   Assets:Inventory:Gold:Gold-In-Stock 824.78 XAU {}
+2025-11-06 * "Reservation Payment R#GR2025110600011S P#P20251106003"
+  rsv-ref: "GR2025110600011S"
+  pay-ref: "P20251106003"
+  Assets:CurrentAssets:Cash:Cash金料 -99902 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251106003"
+  sourceId: "cd4d4a52-c706-45db-9f2d-c5deb8065451"
+  orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 99902.00 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251106003"
+  sourceId: "cd4d4a52-c706-45db-9f2d-c5deb8065451"
+  orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 2025-11-07 * "Reservation Payment R#GR2025110400003B P#P20251107002"
   rsv-ref: "GR2025110400003B"
   pay-ref: "P20251107002"
