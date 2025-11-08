@@ -204,6 +204,21 @@
   type: "Invoice"
   sourceId: "c3582b83-09ea-48cb-b93a-316385906019"
   contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+2025-11-07 * "Invoice #848 Staff~Angel"
+  Income:Sales:SalesItem:Sell18kJewelry -2800.00 HKD
+  category: "Jewelry"
+  sku: "DD2024080700000004"
+  qty: 1
+  referenceNo: "848"
+  orderId: "15513918-5c2e-4da2-be43-830a1a4664c8"
+  type: "Invoice Item"
+  sourceId: "2b366bc9-3a61-4b2a-8ce2-14f5ea3ed4f3"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "848"
+  orderId: "15513918-5c2e-4da2-be43-830a1a4664c8"
+  type: "Invoice"
+  sourceId: "15513918-5c2e-4da2-be43-830a1a4664c8"
+  contact: "852 62244993 () [fb9ae1b4-9eca-49c0-91ed-1c1be0e96949]"
 2025-11-07 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #847 #c676c4a0-2111-404d-8d01-719f1025418e"
   Assets:CurrentAssets:Bank:KpayBank 3800.00 HKD
   type: "Invoice Payment"
@@ -216,3 +231,15 @@
   referenceNo: "847"
   orderId: "c3582b83-09ea-48cb-b93a-316385906019"
   contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+2025-11-08 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #848 #e70306f2-e68b-4508-b43d-a26f177e3efd"
+  Assets:CurrentAssets:Cash:G17ShopCash 2800.00 HKD
+  type: "Invoice Payment"
+  sourceId: "e70306f2-e68b-4508-b43d-a26f177e3efd"
+  referenceNo: "848"
+  orderId: "15513918-5c2e-4da2-be43-830a1a4664c8"
+  Assets:CurrentAssets:AccountReceivable -2800.00 HKD
+  type: "Invoice Payment"
+  sourceId: "e70306f2-e68b-4508-b43d-a26f177e3efd"
+  referenceNo: "848"
+  orderId: "15513918-5c2e-4da2-be43-830a1a4664c8"
+  contact: "852 62244993 () [fb9ae1b4-9eca-49c0-91ed-1c1be0e96949]"
