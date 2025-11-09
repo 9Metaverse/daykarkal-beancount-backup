@@ -243,3 +243,30 @@
   referenceNo: "848"
   orderId: "15513918-5c2e-4da2-be43-830a1a4664c8"
   contact: "852 62244993 () [fb9ae1b4-9eca-49c0-91ed-1c1be0e96949]"
+2025-11-09 * "Invoice #849 Stock SAP2554-4"
+  Income:Sales:SalesItem:SellGems -1100.00 HKD
+  category: "Gem"
+  sku: "SAP2554-4"
+  qty: 1
+  referenceNo: "849"
+  orderId: "6053957f-97de-41f6-bbe3-de24c142e2cf"
+  type: "Invoice Item"
+  sourceId: "a830d0ac-3e1d-48d8-9612-0d031dd3b9fe"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "849"
+  orderId: "6053957f-97de-41f6-bbe3-de24c142e2cf"
+  type: "Invoice"
+  sourceId: "6053957f-97de-41f6-bbe3-de24c142e2cf"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
+2025-11-09 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #849 #606188c7-6e21-413b-96ae-93a8844ce019"
+  Assets:CurrentAssets:Bank:KpayBank 1100.00 HKD
+  type: "Invoice Payment"
+  sourceId: "606188c7-6e21-413b-96ae-93a8844ce019"
+  referenceNo: "849"
+  orderId: "6053957f-97de-41f6-bbe3-de24c142e2cf"
+  Assets:CurrentAssets:AccountReceivable -1100.00 HKD
+  type: "Invoice Payment"
+  sourceId: "606188c7-6e21-413b-96ae-93a8844ce019"
+  referenceNo: "849"
+  orderId: "6053957f-97de-41f6-bbe3-de24c142e2cf"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
