@@ -297,3 +297,29 @@
   referenceNo: "850"
   orderId: "b8e1fb25-230f-4cdc-82d1-6c081ab4950e"
   contact: "852 53193535 (NoName) [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
+2025-11-10 * "Invoice #851 Bespoke Ring Setting R"
+  Income:Sales:SalesItem:SellBespokeorotherFee -3900.00 HKD
+  description: "Bespoke Ring Setting"
+  qty: 1
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  type: "Invoice Item"
+  sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  type: "Invoice"
+  sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
+2025-11-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #851 #b58ee875-c92b-4cbe-a4a4-6193c7900e89"
+  Assets:CurrentAssets:Bank:BocSavingBank 2000.00 HKD
+  type: "Invoice Payment"
+  sourceId: "b58ee875-c92b-4cbe-a4a4-6193c7900e89"
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Assets:CurrentAssets:AccountReceivable -2000.00 HKD
+  type: "Invoice Payment"
+  sourceId: "b58ee875-c92b-4cbe-a4a4-6193c7900e89"
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
