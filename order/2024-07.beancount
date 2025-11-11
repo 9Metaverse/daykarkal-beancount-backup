@@ -920,14 +920,15 @@
   referenceNo: "1045"
   orderId: "edfc9303-63a5-46db-b652-c411fe3be46d"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke 0.00 HKD
-  qty: "0"
-  description: "Ruby 1.80ct hk$1728(4.64)"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems 1728.00 HKD
+  category: "Gem"
+  sku: "RUB2401"
+  qty: 1
   referenceNo: "1045"
   orderId: "edfc9303-63a5-46db-b652-c411fe3be46d"
   type: "Bill Item"
   sourceId: "78e428ff-5b49-46c2-9071-3ca6ad2d7518"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 4293.00 HKD
+  Assets:CurrentAssets:ShopInventory:Jewelry 4293.00 HKD
   category: "Jewelry"
   sku: "DD2024072200000001"
   qty: 1
@@ -951,6 +952,14 @@
   orderId: "edfc9303-63a5-46db-b652-c411fe3be46d"
   type: "Bill Item"
   sourceId: "c536606d-3d54-490a-adf0-f88291b06841"
+  Assets:CurrentAssets:ShopInventory:Gemstones -1728.00 HKD
+  category: "Gem"
+  sku: "RUB2401"
+  qty: -1
+  referenceNo: "1045"
+  orderId: "edfc9303-63a5-46db-b652-c411fe3be46d"
+  type: "Bill Item"
+  sourceId: "a4cbf0b0-960d-42aa-b0cc-1ca216f8b12a"
   Liabilities:CurrentLiabilities:AccountPayable
   referenceNo: "1045"
   orderId: "edfc9303-63a5-46db-b652-c411fe3be46d"
