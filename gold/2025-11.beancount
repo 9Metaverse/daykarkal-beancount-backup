@@ -191,7 +191,7 @@
 2025-11-08 * "Reservation Delivery R#GR2025110800002S D#D20251108002"
   rsv-ref: "GR2025110800002S"
   del-ref: "D20251108002"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -97022.70 USDT @ 7.78 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -100232.62 USDT @ 7.78 HKD
   type: "Reservation Delivery"
   referenceNo: "D20251108002"
   sourceId: "51a55c63-8a54-40d9-b227-a8234378c034"
@@ -201,13 +201,13 @@
 2025-11-08 * "Reservation Delivery R#GR2025110800003B D#D20251108003"
   rsv-ref: "GR2025110800003B"
   del-ref: "D20251108003"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 97059.62 USD @ 7.78 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 100233.00 USD @ 7.78 HKD
   type: "Reservation Delivery"
   referenceNo: "D20251108003"
   sourceId: "b0ad28c1-e9b7-4d39-870c-d666611403b3"
   orderId: "6be36256-aea6-4631-b440-0418b11d9825"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-  Income:Sales:Sales-Gold -755123.84 HKD
+  Income:Sales:Sales-Gold -779812.74 HKD
   Assets:Inventory:Gold:Gold-In-Stock -750.62 XAU {}
   Expenses:Cogs:Cogs-Gold
 2025-11-08 * "Reservation Payment R#GR2025110600011S P#P20251108001"
@@ -237,4 +237,54 @@
   referenceNo: "P20251108002"
   sourceId: "4e11d13b-f916-443a-9074-bc423fdca087"
   orderId: "6be36256-aea6-4631-b440-0418b11d9825"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-11 * "Reservation Delivery R#GR2025111100002S D#D20251111002"
+  rsv-ref: "GR2025111100002S"
+  del-ref: "D20251111002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -51370.14 USDT @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251111002"
+  sourceId: "7687672e-a966-4cce-b446-7d042eca0a3f"
+  orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock 385.22 XAU {}
+2025-11-11 * "Reservation Delivery R#GR2025111100003B D#D20251111003"
+  rsv-ref: "GR2025111100003B"
+  del-ref: "D20251111003"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 51370.00 USD @ 7.78 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251111003"
+  sourceId: "2ee17fe9-ba30-497a-8515-d11c91abd5ee"
+  orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+  Income:Sales:Sales-Gold -399658.6 HKD
+  Assets:Inventory:Gold:Gold-In-Stock -385.22 XAU {}
+  Expenses:Cogs:Cogs-Gold
+2025-11-11 * "Reservation Payment R#GR2025110800003B P#P20251111001"
+  rsv-ref: "GR2025110800003B"
+  pay-ref: "P20251111001"
+  Assets:CurrentAssets:Cash:Cash金料 24400.00 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251111001"
+  sourceId: "235b556e-0129-49e5-9c97-7004b0e7506f"
+  orderId: "6be36256-aea6-4631-b440-0418b11d9825"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -24400.00 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251111001"
+  sourceId: "235b556e-0129-49e5-9c97-7004b0e7506f"
+  orderId: "6be36256-aea6-4631-b440-0418b11d9825"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-11 * "Reservation Payment R#GR2025111100003B P#P20251111002"
+  rsv-ref: "GR2025111100003B"
+  pay-ref: "P20251111002"
+  Assets:CurrentAssets:Cash:Cash金料 25509.00 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251111002"
+  sourceId: "097f3fd4-50c3-42c1-a2a9-303441d6d531"
+  orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -25509.00 USD @ 7.78 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251111002"
+  sourceId: "097f3fd4-50c3-42c1-a2a9-303441d6d531"
+  orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
