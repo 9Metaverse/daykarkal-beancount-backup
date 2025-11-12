@@ -358,11 +358,26 @@
   referenceNo: "852"
   orderId: "ce261d79-51b6-460d-9cf6-14611d38673e"
   contact: "852 95567627 (NoName) [fe0f601c-7523-4171-8b90-acb77e898186]"
-2025-11-12 * "Bill #1503 强哥改戒指手寸#14"
+2025-11-12 * "Invoice #853 INV ref#946 改手寸#14"
+  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
+  category: "Other"
+  sku: "PROCESSING104"
+  qty: 1
+  referenceNo: "853"
+  orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+  type: "Invoice Item"
+  sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "853"
+  orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+  type: "Invoice"
+  sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+  contact: "852 97046812 (NoName) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+2025-11-12 * "Bill #1503 强哥改戒指手寸#14 Ref INV#846"
   referenceNo: "1503"
   orderId: "179aa720-f99f-4b3a-baca-768f726f9208"
   type: "Bill"
-  Income:Sales:SalesItem:SellBespokeorotherFee 250.00 HKD
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 250.00 HKD
   category: "Other"
   sku: "PROCESSING104"
   qty: 1
