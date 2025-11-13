@@ -55,17 +55,6 @@
   sourceId: "4082"
   orderId: "0e841916-95e6-4d5d-8eef-9f9403f5d756"
   referenceNo: "69"
-2024-12-12 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
-  Assets:CurrentAssets:Bank:BocSavingBank -23399.4 HKD
-  type: "MJ"
-  sourceId: "3009"
-  orderId: "143019f9-f145-44a7-b848-a4e696438e7c"
-  referenceNo: "77"
-  Assets:CurrentAssets:Bank:BocCurrentBank 23399.4 HKD
-  type: "MJ"
-  sourceId: "3010"
-  orderId: "143019f9-f145-44a7-b848-a4e696438e7c"
-  referenceNo: "77"
 2024-12-12 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay192"
   Assets:CurrentAssets:Bank:BocSavingBank 2461.5 HKD
   type: "MJ"
@@ -77,6 +66,17 @@
   sourceId: "4084"
   orderId: "013d5f3a-c2be-4317-bf28-748cb9faaa36"
   referenceNo: "12"
+2024-12-12 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
+  Assets:CurrentAssets:Bank:BocSavingBank -23399.4 HKD
+  type: "MJ"
+  sourceId: "3009"
+  orderId: "143019f9-f145-44a7-b848-a4e696438e7c"
+  referenceNo: "77"
+  Assets:CurrentAssets:Bank:BocCurrentBank 23399.4 HKD
+  type: "MJ"
+  sourceId: "3010"
+  orderId: "143019f9-f145-44a7-b848-a4e696438e7c"
+  referenceNo: "77"
 2024-12-16 * "Assets:CurrentAssets:Bank:BocSavingBank" "Kpay 193"
   Assets:CurrentAssets:Bank:BocSavingBank 5790.8 HKD
   type: "MJ"
@@ -132,6 +132,22 @@
   sourceId: "5878"
   orderId: "d06d164e-4cd3-43e3-b7f0-7f201a5446fa"
   referenceNo: "103"
+2024-12-31 * "Expenses:GeneralExpense:BankFeesExpense" "測試網上付款功能 ASIAPAY (HK) LIMITED"
+  Assets:CurrentAssets:Bank:BocSavingBank 1021.5 HKD
+  type: "MJ"
+  sourceId: "5879"
+  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
+  referenceNo: "10"
+  Expenses:GeneralExpense:BankFeesExpense 41.5 HKD
+  type: "MJ"
+  sourceId: "5880"
+  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
+  referenceNo: "10"
+  Assets:CurrentAssets:Cash:CashInHand -1063 HKD
+  type: "MJ"
+  sourceId: "5881"
+  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
+  referenceNo: "10"
 2024-12-31 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to VISA"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 40000 HKD
   type: "MJ"
@@ -154,19 +170,3 @@
   sourceId: "4096"
   orderId: "47c7a2aa-494d-4f24-b9db-7aadfd87475a"
   referenceNo: "113"
-2024-12-31 * "Expenses:GeneralExpense:BankFeesExpense" "測試網上付款功能 ASIAPAY (HK) LIMITED"
-  Assets:CurrentAssets:Bank:BocSavingBank 1021.5 HKD
-  type: "MJ"
-  sourceId: "5879"
-  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
-  referenceNo: "10"
-  Expenses:GeneralExpense:BankFeesExpense 41.5 HKD
-  type: "MJ"
-  sourceId: "5880"
-  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
-  referenceNo: "10"
-  Assets:CurrentAssets:Cash:CashInHand -1063 HKD
-  type: "MJ"
-  sourceId: "5881"
-  orderId: "c19b95b8-fd83-4682-9ac3-ab5bbb6cbda7"
-  referenceNo: "10"

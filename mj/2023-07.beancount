@@ -1,5 +1,16 @@
 ; MJ transactions for 2023-07
 
+2023-07-03 * "Assets:CurrentAssets:Cash:CashInHand" "HKD 1070800 return from VN"
+  Assets:CurrentAssets:Cash:CashInHand 1070800 HKD
+  type: "MJ"
+  sourceId: "5036"
+  orderId: "d7f8fb0e-ed6a-43b3-80ac-635cc8eda3b9"
+  referenceNo: "618"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds -1070800 HKD
+  type: "MJ"
+  sourceId: "5037"
+  orderId: "d7f8fb0e-ed6a-43b3-80ac-635cc8eda3b9"
+  referenceNo: "618"
 2023-07-03 * "Assets:CurrentAssets:Cash:CashInHand" "HKD1836000 return from NJ"
   Assets:CurrentAssets:Cash:CashInHand 1836000 HKD
   type: "MJ"
@@ -22,17 +33,6 @@
   sourceId: "5750"
   orderId: "cb1d0790-9009-4967-bd6e-b342c8ad367d"
   referenceNo: "629"
-2023-07-03 * "Assets:CurrentAssets:Cash:CashInHand" "HKD 1070800 return from VN"
-  Assets:CurrentAssets:Cash:CashInHand 1070800 HKD
-  type: "MJ"
-  sourceId: "5036"
-  orderId: "d7f8fb0e-ed6a-43b3-80ac-635cc8eda3b9"
-  referenceNo: "618"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds -1070800 HKD
-  type: "MJ"
-  sourceId: "5037"
-  orderId: "d7f8fb0e-ed6a-43b3-80ac-635cc8eda3b9"
-  referenceNo: "618"
 2023-07-04 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to Sam VISA 0016"
   Assets:CurrentAssets:Bank:BocVisaCard-SamBank 97 HKD
   type: "MJ"
@@ -88,17 +88,6 @@
   sourceId: "5370"
   orderId: "5d1d30f9-effa-4bc6-a9fd-7529e8d81f00"
   referenceNo: "105"
-2023-07-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay070"
-  Assets:CurrentAssets:Bank:BocSavingBank 13810.98 HKD
-  type: "MJ"
-  sourceId: "3849"
-  orderId: "38f7a053-1c12-43ea-b775-cf9bdd0d3ac3"
-  referenceNo: "327"
-  Assets:CurrentAssets:Bank:KpayBank -13810.98 HKD
-  type: "MJ"
-  sourceId: "3850"
-  orderId: "38f7a053-1c12-43ea-b775-cf9bdd0d3ac3"
-  referenceNo: "327"
 2023-07-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay071"
   Assets:CurrentAssets:Bank:BocSavingBank 29352 HKD
   type: "MJ"
@@ -110,6 +99,17 @@
   sourceId: "3852"
   orderId: "f013d4d6-d0ee-476f-a512-e1d9d5b7e478"
   referenceNo: "626"
+2023-07-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay070"
+  Assets:CurrentAssets:Bank:BocSavingBank 13810.98 HKD
+  type: "MJ"
+  sourceId: "3849"
+  orderId: "38f7a053-1c12-43ea-b775-cf9bdd0d3ac3"
+  referenceNo: "327"
+  Assets:CurrentAssets:Bank:KpayBank -13810.98 HKD
+  type: "MJ"
+  sourceId: "3850"
+  orderId: "38f7a053-1c12-43ea-b775-cf9bdd0d3ac3"
+  referenceNo: "327"
 2023-07-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay072"
   Assets:CurrentAssets:Bank:BocSavingBank 6736.4 HKD
   type: "MJ"

@@ -55,17 +55,6 @@
   sourceId: "5885"
   orderId: "31afee1e-b4d1-4355-b73e-fe1fe2f9e751"
   referenceNo: "90"
-2025-02-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 209"
-  Assets:CurrentAssets:Bank:BocSavingBank 1230.25 HKD
-  type: "MJ"
-  sourceId: "4117"
-  orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-  referenceNo: "95"
-  Assets:CurrentAssets:Bank:KpayBank -1230.25 HKD
-  type: "MJ"
-  sourceId: "4118"
-  orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-  referenceNo: "95"
 2025-02-14 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
   Assets:CurrentAssets:Bank:BocSavingBank -100000 HKD
   type: "MJ"
@@ -77,6 +66,17 @@
   sourceId: "3101"
   orderId: "d5e3241d-21e6-4c2f-aea4-f6c376147995"
   referenceNo: "60"
+2025-02-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 209"
+  Assets:CurrentAssets:Bank:BocSavingBank 1230.25 HKD
+  type: "MJ"
+  sourceId: "4117"
+  orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+  referenceNo: "95"
+  Assets:CurrentAssets:Bank:KpayBank -1230.25 HKD
+  type: "MJ"
+  sourceId: "4118"
+  orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+  referenceNo: "95"
 2025-02-18 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 210"
   Assets:CurrentAssets:Bank:BocSavingBank 8864 HKD
   type: "MJ"
@@ -99,17 +99,17 @@
   sourceId: "4202"
   orderId: "49ff5b7f-5662-4348-9e08-476d7d04e6b3"
   referenceNo: "120"
-2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" "MILWAYS GOLD 集團注資"
-  Assets:CurrentAssets:Bank:BocSavingBank 550000 HKD
+2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 212"
+  Assets:CurrentAssets:Bank:BocSavingBank 2461.5 HKD
   type: "MJ"
-  sourceId: "a3f57a3a-cab7-4945-bb67-e52ab129b580"
-  orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-  referenceNo: "11"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited -550000 HKD
+  sourceId: "5886"
+  orderId: "a87cb797-41b3-409c-900a-9868cad52a3d"
+  referenceNo: "57"
+  Assets:CurrentAssets:Bank:KpayBank -2461.5 HKD
   type: "MJ"
-  sourceId: "801ea0ce-a23f-450f-aa3e-6ce4585fe9d1"
-  orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-  referenceNo: "11"
+  sourceId: "5887"
+  orderId: "a87cb797-41b3-409c-900a-9868cad52a3d"
+  referenceNo: "57"
 2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" "INV#950 REFUND 客人俾錯SIZE, 然後趕住飛, 改唔切 款項已入銀行, 退回現金"
   Assets:CurrentAssets:Bank:BocSavingBank 1900 HKD
   type: "MJ"
@@ -143,17 +143,17 @@
   sourceId: "5889"
   orderId: "e5fb353e-7f8a-46a0-97e2-c139fbe9505a"
   referenceNo: "73"
-2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 212"
-  Assets:CurrentAssets:Bank:BocSavingBank 2461.5 HKD
+2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" "MILWAYS GOLD 集團注資"
+  Assets:CurrentAssets:Bank:BocSavingBank 550000 HKD
   type: "MJ"
-  sourceId: "5886"
-  orderId: "a87cb797-41b3-409c-900a-9868cad52a3d"
-  referenceNo: "57"
-  Assets:CurrentAssets:Bank:KpayBank -2461.5 HKD
+  sourceId: "a3f57a3a-cab7-4945-bb67-e52ab129b580"
+  orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+  referenceNo: "11"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited -550000 HKD
   type: "MJ"
-  sourceId: "5887"
-  orderId: "a87cb797-41b3-409c-900a-9868cad52a3d"
-  referenceNo: "57"
+  sourceId: "801ea0ce-a23f-450f-aa3e-6ce4585fe9d1"
+  orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+  referenceNo: "11"
 2025-02-28 * "Expenses:GeneralExpense:CardFeeExpense" "Kpay 02/25 手續費"
   Expenses:GeneralExpense:CardFeeExpense 438.5 HKD
   type: "MJ"

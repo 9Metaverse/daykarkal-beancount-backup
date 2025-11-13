@@ -14443,18 +14443,6 @@
   Income:Sales:Sales-Gold -51692 HKD
   Assets:Inventory:Gold:Gold-In-Stock -100.14 XAU {}
   Expenses:Cogs:Cogs-Gold
-2023-12-26 * "Reservation Delivery R#GR2023122600004B D#D20231226047"
-  rsv-ref: "GR2023122600004B"
-  del-ref: "D20231226047"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenChao陈超8618122535517 102758.00 HKD @ 1 HKD
-  type: "Reservation Delivery"
-  referenceNo: "D20231226047"
-  sourceId: "b60c804f-926b-46c0-bf89-d92f19db83db"
-  orderId: "7c654b93-63e1-4c2e-9f2c-d51d20da8682"
-  contact: "86 18122535517 (CHENCHAO陈超) [d1496bc6-771c-49a1-aee5-51742e1219c7]"
-  Income:Sales:Sales-Gold -102758 HKD
-  Assets:Inventory:Gold:Gold-In-Stock -199.14 XAU {}
-  Expenses:Cogs:Cogs-Gold
 2023-12-26 * "Reservation Delivery R#GR2023122600002B D#D20231226042"
   rsv-ref: "GR2023122600002B"
   del-ref: "D20231226042"
@@ -14466,6 +14454,18 @@
   contact: "852 56421077 (PENGKANGHUA彭康华) [aa4aea41-36a0-4ad8-843c-4ac8edf1a6c9]"
   Income:Sales:Sales-Gold -101502 HKD
   Assets:Inventory:Gold:Gold-In-Stock -196.29 XAU {}
+  Expenses:Cogs:Cogs-Gold
+2023-12-26 * "Reservation Delivery R#GR2023122600004B D#D20231226047"
+  rsv-ref: "GR2023122600004B"
+  del-ref: "D20231226047"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenChao陈超8618122535517 102758.00 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20231226047"
+  sourceId: "b60c804f-926b-46c0-bf89-d92f19db83db"
+  orderId: "7c654b93-63e1-4c2e-9f2c-d51d20da8682"
+  contact: "86 18122535517 (CHENCHAO陈超) [d1496bc6-771c-49a1-aee5-51742e1219c7]"
+  Income:Sales:Sales-Gold -102758 HKD
+  Assets:Inventory:Gold:Gold-In-Stock -199.14 XAU {}
   Expenses:Cogs:Cogs-Gold
 2023-12-26 * "Reservation Delivery R#GR2023122600037B D#D20231226076"
   rsv-ref: "GR2023122600037B"
@@ -14662,7 +14662,7 @@
 2023-12-26 * "Reservation Payment R#GR2023122600042B P#P20231226045"
   rsv-ref: "GR2023122600042B"
   pay-ref: "P20231226045"
-  Liabilities:CurrentLiabilities:ClientDeposit 173397.00 HKD @ 1 HKD
+  Assets:CurrentAssets:Bank:BocSavingBank 173397.00 HKD @ 1 HKD
   type: "Reservation Payment"
   referenceNo: "P20231226045"
   sourceId: "1c606666-430f-4ee8-8920-65d082018728"
