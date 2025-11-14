@@ -297,6 +297,20 @@
   referenceNo: "850"
   orderId: "b8e1fb25-230f-4cdc-82d1-6c081ab4950e"
   contact: "852 53193535 (NoName) [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
+2025-11-10 * "Invoice #851 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Income:Sales:SalesItem:SellBespokeorotherFee -3900.00 HKD
+  description: "Bespoke Ring Setting"
+  qty: 1
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  type: "Invoice Item"
+  sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "851"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  type: "Invoice"
+  sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
 2025-11-10 * "Invoice #852 Stock BR2523 R24142 ce261d79-51b6-460d-9cf6-14611d38673e"
   Income:Sales:SalesItem:Sell18kJewelry -2300.00 HKD
   category: "Jewelry"
@@ -320,20 +334,6 @@
   type: "Invoice"
   sourceId: "ce261d79-51b6-460d-9cf6-14611d38673e"
   contact: "852 95567627 (NoName) [fe0f601c-7523-4171-8b90-acb77e898186]"
-2025-11-10 * "Invoice #851 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  Income:Sales:SalesItem:SellBespokeorotherFee -3900.00 HKD
-  description: "Bespoke Ring Setting"
-  qty: 1
-  referenceNo: "851"
-  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  type: "Invoice Item"
-  sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
-  Assets:CurrentAssets:AccountReceivable
-  referenceNo: "851"
-  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  type: "Invoice"
-  sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
 2025-11-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #851 #b58ee875-c92b-4cbe-a4a4-6193c7900e89 f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
   Assets:CurrentAssets:Bank:BocSavingBank 2000.00 HKD
   type: "Invoice Payment"
@@ -403,3 +403,20 @@
   sourceId: "101d0c13-d598-488c-b0f3-9bfd76dc4518"
   referenceNo: "1503"
   orderId: "179aa720-f99f-4b3a-baca-768f726f9208"
+2025-11-14 * "Bill #1504 test 582ace30-8ed5-4447-ae2c-900f2e5e2477"
+  referenceNo: "1504"
+  orderId: "582ace30-8ed5-4447-ae2c-900f2e5e2477"
+  type: "Bill"
+  Assets:CurrentAssets:Cash:CashInHand 123.00 HKD
+  qty: "1"
+  description: "test"
+  referenceNo: "1504"
+  orderId: "582ace30-8ed5-4447-ae2c-900f2e5e2477"
+  type: "Bill Item"
+  sourceId: "0658d10e-ce38-47f1-b208-80236a4ee400"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "1504"
+  orderId: "582ace30-8ed5-4447-ae2c-900f2e5e2477"
+  type: "Bill"
+  sourceId: "582ace30-8ed5-4447-ae2c-900f2e5e2477"
+  contact: "852 6666 (666Milrich) [7f74ec3e-9efb-497d-a0d5-7642323197f1]"
