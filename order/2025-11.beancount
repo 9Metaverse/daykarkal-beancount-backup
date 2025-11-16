@@ -420,3 +420,30 @@
   type: "Bill"
   sourceId: "582ace30-8ed5-4447-ae2c-900f2e5e2477"
   contact: "852 6666 (666Milrich) [7f74ec3e-9efb-497d-a0d5-7642323197f1]"
+2025-11-16 * "Invoice #854 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  Income:Sales:SalesItem:Sell18kJewelry -5800.00 HKD
+  category: "Jewelry"
+  sku: "DD20251024005"
+  qty: 1
+  referenceNo: "854"
+  orderId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  type: "Invoice Item"
+  sourceId: "f81e1673-a217-4c96-aabb-e4390b2aa800"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "854"
+  orderId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  type: "Invoice"
+  sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+2025-11-16 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #854 #94c7114c-3791-48bb-b1b3-2106e7bcdcef b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  Assets:CurrentAssets:Cash:G17ShopCash 5800.00 HKD
+  type: "Invoice Payment"
+  sourceId: "94c7114c-3791-48bb-b1b3-2106e7bcdcef"
+  referenceNo: "854"
+  orderId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  Assets:CurrentAssets:AccountReceivable -5800.00 HKD
+  type: "Invoice Payment"
+  sourceId: "94c7114c-3791-48bb-b1b3-2106e7bcdcef"
+  referenceNo: "854"
+  orderId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
+  contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
