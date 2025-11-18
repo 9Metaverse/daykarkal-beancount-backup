@@ -459,3 +459,30 @@
   referenceNo: "840"
   orderId: "b56af2bc-2779-4619-8e88-00a53cc8b983"
   contact: "971 508466440 (NoName) [4860047a-62d2-430a-bdd2-4b4fe49f25dd]"
+2025-11-18 * "Invoice #855 Stock B2107 873e80fe-71ad-4d74-818f-2b5d66857012"
+  Income:Sales:SalesItem:Sell18kJewelry -11000.00 HKD
+  category: "Jewelry"
+  sku: "DDFFFFFF0400000000000013"
+  qty: 1
+  referenceNo: "855"
+  orderId: "873e80fe-71ad-4d74-818f-2b5d66857012"
+  type: "Invoice Item"
+  sourceId: "4d55e4be-6902-413a-ad7e-cc1e15dfa2d3"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "855"
+  orderId: "873e80fe-71ad-4d74-818f-2b5d66857012"
+  type: "Invoice"
+  sourceId: "873e80fe-71ad-4d74-818f-2b5d66857012"
+  contact: "852 92348501 (NoName) [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
+2025-11-18 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #855 #81e6d321-f696-46b1-b663-c751cfbec7a7 873e80fe-71ad-4d74-818f-2b5d66857012"
+  Assets:CurrentAssets:Bank:KpayBank 11000.00 HKD
+  type: "Invoice Payment"
+  sourceId: "81e6d321-f696-46b1-b663-c751cfbec7a7"
+  referenceNo: "855"
+  orderId: "873e80fe-71ad-4d74-818f-2b5d66857012"
+  Assets:CurrentAssets:AccountReceivable -11000.00 HKD
+  type: "Invoice Payment"
+  sourceId: "81e6d321-f696-46b1-b663-c751cfbec7a7"
+  referenceNo: "855"
+  orderId: "873e80fe-71ad-4d74-818f-2b5d66857012"
+  contact: "852 92348501 (NoName) [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
