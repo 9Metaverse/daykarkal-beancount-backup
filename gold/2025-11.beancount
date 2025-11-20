@@ -453,7 +453,7 @@
 2025-11-19 * "Reservation Delivery R#GR2025111900001S D#D20251119004"
   rsv-ref: "GR2025111900001S"
   del-ref: "D20251119004"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -38093.44 USDT @ 7.8 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -38138.10 USDT @ 7.8 HKD
   type: "Reservation Delivery"
   referenceNo: "D20251119004"
   sourceId: "699763c4-86d3-4926-928e-24cac68ce12a"
@@ -463,13 +463,13 @@
 2025-11-19 * "Reservation Delivery R#GR2025111900002B D#D20251119005"
   rsv-ref: "GR2025111900002B"
   del-ref: "D20251119005"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 38093.25 USD @ 7.8 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 38138.00 USD @ 7.8 HKD
   type: "Reservation Delivery"
   referenceNo: "D20251119005"
   sourceId: "9df0a60d-250f-4faf-8fec-19e48ebacf5b"
   orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-  Income:Sales:Sales-Gold -297127.35 HKD
+  Income:Sales:Sales-Gold -297476.4 HKD
   Assets:Inventory:Gold:Gold-In-Stock -290.6 XAU {}
   Expenses:Cogs:Cogs-Gold
 2025-11-19 * "Reservation Payment R#GR2025111800003B P#P20251119001"
@@ -485,4 +485,42 @@
   referenceNo: "P20251119001"
   sourceId: "9a81e437-36e5-48c9-9f68-44233be1dad2"
   orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-20 * "Reservation Delivery R#GR2025112000002S D#D20251120002"
+  rsv-ref: "GR2025112000002S"
+  del-ref: "D20251120002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -38064.65 USDT @ 7.8 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251120002"
+  sourceId: "b6f233b9-6e42-4492-8840-da4223d85372"
+  orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock 290.53 XAU {}
+2025-11-20 * "Reservation Payment R#GR2025111800003B P#P20251120001"
+  rsv-ref: "GR2025111800003B"
+  pay-ref: "P20251120001"
+  Assets:CurrentAssets:Cash:Cash金料 2536.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251120001"
+  sourceId: "0aa2d060-1484-418e-9888-12420e22c4e0"
+  orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -2536.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251120001"
+  sourceId: "0aa2d060-1484-418e-9888-12420e22c4e0"
+  orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-20 * "Reservation Payment R#GR2025111900002B P#P20251120002"
+  rsv-ref: "GR2025111900002B"
+  pay-ref: "P20251120002"
+  Assets:CurrentAssets:Cash:Cash金料 38138.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251120002"
+  sourceId: "ec83999f-6ae7-498b-9f74-e789dd77e7a2"
+  orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -38138.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251120002"
+  sourceId: "ec83999f-6ae7-498b-9f74-e789dd77e7a2"
+  orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
