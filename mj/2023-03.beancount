@@ -22,39 +22,6 @@
   sourceId: "4330"
   orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
   referenceNo: "350"
-2023-03-14 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd" "Deposit HKD 80000 to MAHEK"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd 80000 HKD
-  type: "MJ"
-  sourceId: "4820"
-  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
-  referenceNo: "371"
-  Assets:CurrentAssets:Cash:CashInHand -80000 HKD
-  type: "MJ"
-  sourceId: "4821"
-  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
-  referenceNo: "371"
-2023-03-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 107360 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 107360 HKD
-  type: "MJ"
-  sourceId: "4325"
-  orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
-  referenceNo: "659"
-  Assets:CurrentAssets:Cash:CashInHand -107360 HKD
-  type: "MJ"
-  sourceId: "4326"
-  orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
-  referenceNo: "659"
-2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
-  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
-  type: "MJ"
-  sourceId: "4327"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
-  type: "MJ"
-  sourceId: "4328"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
 2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 52000 from 217"
   Assets:CurrentAssets:Cash:CashInHand 52000 HKD
   type: "MJ"
@@ -66,17 +33,17 @@
   sourceId: "4324"
   orderId: "caab9cd4-93af-4166-acad-757bdf6bc2cd"
   referenceNo: "305"
-2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
-  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
+2023-03-14 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd" "Deposit HKD 80000 to MAHEK"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd 80000 HKD
   type: "MJ"
-  sourceId: "2487"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
-  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
+  sourceId: "4820"
+  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
+  referenceNo: "371"
+  Assets:CurrentAssets:Cash:CashInHand -80000 HKD
   type: "MJ"
-  sourceId: "2488"
-  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
-  referenceNo: "649"
+  sourceId: "4821"
+  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
+  referenceNo: "371"
 2023-03-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay063"
   Assets:CurrentAssets:Bank:BocSavingBank 35853 HKD
   type: "MJ"
@@ -88,6 +55,39 @@
   sourceId: "3836"
   orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
   referenceNo: "658"
+2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
+  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
+  type: "MJ"
+  sourceId: "4327"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
+  type: "MJ"
+  sourceId: "4328"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
+2023-03-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 107360 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 107360 HKD
+  type: "MJ"
+  sourceId: "4325"
+  orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
+  referenceNo: "659"
+  Assets:CurrentAssets:Cash:CashInHand -107360 HKD
+  type: "MJ"
+  sourceId: "4326"
+  orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
+  referenceNo: "659"
+2023-03-14 * "Assets:CurrentAssets:Cash:PettyCash" "HKD 10000 to 323 pt cash"
+  Assets:CurrentAssets:Cash:CashInHand -10000 HKD
+  type: "MJ"
+  sourceId: "2487"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
+  Assets:CurrentAssets:Cash:PettyCash 10000 HKD
+  type: "MJ"
+  sourceId: "2488"
+  orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
+  referenceNo: "649"
 2023-03-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "sav to cur"
   Assets:CurrentAssets:Bank:BocSavingBank -20000 HKD
   type: "MJ"
@@ -171,3 +171,14 @@
   sourceId: "7ab8bcb7-38fe-40c3-a4f3-4c6a44c07676"
   orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
   referenceNo: "1188"
+2023-03-31 * "Expenses:GeneralExpense:Depreciation" "Depreciation 31/3/2023"
+  Expenses:GeneralExpense:Depreciation 4028.1 HKD
+  type: "MJ"
+  sourceId: "b0a92e1e-11e7-4229-bb28-4692a8ec045f"
+  orderId: "8cfe71b7-ae1e-42ac-90d2-6b6f082cc844"
+  referenceNo: "1751"
+  Assets:Non-currentAssets:BuyEquipment:AccumulatedDepreciationOfEquipment -4028.1 HKD
+  type: "MJ"
+  sourceId: "b2dea1a0-d819-497d-9de0-709cd5d5baf1"
+  orderId: "8cfe71b7-ae1e-42ac-90d2-6b6f082cc844"
+  referenceNo: "1751"
