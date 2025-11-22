@@ -550,3 +550,39 @@
   sourceId: "5030b523-c409-405e-8b86-f46eaa6a3d91"
   orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-22 * "Reservation Payment R#GR2025112000003B P#P20251122001"
+  rsv-ref: "GR2025112000003B"
+  pay-ref: "P20251122001"
+  Assets:CurrentAssets:Cash:Cash金料 28836.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251122001"
+  sourceId: "25a614a4-6e2d-488d-9435-191f88c5541a"
+  orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 -28836.00 USD @ 7.8 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251122001"
+  sourceId: "25a614a4-6e2d-488d-9435-191f88c5541a"
+  orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-22 * "Reservation Delivery R#GR2025112200002S D#D20251122002"
+  rsv-ref: "GR2025112200002S"
+  del-ref: "D20251122002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -0.00 USDT @ 7.8 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251122002"
+  sourceId: "a68fbcf1-a7d7-4078-9471-208b3483ee00"
+  orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock 319.89 XAU {}
+2025-11-22 * "Reservation Delivery R#GR2025112200003B D#D20251122003"
+  rsv-ref: "GR2025112200003B"
+  del-ref: "D20251122003"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071 0.00 USD @ 7.8 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251122003"
+  sourceId: "262ebebc-0712-4fcd-a90a-efe3eac43257"
+  orderId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
+  contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+  Income:Sales:Sales-Gold 0 HKD
+  Assets:Inventory:Gold:Gold-In-Stock -319.89 XAU {}
+  Expenses:Cogs:Cogs-Gold
