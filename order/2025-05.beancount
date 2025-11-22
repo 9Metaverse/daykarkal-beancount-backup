@@ -537,13 +537,6 @@
   orderId: "5f50370d-fccd-4a48-8a86-1d599e3780b7"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 100.00 HKD
-  qty: "1"
-  description: "INV#1004 R24131 甩石修理"
-  referenceNo: "1330"
-  orderId: "5f50370d-fccd-4a48-8a86-1d599e3780b7"
-  type: "Bill Item"
-  sourceId: "239dd58f-c6b5-4257-ae55-a94b57c4cfaa"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee 100.00 HKD
   category: "Other"
   sku: "Processing 062"
   qty: 1
@@ -1475,6 +1468,18 @@
   type: "Bill"
   sourceId: "c267053e-e4b1-4e5e-8e3c-752f8580a48f"
   contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+2025-05-30 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1350 #cad08e1f-48a6-4f44-9064-a0fb147f1ee6 c267053e-e4b1-4e5e-8e3c-752f8580a48f"
+  Liabilities:CurrentLiabilities:AccountPayable 200.00 HKD
+  contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+  type: "Bill Payment"
+  sourceId: "cad08e1f-48a6-4f44-9064-a0fb147f1ee6"
+  referenceNo: "1350"
+  orderId: "c267053e-e4b1-4e5e-8e3c-752f8580a48f"
+  Assets:CurrentAssets:Cash:CashInHand -200.00 HKD
+  type: "Bill Payment"
+  sourceId: "cad08e1f-48a6-4f44-9064-a0fb147f1ee6"
+  referenceNo: "1350"
+  orderId: "c267053e-e4b1-4e5e-8e3c-752f8580a48f"
 2025-05-30 * "Bill #1355 嚴丹鳳代鑲石 合併 e83c2314-7e80-40c0-b769-48d12485a105"
   referenceNo: "1355"
   orderId: "e83c2314-7e80-40c0-b769-48d12485a105"
