@@ -650,3 +650,39 @@
   sourceId: "71cb1750-183d-473c-a7d9-ffffa9e837f9"
   orderId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
   contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+2025-11-24 * "Reservation Delivery R#GR2025112400008S D#D20251124006"
+  rsv-ref: "GR2025112400008S"
+  del-ref: "D20251124006"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422 -7631.09 USDT @ 7.8 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251124006"
+  sourceId: "f80089e1-3bf5-4d8a-9e39-397fc5ddbbcc"
+  orderId: "3870e630-6330-498e-a42c-a008b8b54675"
+  contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock 58.47 XAU {}
+2025-11-24 * "Reservation Delivery R#GR2025112400004B D#D20251124005"
+  rsv-ref: "GR2025112400004B"
+  del-ref: "D20251124005"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wingHongLeung85264128618 59217.00 HKD @ 1 HKD
+  type: "Reservation Delivery"
+  referenceNo: "D20251124005"
+  sourceId: "29818d30-c88c-4714-affe-182731a1a360"
+  orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
+  contact: "852 64128618 (WINGHONGLEUNG) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
+  Income:Sales:Sales-Gold -59217 HKD
+  Assets:Inventory:Gold:Gold-In-Stock -58.47 XAU {}
+  Expenses:Cogs:Cogs-Gold
+2025-11-24 * "Reservation Payment R#GR2025112400004B P#P20251124009"
+  rsv-ref: "GR2025112400004B"
+  pay-ref: "P20251124009"
+  Assets:CurrentAssets:Cash:Cash金料 59217.00 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251124009"
+  sourceId: "4477db67-3741-4b33-bd8d-49c153b90970"
+  orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wingHongLeung85264128618 -59217.00 HKD @ 1 HKD
+  type: "Reservation Payment"
+  referenceNo: "P20251124009"
+  sourceId: "4477db67-3741-4b33-bd8d-49c153b90970"
+  orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
+  contact: "852 64128618 (WINGHONGLEUNG) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
