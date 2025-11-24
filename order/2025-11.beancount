@@ -359,7 +359,7 @@
   orderId: "ce261d79-51b6-460d-9cf6-14611d38673e"
   contact: "852 95567627 (NoName) [fe0f601c-7523-4171-8b90-acb77e898186]"
 2025-11-12 * "Invoice #853 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
-  Income:Sales:SalesItem:SellBespokeorotherFee -0.00 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
   category: "Other"
   sku: "PROCESSING104"
   qty: 1
@@ -513,7 +513,7 @@
   referenceNo: "856"
   orderId: "bf4ebcc1-183a-4f9c-a3e3-90d74f4f6b21"
   contact: "852 95276207 (NoName) [36680448-c639-4dc4-a3e2-17a13e68fc62]"
-2025-11-24 * "Invoice #857 0aa7e135-4671-42fc-b009-3e3607a5cbf7"
+2025-11-24 * "Invoice #857 Stock~BR2558 0aa7e135-4671-42fc-b009-3e3607a5cbf7"
   Income:Sales:SalesItem:Sell18kJewelry -3900.00 HKD
   category: "Jewelry"
   sku: "DD20250904004"
@@ -540,6 +540,32 @@
   referenceNo: "857"
   orderId: "0aa7e135-4671-42fc-b009-3e3607a5cbf7"
   contact: "852 91928321 (NoName) [e822d421-bf3c-4ff1-8034-d1fb120d4c2a]"
+2025-11-24 * "Bill #1506 嚴丹鳳代鑲石 合併 84137cd3-5ee7-410f-94e3-019de563cc34"
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry 2707.00 HKD
+  category: "Jewelry"
+  sku: "DD20251124001"
+  qty: 1
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  type: "Bill Item"
+  sourceId: "4e91c182-2565-4a66-b687-5365bcdf6874"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke 2570.00 HKD
+  category: "Jewelry"
+  sku: "DDBESPOKE00000048"
+  qty: 1
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  type: "Bill Item"
+  sourceId: "ebef11f3-d9a6-4083-b679-2af70af9a05f"
+  Liabilities:CurrentLiabilities:AccountPayable
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  type: "Bill"
+  sourceId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
 2025-11-24 * "Bill #1505 ref INV#855 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
   referenceNo: "1505"
   orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
@@ -570,3 +596,30 @@
   sourceId: "47323968-9a8c-4f44-821e-b81715051940"
   referenceNo: "1505"
   orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+2025-11-24 * "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Bill Payment for Bill #1506 #8de8a279-cdd6-4336-a3d2-25da37540476 84137cd3-5ee7-410f-94e3-019de563cc34"
+  Liabilities:CurrentLiabilities:AccountPayable 5277.00 HKD
+  contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+  type: "Bill Payment"
+  sourceId: "8de8a279-cdd6-4336-a3d2-25da37540476"
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+  Assets:CurrentAssets:Cash:G17ShopCash -5277.00 HKD
+  type: "Bill Payment"
+  sourceId: "8de8a279-cdd6-4336-a3d2-25da37540476"
+  referenceNo: "1506"
+  orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+2025-11-24 * "Invoice #858 ref INV#855 BILL#1505 手鏈改短 474d371d-13f4-4548-9eb5-a4b02bab88a2"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工 -0.00 HKD
+  category: "Other"
+  sku: "Processing 015"
+  qty: 1
+  referenceNo: "858"
+  orderId: "474d371d-13f4-4548-9eb5-a4b02bab88a2"
+  type: "Invoice Item"
+  sourceId: "78241ea7-c10c-4561-bd0a-62df70d95b61"
+  Assets:CurrentAssets:AccountReceivable
+  referenceNo: "858"
+  orderId: "474d371d-13f4-4548-9eb5-a4b02bab88a2"
+  type: "Invoice"
+  sourceId: "474d371d-13f4-4548-9eb5-a4b02bab88a2"
+  contact: "852 92348501 (NoName) [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
