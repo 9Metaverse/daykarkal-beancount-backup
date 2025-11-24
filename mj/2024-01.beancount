@@ -1,16 +1,5 @@
 ; MJ transactions for 2024-01
 
-2024-01-03 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay117"
-  Assets:CurrentAssets:Bank:BocSavingBank 4192.07 HKD
-  type: "MJ"
-  sourceId: "3945"
-  orderId: "a46ac13a-4d0c-44f1-be4c-9e4c6acd21bb"
-  referenceNo: "276"
-  Assets:CurrentAssets:Bank:KpayBank -4192.07 HKD
-  type: "MJ"
-  sourceId: "3946"
-  orderId: "a46ac13a-4d0c-44f1-be4c-9e4c6acd21bb"
-  referenceNo: "276"
 2024-01-03 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to VISA"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 5928 HKD
   type: "MJ"
@@ -22,6 +11,17 @@
   sourceId: "2612"
   orderId: "f346bf26-23bd-48c1-a8c9-2e6ca77434d5"
   referenceNo: "561"
+2024-01-03 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay117"
+  Assets:CurrentAssets:Bank:BocSavingBank 4192.07 HKD
+  type: "MJ"
+  sourceId: "3945"
+  orderId: "a46ac13a-4d0c-44f1-be4c-9e4c6acd21bb"
+  referenceNo: "276"
+  Assets:CurrentAssets:Bank:KpayBank -4192.07 HKD
+  type: "MJ"
+  sourceId: "3946"
+  orderId: "a46ac13a-4d0c-44f1-be4c-9e4c6acd21bb"
+  referenceNo: "276"
 2024-01-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay118"
   Assets:CurrentAssets:Bank:BocSavingBank 2059.62 HKD
   type: "MJ"
@@ -33,17 +33,6 @@
   sourceId: "3948"
   orderId: "7f9d5b21-1b32-4cab-ae0c-767b3fd8ee9d"
   referenceNo: "331"
-2024-01-13 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "ICMarket 入金"
-  Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 300000 USDT
-  type: "MJ"
-  sourceId: "3553"
-  orderId: "bd0440f2-c24b-445a-8178-e02373e52bb8"
-  referenceNo: "162"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料 -300000 USDT
-  type: "MJ"
-  sourceId: "3554"
-  orderId: "bd0440f2-c24b-445a-8178-e02373e52bb8"
-  referenceNo: "162"
 2024-01-13 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "ICMarket 入金 From Director"
   Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 10000 USDT
   type: "MJ"
@@ -55,6 +44,17 @@
   sourceId: "d9ebc374-6503-4c2c-a15d-5173b9cf5d33"
   orderId: "2653c654-c371-4310-8f5c-48f3d0dc1c20"
   referenceNo: "182"
+2024-01-13 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "ICMarket 入金"
+  Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 300000 USDT
+  type: "MJ"
+  sourceId: "3553"
+  orderId: "bd0440f2-c24b-445a-8178-e02373e52bb8"
+  referenceNo: "162"
+  Assets:CurrentAssets:Wallet:DkkCWallet金料 -300000 USDT
+  type: "MJ"
+  sourceId: "3554"
+  orderId: "bd0440f2-c24b-445a-8178-e02373e52bb8"
+  referenceNo: "162"
 2024-01-17 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "Bank Transfer : BOC-saving to BOC VISA"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank 9868.37 HKD
   type: "MJ"
@@ -105,6 +105,28 @@
   orderId: "7b82e244-27f4-4f67-bc1b-c81603a91887"
   referenceNo: "137"
 2024-01-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash from G17 to Milrich (217)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 3400 CNY
+  type: "MJ"
+  sourceId: "5771"
+  orderId: "8ec8ca8c-60c8-4719-ace5-324a748aaa09"
+  referenceNo: "200"
+  Assets:CurrentAssets:Cash:CashInHand -3400 CNY
+  type: "MJ"
+  sourceId: "5772"
+  orderId: "8ec8ca8c-60c8-4719-ace5-324a748aaa09"
+  referenceNo: "200"
+2024-01-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash from G17 to Milrich (217)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 67326 HKD
+  type: "MJ"
+  sourceId: "5769"
+  orderId: "cf6b7ec2-85b7-498d-985f-19422b1ec915"
+  referenceNo: "493"
+  Assets:CurrentAssets:Cash:CashInHand -67326 HKD
+  type: "MJ"
+  sourceId: "5770"
+  orderId: "cf6b7ec2-85b7-498d-985f-19422b1ec915"
+  referenceNo: "493"
+2024-01-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash from G17 to Milrich (217)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1200 CNY
   type: "MJ"
   sourceId: "5767"
@@ -126,28 +148,6 @@
   sourceId: "5774"
   orderId: "fdd50d10-9b5f-46bd-adaf-c29e49dfde56"
   referenceNo: "552"
-2024-01-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash from G17 to Milrich (217)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 67326 HKD
-  type: "MJ"
-  sourceId: "5769"
-  orderId: "cf6b7ec2-85b7-498d-985f-19422b1ec915"
-  referenceNo: "493"
-  Assets:CurrentAssets:Cash:CashInHand -67326 HKD
-  type: "MJ"
-  sourceId: "5770"
-  orderId: "cf6b7ec2-85b7-498d-985f-19422b1ec915"
-  referenceNo: "493"
-2024-01-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash from G17 to Milrich (217)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 3400 CNY
-  type: "MJ"
-  sourceId: "5771"
-  orderId: "8ec8ca8c-60c8-4719-ace5-324a748aaa09"
-  referenceNo: "200"
-  Assets:CurrentAssets:Cash:CashInHand -3400 CNY
-  type: "MJ"
-  sourceId: "5772"
-  orderId: "8ec8ca8c-60c8-4719-ace5-324a748aaa09"
-  referenceNo: "200"
 2024-01-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" " Cash from G17 to Milrich (217) (INV#546)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 1200 CNY
   type: "MJ"
@@ -159,17 +159,6 @@
   sourceId: "5778"
   orderId: "5e6ee6db-b057-449d-a9d9-bba4af9e2b97"
   referenceNo: "553"
-2024-01-29 * "Assets:CurrentAssets:E-tradingPlatform:Mt57170615Invest" "ICMarket transfer"
-  Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 -8 USDT
-  type: "MJ"
-  sourceId: "2787"
-  orderId: "fcc5cec2-face-4dfd-b7fe-98556f8e2e34"
-  referenceNo: "549"
-  Assets:CurrentAssets:E-tradingPlatform:Mt57170615Invest 8 USDT
-  type: "MJ"
-  sourceId: "2788"
-  orderId: "fcc5cec2-face-4dfd-b7fe-98556f8e2e34"
-  referenceNo: "549"
 2024-01-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" " Cash from G17 to Milrich (217) (INV#546)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 952 HKD
   type: "MJ"
@@ -181,6 +170,17 @@
   sourceId: "5780"
   orderId: "2823708b-fa64-47ad-9ff3-90102f99bc7e"
   referenceNo: "546"
+2024-01-29 * "Assets:CurrentAssets:E-tradingPlatform:Mt57170615Invest" "ICMarket transfer"
+  Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金 -8 USDT
+  type: "MJ"
+  sourceId: "2787"
+  orderId: "fcc5cec2-face-4dfd-b7fe-98556f8e2e34"
+  referenceNo: "549"
+  Assets:CurrentAssets:E-tradingPlatform:Mt57170615Invest 8 USDT
+  type: "MJ"
+  sourceId: "2788"
+  orderId: "fcc5cec2-face-4dfd-b7fe-98556f8e2e34"
+  referenceNo: "549"
 2024-01-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay119"
   Assets:CurrentAssets:Bank:BocSavingBank 34579 HKD
   type: "MJ"
