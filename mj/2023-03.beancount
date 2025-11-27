@@ -22,28 +22,6 @@
   sourceId: "4330"
   orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
   referenceNo: "350"
-2023-03-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay063"
-  Assets:CurrentAssets:Bank:BocSavingBank 35853 HKD
-  type: "MJ"
-  sourceId: "3835"
-  orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
-  referenceNo: "658"
-  Assets:CurrentAssets:Bank:KpayBank -35853 HKD
-  type: "MJ"
-  sourceId: "3836"
-  orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
-  referenceNo: "658"
-2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
-  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
-  type: "MJ"
-  sourceId: "4327"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
-  type: "MJ"
-  sourceId: "4328"
-  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
-  referenceNo: "660"
 2023-03-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 107360 to 217"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd 107360 HKD
   type: "MJ"
@@ -55,6 +33,28 @@
   sourceId: "4326"
   orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
   referenceNo: "659"
+2023-03-14 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd" "Deposit HKD 80000 to MAHEK"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd 80000 HKD
+  type: "MJ"
+  sourceId: "4820"
+  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
+  referenceNo: "371"
+  Assets:CurrentAssets:Cash:CashInHand -80000 HKD
+  type: "MJ"
+  sourceId: "4821"
+  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
+  referenceNo: "371"
+2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 50000 from 217"
+  Assets:CurrentAssets:Cash:CashInHand 50000 HKD
+  type: "MJ"
+  sourceId: "4327"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd -50000 HKD
+  type: "MJ"
+  sourceId: "4328"
+  orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
+  referenceNo: "660"
 2023-03-14 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 52000 from 217"
   Assets:CurrentAssets:Cash:CashInHand 52000 HKD
   type: "MJ"
@@ -77,17 +77,17 @@
   sourceId: "2488"
   orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
   referenceNo: "649"
-2023-03-14 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd" "Deposit HKD 80000 to MAHEK"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-MahekDiamLtd 80000 HKD
+2023-03-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay063"
+  Assets:CurrentAssets:Bank:BocSavingBank 35853 HKD
   type: "MJ"
-  sourceId: "4820"
-  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
-  referenceNo: "371"
-  Assets:CurrentAssets:Cash:CashInHand -80000 HKD
+  sourceId: "3835"
+  orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
+  referenceNo: "658"
+  Assets:CurrentAssets:Bank:KpayBank -35853 HKD
   type: "MJ"
-  sourceId: "4821"
-  orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
-  referenceNo: "371"
+  sourceId: "3836"
+  orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
+  referenceNo: "658"
 2023-03-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "sav to cur"
   Assets:CurrentAssets:Bank:BocSavingBank -20000 HKD
   type: "MJ"
@@ -99,6 +99,37 @@
   sourceId: "2081"
   orderId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
   referenceNo: "648"
+2023-03-31 * "Assets:CurrentAssets:ShopInventory:NaturalDiamond" "Inventory Balance 31/3/2023"
+  Assets:CurrentAssets:ShopInventory:NaturalDiamond 78976 HKD
+  type: "MJ"
+  sourceId: "b2e5983a-136b-4cc0-819f-415d014f1a21"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
+  Assets:CurrentAssets:ShopInventory:Gemstones 185000 HKD
+  type: "MJ"
+  sourceId: "2e7676ca-24e8-42e2-97de-24144c3b4214"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
+  Expenses:CostOfSales:ClosingInventoryBalance -3026554.77 HKD
+  type: "MJ"
+  sourceId: "7360c6a8-5dc6-4714-9e19-04ff74a07648"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
+  Assets:CurrentAssets:ShopInventory:Jewelry -78976 HKD
+  type: "MJ"
+  sourceId: "93e2f09f-ac5f-4006-905d-7bce0e01ce30"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
+  Assets:CurrentAssets:ShopInventory:Jewelry 1286322 HKD
+  type: "MJ"
+  sourceId: "3e246570-cbeb-4cbe-ad73-8d038b844131"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
+  Assets:CurrentAssets:ShopInventory:NaturalDiamond 1555232.77 HKD
+  type: "MJ"
+  sourceId: "7ab8bcb7-38fe-40c3-a4f3-4c6a44c07676"
+  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
+  referenceNo: "1188"
 2023-03-31 * "Assets:OtherAssets:Prepayments" "Closing 31/3/2023"
   Assets:OtherAssets:Prepayments 1648 HKD
   type: "MJ"
@@ -140,37 +171,6 @@
   sourceId: "2ae1ffe2-3416-407f-b80a-aa15d4d327ed"
   orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
   referenceNo: "1193"
-2023-03-31 * "Assets:CurrentAssets:ShopInventory:NaturalDiamond" "Inventory Balance 31/3/2023"
-  Assets:CurrentAssets:ShopInventory:NaturalDiamond 78976 HKD
-  type: "MJ"
-  sourceId: "b2e5983a-136b-4cc0-819f-415d014f1a21"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
-  Assets:CurrentAssets:ShopInventory:Gemstones 185000 HKD
-  type: "MJ"
-  sourceId: "2e7676ca-24e8-42e2-97de-24144c3b4214"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
-  Expenses:CostOfSales:ClosingInventoryBalance -3026554.77 HKD
-  type: "MJ"
-  sourceId: "7360c6a8-5dc6-4714-9e19-04ff74a07648"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
-  Assets:CurrentAssets:ShopInventory:Jewelry -78976 HKD
-  type: "MJ"
-  sourceId: "93e2f09f-ac5f-4006-905d-7bce0e01ce30"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
-  Assets:CurrentAssets:ShopInventory:Jewelry 1286322 HKD
-  type: "MJ"
-  sourceId: "3e246570-cbeb-4cbe-ad73-8d038b844131"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
-  Assets:CurrentAssets:ShopInventory:NaturalDiamond 1555232.77 HKD
-  type: "MJ"
-  sourceId: "7ab8bcb7-38fe-40c3-a4f3-4c6a44c07676"
-  orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
-  referenceNo: "1188"
 2023-03-31 * "Expenses:GeneralExpense:Depreciation" "Depreciation 31/3/2023"
   Expenses:GeneralExpense:Depreciation 4028.1 HKD
   type: "MJ"
