@@ -299,7 +299,8 @@
   contact: "852 53193535 (NoName) [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
 2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
   Income:Sales:SalesItem:SellBespokeorotherFee -3900.00 HKD
-  description: "Bespoke Ring Setting"
+  category: "Jewelry"
+  sku: "DDBESPOKE00000048"
   qty: 1
   referenceNo: "1165"
   orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
@@ -665,3 +666,15 @@
   type: "Bill"
   sourceId: "a6b61f67-dbde-484e-a2a6-e3e53a45ba74"
   contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+2025-11-27 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1165 #8ef18ca7-ffed-4180-9d23-a0f688bb8581 f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Assets:CurrentAssets:Bank:KpayBank 1900.00 HKD
+  type: "Invoice Payment"
+  sourceId: "8ef18ca7-ffed-4180-9d23-a0f688bb8581"
+  referenceNo: "1165"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Assets:CurrentAssets:AccountReceivable -1900.00 HKD
+  type: "Invoice Payment"
+  sourceId: "8ef18ca7-ffed-4180-9d23-a0f688bb8581"
+  referenceNo: "1165"
+  orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  contact: "852 64881161 (NoName) [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
