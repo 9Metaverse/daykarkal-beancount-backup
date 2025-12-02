@@ -588,21 +588,21 @@
   referenceNo: "1500"
   orderId: "7f5110b7-f80b-40c1-abda-d6ee46f35e5c"
   type: "Bill"
-  Expenses:GeneralExpense:Subscriptions  550.00000 USD {7.8 HKD}
+  Expenses:GeneralExpense:Subscriptions   4290.00000 HKD
     qty: "1"
     description: "Instant Inventory "
     referenceNo: "1500"
     orderId: "7f5110b7-f80b-40c1-abda-d6ee46f35e5c"
     type: "Bill Item"
     sourceId: "b2e70740-662d-40a3-a341-d45e4e0980c1"
-  Expenses:GeneralExpense:Subscriptions  750.00000 USD {7.8 HKD}
+  Expenses:GeneralExpense:Subscriptions   5850.00000 HKD
     qty: "1"
     description: "RapNet Buyer Billing Period:10/07/25 - 10/07/26"
     referenceNo: "1500"
     orderId: "7f5110b7-f80b-40c1-abda-d6ee46f35e5c"
     type: "Bill Item"
     sourceId: "52aa0324-bd9d-4336-b45d-10041c801837"
-  Expenses:GeneralExpense:BankFeesExpense  7.09000 USD {7.8 HKD}
+  Expenses:GeneralExpense:BankFeesExpense   55.30200 HKD
     qty: "1"
     description: "bank fee "
     referenceNo: "1500"
@@ -939,7 +939,7 @@
   referenceNo: "1433"
   orderId: "bd4bbb23-45d0-4e56-ae03-edef5b998bfd"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1994.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   2173.46000 HKD
     category: "Jewelry"
     sku: "DD20250912001"
     qty: "1"
@@ -1904,17 +1904,6 @@
     referenceNo: "1438"
     orderId: "b2fd9836-f0da-4914-9b7f-47688a4e79ed"
 
-2025-09-22 * "Reservation Delivery R#GR2025092200001S D#D20250922002"
-  rsv-ref: "GR2025092200001S"
-  del-ref: "D20250922002"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -595692.06000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20250922002"
-    sourceId: "1119c869-49e6-42e0-aa4a-2e0a9043b13e"
-    orderId: "21f222d2-6de5-4917-b8f4-fd1cdbfd88af"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:Gold-In-Stock  5000.00000 XAU { }
-
 2025-09-22 * "Reservation Delivery R#GR2025092200001S D#D20250922001"
   rsv-ref: "GR2025092200001S"
   del-ref: "D20250922001"
@@ -1925,6 +1914,17 @@
     orderId: "21f222d2-6de5-4917-b8f4-fd1cdbfd88af"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:Gold-In-Stock  925.06000 XAU { }
+
+2025-09-22 * "Reservation Delivery R#GR2025092200001S D#D20250922002"
+  rsv-ref: "GR2025092200001S"
+  del-ref: "D20250922002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -595692.06000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20250922002"
+    sourceId: "1119c869-49e6-42e0-aa4a-2e0a9043b13e"
+    orderId: "21f222d2-6de5-4917-b8f4-fd1cdbfd88af"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  5000.00000 XAU { }
 
 2025-09-22 * "Reservation Payment R#GR2025092200002B P#P20250922001"
   rsv-ref: "GR2025092200002B"
@@ -2453,7 +2453,7 @@
   referenceNo: "1441"
   orderId: "e8f30e5e-bbe6-4e58-b929-2168bd9d1655"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD20250930001"
     qty: "1"
@@ -2461,7 +2461,7 @@
     orderId: "e8f30e5e-bbe6-4e58-b929-2168bd9d1655"
     type: "Bill Item"
     sourceId: "d047bc9d-9837-4479-b528-dc95c476cd70"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1994.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   2173.46000 HKD
     category: "Jewelry"
     sku: "DD20250930002"
     qty: "1"
@@ -2571,7 +2571,7 @@
     orderId: "e8f30e5e-bbe6-4e58-b929-2168bd9d1655"
 
 2025-09-30 * "Assets:CurrentAssets:Bank:BocForeignBank" "INTEREST - BOC Foreign 9/2025"
-  Income:OtherIncome:Interest-bank  -4.28000 USD {7.8 HKD}
+  Income:OtherIncome:Interest-bank   -33.38400 HKD
     type: "MJ"
     sourceId: "cfe875b8-ef90-4307-bdca-217b400b5e6c"
     orderId: "cfe875b8-ef90-4307-bdca-217b400b5e6c"

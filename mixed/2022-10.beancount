@@ -784,6 +784,24 @@
     sourceId: "03826f1f-af22-4fa4-9a90-06cb57b284fc"
     contact: "852 91320217 (MR.TANGSTEVE) [5741da3b-ed4d-4ece-8bf4-3dcc4e4a6941]"
 
+2022-10-07 * "Bill #790 323 22年10月-1月 電話費 6f51d329-cc81-4763-bc45-9df7a17e5425"
+  referenceNo: "790"
+  orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  299.00000 HKD
+    qty: "1"
+    description: "323 22年10月-1月 電話費"
+    referenceNo: "790"
+    orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
+    type: "Bill Item"
+    sourceId: "d556dec1-ff7a-49bf-a8f4-4a995535a65c"
+  Liabilities:CurrentLiabilities:AccountPayable  -299.00000 HKD
+    referenceNo: "790"
+    orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
+
 2022-10-07 * "Bill #186 #0131 GIA PURCHASE, NO.22232072 55c163f5-78e0-40e8-a08e-7f3a7db3b3f2"
   referenceNo: "186"
   orderId: "55c163f5-78e0-40e8-a08e-7f3a7db3b3f2"
@@ -821,24 +839,6 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     type: "Bill"
     sourceId: "7c5e0383-a7c4-473f-8695-3b4976fb8cb1"
-
-2022-10-07 * "Bill #790 323 22年10月-1月 電話費 6f51d329-cc81-4763-bc45-9df7a17e5425"
-  referenceNo: "790"
-  orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
-  type: "Bill"
-  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  299.00000 HKD
-    qty: "1"
-    description: "323 22年10月-1月 電話費"
-    referenceNo: "790"
-    orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
-    type: "Bill Item"
-    sourceId: "d556dec1-ff7a-49bf-a8f4-4a995535a65c"
-  Liabilities:CurrentLiabilities:AccountPayable  -299.00000 HKD
-    referenceNo: "790"
-    orderId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "6f51d329-cc81-4763-bc45-9df7a17e5425"
 
 2022-10-07 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #177 #b78d31ef-7daa-4880-b99d-5ac718d9c11c 03826f1f-af22-4fa4-9a90-06cb57b284fc"
   Assets:CurrentAssets:Bank:BocSavingBank  18750.00000 HKD
@@ -1394,7 +1394,7 @@
     referenceNo: "44"
 
 2022-10-13 * "Invoice #217 INV-0134 385f47af-02fc-4911-85f5-fd9ac1008793"
-  Income:Sales:SalesItem:SellDiamond  -4936.08000 USD {7.85 HKD}
+  Income:Sales:SalesItem:SellDiamond   -38748.22800 HKD
     category: "Natural Diamond"
     sku: "DDFFFFFF0800002346802300"
     qty: "1"
@@ -2197,7 +2197,7 @@
   referenceNo: "404"
   orderId: "3d07e47a-3e59-4d71-a971-de914ce896f4"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  5214.00000 USD {7.85 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond   40929.90000 HKD
     category: "Natural Diamond"
     sku: "DDFFFFFF0800005416243696"
     qty: "1"
@@ -3197,7 +3197,7 @@
     referenceNo: "320"
 
 2022-10-28 * "Assets:CurrentAssets:Cash:CashInHand" "more USD 5"
-  Income:OtherIncome:MiscellaneousIncome  5.00000 USD {7.85 HKD}
+  Income:OtherIncome:MiscellaneousIncome   39.25000 HKD
     type: "MJ"
     sourceId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
     orderId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
@@ -3207,7 +3207,7 @@
     sourceId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
     orderId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
     referenceNo: "341"
-  Income:OtherIncome:MiscellaneousIncome  -5.00000 USD {7.85 HKD}
+  Income:OtherIncome:MiscellaneousIncome   -39.25000 HKD
     type: "MJ"
     sourceId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
     orderId: "8f282a52-f643-4d48-8c9b-56931c70f8b1"
@@ -3330,7 +3330,7 @@
     referenceNo: "756"
 
 2022-10-28 * "Invoice #188 INV-0142 USD235 c5017639-5d48-4441-8f10-5a97d1cc25c5"
-  Income:Sales:SalesItem:SellDiamond  -235.00000 USD {7.85 HKD}
+  Income:Sales:SalesItem:SellDiamond   -1844.75000 HKD
     category: "Natural Diamond"
     sku: "DDFFFFFF0800001339425722"
     qty: "1"
@@ -3386,6 +3386,25 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     type: "Bill"
     sourceId: "b4bad1ff-57d8-4307-8ed9-f6085ec5f6b6"
+
+2022-10-28 * "Bill #693 NO SI, #142 55975851-5351-4472-b098-38898d42b0d9"
+  referenceNo: "693"
+  orderId: "55975851-5351-4472-b098-38898d42b0d9"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond   1844.75000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800001339425722"
+    qty: "1"
+    referenceNo: "693"
+    orderId: "55975851-5351-4472-b098-38898d42b0d9"
+    type: "Bill Item"
+    sourceId: "e68a41e8-822d-4cd0-901d-a4dc93e59c03"
+  Liabilities:CurrentLiabilities:AccountPayable  -235.00000 USD {7.85 HKD}
+    referenceNo: "693"
+    orderId: "55975851-5351-4472-b098-38898d42b0d9"
+    contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
+    type: "Bill"
+    sourceId: "55975851-5351-4472-b098-38898d42b0d9"
 
 2022-10-28 * "Bill #289 SI-10304, #143 e4f4018c-d114-42f1-9ad2-1268d2f3c8b5"
   referenceNo: "289"
@@ -3460,25 +3479,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "c3f33f41-f8e0-48db-9e6d-94536b430bab"
-
-2022-10-28 * "Bill #693 NO SI, #142 55975851-5351-4472-b098-38898d42b0d9"
-  referenceNo: "693"
-  orderId: "55975851-5351-4472-b098-38898d42b0d9"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  235.00000 USD {7.85 HKD}
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800001339425722"
-    qty: "1"
-    referenceNo: "693"
-    orderId: "55975851-5351-4472-b098-38898d42b0d9"
-    type: "Bill Item"
-    sourceId: "e68a41e8-822d-4cd0-901d-a4dc93e59c03"
-  Liabilities:CurrentLiabilities:AccountPayable  -235.00000 USD {7.85 HKD}
-    referenceNo: "693"
-    orderId: "55975851-5351-4472-b098-38898d42b0d9"
-    contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
-    type: "Bill"
-    sourceId: "55975851-5351-4472-b098-38898d42b0d9"
 
 2022-10-28 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #188 #a908e3e9-1884-4da4-b17e-6e8c78b647c5 c5017639-5d48-4441-8f10-5a97d1cc25c5"
   Assets:CurrentAssets:Cash:CashInHand  235.00000 USD {7.85 HKD}
@@ -3977,7 +3977,7 @@
     orderId: "dbdf6736-fe15-489a-9e26-01a24818e009"
 
 2022-10-31 * "Invoice #243 interest 93f81af3-5822-4f41-94d8-c1177349f164"
-  Income:OtherIncome:Interest-bank  -0.18000 USD {7.85 HKD}
+  Income:OtherIncome:Interest-bank   -1.41300 HKD
     description: "bank interest"
     qty: "1"
     referenceNo: "243"

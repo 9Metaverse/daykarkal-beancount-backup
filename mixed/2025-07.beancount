@@ -193,7 +193,7 @@
   referenceNo: "1365"
   orderId: "19d67734-3447-433a-81b9-3ef4b4bdac54"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  4179.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   4555.11000 HKD
     category: "Jewelry"
     sku: "DK250703001"
     qty: "1"
@@ -516,6 +516,31 @@
     type: "Bill"
     sourceId: "d7d4eff6-c10d-4917-826d-0528b52db346"
 
+2025-07-07 * "Bill #1383 ADT CSM - SECOM 12 MONTH Sim Card (INV 1139330) 80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+  referenceNo: "1383"
+  orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  3312.00000 HKD
+    qty: "1"
+    description: "ADT CSM - SECOM  12 MONTH Sim Card (INV 1139330)"
+    referenceNo: "1383"
+    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+    type: "Bill Item"
+    sourceId: "60eb0a24-13bd-4937-9255-9d7143cf9e9d"
+  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
+    qty: "1"
+    description: "bank fee "
+    referenceNo: "1383"
+    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+    type: "Bill Item"
+    sourceId: "5adc4408-4d08-432a-b0b1-197d4c40642a"
+  Liabilities:CurrentLiabilities:AccountPayable  -3317.00000 HKD
+    referenceNo: "1383"
+    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
+
 2025-07-07 * "Bill #1367 SAP2532/SAP2533/SAP2434(2PICS)/SAP2535(3PISC) e6d53e6d-c629-4d8b-8ada-6b1aae491f4b"
   referenceNo: "1367"
   orderId: "e6d53e6d-c629-4d8b-8ada-6b1aae491f4b"
@@ -582,31 +607,6 @@
     contact: "852 27332222 () [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     type: "Bill"
     sourceId: "e6d53e6d-c629-4d8b-8ada-6b1aae491f4b"
-
-2025-07-07 * "Bill #1383 ADT CSM - SECOM 12 MONTH Sim Card (INV 1139330) 80c7f7e0-cf22-4f37-b24f-0d40102718cc"
-  referenceNo: "1383"
-  orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
-  type: "Bill"
-  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  3312.00000 HKD
-    qty: "1"
-    description: "ADT CSM - SECOM  12 MONTH Sim Card (INV 1139330)"
-    referenceNo: "1383"
-    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
-    type: "Bill Item"
-    sourceId: "60eb0a24-13bd-4937-9255-9d7143cf9e9d"
-  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
-    qty: "1"
-    description: "bank fee "
-    referenceNo: "1383"
-    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
-    type: "Bill Item"
-    sourceId: "5adc4408-4d08-432a-b0b1-197d4c40642a"
-  Liabilities:CurrentLiabilities:AccountPayable  -3317.00000 HKD
-    referenceNo: "1383"
-    orderId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "80c7f7e0-cf22-4f37-b24f-0d40102718cc"
 
 2025-07-07 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1383 #0d91b3fd-4595-4f18-8caf-4d6a923e7287 80c7f7e0-cf22-4f37-b24f-0d40102718cc"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.00000 HKD
@@ -3260,7 +3260,7 @@
   Assets:Inventory:Gold:Gold-In-Stock  2000.00000 XAU { }
 
 2025-07-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "INTEREST - BOC Foreign 7/2025"
-  Income:OtherIncome:Interest-bank  -5.04000 USD {7.8 HKD}
+  Income:OtherIncome:Interest-bank   -39.31200 HKD
     type: "MJ"
     sourceId: "af395838-ecc8-4992-8dd7-3b48683c8795"
     orderId: "af395838-ecc8-4992-8dd7-3b48683c8795"
@@ -3950,6 +3950,78 @@
   Assets:Inventory:Gold:Gold-In-Stock  -211.37000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2025-07-31 * "Invoice #1078 (8E 38.61g) Gold Jewelry G17 to 417 @$831 184c4566-ebfa-4b9e-9adf-edd91750b27b"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3141.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051706000000000005"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "ec168867-9600-4d80-b301-d068071acc90"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -4554.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051206000000000007"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "b2989c36-bc80-4596-8bb0-8cb3951c0945"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3914.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051706000000000001"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "c30f96f4-1e48-4b63-b0c1-ebba18ccfd0f"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -2078.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051706000000000016"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "ff32cc97-643e-4cfe-8f94-e419a0214609"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3499.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DD2310200000000000000017"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "710ca927-b60c-4753-9db3-76b2732e110e"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -1654.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DD2310200000000000000020"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "47bf631f-0055-4056-8846-26d8a6d026b3"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -9083.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051206000000000006"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "30f9284b-4933-4819-ad65-b624533f3dfe"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -4163.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051706000000000004"
+    qty: "1"
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice Item"
+    sourceId: "b0cb3181-a0fe-4c75-b146-9d754296c985"
+  Assets:CurrentAssets:AccountReceivable  32086.00000 HKD
+    referenceNo: "1078"
+    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    type: "Invoice"
+    sourceId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
 2025-07-31 * "Invoice #1081 (金豬4pcs 98.02g) Gold Jewelry G17 to 417 @$831 93124b1c-960c-417f-ac9f-3741ecd2470f"
   Assets:CurrentAssets:ShopInventory:GoldJewelry  -15864.00000 HKD
     category: "Gold Jewelry"
@@ -4084,78 +4156,6 @@
     orderId: "b71bcefa-f558-4067-933e-34e8f7ec2247"
     type: "Invoice"
     sourceId: "b71bcefa-f558-4067-933e-34e8f7ec2247"
-    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
-
-2025-07-31 * "Invoice #1078 (8E 38.61g) Gold Jewelry G17 to 417 @$831 184c4566-ebfa-4b9e-9adf-edd91750b27b"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3141.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051706000000000005"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "ec168867-9600-4d80-b301-d068071acc90"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -4554.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051206000000000007"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "b2989c36-bc80-4596-8bb0-8cb3951c0945"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3914.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051706000000000001"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "c30f96f4-1e48-4b63-b0c1-ebba18ccfd0f"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -2078.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051706000000000016"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "ff32cc97-643e-4cfe-8f94-e419a0214609"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -3499.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DD2310200000000000000017"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "710ca927-b60c-4753-9db3-76b2732e110e"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -1654.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DD2310200000000000000020"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "47bf631f-0055-4056-8846-26d8a6d026b3"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -9083.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051206000000000006"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "30f9284b-4933-4819-ad65-b624533f3dfe"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -4163.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051706000000000004"
-    qty: "1"
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice Item"
-    sourceId: "b0cb3181-a0fe-4c75-b146-9d754296c985"
-  Assets:CurrentAssets:AccountReceivable  32086.00000 HKD
-    referenceNo: "1078"
-    orderId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
-    type: "Invoice"
-    sourceId: "184c4566-ebfa-4b9e-9adf-edd91750b27b"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 
 2025-07-31 * "Invoice #1073 (婚嫁4pcs 141.62g) Gold Jewelry G17 to 417 @$831 1e7f2591-6d67-4788-a9e9-793db6b1b8e8"

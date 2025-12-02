@@ -418,42 +418,6 @@
     type: "Bill"
     sourceId: "d9c08b90-14f9-4bd6-ab17-c2b787fd3774"
 
-2023-04-13 * "Bill #222 EPS 23年3月手續費 d416e37d-1784-43cd-ba32-97215a555a5b"
-  referenceNo: "222"
-  orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  410.00000 HKD
-    qty: "1"
-    description: "EPS 23年3月手續費"
-    referenceNo: "222"
-    orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
-    type: "Bill Item"
-    sourceId: "1f2356f6-c68f-45a7-a599-9fc73538651b"
-  Liabilities:CurrentLiabilities:AccountPayable  -410.00000 HKD
-    referenceNo: "222"
-    orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "d416e37d-1784-43cd-ba32-97215a555a5b"
-
-2023-04-13 * "Bill #243 bank fee TT d704ac9f-623a-46f8-9751-88d19e631ec0"
-  referenceNo: "243"
-  orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  355.00000 HKD
-    qty: "1"
-    description: ""
-    referenceNo: "243"
-    orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
-    type: "Bill Item"
-    sourceId: "ebacd093-8206-4c8e-8aa0-f803f45af845"
-  Liabilities:CurrentLiabilities:AccountPayable  -355.00000 HKD
-    referenceNo: "243"
-    orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
-
 2023-04-13 * "Bill #803 323 MATCH 工資 (FINAL PAY) b6e8c778-2ed2-49c9-9f1e-ecab89a12a7c"
   referenceNo: "803"
   orderId: "b6e8c778-2ed2-49c9-9f1e-ecab89a12a7c"
@@ -489,6 +453,42 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "93a9c0b6-20a3-4169-ad3f-96dbc219e491"
+
+2023-04-13 * "Bill #222 EPS 23年3月手續費 d416e37d-1784-43cd-ba32-97215a555a5b"
+  referenceNo: "222"
+  orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  410.00000 HKD
+    qty: "1"
+    description: "EPS 23年3月手續費"
+    referenceNo: "222"
+    orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
+    type: "Bill Item"
+    sourceId: "1f2356f6-c68f-45a7-a599-9fc73538651b"
+  Liabilities:CurrentLiabilities:AccountPayable  -410.00000 HKD
+    referenceNo: "222"
+    orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "d416e37d-1784-43cd-ba32-97215a555a5b"
+
+2023-04-13 * "Bill #243 bank fee TT d704ac9f-623a-46f8-9751-88d19e631ec0"
+  referenceNo: "243"
+  orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  355.00000 HKD
+    qty: "1"
+    description: ""
+    referenceNo: "243"
+    orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
+    type: "Bill Item"
+    sourceId: "ebacd093-8206-4c8e-8aa0-f803f45af845"
+  Liabilities:CurrentLiabilities:AccountPayable  -355.00000 HKD
+    referenceNo: "243"
+    orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
 
 2023-04-13 * "Bill #805 G17 裝修按金 DEPOSIT 8bd64fe9-43e4-4fa7-955c-174d6f669d27"
   referenceNo: "805"
@@ -608,7 +608,7 @@
   referenceNo: "422"
   orderId: "2bb5d3d3-385e-4f8c-a6e8-c74ddd263e4e"
   type: "Bill"
-  Expenses:GeneralExpense:Subscriptions  2000.00000 USD {7.84 HKD}
+  Expenses:GeneralExpense:Subscriptions   15680.00000 HKD
     qty: "1"
     description: "BIZ4X - SUBSCRIPTION"
     referenceNo: "422"
@@ -928,24 +928,6 @@
     referenceNo: "168"
     orderId: "da69e1a0-f5bc-4acd-ba56-5dd9201b0009"
 
-2023-04-29 * "Bill #833 DKK 搬夾萬費用 b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-  referenceNo: "833"
-  orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-  type: "Bill"
-  Expenses:GeneralExpense:TransportationAndCourier  4500.00000 HKD
-    qty: "1"
-    description: "DKK 搬夾萬費用"
-    referenceNo: "833"
-    orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-    type: "Bill Item"
-    sourceId: "63fa53bc-1046-4006-a087-fbd44e81a778"
-  Liabilities:CurrentLiabilities:AccountPayable  -4500.00000 HKD
-    referenceNo: "833"
-    orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-
 2023-04-29 * "Bill #783 323上網(2023-5月) 74a7785b-a168-4ea2-a0ae-e6deac41cb80"
   referenceNo: "783"
   orderId: "74a7785b-a168-4ea2-a0ae-e6deac41cb80"
@@ -1016,6 +998,24 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "ac7d484f-058a-4628-8e1f-217ba32d90e2"
+
+2023-04-29 * "Bill #833 DKK 搬夾萬費用 b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
+  referenceNo: "833"
+  orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
+  type: "Bill"
+  Expenses:GeneralExpense:TransportationAndCourier  4500.00000 HKD
+    qty: "1"
+    description: "DKK 搬夾萬費用"
+    referenceNo: "833"
+    orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
+    type: "Bill Item"
+    sourceId: "63fa53bc-1046-4006-a087-fbd44e81a778"
+  Liabilities:CurrentLiabilities:AccountPayable  -4500.00000 HKD
+    referenceNo: "833"
+    orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
 
 2023-04-29 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #783 #69cdf45a-e8c9-4bfb-993f-892eb2294c4b 74a7785b-a168-4ea2-a0ae-e6deac41cb80"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -338.00000 HKD
@@ -1103,7 +1103,7 @@
     orderId: "fa49f14f-5ab7-40b7-9c85-16ba103ad972"
 
 2023-04-30 * "Invoice #253 INTEREST 54197368-f7ae-48af-a64c-77ed397106c2"
-  Income:OtherIncome:Interest-bank  -0.56000 USD {7.84 HKD}
+  Income:OtherIncome:Interest-bank   -4.39040 HKD
     description: "INTEREST"
     qty: "1"
     referenceNo: "253"

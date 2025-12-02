@@ -333,7 +333,7 @@
   referenceNo: "1325"
   orderId: "66f40e7d-6221-4fc6-b582-b338fdd02164"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1904.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   2075.36000 HKD
     category: "Jewelry"
     sku: "DD2025050500000001"
     qty: "1"
@@ -341,7 +341,7 @@
     orderId: "66f40e7d-6221-4fc6-b582-b338fdd02164"
     type: "Bill Item"
     sourceId: "1335f791-71e9-4434-bb09-c9e44cfb4034"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2094.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   2282.46000 HKD
     category: "Jewelry"
     sku: "DD2025050500000002"
     qty: "1"
@@ -494,25 +494,6 @@
     orderId: "3b420947-8d0a-4558-9db7-0beeacfced4b"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-05-06 * "Bill #1328 1.42CT SAP fc2da1d7-73fd-4ab6-afb3-878cde38b741"
-  referenceNo: "1328"
-  orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  8100.00000 HKD
-    category: "Gem"
-    sku: "SAP2504"
-    qty: "1"
-    referenceNo: "1328"
-    orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
-    type: "Bill Item"
-    sourceId: "a4d9b0b1-8813-40f8-b62d-303f39ee2630"
-  Liabilities:CurrentLiabilities:AccountPayable  -8100.00000 HKD
-    referenceNo: "1328"
-    orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
-    contact: "852 27332222 () [9fff2798-f1db-47cb-8899-6d52f49f6715]"
-    type: "Bill"
-    sourceId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
-
 2025-05-06 * "Bill #1339 員工進修費用 524b6e96-f690-4a86-92a4-1b7382ba5153"
   referenceNo: "1339"
   orderId: "524b6e96-f690-4a86-92a4-1b7382ba5153"
@@ -537,6 +518,25 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "524b6e96-f690-4a86-92a4-1b7382ba5153"
+
+2025-05-06 * "Bill #1328 1.42CT SAP fc2da1d7-73fd-4ab6-afb3-878cde38b741"
+  referenceNo: "1328"
+  orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  8100.00000 HKD
+    category: "Gem"
+    sku: "SAP2504"
+    qty: "1"
+    referenceNo: "1328"
+    orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
+    type: "Bill Item"
+    sourceId: "a4d9b0b1-8813-40f8-b62d-303f39ee2630"
+  Liabilities:CurrentLiabilities:AccountPayable  -8100.00000 HKD
+    referenceNo: "1328"
+    orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
+    contact: "852 27332222 () [9fff2798-f1db-47cb-8899-6d52f49f6715]"
+    type: "Bill"
+    sourceId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
 
 2025-05-06 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1339 #6e398bdf-8be5-49d3-9dfd-0a17c67b8b99 524b6e96-f690-4a86-92a4-1b7382ba5153"
   Assets:CurrentAssets:Bank:BocSavingBank  -4254.02000 HKD
@@ -1039,17 +1039,6 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:Gold-In-Stock  20000.00000 XAU { }
 
-2025-05-09 * "Reservation Delivery R#GR2025050900006S D#D20250509010"
-  rsv-ref: "GR2025050900006S"
-  del-ref: "D20250509010"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -6470.78000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20250509010"
-    sourceId: "69e10443-0e03-4977-934a-7bff122253d8"
-    orderId: "b1dfa8ad-0b54-4d7b-a019-d1b9e2158cb7"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:Gold-In-Stock  60.38000 XAU { }
-
 2025-05-09 * "Reservation Delivery R#GR2025050800003S D#D20250509008"
   rsv-ref: "GR2025050800003S"
   del-ref: "D20250509008"
@@ -1060,6 +1049,17 @@
     orderId: "51a4a95e-a428-4d17-bc74-5ac01d284421"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:Gold-In-Stock  250.52000 XAU { }
+
+2025-05-09 * "Reservation Delivery R#GR2025050900006S D#D20250509010"
+  rsv-ref: "GR2025050900006S"
+  del-ref: "D20250509010"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -6470.78000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20250509010"
+    sourceId: "69e10443-0e03-4977-934a-7bff122253d8"
+    orderId: "b1dfa8ad-0b54-4d7b-a019-d1b9e2158cb7"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  60.38000 XAU { }
 
 2025-05-09 * "Reservation Delivery R#GR2025050900003S D#D20250509005"
   rsv-ref: "GR2025050900003S"
@@ -2160,19 +2160,6 @@
     orderId: "d5175e45-7d2c-4e1f-b7e6-19bac24b6165"
     contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
 
-2025-05-13 * "Reservation Delivery R#GR2025051300003B D#D20250513003"
-  rsv-ref: "GR2025051300003B"
-  del-ref: "D20250513003"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xinZhang85297808893  89599.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20250513003"
-    sourceId: "1b897d04-8025-44c5-9c85-55ff881112bd"
-    orderId: "d5175e45-7d2c-4e1f-b7e6-19bac24b6165"
-    contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
-  Income:Sales:Sales-Gold  -89599.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -110.08000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2025-05-13 * "Reservation Delivery R#GR2025051300001B D#D20250513001"
   rsv-ref: "GR2025051300001B"
   del-ref: "D20250513001"
@@ -2184,6 +2171,19 @@
     contact: "852 53716966 (XIAOBINGE) [777047d6-8943-48f1-bc3a-d4af2b66870c]"
   Income:Sales:Sales-Gold  -26276.07000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -32.54000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2025-05-13 * "Reservation Delivery R#GR2025051300003B D#D20250513003"
+  rsv-ref: "GR2025051300003B"
+  del-ref: "D20250513003"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xinZhang85297808893  89599.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20250513003"
+    sourceId: "1b897d04-8025-44c5-9c85-55ff881112bd"
+    orderId: "d5175e45-7d2c-4e1f-b7e6-19bac24b6165"
+    contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
+  Income:Sales:Sales-Gold  -89599.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -110.08000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2025-05-13 * "Reservation Delivery R#GR2025051300001B D#D20250513002"
@@ -2402,7 +2402,7 @@
   referenceNo: "1331"
   orderId: "d73b9cc5-9875-4bf1-95f9-aec717f2e1c8"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD2025051500000001"
     qty: "1"
@@ -2410,7 +2410,7 @@
     orderId: "d73b9cc5-9875-4bf1-95f9-aec717f2e1c8"
     type: "Bill Item"
     sourceId: "53f43ac1-27e5-4df9-bd59-0d7a50b42e56"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD2025051500000002"
     qty: "1"
@@ -3061,7 +3061,7 @@
   referenceNo: "1345"
   orderId: "3b3bab7f-26d8-4953-b3e2-d0f4046e9702"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1994.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   2173.46000 HKD
     category: "Jewelry"
     sku: "DD2025052300000002"
     qty: "1"
@@ -3069,7 +3069,7 @@
     orderId: "3b3bab7f-26d8-4953-b3e2-d0f4046e9702"
     type: "Bill Item"
     sourceId: "fcbae3cb-8fc2-431f-bb9a-37a3cfbc8298"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD2025052300000001"
     qty: "1"
@@ -3515,7 +3515,7 @@
   referenceNo: "1347"
   orderId: "41c40709-715f-4e88-b558-7c8e32674f07"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD2025052800000001"
     qty: "1"
@@ -3523,7 +3523,7 @@
     orderId: "41c40709-715f-4e88-b558-7c8e32674f07"
     type: "Bill Item"
     sourceId: "e05d9ee1-611b-46ef-bc68-412ef3c50397"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1804.00000 CNY {1.09 HKD}
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   1966.36000 HKD
     category: "Jewelry"
     sku: "DD2025052800000002"
     qty: "1"
@@ -3677,14 +3677,14 @@
   referenceNo: "1349"
   orderId: "3f1b44c7-969b-4e02-8025-af5304a77718"
   type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  40.94000 USD {7.8 HKD}
+  Expenses:GeneralExpense:BankFeesExpense   319.33200 HKD
     qty: "1"
     description: "TO: MILWAYS GOLD LINITED USD  $1473962.18 (40.94手續費)"
     referenceNo: "1349"
     orderId: "3f1b44c7-969b-4e02-8025-af5304a77718"
     type: "Bill Item"
     sourceId: "2e76d173-3a54-47c0-aa93-9f27d8edac54"
-  Expenses:GeneralExpense:BankFeesExpense  1.92000 USD {7.8 HKD}
+  Expenses:GeneralExpense:BankFeesExpense   14.97600 HKD
     qty: "1"
     description: "FR:HEREAUS USD 1505200 (手續費 USD 1.92)"
     referenceNo: "1349"
@@ -4001,7 +4001,7 @@
     sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
     orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
     referenceNo: "86"
-  Income:OtherIncome:Interest-bank  -8.16000 USD {7.8 HKD}
+  Income:OtherIncome:Interest-bank   -63.64800 HKD
     type: "MJ"
     sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
     orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"

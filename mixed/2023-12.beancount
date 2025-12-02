@@ -1490,7 +1490,7 @@
     sourceId: "d4b1b752-2eba-49bf-baba-35b9d6053864"
     orderId: "d4b1b752-2eba-49bf-baba-35b9d6053864"
     referenceNo: "251"
-  Expenses:OtherExpenses:CostOfHedging金  55860.00000 USDT {7.8 HKD}
+  Expenses:OtherExpenses:CostOfHedging金   435708.00000 HKD
     type: "MJ"
     sourceId: "d4b1b752-2eba-49bf-baba-35b9d6053864"
     orderId: "d4b1b752-2eba-49bf-baba-35b9d6053864"
@@ -5164,7 +5164,7 @@
     contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
 
 2023-12-13 * "Invoice #499 A39214 ( INV497 多付人仔 (客付 CNY 3400 , 單收 CNY 3357) 562eda53-61fb-4c0b-a29c-f115fc3c06f5"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -43.00000 CNY {1.08 HKD}
+  Income:Sales:SalesItem:SellBespokeorotherFee   -46.44000 HKD
     description: "AA39214 ( INV497 多付人仔 (客付 CNY 3400 , 單收 CNY 3357)"
     qty: "1"
     referenceNo: "499"
@@ -6241,7 +6241,7 @@
   Expenses:Cogs:Cogs-Gold
 
 2023-12-13 * "Invoice #497 AA39214 6e254ec6-9ec1-4f2b-9f7f-8d0909eafd45"
-  Income:Sales:SalesItem:SellGoldJewelry  -3357.00000 CNY {1.08 HKD}
+  Income:Sales:SalesItem:SellGoldJewelry   -3625.56000 HKD
     category: "Gold Jewelry"
     sku: "DDFF23051704000000000098"
     qty: "1"
@@ -7219,7 +7219,7 @@
   referenceNo: "1453"
   orderId: "0ddc54d6-dcde-4fef-9e1b-d37c15c5390e"
   type: "Bill"
-  Expenses:GeneralExpense:MetalTransportationFee  784.00000 USDT {7.8 HKD}
+  Expenses:GeneralExpense:MetalTransportationFee   6115.20000 HKD
     qty: "98"
     description: "(11/12-15/12)1week 98kg*8=784 usdt"
     referenceNo: "1453"
@@ -12882,24 +12882,6 @@
     type: "Bill"
     sourceId: "c203ab3b-cdd7-48f8-86de-f7baa70921a4"
 
-2023-12-22 * "Bill #1454 (18/12-22/12)1week 128kg*8=1024 usdt 0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-  referenceNo: "1454"
-  orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-  type: "Bill"
-  Expenses:GeneralExpense:MetalTransportationFee  1024.00000 USDT {7.8 HKD}
-    qty: "128"
-    description: "(18/12-22/12)1week 128kg*8=1024 usdt"
-    referenceNo: "1454"
-    orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-    type: "Bill Item"
-    sourceId: "6851b005-00bf-4ab7-a92f-df06e678642d"
-  Liabilities:CurrentLiabilities:AccountPayable  -1024.00000 USDT {7.8 HKD}
-    referenceNo: "1454"
-    orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
-    type: "Bill"
-    sourceId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-
 2023-12-22 * "Bill #921 12月2023MPF 61b4e21d-4bc5-4a12-85b4-027e61765a16"
   referenceNo: "921"
   orderId: "61b4e21d-4bc5-4a12-85b4-027e61765a16"
@@ -12935,6 +12917,24 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "dd704b13-fb1b-48b6-a9a3-92ef297f0906"
+
+2023-12-22 * "Bill #1454 (18/12-22/12)1week 128kg*8=1024 usdt 0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
+  referenceNo: "1454"
+  orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
+  type: "Bill"
+  Expenses:GeneralExpense:MetalTransportationFee   7987.20000 HKD
+    qty: "128"
+    description: "(18/12-22/12)1week 128kg*8=1024 usdt"
+    referenceNo: "1454"
+    orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
+    type: "Bill Item"
+    sourceId: "6851b005-00bf-4ab7-a92f-df06e678642d"
+  Liabilities:CurrentLiabilities:AccountPayable  -1024.00000 USDT {7.8 HKD}
+    referenceNo: "1454"
+    orderId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
+    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
+    type: "Bill"
+    sourceId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
 
 2023-12-22 * "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]" "Bill Payment for Bill #1454 #669b6344-dd17-4da6-aad1-3e4d13d074eb 0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
   Assets:CurrentAssets:Wallet:DkkCWallet金料  -1024.00000 USDT {7.8 HKD}
@@ -15136,7 +15136,7 @@
     contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
 
 2023-12-24 * "Invoice #511 PAY CASH 3400CNY 27HKD 6036744f-3916-465b-8398-b81e9879e33b"
-  Income:Sales:SalesItem:SellGoldJewelry  -3425.00000 CNY {1.08 HKD}
+  Income:Sales:SalesItem:SellGoldJewelry   -3699.00000 HKD
     category: "Gold Jewelry"
     sku: "DDFF23051704000000000002"
     qty: "1"
@@ -20606,24 +20606,6 @@
     type: "Bill"
     sourceId: "40ec91a3-bb6e-4b0a-8e85-a7a8c45a2566"
 
-2023-12-29 * "Bill #918 kpay116 2934ec87-19f4-4082-87bb-8ff4515973ad"
-  referenceNo: "918"
-  orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
-  type: "Bill"
-  Expenses:GeneralExpense:CardFeeExpense  394.36000 HKD
-    qty: "1"
-    description: "32780 - 32385.64 = 394.36"
-    referenceNo: "918"
-    orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
-    type: "Bill Item"
-    sourceId: "01eeeb1f-3815-4a59-a723-ae7bd96bdcfc"
-  Liabilities:CurrentLiabilities:AccountPayable  -394.36000 HKD
-    referenceNo: "918"
-    orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    type: "Bill"
-    sourceId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
-
 2023-12-29 * "Bill #917 kpay115 e08368b7-d46f-4bc3-a480-3f46cfb5caf1"
   referenceNo: "917"
   orderId: "e08368b7-d46f-4bc3-a480-3f46cfb5caf1"
@@ -20642,11 +20624,29 @@
     type: "Bill"
     sourceId: "e08368b7-d46f-4bc3-a480-3f46cfb5caf1"
 
+2023-12-29 * "Bill #918 kpay116 2934ec87-19f4-4082-87bb-8ff4515973ad"
+  referenceNo: "918"
+  orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
+  type: "Bill"
+  Expenses:GeneralExpense:CardFeeExpense  394.36000 HKD
+    qty: "1"
+    description: "32780 - 32385.64 = 394.36"
+    referenceNo: "918"
+    orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
+    type: "Bill Item"
+    sourceId: "01eeeb1f-3815-4a59-a723-ae7bd96bdcfc"
+  Liabilities:CurrentLiabilities:AccountPayable  -394.36000 HKD
+    referenceNo: "918"
+    orderId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    type: "Bill"
+    sourceId: "2934ec87-19f4-4082-87bb-8ff4515973ad"
+
 2023-12-29 * "Bill #1455 (25/12-29/12)1week 90kg*8=720 usdt 42bd4a2d-52da-4413-bcc0-ac6d17fce17d"
   referenceNo: "1455"
   orderId: "42bd4a2d-52da-4413-bcc0-ac6d17fce17d"
   type: "Bill"
-  Expenses:GeneralExpense:MetalTransportationFee  720.00000 USDT {7.8 HKD}
+  Expenses:GeneralExpense:MetalTransportationFee   5616.00000 HKD
     qty: "90"
     description: "(25/12-29/12)1week 90kg*8=720 usdt"
     referenceNo: "1455"
@@ -23484,7 +23484,7 @@
   referenceNo: "1056"
   orderId: "f07352e8-40c8-421c-ae79-e2bc220a5d46"
   type: "Bill"
-  Expenses:OtherExpenses:CostOfHedging金  27977.55000 USDT {7.8 HKD}
+  Expenses:OtherExpenses:CostOfHedging金   218224.89000 HKD
     qty: "1"
     description: "Closed Trade P/L"
     referenceNo: "1056"
@@ -23502,7 +23502,7 @@
   referenceNo: "1062"
   orderId: "9d54ea08-34f6-440c-9533-794b8eb389a0"
   type: "Bill"
-  Expenses:OtherExpenses:LostOfInvestment  74.22000 USDT {7.8 HKD}
+  Expenses:OtherExpenses:LostOfInvestment   578.91600 HKD
     qty: "1"
     description: "cTrader_position_history"
     referenceNo: "1062"

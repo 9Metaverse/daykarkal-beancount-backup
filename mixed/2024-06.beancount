@@ -3628,19 +3628,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2024-06-12 * "Reservation Delivery R#GR2024061000005B D#D20241206001"
-  rsv-ref: "GR2024061000005B"
-  del-ref: "D20241206001"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linRuizhen林瑞贞85292730520  115232.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20241206001"
-    sourceId: "cd36fc7b-054e-4253-9a2d-5ca1f2ead2d7"
-    orderId: "ec404bec-7a0e-45fe-a128-be9ab9d53d16"
-    contact: "852 92730520 (LINRUIZHEN林瑞贞) [5635dda9-d4a4-4ef8-b367-968700354d7e]"
-  Income:Sales:Sales-Gold  -115232.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2024-06-12 * "Reservation Delivery R#GR2024061000002B D#D20241206002"
   rsv-ref: "GR2024061000002B"
   del-ref: "D20241206002"
@@ -3652,6 +3639,19 @@
     contact: "852 92730520 (LINRUIZHEN林瑞贞) [5635dda9-d4a4-4ef8-b367-968700354d7e]"
   Income:Sales:Sales-Gold  -80832.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -140.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2024-06-12 * "Reservation Delivery R#GR2024061000005B D#D20241206001"
+  rsv-ref: "GR2024061000005B"
+  del-ref: "D20241206001"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linRuizhen林瑞贞85292730520  115232.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20241206001"
+    sourceId: "cd36fc7b-054e-4253-9a2d-5ca1f2ead2d7"
+    orderId: "ec404bec-7a0e-45fe-a128-be9ab9d53d16"
+    contact: "852 92730520 (LINRUIZHEN林瑞贞) [5635dda9-d4a4-4ef8-b367-968700354d7e]"
+  Income:Sales:Sales-Gold  -115232.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2024-06-12 * "Reservation Delivery R#GR2024061000006B D#D20240612019"
@@ -6164,7 +6164,7 @@
     sourceId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
     orderId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
     referenceNo: "184"
-  Expenses:OtherExpenses:CostOfHedging金  119127.99000 USDT {7.79 HKD}
+  Expenses:OtherExpenses:CostOfHedging金   928007.04210 HKD
     type: "MJ"
     sourceId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
     orderId: "8fa426ec-df28-4cf6-878c-a8e02e683ec1"
@@ -6497,7 +6497,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2024-06-30 * "Invoice #708 Rebate From ICmarket 2024-06 79cf2285-e428-4cb5-874a-3b0e7f07ac2f"
-  Income:OtherIncome:RebateFromLp  -1069.11000 USDT {7.79 HKD}
+  Income:OtherIncome:RebateFromLp   -8328.36690 HKD
     description: "Manual (Back office) 06-01至06-30"
     qty: "1"
     referenceNo: "708"
@@ -6512,7 +6512,7 @@
     contact: "852 666666 (icmarket) [666112b8-2856-4ed8-8370-eb4b911be7b5]"
 
 2024-06-30 * "Invoice #705 Income of Hedging(金) 2024-06 4f96c77c-4f67-43a5-a9e6-6d1f5fcffcd0"
-  Income:OtherIncome:IncomeOfHedging金  -333222.96000 USDT {7.79 HKD}
+  Income:OtherIncome:IncomeOfHedging金   -2595806.85840 HKD
     description: "Closed Trade P/L"
     qty: "1"
     referenceNo: "705"
@@ -6525,24 +6525,6 @@
     type: "Invoice"
     sourceId: "4f96c77c-4f67-43a5-a9e6-6d1f5fcffcd0"
     contact: "852 666666 (icmarket) [666112b8-2856-4ed8-8370-eb4b911be7b5]"
-
-2024-06-30 * "Bill #1224 Assist MW in hedging used Icmarket acc 2024-06 d3f7537a-9149-4188-982a-529b75c812fe"
-  referenceNo: "1224"
-  orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
-  type: "Bill"
-  Income:OtherIncome:AssistHedging金  333222.96000 USDT {7.79 HKD}
-    qty: "1"
-    description: "assist MW in hedging used Icmarket acc 2024.0601-0630"
-    referenceNo: "1224"
-    orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
-    type: "Bill Item"
-    sourceId: "05732d11-ac39-4ed8-9db4-faf6241e3326"
-  Liabilities:CurrentLiabilities:AccountPayable  -333222.96000 USDT {7.79 HKD}
-    referenceNo: "1224"
-    orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    type: "Bill"
-    sourceId: "d3f7537a-9149-4188-982a-529b75c812fe"
 
 2024-06-30 * "Bill #1206 Kpay 06/24 手續費 e8b1a4da-acfd-49d8-92e5-8d4e15ff9061"
   referenceNo: "1206"
@@ -6561,6 +6543,24 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     type: "Bill"
     sourceId: "e8b1a4da-acfd-49d8-92e5-8d4e15ff9061"
+
+2024-06-30 * "Bill #1224 Assist MW in hedging used Icmarket acc 2024-06 d3f7537a-9149-4188-982a-529b75c812fe"
+  referenceNo: "1224"
+  orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
+  type: "Bill"
+  Income:OtherIncome:AssistHedging金   2595806.85840 HKD
+    qty: "1"
+    description: "assist MW in hedging used Icmarket acc 2024.0601-0630"
+    referenceNo: "1224"
+    orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
+    type: "Bill Item"
+    sourceId: "05732d11-ac39-4ed8-9db4-faf6241e3326"
+  Liabilities:CurrentLiabilities:AccountPayable  -333222.96000 USDT {7.79 HKD}
+    referenceNo: "1224"
+    orderId: "d3f7537a-9149-4188-982a-529b75c812fe"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+    type: "Bill"
+    sourceId: "d3f7537a-9149-4188-982a-529b75c812fe"
 
 2024-06-30 * "Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金" "Invoice Payment for Invoice #708 #af58728a-1d1a-4726-a98b-1907064b402e 79cf2285-e428-4cb5-874a-3b0e7f07ac2f"
   Assets:CurrentAssets:E-tradingPlatform:Mt4320039271金  1069.11000 USDT {7.79 HKD}
