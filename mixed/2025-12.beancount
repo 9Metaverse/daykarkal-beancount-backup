@@ -53,3 +53,39 @@
     sourceId: "e11124d2-f9fe-4760-9107-6255416be4a7"
     orderId: "7699505d-17ca-4316-bdad-86f08cfbbe0b"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+
+2025-12-02 * "Invoice #1174 Stock~ SAP2554-18 出IGI證書 5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+  Income:Sales:SalesItem:SellGems  -1500.00000 HKD
+    category: "Gem"
+    sku: "SAP2554-18"
+    qty: "1"
+    referenceNo: "1174"
+    orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+    type: "Invoice Item"
+    sourceId: "4e138a24-d37a-4bb0-833f-db147386deed"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -500.00000 HKD
+    description: "IGI Cert"
+    qty: "1"
+    referenceNo: "1174"
+    orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+    type: "Invoice Item"
+    sourceId: "4b542ac8-9042-4da1-a425-bef06395f3c9"
+  Assets:CurrentAssets:AccountReceivable  2000.00000 HKD
+    referenceNo: "1174"
+    orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+    type: "Invoice"
+    sourceId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+    contact: "852 53719444 (NoName) [e8081506-9154-49a9-8405-a0d46a91dd69]"
+
+2025-12-02 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1174 #fc4aa66f-5164-4b91-9b31-1bacda1252ff 5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+  Assets:CurrentAssets:Bank:KpayBank  2000.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "fc4aa66f-5164-4b91-9b31-1bacda1252ff"
+    referenceNo: "1174"
+    orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+  Assets:CurrentAssets:AccountReceivable  -2000.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "fc4aa66f-5164-4b91-9b31-1bacda1252ff"
+    referenceNo: "1174"
+    orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
+    contact: "852 53719444 (NoName) [e8081506-9154-49a9-8405-a0d46a91dd69]"
