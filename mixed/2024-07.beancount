@@ -3601,6 +3601,32 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:Gold-In-Stock  7000.00000 XAU { }
 
+2024-07-24 * "Bill #1049 FOR SHIRLEY 377c38c9-6505-43b9-9641-098ebc00585e"
+  referenceNo: "1049"
+  orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  13000.00000 HKD
+    category: "Jewelry"
+    sku: "DD2024072800000001"
+    qty: "1"
+    referenceNo: "1049"
+    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
+    type: "Bill Item"
+    sourceId: "e9699ca6-c2e6-4f0a-8c19-342c9ce0b74f"
+  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
+    qty: "1"
+    description: "BANK FEE"
+    referenceNo: "1049"
+    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
+    type: "Bill Item"
+    sourceId: "3d241786-92b7-4068-80a8-76260b512b92"
+  Liabilities:CurrentLiabilities:AccountPayable  -13005.00000 HKD
+    referenceNo: "1049"
+    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
+    contact: "852 96544060 (YHJEWELRYLIMITED) [6ff7ad8d-b4f9-4035-9036-23838ff405cd]"
+    type: "Bill"
+    sourceId: "377c38c9-6505-43b9-9641-098ebc00585e"
+
 2024-07-24 * "Reservation Delivery R#GR2024072400005B D#D20240724006"
   rsv-ref: "GR2024072400005B"
   del-ref: "D20240724006"
@@ -3747,32 +3773,6 @@
     referenceNo: "678"
     orderId: "8bcaad84-3ed9-4bef-92fc-dfd8de30bc78"
     contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-
-2024-07-25 * "Bill #1049 FOR SHIRLEY 377c38c9-6505-43b9-9641-098ebc00585e"
-  referenceNo: "1049"
-  orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
-  type: "Bill"
-  Income:Sales:SalesItem:Sell18kJewelry  13000.00000 HKD
-    category: "Jewelry"
-    sku: "DD2024072800000001"
-    qty: "1"
-    referenceNo: "1049"
-    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
-    type: "Bill Item"
-    sourceId: "e9699ca6-c2e6-4f0a-8c19-342c9ce0b74f"
-  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
-    qty: "1"
-    description: "BANK FEE"
-    referenceNo: "1049"
-    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
-    type: "Bill Item"
-    sourceId: "3d241786-92b7-4068-80a8-76260b512b92"
-  Liabilities:CurrentLiabilities:AccountPayable  -13005.00000 HKD
-    referenceNo: "1049"
-    orderId: "377c38c9-6505-43b9-9641-098ebc00585e"
-    contact: "852 96544060 (YHJEWELRYLIMITED) [6ff7ad8d-b4f9-4035-9036-23838ff405cd]"
-    type: "Bill"
-    sourceId: "377c38c9-6505-43b9-9641-098ebc00585e"
 
 2024-07-25 * "Invoice #685 Stock Gold Jewellery 7.47g 1ce78976-bdd3-4004-b630-72222cdfc29d"
   Income:Sales:SalesItem:SellGoldJewelry  -2460.00000 HKD
