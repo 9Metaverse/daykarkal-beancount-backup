@@ -172,6 +172,18 @@
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.00000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.00000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+
 2025-11-05 * "Invoice #1160 Stock BR2524 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Income:Sales:SalesItem:Sell18kJewelry  -4900.00000 HKD
     category: "Jewelry"
@@ -187,18 +199,6 @@
     type: "Invoice"
     sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
     contact: "852 97046812 (NoName) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-
-2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.00000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.00000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
 
 2025-11-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1160 #277b5aa9-b33b-4f7d-b37f-04d823acea2a 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Assets:CurrentAssets:Bank:BocSavingBank  4900.00000 HKD
@@ -1372,25 +1372,6 @@
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     contact: "852 64128618 (WINGHONGLEUNG) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
 
-2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  referenceNo: "1505"
-  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.00000 HKD
-    category: "Other"
-    sku: "Processing 015"
-    qty: "1"
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    type: "Bill Item"
-    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
-  Liabilities:CurrentLiabilities:AccountPayable  -250.00000 HKD
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-    type: "Bill"
-    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-
 2025-11-24 * "Bill #1506 嚴丹鳳代鑲石 合併 84137cd3-5ee7-410f-94e3-019de563cc34"
   referenceNo: "1506"
   orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
@@ -1417,6 +1398,25 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "84137cd3-5ee7-410f-94e3-019de563cc34"
+
+2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  referenceNo: "1505"
+  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.00000 HKD
+    category: "Other"
+    sku: "Processing 015"
+    qty: "1"
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    type: "Bill Item"
+    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
+  Liabilities:CurrentLiabilities:AccountPayable  -250.00000 HKD
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill"
+    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
 
 2025-11-24 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1505 #47323968-9a8c-4f44-821e-b81715051940 4895491b-83b4-4fe4-95de-6e0db98c37aa"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.00000 HKD
