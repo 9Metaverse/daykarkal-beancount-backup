@@ -90,20 +90,6 @@
     orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
     contact: "852 53719444 (NoName) [e8081506-9154-49a9-8405-a0d46a91dd69]"
 
-2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.00000 HKD
-    type: "MJ"
-    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    description: "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.00000 HKD
-    type: "MJ"
-    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    description: "417 to G17"
-
 2025-12-04 * "Bill #1510 嚴丹鳳代鑲石 合併 e880a5cf-f5b3-4deb-bb98-52132720a177"
   referenceNo: "1510"
   orderId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
@@ -171,6 +157,20 @@
     type: "Bill"
     sourceId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
 
+2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.00000 HKD
+    type: "MJ"
+    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    description: "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.00000 HKD
+    type: "MJ"
+    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    description: "417 to G17"
+
 2025-12-04 * "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Bill Payment for Bill #1510 #8c293c07-2dd0-4a11-b7af-dcfba4980b3c e880a5cf-f5b3-4deb-bb98-52132720a177"
   Assets:CurrentAssets:Cash:G17ShopCash  -10995.00000 HKD
     type: "Bill Payment"
@@ -199,3 +199,32 @@
     type: "Invoice"
     sourceId: "be1a7d9a-0dcf-41f1-b436-89838e75eba9"
     contact: "852 95276207 (NoName) [36680448-c639-4dc4-a3e2-17a13e68fc62]"
+
+2025-12-08 * "Invoice #1176 Stock R24125 bbcfb26e-9d51-465c-a997-e11f9f89de53"
+  Income:Sales:SalesItem:Sell18kJewelry  -4200.00000 HKD
+    category: "Jewelry"
+    sku: "DD2025060600000001"
+    qty: "1"
+    referenceNo: "1176"
+    orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
+    type: "Invoice Item"
+    sourceId: "7079609c-c20f-4348-b707-2b8704c87ad0"
+  Assets:CurrentAssets:AccountReceivable  4200.00000 HKD
+    referenceNo: "1176"
+    orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
+    type: "Invoice"
+    sourceId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
+    contact: "852 64801689 (NoName) [61ee614a-7af2-4b4c-a394-9c6e36576ecb]"
+
+2025-12-08 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1176 #f79672f0-324b-4521-9315-846f13a80d80 bbcfb26e-9d51-465c-a997-e11f9f89de53"
+  Assets:CurrentAssets:Bank:KpayBank  4200.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "f79672f0-324b-4521-9315-846f13a80d80"
+    referenceNo: "1176"
+    orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
+  Assets:CurrentAssets:AccountReceivable  -4200.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "f79672f0-324b-4521-9315-846f13a80d80"
+    referenceNo: "1176"
+    orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
+    contact: "852 64801689 (NoName) [61ee614a-7af2-4b4c-a394-9c6e36576ecb]"
