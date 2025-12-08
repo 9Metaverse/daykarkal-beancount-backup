@@ -1356,14 +1356,6 @@
     contact: "852 95816929 (MR.LAUBEN) [95169fa3-0afe-4ef7-bff7-c42b34b9abe7]"
 
 2022-08-14 * "Invoice #153 INV-0106 MR. KWOK 1c9574c8-2a37-4afc-9251-9ea37a01e43e"
-  Income:Sales:SalesItem:SellDiamond  -62800.00000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800002414573524"
-    qty: "1"
-    referenceNo: "153"
-    orderId: "1c9574c8-2a37-4afc-9251-9ea37a01e43e"
-    type: "Invoice Item"
-    sourceId: "143880d2-33e5-4e47-b3ac-cc03b4bac5c9"
   Income:Sales:SalesItem:Sell18kJewelry  -2500.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000134"
@@ -1372,6 +1364,14 @@
     orderId: "1c9574c8-2a37-4afc-9251-9ea37a01e43e"
     type: "Invoice Item"
     sourceId: "b02d8343-42d1-4820-a639-265d6f6155b5"
+  Income:Sales:SalesItem:SellDiamond  -62800.00000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800002414573524"
+    qty: "1"
+    referenceNo: "153"
+    orderId: "1c9574c8-2a37-4afc-9251-9ea37a01e43e"
+    type: "Invoice Item"
+    sourceId: "143880d2-33e5-4e47-b3ac-cc03b4bac5c9"
   Assets:CurrentAssets:AccountReceivable  65300.00000 HKD
     referenceNo: "153"
     orderId: "1c9574c8-2a37-4afc-9251-9ea37a01e43e"
@@ -2336,6 +2336,13 @@
     description: "KPAY to BOC Saving"
 
 2022-08-23 * "Invoice #156 INV-0109 46c913e6-b456-49d3-b8a7-df8ece7c8db2"
+  Income:Sales:Discount  800.00000 HKD
+    description: "CASH DISCOUNT"
+    qty: "1"
+    referenceNo: "156"
+    orderId: "46c913e6-b456-49d3-b8a7-df8ece7c8db2"
+    type: "Invoice Item"
+    sourceId: "2cd65dc8-9433-49bc-a5b3-266c572bbfbb"
   Income:Sales:SalesItem:SellDiamond  -61500.00000 HKD
     category: "Natural Diamond"
     sku: "DDFFFFFF0800002437404380"
@@ -2344,13 +2351,6 @@
     orderId: "46c913e6-b456-49d3-b8a7-df8ece7c8db2"
     type: "Invoice Item"
     sourceId: "d98ae16a-2fee-4f74-9557-f9da134a8028"
-  Income:Sales:Discount  800.00000 HKD
-    description: "CASH DISCOUNT"
-    qty: "1"
-    referenceNo: "156"
-    orderId: "46c913e6-b456-49d3-b8a7-df8ece7c8db2"
-    type: "Invoice Item"
-    sourceId: "2cd65dc8-9433-49bc-a5b3-266c572bbfbb"
   Income:Sales:SalesItem:Sell18kJewelry  -3000.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000137"
@@ -3105,14 +3105,6 @@
   referenceNo: "618"
   orderId: "cc8240a0-bdac-4968-8ed6-7ebeadac6678"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2272.00000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000139"
-    qty: "1"
-    referenceNo: "618"
-    orderId: "cc8240a0-bdac-4968-8ed6-7ebeadac6678"
-    type: "Bill Item"
-    sourceId: "2961d7d1-1cd8-41b7-bd9b-59be65c05165"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1501.00000 HKD
     category: "Jewelry"
     sku: "DDFFFFFF0300000000000030"
@@ -3121,6 +3113,14 @@
     orderId: "cc8240a0-bdac-4968-8ed6-7ebeadac6678"
     type: "Bill Item"
     sourceId: "c0968fd8-6646-472f-a2ce-6d9cbd926abd"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2272.00000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000139"
+    qty: "1"
+    referenceNo: "618"
+    orderId: "cc8240a0-bdac-4968-8ed6-7ebeadac6678"
+    type: "Bill Item"
+    sourceId: "2961d7d1-1cd8-41b7-bd9b-59be65c05165"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  718.00000 HKD
     category: "Jewelry"
     sku: "DDFFFFFF0600000000000035"

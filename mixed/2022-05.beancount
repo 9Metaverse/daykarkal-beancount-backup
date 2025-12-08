@@ -177,22 +177,6 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
 
 2022-05-08 * "Invoice #92 INV-0052 MR. KONG KARL 05f8e271-8af7-44a8-940e-e44501d9a7dd"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.00000 HKD
-    category: "Other"
-    sku: "Processing 003"
-    qty: "1"
-    referenceNo: "92"
-    orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
-    type: "Invoice Item"
-    sourceId: "760c821c-3ffa-4082-8f20-e6e0dba2a162"
-  Income:Sales:SalesItem:SellDiamond  -27200.00000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800002384387459"
-    qty: "1"
-    referenceNo: "92"
-    orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
-    type: "Invoice Item"
-    sourceId: "b1e477f8-60b9-486f-95ff-024c12605e3e"
   Income:Sales:SalesItem:Sell18kJewelry  -3320.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000102"
@@ -201,6 +185,22 @@
     orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
     type: "Invoice Item"
     sourceId: "f96ef77d-9c23-406f-95e1-0772dfd595b1"
+  Income:Sales:SalesItem:SellDiamond  -27200.00000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800002384387459"
+    qty: "1"
+    referenceNo: "92"
+    orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
+    type: "Invoice Item"
+    sourceId: "b1e477f8-60b9-486f-95ff-024c12605e3e"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.00000 HKD
+    category: "Other"
+    sku: "Processing 003"
+    qty: "1"
+    referenceNo: "92"
+    orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
+    type: "Invoice Item"
+    sourceId: "760c821c-3ffa-4082-8f20-e6e0dba2a162"
   Assets:CurrentAssets:AccountReceivable  30520.00000 HKD
     referenceNo: "92"
     orderId: "05f8e271-8af7-44a8-940e-e44501d9a7dd"
@@ -1733,19 +1733,19 @@
 
 2022-05-19 * "Invoice #324 (TO CXL) ✱ 交gia石和介托鑲貨 S0059 6422650276 (GIA SOLD INV#233) 5746958c-b75e-42d3-a88a-09fe7bf7167a"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.00000 HKD
-    description: "#6422650276 1.03CT H SI2 EX EX EX N (SOLD @ INV#233) (INV#233 已扣數)"
-    qty: "0"
-    referenceNo: "324"
-    orderId: "5746958c-b75e-42d3-a88a-09fe7bf7167a"
-    type: "Invoice Item"
-    sourceId: "17ab6ab2-0708-460a-8534-9d0808ff8f1d"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.00000 HKD
     description: "S0059 DDFFFFFF0B00000000000091 out to ronit to Ring seting 6422650276"
     qty: "0"
     referenceNo: "324"
     orderId: "5746958c-b75e-42d3-a88a-09fe7bf7167a"
     type: "Invoice Item"
     sourceId: "1bcf1902-5e1f-4424-92a3-8df161781d78"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.00000 HKD
+    description: "#6422650276 1.03CT H SI2 EX EX EX N (SOLD @ INV#233) (INV#233 已扣數)"
+    qty: "0"
+    referenceNo: "324"
+    orderId: "5746958c-b75e-42d3-a88a-09fe7bf7167a"
+    type: "Invoice Item"
+    sourceId: "17ab6ab2-0708-460a-8534-9d0808ff8f1d"
   Assets:CurrentAssets:AccountReceivable  0.00000 HKD
     referenceNo: "324"
     orderId: "5746958c-b75e-42d3-a88a-09fe7bf7167a"
@@ -1873,6 +1873,22 @@
   referenceNo: "645"
   orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
   type: "Bill"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -250.00000 HKD
+    category: "Other"
+    sku: "Processing 078"
+    qty: "-1"
+    referenceNo: "645"
+    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
+    type: "Bill Item"
+    sourceId: "f403c620-c8b1-492d-808c-de8d98fda7b5"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -2959.00000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000103"
+    qty: "-1"
+    referenceNo: "645"
+    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
+    type: "Bill Item"
+    sourceId: "1dd09ec4-02a2-435c-94f0-aa8652ecb768"
   Assets:CurrentAssets:ShopInventory:Jewelry  -2298.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000091"
@@ -1897,6 +1913,14 @@
     orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
     type: "Bill Item"
     sourceId: "dbe6e18b-4c1c-4cbb-b156-5b8220c5596f"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.00000 HKD
+    category: "Other"
+    sku: "Processing 078"
+    qty: "1"
+    referenceNo: "645"
+    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
+    type: "Bill Item"
+    sourceId: "1df82ac9-84d4-411a-a27d-8ff5c8d3fe37"
   Assets:CurrentAssets:ShopInventory:Jewelry  38724.00000 HKD
     category: "Jewelry"
     sku: "DDFFFFFF0500000000000055"
@@ -1913,14 +1937,6 @@
     orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
     type: "Bill Item"
     sourceId: "bf3d9e2a-fc30-4958-a16f-1231c13d0874"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.00000 HKD
-    category: "Other"
-    sku: "Processing 078"
-    qty: "1"
-    referenceNo: "645"
-    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
-    type: "Bill Item"
-    sourceId: "1df82ac9-84d4-411a-a27d-8ff5c8d3fe37"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  300.00000 HKD
     category: "Other"
     sku: "Processing 004"
@@ -1969,22 +1985,6 @@
     orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
     type: "Bill Item"
     sourceId: "48a2e4fc-267b-4245-9fe8-bba9c164afd8"
-  Assets:CurrentAssets:ShopInventory:Jewelry  -250.00000 HKD
-    category: "Other"
-    sku: "Processing 078"
-    qty: "-1"
-    referenceNo: "645"
-    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
-    type: "Bill Item"
-    sourceId: "f403c620-c8b1-492d-808c-de8d98fda7b5"
-  Assets:CurrentAssets:ShopInventory:Jewelry  -2959.00000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000103"
-    qty: "-1"
-    referenceNo: "645"
-    orderId: "e3af1da2-562a-4329-a319-a3e986db2677"
-    type: "Bill Item"
-    sourceId: "1dd09ec4-02a2-435c-94f0-aa8652ecb768"
   Assets:CurrentAssets:ShopInventory:Jewelry  3209.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000103"
@@ -2215,6 +2215,13 @@
   referenceNo: "655"
   orderId: "a2660389-f202-49e4-9f74-2b649a7289cc"
   type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  0.00000 HKD
+    qty: "1"
+    description: "FRS03ST80361  002 - BE-SPOKE SERVICE - DIAMOND SETTING RING 18K WHITE AND ROSE GOLD 4.6G SIZE: 20   [ cost : 4811 - BS0043 DDFFFFFF0B00000000000126 ]"
+    referenceNo: "655"
+    orderId: "a2660389-f202-49e4-9f74-2b649a7289cc"
+    type: "Bill Item"
+    sourceId: "b2f17ac4-0c77-4a99-8bc5-7101a905c816"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  4957.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000107"
@@ -2247,13 +2254,6 @@
     orderId: "a2660389-f202-49e4-9f74-2b649a7289cc"
     type: "Bill Item"
     sourceId: "eb718c09-5bbb-4349-9375-6868e93d1a51"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  0.00000 HKD
-    qty: "1"
-    description: "FRS03ST80361  002 - BE-SPOKE SERVICE - DIAMOND SETTING RING 18K WHITE AND ROSE GOLD 4.6G SIZE: 20   [ cost : 4811 - BS0043 DDFFFFFF0B00000000000126 ]"
-    referenceNo: "655"
-    orderId: "a2660389-f202-49e4-9f74-2b649a7289cc"
-    type: "Bill Item"
-    sourceId: "b2f17ac4-0c77-4a99-8bc5-7101a905c816"
   Liabilities:CurrentLiabilities:AccountPayable  -14228.00000 HKD
     referenceNo: "655"
     orderId: "a2660389-f202-49e4-9f74-2b649a7289cc"
@@ -2523,14 +2523,6 @@
     contact: "852 64479521 (MR.CHUIBRUCE) [d66728f0-7fa6-41e9-a8f0-f4b41687eae0]"
 
 2022-05-27 * "Invoice #112 INV-0059 MR. BENNY CHENG 8e611f89-c8a3-4258-91e4-6f04ef9dbe13"
-  Income:Sales:SalesItem:SellDiamond  -63800.00000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800003435110971"
-    qty: "1"
-    referenceNo: "112"
-    orderId: "8e611f89-c8a3-4258-91e4-6f04ef9dbe13"
-    type: "Invoice Item"
-    sourceId: "9c74ef64-de70-4a34-b2d4-9be569a5ae69"
   Income:Sales:SalesItem:SellBespokeorotherFee  0.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000105"
@@ -2539,6 +2531,14 @@
     orderId: "8e611f89-c8a3-4258-91e4-6f04ef9dbe13"
     type: "Invoice Item"
     sourceId: "9988958f-7fa7-4653-aa8d-646cc727e07d"
+  Income:Sales:SalesItem:SellDiamond  -63800.00000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800003435110971"
+    qty: "1"
+    referenceNo: "112"
+    orderId: "8e611f89-c8a3-4258-91e4-6f04ef9dbe13"
+    type: "Invoice Item"
+    sourceId: "9c74ef64-de70-4a34-b2d4-9be569a5ae69"
   Assets:CurrentAssets:AccountReceivable  63800.00000 HKD
     referenceNo: "112"
     orderId: "8e611f89-c8a3-4258-91e4-6f04ef9dbe13"
@@ -2624,6 +2624,22 @@
   referenceNo: "647"
   orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
   type: "Bill"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -1895.00000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000105"
+    qty: "-1"
+    referenceNo: "647"
+    orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
+    type: "Bill Item"
+    sourceId: "64d1309d-727b-48c4-b90e-5ff7f471cdd2"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2195.00000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000105"
+    qty: "1"
+    referenceNo: "647"
+    orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
+    type: "Bill Item"
+    sourceId: "a14c63ea-ef7f-435e-babe-2fe0ff7f93a9"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1891.00000 HKD
     category: "Ring Setting"
     sku: "DDFFFFFF0B00000000000161"
@@ -2672,22 +2688,6 @@
     orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
     type: "Bill Item"
     sourceId: "f372fa26-59fc-40ce-bb71-08a9557b3082"
-  Assets:CurrentAssets:ShopInventory:Jewelry  -1895.00000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000105"
-    qty: "-1"
-    referenceNo: "647"
-    orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
-    type: "Bill Item"
-    sourceId: "64d1309d-727b-48c4-b90e-5ff7f471cdd2"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2195.00000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000105"
-    qty: "1"
-    referenceNo: "647"
-    orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"
-    type: "Bill Item"
-    sourceId: "a14c63ea-ef7f-435e-babe-2fe0ff7f93a9"
   Liabilities:CurrentLiabilities:AccountPayable  -9210.00000 HKD
     referenceNo: "647"
     orderId: "324ac028-df2e-439e-8604-9ee8bc14d471"

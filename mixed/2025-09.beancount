@@ -115,14 +115,6 @@
     description: "kpay 277"
 
 2025-09-03 * "Invoice #1119 Shirley藍寶石代鑲嵌戒指 0119b9c9-f2d4-4d0b-9b10-9c848a9421af"
-  Income:Sales:SalesItem:SellGems  -2102.00000 HKD
-    category: "Gem"
-    sku: "SAP2541"
-    qty: "1"
-    referenceNo: "1119"
-    orderId: "0119b9c9-f2d4-4d0b-9b10-9c848a9421af"
-    type: "Invoice Item"
-    sourceId: "2c88c7f5-a8c6-4081-a179-9bcd50bf211e"
   Income:Sales:SalesItem:SellBespokeorotherFee  -2291.00000 HKD
     category: "Jewelry"
     sku: "DDBESPOKE00000041"
@@ -131,6 +123,14 @@
     orderId: "0119b9c9-f2d4-4d0b-9b10-9c848a9421af"
     type: "Invoice Item"
     sourceId: "5bd228d0-2fd9-4552-837d-11ed3d92fb60"
+  Income:Sales:SalesItem:SellGems  -2102.00000 HKD
+    category: "Gem"
+    sku: "SAP2541"
+    qty: "1"
+    referenceNo: "1119"
+    orderId: "0119b9c9-f2d4-4d0b-9b10-9c848a9421af"
+    type: "Invoice Item"
+    sourceId: "2c88c7f5-a8c6-4081-a179-9bcd50bf211e"
   Assets:CurrentAssets:AccountReceivable  4393.00000 HKD
     referenceNo: "1119"
     orderId: "0119b9c9-f2d4-4d0b-9b10-9c848a9421af"
@@ -200,22 +200,6 @@
     orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
     type: "Bill Item"
     sourceId: "f903663b-a9ff-493e-b37b-94c4a19e1632"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2207.00000 HKD
-    category: "Jewelry"
-    sku: "DD20250904001"
-    qty: "1"
-    referenceNo: "1424"
-    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
-    type: "Bill Item"
-    sourceId: "ee91ba6f-72e7-427b-9e51-a877e414cb32"
-  Assets:CurrentAssets:ShopInventory:Gemstones  -551.00000 HKD
-    category: "Gem"
-    sku: "SAP2554-12"
-    qty: "-1"
-    referenceNo: "1424"
-    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
-    type: "Bill Item"
-    sourceId: "15146982-32df-40c8-9709-78521e4d1204"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1655.00000 HKD
     qty: "1"
     description: "做貨 BR2555 $1655 + (SAP2554-12) $551 = $2206"
@@ -230,22 +214,6 @@
     orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
     type: "Bill Item"
     sourceId: "c4a58b24-f33f-4669-bc8b-109daff3326e"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2476.00000 HKD
-    category: "Jewelry"
-    sku: "DD20250904002"
-    qty: "1"
-    referenceNo: "1424"
-    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
-    type: "Bill Item"
-    sourceId: "d9d61c92-0a69-492a-b35b-7325f97c8832"
-  Assets:CurrentAssets:ShopInventory:Gemstones  -669.00000 HKD
-    category: "Gem"
-    sku: "SAP2551-2"
-    qty: "-1"
-    referenceNo: "1424"
-    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
-    type: "Bill Item"
-    sourceId: "e32200ba-8a62-4574-bc49-2bd70da5be97"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1807.00000 HKD
     qty: "1"
     description: "做貨 BR2556 $1807 + (SAP2551-2) $669 = $2476"
@@ -260,14 +228,6 @@
     orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
     type: "Bill Item"
     sourceId: "ae75818a-4a41-4ba9-9c0d-aa0e1229a6fe"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2502.00000 HKD
-    category: "Jewelry"
-    sku: "DD20250904003"
-    qty: "1"
-    referenceNo: "1424"
-    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
-    type: "Bill Item"
-    sourceId: "bda469ab-bdec-42ad-8352-6a24255c4aa3"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1917.00000 HKD
     qty: "1"
     description: "做貨 BR2557 $1917 + (SAP2537) $585 = $2502"
@@ -310,6 +270,46 @@
     orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
     type: "Bill Item"
     sourceId: "a7a4ca7f-252e-46ca-8e53-59a0f35ef228"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2207.00000 HKD
+    category: "Jewelry"
+    sku: "DD20250904001"
+    qty: "1"
+    referenceNo: "1424"
+    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
+    type: "Bill Item"
+    sourceId: "ee91ba6f-72e7-427b-9e51-a877e414cb32"
+  Assets:CurrentAssets:ShopInventory:Gemstones  -551.00000 HKD
+    category: "Gem"
+    sku: "SAP2554-12"
+    qty: "-1"
+    referenceNo: "1424"
+    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
+    type: "Bill Item"
+    sourceId: "15146982-32df-40c8-9709-78521e4d1204"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2476.00000 HKD
+    category: "Jewelry"
+    sku: "DD20250904002"
+    qty: "1"
+    referenceNo: "1424"
+    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
+    type: "Bill Item"
+    sourceId: "d9d61c92-0a69-492a-b35b-7325f97c8832"
+  Assets:CurrentAssets:ShopInventory:Gemstones  -669.00000 HKD
+    category: "Gem"
+    sku: "SAP2551-2"
+    qty: "-1"
+    referenceNo: "1424"
+    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
+    type: "Bill Item"
+    sourceId: "e32200ba-8a62-4574-bc49-2bd70da5be97"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2502.00000 HKD
+    category: "Jewelry"
+    sku: "DD20250904003"
+    qty: "1"
+    referenceNo: "1424"
+    orderId: "4af199da-8c9f-442c-a7b5-cca677750ceb"
+    type: "Bill Item"
+    sourceId: "bda469ab-bdec-42ad-8352-6a24255c4aa3"
   Assets:CurrentAssets:ShopInventory:Gemstones  -585.00000 HKD
     category: "Gem"
     sku: "SAP2537"
@@ -699,7 +699,7 @@
     contact: "852 55962535 (NoName) [bee17943-55c1-4718-8978-881d41712d37]"
 
 2025-09-15 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited" "DKK C Wallet金料 to Milways gold G054 DKK"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1000.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1000.00000 USDT {7.8 HKD}
     type: "MJ"
     sourceId: "2cd51908-853a-46f8-86b2-1dffa49e4cec"
     orderId: "2cd51908-853a-46f8-86b2-1dffa49e4cec"
@@ -711,7 +711,7 @@
     orderId: "2cd51908-853a-46f8-86b2-1dffa49e4cec"
     referenceNo: "1190"
     description: "DKK C Wallet金料 to Milways gold G054 DKK"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -4602.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -4602.00000 USDT {7.8 HKD}
     type: "MJ"
     sourceId: "2cd51908-853a-46f8-86b2-1dffa49e4cec"
     orderId: "2cd51908-853a-46f8-86b2-1dffa49e4cec"
@@ -814,7 +814,7 @@
 2025-09-15 * "Reservation Payment R#GR2025091500004B P#P20250915004"
   rsv-ref: "GR2025091500004B"
   pay-ref: "P20250915004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  1000.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  1000.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20250915004"
     sourceId: "8aed7a9b-b568-499d-ad7a-5e714504578c"
@@ -830,7 +830,7 @@
 2025-09-15 * "Reservation Payment R#GR2025091500004B P#P20250915005"
   rsv-ref: "GR2025091500004B"
   pay-ref: "P20250915005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  4602.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  4602.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20250915005"
     sourceId: "ff1d150a-c5cc-403b-a58f-4d3840e53c16"
@@ -2248,22 +2248,6 @@
   referenceNo: "1439"
   orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  735.00000 HKD
-    category: "Other"
-    sku: "Processing 055"
-    qty: "1"
-    referenceNo: "1439"
-    orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
-    type: "Bill Item"
-    sourceId: "0104a36d-600d-401d-b72e-9417dcaf10c6"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2418.00000 HKD
-    category: "Jewelry"
-    sku: "DD20250922007"
-    qty: "1"
-    referenceNo: "1439"
-    orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
-    type: "Bill Item"
-    sourceId: "992134bb-50ba-4478-82f7-0b93583f6de9"
   Assets:CurrentAssets:ShopInventory:Jewelry  -735.00000 HKD
     category: "Other"
     sku: "Processing 055"
@@ -2280,6 +2264,22 @@
     orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
     type: "Bill Item"
     sourceId: "d66d55eb-691b-4e3b-a823-efeda4754d9e"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  735.00000 HKD
+    category: "Other"
+    sku: "Processing 055"
+    qty: "1"
+    referenceNo: "1439"
+    orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
+    type: "Bill Item"
+    sourceId: "0104a36d-600d-401d-b72e-9417dcaf10c6"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2418.00000 HKD
+    category: "Jewelry"
+    sku: "DD20250922007"
+    qty: "1"
+    referenceNo: "1439"
+    orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"
+    type: "Bill Item"
+    sourceId: "992134bb-50ba-4478-82f7-0b93583f6de9"
   Liabilities:CurrentLiabilities:AccountPayable  -735.00000 HKD
     referenceNo: "1439"
     orderId: "d77f1f05-2232-45c1-82f6-4936a14720cb"

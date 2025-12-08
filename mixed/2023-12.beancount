@@ -62,7 +62,7 @@
 2023-12-01 * "Reservation Payment R#GR2023120100003B P#P20231201003"
   rsv-ref: "GR2023120100003B"
   pay-ref: "P20231201003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  12482.14000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  12482.14000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231201003"
     sourceId: "2c67bc09-a90d-48ad-9c6f-76d635cb6210"
@@ -77,7 +77,7 @@
 2023-12-01 * "Reservation Payment R#GR2023120100007B P#P20231201004"
   rsv-ref: "GR2023120100007B"
   pay-ref: "P20231201004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  26316.89000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  26316.89000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231201004"
     sourceId: "a0b4a033-61bf-4b40-8c11-57fd25a341d1"
@@ -92,7 +92,7 @@
 2023-12-01 * "Reservation Payment R#GR2023120100005B P#P20231201005"
   rsv-ref: "GR2023120100005B"
   pay-ref: "P20231201005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  5297.77000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  5297.77000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231201005"
     sourceId: "9d854361-8b32-4a37-9487-7f829547a5ad"
@@ -107,7 +107,7 @@
 2023-12-01 * "Reservation Payment R#GR2023120100006B P#P20231201001"
   rsv-ref: "GR2023120100006B"
   pay-ref: "P20231201001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65410.36000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65410.36000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231201001"
     sourceId: "d7219319-8ae9-449a-a896-c13577dd4a7b"
@@ -152,17 +152,6 @@
     contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
   Income:FXGainOrLoss
 
-2023-12-01 * "Reservation Delivery R#GR2023120100001S D#D20231201013"
-  rsv-ref: "GR2023120100001S"
-  del-ref: "D20231201013"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-esteemLinkTradingLimitedUnknown  -509602.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231201013"
-    sourceId: "d5573ca4-7529-4710-b150-2f7373387da5"
-    orderId: "754b9acc-fedd-455a-82e7-fb11b351ee64"
-    contact: "ESTEEMLINKTRADINGLIMITED [dccc48aa-b6a2-43d6-903a-965006134891]"
-  Assets:Inventory:Gold:Gold-In-Stock  1000.00000 XAU { }
-
 2023-12-01 * "Reservation Delivery R#GR2023120100002S D#D20231201014"
   rsv-ref: "GR2023120100002S"
   del-ref: "D20231201014"
@@ -173,6 +162,17 @@
     orderId: "68fb78e6-d43c-4785-b1d1-b6d64e696e35"
     contact: "ESTEEMLINKTRADINGLIMITED [dccc48aa-b6a2-43d6-903a-965006134891]"
   Assets:Inventory:Gold:Gold-In-Stock  3000.00000 XAU { }
+
+2023-12-01 * "Reservation Delivery R#GR2023120100001S D#D20231201013"
+  rsv-ref: "GR2023120100001S"
+  del-ref: "D20231201013"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-esteemLinkTradingLimitedUnknown  -509602.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231201013"
+    sourceId: "d5573ca4-7529-4710-b150-2f7373387da5"
+    orderId: "754b9acc-fedd-455a-82e7-fb11b351ee64"
+    contact: "ESTEEMLINKTRADINGLIMITED [dccc48aa-b6a2-43d6-903a-965006134891]"
+  Assets:Inventory:Gold:Gold-In-Stock  1000.00000 XAU { }
 
 2023-12-01 * "Reservation Delivery R#GR2023120100007B D#D20231201011"
   rsv-ref: "GR2023120100007B"
@@ -242,7 +242,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200006B P#P20231202001"
   rsv-ref: "GR2023120200006B"
   pay-ref: "P20231202001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  131478.89000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  131478.89000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202001"
     sourceId: "2a64307e-5deb-4ccc-923c-3cf328664092"
@@ -257,7 +257,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200003B P#P20231202002"
   rsv-ref: "GR2023120200003B"
   pay-ref: "P20231202002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65599.28000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65599.28000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202002"
     sourceId: "256434e2-5e76-4dd1-8f96-29e2be714601"
@@ -272,7 +272,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200005B P#P20231202003"
   rsv-ref: "GR2023120200005B"
   pay-ref: "P20231202003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65607.64000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65607.64000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202003"
     sourceId: "f84dea73-21f8-4ed1-a446-bb06618d04c3"
@@ -287,7 +287,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200001B P#P20231202006"
   rsv-ref: "GR2023120200001B"
   pay-ref: "P20231202006"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  6444.99000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  6444.99000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202006"
     sourceId: "c8443ad8-c0b1-476d-b6ae-31c618367bdf"
@@ -302,7 +302,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200002B P#P20231202004"
   rsv-ref: "GR2023120200002B"
   pay-ref: "P20231202004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65472.97000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65472.97000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202004"
     sourceId: "f4c6ec02-754f-4178-b178-3c0b275cbb08"
@@ -317,7 +317,7 @@
 2023-12-02 * "Reservation Payment R#GR2023120200004B P#P20231202005"
   rsv-ref: "GR2023120200004B"
   pay-ref: "P20231202005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65518.63000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65518.63000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231202005"
     sourceId: "9fe694a2-e348-4032-a618-c1204a9247a5"
@@ -410,7 +410,7 @@
 2023-12-03 * "Reservation Payment R#GR2023120300001B P#P20231203001"
   rsv-ref: "GR2023120300001B"
   pay-ref: "P20231203001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65389.06000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65389.06000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231203001"
     sourceId: "ba937ead-0cc0-4e9b-81eb-4d00c40d76e2"
@@ -482,7 +482,7 @@
 2023-12-04 * "Reservation Payment R#GR2023120400004B P#P20231204002"
   rsv-ref: "GR2023120400004B"
   pay-ref: "P20231204002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  24970.36000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  24970.36000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231204002"
     sourceId: "3958e411-1daf-4913-8517-19d0abbc30bb"
@@ -525,7 +525,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500016B P#P20231205001"
   rsv-ref: "GR2023120500016B"
   pay-ref: "P20231205001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  8185.01000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  8185.01000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205001"
     sourceId: "bac92800-4d4a-407b-836a-d15170c3e775"
@@ -540,7 +540,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500006B P#P20231205002"
   rsv-ref: "GR2023120500006B"
   pay-ref: "P20231205002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  13148.97000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  13148.97000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205002"
     sourceId: "9ecf1535-d966-474d-b941-1cae040d148a"
@@ -555,7 +555,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500018B P#P20231205003"
   rsv-ref: "GR2023120500018B"
   pay-ref: "P20231205003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  25686.60000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  25686.60000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205003"
     sourceId: "9065e5b1-95b7-4577-bfe8-5de0e80b3102"
@@ -570,7 +570,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500008B P#P20231205006"
   rsv-ref: "GR2023120500008B"
   pay-ref: "P20231205006"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65552.34000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65552.34000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205006"
     sourceId: "b17f8b82-86a0-487e-97a2-8e0c4bd7a99e"
@@ -585,7 +585,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500014B P#P20231205007"
   rsv-ref: "GR2023120500014B"
   pay-ref: "P20231205007"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  13165.48000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  13165.48000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205007"
     sourceId: "3c5e54b4-397c-4491-9d3e-e6b70b5447a9"
@@ -600,7 +600,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500012B P#P20231205008"
   rsv-ref: "GR2023120500012B"
   pay-ref: "P20231205008"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  11583.04000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  11583.04000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205008"
     sourceId: "a6a8e3a6-fb38-4390-8d48-ec409d103d10"
@@ -615,7 +615,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500011B P#P20231205004"
   rsv-ref: "GR2023120500011B"
   pay-ref: "P20231205004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  131577.38000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  131577.38000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205004"
     sourceId: "41eeb08f-3e73-4d0a-bc9d-af5d56ce2196"
@@ -630,7 +630,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500005B P#P20231205009"
   rsv-ref: "GR2023120500005B"
   pay-ref: "P20231205009"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65636.94000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65636.94000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205009"
     sourceId: "1309aba7-f4b1-424c-a723-e7074d2ea01f"
@@ -645,7 +645,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500007B P#P20231205010"
   rsv-ref: "GR2023120500007B"
   pay-ref: "P20231205010"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  6560.49000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  6560.49000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205010"
     sourceId: "9ee0157a-d956-41ee-b30e-236288710c66"
@@ -660,7 +660,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500017B P#P20231205011"
   rsv-ref: "GR2023120500017B"
   pay-ref: "P20231205011"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  13422.95000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  13422.95000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205011"
     sourceId: "944ffaed-511f-419d-bcdb-66c532bf09ef"
@@ -675,7 +675,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500019B P#P20231205013"
   rsv-ref: "GR2023120500019B"
   pay-ref: "P20231205013"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  3307.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  3307.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205013"
     sourceId: "97d0a57d-c675-4da1-9ce3-eadd42b92bcb"
@@ -690,7 +690,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500021B P#P20231205014"
   rsv-ref: "GR2023120500021B"
   pay-ref: "P20231205014"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  5916.05000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  5916.05000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205014"
     sourceId: "dcb7e5a8-62eb-4529-9199-3ea5ce8555ae"
@@ -705,7 +705,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500020B P#P20231205015"
   rsv-ref: "GR2023120500020B"
   pay-ref: "P20231205015"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65598.04000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65598.04000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205015"
     sourceId: "bdbb0a14-c519-4d9b-8429-062846d02967"
@@ -720,7 +720,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500013B P#P20231205016"
   rsv-ref: "GR2023120500013B"
   pay-ref: "P20231205016"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  25773.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  25773.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205016"
     sourceId: "ce8a0421-716e-4291-8f81-8542277e92ed"
@@ -735,7 +735,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500003S P#P20231205018"
   rsv-ref: "GR2023120500003S"
   pay-ref: "P20231205018"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -325225.24000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -325225.24000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205018"
     sourceId: "04c8acb2-dc16-47fe-9c14-0fcff3dd8481"
@@ -750,7 +750,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500004S P#P20231205019"
   rsv-ref: "GR2023120500004S"
   pay-ref: "P20231205019"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -325385.98000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -325385.98000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205019"
     sourceId: "c35ca682-e1ed-48da-aa21-eb4499842125"
@@ -765,7 +765,7 @@
 2023-12-05 * "Reservation Payment R#GR2023120500015B P#P20231205012"
   rsv-ref: "GR2023120500015B"
   pay-ref: "P20231205012"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  125943.32000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  125943.32000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231205012"
     sourceId: "5c0eefee-140b-48cc-a45f-defcf81f5b5d"
@@ -841,6 +841,32 @@
   Assets:Inventory:Gold:Gold-In-Stock  -124.50000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-05 * "Reservation Delivery R#GR2023120500010B D#D20231205035"
+  rsv-ref: "GR2023120500010B"
+  del-ref: "D20231205035"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  1167781.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231205035"
+    sourceId: "92b4c1d7-fbb7-4cc6-ad7f-60644fa644d2"
+    orderId: "36d85f2e-cf7f-4392-8c2a-8e73b0a2eb87"
+    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
+  Income:Sales:Sales-Gold  -1167781.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -2286.18000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-05 * "Reservation Delivery R#GR2023120500014B D#D20231205022"
+  rsv-ref: "GR2023120500014B"
+  del-ref: "D20231205022"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  13165.48000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231205022"
+    sourceId: "fd60e028-ce2a-4f88-8c3e-96f79d9b6920"
+    orderId: "01dd1dba-41fb-4612-82fa-e837590a82a3"
+    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
+  Income:Sales:Sales-Gold  -102690.74000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -200.58000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-05 * "Reservation Delivery R#GR2023120500011B D#D20231205036"
   rsv-ref: "GR2023120500011B"
   del-ref: "D20231205036"
@@ -906,19 +932,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -200.22000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-05 * "Reservation Delivery R#GR2023120500010B D#D20231205035"
-  rsv-ref: "GR2023120500010B"
-  del-ref: "D20231205035"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  1167781.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231205035"
-    sourceId: "92b4c1d7-fbb7-4cc6-ad7f-60644fa644d2"
-    orderId: "36d85f2e-cf7f-4392-8c2a-8e73b0a2eb87"
-    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
-  Income:Sales:Sales-Gold  -1167781.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -2286.18000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-05 * "Reservation Delivery R#GR2023120500015B D#D20231205023"
   rsv-ref: "GR2023120500015B"
   del-ref: "D20231205023"
@@ -943,19 +956,6 @@
     contact: "852 67456352 (CAIXIUQIN蔡秀琴（蔡小姐）) [357524f5-d324-4de8-a1a8-4b6625c8d7bb]"
   Income:Sales:Sales-Gold  -90347.71000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -176.19000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-05 * "Reservation Delivery R#GR2023120500014B D#D20231205022"
-  rsv-ref: "GR2023120500014B"
-  del-ref: "D20231205022"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  13165.48000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231205022"
-    sourceId: "fd60e028-ce2a-4f88-8c3e-96f79d9b6920"
-    orderId: "01dd1dba-41fb-4612-82fa-e837590a82a3"
-    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
-  Income:Sales:Sales-Gold  -102690.74000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -200.58000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-05 * "Reservation Delivery R#GR2023120500007B D#D20231205029"
@@ -1234,7 +1234,7 @@
 2023-12-06 * "Reservation Payment R#GR2023120600003B P#P20231206003"
   rsv-ref: "GR2023120600003B"
   pay-ref: "P20231206003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  130169.18000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  130169.18000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231206003"
     sourceId: "f3506592-0c65-47ac-a5ad-3e4c5abfa195"
@@ -1249,7 +1249,7 @@
 2023-12-06 * "Reservation Payment R#GR2023120600009B P#P20231206018"
   rsv-ref: "GR2023120600009B"
   pay-ref: "P20231206018"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65088.13000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65088.13000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231206018"
     sourceId: "da0f0c6e-ff0d-494a-9062-923ae5d9df13"
@@ -1272,6 +1272,32 @@
     contact: "86 17704026654 (LIANGSONGYIN梁颂茵梁頌茵) [6c5ff487-0a0d-42b0-a09f-5b227d87f686]"
   Income:Sales:Sales-Gold  -482446.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -947.98000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-06 * "Reservation Delivery R#GR2023120600010B D#D20231206029"
+  rsv-ref: "GR2023120600010B"
+  del-ref: "D20231206029"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8888WalkIn街客金料880801  25416.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231206029"
+    sourceId: "938caed2-299c-4b60-a05d-11b6e36ff2f3"
+    orderId: "20c2de8c-1aea-44d5-8e68-b5ecec76dde5"
+    contact: "880 801 (8888walkin街客(金料)) [c3e2db6d-ed4f-469e-897f-1600e63febdf]"
+  Income:Sales:Sales-Gold  -25416.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -50.01000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-06 * "Reservation Delivery R#GR2023120600016B D#D20231206031"
+  rsv-ref: "GR2023120600016B"
+  del-ref: "D20231206031"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xuXiaolong徐小龙85253474170  127199.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231206031"
+    sourceId: "23917c71-1464-4960-828a-1211789c30c7"
+    orderId: "ad3565b4-188a-4108-b432-e3fce007f301"
+    contact: "852 53474170 (XUXIAOLONG徐小龙) [1212f686-5baa-4c7c-a141-81f94f7e0fb2]"
+  Income:Sales:Sales-Gold  -127199.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -249.90000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-06 * "Reservation Delivery R#GR2023120600008B D#D20231206027"
@@ -1376,32 +1402,6 @@
     contact: "86 13902933974 (LINWENZENG林文增) [bfc91a4b-081d-485f-a910-b05f0892b528]"
   Income:Sales:Sales-Gold  -356244.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -700.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-06 * "Reservation Delivery R#GR2023120600010B D#D20231206029"
-  rsv-ref: "GR2023120600010B"
-  del-ref: "D20231206029"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8888WalkIn街客金料880801  25416.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231206029"
-    sourceId: "938caed2-299c-4b60-a05d-11b6e36ff2f3"
-    orderId: "20c2de8c-1aea-44d5-8e68-b5ecec76dde5"
-    contact: "880 801 (8888walkin街客(金料)) [c3e2db6d-ed4f-469e-897f-1600e63febdf]"
-  Income:Sales:Sales-Gold  -25416.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -50.01000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-06 * "Reservation Delivery R#GR2023120600016B D#D20231206031"
-  rsv-ref: "GR2023120600016B"
-  del-ref: "D20231206031"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xuXiaolong徐小龙85253474170  127199.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231206031"
-    sourceId: "23917c71-1464-4960-828a-1211789c30c7"
-    orderId: "ad3565b4-188a-4108-b432-e3fce007f301"
-    contact: "852 53474170 (XUXIAOLONG徐小龙) [1212f686-5baa-4c7c-a141-81f94f7e0fb2]"
-  Income:Sales:Sales-Gold  -127199.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -249.90000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-06 * "Reservation Delivery R#GR2023120600014B D#D20231206019"
@@ -1862,7 +1862,7 @@
 2023-12-07 * "Reservation Payment R#GR2023120700001S P#P20231207025"
   rsv-ref: "GR2023120700001S"
   pay-ref: "P20231207025"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -65064.34000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -65064.34000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231207025"
     sourceId: "ad90edd1-b35e-4dca-ba25-5aa7fb9d7cdd"
@@ -1928,6 +1928,32 @@
     contact: "ESTEEMLINKTRADINGLIMITED [dccc48aa-b6a2-43d6-903a-965006134891]"
   Assets:Inventory:Gold:Gold-In-Stock  20000.00000 XAU { }
 
+2023-12-07 * "Reservation Delivery R#GR2023120700016B D#D20231207035"
+  rsv-ref: "GR2023120700016B"
+  del-ref: "D20231207035"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liXiaoJuan李晓娟8618927408610  28950.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231207035"
+    sourceId: "55318170-e50b-42f1-b947-82ab536378c1"
+    orderId: "80fdf29e-6c32-4a1b-982f-40ece332eb35"
+    contact: "86 18927408610 (LIXIAOJUAN李晓娟) [f99760e5-a70f-460a-8d0d-b8b87ee7d66a]"
+  Income:Sales:Sales-Gold  -28950.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -56.84000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-07 * "Reservation Delivery R#GR2023120700005B D#D20231207030"
+  rsv-ref: "GR2023120700005B"
+  del-ref: "D20231207030"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenYongBin陈用斌8618613151255  77231.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231207030"
+    sourceId: "2f1948b8-3288-40b4-9111-227273d15819"
+    orderId: "46aa6cb6-818c-4676-b549-e2569acd56fa"
+    contact: "86 18613151255 (CHENYONGBIN陈用斌) [0bcd92da-5fd2-466c-b8a0-703fb2702ff9]"
+  Income:Sales:Sales-Gold  -77231.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -151.68000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-07 * "Reservation Delivery R#GR2023120700006B D#D20231207031"
   rsv-ref: "GR2023120700006B"
   del-ref: "D20231207031"
@@ -1939,6 +1965,19 @@
     contact: "86 13751051258 (CHENYANCHENG陈延城) [2662290d-aa32-4d20-ad94-537f4c061d9d]"
   Income:Sales:Sales-Gold  -339826.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -667.11000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-07 * "Reservation Delivery R#GR2023120700019B D#D20231207039"
+  rsv-ref: "GR2023120700019B"
+  del-ref: "D20231207039"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chengXiaoHong程晓红8618819049115  76883.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231207039"
+    sourceId: "b3167def-ffe2-4f21-9861-73dd8142efe6"
+    orderId: "4a289407-ae6f-47ce-b147-ed70fd455ac0"
+    contact: "86 18819049115 (CHENGXIAOHONG程晓红) [04fcb83c-a2f2-42a4-86f1-2ee27c638231]"
+  Income:Sales:Sales-Gold  -76883.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -151.05000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-07 * "Reservation Delivery R#GR2023120700021B D#D20231207041"
@@ -2097,45 +2136,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -1000.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-07 * "Reservation Delivery R#GR2023120700016B D#D20231207035"
-  rsv-ref: "GR2023120700016B"
-  del-ref: "D20231207035"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liXiaoJuan李晓娟8618927408610  28950.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231207035"
-    sourceId: "55318170-e50b-42f1-b947-82ab536378c1"
-    orderId: "80fdf29e-6c32-4a1b-982f-40ece332eb35"
-    contact: "86 18927408610 (LIXIAOJUAN李晓娟) [f99760e5-a70f-460a-8d0d-b8b87ee7d66a]"
-  Income:Sales:Sales-Gold  -28950.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -56.84000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-07 * "Reservation Delivery R#GR2023120700005B D#D20231207030"
-  rsv-ref: "GR2023120700005B"
-  del-ref: "D20231207030"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenYongBin陈用斌8618613151255  77231.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231207030"
-    sourceId: "2f1948b8-3288-40b4-9111-227273d15819"
-    orderId: "46aa6cb6-818c-4676-b549-e2569acd56fa"
-    contact: "86 18613151255 (CHENYONGBIN陈用斌) [0bcd92da-5fd2-466c-b8a0-703fb2702ff9]"
-  Income:Sales:Sales-Gold  -77231.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -151.68000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-07 * "Reservation Delivery R#GR2023120700019B D#D20231207039"
-  rsv-ref: "GR2023120700019B"
-  del-ref: "D20231207039"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chengXiaoHong程晓红8618819049115  76883.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231207039"
-    sourceId: "b3167def-ffe2-4f21-9861-73dd8142efe6"
-    orderId: "4a289407-ae6f-47ce-b147-ed70fd455ac0"
-    contact: "86 18819049115 (CHENGXIAOHONG程晓红) [04fcb83c-a2f2-42a4-86f1-2ee27c638231]"
-  Income:Sales:Sales-Gold  -76883.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -151.05000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-07 * "Reservation Delivery R#GR2023120700018B D#D20231207038"
   rsv-ref: "GR2023120700018B"
   del-ref: "D20231207038"
@@ -2208,7 +2208,7 @@
     orderId: "a3d0fab2-b013-4806-a7fc-acfd7d7adcfd"
     referenceNo: "128"
     description: ""
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -100000.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -100000.00000 USDT {7.8 HKD}
     type: "MJ"
     sourceId: "a3d0fab2-b013-4806-a7fc-acfd7d7adcfd"
     orderId: "a3d0fab2-b013-4806-a7fc-acfd7d7adcfd"
@@ -2458,7 +2458,7 @@
 2023-12-08 * "Reservation Payment R#GR2023120800004B P#P20231208002"
   rsv-ref: "GR2023120800004B"
   pay-ref: "P20231208002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  195797.76000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  195797.76000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231208002"
     sourceId: "5cd5ca5f-0e55-4b50-89fe-2ae982680fa4"
@@ -2488,7 +2488,7 @@
 2023-12-08 * "Reservation Payment R#GR2023120800007B P#P20231208014"
   rsv-ref: "GR2023120800007B"
   pay-ref: "P20231208014"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  326821.39000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  326821.39000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231208014"
     sourceId: "b76171d6-c8b0-43d5-8862-ed6f9752fccd"
@@ -2503,7 +2503,7 @@
 2023-12-08 * "Reservation Payment R#GR2023120800022B P#P20231208022"
   rsv-ref: "GR2023120800022B"
   pay-ref: "P20231208022"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  2561.78000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  2561.78000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231208022"
     sourceId: "01b98e60-8512-4200-8837-01d64d68c28b"
@@ -2588,6 +2588,32 @@
     type: "Invoice"
     sourceId: "90a2928a-31ad-42b1-91fc-bcbe710c911e"
     contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2023-12-08 * "Reservation Delivery R#GR2023120800009B D#D20231208038"
+  rsv-ref: "GR2023120800009B"
+  del-ref: "D20231208038"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suQiuYi苏秋谊（金料）990441502198610151113  229944.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231208038"
+    sourceId: "bc83db4d-c13e-4ef2-a1ff-da62d8b2b465"
+    orderId: "c026247f-24e3-458c-ad79-aeaefa31cbc7"
+    contact: "990 441502198610151113 (SUQIUYI苏秋谊（金料）) [8e378a71-7f23-4db6-9339-c93f46301c59]"
+  Income:Sales:Sales-Gold  -229944.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -450.34000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-08 * "Reservation Delivery R#GR2023120800012B D#D20231208025"
+  rsv-ref: "GR2023120800012B"
+  del-ref: "D20231208025"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suWuSheng苏武生86134356356306  51709.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231208025"
+    sourceId: "c7091c8c-336e-4f10-855e-94e774adff86"
+    orderId: "6be7acd7-d8e4-42be-b808-2b5038fe0141"
+    contact: "86 134356356306 (SUWUSHENG苏武生) [72f6bdd3-f216-42a4-9746-a6976a2a572e]"
+  Income:Sales:Sales-Gold  -51709.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -101.37000 XAU { }
+  Expenses:Cogs:Cogs-Gold
 
 2023-12-08 * "Reservation Delivery R#GR2023120800014B D#D20231208031"
   rsv-ref: "GR2023120800014B"
@@ -2743,32 +2769,6 @@
     contact: "852 54681564 (WANGRONGDENG王容灯) [a33488bc-4301-49c3-93fe-b823fa691e8a]"
   Income:Sales:Sales-Gold  -200415.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -392.74000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-08 * "Reservation Delivery R#GR2023120800009B D#D20231208038"
-  rsv-ref: "GR2023120800009B"
-  del-ref: "D20231208038"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suQiuYi苏秋谊（金料）990441502198610151113  229944.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231208038"
-    sourceId: "bc83db4d-c13e-4ef2-a1ff-da62d8b2b465"
-    orderId: "c026247f-24e3-458c-ad79-aeaefa31cbc7"
-    contact: "990 441502198610151113 (SUQIUYI苏秋谊（金料）) [8e378a71-7f23-4db6-9339-c93f46301c59]"
-  Income:Sales:Sales-Gold  -229944.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -450.34000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-08 * "Reservation Delivery R#GR2023120800012B D#D20231208025"
-  rsv-ref: "GR2023120800012B"
-  del-ref: "D20231208025"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suWuSheng苏武生86134356356306  51709.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231208025"
-    sourceId: "c7091c8c-336e-4f10-855e-94e774adff86"
-    orderId: "6be7acd7-d8e4-42be-b808-2b5038fe0141"
-    contact: "86 134356356306 (SUWUSHENG苏武生) [72f6bdd3-f216-42a4-9746-a6976a2a572e]"
-  Income:Sales:Sales-Gold  -51709.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -101.37000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-08 * "Reservation Delivery R#GR2023120800011B D#D20231208044"
@@ -3150,6 +3150,45 @@
   Assets:Inventory:Gold:Gold-In-Stock  -199.28000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-09 * "Reservation Delivery R#GR2023120900003B D#D20231209018"
+  rsv-ref: "GR2023120900003B"
+  del-ref: "D20231209018"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wuJian伍剑8618676666635  26169.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231209018"
+    sourceId: "8376b0ff-5d03-4cbd-bcc1-46ad4fcd5488"
+    orderId: "93b2bb6d-9ced-40c3-90bc-fc78930a77a2"
+    contact: "86 18676666635 (WUJIAN伍剑) [cefa854d-0931-415e-911a-7167ead7c20e]"
+  Income:Sales:Sales-Gold  -26169.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -51.84000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-09 * "Reservation Delivery R#GR2023120900012B D#D20231209024"
+  rsv-ref: "GR2023120900012B"
+  del-ref: "D20231209024"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  70516.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231209024"
+    sourceId: "9afb0f3b-1ed1-4974-8429-30615823719a"
+    orderId: "39a26a3e-0946-4bb6-a611-2009d0f40abb"
+    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
+  Income:Sales:Sales-Gold  -70516.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -139.69000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-09 * "Reservation Delivery R#GR2023120900006B D#D20231209028"
+  rsv-ref: "GR2023120900006B"
+  del-ref: "D20231209028"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenYongBin陈用斌8618613151255  135835.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231209028"
+    sourceId: "f4f8192e-0005-43e0-aeb5-bee5d9bfd70b"
+    orderId: "ae33d772-51cf-4ed5-bb5b-8bffa0002f37"
+    contact: "86 18613151255 (CHENYONGBIN陈用斌) [0bcd92da-5fd2-466c-b8a0-703fb2702ff9]"
+  Income:Sales:Sales-Gold  -135835.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -269.14000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-09 * "Reservation Delivery R#GR2023120900014B D#D20231209026"
   rsv-ref: "GR2023120900014B"
   del-ref: "D20231209026"
@@ -3265,45 +3304,6 @@
     contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
   Income:Sales:Sales-Gold  -50758.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -100.51000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-09 * "Reservation Delivery R#GR2023120900003B D#D20231209018"
-  rsv-ref: "GR2023120900003B"
-  del-ref: "D20231209018"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wuJian伍剑8618676666635  26169.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231209018"
-    sourceId: "8376b0ff-5d03-4cbd-bcc1-46ad4fcd5488"
-    orderId: "93b2bb6d-9ced-40c3-90bc-fc78930a77a2"
-    contact: "86 18676666635 (WUJIAN伍剑) [cefa854d-0931-415e-911a-7167ead7c20e]"
-  Income:Sales:Sales-Gold  -26169.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -51.84000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-09 * "Reservation Delivery R#GR2023120900012B D#D20231209024"
-  rsv-ref: "GR2023120900012B"
-  del-ref: "D20231209024"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  70516.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231209024"
-    sourceId: "9afb0f3b-1ed1-4974-8429-30615823719a"
-    orderId: "39a26a3e-0946-4bb6-a611-2009d0f40abb"
-    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
-  Income:Sales:Sales-Gold  -70516.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -139.69000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-09 * "Reservation Delivery R#GR2023120900006B D#D20231209028"
-  rsv-ref: "GR2023120900006B"
-  del-ref: "D20231209028"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenYongBin陈用斌8618613151255  135835.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231209028"
-    sourceId: "f4f8192e-0005-43e0-aeb5-bee5d9bfd70b"
-    orderId: "ae33d772-51cf-4ed5-bb5b-8bffa0002f37"
-    contact: "86 18613151255 (CHENYONGBIN陈用斌) [0bcd92da-5fd2-466c-b8a0-703fb2702ff9]"
-  Income:Sales:Sales-Gold  -135835.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -269.14000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-09 * "Reservation Delivery R#GR2023120900008B D#D20231209030"
@@ -3610,6 +3610,19 @@
   Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-10 * "Reservation Delivery R#GR2023121000006B D#D20231210014"
+  rsv-ref: "GR2023121000006B"
+  del-ref: "D20231210014"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  161597.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231210014"
+    sourceId: "af49d70c-8072-4083-8ed0-7d9793b9d707"
+    orderId: "b5670344-372c-4edd-bcd7-5131e9f09d48"
+    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
+  Income:Sales:Sales-Gold  -161597.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -320.12000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-10 * "Reservation Delivery R#GR2023121000008B D#D20231210018"
   rsv-ref: "GR2023121000008B"
   del-ref: "D20231210018"
@@ -3686,19 +3699,6 @@
     contact: "86 13826686632 (PANXIAOQIONG潘小琼) [92d657e4-919e-4f26-a56b-381a2b2595bc]"
   Income:Sales:Sales-Gold  -30434.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -60.29000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-10 * "Reservation Delivery R#GR2023121000006B D#D20231210014"
-  rsv-ref: "GR2023121000006B"
-  del-ref: "D20231210014"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  161597.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231210014"
-    sourceId: "af49d70c-8072-4083-8ed0-7d9793b9d707"
-    orderId: "b5670344-372c-4edd-bcd7-5131e9f09d48"
-    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
-  Income:Sales:Sales-Gold  -161597.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -320.12000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-10 * "Reservation Delivery R#GR2023121000010B D#D20231210020"
@@ -3999,7 +3999,7 @@
 2023-12-11 * "Reservation Payment R#GR2023121100004B P#P20231211015"
   rsv-ref: "GR2023121100004B"
   pay-ref: "P20231211015"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  64350.01000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  64350.01000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231211015"
     sourceId: "c3a3f0fa-cb5b-49e2-8a59-bc97c6c5b322"
@@ -4014,7 +4014,7 @@
 2023-12-11 * "Reservation Payment R#GR2023121100001S P#P20231211022"
   rsv-ref: "GR2023121100001S"
   pay-ref: "P20231211022"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -637732.46000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -637732.46000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231211022"
     sourceId: "c43e7451-fdc1-431d-8264-90224b12013d"
@@ -4049,6 +4049,19 @@
     referenceNo: "492"
     orderId: "a6d34cca-3530-4b2a-9572-47b54733f3c8"
     contact: "880 802 (Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2023-12-11 * "Reservation Delivery R#GR2023121100017B D#D20231211025"
+  rsv-ref: "GR2023121100017B"
+  del-ref: "D20231211025"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-luoHuaBao罗华宝8618359056953  59878.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231211025"
+    sourceId: "5cef3756-3b4a-4f51-b296-d30f98c44d49"
+    orderId: "8186f5d7-5890-469b-be0d-1e274122a1bf"
+    contact: "86 18359056953 (LUOHUABAO罗华宝) [7ebc9c1a-e3fe-4165-89df-da88cd55f449]"
+  Income:Sales:Sales-Gold  -59878.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -119.09000 XAU { }
+  Expenses:Cogs:Cogs-Gold
 
 2023-12-11 * "Reservation Delivery R#GR2023121100019B D#D20231211034"
   rsv-ref: "GR2023121100019B"
@@ -4243,19 +4256,6 @@
     contact: "86 15919773433 (HUANGSHUJIE黄树捷) [fd27c0ac-bff3-496e-9e30-185b3731be4f]"
   Income:Sales:Sales-Gold  -10091.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -20.07000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-11 * "Reservation Delivery R#GR2023121100017B D#D20231211025"
-  rsv-ref: "GR2023121100017B"
-  del-ref: "D20231211025"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-luoHuaBao罗华宝8618359056953  59878.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231211025"
-    sourceId: "5cef3756-3b4a-4f51-b296-d30f98c44d49"
-    orderId: "8186f5d7-5890-469b-be0d-1e274122a1bf"
-    contact: "86 18359056953 (LUOHUABAO罗华宝) [7ebc9c1a-e3fe-4165-89df-da88cd55f449]"
-  Income:Sales:Sales-Gold  -59878.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -119.09000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-11 * "Reservation Delivery R#GR2023121100012B D#D20231211039"
@@ -4722,7 +4722,7 @@
 2023-12-12 * "Reservation Payment R#GR2023121200013B P#P20231212005"
   rsv-ref: "GR2023121200013B"
   pay-ref: "P20231212005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  193009.33000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  193009.33000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231212005"
     sourceId: "f7626573-8e4f-48dd-a618-89294e4f9778"
@@ -4737,7 +4737,7 @@
 2023-12-12 * "Reservation Payment R#GR2023121200001S P#P20231212029"
   rsv-ref: "GR2023121200001S"
   pay-ref: "P20231212029"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -64108.90000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -64108.90000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231212029"
     sourceId: "a5090f78-1b1e-4acc-ba47-0c1e07744bc7"
@@ -4752,7 +4752,7 @@
 2023-12-12 * "Reservation Payment R#GR2023121200002S P#P20231212030"
   rsv-ref: "GR2023121200002S"
   pay-ref: "P20231212030"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -634983.85000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -634983.85000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231212030"
     sourceId: "bf9fe782-0176-4814-8578-12987d19ed9d"
@@ -4767,7 +4767,7 @@
 2023-12-12 * "Reservation Payment R#GR2023121200003S P#P20231212031"
   rsv-ref: "GR2023121200003S"
   pay-ref: "P20231212031"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -635925.77000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -635925.77000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231212031"
     sourceId: "f1e47954-176f-42bf-a96a-bd937f222a80"
@@ -4811,17 +4811,6 @@
     contact: "86 13570847293 (LINXIAOMEI林晓梅) [5884cfcc-7e8e-4100-bb65-c57ffb61a29a]"
   Income:FXGainOrLoss
 
-2023-12-12 * "Reservation Delivery R#GR2023121200001S D#D20231212060"
-  rsv-ref: "GR2023121200001S"
-  del-ref: "D20231212060"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-金湧貿易有限公司謝志明韓港天下886901070792  -64108.90000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231212060"
-    sourceId: "78dca07a-ad2d-413b-b173-6bd73f6f975a"
-    orderId: "fbb7b67b-9e18-4d9d-8576-4b3b331320e9"
-    contact: "886 901070792 () [8e70ff16-6734-4bc3-b607-2705b546401d]"
-  Assets:Inventory:Gold:Gold-In-Stock  1000.00000 XAU { }
-
 2023-12-12 * "Reservation Delivery R#GR2023121200002S D#D20231212058"
   rsv-ref: "GR2023121200002S"
   del-ref: "D20231212058"
@@ -4832,6 +4821,17 @@
     orderId: "05899049-a75c-4f37-a7d2-44f5fb9c7ae7"
     contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
   Assets:Inventory:Gold:Gold-In-Stock  10000.00000 XAU { }
+
+2023-12-12 * "Reservation Delivery R#GR2023121200001S D#D20231212060"
+  rsv-ref: "GR2023121200001S"
+  del-ref: "D20231212060"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-金湧貿易有限公司謝志明韓港天下886901070792  -64108.90000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231212060"
+    sourceId: "78dca07a-ad2d-413b-b173-6bd73f6f975a"
+    orderId: "fbb7b67b-9e18-4d9d-8576-4b3b331320e9"
+    contact: "886 901070792 () [8e70ff16-6734-4bc3-b607-2705b546401d]"
+  Assets:Inventory:Gold:Gold-In-Stock  1000.00000 XAU { }
 
 2023-12-12 * "Reservation Delivery R#GR2023121200003S D#D20231212059"
   rsv-ref: "GR2023121200003S"
@@ -4868,6 +4868,58 @@
     contact: "86 13692294486 (DENGYUANYUAN邓媛媛) [f1cb5667-1a73-4da9-b6a5-dd3eeb1837a9]"
   Income:Sales:Sales-Gold  -200170.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -400.74000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-12 * "Reservation Delivery R#GR2023121200024B D#D20231212043"
+  rsv-ref: "GR2023121200024B"
+  del-ref: "D20231212043"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangMeiLing黄美玲8613713647009  143413.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231212043"
+    sourceId: "c7790eda-4613-4e38-83fc-b684ff5f6099"
+    orderId: "8cb355c2-757a-46eb-b0da-8765fcca683c"
+    contact: "86 13713647009 (HUANGMEILING黄美玲) [fb50c6ca-5d58-4b23-8df8-e4d1ed83a2d9]"
+  Income:Sales:Sales-Gold  -143413.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -286.94000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-12 * "Reservation Delivery R#GR2023121200025B D#D20231212044"
+  rsv-ref: "GR2023121200025B"
+  del-ref: "D20231212044"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  401040.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231212044"
+    sourceId: "06ba8e5c-749c-4b78-9891-6d44251bef81"
+    orderId: "28eb4166-04f7-4627-81d7-9f7dc900270d"
+    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
+  Income:Sales:Sales-Gold  -401040.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -800.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-12 * "Reservation Delivery R#GR2023121200009B D#D20231212046"
+  rsv-ref: "GR2023121200009B"
+  del-ref: "D20231212046"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wangRongdeng王容灯85254681564  249435.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231212046"
+    sourceId: "cdf597c0-0017-4e48-ab83-587beb0cb26f"
+    orderId: "879fa3a5-dcec-4c43-9821-4735888fc46e"
+    contact: "852 54681564 (WANGRONGDENG王容灯) [a33488bc-4301-49c3-93fe-b823fa691e8a]"
+  Income:Sales:Sales-Gold  -249435.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -499.87000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-12 * "Reservation Delivery R#GR2023121200028B D#D20231212053"
+  rsv-ref: "GR2023121200028B"
+  del-ref: "D20231212053"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linXiaomei林晓梅8613570847293  388691.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231212053"
+    sourceId: "439941e9-afc2-4fd6-93b4-e6a5bebb3615"
+    orderId: "9ba59968-7e0f-4aaa-9d0c-150be2dba081"
+    contact: "86 13570847293 (LINXIAOMEI林晓梅) [5884cfcc-7e8e-4100-bb65-c57ffb61a29a]"
+  Income:Sales:Sales-Gold  -388691.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -779.67000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-12 * "Reservation Delivery R#GR2023121200018B D#D20231212035"
@@ -5063,58 +5115,6 @@
     contact: "86 14776241831 (YUTING余婷) [ccb1a14f-13a4-43e5-b394-a081b2d2c5f9]"
   Income:Sales:Sales-Gold  -119885.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -239.77000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-12 * "Reservation Delivery R#GR2023121200024B D#D20231212043"
-  rsv-ref: "GR2023121200024B"
-  del-ref: "D20231212043"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangMeiLing黄美玲8613713647009  143413.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231212043"
-    sourceId: "c7790eda-4613-4e38-83fc-b684ff5f6099"
-    orderId: "8cb355c2-757a-46eb-b0da-8765fcca683c"
-    contact: "86 13713647009 (HUANGMEILING黄美玲) [fb50c6ca-5d58-4b23-8df8-e4d1ed83a2d9]"
-  Income:Sales:Sales-Gold  -143413.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -286.94000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-12 * "Reservation Delivery R#GR2023121200025B D#D20231212044"
-  rsv-ref: "GR2023121200025B"
-  del-ref: "D20231212044"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  401040.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231212044"
-    sourceId: "06ba8e5c-749c-4b78-9891-6d44251bef81"
-    orderId: "28eb4166-04f7-4627-81d7-9f7dc900270d"
-    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
-  Income:Sales:Sales-Gold  -401040.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -800.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-12 * "Reservation Delivery R#GR2023121200009B D#D20231212046"
-  rsv-ref: "GR2023121200009B"
-  del-ref: "D20231212046"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wangRongdeng王容灯85254681564  249435.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231212046"
-    sourceId: "cdf597c0-0017-4e48-ab83-587beb0cb26f"
-    orderId: "879fa3a5-dcec-4c43-9821-4735888fc46e"
-    contact: "852 54681564 (WANGRONGDENG王容灯) [a33488bc-4301-49c3-93fe-b823fa691e8a]"
-  Income:Sales:Sales-Gold  -249435.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -499.87000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-12 * "Reservation Delivery R#GR2023121200028B D#D20231212053"
-  rsv-ref: "GR2023121200028B"
-  del-ref: "D20231212053"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linXiaomei林晓梅8613570847293  388691.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231212053"
-    sourceId: "439941e9-afc2-4fd6-93b4-e6a5bebb3615"
-    orderId: "9ba59968-7e0f-4aaa-9d0c-150be2dba081"
-    contact: "86 13570847293 (LINXIAOMEI林晓梅) [5884cfcc-7e8e-4100-bb65-c57ffb61a29a]"
-  Income:Sales:Sales-Gold  -388691.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -779.67000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-12 * "Reservation Delivery R#GR2023121200012B D#D20231212050"
@@ -5709,7 +5709,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300028B P#P20231213004"
   rsv-ref: "GR2023121300028B"
   pay-ref: "P20231213004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  127582.55000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  127582.55000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213004"
     sourceId: "4dec7326-1c16-4616-90bf-ce701e836822"
@@ -5724,7 +5724,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300011B P#P20231213005"
   rsv-ref: "GR2023121300011B"
   pay-ref: "P20231213005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  127477.11000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  127477.11000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213005"
     sourceId: "f8739e54-72d7-4656-9aef-fec224080f09"
@@ -5739,7 +5739,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300024B P#P20231213028"
   rsv-ref: "GR2023121300024B"
   pay-ref: "P20231213028"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  191577.02000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  191577.02000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213028"
     sourceId: "70cdba41-565d-4f66-8898-ab15520ae73f"
@@ -5754,7 +5754,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300031B P#P20231213029"
   rsv-ref: "GR2023121300031B"
   pay-ref: "P20231213029"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  63954.91000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  63954.91000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213029"
     sourceId: "13663aee-cd12-49c0-8dfd-ac0521fde652"
@@ -5769,7 +5769,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300002S P#P20231213036"
   rsv-ref: "GR2023121300002S"
   pay-ref: "P20231213036"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -633135.37000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -633135.37000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213036"
     sourceId: "6e242a67-21e7-41b7-b91e-adce0202bc0f"
@@ -5784,7 +5784,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300001S P#P20231213037"
   rsv-ref: "GR2023121300001S"
   pay-ref: "P20231213037"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -632621.01000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -632621.01000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213037"
     sourceId: "4201a33e-8874-4950-b752-cb401e40661c"
@@ -5799,7 +5799,7 @@
 2023-12-13 * "Reservation Payment R#GR2023121300019B P#P20231213001"
   rsv-ref: "GR2023121300019B"
   pay-ref: "P20231213001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  2490.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  2490.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231213001"
     sourceId: "799e9e4d-7387-4276-b21c-0963afdbf10a"
@@ -5857,6 +5857,45 @@
     contact: "86 13827413850 (WANGJIAN王健) [082de017-dfb1-4563-a67a-39eb8c67288c]"
   Income:Sales:Sales-Gold  -99600.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -199.60000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-13 * "Reservation Delivery R#GR2023121300010B D#D20231213052"
+  rsv-ref: "GR2023121300010B"
+  del-ref: "D20231213052"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  43816.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231213052"
+    sourceId: "c03a72ae-86e3-46bd-b744-259dad9be369"
+    orderId: "4194a31b-aec2-4b5d-b74b-fcda6a45ac29"
+    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
+  Income:Sales:Sales-Gold  -43816.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -87.86000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-13 * "Reservation Delivery R#GR2023121300014B D#D20231213057"
+  rsv-ref: "GR2023121300014B"
+  del-ref: "D20231213057"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-ngWaiKeiTony吳偉基99812345816  279700.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231213057"
+    sourceId: "1316fbd8-36ad-427b-b21a-63b4b33cdbd1"
+    orderId: "6e748cfd-0537-4f79-a6a7-2ec8561f6b89"
+    contact: "998 12345816 (NGWAIKEITony吳偉基) [ba13784b-854e-46c1-9424-2f97bf2b497e]"
+  Income:Sales:Sales-Gold  -279700.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -559.96000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-13 * "Reservation Delivery R#GR2023121300015B D#D20231213058"
+  rsv-ref: "GR2023121300015B"
+  del-ref: "D20231213058"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuYouZhen刘幼贞8613713816000  75799.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231213058"
+    sourceId: "14d6e374-c29d-4bf7-8779-fc29ea35dc9d"
+    orderId: "95e0c843-adb8-4688-a121-f0b3fe378963"
+    contact: "86 13713816000 (LIUYOUZHEN刘幼贞) [e0b486df-ad6c-4e42-ab72-905e4635d994]"
+  Income:Sales:Sales-Gold  -75799.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -152.13000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-13 * "Reservation Delivery R#GR2023121300020B D#D20231213039"
@@ -5987,19 +6026,6 @@
     contact: "86 13700977096 (TIANSONG田松) [16425dce-a7a2-42b9-87c7-02ed76532f07]"
   Income:Sales:Sales-Gold  -10000.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -20.11000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-13 * "Reservation Delivery R#GR2023121300010B D#D20231213052"
-  rsv-ref: "GR2023121300010B"
-  del-ref: "D20231213052"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  43816.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231213052"
-    sourceId: "c03a72ae-86e3-46bd-b744-259dad9be369"
-    orderId: "4194a31b-aec2-4b5d-b74b-fcda6a45ac29"
-    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
-  Income:Sales:Sales-Gold  -43816.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -87.86000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-13 * "Reservation Delivery R#GR2023121300013B D#D20231213056"
@@ -6182,32 +6208,6 @@
     contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
   Income:Sales:Sales-Gold  -119630.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -240.22000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-13 * "Reservation Delivery R#GR2023121300014B D#D20231213057"
-  rsv-ref: "GR2023121300014B"
-  del-ref: "D20231213057"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-ngWaiKeiTony吳偉基99812345816  279700.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231213057"
-    sourceId: "1316fbd8-36ad-427b-b21a-63b4b33cdbd1"
-    orderId: "6e748cfd-0537-4f79-a6a7-2ec8561f6b89"
-    contact: "998 12345816 (NGWAIKEITony吳偉基) [ba13784b-854e-46c1-9424-2f97bf2b497e]"
-  Income:Sales:Sales-Gold  -279700.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -559.96000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-13 * "Reservation Delivery R#GR2023121300015B D#D20231213058"
-  rsv-ref: "GR2023121300015B"
-  del-ref: "D20231213058"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuYouZhen刘幼贞8613713816000  75799.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231213058"
-    sourceId: "14d6e374-c29d-4bf7-8779-fc29ea35dc9d"
-    orderId: "95e0c843-adb8-4688-a121-f0b3fe378963"
-    contact: "86 13713816000 (LIUYOUZHEN刘幼贞) [e0b486df-ad6c-4e42-ab72-905e4635d994]"
-  Income:Sales:Sales-Gold  -75799.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -152.13000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-13 * "Reservation Delivery R#GR2023121300034B D#D20231213066"
@@ -6769,7 +6769,7 @@
 2023-12-14 * "Reservation Payment R#GR2023121400002S P#P20231214029"
   rsv-ref: "GR2023121400002S"
   pay-ref: "P20231214029"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -318715.27000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -318715.27000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231214029"
     sourceId: "19ce3cf8-6d66-42c9-ae16-e7a7d7a532d2"
@@ -6784,7 +6784,7 @@
 2023-12-14 * "Reservation Payment R#GR2023121400003S P#P20231214030"
   rsv-ref: "GR2023121400003S"
   pay-ref: "P20231214030"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -649591.37000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -649591.37000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231214030"
     sourceId: "8ab5b9e8-98f4-4368-b453-c00b329c65b8"
@@ -6799,7 +6799,7 @@
 2023-12-14 * "Reservation Payment R#GR2023121400004S P#P20231214031"
   rsv-ref: "GR2023121400004S"
   pay-ref: "P20231214031"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -654694.02000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -654694.02000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231214031"
     sourceId: "3ce5a0b5-7a64-40a1-b641-a2df2ea1694c"
@@ -6814,7 +6814,7 @@
 2023-12-14 * "Reservation Payment R#GR2023121400006S P#P20231214033"
   rsv-ref: "GR2023121400006S"
   pay-ref: "P20231214033"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -650421.08000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -650421.08000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231214033"
     sourceId: "a08fcf30-4794-4033-a769-aa1ca958b150"
@@ -6924,6 +6924,45 @@
   Assets:Inventory:Gold:Gold-In-Stock  -874.32750 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-14 * "Reservation Delivery R#GR2023121400028B D#D20231214050"
+  rsv-ref: "GR2023121400028B"
+  del-ref: "D20231214050"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  43829.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231214050"
+    sourceId: "e75889e9-af8c-4cd6-bf83-91ce46a933f3"
+    orderId: "a498a26e-8e16-49ce-9dc7-b0b92bc20bdc"
+    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
+  Income:Sales:Sales-Gold  -43829.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -85.94000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-14 * "Reservation Delivery R#GR2023121400030B D#D20231214054"
+  rsv-ref: "GR2023121400030B"
+  del-ref: "D20231214054"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wangRongdeng王容灯85254681564  183320.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231214054"
+    sourceId: "a141c50d-99fb-4952-baf2-fbca4e4451ec"
+    orderId: "dc847087-908c-401f-9efb-1b4cc48774bc"
+    contact: "852 54681564 (WANGRONGDENG王容灯) [a33488bc-4301-49c3-93fe-b823fa691e8a]"
+  Income:Sales:Sales-Gold  -183320.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -359.31000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-14 * "Reservation Delivery R#GR2023121400012B D#D20231214038"
+  rsv-ref: "GR2023121400012B"
+  del-ref: "D20231214038"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenHuanMing陈焕明8613691753924  22940.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231214038"
+    sourceId: "d5f21340-a39f-499c-809f-9a56d0ebcc90"
+    orderId: "a0b48b79-8f9d-4033-84aa-7927c1f6661b"
+    contact: "86 13691753924 (CHENHUANMING陈焕明) [648888ba-2d28-4f0c-9954-067e939045fa]"
+  Income:Sales:Sales-Gold  -22940.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -44.98000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-14 * "Reservation Delivery R#GR2023121400017B D#D20231214049"
   rsv-ref: "GR2023121400017B"
   del-ref: "D20231214049"
@@ -6935,6 +6974,19 @@
     contact: "86 13518866079 (LIULIYONG刘利勇) [4d1f3b63-5f85-4f37-99ba-2b61c9cb3cad]"
   Income:Sales:Sales-Gold  -102174.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -200.07000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-14 * "Reservation Delivery R#GR2023121400014B D#D20231214041"
+  rsv-ref: "GR2023121400014B"
+  del-ref: "D20231214041"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wuZhenTian吴振天8615807551838  40602.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231214041"
+    sourceId: "1acf1689-9a11-4f93-93e1-9eba8adfcc18"
+    orderId: "766fa60d-50be-4068-abe1-716a74d0dd2f"
+    contact: "86 15807551838 (WUZHENTIAN吴振天) [1cdeb6cf-d01c-4348-a11e-fd1a5573be2e]"
+  Income:Sales:Sales-Gold  -40602.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -79.43000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-14 * "Reservation Delivery R#GR2023121400011B D#D20231214037"
@@ -7015,19 +7067,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -50.28000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-14 * "Reservation Delivery R#GR2023121400028B D#D20231214050"
-  rsv-ref: "GR2023121400028B"
-  del-ref: "D20231214050"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  43829.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231214050"
-    sourceId: "e75889e9-af8c-4cd6-bf83-91ce46a933f3"
-    orderId: "a498a26e-8e16-49ce-9dc7-b0b92bc20bdc"
-    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
-  Income:Sales:Sales-Gold  -43829.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -85.94000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-14 * "Reservation Delivery R#GR2023121400019B D#D20231214053"
   rsv-ref: "GR2023121400019B"
   del-ref: "D20231214053"
@@ -7106,45 +7145,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -377.17000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-14 * "Reservation Delivery R#GR2023121400030B D#D20231214054"
-  rsv-ref: "GR2023121400030B"
-  del-ref: "D20231214054"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wangRongdeng王容灯85254681564  183320.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231214054"
-    sourceId: "a141c50d-99fb-4952-baf2-fbca4e4451ec"
-    orderId: "dc847087-908c-401f-9efb-1b4cc48774bc"
-    contact: "852 54681564 (WANGRONGDENG王容灯) [a33488bc-4301-49c3-93fe-b823fa691e8a]"
-  Income:Sales:Sales-Gold  -183320.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -359.31000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-14 * "Reservation Delivery R#GR2023121400012B D#D20231214038"
-  rsv-ref: "GR2023121400012B"
-  del-ref: "D20231214038"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenHuanMing陈焕明8613691753924  22940.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231214038"
-    sourceId: "d5f21340-a39f-499c-809f-9a56d0ebcc90"
-    orderId: "a0b48b79-8f9d-4033-84aa-7927c1f6661b"
-    contact: "86 13691753924 (CHENHUANMING陈焕明) [648888ba-2d28-4f0c-9954-067e939045fa]"
-  Income:Sales:Sales-Gold  -22940.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -44.98000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-14 * "Reservation Delivery R#GR2023121400014B D#D20231214041"
-  rsv-ref: "GR2023121400014B"
-  del-ref: "D20231214041"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wuZhenTian吴振天8615807551838  40602.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231214041"
-    sourceId: "1acf1689-9a11-4f93-93e1-9eba8adfcc18"
-    orderId: "766fa60d-50be-4068-abe1-716a74d0dd2f"
-    contact: "86 15807551838 (WUZHENTIAN吴振天) [1cdeb6cf-d01c-4348-a11e-fd1a5573be2e]"
-  Income:Sales:Sales-Gold  -40602.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -79.43000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-14 * "Reservation Delivery R#GR2023121400031B D#D20231214055"
   rsv-ref: "GR2023121400031B"
   del-ref: "D20231214055"
@@ -7218,7 +7218,7 @@
     orderId: "70c0cbc6-4870-4213-9cef-00f82616b3f5"
     referenceNo: "129"
     description: ""
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -150000.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -150000.00000 USDT {7.8 HKD}
     type: "MJ"
     sourceId: "70c0cbc6-4870-4213-9cef-00f82616b3f5"
     orderId: "70c0cbc6-4870-4213-9cef-00f82616b3f5"
@@ -7275,7 +7275,7 @@
     contact: "852 55968333 (MR.SHANA) [12c8fcc6-0d39-49a9-af5d-0e0269e6c05b]"
 
 2023-12-15 * "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]" "Bill Payment for Bill #1453 #e2dae3b3-ae32-4a4c-a5cd-71a90a98138a 0ddc54d6-dcde-4fef-9e1b-d37c15c5390e"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -784.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -784.00000 USDT {7.8 HKD}
     type: "Bill Payment"
     sourceId: "e2dae3b3-ae32-4a4c-a5cd-71a90a98138a"
     referenceNo: "1453"
@@ -7680,7 +7680,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500019B P#P20231215012"
   rsv-ref: "GR2023121500019B"
   pay-ref: "P20231215012"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  196411.20000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  196411.20000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215012"
     sourceId: "da6af04b-75c0-419c-b865-a18c632ce919"
@@ -7695,7 +7695,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500016B P#P20231215013"
   rsv-ref: "GR2023121500016B"
   pay-ref: "P20231215013"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  327700.64000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  327700.64000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215013"
     sourceId: "69cf360d-5189-4412-aed8-670686011bf2"
@@ -7710,7 +7710,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500030B P#P20231215014"
   rsv-ref: "GR2023121500030B"
   pay-ref: "P20231215014"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65469.40000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65469.40000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215014"
     sourceId: "80f5b0ad-ee1e-44fe-99d4-3b9bac1cf2de"
@@ -7725,7 +7725,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500028B P#P20231215015"
   rsv-ref: "GR2023121500028B"
   pay-ref: "P20231215015"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  130983.81000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  130983.81000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215015"
     sourceId: "d85e5b7d-3ad8-4c50-83f8-4949910ce0a5"
@@ -7740,7 +7740,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500029B P#P20231215016"
   rsv-ref: "GR2023121500029B"
   pay-ref: "P20231215016"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65504.76000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65504.76000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215016"
     sourceId: "800b8c86-5470-41ba-be08-ad17235229c4"
@@ -7755,7 +7755,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500017B P#P20231215017"
   rsv-ref: "GR2023121500017B"
   pay-ref: "P20231215017"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65655.86000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65655.86000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215017"
     sourceId: "e5f559e8-aa97-41b7-a7ce-d4bd94ca73eb"
@@ -7770,7 +7770,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500001S P#P20231215037"
   rsv-ref: "GR2023121500001S"
   pay-ref: "P20231215037"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -130085.60000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -130085.60000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215037"
     sourceId: "0072cb56-8110-4411-a8fb-a24ea4d5539b"
@@ -7785,7 +7785,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500002S P#P20231215038"
   rsv-ref: "GR2023121500002S"
   pay-ref: "P20231215038"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -130550.24000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -130550.24000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215038"
     sourceId: "ad11c7b0-79f8-4be0-9f22-58664918cebf"
@@ -7800,7 +7800,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500004S P#P20231215039"
   rsv-ref: "GR2023121500004S"
   pay-ref: "P20231215039"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -650967.59000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -650967.59000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215039"
     sourceId: "d2b51571-516f-4f39-a3a1-9c540b624f0c"
@@ -7815,7 +7815,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500005S P#P20231215040"
   rsv-ref: "GR2023121500005S"
   pay-ref: "P20231215040"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -651372.65000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -651372.65000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215040"
     sourceId: "e55658da-aef1-4ba2-8b14-0f8bbbe7ca4f"
@@ -7830,7 +7830,7 @@
 2023-12-15 * "Reservation Payment R#GR2023121500003S P#P20231215041"
   rsv-ref: "GR2023121500003S"
   pay-ref: "P20231215041"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -521332.15000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -521332.15000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231215041"
     sourceId: "773d47d9-8d0d-4a9e-93bf-e78b0b4d210e"
@@ -7944,6 +7944,32 @@
     orderId: "bb398e15-dd46-4ebe-a9dc-52b4956655d1"
     contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
   Assets:Inventory:Gold:Gold-In-Stock  10000.00000 XAU { }
+
+2023-12-15 * "Reservation Delivery R#GR2023121500016B D#D20231215052"
+  rsv-ref: "GR2023121500016B"
+  del-ref: "D20231215052"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-中意國際香港有限公司PleasingInternationalhkLtd85290848053  327700.64000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231215052"
+    sourceId: "87b5fa04-6e57-4961-ab33-5c4ea9630497"
+    orderId: "f7988123-6574-4484-9449-96f5724a0f9a"
+    contact: "852 90848053 () [dbb0d8db-1995-425e-80f4-0e383c6eb5d9]"
+  Income:Sales:Sales-Gold  -2556064.99000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -5000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-15 * "Reservation Delivery R#GR2023121500021B D#D20231215063"
+  rsv-ref: "GR2023121500021B"
+  del-ref: "D20231215063"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  306658.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231215063"
+    sourceId: "65798b5b-cd2e-48fb-9cd9-49fd39baaf15"
+    orderId: "2ccde2b5-d83b-46fc-96a2-f9ad2dc7f03f"
+    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
+  Income:Sales:Sales-Gold  -306658.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -599.20000 XAU { }
+  Expenses:Cogs:Cogs-Gold
 
 2023-12-15 * "Reservation Delivery R#GR2023121500018B D#D20231215057"
   rsv-ref: "GR2023121500018B"
@@ -8229,32 +8255,6 @@
     contact: "86 13536721976 (CHENXIONGBIAO陈雄标) [77b753e7-04b9-41d6-bb55-73ca5dd91212]"
   Income:Sales:Sales-Gold  -141359.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -276.21000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-15 * "Reservation Delivery R#GR2023121500016B D#D20231215052"
-  rsv-ref: "GR2023121500016B"
-  del-ref: "D20231215052"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-中意國際香港有限公司PleasingInternationalhkLtd85290848053  327700.64000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231215052"
-    sourceId: "87b5fa04-6e57-4961-ab33-5c4ea9630497"
-    orderId: "f7988123-6574-4484-9449-96f5724a0f9a"
-    contact: "852 90848053 () [dbb0d8db-1995-425e-80f4-0e383c6eb5d9]"
-  Income:Sales:Sales-Gold  -2556064.99000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -5000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-15 * "Reservation Delivery R#GR2023121500021B D#D20231215063"
-  rsv-ref: "GR2023121500021B"
-  del-ref: "D20231215063"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  306658.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231215063"
-    sourceId: "65798b5b-cd2e-48fb-9cd9-49fd39baaf15"
-    orderId: "2ccde2b5-d83b-46fc-96a2-f9ad2dc7f03f"
-    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
-  Income:Sales:Sales-Gold  -306658.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -599.20000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-15 * "Reservation Delivery R#GR2023121500015B D#D20231215050"
@@ -8590,6 +8590,45 @@
   Assets:Inventory:Gold:Gold-In-Stock  -167.25000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-16 * "Reservation Delivery R#GR2023121600007B D#D20231216027"
+  rsv-ref: "GR2023121600007B"
+  del-ref: "D20231216027"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dengYuanYuan邓媛媛8613692294486  587941.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231216027"
+    sourceId: "a4fb89f6-3439-4388-b2c8-5abc57211d07"
+    orderId: "d71157d9-b598-4d9c-b25a-916e1854419b"
+    contact: "86 13692294486 (DENGYUANYUAN邓媛媛) [f1cb5667-1a73-4da9-b6a5-dd3eeb1837a9]"
+  Income:Sales:Sales-Gold  -587941.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -1155.09000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-16 * "Reservation Delivery R#GR2023121600013B D#D20231216026"
+  rsv-ref: "GR2023121600013B"
+  del-ref: "D20231216026"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  457830.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231216026"
+    sourceId: "e09933a8-1341-48ce-8f59-416ce9852eab"
+    orderId: "4b2d4fe1-7896-402e-9524-45112cdd0fc1"
+    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
+  Income:Sales:Sales-Gold  -457830.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-16 * "Reservation Delivery R#GR2023121600006B D#D20231216024"
+  rsv-ref: "GR2023121600006B"
+  del-ref: "D20231216024"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liXiaoJuan李晓娟8618927408610  39991.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231216024"
+    sourceId: "ed684b6f-ba2d-4190-b852-c718bf3a07fc"
+    orderId: "138ece82-0c4d-4797-9713-4ac2a4978dd7"
+    contact: "86 18927408610 (LIXIAOJUAN李晓娟) [f99760e5-a70f-460a-8d0d-b8b87ee7d66a]"
+  Income:Sales:Sales-Gold  -39991.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -78.66000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-16 * "Reservation Delivery R#GR2023121600008B D#D20231216029"
   rsv-ref: "GR2023121600008B"
   del-ref: "D20231216029"
@@ -8679,45 +8718,6 @@
     contact: "86 15919773433 (HUANGSHUJIE黄树捷) [fd27c0ac-bff3-496e-9e30-185b3731be4f]"
   Income:Sales:Sales-Gold  -451800.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -888.67000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-16 * "Reservation Delivery R#GR2023121600007B D#D20231216027"
-  rsv-ref: "GR2023121600007B"
-  del-ref: "D20231216027"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dengYuanYuan邓媛媛8613692294486  587941.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231216027"
-    sourceId: "a4fb89f6-3439-4388-b2c8-5abc57211d07"
-    orderId: "d71157d9-b598-4d9c-b25a-916e1854419b"
-    contact: "86 13692294486 (DENGYUANYUAN邓媛媛) [f1cb5667-1a73-4da9-b6a5-dd3eeb1837a9]"
-  Income:Sales:Sales-Gold  -587941.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -1155.09000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-16 * "Reservation Delivery R#GR2023121600013B D#D20231216026"
-  rsv-ref: "GR2023121600013B"
-  del-ref: "D20231216026"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  457830.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231216026"
-    sourceId: "e09933a8-1341-48ce-8f59-416ce9852eab"
-    orderId: "4b2d4fe1-7896-402e-9524-45112cdd0fc1"
-    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
-  Income:Sales:Sales-Gold  -457830.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-16 * "Reservation Delivery R#GR2023121600006B D#D20231216024"
-  rsv-ref: "GR2023121600006B"
-  del-ref: "D20231216024"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liXiaoJuan李晓娟8618927408610  39991.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231216024"
-    sourceId: "ed684b6f-ba2d-4190-b852-c718bf3a07fc"
-    orderId: "138ece82-0c4d-4797-9713-4ac2a4978dd7"
-    contact: "86 18927408610 (LIXIAOJUAN李晓娟) [f99760e5-a70f-460a-8d0d-b8b87ee7d66a]"
-  Income:Sales:Sales-Gold  -39991.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -78.66000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-16 * "Reservation Delivery R#GR2023121600009B D#D20231216019"
@@ -9419,7 +9419,7 @@
 2023-12-18 * "Reservation Payment R#GR2023121800028B P#P20231218006"
   rsv-ref: "GR2023121800028B"
   pay-ref: "P20231218006"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  195411.95000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  195411.95000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231218006"
     sourceId: "99a0d298-72e2-48bc-a8c1-eec6c2ba618e"
@@ -9434,7 +9434,7 @@
 2023-12-18 * "Reservation Payment R#GR2023121800019B P#P20231218007"
   rsv-ref: "GR2023121800019B"
   pay-ref: "P20231218007"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  130304.86000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  130304.86000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231218007"
     sourceId: "9d8c8ce6-fe00-48ea-8d8c-21e74256448a"
@@ -9449,7 +9449,7 @@
 2023-12-18 * "Reservation Payment R#GR2023121800001S P#P20231218035"
   rsv-ref: "GR2023121800001S"
   pay-ref: "P20231218035"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -970163.33000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -970163.33000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231218035"
     sourceId: "3c142d3b-09e8-4c31-8bca-bdc862186957"
@@ -9464,7 +9464,7 @@
 2023-12-18 * "Reservation Payment R#GR2023121800004S P#P20231218036"
   rsv-ref: "GR2023121800004S"
   pay-ref: "P20231218036"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -971262.77000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -971262.77000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231218036"
     sourceId: "90fffcc5-eeda-4a10-80d9-def69ee1a8e8"
@@ -9491,17 +9491,6 @@
     orderId: "11a001e2-60f5-40eb-9056-5f5e291b07e2"
     contact: "852 56421077 (PENGKANGHUA彭康华) [aa4aea41-36a0-4ad8-843c-4ac8edf1a6c9]"
 
-2023-12-18 * "Reservation Delivery R#GR2023121800004S D#D20231218069"
-  rsv-ref: "GR2023121800004S"
-  del-ref: "D20231218069"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8210063988492  -971262.77000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231218069"
-    sourceId: "1a8f61ac-720a-4c00-b3d0-79fe0138a883"
-    orderId: "49443d94-5901-49ad-a197-a646581721d7"
-    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
-  Assets:Inventory:Gold:Gold-In-Stock  15000.00000 XAU { }
-
 2023-12-18 * "Reservation Delivery R#GR2023121800001S D#D20231218070"
   rsv-ref: "GR2023121800001S"
   del-ref: "D20231218070"
@@ -9510,6 +9499,17 @@
     referenceNo: "D20231218070"
     sourceId: "c5cd88d8-aa22-44ae-a715-b1db3b1afd71"
     orderId: "7a33523d-0bc7-4227-bad1-3594fb92d21f"
+    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
+  Assets:Inventory:Gold:Gold-In-Stock  15000.00000 XAU { }
+
+2023-12-18 * "Reservation Delivery R#GR2023121800004S D#D20231218069"
+  rsv-ref: "GR2023121800004S"
+  del-ref: "D20231218069"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8210063988492  -971262.77000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231218069"
+    sourceId: "1a8f61ac-720a-4c00-b3d0-79fe0138a883"
+    orderId: "49443d94-5901-49ad-a197-a646581721d7"
     contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
   Assets:Inventory:Gold:Gold-In-Stock  15000.00000 XAU { }
 
@@ -9524,6 +9524,71 @@
     contact: "852 69766828 (MENGBAOCHENG孟保成（雄金料）) [7cae08f6-19c8-4806-987d-00f030030cf5]"
   Income:Sales:Sales-Gold  -1524213.21000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -3000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-18 * "Reservation Delivery R#GR2023121800027B D#D20231218045"
+  rsv-ref: "GR2023121800027B"
+  del-ref: "D20231218045"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-caiHuiDuan蔡惠端8613925291230  178186.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231218045"
+    sourceId: "28076cf3-c21c-46d2-8bd1-a6c90d8b2845"
+    orderId: "16960695-0aa9-45c1-b052-442ad65e5eb2"
+    contact: "86 13925291230 (CAIHUIDUAN蔡惠端) [c5f58adb-6077-4e97-b9da-be3dd721c1ce]"
+  Income:Sales:Sales-Gold  -178186.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -350.07000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-18 * "Reservation Delivery R#GR2023121800019B D#D20231218061"
+  rsv-ref: "GR2023121800019B"
+  del-ref: "D20231218061"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-mengBaoCheng孟保成（雄金料）85269766828  130304.86000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231218061"
+    sourceId: "27aaad0f-f53b-49ab-b19d-a5aead9eff3a"
+    orderId: "eb1734fa-362e-4d0e-953c-90e36f4710c1"
+    contact: "852 69766828 (MENGBAOCHENG孟保成（雄金料）) [7cae08f6-19c8-4806-987d-00f030030cf5]"
+  Income:Sales:Sales-Gold  -1016377.91000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-18 * "Reservation Delivery R#GR2023121800033B D#D20231218062"
+  rsv-ref: "GR2023121800033B"
+  del-ref: "D20231218062"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-hys好月色黄金有限公司HaoYuetShihGoldsmithCoLtd85223843877  5080000.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231218062"
+    sourceId: "9bb2edc4-d28c-4abf-bae4-7206c4023ba3"
+    orderId: "9cc33110-7121-4a4c-9a1b-13aa7d1c0705"
+    contact: "852 23843877 (HYS好月色黄金有限公司HaoYuetShihGoldsmithCoLtd) [62bf8427-3488-47d3-9730-adde9ab2e903]"
+  Income:Sales:Sales-Gold  -5080000.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -10000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-18 * "Reservation Delivery R#GR2023121800031B D#D20231218056"
+  rsv-ref: "GR2023121800031B"
+  del-ref: "D20231218056"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xieGuoFeng谢国锋99812345789  50910.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231218056"
+    sourceId: "78ae8d9d-c84a-4dda-8469-1584da9a816c"
+    orderId: "7e08f864-3d4f-46f4-a8f0-db8826203690"
+    contact: "998 12345789 (XIEGUOFENG谢国锋) [f5a3da62-2b85-44e5-8a5d-3d44689b69fd]"
+  Income:Sales:Sales-Gold  -50910.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -100.01000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-18 * "Reservation Delivery R#GR2023121800011B D#D20231218048"
+  rsv-ref: "GR2023121800011B"
+  del-ref: "D20231218048"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-pengKanghua彭康华85256421077  203680.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231218048"
+    sourceId: "6f01b245-a260-49bc-a397-02649edc1bca"
+    orderId: "11a001e2-60f5-40eb-9056-5f5e291b07e2"
+    contact: "852 56421077 (PENGKANGHUA彭康华) [aa4aea41-36a0-4ad8-843c-4ac8edf1a6c9]"
+  Income:Sales:Sales-Gold  -203680.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -400.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-18 * "Reservation Delivery R#GR2023121800008B D#D20231218043"
@@ -9602,19 +9667,6 @@
     contact: "86 13713816000 (LIUYOUZHEN刘幼贞) [e0b486df-ad6c-4e42-ab72-905e4635d994]"
   Income:Sales:Sales-Gold  -176904.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -347.62000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-18 * "Reservation Delivery R#GR2023121800027B D#D20231218045"
-  rsv-ref: "GR2023121800027B"
-  del-ref: "D20231218045"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-caiHuiDuan蔡惠端8613925291230  178186.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231218045"
-    sourceId: "28076cf3-c21c-46d2-8bd1-a6c90d8b2845"
-    orderId: "16960695-0aa9-45c1-b052-442ad65e5eb2"
-    contact: "86 13925291230 (CAIHUIDUAN蔡惠端) [c5f58adb-6077-4e97-b9da-be3dd721c1ce]"
-  Income:Sales:Sales-Gold  -178186.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -350.07000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-18 * "Reservation Delivery R#GR2023121800030B D#D20231218055"
@@ -9719,58 +9771,6 @@
     contact: "852 65708803 (ZIBIANLIN) [d6d60044-dfc8-493f-9abc-8eb369320ffa]"
   Income:Sales:Sales-Gold  -414351.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -813.57000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-18 * "Reservation Delivery R#GR2023121800019B D#D20231218061"
-  rsv-ref: "GR2023121800019B"
-  del-ref: "D20231218061"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-mengBaoCheng孟保成（雄金料）85269766828  130304.86000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231218061"
-    sourceId: "27aaad0f-f53b-49ab-b19d-a5aead9eff3a"
-    orderId: "eb1734fa-362e-4d0e-953c-90e36f4710c1"
-    contact: "852 69766828 (MENGBAOCHENG孟保成（雄金料）) [7cae08f6-19c8-4806-987d-00f030030cf5]"
-  Income:Sales:Sales-Gold  -1016377.91000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-18 * "Reservation Delivery R#GR2023121800033B D#D20231218062"
-  rsv-ref: "GR2023121800033B"
-  del-ref: "D20231218062"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-hys好月色黄金有限公司HaoYuetShihGoldsmithCoLtd85223843877  5080000.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231218062"
-    sourceId: "9bb2edc4-d28c-4abf-bae4-7206c4023ba3"
-    orderId: "9cc33110-7121-4a4c-9a1b-13aa7d1c0705"
-    contact: "852 23843877 (HYS好月色黄金有限公司HaoYuetShihGoldsmithCoLtd) [62bf8427-3488-47d3-9730-adde9ab2e903]"
-  Income:Sales:Sales-Gold  -5080000.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -10000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-18 * "Reservation Delivery R#GR2023121800031B D#D20231218056"
-  rsv-ref: "GR2023121800031B"
-  del-ref: "D20231218056"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xieGuoFeng谢国锋99812345789  50910.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231218056"
-    sourceId: "78ae8d9d-c84a-4dda-8469-1584da9a816c"
-    orderId: "7e08f864-3d4f-46f4-a8f0-db8826203690"
-    contact: "998 12345789 (XIEGUOFENG谢国锋) [f5a3da62-2b85-44e5-8a5d-3d44689b69fd]"
-  Income:Sales:Sales-Gold  -50910.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -100.01000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-18 * "Reservation Delivery R#GR2023121800011B D#D20231218048"
-  rsv-ref: "GR2023121800011B"
-  del-ref: "D20231218048"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-pengKanghua彭康华85256421077  203680.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231218048"
-    sourceId: "6f01b245-a260-49bc-a397-02649edc1bca"
-    orderId: "11a001e2-60f5-40eb-9056-5f5e291b07e2"
-    contact: "852 56421077 (PENGKANGHUA彭康华) [aa4aea41-36a0-4ad8-843c-4ac8edf1a6c9]"
-  Income:Sales:Sales-Gold  -203680.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -400.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-18 * "Reservation Delivery R#GR2023121800014B D#D20231218053"
@@ -10258,7 +10258,7 @@
 2023-12-19 * "Reservation Payment R#GR2023121900033B P#P20231219008"
   rsv-ref: "GR2023121900033B"
   pay-ref: "P20231219008"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  130304.86000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  130304.86000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231219008"
     sourceId: "0e348d00-4aa5-4f12-92ee-ff4ebb4b7a14"
@@ -10273,7 +10273,7 @@
 2023-12-19 * "Reservation Payment R#GR2023121900010B P#P20231219009"
   rsv-ref: "GR2023121900010B"
   pay-ref: "P20231219009"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65292.28000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65292.28000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231219009"
     sourceId: "82033d59-6cfb-4ef3-91ce-1c92e7e0849f"
@@ -10288,7 +10288,7 @@
 2023-12-19 * "Reservation Payment R#GR2023121900007B P#P20231219010"
   rsv-ref: "GR2023121900007B"
   pay-ref: "P20231219010"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  32669.04000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  32669.04000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231219010"
     sourceId: "4f94fe42-30ba-49ce-bbe9-dbecc4f01550"
@@ -10303,7 +10303,7 @@
 2023-12-19 * "Reservation Payment R#GR2023121900034S P#P20231219036"
   rsv-ref: "GR2023121900034S"
   pay-ref: "P20231219036"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -906547.93000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -906547.93000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231219036"
     sourceId: "c9b09a6c-b324-4456-af09-aec4e3959a42"
@@ -10360,14 +10360,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  14000.00000 XAU { }
 
 2023-12-19 * "Invoice #502 AA39216 2bf93389-7600-46f3-bb39-ef30b7cf697b"
-  Income:Sales:SalesItem:SellGoldJewelry  -8360.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051204000000000018"
-    qty: "1"
-    referenceNo: "502"
-    orderId: "2bf93389-7600-46f3-bb39-ef30b7cf697b"
-    type: "Invoice Item"
-    sourceId: "bac37a60-8268-4463-b543-fa1bfda3c926"
   Income:Sales:SalesItem:SellGoldJewelry  -9640.00000 HKD
     category: "Gold Jewelry"
     sku: "DD2310200000000000000201"
@@ -10376,6 +10368,14 @@
     orderId: "2bf93389-7600-46f3-bb39-ef30b7cf697b"
     type: "Invoice Item"
     sourceId: "f3011b2c-fbfb-4106-92d9-56eae8aa8a75"
+  Income:Sales:SalesItem:SellGoldJewelry  -8360.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051204000000000018"
+    qty: "1"
+    referenceNo: "502"
+    orderId: "2bf93389-7600-46f3-bb39-ef30b7cf697b"
+    type: "Invoice Item"
+    sourceId: "bac37a60-8268-4463-b543-fa1bfda3c926"
   Assets:CurrentAssets:AccountReceivable  18000.00000 HKD
     referenceNo: "502"
     orderId: "2bf93389-7600-46f3-bb39-ef30b7cf697b"
@@ -10435,6 +10435,19 @@
   Assets:Inventory:Gold:Gold-In-Stock  -1600.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-19 * "Reservation Delivery R#GR2023121900026B D#D20231219047"
+  rsv-ref: "GR2023121900026B"
+  del-ref: "D20231219047"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  195500.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231219047"
+    sourceId: "b89d8e6f-c4b0-4db4-a138-406d43d56008"
+    orderId: "9750fe23-1773-4546-b55e-e09b0b0b6f77"
+    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
+  Income:Sales:Sales-Gold  -195500.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -384.29000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-19 * "Reservation Delivery R#GR2023121900029B D#D20231219057"
   rsv-ref: "GR2023121900029B"
   del-ref: "D20231219057"
@@ -10448,17 +10461,43 @@
   Assets:Inventory:Gold:Gold-In-Stock  -95.77000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-19 * "Reservation Delivery R#GR2023121900026B D#D20231219047"
-  rsv-ref: "GR2023121900026B"
-  del-ref: "D20231219047"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  195500.00000 HKD
+2023-12-19 * "Reservation Delivery R#GR2023121900030B D#D20231219060"
+  rsv-ref: "GR2023121900030B"
+  del-ref: "D20231219060"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linWenZeng林文增8613902933974  458730.00000 HKD
     type: "Reservation Delivery"
-    referenceNo: "D20231219047"
-    sourceId: "b89d8e6f-c4b0-4db4-a138-406d43d56008"
-    orderId: "9750fe23-1773-4546-b55e-e09b0b0b6f77"
-    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
-  Income:Sales:Sales-Gold  -195500.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -384.29000 XAU { }
+    referenceNo: "D20231219060"
+    sourceId: "83d6ed81-c620-4b6d-aa13-80c31537fb93"
+    orderId: "88562459-9278-40b1-bc5c-b42041b907ca"
+    contact: "86 13902933974 (LINWENZENG林文增) [bfc91a4b-081d-485f-a910-b05f0892b528]"
+  Income:Sales:Sales-Gold  -458730.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-19 * "Reservation Delivery R#GR2023121900022B D#D20231219041"
+  rsv-ref: "GR2023121900022B"
+  del-ref: "D20231219041"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-娜刘8618126280677  53259.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231219041"
+    sourceId: "560e9952-29d0-445b-ac33-402bc55e459d"
+    orderId: "1e66e406-50b5-4403-b529-83495c13cd79"
+    contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
+  Income:Sales:Sales-Gold  -53259.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -104.69000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-19 * "Reservation Delivery R#GR2023121900017B D#D20231219063"
+  rsv-ref: "GR2023121900017B"
+  del-ref: "D20231219063"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  105089.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231219063"
+    sourceId: "396df36e-93d4-4c05-b311-f49bbac082e5"
+    orderId: "f203e413-d172-48d3-93bb-b2dfec025f16"
+    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
+  Income:Sales:Sales-Gold  -105089.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -206.51000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-19 * "Reservation Delivery R#GR2023121900007B D#D20231219049"
@@ -10667,45 +10706,6 @@
     contact: "86 134356356306 (SUWUSHENG苏武生) [72f6bdd3-f216-42a4-9746-a6976a2a572e]"
   Income:Sales:Sales-Gold  -205248.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -403.23000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-19 * "Reservation Delivery R#GR2023121900030B D#D20231219060"
-  rsv-ref: "GR2023121900030B"
-  del-ref: "D20231219060"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linWenZeng林文增8613902933974  458730.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231219060"
-    sourceId: "83d6ed81-c620-4b6d-aa13-80c31537fb93"
-    orderId: "88562459-9278-40b1-bc5c-b42041b907ca"
-    contact: "86 13902933974 (LINWENZENG林文增) [bfc91a4b-081d-485f-a910-b05f0892b528]"
-  Income:Sales:Sales-Gold  -458730.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-19 * "Reservation Delivery R#GR2023121900022B D#D20231219041"
-  rsv-ref: "GR2023121900022B"
-  del-ref: "D20231219041"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-娜刘8618126280677  53259.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231219041"
-    sourceId: "560e9952-29d0-445b-ac33-402bc55e459d"
-    orderId: "1e66e406-50b5-4403-b529-83495c13cd79"
-    contact: "86 18126280677 (娜刘) [cd5c82c4-cd47-469e-8329-8bfcf99eca05]"
-  Income:Sales:Sales-Gold  -53259.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -104.69000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-19 * "Reservation Delivery R#GR2023121900017B D#D20231219063"
-  rsv-ref: "GR2023121900017B"
-  del-ref: "D20231219063"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  105089.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231219063"
-    sourceId: "396df36e-93d4-4c05-b311-f49bbac082e5"
-    orderId: "f203e413-d172-48d3-93bb-b2dfec025f16"
-    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
-  Income:Sales:Sales-Gold  -105089.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -206.51000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-19 * "Reservation Delivery R#GR2023121900020B D#D20231219037"
@@ -11138,7 +11138,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000032B P#P20231220009"
   rsv-ref: "GR2023122000032B"
   pay-ref: "P20231220009"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  131409.45000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  131409.45000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220009"
     sourceId: "9ce26d3d-dac4-4745-b47c-8ea79ce8d32a"
@@ -11153,7 +11153,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000016B P#P20231220010"
   rsv-ref: "GR2023122000016B"
   pay-ref: "P20231220010"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  394072.11000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  394072.11000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220010"
     sourceId: "ef168234-65df-429b-a4dc-6dbff998cd89"
@@ -11168,7 +11168,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000034B P#P20231220011"
   rsv-ref: "GR2023122000034B"
   pay-ref: "P20231220011"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  65837.59000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  65837.59000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220011"
     sourceId: "585fcc7a-bb8a-4d81-bc16-1bf685eebc14"
@@ -11183,7 +11183,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000018B P#P20231220012"
   rsv-ref: "GR2023122000018B"
   pay-ref: "P20231220012"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  34027.95000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  34027.95000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220012"
     sourceId: "fa09fc7e-2f7a-40e9-8a91-f2159748e3b1"
@@ -11198,7 +11198,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000011B P#P20231220013"
   rsv-ref: "GR2023122000011B"
   pay-ref: "P20231220013"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  654276.10000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  654276.10000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220013"
     sourceId: "9a88a71d-0d8c-4b23-89cf-93924ddbb243"
@@ -11213,7 +11213,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000004S P#P20231220031"
   rsv-ref: "GR2023122000004S"
   pay-ref: "P20231220031"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -776675.11000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -776675.11000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220031"
     sourceId: "58157b65-cc2a-4d4e-a2be-4a56c0e07195"
@@ -11228,7 +11228,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000001S P#P20231220032"
   rsv-ref: "GR2023122000001S"
   pay-ref: "P20231220032"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -129782.06000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -129782.06000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220032"
     sourceId: "dfed12a7-ae7b-4983-9e98-3d10a82028bc"
@@ -11243,7 +11243,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000008S P#P20231220033"
   rsv-ref: "GR2023122000008S"
   pay-ref: "P20231220033"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -652623.18000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -652623.18000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220033"
     sourceId: "3d1e3cce-b004-43bd-a8c0-e0d42badd824"
@@ -11258,7 +11258,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000006S P#P20231220034"
   rsv-ref: "GR2023122000006S"
   pay-ref: "P20231220034"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -653034.67000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -653034.67000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220034"
     sourceId: "2b7a47e5-321c-4a3a-860f-abc501d4c280"
@@ -11273,7 +11273,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000007S P#P20231220035"
   rsv-ref: "GR2023122000007S"
   pay-ref: "P20231220035"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -124573.27000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -124573.27000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220035"
     sourceId: "15e14344-f93c-440f-bd60-ec1851695269"
@@ -11288,7 +11288,7 @@
 2023-12-20 * "Reservation Payment R#GR2023122000003S P#P20231220036"
   rsv-ref: "GR2023122000003S"
   pay-ref: "P20231220036"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -649977.91000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -649977.91000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231220036"
     sourceId: "4e960068-ddd4-4e20-98da-0ac7fcd12156"
@@ -11394,19 +11394,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -199.50000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-20 * "Reservation Delivery R#GR2023122000016B D#D20231220049"
-  rsv-ref: "GR2023122000016B"
-  del-ref: "D20231220049"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85362638663  394072.11000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231220049"
-    sourceId: "71366133-812b-49fd-8922-d0443688f76f"
-    orderId: "29e11a21-21d5-4810-ab21-28218edb54b8"
-    contact: "853 62638663 () [b7a165f1-5d45-470f-b2ba-e97c1a783824]"
-  Income:Sales:Sales-Gold  -3073762.46000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -6000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-20 * "Reservation Delivery R#GR2023122000031B D#D20231220048"
   rsv-ref: "GR2023122000031B"
   del-ref: "D20231220048"
@@ -11420,6 +11407,19 @@
   Assets:Inventory:Gold:Gold-In-Stock  -435.68000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-20 * "Reservation Delivery R#GR2023122000016B D#D20231220049"
+  rsv-ref: "GR2023122000016B"
+  del-ref: "D20231220049"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85362638663  394072.11000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231220049"
+    sourceId: "71366133-812b-49fd-8922-d0443688f76f"
+    orderId: "29e11a21-21d5-4810-ab21-28218edb54b8"
+    contact: "853 62638663 () [b7a165f1-5d45-470f-b2ba-e97c1a783824]"
+  Income:Sales:Sales-Gold  -3073762.46000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -6000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-20 * "Reservation Delivery R#GR2023122000009B D#D20231220037"
   rsv-ref: "GR2023122000009B"
   del-ref: "D20231220037"
@@ -11431,6 +11431,32 @@
     contact: "86 18819049115 (CHENGXIAOHONG程晓红) [04fcb83c-a2f2-42a4-86f1-2ee27c638231]"
   Income:Sales:Sales-Gold  -149925.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -292.52000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-20 * "Reservation Delivery R#GR2023122000021B D#D20231220057"
+  rsv-ref: "GR2023122000021B"
+  del-ref: "D20231220057"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  191421.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231220057"
+    sourceId: "37da735c-cc60-4954-9f7b-f9a227d0d6c4"
+    orderId: "aea654d6-5b54-4653-ab56-c0b5bf36fee4"
+    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
+  Income:Sales:Sales-Gold  -191421.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -374.45000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-20 * "Reservation Delivery R#GR2023122000022B D#D20231220058"
+  rsv-ref: "GR2023122000022B"
+  del-ref: "D20231220058"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8888WalkIn街客金料880801  25636.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231220058"
+    sourceId: "6f3bd9fd-86f1-413a-a32c-41417dd2a63c"
+    orderId: "36dcc719-b7a7-463a-8245-08a00c91f91e"
+    contact: "880 801 (8888walkin街客(金料)) [c3e2db6d-ed4f-469e-897f-1600e63febdf]"
+  Income:Sales:Sales-Gold  -25636.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -49.95000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-20 * "Reservation Delivery R#GR2023122000019B D#D20231220053"
@@ -11639,32 +11665,6 @@
     contact: "86 18029887712 (CHENZHIHAO陈志皓) [05356197-6d96-47f2-89be-f2ef373f2e21]"
   Income:Sales:Sales-Gold  -46615.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -90.91000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-20 * "Reservation Delivery R#GR2023122000021B D#D20231220057"
-  rsv-ref: "GR2023122000021B"
-  del-ref: "D20231220057"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  191421.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231220057"
-    sourceId: "37da735c-cc60-4954-9f7b-f9a227d0d6c4"
-    orderId: "aea654d6-5b54-4653-ab56-c0b5bf36fee4"
-    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
-  Income:Sales:Sales-Gold  -191421.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -374.45000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-20 * "Reservation Delivery R#GR2023122000022B D#D20231220058"
-  rsv-ref: "GR2023122000022B"
-  del-ref: "D20231220058"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8888WalkIn街客金料880801  25636.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231220058"
-    sourceId: "6f3bd9fd-86f1-413a-a32c-41417dd2a63c"
-    orderId: "36dcc719-b7a7-463a-8245-08a00c91f91e"
-    contact: "880 801 (8888walkin街客(金料)) [c3e2db6d-ed4f-469e-897f-1600e63febdf]"
-  Income:Sales:Sales-Gold  -25636.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -49.95000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-20 * "Reservation Delivery R#GR2023122000025B D#D20231220063"
@@ -12296,7 +12296,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100040B P#P20231221005"
   rsv-ref: "GR2023122100040B"
   pay-ref: "P20231221005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  654520.73000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  654520.73000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221005"
     sourceId: "024bb68f-02a1-4e9f-95a7-a90dd4db0160"
@@ -12311,7 +12311,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100029B P#P20231221009"
   rsv-ref: "GR2023122100029B"
   pay-ref: "P20231221009"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  131136.92000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  131136.92000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221009"
     sourceId: "7e13d513-9a3d-4ae5-a31f-c0ab106ba0cc"
@@ -12326,7 +12326,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100030B P#P20231221010"
   rsv-ref: "GR2023122100030B"
   pay-ref: "P20231221010"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  98348.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  98348.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221010"
     sourceId: "b52a3bb1-46f9-4794-a622-9e432652b27d"
@@ -12341,7 +12341,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100038B P#P20231221011"
   rsv-ref: "GR2023122100038B"
   pay-ref: "P20231221011"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  175662.71000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  175662.71000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221011"
     sourceId: "f951f70e-f317-435f-91e2-77774b499aa4"
@@ -12356,7 +12356,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100002S P#P20231221044"
   rsv-ref: "GR2023122100002S"
   pay-ref: "P20231221044"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -651336.88000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -651336.88000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221044"
     sourceId: "0e373da7-d63a-4d48-a9fe-45e87176a1df"
@@ -12371,7 +12371,7 @@
 2023-12-21 * "Reservation Payment R#GR2023122100004S P#P20231221045"
   rsv-ref: "GR2023122100004S"
   pay-ref: "P20231221045"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -651305.14000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -651305.14000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231221045"
     sourceId: "5337d3e1-493f-4d25-9450-f6a99e5e6b2c"
@@ -12442,6 +12442,84 @@
     contact: "86 18898791988 (JIANGHUI姜辉) [ba13a750-47ff-4244-a3df-9bc53cbf98ef]"
   Income:Sales:Sales-Gold  -109475.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -214.06000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100018B D#D20231221077"
+  rsv-ref: "GR2023122100018B"
+  del-ref: "D20231221077"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  219197.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221077"
+    sourceId: "9e7c2e86-6be5-4650-b4f4-add32f45aa27"
+    orderId: "309382a4-0b35-46a3-957b-b1b1982e27f0"
+    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
+  Income:Sales:Sales-Gold  -219197.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -429.41000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100041B D#D20231221078"
+  rsv-ref: "GR2023122100041B"
+  del-ref: "D20231221078"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-duanLei段磊漸行85251685598  509556.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221078"
+    sourceId: "1ce7cf9d-29d3-4c4d-bc80-2bf538d7aafe"
+    orderId: "bfdd4700-6740-4930-b0be-90568d496fc5"
+    contact: "852 51685598 (DUANLEI段磊(漸行)) [a421c5d7-f49d-42af-8b8f-88b4307224b5]"
+  Income:Sales:Sales-Gold  -509556.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -1000.70000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100034B D#D20231221063"
+  rsv-ref: "GR2023122100034B"
+  del-ref: "D20231221063"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangKeqing张科青8613207722075  111491.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221063"
+    sourceId: "9814363b-640d-4b5f-97ec-0e553106f6aa"
+    orderId: "a98464ba-2003-43c0-bb80-d2efb2fb4ff0"
+    contact: "86 13207722075 (ZHANGKEQING张科青) [83bbf7a9-d5a4-43af-8731-fffdf345beee]"
+  Income:Sales:Sales-Gold  -111491.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -218.11000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100045B D#D20231221083"
+  rsv-ref: "GR2023122100045B"
+  del-ref: "D20231221083"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangHongjia黃宏加霞990Ce2215009  1071005.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221083"
+    sourceId: "58000acd-6249-44e0-9c7f-a933dc860c2d"
+    orderId: "cbe1bde1-6dc3-4418-b826-8c9de81c8b5b"
+    contact: "990 CE2215009 (HUANGHONGJIA黃宏加(霞)) [ddf9b728-7e81-46e9-b01f-28ee3d17ec44]"
+  Income:Sales:Sales-Gold  -1071005.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -2100.01000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100021B D#D20231221085"
+  rsv-ref: "GR2023122100021B"
+  del-ref: "D20231221085"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  460170.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221085"
+    sourceId: "a6c02065-7671-4f39-9271-327868496f3d"
+    orderId: "faa4295b-3eda-4604-b4aa-faf52d3fd34a"
+    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
+  Income:Sales:Sales-Gold  -460170.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-21 * "Reservation Delivery R#GR2023122100007B D#D20231221053"
+  rsv-ref: "GR2023122100007B"
+  del-ref: "D20231221053"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xiaoYong肖永8613143821226  81829.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231221053"
+    sourceId: "30910c27-5238-4dc0-bf90-292d76ac5e75"
+    orderId: "3c6c4e90-4acc-44e7-9d5a-dea4bf837d3f"
+    contact: "86 13143821226 (XIAOYONG肖永) [42e5a372-69d4-44d5-bc75-85c1571c077b]"
+  Income:Sales:Sales-Gold  -81829.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -159.96000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-21 * "Reservation Delivery R#GR2023122100017B D#D20231221076"
@@ -12704,84 +12782,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -293.61000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-21 * "Reservation Delivery R#GR2023122100018B D#D20231221077"
-  rsv-ref: "GR2023122100018B"
-  del-ref: "D20231221077"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  219197.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221077"
-    sourceId: "9e7c2e86-6be5-4650-b4f4-add32f45aa27"
-    orderId: "309382a4-0b35-46a3-957b-b1b1982e27f0"
-    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
-  Income:Sales:Sales-Gold  -219197.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -429.41000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-21 * "Reservation Delivery R#GR2023122100041B D#D20231221078"
-  rsv-ref: "GR2023122100041B"
-  del-ref: "D20231221078"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-duanLei段磊漸行85251685598  509556.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221078"
-    sourceId: "1ce7cf9d-29d3-4c4d-bc80-2bf538d7aafe"
-    orderId: "bfdd4700-6740-4930-b0be-90568d496fc5"
-    contact: "852 51685598 (DUANLEI段磊(漸行)) [a421c5d7-f49d-42af-8b8f-88b4307224b5]"
-  Income:Sales:Sales-Gold  -509556.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -1000.70000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-21 * "Reservation Delivery R#GR2023122100034B D#D20231221063"
-  rsv-ref: "GR2023122100034B"
-  del-ref: "D20231221063"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangKeqing张科青8613207722075  111491.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221063"
-    sourceId: "9814363b-640d-4b5f-97ec-0e553106f6aa"
-    orderId: "a98464ba-2003-43c0-bb80-d2efb2fb4ff0"
-    contact: "86 13207722075 (ZHANGKEQING张科青) [83bbf7a9-d5a4-43af-8731-fffdf345beee]"
-  Income:Sales:Sales-Gold  -111491.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -218.11000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-21 * "Reservation Delivery R#GR2023122100045B D#D20231221083"
-  rsv-ref: "GR2023122100045B"
-  del-ref: "D20231221083"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangHongjia黃宏加霞990Ce2215009  1071005.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221083"
-    sourceId: "58000acd-6249-44e0-9c7f-a933dc860c2d"
-    orderId: "cbe1bde1-6dc3-4418-b826-8c9de81c8b5b"
-    contact: "990 CE2215009 (HUANGHONGJIA黃宏加(霞)) [ddf9b728-7e81-46e9-b01f-28ee3d17ec44]"
-  Income:Sales:Sales-Gold  -1071005.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -2100.01000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-21 * "Reservation Delivery R#GR2023122100021B D#D20231221085"
-  rsv-ref: "GR2023122100021B"
-  del-ref: "D20231221085"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-威肖8615889450039  460170.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221085"
-    sourceId: "a6c02065-7671-4f39-9271-327868496f3d"
-    orderId: "faa4295b-3eda-4604-b4aa-faf52d3fd34a"
-    contact: "86 15889450039 (威肖) [29f95d91-6f3a-44ba-9107-ae81e512c1dd]"
-  Income:Sales:Sales-Gold  -460170.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-21 * "Reservation Delivery R#GR2023122100007B D#D20231221053"
-  rsv-ref: "GR2023122100007B"
-  del-ref: "D20231221053"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xiaoYong肖永8613143821226  81829.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231221053"
-    sourceId: "30910c27-5238-4dc0-bf90-292d76ac5e75"
-    orderId: "3c6c4e90-4acc-44e7-9d5a-dea4bf837d3f"
-    contact: "86 13143821226 (XIAOYONG肖永) [42e5a372-69d4-44d5-bc75-85c1571c077b]"
-  Income:Sales:Sales-Gold  -81829.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -159.96000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-21 * "Reservation Delivery R#GR2023122100033B D#D20231221062"
   rsv-ref: "GR2023122100033B"
   del-ref: "D20231221062"
@@ -12973,7 +12973,7 @@
     sourceId: "0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
 
 2023-12-22 * "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]" "Bill Payment for Bill #1454 #669b6344-dd17-4da6-aad1-3e4d13d074eb 0886d5bd-9b5d-46b5-810d-6aede98bdd4e"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1024.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1024.00000 USDT {7.8 HKD}
     type: "Bill Payment"
     sourceId: "669b6344-dd17-4da6-aad1-3e4d13d074eb"
     referenceNo: "1454"
@@ -13462,7 +13462,7 @@
 2023-12-22 * "Reservation Payment R#GR2023122200011B P#P20231222005"
   rsv-ref: "GR2023122200011B"
   pay-ref: "P20231222005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  56826.48000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  56826.48000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231222005"
     sourceId: "ed81cb3c-8740-47ad-9de8-c22044ea4a87"
@@ -13477,7 +13477,7 @@
 2023-12-22 * "Reservation Payment R#GR2023122200019B P#P20231222034"
   rsv-ref: "GR2023122200019B"
   pay-ref: "P20231222034"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  659275.82000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  659275.82000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231222034"
     sourceId: "232a9848-6459-416c-9822-26a74198c5fb"
@@ -13492,7 +13492,7 @@
 2023-12-22 * "Reservation Payment R#GR2023122200016B P#P20231222037"
   rsv-ref: "GR2023122200016B"
   pay-ref: "P20231222037"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  66567.06000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  66567.06000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231222037"
     sourceId: "4fb3b591-fbfc-4546-bf9c-9ae8065f8713"
@@ -13507,7 +13507,7 @@
 2023-12-22 * "Reservation Payment R#GR2023122200002S P#P20231222038"
   rsv-ref: "GR2023122200002S"
   pay-ref: "P20231222038"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1442892.96000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1442892.96000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231222038"
     sourceId: "2d7d6c72-6e11-4706-a4e3-9d336fa905fe"
@@ -13522,7 +13522,7 @@
 2023-12-22 * "Reservation Payment R#GR2023122200001S P#P20231222039"
   rsv-ref: "GR2023122200001S"
   pay-ref: "P20231222039"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1441358.24000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1441358.24000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231222039"
     sourceId: "07c715ce-f93a-4f91-a35b-532fa0d1569d"
@@ -13550,17 +13550,6 @@
     contact: "86 13692294486 (DENGYUANYUAN邓媛媛) [f1cb5667-1a73-4da9-b6a5-dd3eeb1837a9]"
   Income:FXGainOrLoss
 
-2023-12-22 * "Reservation Delivery R#GR2023122200002S D#D20231222071"
-  rsv-ref: "GR2023122200002S"
-  del-ref: "D20231222071"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8210063988492  -1442892.96000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231222071"
-    sourceId: "2c60bce8-977b-4e3a-aec1-b5a2e66be13d"
-    orderId: "535fa76a-c1ff-4825-aa16-c23248caaffc"
-    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
-  Assets:Inventory:Gold:Gold-In-Stock  22000.00000 XAU { }
-
 2023-12-22 * "Reservation Delivery R#GR2023122200001S D#D20231222072"
   rsv-ref: "GR2023122200001S"
   del-ref: "D20231222072"
@@ -13569,6 +13558,17 @@
     referenceNo: "D20231222072"
     sourceId: "a041f0fa-6c36-4ef5-ab4d-3a5145ed15e8"
     orderId: "6190a1d9-f704-4af4-ab25-e12122737351"
+    contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
+  Assets:Inventory:Gold:Gold-In-Stock  22000.00000 XAU { }
+
+2023-12-22 * "Reservation Delivery R#GR2023122200002S D#D20231222071"
+  rsv-ref: "GR2023122200002S"
+  del-ref: "D20231222071"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-8210063988492  -1442892.96000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231222071"
+    sourceId: "2c60bce8-977b-4e3a-aec1-b5a2e66be13d"
+    orderId: "535fa76a-c1ff-4825-aa16-c23248caaffc"
     contact: "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]"
   Assets:Inventory:Gold:Gold-In-Stock  22000.00000 XAU { }
 
@@ -14250,7 +14250,7 @@
 2023-12-23 * "Reservation Payment R#GR2023122300013B P#P20231223008"
   rsv-ref: "GR2023122300013B"
   pay-ref: "P20231223008"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  74969.52000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  74969.52000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231223008"
     sourceId: "c016fe36-afbb-4474-afa0-54c3daa6e296"
@@ -14265,7 +14265,7 @@
 2023-12-23 * "Reservation Payment R#GR2023122300009B P#P20231223009"
   rsv-ref: "GR2023122300009B"
   pay-ref: "P20231223009"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  924.08000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  924.08000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231223009"
     sourceId: "181f702b-d95c-4816-9ea6-6434404ef409"
@@ -14280,7 +14280,7 @@
 2023-12-23 * "Reservation Payment R#GR2023122100025B P#P20231223018"
   rsv-ref: "GR2023122100025B"
   pay-ref: "P20231223018"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  100045.93000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  100045.93000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231223018"
     sourceId: "e9dd0cae-e920-475b-b5c8-15849690b236"
@@ -14864,6 +14864,19 @@
   Assets:Inventory:Gold:Gold-In-Stock  -111.60000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-24 * "Reservation Delivery R#GR2023122400016B D#D20231224034"
+  rsv-ref: "GR2023122400016B"
+  del-ref: "D20231224034"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  184021.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231224034"
+    sourceId: "8d2510e4-e5f3-480e-ace0-be4486f3325d"
+    orderId: "291c6649-1f6c-4df4-a49b-6b1cf07027d7"
+    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
+  Income:Sales:Sales-Gold  -184021.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -357.67000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-24 * "Reservation Delivery R#GR2023122400022B D#D20231224044"
   rsv-ref: "GR2023122400022B"
   del-ref: "D20231224044"
@@ -15096,19 +15109,6 @@
     contact: "86 18475634668 (LINXUEQIN林雪琴) [0cc4ae1b-2aed-4d36-904a-cf3c86691067]"
   Income:Sales:Sales-Gold  -24495.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -47.61000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-24 * "Reservation Delivery R#GR2023122400016B D#D20231224034"
-  rsv-ref: "GR2023122400016B"
-  del-ref: "D20231224034"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  184021.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231224034"
-    sourceId: "8d2510e4-e5f3-480e-ace0-be4486f3325d"
-    orderId: "291c6649-1f6c-4df4-a49b-6b1cf07027d7"
-    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
-  Income:Sales:Sales-Gold  -184021.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -357.67000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-24 * "Reservation Delivery R#GR2023122400001B D#D20231224027"
@@ -15915,7 +15915,7 @@
 2023-12-25 * "Reservation Payment R#GR2023122500022B P#P20231225039"
   rsv-ref: "GR2023122500022B"
   pay-ref: "P20231225039"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  2653.99000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  2653.99000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231225039"
     sourceId: "07d53a95-e574-487e-8d41-32c990fa9105"
@@ -15953,6 +15953,58 @@
   Assets:Inventory:Gold:Gold-In-Stock  -213.95000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-25 * "Reservation Delivery R#GR2023122500035B D#D20231225067"
+  rsv-ref: "GR2023122500035B"
+  del-ref: "D20231225067"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-tanTouMing谭头明8613632849780  52181.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231225067"
+    sourceId: "4dd7e281-e920-4b57-9ff0-90226e10d378"
+    orderId: "bb5e42c8-270d-4356-b91f-b341f9a1a79f"
+    contact: "86 13632849780 (TANTOUMING谭头明) [54aec326-f524-4c55-89f5-0f3f057b3d64]"
+  Income:Sales:Sales-Gold  -52181.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -101.42000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-25 * "Reservation Delivery R#GR2023122500029B D#D20231225060"
+  rsv-ref: "GR2023122500029B"
+  del-ref: "D20231225060"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linHuaJian林华建8618666674110  106085.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231225060"
+    sourceId: "a3f910e2-7fff-4975-84fc-9e574a7c42c4"
+    orderId: "2b5e4a06-add9-4967-b1da-cbd1e65e77b9"
+    contact: "86 18666674110 (LINHUAJIAN林华建) [bd882fad-4e35-48ce-9666-fec5da828c80]"
+  Income:Sales:Sales-Gold  -106085.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -205.99000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-25 * "Reservation Delivery R#GR2023122500007B D#D20231225052"
+  rsv-ref: "GR2023122500007B"
+  del-ref: "D20231225052"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  88365.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231225052"
+    sourceId: "44fe98fb-725f-4c21-8fc6-e8119fd7b2ff"
+    orderId: "af021d31-88c3-4b08-8864-0d7289c32965"
+    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
+  Income:Sales:Sales-Gold  -88365.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -171.75000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-25 * "Reservation Delivery R#GR2023122500012B D#D20231225063"
+  rsv-ref: "GR2023122500012B"
+  del-ref: "D20231225063"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-tongYa童亚85256908308  102900.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231225063"
+    sourceId: "e18f3679-34da-4580-8654-7aafda5eae16"
+    orderId: "1d6a749c-8427-4662-8771-93fd46b1f375"
+    contact: "852 56908308 (TONGYA童亚) [2e2c93a9-afa5-4bd5-93b3-714214d6de32]"
+  Income:Sales:Sales-Gold  -102900.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-25 * "Reservation Delivery R#GR2023122500003B D#D20231225045"
   rsv-ref: "GR2023122500003B"
   del-ref: "D20231225045"
@@ -15966,17 +16018,17 @@
   Assets:Inventory:Gold:Gold-In-Stock  -355.89000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-25 * "Reservation Delivery R#GR2023122500035B D#D20231225067"
-  rsv-ref: "GR2023122500035B"
-  del-ref: "D20231225067"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-tanTouMing谭头明8613632849780  52181.00000 HKD
+2023-12-25 * "Reservation Delivery R#GR2023122500021B D#D20231225043"
+  rsv-ref: "GR2023122500021B"
+  del-ref: "D20231225043"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xieGuoFeng谢国锋99812345789  102982.00000 HKD
     type: "Reservation Delivery"
-    referenceNo: "D20231225067"
-    sourceId: "4dd7e281-e920-4b57-9ff0-90226e10d378"
-    orderId: "bb5e42c8-270d-4356-b91f-b341f9a1a79f"
-    contact: "86 13632849780 (TANTOUMING谭头明) [54aec326-f524-4c55-89f5-0f3f057b3d64]"
-  Income:Sales:Sales-Gold  -52181.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -101.42000 XAU { }
+    referenceNo: "D20231225043"
+    sourceId: "bcb0a177-5750-4a4a-ba6e-562933cafb45"
+    orderId: "11174143-51a9-4352-b09e-cfeea3962e95"
+    contact: "998 12345789 (XIEGUOFENG谢国锋) [f5a3da62-2b85-44e5-8a5d-3d44689b69fd]"
+  Income:Sales:Sales-Gold  -102982.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -200.16000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-25 * "Reservation Delivery R#GR2023122500027B D#D20231225056"
@@ -16237,58 +16289,6 @@
     contact: "86 18898791988 (JIANGHUI姜辉) [ba13a750-47ff-4244-a3df-9bc53cbf98ef]"
   Income:Sales:Sales-Gold  -180013.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -349.88000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-25 * "Reservation Delivery R#GR2023122500029B D#D20231225060"
-  rsv-ref: "GR2023122500029B"
-  del-ref: "D20231225060"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linHuaJian林华建8618666674110  106085.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231225060"
-    sourceId: "a3f910e2-7fff-4975-84fc-9e574a7c42c4"
-    orderId: "2b5e4a06-add9-4967-b1da-cbd1e65e77b9"
-    contact: "86 18666674110 (LINHUAJIAN林华建) [bd882fad-4e35-48ce-9666-fec5da828c80]"
-  Income:Sales:Sales-Gold  -106085.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -205.99000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-25 * "Reservation Delivery R#GR2023122500007B D#D20231225052"
-  rsv-ref: "GR2023122500007B"
-  del-ref: "D20231225052"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-fanZhaoHuan范兆焕99812345806  88365.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231225052"
-    sourceId: "44fe98fb-725f-4c21-8fc6-e8119fd7b2ff"
-    orderId: "af021d31-88c3-4b08-8864-0d7289c32965"
-    contact: "998 12345806 (FANZHAOHUAN范兆焕) [1b91de72-a7fd-4f6a-a15e-5679f40061a6]"
-  Income:Sales:Sales-Gold  -88365.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -171.75000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-25 * "Reservation Delivery R#GR2023122500012B D#D20231225063"
-  rsv-ref: "GR2023122500012B"
-  del-ref: "D20231225063"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-tongYa童亚85256908308  102900.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231225063"
-    sourceId: "e18f3679-34da-4580-8654-7aafda5eae16"
-    orderId: "1d6a749c-8427-4662-8771-93fd46b1f375"
-    contact: "852 56908308 (TONGYA童亚) [2e2c93a9-afa5-4bd5-93b3-714214d6de32]"
-  Income:Sales:Sales-Gold  -102900.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-25 * "Reservation Delivery R#GR2023122500021B D#D20231225043"
-  rsv-ref: "GR2023122500021B"
-  del-ref: "D20231225043"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-xieGuoFeng谢国锋99812345789  102982.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231225043"
-    sourceId: "bcb0a177-5750-4a4a-ba6e-562933cafb45"
-    orderId: "11174143-51a9-4352-b09e-cfeea3962e95"
-    contact: "998 12345789 (XIEGUOFENG谢国锋) [f5a3da62-2b85-44e5-8a5d-3d44689b69fd]"
-  Income:Sales:Sales-Gold  -102982.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -200.16000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-25 * "Reservation Delivery R#GR2023122500010B D#D20231225057"
@@ -17197,6 +17197,84 @@
   Assets:Inventory:Gold:Gold-In-Stock  -100.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-26 * "Reservation Delivery R#GR2023122600029B D#D20231226063"
+  rsv-ref: "GR2023122600029B"
+  del-ref: "D20231226063"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-昌鸿黄8613554811965  51692.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226063"
+    sourceId: "31990485-c520-4c69-b7e0-5702a170a8ed"
+    orderId: "750da163-2d13-4a08-b9e1-587dc9fa7584"
+    contact: "86 13554811965 (昌鸿黄) [40b35bb5-ae23-4294-a666-dbf25c71466c]"
+  Income:Sales:Sales-Gold  -51692.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -100.14000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-26 * "Reservation Delivery R#GR2023122600013B D#D20231226070"
+  rsv-ref: "GR2023122600013B"
+  del-ref: "D20231226070"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangYanXia张燕霞8615807539851  109666.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226070"
+    sourceId: "ad98aad2-0936-4863-998f-8c1955639052"
+    orderId: "e7494846-8e02-4378-83bd-799610978b1a"
+    contact: "86 15807539851 (ZHANGYANXIA张燕霞) [6f91c875-6f63-4470-92d5-cbc79dd2b78f]"
+  Income:Sales:Sales-Gold  -109666.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -212.10000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-26 * "Reservation Delivery R#GR2023122600017B D#D20231226081"
+  rsv-ref: "GR2023122600017B"
+  del-ref: "D20231226081"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangMeiBin张梅彬8613632028221  26461.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226081"
+    sourceId: "440eaa84-5dc2-4b7c-8b66-b4895106c0a1"
+    orderId: "cdf9c32e-23c3-409c-99f3-da21294813e1"
+    contact: "86 13632028221 (ZHANGMEIBIN张梅彬) [aa1ac775-c016-4010-bf1c-ccaeffba44bb]"
+  Income:Sales:Sales-Gold  -26461.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -51.31000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-26 * "Reservation Delivery R#GR2023122600028B D#D20231226061"
+  rsv-ref: "GR2023122600028B"
+  del-ref: "D20231226061"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dengXueFeng邓雪锋8615875782058  371669.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226061"
+    sourceId: "cc9ec2b0-cbfe-4724-8707-8e1c43b69379"
+    orderId: "33cb5241-f504-45b3-8ccb-af95190a2069"
+    contact: "86 15875782058 (DENGXUEFENG邓雪锋) [2cdc89cf-d910-4837-bd76-6cb713fe78fb]"
+  Income:Sales:Sales-Gold  -371669.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -718.20000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-26 * "Reservation Delivery R#GR2023122600019B D#D20231226045"
+  rsv-ref: "GR2023122600019B"
+  del-ref: "D20231226045"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangXianCan黄显灿8613715835898  51900.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226045"
+    sourceId: "3769dab0-c81f-4675-bba6-9e4297cd488a"
+    orderId: "63936b97-da5f-424a-9985-e581b8b03d79"
+    contact: "86 13715835898 (HUANGXIANCAN黄显灿) [9417f557-838f-493e-bdec-5966cbde204f]"
+  Income:Sales:Sales-Gold  -51900.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -100.64000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-26 * "Reservation Delivery R#GR2023122600036B D#D20231226073"
+  rsv-ref: "GR2023122600036B"
+  del-ref: "D20231226073"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhaoDaBin趙達斌8618565734374  51514.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231226073"
+    sourceId: "7b80f1db-896c-4d8f-8184-83696631c1af"
+    orderId: "09d0093e-cbe1-41e9-9dab-109756725a08"
+    contact: "86 18565734374 (ZHAODABIN趙達斌) [166d0ae9-938c-47ff-9802-cb3994835515]"
+  Income:Sales:Sales-Gold  -51514.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -99.93000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-26 * "Reservation Delivery R#GR2023122600031B D#D20231226066"
   rsv-ref: "GR2023122600031B"
   del-ref: "D20231226066"
@@ -17392,19 +17470,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -291.79000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-26 * "Reservation Delivery R#GR2023122600029B D#D20231226063"
-  rsv-ref: "GR2023122600029B"
-  del-ref: "D20231226063"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-昌鸿黄8613554811965  51692.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226063"
-    sourceId: "31990485-c520-4c69-b7e0-5702a170a8ed"
-    orderId: "750da163-2d13-4a08-b9e1-587dc9fa7584"
-    contact: "86 13554811965 (昌鸿黄) [40b35bb5-ae23-4294-a666-dbf25c71466c]"
-  Income:Sales:Sales-Gold  -51692.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -100.14000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-26 * "Reservation Delivery R#GR2023122600002B D#D20231226042"
   rsv-ref: "GR2023122600002B"
   del-ref: "D20231226042"
@@ -17535,19 +17600,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -219.40000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-26 * "Reservation Delivery R#GR2023122600013B D#D20231226070"
-  rsv-ref: "GR2023122600013B"
-  del-ref: "D20231226070"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangYanXia张燕霞8615807539851  109666.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226070"
-    sourceId: "ad98aad2-0936-4863-998f-8c1955639052"
-    orderId: "e7494846-8e02-4378-83bd-799610978b1a"
-    contact: "86 15807539851 (ZHANGYANXIA张燕霞) [6f91c875-6f63-4470-92d5-cbc79dd2b78f]"
-  Income:Sales:Sales-Gold  -109666.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -212.10000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-26 * "Reservation Delivery R#GR2023122600026B D#D20231226058"
   rsv-ref: "GR2023122600026B"
   del-ref: "D20231226058"
@@ -17572,58 +17624,6 @@
     contact: "86 13207722075 (ZHANGKEQING张科青) [83bbf7a9-d5a4-43af-8731-fffdf345beee]"
   Income:Sales:Sales-Gold  -57187.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -110.69000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-26 * "Reservation Delivery R#GR2023122600017B D#D20231226081"
-  rsv-ref: "GR2023122600017B"
-  del-ref: "D20231226081"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangMeiBin张梅彬8613632028221  26461.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226081"
-    sourceId: "440eaa84-5dc2-4b7c-8b66-b4895106c0a1"
-    orderId: "cdf9c32e-23c3-409c-99f3-da21294813e1"
-    contact: "86 13632028221 (ZHANGMEIBIN张梅彬) [aa1ac775-c016-4010-bf1c-ccaeffba44bb]"
-  Income:Sales:Sales-Gold  -26461.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -51.31000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-26 * "Reservation Delivery R#GR2023122600028B D#D20231226061"
-  rsv-ref: "GR2023122600028B"
-  del-ref: "D20231226061"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dengXueFeng邓雪锋8615875782058  371669.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226061"
-    sourceId: "cc9ec2b0-cbfe-4724-8707-8e1c43b69379"
-    orderId: "33cb5241-f504-45b3-8ccb-af95190a2069"
-    contact: "86 15875782058 (DENGXUEFENG邓雪锋) [2cdc89cf-d910-4837-bd76-6cb713fe78fb]"
-  Income:Sales:Sales-Gold  -371669.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -718.20000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-26 * "Reservation Delivery R#GR2023122600019B D#D20231226045"
-  rsv-ref: "GR2023122600019B"
-  del-ref: "D20231226045"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangXianCan黄显灿8613715835898  51900.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226045"
-    sourceId: "3769dab0-c81f-4675-bba6-9e4297cd488a"
-    orderId: "63936b97-da5f-424a-9985-e581b8b03d79"
-    contact: "86 13715835898 (HUANGXIANCAN黄显灿) [9417f557-838f-493e-bdec-5966cbde204f]"
-  Income:Sales:Sales-Gold  -51900.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -100.64000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-26 * "Reservation Delivery R#GR2023122600036B D#D20231226073"
-  rsv-ref: "GR2023122600036B"
-  del-ref: "D20231226073"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhaoDaBin趙達斌8618565734374  51514.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231226073"
-    sourceId: "7b80f1db-896c-4d8f-8184-83696631c1af"
-    orderId: "09d0093e-cbe1-41e9-9dab-109756725a08"
-    contact: "86 18565734374 (ZHAODABIN趙達斌) [166d0ae9-938c-47ff-9802-cb3994835515]"
-  Income:Sales:Sales-Gold  -51514.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -99.93000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-26 * "Reservation Delivery R#GR2023122600016B D#D20231226075"
@@ -18368,7 +18368,7 @@
 2023-12-27 * "Reservation Payment R#GR2023122700022B P#P20231227001"
   rsv-ref: "GR2023122700022B"
   pay-ref: "P20231227001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  66480.90000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  66480.90000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231227001"
     sourceId: "a161f6bd-45f3-4edb-9e7f-250f986301b0"
@@ -18413,7 +18413,7 @@
 2023-12-27 * "Reservation Payment R#GR2023122700003S P#P20231227061"
   rsv-ref: "GR2023122700003S"
   pay-ref: "P20231227061"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -792684.05000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -792684.05000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231227061"
     sourceId: "39b2cd6e-d69c-4c0e-a411-4e4759e5f400"
@@ -18428,7 +18428,7 @@
 2023-12-27 * "Reservation Payment R#GR2023122700001S P#P20231227062"
   rsv-ref: "GR2023122700001S"
   pay-ref: "P20231227062"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -661219.84000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -661219.84000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231227062"
     sourceId: "a2d7bc8a-3c1a-46ad-8999-488e50478834"
@@ -18443,7 +18443,7 @@
 2023-12-27 * "Reservation Payment R#GR2023122700002S P#P20231227063"
   rsv-ref: "GR2023122700002S"
   pay-ref: "P20231227063"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -727228.21000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -727228.21000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231227063"
     sourceId: "8b8eff36-5fe5-4162-a448-ebf501c9c548"
@@ -18636,6 +18636,84 @@
   Assets:Inventory:Gold:Gold-In-Stock  -900.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-27 * "Reservation Delivery R#GR2023122700045B D#D20231227088"
+  rsv-ref: "GR2023122700045B"
+  del-ref: "D20231227088"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangShiHao张时豪8618682042713  52018.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227088"
+    sourceId: "e3b74919-1370-4a2d-b384-dd8f873072da"
+    orderId: "df32475b-6f8f-4eb6-bc2a-4b5eb4ef7964"
+    contact: "86 18682042713 (ZHANGSHIHAO张时豪) [4c9be53a-3bf0-4617-b08c-55bf6c58f1d6]"
+  Income:Sales:Sales-Gold  -52018.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -100.70000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700046B D#D20231227090"
+  rsv-ref: "GR2023122700046B"
+  del-ref: "D20231227090"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-panXiaoQiong潘小琼8613826686632  129680.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227090"
+    sourceId: "0b4667c8-3b3f-4b60-816e-3a063b91b3dd"
+    orderId: "749a3489-9300-4db6-af93-cc3c3dba20c5"
+    contact: "86 13826686632 (PANXIAOQIONG潘小琼) [92d657e4-919e-4f26-a56b-381a2b2595bc]"
+  Income:Sales:Sales-Gold  -129680.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -250.89000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700009B D#D20231227066"
+  rsv-ref: "GR2023122700009B"
+  del-ref: "D20231227066"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-guLiYuan古丽苑8613728660615  144519.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227066"
+    sourceId: "c3f964de-c716-4586-903d-8185e0050efe"
+    orderId: "59ce1a72-c102-4491-9b22-25cfd85655b0"
+    contact: "86 13728660615 (GULIYUAN古丽苑) [ca83d53c-8484-4e0d-948b-85479667494d]"
+  Income:Sales:Sales-Gold  -144519.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -279.74000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700032B D#D20231227060"
+  rsv-ref: "GR2023122700032B"
+  del-ref: "D20231227060"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangShuJie黄树捷8615919773433  95719.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227060"
+    sourceId: "800f6af3-21f7-4cfe-aa9d-4a4bff7acf9b"
+    orderId: "eaa99733-1e18-4128-9293-7c667e0f80e0"
+    contact: "86 15919773433 (HUANGSHUJIE黄树捷) [fd27c0ac-bff3-496e-9e30-185b3731be4f]"
+  Income:Sales:Sales-Gold  -95719.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -185.30000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700044B D#D20231227085"
+  rsv-ref: "GR2023122700044B"
+  del-ref: "D20231227085"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  130021.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227085"
+    sourceId: "6db08b2f-d232-4bb8-b09f-6e5143707e2f"
+    orderId: "bef9ebba-ad2f-4bb1-800d-09f520b38979"
+    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
+  Income:Sales:Sales-Gold  -130021.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -251.72000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700014B D#D20231227075"
+  rsv-ref: "GR2023122700014B"
+  del-ref: "D20231227075"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenJunJia陈俊加金料9900007  280158.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227075"
+    sourceId: "c4c7309f-7f34-4cd5-a22b-ec7a98ec1821"
+    orderId: "18fdc0a1-a40b-453f-831b-83f6450cf4c1"
+    contact: "990 0007 (CHENJUNJIA陈俊加(金料)) [ccbb9023-03af-4474-ad08-9cf7e6a46546]"
+  Income:Sales:Sales-Gold  -280158.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -542.27000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-27 * "Reservation Delivery R#GR2023122700016B D#D20231227080"
   rsv-ref: "GR2023122700016B"
   del-ref: "D20231227080"
@@ -18647,6 +18725,32 @@
     contact: "86 16626519111 (LIGUANGLI李广利) [89d61bec-b0b4-466b-894c-05e7ffcf2aef]"
   Income:Sales:Sales-Gold  -103210.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -199.83000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700031B D#D20231227058"
+  rsv-ref: "GR2023122700031B"
+  del-ref: "D20231227058"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangJiaLe黄家乐8613553221410  314723.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227058"
+    sourceId: "de21a335-2aed-40d0-a87c-c357c0395839"
+    orderId: "60284de2-7beb-4346-8dc9-aee4e7dbc39d"
+    contact: "86 13553221410 (HUANGJIALE黄家乐) [beea6ec9-f456-4cd9-aac6-7fcf97fd6012]"
+  Income:Sales:Sales-Gold  -314723.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -609.42000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-27 * "Reservation Delivery R#GR2023122700033B D#D20231227062"
+  rsv-ref: "GR2023122700033B"
+  del-ref: "D20231227062"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  237330.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231227062"
+    sourceId: "5565d838-3681-497a-abd2-f5fec5085ff2"
+    orderId: "60e42b37-16d0-4c2c-8e19-462b5bff18c6"
+    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
+  Income:Sales:Sales-Gold  -237330.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -459.23000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-27 * "Reservation Delivery R#GR2023122700019B D#D20231227086"
@@ -18751,19 +18855,6 @@
     contact: "86 18688749339 (LIUMINGCHI刘铭池) [60097eb4-4d63-43cb-8d2a-fae10bde526a]"
   Income:Sales:Sales-Gold  -131980.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -255.34000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700045B D#D20231227088"
-  rsv-ref: "GR2023122700045B"
-  del-ref: "D20231227088"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangShiHao张时豪8618682042713  52018.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227088"
-    sourceId: "e3b74919-1370-4a2d-b384-dd8f873072da"
-    orderId: "df32475b-6f8f-4eb6-bc2a-4b5eb4ef7964"
-    contact: "86 18682042713 (ZHANGSHIHAO张时豪) [4c9be53a-3bf0-4617-b08c-55bf6c58f1d6]"
-  Income:Sales:Sales-Gold  -52018.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -100.70000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-27 * "Reservation Delivery R#GR2023122700043B D#D20231227084"
@@ -19037,97 +19128,6 @@
     contact: "86 13534222567 (HUANGGUOGUI黄国贵) [b10b7097-6b01-4f18-b872-bb44e07bda85]"
   Income:Sales:Sales-Gold  -152322.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -294.70000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700046B D#D20231227090"
-  rsv-ref: "GR2023122700046B"
-  del-ref: "D20231227090"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-panXiaoQiong潘小琼8613826686632  129680.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227090"
-    sourceId: "0b4667c8-3b3f-4b60-816e-3a063b91b3dd"
-    orderId: "749a3489-9300-4db6-af93-cc3c3dba20c5"
-    contact: "86 13826686632 (PANXIAOQIONG潘小琼) [92d657e4-919e-4f26-a56b-381a2b2595bc]"
-  Income:Sales:Sales-Gold  -129680.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -250.89000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700009B D#D20231227066"
-  rsv-ref: "GR2023122700009B"
-  del-ref: "D20231227066"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-guLiYuan古丽苑8613728660615  144519.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227066"
-    sourceId: "c3f964de-c716-4586-903d-8185e0050efe"
-    orderId: "59ce1a72-c102-4491-9b22-25cfd85655b0"
-    contact: "86 13728660615 (GULIYUAN古丽苑) [ca83d53c-8484-4e0d-948b-85479667494d]"
-  Income:Sales:Sales-Gold  -144519.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -279.74000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700032B D#D20231227060"
-  rsv-ref: "GR2023122700032B"
-  del-ref: "D20231227060"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangShuJie黄树捷8615919773433  95719.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227060"
-    sourceId: "800f6af3-21f7-4cfe-aa9d-4a4bff7acf9b"
-    orderId: "eaa99733-1e18-4128-9293-7c667e0f80e0"
-    contact: "86 15919773433 (HUANGSHUJIE黄树捷) [fd27c0ac-bff3-496e-9e30-185b3731be4f]"
-  Income:Sales:Sales-Gold  -95719.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -185.30000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700044B D#D20231227085"
-  rsv-ref: "GR2023122700044B"
-  del-ref: "D20231227085"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  130021.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227085"
-    sourceId: "6db08b2f-d232-4bb8-b09f-6e5143707e2f"
-    orderId: "bef9ebba-ad2f-4bb1-800d-09f520b38979"
-    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
-  Income:Sales:Sales-Gold  -130021.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -251.72000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700014B D#D20231227075"
-  rsv-ref: "GR2023122700014B"
-  del-ref: "D20231227075"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenJunJia陈俊加金料9900007  280158.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227075"
-    sourceId: "c4c7309f-7f34-4cd5-a22b-ec7a98ec1821"
-    orderId: "18fdc0a1-a40b-453f-831b-83f6450cf4c1"
-    contact: "990 0007 (CHENJUNJIA陈俊加(金料)) [ccbb9023-03af-4474-ad08-9cf7e6a46546]"
-  Income:Sales:Sales-Gold  -280158.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -542.27000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700031B D#D20231227058"
-  rsv-ref: "GR2023122700031B"
-  del-ref: "D20231227058"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangJiaLe黄家乐8613553221410  314723.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227058"
-    sourceId: "de21a335-2aed-40d0-a87c-c357c0395839"
-    orderId: "60284de2-7beb-4346-8dc9-aee4e7dbc39d"
-    contact: "86 13553221410 (HUANGJIALE黄家乐) [beea6ec9-f456-4cd9-aac6-7fcf97fd6012]"
-  Income:Sales:Sales-Gold  -314723.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -609.42000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-27 * "Reservation Delivery R#GR2023122700033B D#D20231227062"
-  rsv-ref: "GR2023122700033B"
-  del-ref: "D20231227062"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-dongDaZhong董大中8613902503217  237330.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231227062"
-    sourceId: "5565d838-3681-497a-abd2-f5fec5085ff2"
-    orderId: "60e42b37-16d0-4c2c-8e19-462b5bff18c6"
-    contact: "86 13902503217 (DONGDAZHONG董大中) [9fb6cae9-c131-4fc7-bfe4-03583076329d]"
-  Income:Sales:Sales-Gold  -237330.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -459.23000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-27 * "Reservation Delivery R#GR2023122700004B D#D20231227057"
@@ -19659,7 +19659,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800046B P#P20231228006"
   rsv-ref: "GR2023122800046B"
   pay-ref: "P20231228006"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  466763.86000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  466763.86000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228006"
     sourceId: "779019a4-2a97-46d0-8ec7-e43b19fb2dae"
@@ -19674,7 +19674,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800045B P#P20231228007"
   rsv-ref: "GR2023122800045B"
   pay-ref: "P20231228007"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  333772.49000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  333772.49000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228007"
     sourceId: "a610d758-4c5d-43a1-bbdb-f644522c6d8c"
@@ -19689,7 +19689,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800032B P#P20231228008"
   rsv-ref: "GR2023122800032B"
   pay-ref: "P20231228008"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  200080.24000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  200080.24000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228008"
     sourceId: "78bd37d2-1370-46d7-bf18-5779ec552451"
@@ -19704,7 +19704,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800005B P#P20231228045"
   rsv-ref: "GR2023122800005B"
   pay-ref: "P20231228045"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  2684.76000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  2684.76000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228045"
     sourceId: "1c363ea1-bb1a-42c9-93fe-bee96e5f770c"
@@ -19719,7 +19719,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800001S P#P20231228046"
   rsv-ref: "GR2023122800001S"
   pay-ref: "P20231228046"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -801653.21000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -801653.21000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228046"
     sourceId: "aeaf31a5-639c-460e-a910-ec3e5507993e"
@@ -19734,7 +19734,7 @@
 2023-12-28 * "Reservation Payment R#GR2023122800002S P#P20231228047"
   rsv-ref: "GR2023122800002S"
   pay-ref: "P20231228047"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -734166.28000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -734166.28000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231228047"
     sourceId: "ca794b63-e615-4b1e-b530-13303676e2fc"
@@ -20082,19 +20082,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -199.96000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-28 * "Reservation Delivery R#GR2023122800016B D#D20231228072"
-  rsv-ref: "GR2023122800016B"
-  del-ref: "D20231228072"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-qiuHaiHong丘海红8613536767018  79926.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231228072"
-    sourceId: "28447f22-60aa-41c6-b044-45efd920a935"
-    orderId: "983af53f-ccde-4eb0-b6ea-792466368689"
-    contact: "86 13536767018 (QIUHAIHONG丘海红) [b5e47baf-c672-47e1-a0f6-a708da712077]"
-  Income:Sales:Sales-Gold  -79926.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -153.55000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-28 * "Reservation Delivery R#GR2023122800026B D#D20231228091"
   rsv-ref: "GR2023122800026B"
   del-ref: "D20231228091"
@@ -20134,6 +20121,45 @@
   Assets:Inventory:Gold:Gold-In-Stock  -49.51000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
+2023-12-28 * "Reservation Delivery R#GR2023122800016B D#D20231228072"
+  rsv-ref: "GR2023122800016B"
+  del-ref: "D20231228072"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-qiuHaiHong丘海红8613536767018  79926.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231228072"
+    sourceId: "28447f22-60aa-41c6-b044-45efd920a935"
+    orderId: "983af53f-ccde-4eb0-b6ea-792466368689"
+    contact: "86 13536767018 (QIUHAIHONG丘海红) [b5e47baf-c672-47e1-a0f6-a708da712077]"
+  Income:Sales:Sales-Gold  -79926.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -153.55000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-28 * "Reservation Delivery R#GR2023122800047B D#D20231228086"
+  rsv-ref: "GR2023122800047B"
+  del-ref: "D20231228086"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suWuSheng苏武生86134356356306  108800.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231228086"
+    sourceId: "f9a22ab8-dea0-4a8e-90c1-b585664aea43"
+    orderId: "5e3646ac-9285-4409-a3a2-06f89912fb72"
+    contact: "86 134356356306 (SUWUSHENG苏武生) [72f6bdd3-f216-42a4-9746-a6976a2a572e]"
+  Income:Sales:Sales-Gold  -108800.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -209.02200 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-28 * "Reservation Delivery R#GR2023122800027B D#D20231228048"
+  rsv-ref: "GR2023122800027B"
+  del-ref: "D20231228048"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-lamChunfai林振辉85246229047  104122.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231228048"
+    sourceId: "4f998a3d-919b-4ef0-83c0-d739ee6b1777"
+    orderId: "f2eba875-f111-4b1f-9ee5-21e47f85d3c7"
+    contact: "852 46229047 (LAMCHUNFAI林振辉) [8ae54e01-035e-4add-bd22-2e69fda5f8b9]"
+  Income:Sales:Sales-Gold  -104122.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2023-12-28 * "Reservation Delivery R#GR2023122800032B D#D20231228057"
   rsv-ref: "GR2023122800032B"
   del-ref: "D20231228057"
@@ -20145,6 +20171,32 @@
     contact: "852 90848053 () [dbb0d8db-1995-425e-80f4-0e383c6eb5d9]"
   Income:Sales:Sales-Gold  -1560625.87000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -3000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-28 * "Reservation Delivery R#GR2023122800031B D#D20231228055"
+  rsv-ref: "GR2023122800031B"
+  del-ref: "D20231228055"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-duKaile杜凯乐8613461195111  24333.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231228055"
+    sourceId: "ab0fe8cc-b881-4ea6-9c8e-ff04e9326aec"
+    orderId: "05e19c5a-252c-462e-9c7c-8817c0b329a8"
+    contact: "86 13461195111 (DUKAILE杜凯乐) [5f74db7e-3855-4c00-bdeb-c57d9d6f8125]"
+  Income:Sales:Sales-Gold  -24333.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -46.93000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-28 * "Reservation Delivery R#GR2023122800036B D#D20231228069"
+  rsv-ref: "GR2023122800036B"
+  del-ref: "D20231228069"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangKeqing张科青8613207722075  58024.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231228069"
+    sourceId: "37fc4520-e59c-4c52-8388-99e39afab15b"
+    orderId: "07d63d1f-e546-432e-89f9-508e25462951"
+    contact: "86 13207722075 (ZHANGKEQING张科青) [83bbf7a9-d5a4-43af-8731-fffdf345beee]"
+  Income:Sales:Sales-Gold  -58024.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -111.37000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-28 * "Reservation Delivery R#GR2023122800012B D#D20231228065"
@@ -20459,58 +20511,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -1012.85000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-28 * "Reservation Delivery R#GR2023122800047B D#D20231228086"
-  rsv-ref: "GR2023122800047B"
-  del-ref: "D20231228086"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-suWuSheng苏武生86134356356306  108800.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231228086"
-    sourceId: "f9a22ab8-dea0-4a8e-90c1-b585664aea43"
-    orderId: "5e3646ac-9285-4409-a3a2-06f89912fb72"
-    contact: "86 134356356306 (SUWUSHENG苏武生) [72f6bdd3-f216-42a4-9746-a6976a2a572e]"
-  Income:Sales:Sales-Gold  -108800.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -209.02200 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-28 * "Reservation Delivery R#GR2023122800027B D#D20231228048"
-  rsv-ref: "GR2023122800027B"
-  del-ref: "D20231228048"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-lamChunfai林振辉85246229047  104122.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231228048"
-    sourceId: "4f998a3d-919b-4ef0-83c0-d739ee6b1777"
-    orderId: "f2eba875-f111-4b1f-9ee5-21e47f85d3c7"
-    contact: "852 46229047 (LAMCHUNFAI林振辉) [8ae54e01-035e-4add-bd22-2e69fda5f8b9]"
-  Income:Sales:Sales-Gold  -104122.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -200.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-28 * "Reservation Delivery R#GR2023122800031B D#D20231228055"
-  rsv-ref: "GR2023122800031B"
-  del-ref: "D20231228055"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-duKaile杜凯乐8613461195111  24333.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231228055"
-    sourceId: "ab0fe8cc-b881-4ea6-9c8e-ff04e9326aec"
-    orderId: "05e19c5a-252c-462e-9c7c-8817c0b329a8"
-    contact: "86 13461195111 (DUKAILE杜凯乐) [5f74db7e-3855-4c00-bdeb-c57d9d6f8125]"
-  Income:Sales:Sales-Gold  -24333.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -46.93000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-28 * "Reservation Delivery R#GR2023122800036B D#D20231228069"
-  rsv-ref: "GR2023122800036B"
-  del-ref: "D20231228069"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zhangKeqing张科青8613207722075  58024.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231228069"
-    sourceId: "37fc4520-e59c-4c52-8388-99e39afab15b"
-    orderId: "07d63d1f-e546-432e-89f9-508e25462951"
-    contact: "86 13207722075 (ZHANGKEQING张科青) [83bbf7a9-d5a4-43af-8731-fffdf345beee]"
-  Income:Sales:Sales-Gold  -58024.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -111.37000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-28 * "Reservation Delivery R#GR2023122800046B D#D20231228085"
   rsv-ref: "GR2023122800046B"
   del-ref: "D20231228085"
@@ -20703,7 +20703,7 @@
     sourceId: "42bd4a2d-52da-4413-bcc0-ac6d17fce17d"
 
 2023-12-29 * "82 10063988492 () [2d630467-4741-4a05-854d-e05b52b867d2]" "Bill Payment for Bill #1455 #9f487771-7f46-4321-91d6-d40c1e7b33bb 42bd4a2d-52da-4413-bcc0-ac6d17fce17d"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -720.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -720.00000 USDT {7.8 HKD}
     type: "Bill Payment"
     sourceId: "9f487771-7f46-4321-91d6-d40c1e7b33bb"
     referenceNo: "1455"
@@ -21372,7 +21372,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900009B P#P20231229002"
   rsv-ref: "GR2023122900009B"
   pay-ref: "P20231229002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  133172.45000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  133172.45000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229002"
     sourceId: "64ca3d55-7074-463d-9cec-76b062dc5ab2"
@@ -21387,7 +21387,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900011B P#P20231229003"
   rsv-ref: "GR2023122900011B"
   pay-ref: "P20231229003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  79962.49000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  79962.49000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229003"
     sourceId: "72900f22-5a4c-468b-b68a-da139914a62a"
@@ -21402,7 +21402,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900036B P#P20231229004"
   rsv-ref: "GR2023122900036B"
   pay-ref: "P20231229004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  66526.43000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  66526.43000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229004"
     sourceId: "1a02d142-a5fb-46d9-bf3e-ec5cf0515fdb"
@@ -21417,7 +21417,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900052B P#P20231229005"
   rsv-ref: "GR2023122900052B"
   pay-ref: "P20231229005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  199702.14000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  199702.14000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229005"
     sourceId: "424db88f-d19f-4c5a-9c45-797233a63510"
@@ -21432,7 +21432,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900010B P#P20231229006"
   rsv-ref: "GR2023122900010B"
   pay-ref: "P20231229006"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  133412.91000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  133412.91000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229006"
     sourceId: "14ec55b0-7dbd-4c2f-8566-0ef547b6746a"
@@ -21447,7 +21447,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900032B P#P20231229007"
   rsv-ref: "GR2023122900032B"
   pay-ref: "P20231229007"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  66645.19000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  66645.19000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229007"
     sourceId: "96344525-e2ba-4e9c-a1ee-7dbabb27c516"
@@ -21462,7 +21462,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900053B P#P20231229008"
   rsv-ref: "GR2023122900053B"
   pay-ref: "P20231229008"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  74454.24000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  74454.24000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229008"
     sourceId: "47938e98-44ef-4dca-b697-8d5179316380"
@@ -21477,7 +21477,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900003S P#P20231229050"
   rsv-ref: "GR2023122900003S"
   pay-ref: "P20231229050"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -66134.49000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -66134.49000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229050"
     sourceId: "cbcafa97-b2fb-4e49-adbc-a26a97424d26"
@@ -21492,7 +21492,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900004S P#P20231229051"
   rsv-ref: "GR2023122900004S"
   pay-ref: "P20231229051"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -926306.69000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -926306.69000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229051"
     sourceId: "9b712dd0-f198-463f-854f-7df7a68b86be"
@@ -21507,7 +21507,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900005S P#P20231229052"
   rsv-ref: "GR2023122900005S"
   pay-ref: "P20231229052"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1457186.38000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1457186.38000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229052"
     sourceId: "bcd1c420-e874-4ba4-9795-fc7ca52c489c"
@@ -21522,7 +21522,7 @@
 2023-12-29 * "Reservation Payment R#GR2023122900002S P#P20231229053"
   rsv-ref: "GR2023122900002S"
   pay-ref: "P20231229053"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1459492.00000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1459492.00000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231229053"
     sourceId: "1a5b0901-e884-4226-ba50-2ec29a5bec5f"
@@ -21591,19 +21591,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -280.93000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-29 * "Reservation Delivery R#GR2023122900037B D#D20231229068"
-  rsv-ref: "GR2023122900037B"
-  del-ref: "D20231229068"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liJieBiao黎杰标8613510766892  159809.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231229068"
-    sourceId: "50fb3b51-abdf-42cb-84f4-663c82327765"
-    orderId: "9368e1a7-c1d6-44eb-b34f-b578745c17a3"
-    contact: "86 13510766892 (LIJIEBIAO黎杰标) [23923ac8-e051-45ee-8b83-ace896708188]"
-  Income:Sales:Sales-Gold  -159809.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -308.06000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-29 * "Reservation Delivery R#GR2023122900025B D#D20231229094"
   rsv-ref: "GR2023122900025B"
   del-ref: "D20231229094"
@@ -21628,6 +21615,84 @@
     contact: "86 13692294486 (DENGYUANYUAN邓媛媛) [f1cb5667-1a73-4da9-b6a5-dd3eeb1837a9]"
   Income:Sales:Sales-Gold  -438235.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -848.47000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900037B D#D20231229068"
+  rsv-ref: "GR2023122900037B"
+  del-ref: "D20231229068"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liJieBiao黎杰标8613510766892  159809.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231229068"
+    sourceId: "50fb3b51-abdf-42cb-84f4-663c82327765"
+    orderId: "9368e1a7-c1d6-44eb-b34f-b578745c17a3"
+    contact: "86 13510766892 (LIJIEBIAO黎杰标) [23923ac8-e051-45ee-8b83-ace896708188]"
+  Income:Sales:Sales-Gold  -159809.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -308.06000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900051B D#D20231229098"
+  rsv-ref: "GR2023122900051B"
+  del-ref: "D20231229098"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuMingChi刘铭池8618688749339  108331.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231229098"
+    sourceId: "4acf4d7b-b478-48de-b994-42f0cd75f484"
+    orderId: "00ff163b-8975-463c-89ae-0a5b5a193a79"
+    contact: "86 18688749339 (LIUMINGCHI刘铭池) [60097eb4-4d63-43cb-8d2a-fae10bde526a]"
+  Income:Sales:Sales-Gold  -108331.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -209.10000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900041B D#D20231229072"
+  rsv-ref: "GR2023122900041B"
+  del-ref: "D20231229072"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenXiongbiao陈雄标8613536721976  96821.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231229072"
+    sourceId: "b51e041b-60b8-49dc-91c3-1ade9c9448be"
+    orderId: "51030260-855a-4603-a53c-1151871c33ed"
+    contact: "86 13536721976 (CHENXIONGBIAO陈雄标) [77b753e7-04b9-41d6-bb55-73ca5dd91212]"
+  Income:Sales:Sales-Gold  -96821.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -186.57000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900009B D#D20231229064"
+  rsv-ref: "GR2023122900009B"
+  del-ref: "D20231229064"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85362638663  133172.45000 USDT {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20231229064"
+    sourceId: "63022eaf-484a-4509-8211-d32025694dae"
+    orderId: "e68efd72-940f-4fba-b8d2-8296327bfdd3"
+    contact: "853 62638663 () [b7a165f1-5d45-470f-b2ba-e97c1a783824]"
+  Income:Sales:Sales-Gold  -1038745.11000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900018B D#D20231229080"
+  rsv-ref: "GR2023122900018B"
+  del-ref: "D20231229080"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuMeiZhen刘美珍8613798432521  94412.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231229080"
+    sourceId: "cea77362-2e05-4ff4-8ed5-3a3d10926f55"
+    orderId: "d20a2061-bbbb-44be-b29b-b33d0719e112"
+    contact: "86 13798432521 (LIUMEIZHEN刘美珍) [6246dbf9-dcf0-4214-b6d0-d6b6e3d8ca17]"
+  Income:Sales:Sales-Gold  -94412.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -182.58000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-29 * "Reservation Delivery R#GR2023122900020B D#D20231229082"
+  rsv-ref: "GR2023122900020B"
+  del-ref: "D20231229082"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuLiyong刘利勇8613518866079  21225.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231229082"
+    sourceId: "d918a544-f07a-48d1-a021-328cd79c802d"
+    orderId: "ed7e73c0-fa78-44fb-bf45-4e385903c3c7"
+    contact: "86 13518866079 (LIULIYONG刘利勇) [4d1f3b63-5f85-4f37-99ba-2b61c9cb3cad]"
+  Income:Sales:Sales-Gold  -21225.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -40.91000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-29 * "Reservation Delivery R#GR2023122900007B D#D20231229060"
@@ -22018,71 +22083,6 @@
     contact: "852 63590878 (LOHUNGYI盧鴻移) [657e68c6-339d-40bd-a9b0-7ae25ed4747e]"
   Income:Sales:Sales-Gold  -519832.48000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -1000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-29 * "Reservation Delivery R#GR2023122900051B D#D20231229098"
-  rsv-ref: "GR2023122900051B"
-  del-ref: "D20231229098"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuMingChi刘铭池8618688749339  108331.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231229098"
-    sourceId: "4acf4d7b-b478-48de-b994-42f0cd75f484"
-    orderId: "00ff163b-8975-463c-89ae-0a5b5a193a79"
-    contact: "86 18688749339 (LIUMINGCHI刘铭池) [60097eb4-4d63-43cb-8d2a-fae10bde526a]"
-  Income:Sales:Sales-Gold  -108331.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -209.10000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-29 * "Reservation Delivery R#GR2023122900041B D#D20231229072"
-  rsv-ref: "GR2023122900041B"
-  del-ref: "D20231229072"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenXiongbiao陈雄标8613536721976  96821.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231229072"
-    sourceId: "b51e041b-60b8-49dc-91c3-1ade9c9448be"
-    orderId: "51030260-855a-4603-a53c-1151871c33ed"
-    contact: "86 13536721976 (CHENXIONGBIAO陈雄标) [77b753e7-04b9-41d6-bb55-73ca5dd91212]"
-  Income:Sales:Sales-Gold  -96821.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -186.57000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-29 * "Reservation Delivery R#GR2023122900009B D#D20231229064"
-  rsv-ref: "GR2023122900009B"
-  del-ref: "D20231229064"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85362638663  133172.45000 USDT {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20231229064"
-    sourceId: "63022eaf-484a-4509-8211-d32025694dae"
-    orderId: "e68efd72-940f-4fba-b8d2-8296327bfdd3"
-    contact: "853 62638663 () [b7a165f1-5d45-470f-b2ba-e97c1a783824]"
-  Income:Sales:Sales-Gold  -1038745.11000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-29 * "Reservation Delivery R#GR2023122900018B D#D20231229080"
-  rsv-ref: "GR2023122900018B"
-  del-ref: "D20231229080"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuMeiZhen刘美珍8613798432521  94412.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231229080"
-    sourceId: "cea77362-2e05-4ff4-8ed5-3a3d10926f55"
-    orderId: "d20a2061-bbbb-44be-b29b-b33d0719e112"
-    contact: "86 13798432521 (LIUMEIZHEN刘美珍) [6246dbf9-dcf0-4214-b6d0-d6b6e3d8ca17]"
-  Income:Sales:Sales-Gold  -94412.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -182.58000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-29 * "Reservation Delivery R#GR2023122900020B D#D20231229082"
-  rsv-ref: "GR2023122900020B"
-  del-ref: "D20231229082"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuLiyong刘利勇8613518866079  21225.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231229082"
-    sourceId: "d918a544-f07a-48d1-a021-328cd79c802d"
-    orderId: "ed7e73c0-fa78-44fb-bf45-4e385903c3c7"
-    contact: "86 13518866079 (LIULIYONG刘利勇) [4d1f3b63-5f85-4f37-99ba-2b61c9cb3cad]"
-  Income:Sales:Sales-Gold  -21225.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -40.91000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-29 * "Reservation Delivery R#GR2023122900044B D#D20231229085"
@@ -22899,7 +22899,7 @@
 2023-12-30 * "Reservation Payment R#GR2023123000001S P#P20231230046"
   rsv-ref: "GR2023123000001S"
   pay-ref: "P20231230046"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -265460.61000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -265460.61000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231230046"
     sourceId: "c5a4debd-9e0f-4622-b420-48a4a18b6aad"
@@ -22946,6 +22946,97 @@
     contact: "852 56421077 (PENGKANGHUA彭康华) [aa4aea41-36a0-4ad8-843c-4ac8edf1a6c9]"
   Income:Sales:Sales-Gold  -207963.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -402.49000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000012B D#D20231230070"
+  rsv-ref: "GR2023123000012B"
+  del-ref: "D20231230070"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yangJiahao杨嘉豪8615013619231  190857.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230070"
+    sourceId: "185e6f2d-aada-44ba-b654-a92a2c109730"
+    orderId: "35f2f2b8-55fc-432e-9758-57b3738150a6"
+    contact: "86 15013619231 (YANGJIAHAO杨嘉豪) [bb550a5b-b528-4f1b-9fad-4a0c2e54c3be]"
+  Income:Sales:Sales-Gold  -190857.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -369.52000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000016B D#D20231230076"
+  rsv-ref: "GR2023123000016B"
+  del-ref: "D20231230076"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-caiKaiRong蔡凯容8613530927405  82717.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230076"
+    sourceId: "426b55da-6eff-4a70-b56c-cf435e563695"
+    orderId: "bc6cbf09-2fd8-453d-a9ed-7105045addaf"
+    contact: "86 13530927405 (CAIKAIRONG蔡凯容) [3fe45316-ca79-4d30-a0da-ef975988d2f9]"
+  Income:Sales:Sales-Gold  -82717.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -160.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000022B D#D20231230086"
+  rsv-ref: "GR2023123000022B"
+  del-ref: "D20231230086"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  32956.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230086"
+    sourceId: "4c1d8396-71c2-4f10-93a1-1db5de67efb8"
+    orderId: "66b4e17b-eed5-4748-a596-4bfcc3214108"
+    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
+  Income:Sales:Sales-Gold  -32956.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -63.72000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000018B D#D20231230078"
+  rsv-ref: "GR2023123000018B"
+  del-ref: "D20231230078"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  180999.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230078"
+    sourceId: "b26a751c-9caa-4c0b-990e-a15d2e3b0048"
+    orderId: "aa285289-7814-468a-b973-872f87cd8fd7"
+    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
+  Income:Sales:Sales-Gold  -180999.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -349.96000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000031B D#D20231230058"
+  rsv-ref: "GR2023123000031B"
+  del-ref: "D20231230058"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangGuoGui黄国贵8613534222567  49998.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230058"
+    sourceId: "166c9688-35ea-4dd4-9484-eeb5497562c8"
+    orderId: "70fc94a9-1dea-4811-8e9c-3b6ab3106520"
+    contact: "86 13534222567 (HUANGGUOGUI黄国贵) [b10b7097-6b01-4f18-b872-bb44e07bda85]"
+  Income:Sales:Sales-Gold  -49998.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -96.67000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000027B D#D20231230053"
+  rsv-ref: "GR2023123000027B"
+  del-ref: "D20231230053"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangGuoGui黄国贵8613534222567  80021.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230053"
+    sourceId: "0a970ae8-b81e-4b2d-a3c3-41755436bc1c"
+    orderId: "947b9982-e2d4-408d-b9a6-983533380c1f"
+    contact: "86 13534222567 (HUANGGUOGUI黄国贵) [b10b7097-6b01-4f18-b872-bb44e07bda85]"
+  Income:Sales:Sales-Gold  -80021.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -154.72000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-30 * "Reservation Delivery R#GR2023123000046B D#D20231230091"
+  rsv-ref: "GR2023123000046B"
+  del-ref: "D20231230091"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linXueqin林雪琴8618475634668  57999.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231230091"
+    sourceId: "08efc3d1-1813-4429-a3ca-e168aad9a774"
+    orderId: "3b8d3cdd-e1cc-4a80-8dc4-147d65cadfd9"
+    contact: "86 18475634668 (LINXUEQIN林雪琴) [0cc4ae1b-2aed-4d36-904a-cf3c86691067]"
+  Income:Sales:Sales-Gold  -57999.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -112.14000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-30 * "Reservation Delivery R#GR2023123000033B D#D20231230062"
@@ -23050,19 +23141,6 @@
     contact: "86 15919773433 (HUANGSHUJIE黄树捷) [fd27c0ac-bff3-496e-9e30-185b3731be4f]"
   Income:Sales:Sales-Gold  -124185.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -240.11000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000012B D#D20231230070"
-  rsv-ref: "GR2023123000012B"
-  del-ref: "D20231230070"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yangJiahao杨嘉豪8615013619231  190857.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230070"
-    sourceId: "185e6f2d-aada-44ba-b654-a92a2c109730"
-    orderId: "35f2f2b8-55fc-432e-9758-57b3738150a6"
-    contact: "86 15013619231 (YANGJIAHAO杨嘉豪) [bb550a5b-b528-4f1b-9fad-4a0c2e54c3be]"
-  Income:Sales:Sales-Gold  -190857.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -369.52000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-30 * "Reservation Delivery R#GR2023123000010B D#D20231230067"
@@ -23273,19 +23351,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -62.88000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2023-12-30 * "Reservation Delivery R#GR2023123000016B D#D20231230076"
-  rsv-ref: "GR2023123000016B"
-  del-ref: "D20231230076"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-caiKaiRong蔡凯容8613530927405  82717.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230076"
-    sourceId: "426b55da-6eff-4a70-b56c-cf435e563695"
-    orderId: "bc6cbf09-2fd8-453d-a9ed-7105045addaf"
-    contact: "86 13530927405 (CAIKAIRONG蔡凯容) [3fe45316-ca79-4d30-a0da-ef975988d2f9]"
-  Income:Sales:Sales-Gold  -82717.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -160.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2023-12-30 * "Reservation Delivery R#GR2023123000025B D#D20231230049"
   rsv-ref: "GR2023123000025B"
   del-ref: "D20231230049"
@@ -23323,71 +23388,6 @@
     contact: "86 13537719986 (ZHAOSHANHUA赵善华) [68ec3b63-353f-49a2-8e09-921b3bda5e44]"
   Income:Sales:Sales-Gold  -37369.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -72.28000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000022B D#D20231230086"
-  rsv-ref: "GR2023123000022B"
-  del-ref: "D20231230086"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-liuXuebin刘雪斌8613380356487  32956.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230086"
-    sourceId: "4c1d8396-71c2-4f10-93a1-1db5de67efb8"
-    orderId: "66b4e17b-eed5-4748-a596-4bfcc3214108"
-    contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
-  Income:Sales:Sales-Gold  -32956.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -63.72000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000018B D#D20231230078"
-  rsv-ref: "GR2023123000018B"
-  del-ref: "D20231230078"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-yuXingHua余兴桦8613750270708  180999.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230078"
-    sourceId: "b26a751c-9caa-4c0b-990e-a15d2e3b0048"
-    orderId: "aa285289-7814-468a-b973-872f87cd8fd7"
-    contact: "86 13750270708 (YUXINGHUA余兴桦) [f65091d4-94e0-4bcf-8a6f-f166567120b4]"
-  Income:Sales:Sales-Gold  -180999.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -349.96000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000031B D#D20231230058"
-  rsv-ref: "GR2023123000031B"
-  del-ref: "D20231230058"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangGuoGui黄国贵8613534222567  49998.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230058"
-    sourceId: "166c9688-35ea-4dd4-9484-eeb5497562c8"
-    orderId: "70fc94a9-1dea-4811-8e9c-3b6ab3106520"
-    contact: "86 13534222567 (HUANGGUOGUI黄国贵) [b10b7097-6b01-4f18-b872-bb44e07bda85]"
-  Income:Sales:Sales-Gold  -49998.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -96.67000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000027B D#D20231230053"
-  rsv-ref: "GR2023123000027B"
-  del-ref: "D20231230053"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-huangGuoGui黄国贵8613534222567  80021.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230053"
-    sourceId: "0a970ae8-b81e-4b2d-a3c3-41755436bc1c"
-    orderId: "947b9982-e2d4-408d-b9a6-983533380c1f"
-    contact: "86 13534222567 (HUANGGUOGUI黄国贵) [b10b7097-6b01-4f18-b872-bb44e07bda85]"
-  Income:Sales:Sales-Gold  -80021.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -154.72000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-30 * "Reservation Delivery R#GR2023123000046B D#D20231230091"
-  rsv-ref: "GR2023123000046B"
-  del-ref: "D20231230091"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-linXueqin林雪琴8618475634668  57999.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231230091"
-    sourceId: "08efc3d1-1813-4429-a3ca-e168aad9a774"
-    orderId: "3b8d3cdd-e1cc-4a80-8dc4-147d65cadfd9"
-    contact: "86 18475634668 (LINXUEQIN林雪琴) [0cc4ae1b-2aed-4d36-904a-cf3c86691067]"
-  Income:Sales:Sales-Gold  -57999.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -112.14000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-30 * "Reservation Delivery R#GR2023123000006B D#D20231230059"
@@ -23808,7 +23808,7 @@
 2023-12-31 * "Reservation Payment R#GR2023123100006B P#P20231231015"
   rsv-ref: "GR2023123100006B"
   pay-ref: "P20231231015"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  2655.88000 USDT {7.8 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  2655.88000 USDT {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20231231015"
     sourceId: "f5f4447c-56cd-43dc-9193-a279a561c7d5"
@@ -23831,6 +23831,19 @@
     contact: "86 13380356487 (LIUXUEBIN刘雪斌) [7bcdbaf8-bb05-49c5-8c7a-2a4724445e94]"
   Income:Sales:Sales-Gold  -302825.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -586.53000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2023-12-31 * "Reservation Delivery R#GR2023123100002B D#D20231231017"
+  rsv-ref: "GR2023123100002B"
+  del-ref: "D20231231017"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenXiongbiao陈雄标8613536721976  179107.00000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20231231017"
+    sourceId: "feae60ef-a5d4-432d-96ab-2dc7505ce391"
+    orderId: "b6825dfe-f72d-4d99-aa27-9ca2c1320ad3"
+    contact: "86 13536721976 (CHENXIONGBIAO陈雄标) [77b753e7-04b9-41d6-bb55-73ca5dd91212]"
+  Income:Sales:Sales-Gold  -179107.00000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -346.77000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-31 * "Reservation Delivery R#GR2023123100006B D#D20231231022"
@@ -23961,19 +23974,6 @@
     contact: "86 13554884405 (LIXUAN李萱) [0890b62a-1471-47a8-9f9a-0b7f67727926]"
   Income:Sales:Sales-Gold  -127557.00000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -246.63000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
-2023-12-31 * "Reservation Delivery R#GR2023123100002B D#D20231231017"
-  rsv-ref: "GR2023123100002B"
-  del-ref: "D20231231017"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chenXiongbiao陈雄标8613536721976  179107.00000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20231231017"
-    sourceId: "feae60ef-a5d4-432d-96ab-2dc7505ce391"
-    orderId: "b6825dfe-f72d-4d99-aa27-9ca2c1320ad3"
-    contact: "86 13536721976 (CHENXIONGBIAO陈雄标) [77b753e7-04b9-41d6-bb55-73ca5dd91212]"
-  Income:Sales:Sales-Gold  -179107.00000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -346.77000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2023-12-31 * "Reservation Delivery R#GR2023123100014B D#D20231231027"

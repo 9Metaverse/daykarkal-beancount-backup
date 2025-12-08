@@ -58,7 +58,7 @@
 2024-08-02 * "Reservation Payment R#GR2024080200001S P#P20240802002"
   rsv-ref: "GR2024080200001S"
   pay-ref: "P20240802002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1978026.21000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1978026.21000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240802002"
     sourceId: "659c0f15-0bee-499b-a4ae-8c8ca7d2d797"
@@ -156,20 +156,20 @@
     sourceId: "820121dd-d47a-4a2a-9abd-919d72c638d6"
   Income:Sales:SalesItem:SellBespokeorotherFee  -1200.00000 HKD
     category: "Jewelry"
-    sku: "DDBESPOKE00000046"
-    qty: "1"
-    referenceNo: "734"
-    orderId: "7259a242-f99d-4046-a830-874f2545572d"
-    type: "Invoice Item"
-    sourceId: "72e5dda0-2bb3-4c53-aba8-8c1ae5483173"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -1200.00000 HKD
-    category: "Jewelry"
     sku: "DDBESPOKE00000045"
     qty: "1"
     referenceNo: "734"
     orderId: "7259a242-f99d-4046-a830-874f2545572d"
     type: "Invoice Item"
     sourceId: "7924435c-de77-4fd0-b3ed-1e5a9eae8d74"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -1200.00000 HKD
+    category: "Jewelry"
+    sku: "DDBESPOKE00000046"
+    qty: "1"
+    referenceNo: "734"
+    orderId: "7259a242-f99d-4046-a830-874f2545572d"
+    type: "Invoice Item"
+    sourceId: "72e5dda0-2bb3-4c53-aba8-8c1ae5483173"
   Assets:CurrentAssets:AccountReceivable  14200.00000 HKD
     referenceNo: "734"
     orderId: "7259a242-f99d-4046-a830-874f2545572d"
@@ -491,6 +491,13 @@
   referenceNo: "1071"
   orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
   type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
+    qty: "1"
+    description: "BANK FEE"
+    referenceNo: "1071"
+    orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
+    type: "Bill Item"
+    sourceId: "a0bb5f37-b954-4f9b-8887-e08954652baf"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  5100.00000 HKD
     category: "Natural Diamond"
     sku: "DIA2405"
@@ -507,13 +514,6 @@
     orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
     type: "Bill Item"
     sourceId: "9bdde1cd-3b4e-43df-ba20-ef6a75e98bd4"
-  Expenses:GeneralExpense:BankFeesExpense  5.00000 HKD
-    qty: "1"
-    description: "BANK FEE"
-    referenceNo: "1071"
-    orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
-    type: "Bill Item"
-    sourceId: "a0bb5f37-b954-4f9b-8887-e08954652baf"
   Liabilities:CurrentLiabilities:AccountPayable  -10205.00000 HKD
     referenceNo: "1071"
     orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
@@ -548,14 +548,6 @@
     orderId: "594f60ee-29df-42ab-8b27-5e35d5526ecd"
 
 2024-08-08 * "Invoice #713 Staff~ Vida Stock Gold Jewellery 50.12g 4d2142ca-0485-4a79-a08f-85221fa7119f"
-  Income:Sales:SalesItem:SellGoldJewelry  -13600.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051204000000000024"
-    qty: "1"
-    referenceNo: "713"
-    orderId: "4d2142ca-0485-4a79-a08f-85221fa7119f"
-    type: "Invoice Item"
-    sourceId: "86a0f724-e77e-4b2b-9e78-f234541877bd"
   Income:Sales:SalesItem:SellGoldJewelry  -13000.00000 HKD
     category: "Gold Jewelry"
     sku: "DDFF23051204000000000027"
@@ -564,6 +556,14 @@
     orderId: "4d2142ca-0485-4a79-a08f-85221fa7119f"
     type: "Invoice Item"
     sourceId: "9500881c-e5df-4deb-afa5-c3dbf4bff1ad"
+  Income:Sales:SalesItem:SellGoldJewelry  -13600.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051204000000000024"
+    qty: "1"
+    referenceNo: "713"
+    orderId: "4d2142ca-0485-4a79-a08f-85221fa7119f"
+    type: "Invoice Item"
+    sourceId: "86a0f724-e77e-4b2b-9e78-f234541877bd"
   Assets:CurrentAssets:AccountReceivable  26600.00000 HKD
     referenceNo: "713"
     orderId: "4d2142ca-0485-4a79-a08f-85221fa7119f"
@@ -596,6 +596,22 @@
     orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
     type: "Invoice Item"
     sourceId: "f0e83585-64fe-4ec2-bd7d-cf2f2bd3ab51"
+  Income:Sales:SalesItem:SellGoldJewelry  -3800.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051701000000000002"
+    qty: "1"
+    referenceNo: "716"
+    orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
+    type: "Invoice Item"
+    sourceId: "d5c7359b-5869-43dc-bb90-2efcaf57bebd"
+  Income:Sales:SalesItem:SellGoldJewelry  -16000.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051704000000000045"
+    qty: "1"
+    referenceNo: "716"
+    orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
+    type: "Invoice Item"
+    sourceId: "b5573854-68a9-4e06-94e9-9a1808069b5d"
   Income:Sales:SalesItem:SellGoldJewelry  -12800.00000 HKD
     category: "Gold Jewelry"
     sku: "DDFF23051704000000000043"
@@ -612,22 +628,6 @@
     orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
     type: "Invoice Item"
     sourceId: "9cfceb84-b4a9-4093-a1e4-751053cfbe77"
-  Income:Sales:SalesItem:SellGoldJewelry  -16000.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051704000000000045"
-    qty: "1"
-    referenceNo: "716"
-    orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
-    type: "Invoice Item"
-    sourceId: "b5573854-68a9-4e06-94e9-9a1808069b5d"
-  Income:Sales:SalesItem:SellGoldJewelry  -3800.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051701000000000002"
-    qty: "1"
-    referenceNo: "716"
-    orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
-    type: "Invoice Item"
-    sourceId: "d5c7359b-5869-43dc-bb90-2efcaf57bebd"
   Assets:CurrentAssets:AccountReceivable  51900.00000 HKD
     referenceNo: "716"
     orderId: "0bd861ca-158d-4252-b762-e16ac33fcb2b"
@@ -936,6 +936,13 @@
   referenceNo: "1072"
   orderId: "822c8365-298f-4ecb-9106-f163ccc60e5a"
   type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   -13.08000 HKD
+    qty: "1"
+    description: " 減CNY12鑲嵌工費"
+    referenceNo: "1072"
+    orderId: "822c8365-298f-4ecb-9106-f163ccc60e5a"
+    type: "Bill Item"
+    sourceId: "4f7c2c86-38a6-4f1c-9424-110c6d901b6b"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   4027.55000 HKD
     category: "Jewelry"
     sku: "DD2024080700000001"
@@ -952,13 +959,6 @@
     orderId: "822c8365-298f-4ecb-9106-f163ccc60e5a"
     type: "Bill Item"
     sourceId: "ec185c12-ac50-474d-b36f-62483eeffb2c"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry   -13.08000 HKD
-    qty: "1"
-    description: " 減CNY12鑲嵌工費"
-    referenceNo: "1072"
-    orderId: "822c8365-298f-4ecb-9106-f163ccc60e5a"
-    type: "Bill Item"
-    sourceId: "4f7c2c86-38a6-4f1c-9424-110c6d901b6b"
   Liabilities:CurrentLiabilities:AccountPayable  -5435.00000 CNY {1.09 HKD}
     referenceNo: "1072"
     orderId: "822c8365-298f-4ecb-9106-f163ccc60e5a"
@@ -981,14 +981,6 @@
     description: ""
 
 2024-08-11 * "Invoice #724 R24132 RUBY RING #13 N24135 SAPPHIRE NECKLACE b9824add-fb46-437f-88a4-512ca2bf4c4f"
-  Income:Sales:SalesItem:Sell18kJewelry  -3800.00000 HKD
-    category: "Jewelry"
-    sku: "DD2024071600000005"
-    qty: "1"
-    referenceNo: "724"
-    orderId: "b9824add-fb46-437f-88a4-512ca2bf4c4f"
-    type: "Invoice Item"
-    sourceId: "1a1a5931-fbf5-4f43-8e6a-0e441c29fcfb"
   Income:Sales:SalesItem:Sell18kJewelry  -8000.00000 HKD
     category: "Jewelry"
     sku: "DD2024072200000001"
@@ -997,6 +989,14 @@
     orderId: "b9824add-fb46-437f-88a4-512ca2bf4c4f"
     type: "Invoice Item"
     sourceId: "89e44488-7b3d-4616-b43f-8462951e848e"
+  Income:Sales:SalesItem:Sell18kJewelry  -3800.00000 HKD
+    category: "Jewelry"
+    sku: "DD2024071600000005"
+    qty: "1"
+    referenceNo: "724"
+    orderId: "b9824add-fb46-437f-88a4-512ca2bf4c4f"
+    type: "Invoice Item"
+    sourceId: "1a1a5931-fbf5-4f43-8e6a-0e441c29fcfb"
   Assets:CurrentAssets:AccountReceivable  11800.00000 HKD
     referenceNo: "724"
     orderId: "b9824add-fb46-437f-88a4-512ca2bf4c4f"
@@ -1053,7 +1053,7 @@
 2024-08-12 * "Reservation Payment R#GR2024081200001S P#P20240812002"
   rsv-ref: "GR2024081200001S"
   pay-ref: "P20240812002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -3905115.73000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -3905115.73000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240812002"
     sourceId: "eed0b96d-faaf-48f4-bf97-864ac9839389"
@@ -1259,7 +1259,7 @@
 2024-08-14 * "Reservation Payment R#GR2024081400001S P#P20240814002"
   rsv-ref: "GR2024081400001S"
   pay-ref: "P20240814002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -1581270.49000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1581270.49000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240814002"
     sourceId: "6be450df-8fe3-475c-a819-6b9032c4c4d2"
@@ -1274,7 +1274,7 @@
 2024-08-14 * "Reservation Payment R#GR2024081400002S P#P20240814003"
   rsv-ref: "GR2024081400002S"
   pay-ref: "P20240814003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -40797.62000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -40797.62000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240814003"
     sourceId: "84f4c2da-d2cb-4e1e-9f5a-a21e80415904"
@@ -1286,17 +1286,6 @@
     orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
     contact: "852 55350646 (張啟翔CheungKaiCheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
 
-2024-08-14 * "Reservation Delivery R#GR2024081400001S D#D20240814005"
-  rsv-ref: "GR2024081400001S"
-  del-ref: "D20240814005"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -1581270.49000 USDT {7.79 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20240814005"
-    sourceId: "4f8147db-5603-49d8-b22b-2f68bc35ea5e"
-    orderId: "70479143-0122-4a71-a368-799052f7c316"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:Gold-In-Stock  20000.00000 XAU { }
-
 2024-08-14 * "Reservation Delivery R#GR2024081400002S D#D20240814006"
   rsv-ref: "GR2024081400002S"
   del-ref: "D20240814006"
@@ -1307,6 +1296,17 @@
     orderId: "7c97c76c-7315-48b9-aa25-f8632ac5fae5"
     contact: "852 55350646 (張啟翔CheungKaiCheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
   Assets:Inventory:Gold:Gold-In-Stock  520.33000 XAU { }
+
+2024-08-14 * "Reservation Delivery R#GR2024081400001S D#D20240814005"
+  rsv-ref: "GR2024081400001S"
+  del-ref: "D20240814005"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -1581270.49000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20240814005"
+    sourceId: "4f8147db-5603-49d8-b22b-2f68bc35ea5e"
+    orderId: "70479143-0122-4a71-a368-799052f7c316"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  20000.00000 XAU { }
 
 2024-08-14 * "Reservation Delivery R#GR2024081400004B D#D20240814004"
   rsv-ref: "GR2024081400004B"
@@ -1354,7 +1354,7 @@
 2024-08-15 * "Reservation Payment R#GR2024081500002S P#P20240815004"
   rsv-ref: "GR2024081500002S"
   pay-ref: "P20240815004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -2358162.68000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -2358162.68000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240815004"
     sourceId: "687ac0e7-2215-4e3f-a6c4-2d6895048235"
@@ -1449,7 +1449,7 @@
 2024-08-16 * "Reservation Payment R#GR2024081600002S P#P20240816004"
   rsv-ref: "GR2024081600002S"
   pay-ref: "P20240816004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -314169.65000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -314169.65000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240816004"
     sourceId: "e5481a66-e418-43f2-9128-3588ea18bc8d"
@@ -1464,7 +1464,7 @@
 2024-08-16 * "Reservation Payment R#GR2024081600003S P#P20240816005"
   rsv-ref: "GR2024081600003S"
   pay-ref: "P20240816005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -3939754.65000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -3939754.65000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240816005"
     sourceId: "130ef053-8287-47f2-9094-b9fe74e1d082"
@@ -1516,14 +1516,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  50000.00000 XAU { }
 
 2024-08-16 * "Invoice #728 N24134 wg R24125 wg#13 4e1e8c32-b794-494c-b93e-ff95a4b5c645"
-  Income:Sales:SalesItem:Sell18kJewelry  -3300.00000 HKD
-    category: "Jewelry"
-    sku: "DD2024071600000002"
-    qty: "1"
-    referenceNo: "728"
-    orderId: "4e1e8c32-b794-494c-b93e-ff95a4b5c645"
-    type: "Invoice Item"
-    sourceId: "0285a89c-77ab-4b68-b22d-411faabd53a5"
   Income:Sales:SalesItem:Sell18kJewelry  -2500.00000 HKD
     category: "Jewelry"
     sku: "DD2024082600000001"
@@ -1532,6 +1524,14 @@
     orderId: "4e1e8c32-b794-494c-b93e-ff95a4b5c645"
     type: "Invoice Item"
     sourceId: "351e40ee-23f0-4c85-80d8-ce0536f11f4c"
+  Income:Sales:SalesItem:Sell18kJewelry  -3300.00000 HKD
+    category: "Jewelry"
+    sku: "DD2024071600000002"
+    qty: "1"
+    referenceNo: "728"
+    orderId: "4e1e8c32-b794-494c-b93e-ff95a4b5c645"
+    type: "Invoice Item"
+    sourceId: "0285a89c-77ab-4b68-b22d-411faabd53a5"
   Assets:CurrentAssets:AccountReceivable  5800.00000 HKD
     referenceNo: "728"
     orderId: "4e1e8c32-b794-494c-b93e-ff95a4b5c645"
@@ -1679,6 +1679,14 @@
     sourceId: "269b1133-2225-4041-9d6b-040bca4289ed"
 
 2024-08-17 * "Invoice #733 STAFF( 燕姐)GOLD JEWELLERY d3e551a4-aeeb-4164-be10-cb60524fa5dd"
+  Income:Sales:SalesItem:SellGoldJewelry  -11800.00000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051203000000000012"
+    qty: "1"
+    referenceNo: "733"
+    orderId: "d3e551a4-aeeb-4164-be10-cb60524fa5dd"
+    type: "Invoice Item"
+    sourceId: "ff776e14-a489-4322-87ea-890c1216588a"
   Income:Sales:SalesItem:SellGoldJewelry  -12000.00000 HKD
     category: "Gold Jewelry"
     sku: "DD2310200000000000000012"
@@ -1695,14 +1703,6 @@
     orderId: "d3e551a4-aeeb-4164-be10-cb60524fa5dd"
     type: "Invoice Item"
     sourceId: "c37cb0ca-3682-4d55-a776-88645f1bf790"
-  Income:Sales:SalesItem:SellGoldJewelry  -11800.00000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051203000000000012"
-    qty: "1"
-    referenceNo: "733"
-    orderId: "d3e551a4-aeeb-4164-be10-cb60524fa5dd"
-    type: "Invoice Item"
-    sourceId: "ff776e14-a489-4322-87ea-890c1216588a"
   Assets:CurrentAssets:AccountReceivable  24680.00000 HKD
     referenceNo: "733"
     orderId: "d3e551a4-aeeb-4164-be10-cb60524fa5dd"
@@ -1799,7 +1799,7 @@
 2024-08-19 * "Reservation Payment R#GR2024081900003S P#P20240819002"
   rsv-ref: "GR2024081900003S"
   pay-ref: "P20240819002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -2399440.05000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -2399440.05000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240819002"
     sourceId: "2d8bfc27-1e1d-4ee9-9e4a-82f0ba39ff50"
@@ -1814,7 +1814,7 @@
 2024-08-19 * "Reservation Payment R#GR2024081900002S P#P20240819003"
   rsv-ref: "GR2024081900002S"
   pay-ref: "P20240819003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -23441.33000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -23441.33000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240819003"
     sourceId: "ecf689eb-b51c-4793-a844-869ba4ed848a"
@@ -1997,7 +1997,7 @@
 2024-08-20 * "Reservation Payment R#GR2024082000001S P#P20240820004"
   rsv-ref: "GR2024082000001S"
   pay-ref: "P20240820004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -4033625.30000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -4033625.30000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240820004"
     sourceId: "53337a63-c52a-4b7f-96a5-b7dbe2409aa2"
@@ -2034,7 +2034,7 @@
 2024-08-20 * "Reservation Payment R#GR2024081900001S P#P20240820003"
   rsv-ref: "GR2024081900001S"
   pay-ref: "P20240820003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -79253.40000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -79253.40000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240820003"
     sourceId: "15571922-641b-417b-9771-cfbd0603d34d"
@@ -2122,7 +2122,7 @@
 2024-08-21 * "Reservation Payment R#GR2024082100003S P#P20240821005"
   rsv-ref: "GR2024082100003S"
   pay-ref: "P20240821005"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -3209026.24000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -3209026.24000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240821005"
     sourceId: "57d247e8-0490-4b1f-bfa5-a8ce5cbf9b2f"
@@ -2159,7 +2159,7 @@
 2024-08-21 * "Reservation Payment R#GR2024082100002S P#P20240821004"
   rsv-ref: "GR2024082100002S"
   pay-ref: "P20240821004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -798373.77000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -798373.77000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240821004"
     sourceId: "df15ec8f-abe0-4e72-b3c5-4aa8f5e4509c"
@@ -2227,7 +2227,7 @@
 2024-08-21 * "Reservation Payment R#GR2024082100004B P#P20240821001"
   rsv-ref: "GR2024082100004B"
   pay-ref: "P20240821001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  801600.54000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  801600.54000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240821001"
     sourceId: "e66b5b53-0781-479d-8bd2-5e6d1bbbf38b"
@@ -2327,7 +2327,7 @@
 2024-08-23 * "Reservation Payment R#GR2024082300001S P#P20240823002"
   rsv-ref: "GR2024082300001S"
   pay-ref: "P20240823002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -4010720.22000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -4010720.22000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240823002"
     sourceId: "25a35ab8-e96c-4a33-b2ef-dd4788178728"
@@ -2595,7 +2595,7 @@
 2024-08-27 * "Reservation Payment R#GR2024082700003S P#P20240827003"
   rsv-ref: "GR2024082700003S"
   pay-ref: "P20240827003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -4028401.34000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -4028401.34000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240827003"
     sourceId: "11ea7ff7-c1e6-4b0c-87fb-728721ed447a"
@@ -2647,20 +2647,20 @@
 2024-08-27 * "Invoice #740 R24125 WG #19 R24131 RG #19 1b72d1a6-9be2-4f63-8bb0-01626ecc6133"
   Income:Sales:SalesItem:Sell18kJewelry  -2500.00000 HKD
     category: "Jewelry"
-    sku: "DD2024090800000003"
-    qty: "1"
-    referenceNo: "740"
-    orderId: "1b72d1a6-9be2-4f63-8bb0-01626ecc6133"
-    type: "Invoice Item"
-    sourceId: "c41451bf-ee5a-4f96-aab0-6c201c6b9c74"
-  Income:Sales:SalesItem:Sell18kJewelry  -2500.00000 HKD
-    category: "Jewelry"
     sku: "DD2024080700000002"
     qty: "1"
     referenceNo: "740"
     orderId: "1b72d1a6-9be2-4f63-8bb0-01626ecc6133"
     type: "Invoice Item"
     sourceId: "c279c666-e917-433d-8d1a-6891e4f4dcf9"
+  Income:Sales:SalesItem:Sell18kJewelry  -2500.00000 HKD
+    category: "Jewelry"
+    sku: "DD2024090800000003"
+    qty: "1"
+    referenceNo: "740"
+    orderId: "1b72d1a6-9be2-4f63-8bb0-01626ecc6133"
+    type: "Invoice Item"
+    sourceId: "c41451bf-ee5a-4f96-aab0-6c201c6b9c74"
   Assets:CurrentAssets:AccountReceivable  5000.00000 HKD
     referenceNo: "740"
     orderId: "1b72d1a6-9be2-4f63-8bb0-01626ecc6133"
@@ -2769,7 +2769,7 @@
 2024-08-28 * "Reservation Payment R#GR2024082800002S P#P20240828002"
   rsv-ref: "GR2024082800002S"
   pay-ref: "P20240828002"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -2011990.53000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -2011990.53000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240828002"
     sourceId: "06aec141-987c-4b42-941f-ee09878f796f"
@@ -3111,8 +3111,8 @@ kpay144 (21200-20914.6=285.4)"
     orderId: "9bde202e-5efd-4b45-9fa3-b87e7203e711"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
-2024-08-31 * "Assets:CurrentAssets:Wallet:DkkCWallet金料" "Invoice Payment for Invoice #919 #0a74de81-94aa-42e7-a041-5205dccbd9ae 7360422a-718a-4ec5-924d-2c4f2678c38b"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  455879.83000 USDT {7.79 HKD}
+2024-08-31 * "Assets:CurrentAssets:DigitalAsset:DkkCWallet金料" "Invoice Payment for Invoice #919 #0a74de81-94aa-42e7-a041-5205dccbd9ae 7360422a-718a-4ec5-924d-2c4f2678c38b"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  455879.83000 USDT {7.79 HKD}
     type: "Invoice Payment"
     sourceId: "0a74de81-94aa-42e7-a041-5205dccbd9ae"
     referenceNo: "919"
@@ -3194,7 +3194,7 @@ kpay144 (21200-20914.6=285.4)"
 2024-08-31 * "Reservation Payment R#GR2024083100003S P#P20240831003"
   rsv-ref: "GR2024083100003S"
   pay-ref: "P20240831003"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -65234.70000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -65234.70000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240831003"
     sourceId: "44c83eb5-f286-4f49-8cf2-c0189a6e0e13"
@@ -3209,7 +3209,7 @@ kpay144 (21200-20914.6=285.4)"
 2024-08-31 * "Reservation Payment R#GR2024083100001S P#P20240831004"
   rsv-ref: "GR2024083100001S"
   pay-ref: "P20240831004"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -11662.42000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -11662.42000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240831004"
     sourceId: "626fcda4-d44c-4a25-8021-be4d2ed57fc3"
@@ -3220,6 +3220,17 @@ kpay144 (21200-20914.6=285.4)"
     sourceId: "626fcda4-d44c-4a25-8021-be4d2ed57fc3"
     orderId: "f644d30a-4eb9-4b74-bd24-6df74738f452"
     contact: "852 55350646 (張啟翔CheungKaiCheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
+
+2024-08-31 * "Reservation Delivery R#GR2024083100001S D#D20240831005"
+  rsv-ref: "GR2024083100001S"
+  del-ref: "D20240831005"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-張啟翔CheungKaiCheung85255350646  -11662.42000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20240831005"
+    sourceId: "84991d85-b52e-4a34-af90-3ee84224ddd3"
+    orderId: "f644d30a-4eb9-4b74-bd24-6df74738f452"
+    contact: "852 55350646 (張啟翔CheungKaiCheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
+  Assets:Inventory:Gold:Gold-In-Stock  146.70000 XAU { }
 
 2024-08-31 * "Reservation Delivery R#GR2024083100002S D#D20240831006"
   rsv-ref: "GR2024083100002S"
@@ -3243,21 +3254,10 @@ kpay144 (21200-20914.6=285.4)"
     contact: "852 57129852 (縣文鍾) [cd123b93-04d4-416a-9536-843889bfd7db]"
   Assets:Inventory:Gold:Gold-In-Stock  820.89270 XAU { }
 
-2024-08-31 * "Reservation Delivery R#GR2024083100001S D#D20240831005"
-  rsv-ref: "GR2024083100001S"
-  del-ref: "D20240831005"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-張啟翔CheungKaiCheung85255350646  -11662.42000 USDT {7.79 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20240831005"
-    sourceId: "84991d85-b52e-4a34-af90-3ee84224ddd3"
-    orderId: "f644d30a-4eb9-4b74-bd24-6df74738f452"
-    contact: "852 55350646 (張啟翔CheungKaiCheung) [4346d519-970e-4008-b29e-1b5124ef1afe]"
-  Assets:Inventory:Gold:Gold-In-Stock  146.70000 XAU { }
-
 2024-08-31 * "Reservation Payment R#GR2024082200003S P#P20240831001"
   rsv-ref: "GR2024082200003S"
   pay-ref: "P20240831001"
-  Assets:CurrentAssets:Wallet:DkkCWallet金料  -4012006.12000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -4012006.12000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20240831001"
     sourceId: "123d157d-3a1f-41a9-96cd-ddf519229d46"
