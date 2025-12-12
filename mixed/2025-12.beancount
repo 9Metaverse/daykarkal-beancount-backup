@@ -348,3 +348,31 @@
     referenceNo: "1177"
     orderId: "4c86ef2f-570f-48c0-b025-562c49ddd795"
     contact: "852 64669322 (NoName) [0da02c8e-da81-4600-9f8e-2aa9f1121ccd]"
+
+2025-12-12 * "Invoice #1178 Bespoke 18K Rose Gold Aquamarine & Diamonds Bracelet 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -4300.00000 HKD
+    description: "Bespoke 18K Rose Gold Aquamarine & Diamonds Bracelet"
+    qty: "1"
+    referenceNo: "1178"
+    orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+    type: "Invoice Item"
+    sourceId: "147f36e8-a45d-47a4-8102-6f0d48d9112c"
+  Assets:CurrentAssets:AccountReceivable  4300.00000 HKD
+    referenceNo: "1178"
+    orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+    type: "Invoice"
+    sourceId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+    contact: "852 64660097 (NoName) [793c7b3b-6a9c-426f-8abf-10a0d680d42f]"
+
+2025-12-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1178 #8c2f1398-b85c-48cb-8261-8daec39a431e 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+  Assets:CurrentAssets:Bank:BocSavingBank  2150.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "8c2f1398-b85c-48cb-8261-8daec39a431e"
+    referenceNo: "1178"
+    orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+  Assets:CurrentAssets:AccountReceivable  -2150.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "8c2f1398-b85c-48cb-8261-8daec39a431e"
+    referenceNo: "1178"
+    orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
+    contact: "852 64660097 (NoName) [793c7b3b-6a9c-426f-8abf-10a0d680d42f]"
