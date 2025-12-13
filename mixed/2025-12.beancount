@@ -435,7 +435,7 @@
   referenceNo: "1513"
   orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  0.00000 HKD
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  354.00000 HKD
     category: "Other"
     sku: "IGICERT754547618"
     qty: "1"
@@ -443,9 +443,22 @@
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
     type: "Bill Item"
     sourceId: "a8294966-47c5-4cdc-8fe2-882007550016"
-  Liabilities:CurrentLiabilities:AccountPayable  0.00000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable  -354.00000 HKD
     referenceNo: "1513"
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
     contact: "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]"
     type: "Bill"
     sourceId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
+
+2025-12-13 * "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]" "Bill Payment for Bill #1513 #e5d7fec8-9700-497d-9394-9b0cef4b2970 c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
+  Assets:CurrentAssets:Cash:G17ShopCash  -354.00000 HKD
+    type: "Bill Payment"
+    sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
+    referenceNo: "1513"
+    orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
+  Liabilities:CurrentLiabilities:AccountPayable  354.00000 HKD
+    contact: "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]"
+    type: "Bill Payment"
+    sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
+    referenceNo: "1513"
+    orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
