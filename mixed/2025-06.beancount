@@ -211,37 +211,6 @@
     referenceNo: "1355"
     orderId: "e83c2314-7e80-40c0-b769-48d12485a105"
 
-2025-06-05 * "Bill #1356 BANK FEE 74e73917-4277-478c-983c-d085da411841"
-  referenceNo: "1356"
-  orderId: "74e73917-4277-478c-983c-d085da411841"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  15.02000 HKD
-    qty: "1"
-    description: "FR: HEREAUS  HKD 73044.87 (R#GR2025052800002B P#P20250605001)"
-    referenceNo: "1356"
-    orderId: "74e73917-4277-478c-983c-d085da411841"
-    type: "Bill Item"
-    sourceId: "3da099b8-38fd-4de4-b98c-df442c7327bc"
-  Liabilities:CurrentLiabilities:AccountPayable  -15.02000 HKD
-    referenceNo: "1356"
-    orderId: "74e73917-4277-478c-983c-d085da411841"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "74e73917-4277-478c-983c-d085da411841"
-
-2025-06-05 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1356 #dbc796ba-8654-4dbb-976a-1491e1eb73fb 74e73917-4277-478c-983c-d085da411841"
-  Assets:CurrentAssets:Bank:BocSavingBank  -15.02000 HKD
-    type: "Bill Payment"
-    sourceId: "dbc796ba-8654-4dbb-976a-1491e1eb73fb"
-    referenceNo: "1356"
-    orderId: "74e73917-4277-478c-983c-d085da411841"
-  Liabilities:CurrentLiabilities:AccountPayable  15.02000 HKD
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Payment"
-    sourceId: "dbc796ba-8654-4dbb-976a-1491e1eb73fb"
-    referenceNo: "1356"
-    orderId: "74e73917-4277-478c-983c-d085da411841"
-
 2025-06-05 * "Invoice #1024 Order R24137 #15 f07b5b43-7ece-463c-94f5-7ac4ed04c444"
   Income:Sales:SalesItem:Sell18kJewelry  -6800.00000 HKD
     category: "Jewelry"
@@ -271,15 +240,31 @@
     orderId: "f07b5b43-7ece-463c-94f5-7ac4ed04c444"
     contact: "852 60335752 (MSCHAN) [7a216702-b55c-43ab-b112-657670f35cda]"
 
+2025-06-05 * "Reservation Payment R#GR2025052800002B P#P20250605077"
+  rsv-ref: "GR2025052800002B"
+  pay-ref: "P20250605077"
+  Expenses:GeneralExpense:BankFeesExpense  15.02000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20250605077"
+    sourceId: "38e37f1a-6d70-412b-bfd3-b696594b1c3d"
+    orderId: "7ed6248b-0798-4137-9e54-dc952c7d62d4"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-heraeusLimited85226751252  -1.92000 USD {7.8 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20250605077"
+    sourceId: "38e37f1a-6d70-412b-bfd3-b696594b1c3d"
+    orderId: "7ed6248b-0798-4137-9e54-dc952c7d62d4"
+    contact: "852 26751252 (HeraeusLimited) [605e3379-1294-4d1d-a028-3db7842f140b]"
+  Income:FXGainOrLoss
+
 2025-06-05 * "Reservation Payment R#GR2025052800002B P#P20250605001"
   rsv-ref: "GR2025052800002B"
   pay-ref: "P20250605001"
-  Assets:CurrentAssets:Bank:BocSavingBank  73044.87000 HKD
+  Assets:CurrentAssets:Bank:BocSavingBank  73029.85000 HKD
     type: "Reservation Payment"
     referenceNo: "P20250605001"
     sourceId: "3a8b579d-8a90-4a03-a38e-7befe6841fb3"
     orderId: "7ed6248b-0798-4137-9e54-dc952c7d62d4"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-heraeusLimited85226751252  -9337.91000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-heraeusLimited85226751252  -9335.99000 USD {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20250605001"
     sourceId: "3a8b579d-8a90-4a03-a38e-7befe6841fb3"
