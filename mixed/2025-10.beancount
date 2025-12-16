@@ -493,6 +493,30 @@
     orderId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
     contact: "852 67177273 () [d4ede0de-055e-4a6d-8e5a-92040419284f]"
 
+2025-10-09 * "Invoice #1156 Stock P2447/N2101 c570c51a-ccd3-4a20-a6da-c681bb81950d"
+  Income:Sales:SalesItem:Sell18kJewelry  -22200.00000 HKD
+    category: "Jewelry"
+    sku: "DDFFFFFF0300000000000012"
+    qty: "1"
+    referenceNo: "1156"
+    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
+    type: "Invoice Item"
+    sourceId: "cdef16c2-4a55-4453-9950-b0991808b4a1"
+  Income:Sales:SalesItem:Sell18kJewelry  -3800.00000 HKD
+    category: "Jewelry"
+    sku: "DD2024071800000013"
+    qty: "1"
+    referenceNo: "1156"
+    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
+    type: "Invoice Item"
+    sourceId: "62b1f7d7-b8b0-4065-8e7d-1f1c275b85a3"
+  Assets:CurrentAssets:AccountReceivable  26000.00000 HKD
+    referenceNo: "1156"
+    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
+    type: "Invoice"
+    sourceId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
+    contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
+
 2025-10-09 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
   Expenses:GeneralExpense:G17ShopExpenses  18.00000 HKD
     type: "MJ"
@@ -518,30 +542,6 @@
     orderId: "9c7fad71-4203-47a7-aaea-3c9161d4b445"
     referenceNo: "1192"
     description: "G17 Pretty Cash (消毒酒精)"
-
-2025-10-09 * "Invoice #1156 Stock P2447/N2101 c570c51a-ccd3-4a20-a6da-c681bb81950d"
-  Income:Sales:SalesItem:Sell18kJewelry  -22200.00000 HKD
-    category: "Jewelry"
-    sku: "DDFFFFFF0300000000000012"
-    qty: "1"
-    referenceNo: "1156"
-    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
-    type: "Invoice Item"
-    sourceId: "cdef16c2-4a55-4453-9950-b0991808b4a1"
-  Income:Sales:SalesItem:Sell18kJewelry  -3800.00000 HKD
-    category: "Jewelry"
-    sku: "DD2024071800000013"
-    qty: "1"
-    referenceNo: "1156"
-    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
-    type: "Invoice Item"
-    sourceId: "62b1f7d7-b8b0-4065-8e7d-1f1c275b85a3"
-  Assets:CurrentAssets:AccountReceivable  26000.00000 HKD
-    referenceNo: "1156"
-    orderId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
-    type: "Invoice"
-    sourceId: "c570c51a-ccd3-4a20-a6da-c681bb81950d"
-    contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
 
 2025-10-09 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1156 #b7b254ab-6738-401b-83e1-c5a5fdc949c1 c570c51a-ccd3-4a20-a6da-c681bb81950d"
   Assets:CurrentAssets:Bank:KpayBank  26000.00000 HKD
@@ -773,22 +773,8 @@
     orderId: "5c3a5ad0-441f-44c9-9db4-3def2a6f0abb"
     contact: "852 92279798 (MINGYUKHO) [d5f4490e-3279-4fba-b304-baf49c80087c]"
 
-2025-10-15 * "Assets:CurrentAssets:Bank:BocSavingBank" "Bank Transfer : BOC - Foreign to BOC - HKD SAV"
-  Assets:CurrentAssets:Bank:BocSavingBank  28000.00000 USD {7.8 HKD}
-    type: "MJ"
-    sourceId: "021d9953-39bd-4099-8579-5f853f3deb99"
-    orderId: "021d9953-39bd-4099-8579-5f853f3deb99"
-    referenceNo: "1246"
-    description: "Bank Transfer : BOC - Foreign to BOC - HKD SAV"
-  Assets:CurrentAssets:Bank:BocForeignBank  -28000.00000 USD {7.8 HKD}
-    type: "MJ"
-    sourceId: "021d9953-39bd-4099-8579-5f853f3deb99"
-    orderId: "021d9953-39bd-4099-8579-5f853f3deb99"
-    referenceNo: "1246"
-    description: "Bank Transfer : BOC - Foreign to BOC - HKD SAV"
-
 2025-10-15 * " ID: e36151c5-d159-47aa-baab-93f813e5b4b7"
-  Assets:CurrentAssets:Bank:BocSavingBank  -28000.00000 USD {7.8 HKD}
+  Assets:CurrentAssets:Bank:BocForeignBank  -28000.00000 USD {7.8 HKD}
     type: "Conversion"
     sourceId: "e36151c5-d159-47aa-baab-93f813e5b4b7"
     referenceNo: "147"
@@ -957,19 +943,6 @@
     contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
   Income:FXGainOrLoss
 
-2025-10-16 * "Reservation Delivery R#GR2025101600002B D#D20251016004"
-  rsv-ref: "GR2025101600002B"
-  del-ref: "D20251016004"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-821065795780  272911.99000 USD {7.8 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20251016004"
-    sourceId: "25e95b50-f3e0-4835-9e3a-258ce5420e71"
-    orderId: "7ff5fb5c-98fa-442b-95b6-9a236a0889ad"
-    contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
-  Income:Sales:Sales-Gold  -2128713.52000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2025-10-16 * "Reservation Delivery R#GR2025101600001B D#D20251016001"
   rsv-ref: "GR2025101600001B"
   del-ref: "D20251016001"
@@ -981,6 +954,19 @@
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
   Income:Sales:Sales-Gold  -399469.20000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -376.00000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2025-10-16 * "Reservation Delivery R#GR2025101600002B D#D20251016004"
+  rsv-ref: "GR2025101600002B"
+  del-ref: "D20251016004"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-821065795780  272911.99000 USD {7.8 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20251016004"
+    sourceId: "25e95b50-f3e0-4835-9e3a-258ce5420e71"
+    orderId: "7ff5fb5c-98fa-442b-95b6-9a236a0889ad"
+    contact: "82 1065795780 () [28941564-a1f7-49d2-83c3-bc2c826cee2e]"
+  Income:Sales:Sales-Gold  -2128713.52000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -2000.00000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2025-10-16 * "Bill #1479 Buy Sapphire (6SAP 6.18CT / 11SAP 6.29CT) 04577cee-913e-4c71-8ae0-7d481ca05f6a"
