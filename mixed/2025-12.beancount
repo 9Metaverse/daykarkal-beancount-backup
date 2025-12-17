@@ -464,6 +464,42 @@
     referenceNo: "1513"
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
 
+2025-12-16 * "Invoice #1179 Stock~ BN2564 a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+  Income:Sales:SalesItem:Sell18kJewelry  -4000.00000 HKD
+    category: "Unknown"
+    sku: "DD20250922027"
+    qty: "1"
+    referenceNo: "1179"
+    orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+    type: "Invoice Item"
+    sourceId: "5c8f9632-5373-44e2-9b88-ff4fcf2b271b"
+  Income:Sales:SalesItem:Sell18kJewelry  0.00000 HKD
+    description: "Xmas Promotion "
+    qty: "1"
+    referenceNo: "1179"
+    orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+    type: "Invoice Item"
+    sourceId: "2fcbd100-38ad-4d31-b803-ebc663b9716f"
+  Assets:CurrentAssets:AccountReceivable  4000.00000 HKD
+    referenceNo: "1179"
+    orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+    type: "Invoice"
+    sourceId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+    contact: "852 62268988 (NoName) [2cda5cd9-7067-4dd4-8c01-edaeb5fcfefb]"
+
+2025-12-16 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1179 #477a8209-564f-4caf-a2f0-b12c1202b0cc a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+  Assets:CurrentAssets:Bank:KpayBank  4000.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "477a8209-564f-4caf-a2f0-b12c1202b0cc"
+    referenceNo: "1179"
+    orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+  Assets:CurrentAssets:AccountReceivable  -4000.00000 HKD
+    type: "Invoice Payment"
+    sourceId: "477a8209-564f-4caf-a2f0-b12c1202b0cc"
+    referenceNo: "1179"
+    orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
+    contact: "852 62268988 (NoName) [2cda5cd9-7067-4dd4-8c01-edaeb5fcfefb]"
+
 2025-12-17 * "Reservation Delivery R#GR2025121700003S D#D20251217003"
   rsv-ref: "GR2025121700003S"
   del-ref: "D20251217003"
@@ -502,3 +538,18 @@
     sourceId: "2bc75418-acaf-4c28-9ffe-51a347309074"
     orderId: "84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+
+2025-12-17 * "Invoice #1180 ee1725e0-1150-4c9d-82c8-283633bdd62c"
+  Income:Sales:SalesItem:Sell18kJewelry  -842.00000 HKD
+    description: "BN2538 18K白金鏈"
+    qty: "1"
+    referenceNo: "1180"
+    orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
+    type: "Invoice Item"
+    sourceId: "e2596b7e-add9-424e-8845-6981346f4762"
+  Assets:CurrentAssets:AccountReceivable  842.00000 HKD
+    referenceNo: "1180"
+    orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
+    type: "Invoice"
+    sourceId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
