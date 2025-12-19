@@ -1,5 +1,18 @@
 ; Mixed transactions for 2022-04 (FY 2023)
 
+2022-04-01 * "Income:Sales:Discount" "Invoice Payment for Invoice #84 #d86a8100-3c62-4e59-b724-762e93ec8b03 fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Income:Sales:Discount  0.600000 HKD
+    type: "Invoice Payment"
+    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
+    referenceNo: "84"
+    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Assets:CurrentAssets:AccountReceivable  -0.600000 HKD
+    type: "Invoice Payment"
+    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
+    referenceNo: "84"
+    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+    contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+
 2022-04-01 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Opening adjustment 2022-2023"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  300.000000 HKD
     type: "MJ"
@@ -50,19 +63,6 @@
     orderId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
     referenceNo: "477"
     description: "Released adjustment of Expenses for payment settle in 22/5/2022"
-
-2022-04-01 * "Income:Sales:Discount" "Invoice Payment for Invoice #84 #d86a8100-3c62-4e59-b724-762e93ec8b03 fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-  Income:Sales:Discount  0.600000 HKD
-    type: "Invoice Payment"
-    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
-    referenceNo: "84"
-    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-  Assets:CurrentAssets:AccountReceivable  -0.600000 HKD
-    type: "Invoice Payment"
-    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
-    referenceNo: "84"
-    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-    contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
 
 2022-04-01 * "Income:Sales:Discount" "Invoice Payment for Invoice #83 #7e0192be-a609-4f70-aa1a-3a27b4c5fcf6 d03a5659-8907-4464-8fdf-a33efebca16d"
   Income:Sales:Discount  0.530000 HKD
@@ -201,20 +201,6 @@
     referenceNo: "1361"
     orderId: "56d72de9-ba21-490d-a7cc-a07bf7046976"
 
-2022-04-12 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash ( USD2040*7.845 )"
-  Assets:CurrentAssets:Cash:CashInHand  16004.000000 HKD
-    type: "MJ"
-    sourceId: "c527e88a-e30b-410f-a7ac-7d212367458b"
-    orderId: "c527e88a-e30b-410f-a7ac-7d212367458b"
-    referenceNo: "1095"
-    description: ""
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -16004.000000 HKD
-    type: "MJ"
-    sourceId: "c527e88a-e30b-410f-a7ac-7d212367458b"
-    orderId: "c527e88a-e30b-410f-a7ac-7d212367458b"
-    referenceNo: "1095"
-    description: "USD2040*7.845"
-
 2022-04-12 * "Assets:CurrentAssets:Cash:CashInHand" "Cash Received From David (Director)"
   Assets:CurrentAssets:Cash:CashInHand  80000.000000 HKD
     type: "MJ"
@@ -229,19 +215,19 @@
     referenceNo: "88"
     description: ""
 
-2022-04-14 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash 借錢"
-  Assets:CurrentAssets:Cash:CashInHand  150000.000000 HKD
+2022-04-12 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash ( USD2040*7.845 )"
+  Assets:CurrentAssets:Cash:CashInHand  16004.000000 HKD
     type: "MJ"
-    sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
-    orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
-    referenceNo: "1089"
+    sourceId: "c527e88a-e30b-410f-a7ac-7d212367458b"
+    orderId: "c527e88a-e30b-410f-a7ac-7d212367458b"
+    referenceNo: "1095"
     description: ""
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -150000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -16004.000000 HKD
     type: "MJ"
-    sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
-    orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
-    referenceNo: "1089"
-    description: ""
+    sourceId: "c527e88a-e30b-410f-a7ac-7d212367458b"
+    orderId: "c527e88a-e30b-410f-a7ac-7d212367458b"
+    referenceNo: "1095"
+    description: "USD2040*7.845"
 
 2022-04-14 * "Invoice #87 INV-0044 MR. WONG ead72374-2fc6-469b-a82c-bfefa6b823ac"
   Income:Sales:SalesItem:SellBespokeorotherFee  -2500.000000 HKD
@@ -266,24 +252,6 @@
     type: "Invoice"
     sourceId: "ead72374-2fc6-469b-a82c-bfefa6b823ac"
     contact: "852 68999309 (85268999309) [5c943df0-a3b2-4f23-9079-2e343183afe6]"
-
-2022-04-14 * "Bill #117 EX00022 81ed89f7-bc77-4f6f-8449-48be3d740199"
-  referenceNo: "117"
-  orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
-  type: "Bill"
-  Expenses:GeneralExpense:ElectricityLightHeating  79.000000 HKD
-    qty: "1"
-    description: "323電費(2022-3月) "
-    referenceNo: "117"
-    orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
-    type: "Bill Item"
-    sourceId: "c587015e-41a7-4e0e-a114-c89c982db5e9"
-  Liabilities:CurrentLiabilities:AccountPayable  -79.000000 HKD
-    referenceNo: "117"
-    orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
 
 2022-04-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu" "Invoice Payment for Invoice #87 #72c0b9b8-79d1-4fef-bfdd-fb7992dea650 ead72374-2fc6-469b-a82c-bfefa6b823ac"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  5000.000000 HKD
@@ -310,6 +278,38 @@
     referenceNo: "87"
     orderId: "ead72374-2fc6-469b-a82c-bfefa6b823ac"
     contact: "852 68999309 (85268999309) [5c943df0-a3b2-4f23-9079-2e343183afe6]"
+
+2022-04-14 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash 借錢"
+  Assets:CurrentAssets:Cash:CashInHand  150000.000000 HKD
+    type: "MJ"
+    sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
+    orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
+    referenceNo: "1089"
+    description: ""
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -150000.000000 HKD
+    type: "MJ"
+    sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
+    orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
+    referenceNo: "1089"
+    description: ""
+
+2022-04-14 * "Bill #117 EX00022 81ed89f7-bc77-4f6f-8449-48be3d740199"
+  referenceNo: "117"
+  orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating  79.000000 HKD
+    qty: "1"
+    description: "323電費(2022-3月) "
+    referenceNo: "117"
+    orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
+    type: "Bill Item"
+    sourceId: "c587015e-41a7-4e0e-a114-c89c982db5e9"
+  Liabilities:CurrentLiabilities:AccountPayable  -79.000000 HKD
+    referenceNo: "117"
+    orderId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "81ed89f7-bc77-4f6f-8449-48be3d740199"
 
 2022-04-15 * "Invoice #88 INV-0046 MR. YIP 3689c44f-5ed7-4f03-9820-bc5b02c5b19d"
   Income:Sales:SalesItem:SellDiamond  -62700.000000 HKD
@@ -445,20 +445,6 @@
     orderId: "0be64ddd-6d97-40c5-bc98-ff43b2bc6cb0"
     contact: "852 92815367 (CARY) [35a3e928-796e-426c-94da-7a6a36f25ac7]"
 
-2022-04-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (付美9430-退801= 8637*7.845)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  67757.000000 HKD
-    type: "MJ"
-    sourceId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
-    orderId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
-    referenceNo: "1087"
-    description: "GIA Deposit Paid 67757"
-  Assets:CurrentAssets:Cash:CashInHand  -67757.000000 HKD
-    type: "MJ"
-    sourceId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
-    orderId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
-    referenceNo: "1087"
-    description: "GIA Deposit Paid 67757"
-
 2022-04-19 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (借美9430*7.845=73978)"
   Assets:CurrentAssets:Cash:CashInHand  73978.000000 HKD
     type: "MJ"
@@ -472,6 +458,20 @@
     orderId: "4b9a19fd-544b-4a0d-a5af-c2aec5c3312b"
     referenceNo: "216"
     description: ""
+
+2022-04-19 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (付美9430-退801= 8637*7.845)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  67757.000000 HKD
+    type: "MJ"
+    sourceId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
+    orderId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
+    referenceNo: "1087"
+    description: "GIA Deposit Paid 67757"
+  Assets:CurrentAssets:Cash:CashInHand  -67757.000000 HKD
+    type: "MJ"
+    sourceId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
+    orderId: "d574063b-3233-4bc5-8efc-4dd436bbe41d"
+    referenceNo: "1087"
+    description: "GIA Deposit Paid 67757"
 
 2022-04-20 * "Invoice #191 INV-0148 MR.SHUM FRANKIE 8abbc51d-e81e-4ce1-90b7-9031f3567d8a"
   Income:Sales:SalesItem:SellDiamond  -32300.000000 HKD
@@ -497,20 +497,6 @@
     sourceId: "8abbc51d-e81e-4ce1-90b7-9031f3567d8a"
     contact: "852 92504797 (MR.SHUMFRANKIE) [38eac647-9734-412a-ace4-3cdf1f31d149]"
 
-2022-04-21 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (Ronit Cash 付GIA石錢 1.5023*7.845)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  117855.000000 HKD
-    type: "MJ"
-    sourceId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-    orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-    referenceNo: "1086"
-    description: "GIA Deposit Paid 117855"
-  Assets:CurrentAssets:Cash:CashInHand  -117855.000000 HKD
-    type: "MJ"
-    sourceId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-    orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
-    referenceNo: "1086"
-    description: "GIA Deposit Paid 117855"
-
 2022-04-21 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (借USD1.5023*7.845)"
   Assets:CurrentAssets:Cash:CashInHand  117855.000000 HKD
     type: "MJ"
@@ -525,19 +511,19 @@
     referenceNo: "1085"
     description: ""
 
-2022-04-21 * "Assets:CurrentAssets:Cash:CashInHand" "BEE GEMS to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:CashInHand  166600.000000 HKD
+2022-04-21 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Cash to Skyhigh (Ronit Cash 付GIA石錢 1.5023*7.845)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  117855.000000 HKD
     type: "MJ"
-    sourceId: "062a2141-5b81-436b-aba7-36cc1364dadf"
-    orderId: "062a2141-5b81-436b-aba7-36cc1364dadf"
-    referenceNo: "1083"
-    description: "DEPOSIT RETURN 166600"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd  -166600.000000 HKD
+    sourceId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+    orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+    referenceNo: "1086"
+    description: "GIA Deposit Paid 117855"
+  Assets:CurrentAssets:Cash:CashInHand  -117855.000000 HKD
     type: "MJ"
-    sourceId: "062a2141-5b81-436b-aba7-36cc1364dadf"
-    orderId: "062a2141-5b81-436b-aba7-36cc1364dadf"
-    referenceNo: "1083"
-    description: "DEPOSIT RETURN 166600"
+    sourceId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+    orderId: "a454c125-8c33-4540-8b7b-cae85b16d2b2"
+    referenceNo: "1086"
+    description: "GIA Deposit Paid 117855"
 
 2022-04-21 * "Bill #644 SI-10221 (Ring setting) 8b1bc756-dd2e-4527-9ced-2a5cf6d6593c"
   referenceNo: "644"
@@ -557,6 +543,20 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     type: "Bill"
     sourceId: "8b1bc756-dd2e-4527-9ced-2a5cf6d6593c"
+
+2022-04-21 * "Assets:CurrentAssets:Cash:CashInHand" "BEE GEMS to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:CashInHand  166600.000000 HKD
+    type: "MJ"
+    sourceId: "062a2141-5b81-436b-aba7-36cc1364dadf"
+    orderId: "062a2141-5b81-436b-aba7-36cc1364dadf"
+    referenceNo: "1083"
+    description: "DEPOSIT RETURN 166600"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-BeeGemsCoLtd  -166600.000000 HKD
+    type: "MJ"
+    sourceId: "062a2141-5b81-436b-aba7-36cc1364dadf"
+    orderId: "062a2141-5b81-436b-aba7-36cc1364dadf"
+    referenceNo: "1083"
+    description: "DEPOSIT RETURN 166600"
 
 2022-04-22 * "Bill #565 SI-10225 Bill PO-0005(INV-0044,0048, MEMO GIA PURCHASE) 1f821f1f-4aa1-4307-a7ed-4c99d7287973"
   referenceNo: "565"
@@ -667,30 +667,6 @@
     referenceNo: "494"
     description: "GIA Deposit Paid 76900"
 
-2022-04-26 * "Invoice #90 INV-0049 MS. WONG ANNIE 17cafd5b-64c5-4307-9b15-01c22e79ad48"
-  Income:Sales:SalesItem:Sell18kJewelry  -2000.000000 HKD
-    category: "Unknown"
-    sku: "DDFFFFFF0B00000000000100"
-    qty: "1"
-    referenceNo: "90"
-    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
-    type: "Invoice Item"
-    sourceId: "29118396-4a7b-4a73-a5d0-9b79ee73428e"
-  Income:Sales:SalesItem:SellDiamond  -40000.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800006422734454"
-    qty: "1"
-    referenceNo: "90"
-    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
-    type: "Invoice Item"
-    sourceId: "579d9fab-62c4-48f7-8dda-2757e251c783"
-  Assets:CurrentAssets:AccountReceivable  42000.000000 HKD
-    referenceNo: "90"
-    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
-    type: "Invoice"
-    sourceId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
-    contact: "852 54079307 (MS.ANNIE) [ad7e9942-5782-4019-a50d-1cd74d896871]"
-
 2022-04-26 * "Bill #93 SI-10229 9109ae9d-fd2c-4964-8091-fd32ddb4bc39"
   referenceNo: "93"
   orderId: "9109ae9d-fd2c-4964-8091-fd32ddb4bc39"
@@ -718,6 +694,30 @@
     type: "Bill"
     sourceId: "9109ae9d-fd2c-4964-8091-fd32ddb4bc39"
 
+2022-04-26 * "Invoice #90 INV-0049 MS. WONG ANNIE 17cafd5b-64c5-4307-9b15-01c22e79ad48"
+  Income:Sales:SalesItem:Sell18kJewelry  -2000.000000 HKD
+    category: "Unknown"
+    sku: "DDFFFFFF0B00000000000100"
+    qty: "1"
+    referenceNo: "90"
+    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
+    type: "Invoice Item"
+    sourceId: "29118396-4a7b-4a73-a5d0-9b79ee73428e"
+  Income:Sales:SalesItem:SellDiamond  -40000.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800006422734454"
+    qty: "1"
+    referenceNo: "90"
+    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
+    type: "Invoice Item"
+    sourceId: "579d9fab-62c4-48f7-8dda-2757e251c783"
+  Assets:CurrentAssets:AccountReceivable  42000.000000 HKD
+    referenceNo: "90"
+    orderId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
+    type: "Invoice"
+    sourceId: "17cafd5b-64c5-4307-9b15-01c22e79ad48"
+    contact: "852 54079307 (MS.ANNIE) [ad7e9942-5782-4019-a50d-1cd74d896871]"
+
 2022-04-26 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu" "Invoice Payment for Invoice #90 #6695f59d-6d72-47fc-a886-870fe21629f7 17cafd5b-64c5-4307-9b15-01c22e79ad48"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  10000.000000 HKD
     type: "Invoice Payment"
@@ -744,44 +744,6 @@
     orderId: "94b0c81c-ef98-4ce5-bf08-dd4235e4afb1"
     referenceNo: "1077"
     description: "#1901"
-
-2022-04-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Elma轉Skyhigh"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  50000.000000 HKD
-    type: "MJ"
-    sourceId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-    orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-    referenceNo: "124"
-    description: ""
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  -50000.000000 HKD
-    type: "MJ"
-    sourceId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-    orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
-    referenceNo: "124"
-    description: ""
-
-2022-04-27 * "Invoice #91 INV-0050 a895693f-308f-4c0f-adf0-42d521f64204"
-  Income:Sales:SalesItem:Sell18kJewelry  -2500.000000 HKD
-    category: "Unknown"
-    sku: "DDFFFFFF0B00000000000101"
-    qty: "1"
-    referenceNo: "91"
-    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
-    type: "Invoice Item"
-    sourceId: "48a5feb4-d6ca-4ab3-8c22-2b2525d97cf7"
-  Income:Sales:SalesItem:SellDiamond  -54500.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800002416201777"
-    qty: "1"
-    referenceNo: "91"
-    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
-    type: "Invoice Item"
-    sourceId: "07b0f82a-577d-4327-b7ec-92f3689edff3"
-  Assets:CurrentAssets:AccountReceivable  57000.000000 HKD
-    referenceNo: "91"
-    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
-    type: "Invoice"
-    sourceId: "a895693f-308f-4c0f-adf0-42d521f64204"
-    contact: "852 60904061 (MR.BENLEY) [d7b41054-6af9-49af-9762-8b45a398a688]"
 
 2022-04-27 * "Bill #85 GIA PURCHASE 447c4767-c059-4666-b41a-5e6b1f00f042"
   referenceNo: "85"
@@ -826,6 +788,57 @@
     type: "Bill"
     sourceId: "447c4767-c059-4666-b41a-5e6b1f00f042"
 
+2022-04-27 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Elma轉Skyhigh"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  50000.000000 HKD
+    type: "MJ"
+    sourceId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+    orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+    referenceNo: "124"
+    description: ""
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  -50000.000000 HKD
+    type: "MJ"
+    sourceId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+    orderId: "3b353760-2fcc-49b8-83d7-f68b928dbdb2"
+    referenceNo: "124"
+    description: ""
+
+2022-04-27 * "Invoice #91 INV-0050 a895693f-308f-4c0f-adf0-42d521f64204"
+  Income:Sales:SalesItem:Sell18kJewelry  -2500.000000 HKD
+    category: "Unknown"
+    sku: "DDFFFFFF0B00000000000101"
+    qty: "1"
+    referenceNo: "91"
+    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
+    type: "Invoice Item"
+    sourceId: "48a5feb4-d6ca-4ab3-8c22-2b2525d97cf7"
+  Income:Sales:SalesItem:SellDiamond  -54500.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800002416201777"
+    qty: "1"
+    referenceNo: "91"
+    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
+    type: "Invoice Item"
+    sourceId: "07b0f82a-577d-4327-b7ec-92f3689edff3"
+  Assets:CurrentAssets:AccountReceivable  57000.000000 HKD
+    referenceNo: "91"
+    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
+    type: "Invoice"
+    sourceId: "a895693f-308f-4c0f-adf0-42d521f64204"
+    contact: "852 60904061 (MR.BENLEY) [d7b41054-6af9-49af-9762-8b45a398a688]"
+
+2022-04-27 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu" "Invoice Payment for Invoice #91 #2ed234e4-c4b5-4d0b-83b9-e69988ae4c97 a895693f-308f-4c0f-adf0-42d521f64204"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  10000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "2ed234e4-c4b5-4d0b-83b9-e69988ae4c97"
+    referenceNo: "91"
+    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
+  Assets:CurrentAssets:AccountReceivable  -10000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "2ed234e4-c4b5-4d0b-83b9-e69988ae4c97"
+    referenceNo: "91"
+    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
+    contact: "852 60904061 (MR.BENLEY) [d7b41054-6af9-49af-9762-8b45a398a688]"
+
 2022-04-27 * "Bill #86 PO-0007, 0008(INV-0049, 0050, MEMO GIA PURCHASE) 25307f18-5a82-4229-af9b-0f0e94220edf"
   referenceNo: "86"
   orderId: "25307f18-5a82-4229-af9b-0f0e94220edf"
@@ -852,19 +865,6 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     type: "Bill"
     sourceId: "25307f18-5a82-4229-af9b-0f0e94220edf"
-
-2022-04-27 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu" "Invoice Payment for Invoice #91 #2ed234e4-c4b5-4d0b-83b9-e69988ae4c97 a895693f-308f-4c0f-adf0-42d521f64204"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  10000.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "2ed234e4-c4b5-4d0b-83b9-e69988ae4c97"
-    referenceNo: "91"
-    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
-  Assets:CurrentAssets:AccountReceivable  -10000.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "2ed234e4-c4b5-4d0b-83b9-e69988ae4c97"
-    referenceNo: "91"
-    orderId: "a895693f-308f-4c0f-adf0-42d521f64204"
-    contact: "852 60904061 (MR.BENLEY) [d7b41054-6af9-49af-9762-8b45a398a688]"
 
 2022-04-28 * "Bill #122 EX00020 0b63bd83-0dcd-4894-b6fd-df655716d5d0"
   referenceNo: "122"
