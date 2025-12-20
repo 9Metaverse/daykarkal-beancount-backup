@@ -539,15 +539,16 @@
     orderId: "84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-12-17 * "Invoice #1180 BN2538 單一條18K白金鏈 ee1725e0-1150-4c9d-82c8-283633bdd62c"
-  Income:Sales:SalesItem:Sell18kJewelry  -842.000000 HKD
-    description: "BN2538 18K白金鏈"
+2025-12-17 * "Invoice #1180 CHAIN 18K白金鏈 ee1725e0-1150-4c9d-82c8-283633bdd62c"
+  Income:Sales:SalesItem:Sell18kJewelry  -849.000000 HKD
+    category: "CHAIN"
+    sku: "DD20251219001"
     qty: "1"
     referenceNo: "1180"
     orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
     type: "Invoice Item"
     sourceId: "e2596b7e-add9-424e-8845-6981346f4762"
-  Assets:CurrentAssets:AccountReceivable  842.000000 HKD
+  Assets:CurrentAssets:AccountReceivable  849.000000 HKD
     referenceNo: "1180"
     orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
     type: "Invoice"
@@ -638,6 +639,25 @@
     referenceNo: "2120"
     description: "417 to G17"
 
+2025-12-20 * "Bill #1515 ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+  referenceNo: "1515"
+  orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  849.000000 HKD
+    category: "CHAIN"
+    sku: "DD20251219001"
+    qty: "1"
+    referenceNo: "1515"
+    orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+    type: "Bill Item"
+    sourceId: "6fc627af-82f9-4866-919d-bfdc83d0a68a"
+  Liabilities:CurrentLiabilities:AccountPayable  -849.000000 HKD
+    referenceNo: "1515"
+    orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill"
+    sourceId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+
 2025-12-20 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1178 #4ad2a336-03da-4b77-93f3-1eb30a23726a 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
   Assets:CurrentAssets:Bank:KpayBank  2150.000000 HKD
     type: "Invoice Payment"
@@ -664,3 +684,16 @@
     orderId: "26b5f202-8792-4141-9560-aadd94ba873b"
     referenceNo: "2121"
     description: "G17 Pretty Cash (SF0259585392404)"
+
+2025-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1180 #b91ec583-ba0a-49ce-9866-a791321d64f0 ee1725e0-1150-4c9d-82c8-283633bdd62c"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  849.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "b91ec583-ba0a-49ce-9866-a791321d64f0"
+    referenceNo: "1180"
+    orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
+  Assets:CurrentAssets:AccountReceivable  -849.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "b91ec583-ba0a-49ce-9866-a791321d64f0"
+    referenceNo: "1180"
+    orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
