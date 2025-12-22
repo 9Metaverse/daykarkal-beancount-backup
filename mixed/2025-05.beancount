@@ -162,7 +162,7 @@
 
 2025-05-02 * "Invoice #1000 Bespoke Sapphire Ring #15 58049679-a11d-4288-a67c-9dbcae05b4e5"
   Income:Sales:SalesItem:SellGems  -13500.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2504"
     qty: "1"
     referenceNo: "1000"
@@ -526,7 +526,7 @@
   orderId: "fc2da1d7-73fd-4ab6-afb3-878cde38b741"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  8100.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2504"
     qty: "1"
     referenceNo: "1328"
@@ -704,20 +704,6 @@
     orderId: "2e959aa8-28bb-48f3-a33e-f620e11ab7f3"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-05-07 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 240"
-  Assets:CurrentAssets:Bank:BocSavingBank  2757.000000 HKD
-    type: "MJ"
-    sourceId: "5972d064-2506-4d37-a8ac-ce51f8282144"
-    orderId: "5972d064-2506-4d37-a8ac-ce51f8282144"
-    referenceNo: "107"
-    description: "KPAY to BOC Saving"
-  Assets:CurrentAssets:Bank:KpayBank  -2757.000000 HKD
-    type: "MJ"
-    sourceId: "5972d064-2506-4d37-a8ac-ce51f8282144"
-    orderId: "5972d064-2506-4d37-a8ac-ce51f8282144"
-    referenceNo: "107"
-    description: "KPAY to BOC Saving"
-
 2025-05-07 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 239"
   Assets:CurrentAssets:Bank:BocSavingBank  37506.170000 HKD
     type: "MJ"
@@ -730,6 +716,20 @@
     sourceId: "7230004b-e019-43ba-bbef-8d4b72c6374a"
     orderId: "7230004b-e019-43ba-bbef-8d4b72c6374a"
     referenceNo: "108"
+    description: "KPAY to BOC Saving"
+
+2025-05-07 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 240"
+  Assets:CurrentAssets:Bank:BocSavingBank  2757.000000 HKD
+    type: "MJ"
+    sourceId: "5972d064-2506-4d37-a8ac-ce51f8282144"
+    orderId: "5972d064-2506-4d37-a8ac-ce51f8282144"
+    referenceNo: "107"
+    description: "KPAY to BOC Saving"
+  Assets:CurrentAssets:Bank:KpayBank  -2757.000000 HKD
+    type: "MJ"
+    sourceId: "5972d064-2506-4d37-a8ac-ce51f8282144"
+    orderId: "5972d064-2506-4d37-a8ac-ce51f8282144"
+    referenceNo: "107"
     description: "KPAY to BOC Saving"
 
 2025-05-07 * "Reservation Delivery R#GR2025050700007S D#D20250507008"
@@ -1002,20 +1002,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -100.030000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2025-05-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 241"
-  Assets:CurrentAssets:Bank:BocSavingBank  19.680000 HKD
-    type: "MJ"
-    sourceId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
-    orderId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
-    referenceNo: "106"
-    description: "KPAY to BOC Saving"
-  Assets:CurrentAssets:Bank:KpayBank  -19.680000 HKD
-    type: "MJ"
-    sourceId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
-    orderId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
-    referenceNo: "106"
-    description: "KPAY to BOC Saving"
-
 2025-05-09 * "852 59589397 (ZHILINCHEN) [39a84bc0-2517-45ee-b2c2-d8366488be68]" "代Milways Gold收客人 Chen Zhilin"
   Assets:CurrentAssets:Bank:BocSavingBank  2000.000000 HKD
     type: "MJ"
@@ -1043,6 +1029,20 @@
     orderId: "21fa766b-6810-4f9a-ba58-b90dbcecdb9d"
     referenceNo: "504"
     description: "09/05/2025 clinet Chen Zhilin Milways Gold INV#614"
+
+2025-05-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 241"
+  Assets:CurrentAssets:Bank:BocSavingBank  19.680000 HKD
+    type: "MJ"
+    sourceId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
+    orderId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
+    referenceNo: "106"
+    description: "KPAY to BOC Saving"
+  Assets:CurrentAssets:Bank:KpayBank  -19.680000 HKD
+    type: "MJ"
+    sourceId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
+    orderId: "cbe7ce50-32af-4a99-a55b-3383290b1f68"
+    referenceNo: "106"
+    description: "KPAY to BOC Saving"
 
 2025-05-09 * "Reservation Delivery R#GR2025050900003S D#D20250509004"
   rsv-ref: "GR2025050900003S"
@@ -1420,7 +1420,7 @@
     type: "Bill Item"
     sourceId: "61bcb6dd-9cdb-4d4f-84f1-8d1b22213ac4"
   Assets:CurrentAssets:ShopInventory:Gemstones  -1076.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2423"
     qty: "-1"
     referenceNo: "1327"
@@ -1428,7 +1428,7 @@
     type: "Bill Item"
     sourceId: "c8be6e9a-3f36-46a6-aa79-1220bcbb3efe"
   Assets:CurrentAssets:ShopInventory:Gemstones  -1076.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2435"
     qty: "-1"
     referenceNo: "1327"
@@ -1436,7 +1436,7 @@
     type: "Bill Item"
     sourceId: "f23d9153-9d95-436a-95e7-b8527e7342b1"
   Assets:CurrentAssets:ShopInventory:Gemstones  -1076.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2420"
     qty: "-1"
     referenceNo: "1327"
@@ -1953,20 +1953,6 @@
     orderId: "75645967-93fd-4c2a-a2ae-d40192ef696b"
     contact: "852 97808893 (XINZHANG) [40049697-0b6a-4a85-8a0b-1fc1ffff3f2a]"
 
-2025-05-13 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 243"
-  Assets:CurrentAssets:Bank:BocSavingBank  8470.000000 HKD
-    type: "MJ"
-    sourceId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
-    orderId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
-    referenceNo: "25"
-    description: "KPAY to BOC Saving"
-  Assets:CurrentAssets:Bank:KpayBank  -8470.000000 HKD
-    type: "MJ"
-    sourceId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
-    orderId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
-    referenceNo: "25"
-    description: "KPAY to BOC Saving"
-
 2025-05-13 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 244"
   Assets:CurrentAssets:Bank:BocSavingBank  8.850000 HKD
     type: "MJ"
@@ -1981,12 +1967,26 @@
     referenceNo: "54"
     description: "KPAY to BOC Saving"
 
+2025-05-13 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 243"
+  Assets:CurrentAssets:Bank:BocSavingBank  8470.000000 HKD
+    type: "MJ"
+    sourceId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
+    orderId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
+    referenceNo: "25"
+    description: "KPAY to BOC Saving"
+  Assets:CurrentAssets:Bank:KpayBank  -8470.000000 HKD
+    type: "MJ"
+    sourceId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
+    orderId: "8dca98fa-0a95-4bda-8ed1-ce6a1b3d706b"
+    referenceNo: "25"
+    description: "KPAY to BOC Saving"
+
 2025-05-13 * "Bill #1329 2.45CT/3PCS 3.46CT/47PCS ba0b63b9-a327-4ee6-84bb-e7d22b41899c"
   referenceNo: "1329"
   orderId: "ba0b63b9-a327-4ee6-84bb-e7d22b41899c"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  1369.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2505"
     qty: "1"
     referenceNo: "1329"
@@ -1994,7 +1994,7 @@
     type: "Bill Item"
     sourceId: "1018e032-5280-4daf-b9c5-8a60ce108055"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  1899.001630 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2508"
     qty: "47"
     referenceNo: "1329"
@@ -2002,7 +2002,7 @@
     type: "Bill Item"
     sourceId: "0d60e7a6-02c1-42b3-ba7a-f50c200b4b10"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  1551.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2507"
     qty: "1"
     referenceNo: "1329"
@@ -2010,7 +2010,7 @@
     type: "Bill Item"
     sourceId: "37360f2d-0447-4cd7-9ed3-4e1cf0c70eaf"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  1369.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2506"
     qty: "1"
     referenceNo: "1329"
@@ -2238,7 +2238,7 @@
 
 2025-05-14 * "Invoice #1148 Ref bill#1330 inv#1004(712) R24131 甩石修理 72492509-b288-44a5-a106-e5962e85d0fd"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
-    category: "Other"
+    category: "Unknown"
     sku: "Processing 062"
     qty: "1"
     referenceNo: "1148"
@@ -2294,7 +2294,7 @@
   orderId: "5f50370d-fccd-4a48-8a86-1d599e3780b7"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  100.000000 HKD
-    category: "Other"
+    category: "Unknown"
     sku: "Processing 062"
     qty: "1"
     referenceNo: "1330"
@@ -2693,7 +2693,7 @@
   orderId: "f046666a-f425-4280-a966-99db23b75108"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  320.000000 HKD
-    category: "Other"
+    category: "Unknown"
     sku: "Processing 056"
     qty: "1"
     referenceNo: "1332"
@@ -2890,20 +2890,6 @@
     orderId: "4625810c-2318-496d-9a8b-b38616689062"
     contact: "852 90850806 () [a2a4d589-c11c-4435-bd26-c46dbecf770c]"
 
-2025-05-20 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 245"
-  Assets:CurrentAssets:Bank:BocSavingBank  9879.000000 HKD
-    type: "MJ"
-    sourceId: "02478e97-cb8d-4bc9-8433-41afb183a118"
-    orderId: "02478e97-cb8d-4bc9-8433-41afb183a118"
-    referenceNo: "68"
-    description: "KPAY to BOC Saving"
-  Assets:CurrentAssets:Bank:KpayBank  -9879.000000 HKD
-    type: "MJ"
-    sourceId: "02478e97-cb8d-4bc9-8433-41afb183a118"
-    orderId: "02478e97-cb8d-4bc9-8433-41afb183a118"
-    referenceNo: "68"
-    description: "KPAY to BOC Saving"
-
 2025-05-20 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 246"
   Assets:CurrentAssets:Bank:BocSavingBank  10845.700000 HKD
     type: "MJ"
@@ -2916,6 +2902,20 @@
     sourceId: "d653559c-078c-43be-a8de-94824483eed2"
     orderId: "d653559c-078c-43be-a8de-94824483eed2"
     referenceNo: "53"
+    description: "KPAY to BOC Saving"
+
+2025-05-20 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 245"
+  Assets:CurrentAssets:Bank:BocSavingBank  9879.000000 HKD
+    type: "MJ"
+    sourceId: "02478e97-cb8d-4bc9-8433-41afb183a118"
+    orderId: "02478e97-cb8d-4bc9-8433-41afb183a118"
+    referenceNo: "68"
+    description: "KPAY to BOC Saving"
+  Assets:CurrentAssets:Bank:KpayBank  -9879.000000 HKD
+    type: "MJ"
+    sourceId: "02478e97-cb8d-4bc9-8433-41afb183a118"
+    orderId: "02478e97-cb8d-4bc9-8433-41afb183a118"
+    referenceNo: "68"
     description: "KPAY to BOC Saving"
 
 2025-05-20 * "Invoice #1012 Order R24125 #11 5353d3d7-1c76-4db5-969c-29102157fec0"
@@ -3905,7 +3905,7 @@
     type: "Bill Item"
     sourceId: "718f8958-1110-4cd2-b648-a36fefca9d8d"
   Assets:CurrentAssets:ShopInventory:Gemstones  -760.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2508"
     qty: "-19"
     referenceNo: "1355"
@@ -3921,7 +3921,7 @@
     type: "Bill Item"
     sourceId: "c14112eb-cf9b-462b-b422-c321cdd1e9dd"
   Assets:CurrentAssets:ShopInventory:Gemstones  -400.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2412"
     qty: "-1"
     referenceNo: "1355"
@@ -3937,7 +3937,7 @@
     type: "Bill Item"
     sourceId: "917adbf7-1ccf-4c91-a709-69520eed4b17"
   Assets:CurrentAssets:ShopInventory:Gemstones  -1076.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2436"
     qty: "-1"
     referenceNo: "1355"
@@ -3961,7 +3961,7 @@
     type: "Bill Item"
     sourceId: "92c6ab78-aed0-47b3-be84-485e5c185d3e"
   Assets:CurrentAssets:ShopInventory:Gemstones  -400.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2408"
     qty: "-1"
     referenceNo: "1355"
@@ -3993,7 +3993,7 @@
     type: "Bill Item"
     sourceId: "059718af-5f23-42df-b0fc-1bde632504e3"
   Assets:CurrentAssets:ShopInventory:Gemstones  -546.000000 HKD
-    category: "Gem"
+    category: "Unknown"
     sku: "SAP2402"
     qty: "-1"
     referenceNo: "1355"
@@ -4050,20 +4050,6 @@
     orderId: "edd22c62-728c-480e-a265-ccc048c69cb6"
     referenceNo: "1174"
     description: "Kpay 05/25 手續費"
-
-2025-05-31 * "Assets:CurrentAssets:Bank:BocForeignBank" " INTEREST - BOC Foreign 5/2025"
-  Assets:CurrentAssets:Bank:BocForeignBank  8.160000 USD {7.8 HKD}
-    type: "MJ"
-    sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
-    orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
-    referenceNo: "86"
-    description: " INTEREST - BOC Foreign 5/2025"
-  Income:OtherIncome:Interest-bank   -63.648000 HKD
-    type: "MJ"
-    sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
-    orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
-    referenceNo: "86"
-    description: " INTEREST - BOC Foreign 5/2025"
 
 2025-05-31 * "Assets:CurrentAssets:Bank:KpayBank" "Felix/Piu - M.Card+ Kpay交易測試 (05/2025)"
   Assets:CurrentAssets:Bank:KpayBank  10.000000 HKD
@@ -4158,3 +4144,17 @@
     orderId: "ad6d56ae-18a6-495d-80c0-227b412cebfd"
     referenceNo: "65"
     description: "INTEREST - BOC SAV 5/2025"
+
+2025-05-31 * "Assets:CurrentAssets:Bank:BocForeignBank" " INTEREST - BOC Foreign 5/2025"
+  Assets:CurrentAssets:Bank:BocForeignBank  8.160000 USD {7.8 HKD}
+    type: "MJ"
+    sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
+    orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
+    referenceNo: "86"
+    description: " INTEREST - BOC Foreign 5/2025"
+  Income:OtherIncome:Interest-bank   -63.648000 HKD
+    type: "MJ"
+    sourceId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
+    orderId: "27d94abb-cd39-46c8-9586-67c6a7597a77"
+    referenceNo: "86"
+    description: " INTEREST - BOC Foreign 5/2025"
