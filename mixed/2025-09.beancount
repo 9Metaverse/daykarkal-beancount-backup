@@ -926,22 +926,6 @@
     referenceNo: "1243"
     description: "kpay 280"
 
-2025-09-16 * "Invoice #1128 Stock SAP2554-10 d576a813-e506-469f-8247-a24f08b81ae4"
-  Income:Sales:SalesItem:SellGems  -1000.000000 HKD
-    category: "Gem"
-    sku: "SAP2554-10"
-    qty: "1"
-    referenceNo: "1128"
-    orderId: "d576a813-e506-469f-8247-a24f08b81ae4"
-    type: "Invoice Item"
-    sourceId: "8eb6244f-4845-462d-a093-c7763a863b6d"
-  Assets:CurrentAssets:AccountReceivable  1000.000000 HKD
-    referenceNo: "1128"
-    orderId: "d576a813-e506-469f-8247-a24f08b81ae4"
-    type: "Invoice"
-    sourceId: "d576a813-e506-469f-8247-a24f08b81ae4"
-    contact: "852 91915677 (NoName) [0259071d-c326-4d14-b1d7-693bcfd6bf04]"
-
 2025-09-16 * "Invoice #1127 Order R24131 #12 6ce842ee-f118-4b52-bf10-2d079f86b4d4"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD
     category: "Unknown"
@@ -957,6 +941,22 @@
     type: "Invoice"
     sourceId: "6ce842ee-f118-4b52-bf10-2d079f86b4d4"
     contact: "852 98566810 (NoName) [ec0a7665-ea08-47ba-8523-aaa2f23b52d6]"
+
+2025-09-16 * "Invoice #1128 Stock SAP2554-10 d576a813-e506-469f-8247-a24f08b81ae4"
+  Income:Sales:SalesItem:SellGems  -1000.000000 HKD
+    category: "Gem"
+    sku: "SAP2554-10"
+    qty: "1"
+    referenceNo: "1128"
+    orderId: "d576a813-e506-469f-8247-a24f08b81ae4"
+    type: "Invoice Item"
+    sourceId: "8eb6244f-4845-462d-a093-c7763a863b6d"
+  Assets:CurrentAssets:AccountReceivable  1000.000000 HKD
+    referenceNo: "1128"
+    orderId: "d576a813-e506-469f-8247-a24f08b81ae4"
+    type: "Invoice"
+    sourceId: "d576a813-e506-469f-8247-a24f08b81ae4"
+    contact: "852 91915677 (NoName) [0259071d-c326-4d14-b1d7-693bcfd6bf04]"
 
 2025-09-16 * "Bill #1433 ERIC~補貨/客訂 bd4bbb23-45d0-4e56-ae03-edef5b998bfd"
   referenceNo: "1433"
@@ -2712,7 +2712,7 @@
     contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2025-09-30 * " Cash金料USD>USDT金料 Sep ID: 4c1f374d-3330-411c-8601-e10dbcf02434"
-  Assets:CurrentAssets:Cash:Cash金料  -1069768.000000 USD {7.8 HKD}
+  Assets:CurrentAssets:Cash:Cash金料  -1096768.000000 USD {7.8 HKD}
     type: "Conversion"
     sourceId: "4c1f374d-3330-411c-8601-e10dbcf02434"
     referenceNo: "186"
@@ -2727,3 +2727,20 @@
     sourceId: "4c1f374d-3330-411c-8601-e10dbcf02434"
     referenceNo: "186"
     orderId: "4c1f374d-3330-411c-8601-e10dbcf02434"
+
+2025-09-30 * " Cash金料HKD>USDT金料 Sep ID: f26c3a2d-5146-435b-b354-0e315a97e218"
+  Assets:CurrentAssets:Cash:Cash金料  -499556.000000 HKD
+    type: "Conversion"
+    sourceId: "f26c3a2d-5146-435b-b354-0e315a97e218"
+    referenceNo: "187"
+    orderId: "f26c3a2d-5146-435b-b354-0e315a97e218"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  64127.856220 USDT {7.79 HKD}
+    type: "Conversion"
+    sourceId: "f26c3a2d-5146-435b-b354-0e315a97e218"
+    referenceNo: "187"
+    orderId: "f26c3a2d-5146-435b-b354-0e315a97e218"
+  Income:FXGainOrLoss
+    type: "Conversion"
+    sourceId: "f26c3a2d-5146-435b-b354-0e315a97e218"
+    referenceNo: "187"
+    orderId: "f26c3a2d-5146-435b-b354-0e315a97e218"
