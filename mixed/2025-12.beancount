@@ -780,3 +780,31 @@
     orderId: "41012420-5492-409f-a88a-ea11c677db66"
     referenceNo: "2180"
     description: "417 to G17"
+
+2025-12-26 * "Invoice #1183 Stock FNE2507 bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+  Income:Sales:SalesItem:Sell18kJewelry  -900.000000 HKD
+    description: "FNE2507 18K ROSE GOLD CHAIN"
+    qty: "1"
+    referenceNo: "1183"
+    orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+    type: "Invoice Item"
+    sourceId: "cf7ddbf2-fd9c-4930-ad22-ddc4426f6dc7"
+  Assets:CurrentAssets:AccountReceivable  900.000000 HKD
+    referenceNo: "1183"
+    orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+    type: "Invoice"
+    sourceId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+    contact: "852 92242127 (NoName) [f4dc6610-f2ce-4daf-8f68-8f51598495d4]"
+
+2025-12-26 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1183 #3e35c536-095e-4b83-8398-8d49813d53ef bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+  Assets:CurrentAssets:Cash:G17ShopCash  900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "3e35c536-095e-4b83-8398-8d49813d53ef"
+    referenceNo: "1183"
+    orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+  Assets:CurrentAssets:AccountReceivable  -900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "3e35c536-095e-4b83-8398-8d49813d53ef"
+    referenceNo: "1183"
+    orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
+    contact: "852 92242127 (NoName) [f4dc6610-f2ce-4daf-8f68-8f51598495d4]"
