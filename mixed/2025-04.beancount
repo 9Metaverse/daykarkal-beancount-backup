@@ -1,0 +1,51 @@
+; Mixed transactions for 2025-04 (FY 2026)
+
+2025-04-01 * "Cost Adjustment for Fiscal Year 2026"
+  type: "ADJUST_COST"
+  fiscalYear: "2026"
+  currency: "USD"
+  oldRate: "7.85"
+  newRate: "7.8"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  360.000000 USD {7.85 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -360.000000 USD {7.8 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
+  Income:FXGainOrLoss
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
+
+2025-04-01 * "Cost Adjustment for Fiscal Year 2026"
+  type: "ADJUST_COST"
+  fiscalYear: "2026"
+  currency: "USD"
+  oldRate: "7.85"
+  newRate: "7.8"
+  Assets:CurrentAssets:Bank:BocForeignBank  -3002.410000 USD {7.85 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
+  Assets:CurrentAssets:Bank:BocForeignBank  3002.410000 USD {7.8 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
+  Income:FXGainOrLoss
+    type: "ADJUST_COST"
+    fiscalYear: "2026"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.8"
