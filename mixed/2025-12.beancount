@@ -1,0 +1,62 @@
+; Mixed transactions for 2025-12 (FY 2026)
+
+2025-12-17 * "Bill #1518 INV #1069 鑽石手鏈鏈尾做戒指 80e5f666-2132-46a7-b486-daf0ded77b21"
+  referenceNo: "1518"
+  orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  300.000000 HKD
+    category: "PROCESSING"
+    sku: "PROCESSING107"
+    qty: "1"
+    referenceNo: "1518"
+    orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+    type: "Bill Item"
+    sourceId: "3ad604ae-b16b-4b86-b81f-2ae7fe4f68d8"
+  Liabilities:CurrentLiabilities:AccountPayable  -300.000000 HKD
+    referenceNo: "1518"
+    orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill"
+    sourceId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+
+2025-12-17 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1518 #aa3469ca-8d72-4e0a-b172-974a366a4d83 80e5f666-2132-46a7-b486-daf0ded77b21"
+  Assets:CurrentAssets:Cash:G17ShopCash  -300.000000 HKD
+    type: "Bill Payment"
+    sourceId: "aa3469ca-8d72-4e0a-b172-974a366a4d83"
+    referenceNo: "1518"
+    orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+  Liabilities:CurrentLiabilities:AccountPayable  300.000000 HKD
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill Payment"
+    sourceId: "aa3469ca-8d72-4e0a-b172-974a366a4d83"
+    referenceNo: "1518"
+    orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
+
+2025-12-18 * "Invoice #1181 B2107 鏈尾改戒指 580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -450.000000 HKD
+    category: "PROCESSING"
+    sku: "PROCESSING107"
+    qty: "1"
+    referenceNo: "1181"
+    orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+    type: "Invoice Item"
+    sourceId: "dbce4d2c-c124-4ddf-ac8b-f55b3bbdcf74"
+  Assets:CurrentAssets:AccountReceivable  450.000000 HKD
+    referenceNo: "1181"
+    orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+    type: "Invoice"
+    sourceId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+    contact: "852 92348501 () [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
+
+2025-12-18 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1181 #65b23db2-bb24-413f-a56a-a129c5e17c8b 580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+  Assets:CurrentAssets:Bank:KpayBank  450.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "65b23db2-bb24-413f-a56a-a129c5e17c8b"
+    referenceNo: "1181"
+    orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+  Assets:CurrentAssets:AccountReceivable  -450.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "65b23db2-bb24-413f-a56a-a129c5e17c8b"
+    referenceNo: "1181"
+    orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
+    contact: "852 92348501 () [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
