@@ -608,6 +608,22 @@
     orderId: "b8e1fb25-230f-4cdc-82d1-6c081ab4950e"
     contact: "852 53193535 () [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
 
+2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
+    category: "Unknown"
+    sku: "DDBESPOKE00000048"
+    qty: "1"
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice Item"
+    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
+  Assets:CurrentAssets:AccountReceivable  3900.000000 HKD
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice"
+    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
+
 2025-11-10 * "Invoice #1166 Stock BR2523 R24142 ce261d79-51b6-460d-9cf6-14611d38673e"
   Income:Sales:SalesItem:Sell18kJewelry  -4500.000000 HKD
     category: "Unknown"
@@ -631,22 +647,6 @@
     type: "Invoice"
     sourceId: "ce261d79-51b6-460d-9cf6-14611d38673e"
     contact: "852 95567627 () [fe0f601c-7523-4171-8b90-acb77e898186]"
-
-2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
-    category: "Unknown"
-    sku: "DDBESPOKE00000048"
-    qty: "1"
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice Item"
-    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
-  Assets:CurrentAssets:AccountReceivable  3900.000000 HKD
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice"
-    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
 
 2025-11-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1165 #b58ee875-c92b-4cbe-a4a4-6193c7900e89 f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
   Assets:CurrentAssets:Bank:BocSavingBank  2000.000000 HKD
@@ -728,22 +728,6 @@
     orderId: "ce261d79-51b6-460d-9cf6-14611d38673e"
     contact: "852 95567627 () [fe0f601c-7523-4171-8b90-acb77e898186]"
 
-2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
-    category: "Unknown"
-    sku: "PROCESSING104"
-    qty: "1"
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    type: "Invoice Item"
-    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    type: "Invoice"
-    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-
 2025-11-12 * "Bill #1503 强哥改戒指手寸#14 Ref INV#1160(846) 179aa720-f99f-4b3a-baca-768f726f9208"
   referenceNo: "1503"
   orderId: "179aa720-f99f-4b3a-baca-768f726f9208"
@@ -762,6 +746,22 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "179aa720-f99f-4b3a-baca-768f726f9208"
+
+2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Unknown"
+    sku: "PROCESSING104"
+    qty: "1"
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    type: "Invoice Item"
+    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    type: "Invoice"
+    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
 
 2025-11-12 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1503 #101d0c13-d598-488c-b0f3-9bfd76dc4518 179aa720-f99f-4b3a-baca-768f726f9208"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.000000 HKD

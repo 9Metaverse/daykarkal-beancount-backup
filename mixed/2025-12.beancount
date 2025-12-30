@@ -672,6 +672,33 @@
     referenceNo: "2120"
     description: "417 to G17"
 
+2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  referenceNo: "1516"
+  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "GIA DIAMOND"
+    sku: "7408284897"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "GIA DIAMOND"
+    sku: "7396974978"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
+  Liabilities:CurrentLiabilities:AccountPayable  -5760.000000 HKD
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
+    type: "Bill"
+    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+
 2025-12-20 * "Bill #1515 嚴丹鳳代鑲石 合併 ff7a06be-4e24-49b1-94ca-63cf6be66e87"
   referenceNo: "1515"
   orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
@@ -706,33 +733,6 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
-
-2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  referenceNo: "1516"
-  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "GIA DIAMOND"
-    sku: "7408284897"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "GIA DIAMOND"
-    sku: "7396974978"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
-  Liabilities:CurrentLiabilities:AccountPayable  -5760.000000 HKD
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
-    type: "Bill"
-    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
 
 2025-12-20 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1178 #4ad2a336-03da-4b77-93f3-1eb30a23726a 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
   Assets:CurrentAssets:Bank:KpayBank  2150.000000 HKD
@@ -1208,4 +1208,273 @@
     referenceNo: "P20251230027"
     sourceId: "28867da1-308a-4ebb-99a0-95f43ff12081"
     orderId: "81eb2f38-26f4-450d-a6d7-8d4e3d945439"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited" "Paid for Nov of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  1061609.560000 USDT {7.79 HKD}
+    type: "MJ"
+    sourceId: "b2ba7274-f3ec-4ed1-9b03-763e3c3e4d29"
+    orderId: "b2ba7274-f3ec-4ed1-9b03-763e3c3e4d29"
+    referenceNo: "2241"
+    description: "Paid for Nov of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1061609.560000 USDT {7.79 HKD}
+    type: "MJ"
+    sourceId: "b2ba7274-f3ec-4ed1-9b03-763e3c3e4d29"
+    orderId: "b2ba7274-f3ec-4ed1-9b03-763e3c3e4d29"
+    referenceNo: "2241"
+    description: "Paid for Nov of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited"
+
+2025-12-30 * "Reservation Payment R#GR2025110200002S P#P20251230028"
+  rsv-ref: "GR2025110200002S"
+  pay-ref: "P20251230028"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -42345.280000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230028"
+    sourceId: "85fe40c0-78de-4c31-ab06-2ae20c53a4e8"
+    orderId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  42345.280000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230028"
+    sourceId: "85fe40c0-78de-4c31-ab06-2ae20c53a4e8"
+    orderId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025110300003S P#P20251230029"
+  rsv-ref: "GR2025110300003S"
+  pay-ref: "P20251230029"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -44414.970000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230029"
+    sourceId: "d8187f7d-fbff-4642-8c22-29ba0736b4a4"
+    orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  44414.970000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230029"
+    sourceId: "d8187f7d-fbff-4642-8c22-29ba0736b4a4"
+    orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025110400002S P#P20251230030"
+  rsv-ref: "GR2025110400002S"
+  pay-ref: "P20251230030"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38566.590000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230030"
+    sourceId: "95aacddb-0c58-44c4-8012-14182b4c260d"
+    orderId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  38566.590000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230030"
+    sourceId: "95aacddb-0c58-44c4-8012-14182b4c260d"
+    orderId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025110600011S P#P20251230031"
+  rsv-ref: "GR2025110600011S"
+  pay-ref: "P20251230031"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -106278.240000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230031"
+    sourceId: "a1a7d67d-f303-4746-baae-2509c2b9e499"
+    orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  106278.240000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230031"
+    sourceId: "a1a7d67d-f303-4746-baae-2509c2b9e499"
+    orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025110800002S P#P20251230032"
+  rsv-ref: "GR2025110800002S"
+  pay-ref: "P20251230032"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -100232.620000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230032"
+    sourceId: "0c43a8cd-3db3-4348-aeb9-adc860add675"
+    orderId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  100232.620000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230032"
+    sourceId: "0c43a8cd-3db3-4348-aeb9-adc860add675"
+    orderId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025111100002S P#P20251230033"
+  rsv-ref: "GR2025111100002S"
+  pay-ref: "P20251230033"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -51370.140000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230033"
+    sourceId: "ec68c3f1-854f-42d9-803d-94431be1c7b8"
+    orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  51370.140000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230033"
+    sourceId: "ec68c3f1-854f-42d9-803d-94431be1c7b8"
+    orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025111300002S P#P20251230034"
+  rsv-ref: "GR2025111300002S"
+  pay-ref: "P20251230034"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -92651.940000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230034"
+    sourceId: "fe4727af-47ce-4f18-8abd-545f3b951708"
+    orderId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  92651.940000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230034"
+    sourceId: "fe4727af-47ce-4f18-8abd-545f3b951708"
+    orderId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025111600006S P#P20251230035"
+  rsv-ref: "GR2025111600006S"
+  pay-ref: "P20251230035"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -102699.400000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230035"
+    sourceId: "3112906a-606f-46e7-97ab-ba1e741a16a6"
+    orderId: "e5409ef2-a470-4fed-b936-62078a057ccc"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  102699.400000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230035"
+    sourceId: "3112906a-606f-46e7-97ab-ba1e741a16a6"
+    orderId: "e5409ef2-a470-4fed-b936-62078a057ccc"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025111800002S P#P20251230036"
+  rsv-ref: "GR2025111800002S"
+  pay-ref: "P20251230036"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -100794.780000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230036"
+    sourceId: "7ab6a03d-80f6-47fa-b5f0-d072fed6486f"
+    orderId: "476babd2-8857-4ff2-850e-d07698c11e94"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  100794.780000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230036"
+    sourceId: "7ab6a03d-80f6-47fa-b5f0-d072fed6486f"
+    orderId: "476babd2-8857-4ff2-850e-d07698c11e94"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025111900001S P#P20251230037"
+  rsv-ref: "GR2025111900001S"
+  pay-ref: "P20251230037"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38138.100000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230037"
+    sourceId: "d232e448-1186-4acc-8d3e-ed24bf8bdf01"
+    orderId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  38138.100000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230037"
+    sourceId: "d232e448-1186-4acc-8d3e-ed24bf8bdf01"
+    orderId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112000002S P#P20251230038"
+  rsv-ref: "GR2025112000002S"
+  pay-ref: "P20251230038"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38064.650000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230038"
+    sourceId: "cf4cfce1-1018-42be-9da6-7c15a0af4bc3"
+    orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  38064.650000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230038"
+    sourceId: "cf4cfce1-1018-42be-9da6-7c15a0af4bc3"
+    orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112200002S P#P20251230039"
+  rsv-ref: "GR2025112200002S"
+  pay-ref: "P20251230039"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -41756.040000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230039"
+    sourceId: "b4f8703d-4d8d-4097-9918-fcea5b02ee98"
+    orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  41756.040000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230039"
+    sourceId: "b4f8703d-4d8d-4097-9918-fcea5b02ee98"
+    orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112400002S P#P20251230040"
+  rsv-ref: "GR2025112400002S"
+  pay-ref: "P20251230040"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -95798.120000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230040"
+    sourceId: "76ac8de1-c546-41b7-a839-62b6d36d9d41"
+    orderId: "da11983d-efad-445c-8bb2-0f734d035175"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  95798.120000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230040"
+    sourceId: "76ac8de1-c546-41b7-a839-62b6d36d9d41"
+    orderId: "da11983d-efad-445c-8bb2-0f734d035175"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112400008S P#P20251230041"
+  rsv-ref: "GR2025112400008S"
+  pay-ref: "P20251230041"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -7631.090000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230041"
+    sourceId: "1a0b054d-3933-4a6c-ad11-919adc10d7f2"
+    orderId: "3870e630-6330-498e-a42c-a008b8b54675"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  7631.090000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230041"
+    sourceId: "1a0b054d-3933-4a6c-ad11-919adc10d7f2"
+    orderId: "3870e630-6330-498e-a42c-a008b8b54675"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112600001S P#P20251230042"
+  rsv-ref: "GR2025112600001S"
+  pay-ref: "P20251230042"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -48629.810000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230042"
+    sourceId: "04b8c428-81f8-40e8-9754-4f443326e06c"
+    orderId: "fecfc68b-b380-4c45-af11-68e940a3516d"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  48629.810000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230042"
+    sourceId: "04b8c428-81f8-40e8-9754-4f443326e06c"
+    orderId: "fecfc68b-b380-4c45-af11-68e940a3516d"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112700003S P#P20251230043"
+  rsv-ref: "GR2025112700003S"
+  pay-ref: "P20251230043"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -90271.000000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230043"
+    sourceId: "ad3fe106-b18f-418c-8a07-f834ed2a8247"
+    orderId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  90271.000000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230043"
+    sourceId: "ad3fe106-b18f-418c-8a07-f834ed2a8247"
+    orderId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-30 * "Reservation Payment R#GR2025112800003S P#P20251230044"
+  rsv-ref: "GR2025112800003S"
+  pay-ref: "P20251230044"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -21966.790000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230044"
+    sourceId: "7d3082cf-688a-424d-a681-46d4bf035e45"
+    orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  21966.790000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20251230044"
+    sourceId: "7d3082cf-688a-424d-a681-46d4bf035e45"
+    orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
