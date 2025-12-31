@@ -1507,3 +1507,39 @@
     referenceNo: "1184"
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
     contact: "852 56861588 (NoName) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
+
+2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+  Income:Sales:SalesItem:SellGems  -2500.000000 HKD
+    category: "Gem"
+    sku: "SAP2428"
+    qty: "1"
+    referenceNo: "1185"
+    orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+    type: "Invoice Item"
+    sourceId: "06988c6e-8573-4e93-accf-33a4057176a8"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -2800.000000 HKD
+    description: "Bespoke Necklace"
+    qty: "1"
+    referenceNo: "1185"
+    orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+    type: "Invoice Item"
+    sourceId: "96cb85ec-1ca7-487e-81be-e5bbe55f500d"
+  Assets:CurrentAssets:AccountReceivable  5300.000000 HKD
+    referenceNo: "1185"
+    orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+    type: "Invoice"
+    sourceId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+    contact: "852 96010387 (NoName) [ecf68dfc-7c33-4e46-917f-ccb0762efb2f]"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1185 #a4e3b1b9-c56f-4b89-a0a7-b491fe30050d 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+  Assets:CurrentAssets:Bank:KpayBank  5300.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "a4e3b1b9-c56f-4b89-a0a7-b491fe30050d"
+    referenceNo: "1185"
+    orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+  Assets:CurrentAssets:AccountReceivable  -5300.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "a4e3b1b9-c56f-4b89-a0a7-b491fe30050d"
+    referenceNo: "1185"
+    orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
+    contact: "852 96010387 (NoName) [ecf68dfc-7c33-4e46-917f-ccb0762efb2f]"
