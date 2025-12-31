@@ -672,33 +672,6 @@
     referenceNo: "2120"
     description: "417 to G17"
 
-2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  referenceNo: "1516"
-  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "GIA DIAMOND"
-    sku: "7408284897"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "GIA DIAMOND"
-    sku: "7396974978"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
-  Liabilities:CurrentLiabilities:AccountPayable  -5760.000000 HKD
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
-    type: "Bill"
-    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-
 2025-12-20 * "Bill #1515 嚴丹鳳代鑲石 合併 ff7a06be-4e24-49b1-94ca-63cf6be66e87"
   referenceNo: "1515"
   orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
@@ -733,6 +706,33 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+
+2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  referenceNo: "1516"
+  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "GIA DIAMOND"
+    sku: "7408284897"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "GIA DIAMOND"
+    sku: "7396974978"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
+  Liabilities:CurrentLiabilities:AccountPayable  -5760.000000 HKD
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
+    type: "Bill"
+    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
 
 2025-12-20 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1178 #4ad2a336-03da-4b77-93f3-1eb30a23726a 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
   Assets:CurrentAssets:Bank:KpayBank  2150.000000 HKD
@@ -935,6 +935,22 @@
     orderId: "9e2fc847-f723-43e3-9ac1-979b8c7000a9"
     referenceNo: "2181"
     description: "G17 Pretty Cash (電池)"
+
+2025-12-30 * "Invoice #1184 Stock BN2522 f1f25bb0-1169-4cca-bc8a-4615199820a9"
+  Income:Sales:SalesItem:Sell18kJewelry  -3900.000000 HKD
+    category: "Unknown"
+    sku: "DD20250716004"
+    qty: "1"
+    referenceNo: "1184"
+    orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
+    type: "Invoice Item"
+    sourceId: "097ec27d-4695-4a72-8a62-5ec4e2c24293"
+  Assets:CurrentAssets:AccountReceivable  3900.000000 HKD
+    referenceNo: "1184"
+    orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
+    type: "Invoice"
+    sourceId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
+    contact: "852 56861588 (NoName) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
 
 2025-12-30 * "Reservation Payment R#GR2025091500002S P#P20251230012"
   rsv-ref: "GR2025091500002S"
@@ -1478,3 +1494,16 @@
     sourceId: "7d3082cf-688a-424d-a681-46d4bf035e45"
     orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1184 #eb2da3fa-6c90-456b-8cd0-4465ae83e9aa f1f25bb0-1169-4cca-bc8a-4615199820a9"
+  Assets:CurrentAssets:Bank:BocSavingBank  3900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "eb2da3fa-6c90-456b-8cd0-4465ae83e9aa"
+    referenceNo: "1184"
+    orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
+  Assets:CurrentAssets:AccountReceivable  -3900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "eb2da3fa-6c90-456b-8cd0-4465ae83e9aa"
+    referenceNo: "1184"
+    orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
+    contact: "852 56861588 (NoName) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
