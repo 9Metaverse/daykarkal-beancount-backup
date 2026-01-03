@@ -115,7 +115,7 @@
 2026-01-03 * "Reservation Delivery R#GR2026010300008S D#D20260103013"
   rsv-ref: "GR2026010300008S"
   del-ref: "D20260103013"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -30341.440000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -30629.610000 USDT {7.79 HKD}
     type: "Reservation Delivery"
     referenceNo: "D20260103013"
     sourceId: "5471201d-000b-4316-a3bc-55dadad6a978"
@@ -150,3 +150,18 @@
     sourceId: "cf062994-08d2-4c1b-bafb-907467795bb5"
     orderId: "014d06b3-6750-4ecb-bfba-e44ffc733835"
     contact: "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]"
+
+2026-01-03 * "Reservation Payment R#GR2026010300008S P#P20260103020"
+  rsv-ref: "GR2026010300008S"
+  pay-ref: "P20260103020"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -30629.610000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260103020"
+    sourceId: "6c9697b4-cec6-41ea-b648-5bb194cb1010"
+    orderId: "ddbe9da1-5ee6-415b-83c8-688d2fb24a0f"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  30629.610000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260103020"
+    sourceId: "6c9697b4-cec6-41ea-b648-5bb194cb1010"
+    orderId: "ddbe9da1-5ee6-415b-83c8-688d2fb24a0f"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
