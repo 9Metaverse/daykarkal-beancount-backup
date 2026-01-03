@@ -77,22 +77,6 @@
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
 
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -111,3 +95,58 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
+
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+
+2026-01-03 * "Reservation Delivery R#GR2026010300008S D#D20260103013"
+  rsv-ref: "GR2026010300008S"
+  del-ref: "D20260103013"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -30341.440000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20260103013"
+    sourceId: "5471201d-000b-4316-a3bc-55dadad6a978"
+    orderId: "ddbe9da1-5ee6-415b-83c8-688d2fb24a0f"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  217.870000 XAU { }
+
+2026-01-03 * "Reservation Delivery R#GR2026010300007B D#D20260103015"
+  rsv-ref: "GR2026010300007B"
+  del-ref: "D20260103015"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85291475444  234010.000000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20260103015"
+    sourceId: "58de00fc-295f-4b25-be03-4fe6abd5d3db"
+    orderId: "014d06b3-6750-4ecb-bfba-e44ffc733835"
+    contact: "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]"
+  Income:Sales:Sales-Gold  -234010.000000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -217.869990 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2026-01-03 * "Reservation Payment R#GR2026010300007B P#P20260103019"
+  rsv-ref: "GR2026010300007B"
+  pay-ref: "P20260103019"
+  Assets:CurrentAssets:Cash:Cash金料  234010.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260103019"
+    sourceId: "cf062994-08d2-4c1b-bafb-907467795bb5"
+    orderId: "014d06b3-6750-4ecb-bfba-e44ffc733835"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-85291475444  -234010.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260103019"
+    sourceId: "cf062994-08d2-4c1b-bafb-907467795bb5"
+    orderId: "014d06b3-6750-4ecb-bfba-e44ffc733835"
+    contact: "852 91475444 () [9f307e98-6204-4c1f-a731-940ddf4fa956]"
