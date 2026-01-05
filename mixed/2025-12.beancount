@@ -1,5 +1,19 @@
 ; Mixed transactions for 2025-12 (FY 2026)
 
+2025-12-01 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 295"
+  Assets:CurrentAssets:Bank:KpayBank  -1870.500000 HKD
+    type: "MJ"
+    sourceId: "9f707a7b-50c0-4b46-8e84-148f1d7cb229"
+    orderId: "9f707a7b-50c0-4b46-8e84-148f1d7cb229"
+    referenceNo: "2353"
+    description: "kpay 295"
+  Assets:CurrentAssets:Bank:BocSavingBank  1870.500000 HKD
+    type: "MJ"
+    sourceId: "9f707a7b-50c0-4b46-8e84-148f1d7cb229"
+    orderId: "9f707a7b-50c0-4b46-8e84-148f1d7cb229"
+    referenceNo: "2353"
+    description: "kpay 295"
+
 2025-12-01 * "Reservation Payment R#GR2025112800004B P#P20251201001"
   rsv-ref: "GR2025112800004B"
   pay-ref: "P20251201001"
@@ -601,6 +615,52 @@
     orderId: "84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-12-17 * "Bill #1528 AE Credit Card payment (25年12月) fe68dcc3-d6ba-4080-8759-46741e72ad31"
+  referenceNo: "1528"
+  orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+  type: "Bill"
+  Expenses:GeneralExpense:Subscriptions  2134.400000 HKD
+    qty: "1"
+    description: "GOOGLE*GSUITE MILWAYS.C CC GOOGLE.COM"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    type: "Bill Item"
+    sourceId: "60308906-cd8f-4e1b-b20a-0e7069f2cc08"
+  Expenses:GeneralExpense:Subscriptions  1191.800000 HKD
+    qty: "1"
+    description: "DUO.COM (USD 150)"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    type: "Bill Item"
+    sourceId: "d80ab3a9-05c4-417d-834b-18e3623eefcd"
+  Expenses:GeneralExpense:AdvertisingAndBranding  6807.000000 HKD
+    qty: "1"
+    description: "FACEBK *HVNNN75ZM2"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    type: "Bill Item"
+    sourceId: "cd82fddd-5b39-4ded-b451-ee27ddcf8f2d"
+  Expenses:GeneralExpense:AdvertisingAndBranding  7027.000000 HKD
+    qty: "1"
+    description: "FACEBK *NS8CH85ZM2"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    type: "Bill Item"
+    sourceId: "3a5b5e06-2972-4518-b4cf-3fdbe5ddf486"
+  Expenses:GeneralExpense:AdvertisingAndBranding  3857.180000 HKD
+    qty: "1"
+    description: "FACEBK *ZZMB695ZM2"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    type: "Bill Item"
+    sourceId: "024671fb-c3b0-4a35-b2eb-f69dcbedc9b2"
+  Liabilities:CurrentLiabilities:AccountPayable  -21017.380000 HKD
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+
 2025-12-17 * "Invoice #1180 CHAIN 18K白金鏈 ee1725e0-1150-4c9d-82c8-283633bdd62c"
   Income:Sales:SalesItem:Sell18kJewelry  -849.000000 HKD
     category: "CHAIN"
@@ -1094,6 +1154,19 @@
     orderId: "9e2fc847-f723-43e3-9ac1-979b8c7000a9"
     referenceNo: "2181"
     description: "G17 Pretty Cash (電池)"
+
+2025-12-29 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1528 #c384425a-cfa2-4cba-a0a6-9fe9e040ba74 fe68dcc3-d6ba-4080-8759-46741e72ad31"
+  Assets:CurrentAssets:Bank:BocSavingBank  -21017.380000 HKD
+    type: "Bill Payment"
+    sourceId: "c384425a-cfa2-4cba-a0a6-9fe9e040ba74"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
+  Liabilities:CurrentLiabilities:AccountPayable  21017.380000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "c384425a-cfa2-4cba-a0a6-9fe9e040ba74"
+    referenceNo: "1528"
+    orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
 
 2025-12-30 * "Invoice #1184 Stock BN2522 f1f25bb0-1169-4cca-bc8a-4615199820a9"
   Income:Sales:SalesItem:Sell18kJewelry  -3900.000000 HKD
@@ -1666,6 +1739,59 @@
     referenceNo: "1184"
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
     contact: "852 56861588 (NoName) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
+
+2025-12-31 * "Bill #1530 SALARY 25年12月 cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+  referenceNo: "1530"
+  orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+  type: "Bill"
+  Expenses:GeneralExpense:WagesAndSalaries  71250.000000 HKD
+    qty: "1"
+    description: "SALARY 25年12月"
+    referenceNo: "1530"
+    orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+    type: "Bill Item"
+    sourceId: "1ba6f96a-24e6-48bf-8993-34b05e025790"
+  Expenses:GeneralExpense:BankFeesExpense  2.100000 HKD
+    qty: "1"
+    description: "BANK FEE SALARY 25年12月"
+    referenceNo: "1530"
+    orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+    type: "Bill Item"
+    sourceId: "d4e37e6e-67a3-4b09-b8e8-dde511dfdbdf"
+  Liabilities:CurrentLiabilities:AccountPayable  -71252.100000 HKD
+    referenceNo: "1530"
+    orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
+  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
+    type: "MJ"
+    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  )"
+  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
+    type: "MJ"
+    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  )"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 12/2025"
+  Income:OtherIncome:Interest-bank  -0.120000 HKD
+    type: "MJ"
+    sourceId: "b58cd946-05ba-4097-a024-28d85a866465"
+    orderId: "b58cd946-05ba-4097-a024-28d85a866465"
+    referenceNo: "2352"
+    description: "NTEREST - BOC SAV 12/2025"
+  Assets:CurrentAssets:Bank:BocSavingBank  0.120000 HKD
+    type: "MJ"
+    sourceId: "b58cd946-05ba-4097-a024-28d85a866465"
+    orderId: "b58cd946-05ba-4097-a024-28d85a866465"
+    referenceNo: "2352"
+    description: "NTEREST - BOC SAV 12/2025"
 
 2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
   Income:Sales:SalesItem:SellGems  -2500.000000 HKD
