@@ -1,5 +1,19 @@
 ; Mixed transactions for 2026-01 (FY 2026)
 
+2026-01-01 * "Expenses:GeneralExpense:Rent" "G17 1月2026 租金 (refer Bill#1296) (9/12)"
+  Expenses:GeneralExpense:Rent  45000.000000 HKD
+    type: "MJ"
+    sourceId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
+    orderId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
+    referenceNo: "2371"
+    description: "G17 1月2026 租金"
+  Assets:OtherAssets:Prepayments  -45000.000000 HKD
+    type: "MJ"
+    sourceId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
+    orderId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
+    referenceNo: "2371"
+    description: "G17 1月2026 租金"
+
 2026-01-02 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1520 #7898cf9c-c7db-49ff-b70d-b2000b1aef7f 199341f8-7ac4-43ae-ab78-404c755b783d"
   Assets:CurrentAssets:Cash:G17ShopCash  -150.000000 HKD
     type: "Bill Payment"
