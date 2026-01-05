@@ -1,5 +1,19 @@
 ; Mixed transactions for 2025-10 (FY 2026)
 
+2025-10-01 * "Expenses:GeneralExpense:Rent" "G17 10月2025 租金 (refer Bill#1296) (6/12)"
+  Expenses:GeneralExpense:Rent  45000.000000 HKD
+    type: "MJ"
+    sourceId: "0c3f8273-07a8-4568-b0d5-30de1be2dfe2"
+    orderId: "0c3f8273-07a8-4568-b0d5-30de1be2dfe2"
+    referenceNo: "2368"
+    description: "G17 10月2025 租金"
+  Assets:OtherAssets:Prepayments  -45000.000000 HKD
+    type: "MJ"
+    sourceId: "0c3f8273-07a8-4568-b0d5-30de1be2dfe2"
+    orderId: "0c3f8273-07a8-4568-b0d5-30de1be2dfe2"
+    referenceNo: "2368"
+    description: "G17 10月2025 租金"
+
 2025-10-01 * "Invoice #1151 Stock E2457/BB2506 b69d5dd3-94f1-4894-9909-70e95a4b2374"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD
     category: "Unknown"

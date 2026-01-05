@@ -1,5 +1,19 @@
 ; Mixed transactions for 2025-11 (FY 2026)
 
+2025-11-01 * "Expenses:GeneralExpense:Rent" "G17 11月2025 租金 (refer Bill#1296) (7/12)"
+  Expenses:GeneralExpense:Rent  45000.000000 HKD
+    type: "MJ"
+    sourceId: "e806e89e-7282-428b-9273-8744f4e3b5d6"
+    orderId: "e806e89e-7282-428b-9273-8744f4e3b5d6"
+    referenceNo: "2369"
+    description: "G17 11月2025 租金"
+  Assets:OtherAssets:Prepayments  -45000.000000 HKD
+    type: "MJ"
+    sourceId: "e806e89e-7282-428b-9273-8744f4e3b5d6"
+    orderId: "e806e89e-7282-428b-9273-8744f4e3b5d6"
+    referenceNo: "2369"
+    description: "G17 11月2025 租金"
+
 2025-11-02 * "Reservation Delivery R#GR2025110200002S D#D20251102001"
   rsv-ref: "GR2025110200002S"
   del-ref: "D20251102001"

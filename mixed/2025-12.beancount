@@ -117,6 +117,20 @@
     type: "Bill"
     sourceId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
 
+2025-12-01 * "Expenses:GeneralExpense:Rent" "G17 12月2025 租金 (refer Bill#1296) (8/12)"
+  Expenses:GeneralExpense:Rent  45000.000000 HKD
+    type: "MJ"
+    sourceId: "0e9583cc-88b6-4748-ae20-c38e36bbb1d6"
+    orderId: "0e9583cc-88b6-4748-ae20-c38e36bbb1d6"
+    referenceNo: "2370"
+    description: "G17 12月2025 租金"
+  Assets:OtherAssets:Prepayments  -45000.000000 HKD
+    type: "MJ"
+    sourceId: "0e9583cc-88b6-4748-ae20-c38e36bbb1d6"
+    orderId: "0e9583cc-88b6-4748-ae20-c38e36bbb1d6"
+    referenceNo: "2370"
+    description: "G17 12月2025 租金"
+
 2025-12-01 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1533 #021eb8c4-0226-41b3-8d87-fdcaed0deb54 190685d2-fff2-4aa7-a71b-17d11a1ff94a"
   Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
     type: "Bill Payment"
