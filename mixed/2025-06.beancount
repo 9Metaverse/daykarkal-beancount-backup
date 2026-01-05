@@ -1,5 +1,19 @@
 ; Mixed transactions for 2025-06 (FY 2026)
 
+2025-06-01 * "Expenses:GeneralExpense:Rent" "G17 6月2025 租金 (refer Bill#1296) (2/12)"
+  Expenses:GeneralExpense:Rent  45000.000000 HKD
+    type: "MJ"
+    sourceId: "595b3981-5395-4861-b85b-9dae7cb55449"
+    orderId: "595b3981-5395-4861-b85b-9dae7cb55449"
+    referenceNo: "2364"
+    description: "G17 6月2025 租金"
+  Assets:OtherAssets:Prepayments  -45000.000000 HKD
+    type: "MJ"
+    sourceId: "595b3981-5395-4861-b85b-9dae7cb55449"
+    orderId: "595b3981-5395-4861-b85b-9dae7cb55449"
+    referenceNo: "2364"
+    description: "G17 6月2025 租金"
+
 2025-06-02 * "852 27332222 () [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Bill Payment for Bill #1353 #1d748c53-c42a-4c3e-8cd8-0ca6a039470d c8c991c7-4eef-43df-95ef-2753c0b5b769"
   Assets:CurrentAssets:Cash:CashInHand  -10.000000 USD {7.8 HKD}
     type: "Bill Payment"

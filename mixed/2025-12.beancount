@@ -99,6 +99,37 @@
     referenceNo: "1524"
     orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
 
+2025-12-01 * "Bill #1533 11月2025年MPF 190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+  referenceNo: "1533"
+  orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "11月2025年MPF"
+    referenceNo: "1533"
+    orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+    type: "Bill Item"
+    sourceId: "d96458a8-c84c-4424-98d1-c59f4e41bd05"
+  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+    referenceNo: "1533"
+    orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+
+2025-12-01 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1533 #021eb8c4-0226-41b3-8d87-fdcaed0deb54 190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "021eb8c4-0226-41b3-8d87-fdcaed0deb54"
+    referenceNo: "1533"
+    orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "021eb8c4-0226-41b3-8d87-fdcaed0deb54"
+    referenceNo: "1533"
+    orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
+
 2025-12-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 296"
   Assets:CurrentAssets:Bank:KpayBank  -7583.500000 HKD
     type: "MJ"
@@ -992,19 +1023,33 @@
     referenceNo: "1515"
     orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
 
-2025-12-23 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 301"
-  Assets:CurrentAssets:Bank:KpayBank  -1821.250000 HKD
-    type: "MJ"
-    sourceId: "93c0a598-a279-4baf-b295-44b490dac9ec"
-    orderId: "93c0a598-a279-4baf-b295-44b490dac9ec"
-    referenceNo: "2359"
-    description: "kpay 301"
+2025-12-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 301"
   Assets:CurrentAssets:Bank:BocSavingBank  1821.250000 HKD
     type: "MJ"
     sourceId: "93c0a598-a279-4baf-b295-44b490dac9ec"
     orderId: "93c0a598-a279-4baf-b295-44b490dac9ec"
     referenceNo: "2359"
     description: "kpay 301"
+  Assets:CurrentAssets:Bank:KpayBank  -1821.250000 HKD
+    type: "MJ"
+    sourceId: "93c0a598-a279-4baf-b295-44b490dac9ec"
+    orderId: "93c0a598-a279-4baf-b295-44b490dac9ec"
+    referenceNo: "2359"
+    description: "kpay 301"
+
+2025-12-23 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 302"
+  Assets:CurrentAssets:Bank:KpayBank  -2116.750000 HKD
+    type: "MJ"
+    sourceId: "3d93aa10-75d9-4e97-8b78-3b1b31c1552b"
+    orderId: "3d93aa10-75d9-4e97-8b78-3b1b31c1552b"
+    referenceNo: "2360"
+    description: "kpay 302"
+  Assets:CurrentAssets:Bank:BocSavingBank  2116.750000 HKD
+    type: "MJ"
+    sourceId: "3d93aa10-75d9-4e97-8b78-3b1b31c1552b"
+    orderId: "3d93aa10-75d9-4e97-8b78-3b1b31c1552b"
+    referenceNo: "2360"
+    description: "kpay 302"
 
 2025-12-24 * "Bill #1519 嚴丹鳳代鑲石 合併 53598125-e82b-4761-b908-e72885cca107"
   referenceNo: "1519"
@@ -1849,6 +1894,38 @@
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
 
+2025-12-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 11/2025"
+  Assets:CurrentAssets:Bank:BocForeignBank  0.110000 USD {7.8 HKD}
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025"
+  Income:OtherIncome:Interest-bank   -0.858000 HKD
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025"
+
+2025-12-31 * "Bill #1534 12月2025年MPF 70877967-2b34-4bdc-a505-6345c7ab6c16"
+  referenceNo: "1534"
+  orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "12月2025年MPF"
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+    type: "Bill Item"
+    sourceId: "95ed02e7-261b-4070-a6c5-6e7b9a350f3a"
+  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+
 2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
   Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
     type: "MJ"
@@ -1899,6 +1976,32 @@
     type: "Invoice"
     sourceId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
     contact: "852 96010387 (NoName) [ecf68dfc-7c33-4e46-917f-ccb0762efb2f]"
+
+2025-12-31 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1530 #d227e19b-4ccb-4c0a-bf62-2e19c6ff486f cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+  Assets:CurrentAssets:Bank:BocSavingBank  -71252.100000 HKD
+    type: "Bill Payment"
+    sourceId: "d227e19b-4ccb-4c0a-bf62-2e19c6ff486f"
+    referenceNo: "1530"
+    orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+  Liabilities:CurrentLiabilities:AccountPayable  71252.100000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "d227e19b-4ccb-4c0a-bf62-2e19c6ff486f"
+    referenceNo: "1530"
+    orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
+
+2025-12-31 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1534 #4cda235c-af68-4c37-a250-dd0ea16b3e8f 70877967-2b34-4bdc-a505-6345c7ab6c16"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "4cda235c-af68-4c37-a250-dd0ea16b3e8f"
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "4cda235c-af68-4c37-a250-dd0ea16b3e8f"
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
 
 2025-12-31 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1185 #a4e3b1b9-c56f-4b89-a0a7-b491fe30050d 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
   Assets:CurrentAssets:Bank:KpayBank  5300.000000 HKD

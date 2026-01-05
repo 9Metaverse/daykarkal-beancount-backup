@@ -399,6 +399,24 @@
     referenceNo: "1495"
     orderId: "2ff20e05-70a6-4c14-a7ad-a64cc862a51c"
 
+2025-11-06 * "Bill #1532 10月2025年MPF 6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+  referenceNo: "1532"
+  orderId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "10月2025年MPF"
+    referenceNo: "1532"
+    orderId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+    type: "Bill Item"
+    sourceId: "1f2c1c78-44d6-4227-91fc-8865b3aa9ac9"
+  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+    referenceNo: "1532"
+    orderId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+
 2025-11-06 * "Reservation Delivery R#GR2025110600011S D#D20251106003"
   rsv-ref: "GR2025110600011S"
   del-ref: "D20251106003"
@@ -422,6 +440,19 @@
   Income:Sales:Sales-Gold  -828968.400000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -824.780000 XAU { }
   Expenses:Cogs:Cogs-Gold
+
+2025-11-06 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1532 #a5c568b6-a6a8-4bd3-bf6f-1eac9bc0bf7a 6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "a5c568b6-a6a8-4bd3-bf6f-1eac9bc0bf7a"
+    referenceNo: "1532"
+    orderId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
+  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "a5c568b6-a6a8-4bd3-bf6f-1eac9bc0bf7a"
+    referenceNo: "1532"
+    orderId: "6cf51868-4f8b-4d8b-a5c3-57b39daac326"
 
 2025-11-07 * "Invoice #1162 Staff~Angel 15513918-5c2e-4da2-be43-830a1a4664c8"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD

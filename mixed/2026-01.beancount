@@ -77,6 +77,32 @@
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
 
+2026-01-02 * "Expenses:GeneralExpense:BankFeesExpense" " VIDA 12/2025 SALARY "
+  Assets:CurrentAssets:Bank:BocSavingBank  -25650.000000 HKD
+    type: "MJ"
+    sourceId: "b5b866df-439f-4bb6-9610-975816720847"
+    orderId: "b5b866df-439f-4bb6-9610-975816720847"
+    referenceNo: "2362"
+    description: " VIDA 12/2025 SALARY "
+  Expenses:GeneralExpense:WagesAndSalaries  25650.000000 HKD
+    type: "MJ"
+    sourceId: "b5b866df-439f-4bb6-9610-975816720847"
+    orderId: "b5b866df-439f-4bb6-9610-975816720847"
+    referenceNo: "2362"
+    description: " VIDA 12/2025 SALARY "
+  Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
+    type: "MJ"
+    sourceId: "b5b866df-439f-4bb6-9610-975816720847"
+    orderId: "b5b866df-439f-4bb6-9610-975816720847"
+    referenceNo: "2362"
+    description: " VIDA 12/2025 SALARY bank fee "
+  Expenses:GeneralExpense:BankFeesExpense  5.000000 HKD
+    type: "MJ"
+    sourceId: "b5b866df-439f-4bb6-9610-975816720847"
+    orderId: "b5b866df-439f-4bb6-9610-975816720847"
+    referenceNo: "2362"
+    description: " VIDA 12/2025 SALARY bank fee "
+
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -180,16 +206,67 @@
     orderId: "ddbe9da1-5ee6-415b-83c8-688d2fb24a0f"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2026-01-05 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 11/2025"
-  Income:OtherIncome:Interest-bank   -0.858000 HKD
+2026-01-05 * "Bill #1531 小紅書KOL 探店 39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  referenceNo: "1531"
+  orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  3000.000000 HKD
+    qty: "1"
+    description: "小紅書KOL 探店-小李在香港"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+    type: "Bill Item"
+    sourceId: "73ad36a0-7203-48ff-8777-17c1d8d9d091"
+  Expenses:GeneralExpense:AdvertisingAndBranding  3500.000000 HKD
+    qty: "1"
+    description: "小紅書KOL 探店-花花要發發"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+    type: "Bill Item"
+    sourceId: "96562ce9-cc48-469c-8157-60f0e475324d"
+  Liabilities:CurrentLiabilities:AccountPayable  -6500.000000 HKD
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+
+2026-01-05 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to SAM VISA"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
     type: "MJ"
-    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    referenceNo: "2349"
-    description: "NTEREST - BOC Foreign 11/2025"
-  Assets:CurrentAssets:Bank:BocForeignBank  0.110000 USD {7.8 HKD}
+    sourceId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
+    orderId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
+    referenceNo: "2363"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  40000.000000 HKD
     type: "MJ"
-    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    referenceNo: "2349"
-    description: "NTEREST - BOC Foreign 11/2025"
+    sourceId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
+    orderId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
+    referenceNo: "2363"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA"
+
+2026-01-05 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1531 #e7919bde-c495-4a8a-9973-212ec50c1916 39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  Assets:CurrentAssets:Bank:BocSavingBank  -3000.000000 HKD
+    type: "Bill Payment"
+    sourceId: "e7919bde-c495-4a8a-9973-212ec50c1916"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  Liabilities:CurrentLiabilities:AccountPayable  3000.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "e7919bde-c495-4a8a-9973-212ec50c1916"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+
+2026-01-05 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1531 #6922d7b4-3139-4045-8093-ab096661c181 39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  Assets:CurrentAssets:Bank:BocSavingBank  -3500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "6922d7b4-3139-4045-8093-ab096661c181"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+  Liabilities:CurrentLiabilities:AccountPayable  3500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "6922d7b4-3139-4045-8093-ab096661c181"
+    referenceNo: "1531"
+    orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
