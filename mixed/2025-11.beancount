@@ -830,6 +830,37 @@
     orderId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-11-13 * "Bill #1522 G17電費(2025-10月) cfeba66b-02f7-4945-b04b-f69f154da730"
+  referenceNo: "1522"
+  orderId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating  2060.000000 HKD
+    qty: "1"
+    description: "G17電費(2025-10月)"
+    referenceNo: "1522"
+    orderId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+    type: "Bill Item"
+    sourceId: "1d7b95c4-edd8-4ff9-b411-901c8692e1f9"
+  Liabilities:CurrentLiabilities:AccountPayable  -2060.000000 HKD
+    referenceNo: "1522"
+    orderId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+
+2025-11-13 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1522 #8aa2f4c3-923e-474b-8dd9-232912075bc7 cfeba66b-02f7-4945-b04b-f69f154da730"
+  Assets:CurrentAssets:Cash:CashInHand  -2060.000000 HKD
+    type: "Bill Payment"
+    sourceId: "8aa2f4c3-923e-474b-8dd9-232912075bc7"
+    referenceNo: "1522"
+    orderId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+  Liabilities:CurrentLiabilities:AccountPayable  2060.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "8aa2f4c3-923e-474b-8dd9-232912075bc7"
+    referenceNo: "1522"
+    orderId: "cfeba66b-02f7-4945-b04b-f69f154da730"
+
 2025-11-15 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
   Assets:CurrentAssets:Cash:PettyCash  -41.000000 HKD
     type: "MJ"

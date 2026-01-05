@@ -700,6 +700,19 @@
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
   Income:FXGainOrLoss
 
+2025-10-14 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1486 #e94d045f-8e58-4f9e-ba1a-ef14157f525b 03053a85-c844-4e41-a29d-53b2f38d91ab"
+  Assets:CurrentAssets:Cash:CashInHand  -1636.000000 HKD
+    type: "Bill Payment"
+    sourceId: "e94d045f-8e58-4f9e-ba1a-ef14157f525b"
+    referenceNo: "1486"
+    orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
+  Liabilities:CurrentLiabilities:AccountPayable  1636.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "e94d045f-8e58-4f9e-ba1a-ef14157f525b"
+    referenceNo: "1486"
+    orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
+
 2025-10-14 * "Assets:CurrentAssets:Cash:PettyCash" "G17 Pretty Cash"
   Assets:CurrentAssets:Cash:PettyCash  2000.000000 HKD
     type: "MJ"
@@ -731,32 +744,19 @@
   referenceNo: "1486"
   orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
   type: "Bill"
-  Expenses:GeneralExpense:ElectricityLightHeating  1836.000000 HKD
+  Expenses:GeneralExpense:ElectricityLightHeating  1636.000000 HKD
     qty: "1"
     description: "G17電費(2025-09月)"
     referenceNo: "1486"
     orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
     type: "Bill Item"
     sourceId: "31ce8c28-5c24-4440-8d52-09903841abe4"
-  Liabilities:CurrentLiabilities:AccountPayable  -1836.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable  -1636.000000 HKD
     referenceNo: "1486"
     orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
-
-2025-10-14 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1486 #717dda2c-b24a-4534-8532-eb9c5d271522 03053a85-c844-4e41-a29d-53b2f38d91ab"
-  Assets:CurrentAssets:Cash:CashInHand  -1836.000000 HKD
-    type: "Bill Payment"
-    sourceId: "717dda2c-b24a-4534-8532-eb9c5d271522"
-    referenceNo: "1486"
-    orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
-  Liabilities:CurrentLiabilities:AccountPayable  1836.000000 HKD
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Payment"
-    sourceId: "717dda2c-b24a-4534-8532-eb9c5d271522"
-    referenceNo: "1486"
-    orderId: "03053a85-c844-4e41-a29d-53b2f38d91ab"
 
 2025-10-14 * "Reservation Payment R#GR2025101400025S P#P20251014028"
   rsv-ref: "GR2025101400025S"

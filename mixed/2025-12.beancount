@@ -54,6 +54,37 @@
     orderId: "7699505d-17ca-4316-bdad-86f08cfbbe0b"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-12-01 * "Bill #1524 G17上網(2025-11月) 516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+  referenceNo: "1524"
+  orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  358.000000 HKD
+    qty: "1"
+    description: "G17上網(2025-11月) "
+    referenceNo: "1524"
+    orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+    type: "Bill Item"
+    sourceId: "0ddafe0b-2895-466b-81f2-1f46e700f334"
+  Liabilities:CurrentLiabilities:AccountPayable  -358.000000 HKD
+    referenceNo: "1524"
+    orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+
+2025-12-01 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1524 #61e78b23-03f8-4558-9097-6ae0f711a662 516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+  Assets:CurrentAssets:Cash:CashInHand  -358.000000 HKD
+    type: "Bill Payment"
+    sourceId: "61e78b23-03f8-4558-9097-6ae0f711a662"
+    referenceNo: "1524"
+    orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+  Liabilities:CurrentLiabilities:AccountPayable  358.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "61e78b23-03f8-4558-9097-6ae0f711a662"
+    referenceNo: "1524"
+    orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
+
 2025-12-02 * "Invoice #1174 Stock~ SAP2554-18 出IGI證書 5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
   Income:Sales:SalesItem:SellGems  -1500.000000 HKD
     category: "Unknown"
@@ -463,6 +494,37 @@
     sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
     referenceNo: "1513"
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
+
+2025-12-15 * "Bill #1523 G17電費(2025-11月) 1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+  referenceNo: "1523"
+  orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating  2143.000000 HKD
+    qty: "1"
+    description: "G17電費(2025-11月)"
+    referenceNo: "1523"
+    orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+    type: "Bill Item"
+    sourceId: "64ac60d3-3713-4b67-ac73-897786ad2fb8"
+  Liabilities:CurrentLiabilities:AccountPayable  -2143.000000 HKD
+    referenceNo: "1523"
+    orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+
+2025-12-15 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1523 #3f22430c-6027-4b4b-a05a-dbb0165244a2 1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+  Assets:CurrentAssets:Cash:CashInHand  -2143.000000 HKD
+    type: "Bill Payment"
+    sourceId: "3f22430c-6027-4b4b-a05a-dbb0165244a2"
+    referenceNo: "1523"
+    orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
+  Liabilities:CurrentLiabilities:AccountPayable  2143.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "3f22430c-6027-4b4b-a05a-dbb0165244a2"
+    referenceNo: "1523"
+    orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
 
 2025-12-16 * "Invoice #1179 Stock~ BR2564 a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
   Income:Sales:SalesItem:Sell18kJewelry  -4000.000000 HKD
