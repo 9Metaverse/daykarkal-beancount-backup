@@ -259,6 +259,21 @@
     referenceNo: "2363"
     description: "BANK TRANSFER from BOC -saving to SAM VISA"
 
+2026-01-05 * "Reservation Payment R#GR2026010500007B P#P20260105010"
+  rsv-ref: "GR2026010500007B"
+  pay-ref: "P20260105010"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  27388.679000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260105010"
+    sourceId: "6f50482c-f200-4821-b115-426543dcfddd"
+    orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -27388.679000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260105010"
+    sourceId: "6f50482c-f200-4821-b115-426543dcfddd"
+    orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
+    contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+
 2026-01-05 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1531 #e7919bde-c495-4a8a-9973-212ec50c1916 39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
   Assets:CurrentAssets:Bank:BocSavingBank  -3000.000000 HKD
     type: "Bill Payment"
@@ -311,17 +326,57 @@
     contact: "852 96548660 (CHICHOICHAN) [164d610a-6b9e-4868-9f4d-2d77912488f3]"
   Assets:Inventory:Gold:Gold-In-Stock  267.020000 XAU { }
 
+2026-01-06 * "Reservation Delivery R#GR2026010500008S D#D20260106010"
+  rsv-ref: "GR2026010500008S"
+  del-ref: "D20260106010"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -23183.870000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20260106010"
+    sourceId: "3feb6391-1afa-4ba4-8312-4753294501b6"
+    orderId: "1f08c74c-9125-414a-92bf-5e94214a153b"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  161.510000 XAU { }
+
+2026-01-06 * "Reservation Delivery R#GR2026010500007B D#D20260106012"
+  rsv-ref: "GR2026010500007B"
+  del-ref: "D20260106012"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  61513.100000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20260106012"
+    sourceId: "7ae3d26b-bbc2-425b-a747-8eff4d92dc53"
+    orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
+    contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+  Income:Sales:Sales-Gold  -479187.050000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -428.530000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
 2026-01-06 * "Reservation Payment R#GR2025121700001B P#P20260106009"
   rsv-ref: "GR2025121700001B"
   pay-ref: "P20260106009"
-  Assets:CurrentAssets:Cash:Cash金料  1418.000000 USD {7.8 HKD}
+  Assets:CurrentAssets:Cash:Cash金料  5363.000000 USD {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20260106009"
     sourceId: "7c343450-9c4d-478e-9b67-236b59e1c14c"
     orderId: "84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -1418.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -5363.000000 USD {7.8 HKD}
     type: "Reservation Payment"
     referenceNo: "P20260106009"
     sourceId: "7c343450-9c4d-478e-9b67-236b59e1c14c"
     orderId: "84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+
+2026-01-06 * "Reservation Payment R#GR2026010500007B P#P20260106010"
+  rsv-ref: "GR2026010500007B"
+  pay-ref: "P20260106010"
+  Assets:CurrentAssets:Cash:Cash金料  33772.000000 USD {7.8 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260106010"
+    sourceId: "7c03dd8e-23ed-4989-88b5-c93ce54facf1"
+    orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -34124.420000 USDT {7.79 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260106010"
+    sourceId: "7c03dd8e-23ed-4989-88b5-c93ce54facf1"
+    orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
+    contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
+  Income:FXGainOrLoss
