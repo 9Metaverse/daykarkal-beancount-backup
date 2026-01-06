@@ -284,3 +284,29 @@
     sourceId: "6922d7b4-3139-4045-8093-ab096661c181"
     referenceNo: "1531"
     orderId: "39aa75d2-0fe9-4f88-a072-3e73ee7230f3"
+
+2026-01-06 * "Reservation Payment R#GR2026010600006S P#P20260106003"
+  rsv-ref: "GR2026010600006S"
+  pay-ref: "P20260106003"
+  Assets:CurrentAssets:Cash:Cash金料  -291853.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260106003"
+    sourceId: "b0a7d1b8-c3d7-4ef6-993b-ca2c37d04b8c"
+    orderId: "6811b76b-c264-448d-92d4-aed250ccd94f"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chiChoiChan85296548660  291853.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260106003"
+    sourceId: "b0a7d1b8-c3d7-4ef6-993b-ca2c37d04b8c"
+    orderId: "6811b76b-c264-448d-92d4-aed250ccd94f"
+    contact: "852 96548660 (CHICHOICHAN) [164d610a-6b9e-4868-9f4d-2d77912488f3]"
+
+2026-01-06 * "Reservation Delivery R#GR2026010600006S D#D20260106003"
+  rsv-ref: "GR2026010600006S"
+  del-ref: "D20260106003"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-chiChoiChan85296548660  -291853.000000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20260106003"
+    sourceId: "ca253b58-885e-4411-a4b3-5db79b5f1e30"
+    orderId: "6811b76b-c264-448d-92d4-aed250ccd94f"
+    contact: "852 96548660 (CHICHOICHAN) [164d610a-6b9e-4868-9f4d-2d77912488f3]"
+  Assets:Inventory:Gold:Gold-In-Stock  267.020000 XAU { }
