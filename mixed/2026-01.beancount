@@ -546,3 +546,30 @@
     sourceId: "4821fb90-d196-4d78-93e5-67b43b7cc98f"
     referenceNo: "1535"
     orderId: "72fcb694-fef4-418b-ba8e-607524085f40"
+
+2026-01-09 * "Reservation Payment R#GR2026010900006S P#P20260109002"
+  rsv-ref: "GR2026010900006S"
+  pay-ref: "P20260109002"
+  Assets:CurrentAssets:Cash:Cash金料  -90000.000000 USD {7.8 HKD}
+    type: "Reservation Payment"
+    referenceNo: "P20260109002"
+    sourceId: "39ecc998-3d30-41e3-82e2-041f93c7a02c"
+    orderId: "828a3abc-2dd8-4d7b-baca-83f04e31d1f6"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zemingZhao85291063399  699750.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260109002"
+    sourceId: "39ecc998-3d30-41e3-82e2-041f93c7a02c"
+    orderId: "828a3abc-2dd8-4d7b-baca-83f04e31d1f6"
+    contact: "852 91063399 (ZEMINGZHAO) [b0f6ad75-82af-4488-89c4-c28aef2392ab]"
+  Income:FXGainOrLoss
+
+2026-01-09 * "Reservation Delivery R#GR2026010900006S D#D20260109001"
+  rsv-ref: "GR2026010900006S"
+  del-ref: "D20260109001"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zemingZhao85291063399  -1097819.270000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20260109001"
+    sourceId: "eb3dc6f4-e92f-45a2-85ed-e04afaaa7035"
+    orderId: "828a3abc-2dd8-4d7b-baca-83f04e31d1f6"
+    contact: "852 91063399 (ZEMINGZHAO) [b0f6ad75-82af-4488-89c4-c28aef2392ab]"
+  Assets:Inventory:Gold:Gold-In-Stock  1000.000000 XAU { }
