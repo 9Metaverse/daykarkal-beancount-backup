@@ -1082,22 +1082,6 @@
     orderId: "1ace877e-f9be-42d8-8e50-656a42a23906"
     contact: "852 93162462 () [812c6e48-1491-4229-8297-6df31c872b30]"
 
-2025-06-20 * "Invoice #1036 Stock BR2512 #13 85f448ce-bf6f-4785-b254-131c7093743a"
-  Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1036"
-    orderId: "85f448ce-bf6f-4785-b254-131c7093743a"
-    type: "Invoice Item"
-    sourceId: "41a84c98-aebe-4ceb-bf92-1b63983c4333"
-  Assets:CurrentAssets:AccountReceivable  3100.000000 HKD
-    referenceNo: "1036"
-    orderId: "85f448ce-bf6f-4785-b254-131c7093743a"
-    type: "Invoice"
-    sourceId: "85f448ce-bf6f-4785-b254-131c7093743a"
-    contact: "852 53306185 () [0c02a01f-fe4b-4d47-9086-1d74cbafc0f3]"
-
 2025-06-20 * "Bill #1362 PT Ring*3 18K Chain*4 HKD@0.918 $8111 e8187482-1033-420e-81d9-eaa03ad17662"
   referenceNo: "1362"
   orderId: "e8187482-1033-420e-81d9-eaa03ad17662"
@@ -1185,6 +1169,22 @@
     type: "Invoice"
     sourceId: "552727fa-3737-46ed-b0c1-92e5c33ffc26"
     contact: "852 62244993 () [fb9ae1b4-9eca-49c0-91ed-1c1be0e96949]"
+
+2025-06-20 * "Invoice #1036 Stock BR2512 #13 85f448ce-bf6f-4785-b254-131c7093743a"
+  Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1036"
+    orderId: "85f448ce-bf6f-4785-b254-131c7093743a"
+    type: "Invoice Item"
+    sourceId: "41a84c98-aebe-4ceb-bf92-1b63983c4333"
+  Assets:CurrentAssets:AccountReceivable  3100.000000 HKD
+    referenceNo: "1036"
+    orderId: "85f448ce-bf6f-4785-b254-131c7093743a"
+    type: "Invoice"
+    sourceId: "85f448ce-bf6f-4785-b254-131c7093743a"
+    contact: "852 53306185 () [0c02a01f-fe4b-4d47-9086-1d74cbafc0f3]"
 
 2025-06-20 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #1035 #29b674ed-b2d5-450d-b09c-c7a507d56820 552727fa-3737-46ed-b0c1-92e5c33ffc26"
   Assets:CurrentAssets:Cash:CashInHand  7500.000000 HKD
@@ -2700,9 +2700,15 @@ SALARY 25年6月"
     orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     referenceNo: "2466"
     description: "Closing Inventory 30/6/2025 (Item #11)"
-  Expenses:CostOfSales:ClosingInventoryBalance  -5214600.830000 HKD
+  Expenses:CostOfSales:ClosingInventoryBalance  -5169984.600000 HKD
     type: "MJ"
     sourceId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     referenceNo: "2466"
     description: "Closing Inventory 30/6/2025 (Item #12)"
+  Assets:CurrentAssets:ShopInventory  -44616.230000 HKD
+    type: "MJ"
+    sourceId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
+    orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
+    referenceNo: "2466"
+    description: "check (Item #13)"
