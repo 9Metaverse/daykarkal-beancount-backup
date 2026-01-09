@@ -6,13 +6,13 @@
     sourceId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
     orderId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
     referenceNo: "2371"
-    description: "G17 1月2026 租金"
+    description: "G17 1月2026 租金 (Item #1)"
   Assets:OtherAssets:Prepayments  -45000.000000 HKD
     type: "MJ"
     sourceId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
     orderId: "8ea152b3-bfdd-4bed-aa6f-840e90031cff"
     referenceNo: "2371"
-    description: "G17 1月2026 租金"
+    description: "G17 1月2026 租金 (Item #2)"
 
 2026-01-02 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1520 #7898cf9c-c7db-49ff-b70d-b2000b1aef7f 199341f8-7ac4-43ae-ab78-404c755b783d"
   Assets:CurrentAssets:Cash:G17ShopCash  -150.000000 HKD
@@ -41,7 +41,7 @@
     sourceId: "5d6afdc3-df35-4f97-a5c1-fe5ccb756685"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  5077.000000 HKD
     category: "Jewelry"
-    sku: "DD20260102002"
+    sku: "Unknown"
     qty: "1"
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
@@ -49,7 +49,7 @@
     sourceId: "73271f8c-1f99-47ca-89ff-be655dac32e7"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2665.000000 HKD
     category: "Jewelry"
-    sku: "DD20260102003"
+    sku: "Unknown"
     qty: "1"
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
@@ -57,7 +57,7 @@
     sourceId: "5899a91d-3529-4937-944d-3bf102c7c895"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1232.000000 HKD
     category: "Jewelry"
-    sku: "DD20260102004"
+    sku: "Unknown"
     qty: "1"
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
@@ -65,7 +65,7 @@
     sourceId: "ab5aecdb-720f-4ad0-a1d0-803e8e947262"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1203.000000 HKD
     category: "Jewelry"
-    sku: "DD20260102005"
+    sku: "Unknown"
     qty: "1"
     referenceNo: "1521"
     orderId: "7fedfe7b-e3f8-4cd7-8116-2a3e8bcdff62"
@@ -97,25 +97,41 @@
     sourceId: "b5b866df-439f-4bb6-9610-975816720847"
     orderId: "b5b866df-439f-4bb6-9610-975816720847"
     referenceNo: "2362"
-    description: " VIDA 12/2025 SALARY "
+    description: "VIDA 12/2025 SALARY  (Item #1)"
   Expenses:GeneralExpense:WagesAndSalaries  25650.000000 HKD
     type: "MJ"
     sourceId: "b5b866df-439f-4bb6-9610-975816720847"
     orderId: "b5b866df-439f-4bb6-9610-975816720847"
     referenceNo: "2362"
-    description: " VIDA 12/2025 SALARY "
+    description: "VIDA 12/2025 SALARY  (Item #2)"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
     type: "MJ"
     sourceId: "b5b866df-439f-4bb6-9610-975816720847"
     orderId: "b5b866df-439f-4bb6-9610-975816720847"
     referenceNo: "2362"
-    description: " VIDA 12/2025 SALARY bank fee "
+    description: "VIDA 12/2025 SALARY bank fee  (Item #3)"
   Expenses:GeneralExpense:BankFeesExpense  5.000000 HKD
     type: "MJ"
     sourceId: "b5b866df-439f-4bb6-9610-975816720847"
     orderId: "b5b866df-439f-4bb6-9610-975816720847"
     referenceNo: "2362"
-    description: " VIDA 12/2025 SALARY bank fee "
+    description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
+
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
@@ -136,35 +152,37 @@
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
 
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
     type: "MJ"
     sourceId: "be63a9a0-b4ce-4edd-9761-33e1994335cb"
     orderId: "be63a9a0-b4ce-4edd-9761-33e1994335cb"
     referenceNo: "2336"
-    description: "417 to G17"
+    description: "417 to G17 (Item #1)"
   Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
     type: "MJ"
     sourceId: "be63a9a0-b4ce-4edd-9761-33e1994335cb"
     orderId: "be63a9a0-b4ce-4edd-9761-33e1994335cb"
     referenceNo: "2336"
-    description: "417 to G17"
+    description: "417 to G17 (Item #2)"
+
+2026-01-03 * "Bill #1536 小紅書KOL 探店 (訂金) e83fc584-28e2-4d60-a0f7-f63502d80b88"
+  referenceNo: "1536"
+  orderId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  970.000000 HKD
+    qty: "1"
+    description: "小紅書KOL 探店 - Nat (訂金)"
+    referenceNo: "1536"
+    orderId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
+    type: "Bill Item"
+    sourceId: "d4235c57-4402-4c0a-ae05-6bbef7caa5ad"
+  Liabilities:CurrentLiabilities:AccountPayable  -970.000000 HKD
+    referenceNo: "1536"
+    orderId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
 
 2026-01-03 * "Reservation Delivery R#GR2026010300008S D#D20260103013"
   rsv-ref: "GR2026010300008S"
@@ -176,6 +194,19 @@
     orderId: "ddbe9da1-5ee6-415b-83c8-688d2fb24a0f"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
   Assets:Inventory:Gold:Gold-In-Stock  217.870000 XAU { }
+
+2026-01-03 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1536 #1ec590d7-3f8f-485a-a083-2ced3206e50f e83fc584-28e2-4d60-a0f7-f63502d80b88"
+  Assets:CurrentAssets:Cash:G17ShopCash  -970.000000 HKD
+    type: "Bill Payment"
+    sourceId: "1ec590d7-3f8f-485a-a083-2ced3206e50f"
+    referenceNo: "1536"
+    orderId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
+  Liabilities:CurrentLiabilities:AccountPayable  970.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "1ec590d7-3f8f-485a-a083-2ced3206e50f"
+    referenceNo: "1536"
+    orderId: "e83fc584-28e2-4d60-a0f7-f63502d80b88"
 
 2026-01-03 * "Reservation Delivery R#GR2026010300007B D#D20260103015"
   rsv-ref: "GR2026010300007B"
@@ -251,13 +282,13 @@
     sourceId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
     orderId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
     referenceNo: "2363"
-    description: "BANK TRANSFER from BOC -saving to SAM VISA"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #1)"
   Assets:CurrentAssets:Bank:BocVisaCard-SamBank  40000.000000 HKD
     type: "MJ"
     sourceId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
     orderId: "caae8bce-2148-43ec-b2f6-03c30525e0c5"
     referenceNo: "2363"
-    description: "BANK TRANSFER from BOC -saving to SAM VISA"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #2)"
 
 2026-01-05 * "Reservation Payment R#GR2026010500007B P#P20260105010"
   rsv-ref: "GR2026010500007B"
@@ -526,13 +557,13 @@
     sourceId: "ebd13576-550f-46e8-bc9b-1c3d0aa38d5d"
     orderId: "ebd13576-550f-46e8-bc9b-1c3d0aa38d5d"
     referenceNo: "2468"
-    description: "417 to G17"
+    description: "417 to G17 (Item #1)"
   Assets:CurrentAssets:Cash:CashInHand  -30000.000000 HKD
     type: "MJ"
     sourceId: "ebd13576-550f-46e8-bc9b-1c3d0aa38d5d"
     orderId: "ebd13576-550f-46e8-bc9b-1c3d0aa38d5d"
     referenceNo: "2468"
-    description: "417 to G17"
+    description: "417 to G17 (Item #2)"
 
 2026-01-07 * "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Bill Payment for Bill #1535 #4821fb90-d196-4d78-93e5-67b43b7cc98f 72fcb694-fef4-418b-ba8e-607524085f40"
   Assets:CurrentAssets:Cash:G17ShopCash  -27676.000000 HKD
@@ -566,10 +597,10 @@
 2026-01-09 * "Reservation Delivery R#GR2026010900006S D#D20260109001"
   rsv-ref: "GR2026010900006S"
   del-ref: "D20260109001"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zemingZhao85291063399  -1097819.270000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-zemingZhao85291063399  -699750.000000 HKD
     type: "Reservation Delivery"
     referenceNo: "D20260109001"
     sourceId: "eb3dc6f4-e92f-45a2-85ed-e04afaaa7035"
     orderId: "828a3abc-2dd8-4d7b-baca-83f04e31d1f6"
     contact: "852 91063399 (ZEMINGZHAO) [b0f6ad75-82af-4488-89c4-c28aef2392ab]"
-  Assets:Inventory:Gold:Gold-In-Stock  1000.000000 XAU { }
+  Assets:Inventory:Gold:Gold-In-Stock  637.400000 XAU { }
