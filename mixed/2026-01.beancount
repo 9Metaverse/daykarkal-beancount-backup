@@ -604,3 +604,31 @@
     orderId: "828a3abc-2dd8-4d7b-baca-83f04e31d1f6"
     contact: "852 91063399 (ZEMINGZHAO) [b0f6ad75-82af-4488-89c4-c28aef2392ab]"
   Assets:Inventory:Gold:Gold-In-Stock  637.400000 XAU { }
+
+2026-01-09 * "Invoice #1188 GIA#7531855335 b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+  Income:Sales:SalesItem:SellDiamond  -80000.000000 HKD
+    description: "Natural Diamond GIA#7531855335 D VVS1 EX EX EX"
+    qty: "1"
+    referenceNo: "1188"
+    orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+    type: "Invoice Item"
+    sourceId: "6c88a948-c1cc-469d-8bff-1c2132599a88"
+  Assets:CurrentAssets:AccountReceivable  80000.000000 HKD
+    referenceNo: "1188"
+    orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+    type: "Invoice"
+    sourceId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+    contact: "852 65753538 () [3b702c06-0f4c-4770-a4e7-48b4c13e1993]"
+
+2026-01-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1188 #0c7fc3b2-c111-49e0-9901-a47bf115f1fc b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+  Assets:CurrentAssets:Bank:BocSavingBank  50000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0c7fc3b2-c111-49e0-9901-a47bf115f1fc"
+    referenceNo: "1188"
+    orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+  Assets:CurrentAssets:AccountReceivable  -50000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0c7fc3b2-c111-49e0-9901-a47bf115f1fc"
+    referenceNo: "1188"
+    orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+    contact: "852 65753538 () [3b702c06-0f4c-4770-a4e7-48b4c13e1993]"
