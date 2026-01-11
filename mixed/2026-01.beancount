@@ -675,3 +675,32 @@
   Income:Sales:Sales-Gold  -56022.700000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -49.680000 XAU { }
   Expenses:Cogs:Cogs-Gold
+
+2026-01-11 * "Invoice #1189 Stock BR2528 077aff3f-5ac5-4677-bee9-882fa85301e2"
+  Income:Sales:SalesItem:Sell18kJewelry  -4200.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1189"
+    orderId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
+    type: "Invoice Item"
+    sourceId: "2468a345-18e9-43b2-9bc4-cb1e2787b373"
+  Assets:CurrentAssets:AccountReceivable  4200.000000 HKD
+    referenceNo: "1189"
+    orderId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
+    type: "Invoice"
+    sourceId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
+    contact: "852 56035280 (NoName) [0e5f525a-852b-4422-8d75-71d3b35a2ad6]"
+
+2026-01-11 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1189 #b37a2d25-b48b-42bf-82db-28471b5e7db6 077aff3f-5ac5-4677-bee9-882fa85301e2"
+  Assets:CurrentAssets:Bank:KpayBank  4200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "b37a2d25-b48b-42bf-82db-28471b5e7db6"
+    referenceNo: "1189"
+    orderId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
+  Assets:CurrentAssets:AccountReceivable  -4200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "b37a2d25-b48b-42bf-82db-28471b5e7db6"
+    referenceNo: "1189"
+    orderId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
+    contact: "852 56035280 (NoName) [0e5f525a-852b-4422-8d75-71d3b35a2ad6]"
