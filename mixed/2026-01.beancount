@@ -666,13 +666,13 @@
 2026-01-09 * "Reservation Delivery R#GR2026010900010B D#D20260109006"
   rsv-ref: "GR2026010900010B"
   del-ref: "D20260109006"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-青青邹85297497694  56022.700000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-青青邹85297497694  56892.890000 HKD
     type: "Reservation Delivery"
     referenceNo: "D20260109006"
     sourceId: "b3bdf64b-abbd-47ac-9447-3d496f590a46"
     orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
     contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
-  Income:Sales:Sales-Gold  -56022.700000 HKD
+  Income:Sales:Sales-Gold  -56892.890000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -49.680000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
@@ -704,3 +704,48 @@
     referenceNo: "1189"
     orderId: "077aff3f-5ac5-4677-bee9-882fa85301e2"
     contact: "852 56035280 (NoName) [0e5f525a-852b-4422-8d75-71d3b35a2ad6]"
+
+2026-01-12 * "Reservation Payment R#GR2026010900010B P#P20260112001"
+  rsv-ref: "GR2026010900010B"
+  pay-ref: "P20260112001"
+  Assets:CurrentAssets:Bank:KpayBank  9800.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112001"
+    sourceId: "f1e603d9-7722-4f16-83ae-a8d48308ca5b"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-青青邹85297497694  -9800.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112001"
+    sourceId: "f1e603d9-7722-4f16-83ae-a8d48308ca5b"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+    contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
+
+2026-01-12 * "Reservation Payment R#GR2026010900010B P#P20260112002"
+  rsv-ref: "GR2026010900010B"
+  pay-ref: "P20260112002"
+  Assets:CurrentAssets:Bank:KpayBank  21950.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112002"
+    sourceId: "b516bc78-d915-4270-98ee-9634ea8d3f4a"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-青青邹85297497694  -21950.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112002"
+    sourceId: "b516bc78-d915-4270-98ee-9634ea8d3f4a"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+    contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
+
+2026-01-12 * "Reservation Payment R#GR2026010900010B P#P20260112003"
+  rsv-ref: "GR2026010900010B"
+  pay-ref: "P20260112003"
+  Assets:CurrentAssets:Bank:KpayBank  32598.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112003"
+    sourceId: "c4f126c7-5faa-4022-a11b-50ed1a5cd296"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-青青邹85297497694  -32598.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260112003"
+    sourceId: "c4f126c7-5faa-4022-a11b-50ed1a5cd296"
+    orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
+    contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"

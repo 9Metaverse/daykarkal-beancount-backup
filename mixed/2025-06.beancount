@@ -684,20 +684,6 @@
     orderId: "890e7394-8274-4912-b04f-5ad04dfb7655"
     contact: "852 62335710 () [187a968f-82dd-4e4f-9ee0-46306a7b29ef]"
 
-2025-06-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 253"
-  Assets:CurrentAssets:Bank:BocSavingBank  3348.000000 HKD
-    type: "MJ"
-    sourceId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
-    orderId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
-    referenceNo: "141"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -3348.000000 HKD
-    type: "MJ"
-    sourceId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
-    orderId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
-    referenceNo: "141"
-    description: "KPAY to BOC Saving (Item #2)"
-
 2025-06-09 * "Invoice #1030 Stock R24131 #15 fe481544-1847-4e70-b2b6-4e4df67f9b12"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD
     category: "Jewelry"
@@ -713,6 +699,20 @@
     type: "Invoice"
     sourceId: "fe481544-1847-4e70-b2b6-4e4df67f9b12"
     contact: "852 61668777 () [38af2f4f-59e5-407e-b01c-aa24839d5c41]"
+
+2025-06-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 253"
+  Assets:CurrentAssets:Bank:BocSavingBank  3348.000000 HKD
+    type: "MJ"
+    sourceId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
+    orderId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
+    referenceNo: "141"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -3348.000000 HKD
+    type: "MJ"
+    sourceId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
+    orderId: "04dadf09-e9dd-4578-9b8c-4d4c338e6cf8"
+    referenceNo: "141"
+    description: "KPAY to BOC Saving (Item #2)"
 
 2025-06-09 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1030 #4db3d10f-4120-434e-b9da-2e14440bf336 fe481544-1847-4e70-b2b6-4e4df67f9b12"
   Assets:CurrentAssets:Bank:KpayBank  2800.000000 HKD
@@ -2633,7 +2633,7 @@ SALARY 25年6月"
     orderId: "b8d8f0d9-f7d5-4853-82e6-ca7c57004cb1"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-06-30 * "Assets:CurrentAssets:ShopInventory:Jewelry" "Inventory Balance 30/6/2025"
+2025-06-30 * "Assets:CurrentAssets:ShopInventory" "Inventory Balance 30/6/2025"
   Assets:CurrentAssets:ShopInventory:Gemstones  201040.000000 HKD
     type: "MJ"
     sourceId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
@@ -2700,13 +2700,13 @@ SALARY 25年6月"
     orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     referenceNo: "2466"
     description: "Closing Inventory 30/6/2025 (Item #11)"
-  Expenses:CostOfSales:ClosingInventoryBalance  -5169984.600000 HKD
+  Expenses:CostOfSales:ClosingInventoryBalance  -5215715.830000 HKD
     type: "MJ"
     sourceId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     referenceNo: "2466"
     description: "Closing Inventory 30/6/2025 (Item #12)"
-  Assets:CurrentAssets:ShopInventory  -44616.230000 HKD
+  Assets:CurrentAssets:ShopInventory  1115.000000 HKD
     type: "MJ"
     sourceId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
     orderId: "6c816ff1-cc61-488e-a392-f9f060f1fc8f"
