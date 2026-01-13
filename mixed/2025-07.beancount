@@ -2350,43 +2350,49 @@
     type: "Bill Item"
     sourceId: "1ce68f3d-0c6e-4e47-962b-3900b1df81ec"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1261.000000 HKD
+    category: "Other"
+    sku: "PROCESSING140"
     qty: "1"
-    description: "加工BB2504 $1261 +SAP2530 $709 =$1970"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
     sourceId: "b8d76cd2-8a8e-4de2-a6a2-2fbb22e1e6e1"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1750.000000 HKD
+    category: "Other"
+    sku: "PROCESSING141"
     qty: "1"
-    description: "加工BR2532 $1750 +SAP2512  $585 =$2335"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
     sourceId: "f7171033-d5e6-4a8a-abdf-a2bf8c565579"
   Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1256.000000 HKD
+    category: "Other"
+    sku: "PROCESSING142"
     qty: "1"
-    description: "加工P2501 $1256 +SAP2529 $1265 =$2521"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
     sourceId: "9198e4f7-ee7b-401b-aa19-1f7b8eae9449"
   Assets:CurrentAssets:ShopInventory:Jewelry  -1261.000000 HKD
+    category: "Other"
+    sku: "PROCESSING140"
     qty: "-1"
-    description: "加工BB2504 $1261 +SAP2530 $709 =$1970"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
     sourceId: "361c93db-eae7-4b36-91b4-6c2c30507a83"
   Assets:CurrentAssets:ShopInventory:Jewelry  -1750.000000 HKD
+    category: "Other"
+    sku: "PROCESSING141"
     qty: "-1"
-    description: "加工BR2532 $1750 +SAP2512  $585 =$2335"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
     sourceId: "c72d6028-5636-4420-ab5c-15102afa2a74"
   Assets:CurrentAssets:ShopInventory:Jewelry  -1256.000000 HKD
+    category: "Other"
+    sku: "PROCESSING142"
     qty: "-1"
-    description: "加工P2501 $1256 +SAP2529 $1265 =$2521"
     referenceNo: "1378"
     orderId: "fc5be2db-9a96-4ea7-9e83-acd58442ccb3"
     type: "Bill Item"
@@ -2573,6 +2579,21 @@
     referenceNo: "1404"
     orderId: "ebd43f5b-0d2d-4599-87eb-9462cbb0a8ae"
 
+2025-07-25 * "Invoice #1056 Repair Ring 0e6e0c82-9939-453b-a25c-ee84d5fc7958"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -150.000000 HKD
+    description: "Repair Ring"
+    qty: "1"
+    referenceNo: "1056"
+    orderId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
+    type: "Invoice Item"
+    sourceId: "744cdee7-42f2-44bb-a013-f4f015610af7"
+  Assets:CurrentAssets:AccountReceivable  150.000000 HKD
+    referenceNo: "1056"
+    orderId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
+    type: "Invoice"
+    sourceId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
+    contact: "852 51777679 () [77c31381-a2fe-4037-941a-3e0c1d6ec8b6]"
+
 2025-07-25 * "Invoice #1059 Staff~Mary 30.70g @$836 15390d27-64a9-4b25-a896-ee977ed8e18e"
   Income:Sales:SalesItem:SellGoldJewelry  -25665.200000 HKD
     category: "Gold Jewelry"
@@ -2588,21 +2609,6 @@
     type: "Invoice"
     sourceId: "15390d27-64a9-4b25-a896-ee977ed8e18e"
     contact: "852 66233965 () [06168dfc-3066-487a-bc6e-4d561c812ac9]"
-
-2025-07-25 * "Invoice #1056 Repair Ring 0e6e0c82-9939-453b-a25c-ee84d5fc7958"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -150.000000 HKD
-    description: "Repair Ring"
-    qty: "1"
-    referenceNo: "1056"
-    orderId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
-    type: "Invoice Item"
-    sourceId: "744cdee7-42f2-44bb-a013-f4f015610af7"
-  Assets:CurrentAssets:AccountReceivable  150.000000 HKD
-    referenceNo: "1056"
-    orderId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
-    type: "Invoice"
-    sourceId: "0e6e0c82-9939-453b-a25c-ee84d5fc7958"
-    contact: "852 51777679 () [77c31381-a2fe-4037-941a-3e0c1d6ec8b6]"
 
 2025-07-26 * "Assets:CurrentAssets:Cash:CashInHand" "Invoice Payment for Invoice #1056 #46441513-7d32-401a-b3a8-256752fc6557 0e6e0c82-9939-453b-a25c-ee84d5fc7958"
   Assets:CurrentAssets:Cash:CashInHand  150.000000 HKD
@@ -2868,32 +2874,6 @@
     sourceId: "ddd0d084-50ec-4e27-860c-8d3789a5fe55"
     referenceNo: "1430"
     orderId: "5ff10276-e6b3-4284-98a9-e03f89f2d882"
-
-2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1072 #58a5de23-86d6-46b3-a97e-bb64e8fa9102 54e876d4-a30c-49f9-af4b-61d47c2e8974"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  279100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "58a5de23-86d6-46b3-a97e-bb64e8fa9102"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-  Assets:CurrentAssets:AccountReceivable  -279100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "58a5de23-86d6-46b3-a97e-bb64e8fa9102"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
-
-2025-07-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1084 #99f7bc22-bdfe-434c-827c-bf05633da557 9e5e3a79-401d-430d-bbcb-fa12be30967e"
-  Assets:CurrentAssets:Bank:BocSavingBank  1800.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "99f7bc22-bdfe-434c-827c-bf05633da557"
-    referenceNo: "1084"
-    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
-  Assets:CurrentAssets:AccountReceivable  -1800.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "99f7bc22-bdfe-434c-827c-bf05633da557"
-    referenceNo: "1084"
-    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
-    contact: " 98070982 () [1d6ae174-304b-44b4-87e6-110ac5f2afd8]"
 
 2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1074 #da26de23-4a55-4d75-87df-ade70b0d6f73 7d9f9cce-be5b-4665-8e11-9c2c16e67b63"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  67353.000000 HKD
@@ -3170,6 +3150,19 @@
     orderId: "82104d37-ee82-43ea-9a81-18a1886e3c01"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 
+2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1072 #58a5de23-86d6-46b3-a97e-bb64e8fa9102 54e876d4-a30c-49f9-af4b-61d47c2e8974"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  279100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "58a5de23-86d6-46b3-a97e-bb64e8fa9102"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+  Assets:CurrentAssets:AccountReceivable  -279100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "58a5de23-86d6-46b3-a97e-bb64e8fa9102"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
 2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1078 #516e9256-4665-4e00-9da8-2e15ee2e0949 184c4566-ebfa-4b9e-9adf-edd91750b27b"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  32086.000000 HKD
     type: "Invoice Payment"
@@ -3287,6 +3280,19 @@
     referenceNo: "1082"
     orderId: "b7c8c611-daea-4511-ac41-f46ddbb7b912"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
+2025-07-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1084 #99f7bc22-bdfe-434c-827c-bf05633da557 9e5e3a79-401d-430d-bbcb-fa12be30967e"
+  Assets:CurrentAssets:Bank:BocSavingBank  1800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "99f7bc22-bdfe-434c-827c-bf05633da557"
+    referenceNo: "1084"
+    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
+  Assets:CurrentAssets:AccountReceivable  -1800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "99f7bc22-bdfe-434c-827c-bf05633da557"
+    referenceNo: "1084"
+    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
+    contact: " 98070982 () [1d6ae174-304b-44b4-87e6-110ac5f2afd8]"
 
 2025-07-31 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1073 #ad8c646b-6904-4aaa-bad1-ed12f7f41664 1e7f2591-6d67-4788-a9e9-793db6b1b8e8"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  117686.000000 HKD
@@ -4016,46 +4022,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -237.760000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2025-07-31 * "Invoice #1072 (婚嫁4pcs 356.28g) Gold Jewelry G17 to 417 @$831 54e876d4-a30c-49f9-af4b-61d47c2e8974"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -53068.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051204000000000054"
-    qty: "1"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    type: "Invoice Item"
-    sourceId: "f57ff667-b735-4311-9551-a67ae483264e"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -215146.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051203000000000025"
-    qty: "1"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    type: "Invoice Item"
-    sourceId: "d0fd603c-975e-4a93-84ed-5c5514914fa3"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  -10886.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051205000000000035"
-    qty: "1"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    type: "Invoice Item"
-    sourceId: "b903ebd3-0b7a-4942-aa88-da4cf8647c20"
-  Assets:CurrentAssets:ShopInventory:GoldJewelry  0.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DDFF23051206000000000008"
-    qty: "1"
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    type: "Invoice Item"
-    sourceId: "1d45a46e-3fb6-4a87-a707-06cce0cfb2b0"
-  Assets:CurrentAssets:AccountReceivable  279100.000000 HKD
-    referenceNo: "1072"
-    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    type: "Invoice"
-    sourceId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
-    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
-
 2025-07-31 * "Invoice #1069 (12N 90.92g) Gold Jewelry G17 to 417 @$831 bd435693-8485-4257-8998-6dd685d1a900"
   Assets:CurrentAssets:ShopInventory:GoldJewelry  -2294.000000 HKD
     category: "Gold Jewelry"
@@ -4158,6 +4124,46 @@
     orderId: "bd435693-8485-4257-8998-6dd685d1a900"
     type: "Invoice"
     sourceId: "bd435693-8485-4257-8998-6dd685d1a900"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
+2025-07-31 * "Invoice #1072 (婚嫁4pcs 356.28g) Gold Jewelry G17 to 417 @$831 54e876d4-a30c-49f9-af4b-61d47c2e8974"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -53068.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051204000000000054"
+    qty: "1"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    type: "Invoice Item"
+    sourceId: "f57ff667-b735-4311-9551-a67ae483264e"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -215146.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051203000000000025"
+    qty: "1"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    type: "Invoice Item"
+    sourceId: "d0fd603c-975e-4a93-84ed-5c5514914fa3"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -10886.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051205000000000035"
+    qty: "1"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    type: "Invoice Item"
+    sourceId: "b903ebd3-0b7a-4942-aa88-da4cf8647c20"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  0.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DDFF23051206000000000008"
+    qty: "1"
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    type: "Invoice Item"
+    sourceId: "1d45a46e-3fb6-4a87-a707-06cce0cfb2b0"
+  Assets:CurrentAssets:AccountReceivable  279100.000000 HKD
+    referenceNo: "1072"
+    orderId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
+    type: "Invoice"
+    sourceId: "54e876d4-a30c-49f9-af4b-61d47c2e8974"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 
 2025-07-31 * "Invoice #1078 (8E 38.61g) Gold Jewelry G17 to 417 @$831 184c4566-ebfa-4b9e-9adf-edd91750b27b"
@@ -5417,22 +5423,6 @@
     referenceNo: "183"
     orderId: "f998b8c5-4ba1-4b48-983d-d10ae10328b7"
 
-2025-07-31 * "Invoice #1084 Stock R24141 #13 9e5e3a79-401d-430d-bbcb-fa12be30967e"
-  Income:Sales:SalesItem:Sell18kJewelry  -1800.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1084"
-    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
-    type: "Invoice Item"
-    sourceId: "58a8c80c-ef71-454e-b50c-2bbe97a25a6b"
-  Assets:CurrentAssets:AccountReceivable  1800.000000 HKD
-    referenceNo: "1084"
-    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
-    type: "Invoice"
-    sourceId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
-    contact: " 98070982 () [1d6ae174-304b-44b4-87e6-110ac5f2afd8]"
-
 2025-07-31 * "Invoice #1082 (生肖10pcs 7.60g) Gold Jewelry G17 to 417 @$831 b7c8c611-daea-4511-ac41-f46ddbb7b912"
   Assets:CurrentAssets:ShopInventory:GoldJewelry  -357.000000 HKD
     category: "Gold Jewelry"
@@ -5520,6 +5510,22 @@
     type: "Invoice"
     sourceId: "b7c8c611-daea-4511-ac41-f46ddbb7b912"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
+2025-07-31 * "Invoice #1084 Stock R24141 #13 9e5e3a79-401d-430d-bbcb-fa12be30967e"
+  Income:Sales:SalesItem:Sell18kJewelry  -1800.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1084"
+    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
+    type: "Invoice Item"
+    sourceId: "58a8c80c-ef71-454e-b50c-2bbe97a25a6b"
+  Assets:CurrentAssets:AccountReceivable  1800.000000 HKD
+    referenceNo: "1084"
+    orderId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
+    type: "Invoice"
+    sourceId: "9e5e3a79-401d-430d-bbcb-fa12be30967e"
+    contact: " 98070982 () [1d6ae174-304b-44b4-87e6-110ac5f2afd8]"
 
 2025-07-31 * "Invoice #1083 (舊貨維修1N 3.62g) Gold Jewelry G17 to 417 @$831 00a59a4d-bd4f-4ba7-8e15-4e78ede9d6a9"
   Assets:CurrentAssets:ShopInventory:Jewelry  -3008.000000 HKD
