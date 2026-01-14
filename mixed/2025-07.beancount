@@ -867,20 +867,6 @@
     orderId: "95781e28-fe0c-48f7-af2e-9ef5f0fb0311"
     contact: "852 62335710 () [187a968f-82dd-4e4f-9ee0-46306a7b29ef]"
 
-2025-07-08 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
-    type: "MJ"
-    sourceId: "89396acd-284a-462a-9a17-4911b01d4f2f"
-    orderId: "89396acd-284a-462a-9a17-4911b01d4f2f"
-    referenceNo: "235"
-    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #1)"
-  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
-    type: "MJ"
-    sourceId: "89396acd-284a-462a-9a17-4911b01d4f2f"
-    orderId: "89396acd-284a-462a-9a17-4911b01d4f2f"
-    referenceNo: "235"
-    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
-
 2025-07-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 263"
   Assets:CurrentAssets:Bank:KpayBank  -3348.000000 HKD
     type: "MJ"
@@ -906,6 +892,20 @@
     orderId: "f308017e-eb42-4199-b4c3-f2d5c1e44e07"
     referenceNo: "1141"
     description: "kpay 263 (Item #4)"
+
+2025-07-08 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "89396acd-284a-462a-9a17-4911b01d4f2f"
+    orderId: "89396acd-284a-462a-9a17-4911b01d4f2f"
+    referenceNo: "235"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "89396acd-284a-462a-9a17-4911b01d4f2f"
+    orderId: "89396acd-284a-462a-9a17-4911b01d4f2f"
+    referenceNo: "235"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
 
 2025-07-08 * "Invoice #1051 STAFF~ gold jewellery 2.06g @$835.92 工費0 2e47ace2-1d3c-4198-9d8d-7a6a91527c6e"
   Income:Sales:SalesItem:SellGoldJewelry  -50.000000 HKD
@@ -1118,22 +1118,6 @@
     orderId: "111ded48-d382-4eb0-b287-2b8ebfb719de"
     contact: "852 62713239 (MrLee) [ba71d23c-c56d-4965-9ce7-9b3769dd63b1]"
 
-2025-07-12 * "Invoice #1054 SAP2524 Teal Sapphire 0.893CT Oval 121d5d05-0649-4d4d-9b72-3512aea59715"
-  Income:Sales:SalesItem:SellGems  -1800.000000 HKD
-    category: "Gem"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1054"
-    orderId: "121d5d05-0649-4d4d-9b72-3512aea59715"
-    type: "Invoice Item"
-    sourceId: "4512dc77-cf49-4f35-872e-045dfd25d25b"
-  Assets:CurrentAssets:AccountReceivable  1800.000000 HKD
-    referenceNo: "1054"
-    orderId: "121d5d05-0649-4d4d-9b72-3512aea59715"
-    type: "Invoice"
-    sourceId: "121d5d05-0649-4d4d-9b72-3512aea59715"
-    contact: "852 97676266 () [f855d5ea-2abc-480f-be0b-6438a35fe934]"
-
 2025-07-12 * "Invoice #1055 Stock R24126 #14 fd81e32a-9bb8-4103-a3a2-52c3d2b247a4"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD
     category: "Jewelry"
@@ -1148,6 +1132,22 @@
     orderId: "fd81e32a-9bb8-4103-a3a2-52c3d2b247a4"
     type: "Invoice"
     sourceId: "fd81e32a-9bb8-4103-a3a2-52c3d2b247a4"
+    contact: "852 97676266 () [f855d5ea-2abc-480f-be0b-6438a35fe934]"
+
+2025-07-12 * "Invoice #1054 SAP2524 Teal Sapphire 0.893CT Oval 121d5d05-0649-4d4d-9b72-3512aea59715"
+  Income:Sales:SalesItem:SellGems  -1800.000000 HKD
+    category: "Gem"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1054"
+    orderId: "121d5d05-0649-4d4d-9b72-3512aea59715"
+    type: "Invoice Item"
+    sourceId: "4512dc77-cf49-4f35-872e-045dfd25d25b"
+  Assets:CurrentAssets:AccountReceivable  1800.000000 HKD
+    referenceNo: "1054"
+    orderId: "121d5d05-0649-4d4d-9b72-3512aea59715"
+    type: "Invoice"
+    sourceId: "121d5d05-0649-4d4d-9b72-3512aea59715"
     contact: "852 97676266 () [f855d5ea-2abc-480f-be0b-6438a35fe934]"
 
 2025-07-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1054 #06655dce-2971-481a-a907-21fde2e5a5a9 121d5d05-0649-4d4d-9b72-3512aea59715"
@@ -3982,6 +3982,92 @@
     type: "Invoice"
     sourceId: "612bb2a6-e699-4116-b9d8-24a93aac4a14"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
+2025-07-31 * "Assets:CurrentAssets:ShopInventory:Jewelry" "Inventory Balance 31/7/2025"
+  Assets:CurrentAssets:ShopInventory:Gemstones  287641.000000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (Item #1)"
+  Assets:CurrentAssets:ShopInventory:Gemstones  13757.640000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (USD1763.8*7.8) (Item #2)"
+  Assets:CurrentAssets:ShopInventory:Gemstones  2559.000000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 adj. (Item #3)"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  5189.050000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (Item #4)"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  408.350000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (CNY374.63*1.09) (Item #5)"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  1307064.990000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 adj. (Item #6)"
+  Assets:CurrentAssets:ShopInventory:NaturalDiamond  849555.500000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (Item #7)"
+  Assets:CurrentAssets:ShopInventory:NaturalDiamond  83930.000000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (CNY77,000*1.09) (Item #8)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2987129.180000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (Item #9)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2121.600000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (USD272*7.8) (Item #10)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  171611.510000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (CNY157441.75*1.09) (Item #11)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -9232.000000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 adj (Item #12)"
+  Expenses:CostOfSales:ClosingInventoryBalance  -4401343.820000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "Closing Inventory 31/7/2025 (Item #13)"
+  Assets:CurrentAssets:ShopInventory  -1300392.000000 HKD
+    type: "MJ"
+    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
+    referenceNo: "2576"
+    description: "check (Item #14)"
 
 2025-07-31 * "Reservation Delivery R#GR2025073100004B D#D20250731002"
   rsv-ref: "GR2025073100004B"
