@@ -117,22 +117,6 @@
     referenceNo: "2362"
     description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
 
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -151,6 +135,22 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
+
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
@@ -1133,20 +1133,6 @@
     referenceNo: "1539"
     orderId: "e820ed51-7969-4c6f-ab87-2ae3baf8c2cf"
 
-2026-01-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 305"
-  Assets:CurrentAssets:Bank:BocSavingBank  423054.660000 HKD
-    type: "MJ"
-    sourceId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
-    orderId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
-    referenceNo: "2573"
-    description: "kpay 305 (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -423054.660000 HKD
-    type: "MJ"
-    sourceId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
-    orderId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
-    referenceNo: "2573"
-    description: "kpay 305 (Item #2)"
-
 2026-01-14 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
   Assets:CurrentAssets:Bank:BocSavingBank  -250000.000000 HKD
     type: "MJ"
@@ -1160,6 +1146,20 @@
     orderId: "fb5cd58a-f360-4b94-a074-00f639e47fcd"
     referenceNo: "2574"
     description: "Bank Transfer : BOC -saving to BOC - current (Item #2)"
+
+2026-01-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 305"
+  Assets:CurrentAssets:Bank:BocSavingBank  423054.660000 HKD
+    type: "MJ"
+    sourceId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
+    orderId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
+    referenceNo: "2573"
+    description: "kpay 305 (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -423054.660000 HKD
+    type: "MJ"
+    sourceId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
+    orderId: "54dd8e43-3c6f-428d-8083-9ce84739a412"
+    referenceNo: "2573"
+    description: "kpay 305 (Item #2)"
 
 2026-01-14 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  36000.000000 HKD
@@ -1323,4 +1323,33 @@
     referenceNo: "P20260114017"
     sourceId: "7e5fd5fa-24e3-4240-9320-119c2f7d1503"
     orderId: "765df4c3-3aad-4fbd-9c8c-868413a30324"
+    contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
+
+2026-01-16 * "Invoice #1190 Stock R24129 8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+  Income:Sales:SalesItem:Sell18kJewelry  -4780.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1190"
+    orderId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+    type: "Invoice Item"
+    sourceId: "79fac678-dff0-4e7a-ae74-37b32d8e152f"
+  Assets:CurrentAssets:AccountReceivable  4780.000000 HKD
+    referenceNo: "1190"
+    orderId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+    type: "Invoice"
+    sourceId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+    contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
+
+2026-01-16 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1190 #63b9b160-aac0-4e70-b0ed-37af97e6cbc3 8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+  Assets:CurrentAssets:Bank:KpayBank  4780.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "63b9b160-aac0-4e70-b0ed-37af97e6cbc3"
+    referenceNo: "1190"
+    orderId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
+  Assets:CurrentAssets:AccountReceivable  -4780.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "63b9b160-aac0-4e70-b0ed-37af97e6cbc3"
+    referenceNo: "1190"
+    orderId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
     contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
