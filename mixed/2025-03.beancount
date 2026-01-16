@@ -443,19 +443,6 @@
     orderId: "8bc657fd-b6ce-4d58-ae5e-a0d33258d9b3"
     contact: "852 60267672 (TAIWAING) [a85aea36-1ddf-4fbe-8f42-f93f4b47d708]"
 
-2025-03-10 * "Reservation Delivery R#GR2025031000005B D#D20250310002"
-  rsv-ref: "GR2025031000005B"
-  del-ref: "D20250310002"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-taiWaiNg85260267672  731214.000000 HKD
-    type: "Reservation Delivery"
-    referenceNo: "D20250310002"
-    sourceId: "3f941cdb-8e29-414a-af1e-11fa254762c3"
-    orderId: "20c60195-2a2e-4d5d-94ce-51c0ca185755"
-    contact: "852 60267672 (TAIWAING) [a85aea36-1ddf-4fbe-8f42-f93f4b47d708]"
-  Income:Sales:Sales-Gold  -731214.000000 HKD
-  Assets:Inventory:Gold:Gold-In-Stock  -1001.910000 XAU { }
-  Expenses:Cogs:Cogs-Gold
-
 2025-03-10 * "Reservation Delivery R#GR2025031000003B D#D20250310006"
   rsv-ref: "GR2025031000003B"
   del-ref: "D20250310006"
@@ -506,6 +493,19 @@
     contact: "852 60267672 (TAIWAING) [a85aea36-1ddf-4fbe-8f42-f93f4b47d708]"
   Income:Sales:Sales-Gold  -730258.000000 HKD
   Assets:Inventory:Gold:Gold-In-Stock  -1000.600000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2025-03-10 * "Reservation Delivery R#GR2025031000005B D#D20250310002"
+  rsv-ref: "GR2025031000005B"
+  del-ref: "D20250310002"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-taiWaiNg85260267672  731214.000000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20250310002"
+    sourceId: "3f941cdb-8e29-414a-af1e-11fa254762c3"
+    orderId: "20c60195-2a2e-4d5d-94ce-51c0ca185755"
+    contact: "852 60267672 (TAIWAING) [a85aea36-1ddf-4fbe-8f42-f93f4b47d708]"
+  Income:Sales:Sales-Gold  -731214.000000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -1001.910000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
 2025-03-10 * "Reservation Payment R#GR2025031000013S P#P20250310007"
@@ -893,19 +893,6 @@
     orderId: "8be9717f-ea43-43c2-bcc2-8b2ab0bb6f41"
     contact: "852 97009230 () [b2206a34-f0a6-4d95-ba88-7f9cbcb93553]"
 
-2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #947 #d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4 96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-  Assets:CurrentAssets:Bank:BocSavingBank  2100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
-    referenceNo: "947"
-    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-  Assets:CurrentAssets:AccountReceivable  -2100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
-    referenceNo: "947"
-    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-    contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
-
 2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #964 #c0c940d5-b35a-43ff-9d4d-657bc72928b5 ff90d41b-de72-41f1-a4c8-078460a40ffb"
   Assets:CurrentAssets:Bank:BocSavingBank  1450.000000 HKD
     type: "Invoice Payment"
@@ -917,6 +904,19 @@
     sourceId: "c0c940d5-b35a-43ff-9d4d-657bc72928b5"
     referenceNo: "964"
     orderId: "ff90d41b-de72-41f1-a4c8-078460a40ffb"
+    contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
+
+2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #947 #d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4 96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
+  Assets:CurrentAssets:Bank:BocSavingBank  2100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
+    referenceNo: "947"
+    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
+  Assets:CurrentAssets:AccountReceivable  -2100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
+    referenceNo: "947"
+    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
     contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
 
 2025-03-22 * "Invoice #964 Order R24142 #18 ff90d41b-de72-41f1-a4c8-078460a40ffb"
@@ -996,30 +996,6 @@
     orderId: "ffec9aa9-821f-434f-8989-0a23aa2eb39b"
     contact: "852 68038629 (MSXENIATSANG) [4548b7f2-3e91-4627-ba2b-9bef14eac4e1]"
 
-2025-03-24 * "Invoice #966 Tour ($893.95) 1.85g+1.45g fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
-  Income:Sales:SalesItem:SellGoldJewelry  -2000.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DD2310200000000000000038"
-    qty: "1"
-    referenceNo: "966"
-    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
-    type: "Invoice Item"
-    sourceId: "d2526325-3714-4672-9924-9f91b60f9f64"
-  Income:Sales:SalesItem:SellGoldJewelry  -1600.000000 HKD
-    category: "Gold Jewelry"
-    sku: "DD2310200000000000000073"
-    qty: "1"
-    referenceNo: "966"
-    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
-    type: "Invoice Item"
-    sourceId: "22ea6d6c-3e21-4059-8bc3-62cd5189e77d"
-  Assets:CurrentAssets:AccountReceivable  3600.000000 HKD
-    referenceNo: "966"
-    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
-    type: "Invoice"
-    sourceId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
-    contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
-
 2025-03-24 * "Invoice #967 Tour ($893.95) 6.60g 384f6c10-6a2f-4523-941d-b8200bf9d466"
   Income:Sales:SalesItem:SellGoldJewelry  -6000.000000 HKD
     category: "Gold Jewelry"
@@ -1050,6 +1026,30 @@
     orderId: "0e2874b5-c0ef-478e-9560-c86745b62dcf"
     type: "Invoice"
     sourceId: "0e2874b5-c0ef-478e-9560-c86745b62dcf"
+    contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2025-03-24 * "Invoice #966 Tour ($893.95) 1.85g+1.45g fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
+  Income:Sales:SalesItem:SellGoldJewelry  -2000.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DD2310200000000000000038"
+    qty: "1"
+    referenceNo: "966"
+    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
+    type: "Invoice Item"
+    sourceId: "d2526325-3714-4672-9924-9f91b60f9f64"
+  Income:Sales:SalesItem:SellGoldJewelry  -1600.000000 HKD
+    category: "Gold Jewelry"
+    sku: "DD2310200000000000000073"
+    qty: "1"
+    referenceNo: "966"
+    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
+    type: "Invoice Item"
+    sourceId: "22ea6d6c-3e21-4059-8bc3-62cd5189e77d"
+  Assets:CurrentAssets:AccountReceivable  3600.000000 HKD
+    referenceNo: "966"
+    orderId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
+    type: "Invoice"
+    sourceId: "fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
     contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
 
 2025-03-24 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #966 #53b4283c-170f-4231-9de3-bbf78d9f6dcc fc95e37d-15d7-4cd0-adb6-4f2bc84f821f"
@@ -1653,20 +1653,6 @@
     referenceNo: "1321"
     orderId: "579ce902-c81b-4039-bcb4-296f63a80e02"
 
-2025-03-31 * "Expenses:OtherExpenses:RefiningExpense金" "Closing 31/3/2025 - USD"
-  Expenses:OtherExpenses:RefiningExpense金   163.829000 HKD
-    type: "MJ"
-    sourceId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
-    orderId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
-    referenceNo: "1191"
-    description: "美泰樂 3月2025 Refining (Item #1)"
-  Liabilities:CurrentLiabilities:AccruedExpenses  -20.950000 USD {7.82 HKD}
-    type: "MJ"
-    sourceId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
-    orderId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
-    referenceNo: "1191"
-    description: "美泰樂 3月2025 Refining (Item #2)"
-
 2025-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 222"
   Assets:CurrentAssets:Bank:BocSavingBank  6697.000000 HKD
     type: "MJ"
@@ -1758,6 +1744,20 @@
     orderId: "35c9ea26-8150-476b-9419-4d4966352fa6"
     referenceNo: "1197"
     description: "G17電費(2025-03月) (Item #8)"
+
+2025-03-31 * "Expenses:OtherExpenses:RefiningExpense金" "Closing 31/3/2025 - USD"
+  Expenses:OtherExpenses:RefiningExpense金   163.829000 HKD
+    type: "MJ"
+    sourceId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
+    orderId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
+    referenceNo: "1191"
+    description: "美泰樂 3月2025 Refining (Item #1)"
+  Liabilities:CurrentLiabilities:AccruedExpenses  -20.950000 USD {7.82 HKD}
+    type: "MJ"
+    sourceId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
+    orderId: "9ae12442-45ad-45b4-84c6-35cba0728b6e"
+    referenceNo: "1191"
+    description: "美泰樂 3月2025 Refining (Item #2)"
 
 2025-03-31 * "Expenses:GeneralExpense:Depreciation" "Depreciation 31/3/2025"
   Expenses:GeneralExpense:Depreciation  4028.100000 HKD
@@ -1860,7 +1860,7 @@
     referenceNo: "168"
     orderId: "2b0f825f-edeb-43eb-8642-f3ed9a59f8a8"
 
-2025-03-31 * "Assets:CurrentAssets:ShopInventory:Gemstones" "Inventory Balance 31/3/2025"
+2025-03-31 * "Assets:CurrentAssets:ShopInventory:Jewelry" "Inventory Balance 31/3/2025"
   Assets:CurrentAssets:ShopInventory:GoldJewelry  815697.990000 HKD
     type: "MJ"
     sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
@@ -1885,45 +1885,45 @@
     orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     referenceNo: "173"
     description: "Closing Inventory 31/3/2025 (Item #4)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  193200.320000 HKD
-    type: "MJ"
-    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    referenceNo: "173"
-    description: "Closing Inventory 31/3/2025 (CNY177,248*1.09) (Item #5)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2941322.630000 HKD
-    type: "MJ"
-    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    referenceNo: "173"
-    description: "Closing Inventory 31/3/2025 (Item #6)"
   Assets:CurrentAssets:ShopInventory:Gemstones  1728.000000 HKD
     type: "MJ"
     sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     referenceNo: "173"
-    description: "Closing Inventory adj. 31/3/2025 (Item #7)"
+    description: "Closing Inventory adj. 31/3/2025 (Item #5)"
   Assets:CurrentAssets:ShopInventory:Gemstones  1244.800000 HKD
     type: "MJ"
     sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     referenceNo: "173"
-    description: "Closing Inventory 31/3/2025 (USD160*7.78) (Item #8)"
+    description: "Closing Inventory 31/3/2025 (USD160*7.78) (Item #6)"
   Assets:CurrentAssets:ShopInventory:Gemstones  210228.000000 HKD
     type: "MJ"
     sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     referenceNo: "173"
+    description: "Closing Inventory 31/3/2025 (Item #7)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -1728.000000 HKD
+    type: "MJ"
+    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    referenceNo: "173"
+    description: "Closing Inventory adj. 31/3/2025 (Item #8)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  2941322.630000 HKD
+    type: "MJ"
+    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    referenceNo: "173"
     description: "Closing Inventory 31/3/2025 (Item #9)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  193200.320000 HKD
+    type: "MJ"
+    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
+    referenceNo: "173"
+    description: "Closing Inventory 31/3/2025 (CNY177,248*1.09) (Item #10)"
   Expenses:CostOfSales:ClosingInventoryBalance  -5190286.900000 HKD
     type: "MJ"
     sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
     referenceNo: "173"
-    description: "Closing Inventory 31/3/2025 (Item #10)"
-  Assets:CurrentAssets:ShopInventory  -1728.000000 HKD
-    type: "MJ"
-    sourceId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    orderId: "befe364d-4dfb-425d-995a-fa7fde4b70e4"
-    referenceNo: "173"
-    description: "Closing Inventory adj. 31/3/2025 (Item #11)"
+    description: "Closing Inventory 31/3/2025 (Item #11)"
