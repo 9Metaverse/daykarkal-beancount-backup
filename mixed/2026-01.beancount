@@ -1418,3 +1418,32 @@
     referenceNo: "1192"
     orderId: "c0a65393-5270-4688-8b52-1f841f60043d"
     contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
+
+2026-01-18 * "Invoice #1193 c0426e47-be3d-4bda-a193-5541909f02b9"
+  Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
+    category: "Jewelry"
+    sku: "DD2024090800000005"
+    qty: "1"
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    type: "Invoice Item"
+    sourceId: "3bb19064-0e34-46b0-a036-c8fe2267dd2e"
+  Assets:CurrentAssets:AccountReceivable  7000.000000 HKD
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    type: "Invoice"
+    sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    contact: "852 88888888 () [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
+2026-01-18 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1193 #0cd9ce15-64f2-483c-a5b6-6d6677dbf0f3 c0426e47-be3d-4bda-a193-5541909f02b9"
+  Assets:CurrentAssets:Cash:G17ShopCash  7000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0cd9ce15-64f2-483c-a5b6-6d6677dbf0f3"
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+  Assets:CurrentAssets:AccountReceivable  -7000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0cd9ce15-64f2-483c-a5b6-6d6677dbf0f3"
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    contact: "852 88888888 () [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
