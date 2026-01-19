@@ -117,6 +117,22 @@
     referenceNo: "2362"
     description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
 
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -135,22 +151,6 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
-
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
@@ -621,13 +621,22 @@
 
 2026-01-09 * "Invoice #1188 GIA#7531855335 b663b063-acd4-45f6-857a-c5dcd9f6f84c"
   Income:Sales:SalesItem:SellDiamond  -80000.000000 HKD
-    description: "Natural Diamond GIA#7531855335 D VVS1 EX EX EX"
+    category: "Natural Diamond"
+    sku: "7531855335"
     qty: "1"
     referenceNo: "1188"
     orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
     type: "Invoice Item"
     sourceId: "6c88a948-c1cc-469d-8bff-1c2132599a88"
-  Assets:CurrentAssets:AccountReceivable  80000.000000 HKD
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -5100.000000 HKD
+    category: "Jewelry"
+    sku: "DDBESPOKE00000051"
+    qty: "1"
+    referenceNo: "1188"
+    orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
+    type: "Invoice Item"
+    sourceId: "7984b108-ca7e-40d3-9c0d-72dc6b841a84"
+  Assets:CurrentAssets:AccountReceivable  85100.000000 HKD
     referenceNo: "1188"
     orderId: "b663b063-acd4-45f6-857a-c5dcd9f6f84c"
     type: "Invoice"
@@ -1419,7 +1428,7 @@
     orderId: "c0a65393-5270-4688-8b52-1f841f60043d"
     contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
 
-2026-01-18 * "Invoice #1193 c0426e47-be3d-4bda-a193-5541909f02b9"
+2026-01-18 * "Invoice #1193 Stock~ R24127 c0426e47-be3d-4bda-a193-5541909f02b9"
   Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
     category: "Jewelry"
     sku: "DD2024090800000005"
@@ -1439,9 +1448,9 @@
   referenceNo: "1540"
   orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  4250.000000 HKD
-    category: "Other"
-    sku: "PROCESSING143"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  4250.000000 HKD
+    category: "Jewelry"
+    sku: "DDBESPOKE00000051"
     qty: "1"
     referenceNo: "1540"
     orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
@@ -1479,3 +1488,22 @@
     sourceId: "c5cc6a54-12e4-4c4d-812d-f3414f34f1ae"
     referenceNo: "1540"
     orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+
+2026-01-19 * "Bill #1541 23175323-db9f-4a63-a7ad-931c41ba98ff"
+  referenceNo: "1541"
+  orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  73000.000000 HKD
+    category: "Natural Diamond"
+    sku: "7531855335"
+    qty: "1"
+    referenceNo: "1541"
+    orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
+    type: "Bill Item"
+    sourceId: "5aecba5e-b01d-477d-bad9-e1cab757c6fa"
+  Liabilities:CurrentLiabilities:AccountPayable  -73000.000000 HKD
+    referenceNo: "1541"
+    orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
+    contact: "998 12345775 (VED-VENIDIAMLTD) [af11cd82-725d-4855-83d7-d2ed50d9fa56]"
+    type: "Bill"
+    sourceId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
