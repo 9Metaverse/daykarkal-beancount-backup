@@ -1489,7 +1489,39 @@
     referenceNo: "1540"
     orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
 
-2026-01-19 * "Bill #1541 23175323-db9f-4a63-a7ad-931c41ba98ff"
+2026-01-19 * "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Bill Payment for Bill #1542 #f7050132-ff35-4a90-9417-4f83350177ec 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  Assets:CurrentAssets:Cash:G17ShopCash  -123.000000 HKD
+    type: "Bill Payment"
+    sourceId: "f7050132-ff35-4a90-9417-4f83350177ec"
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  Liabilities:CurrentLiabilities:AccountPayable  123.000000 HKD
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill Payment"
+    sourceId: "f7050132-ff35-4a90-9417-4f83350177ec"
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+
+2026-01-19 * "Bill #1542 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  referenceNo: "1542"
+  orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  123.000000 HKD
+    category: "Other"
+    sku: "PROCESSING143"
+    qty: "1"
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    type: "Bill Item"
+    sourceId: "dc0d7c1c-ec2f-498d-adfa-d4e07578d148"
+  Liabilities:CurrentLiabilities:AccountPayable  -123.000000 HKD
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill"
+    sourceId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+
+2026-01-19 * "Bill #1541 GIA#7531855335 1.20CT 23175323-db9f-4a63-a7ad-931c41ba98ff"
   referenceNo: "1541"
   orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
   type: "Bill"
