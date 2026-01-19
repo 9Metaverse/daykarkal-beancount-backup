@@ -1435,6 +1435,25 @@
     sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
     contact: "852 88888888 () [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
+2026-01-18 * "Bill #1540 REF INV#1188 1.20CT 做托鑲石 c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+  referenceNo: "1540"
+  orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  4250.000000 HKD
+    category: "Other"
+    sku: "PROCESSING143"
+    qty: "1"
+    referenceNo: "1540"
+    orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+    type: "Bill Item"
+    sourceId: "539f35d1-ceef-4e9c-9fa4-1222e14cdf70"
+  Liabilities:CurrentLiabilities:AccountPayable  -4250.000000 HKD
+    referenceNo: "1540"
+    orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill"
+    sourceId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+
 2026-01-18 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1193 #0cd9ce15-64f2-483c-a5b6-6d6677dbf0f3 c0426e47-be3d-4bda-a193-5541909f02b9"
   Assets:CurrentAssets:Cash:G17ShopCash  7000.000000 HKD
     type: "Invoice Payment"
@@ -1447,3 +1466,16 @@
     referenceNo: "1193"
     orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
     contact: "852 88888888 () [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
+2026-01-19 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1540 #c5cc6a54-12e4-4c4d-812d-f3414f34f1ae c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+  Assets:CurrentAssets:Cash:G17ShopCash  -4250.000000 HKD
+    type: "Bill Payment"
+    sourceId: "c5cc6a54-12e4-4c4d-812d-f3414f34f1ae"
+    referenceNo: "1540"
+    orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+  Liabilities:CurrentLiabilities:AccountPayable  4250.000000 HKD
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill Payment"
+    sourceId: "c5cc6a54-12e4-4c4d-812d-f3414f34f1ae"
+    referenceNo: "1540"
+    orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"

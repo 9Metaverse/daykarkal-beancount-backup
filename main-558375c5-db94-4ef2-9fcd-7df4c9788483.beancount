@@ -3,18 +3,6 @@ option "inferred_tolerance_default" "*:0.001"
 ; Currency settings
 option "operating_currency" "HKD"
 ; Currency Commodity
-2020-11-12 commodity CNY
-  name: "CNY"
-  precision: 2
-
-2020-11-12 commodity USD
-  name: "USD"
-  precision: 2
-
-2020-11-12 commodity JPY
-  name: "JPY"
-  precision: 2
-
 2020-11-12 commodity USDT
   name: "USDT"
   precision: 6
@@ -22,6 +10,18 @@ option "operating_currency" "HKD"
 2020-11-12 commodity HKD
   name: "HKD"
   precision: 2
+
+2020-11-12 commodity CNY
+  name: "CNY"
+  precision: 3
+
+2020-11-12 commodity USD
+  name: "USD"
+  precision: 3
+
+2020-11-12 commodity JPY
+  name: "JPY"
+  precision: 4
 
 2020-11-12 commodity XAU
   name: "Gold"
