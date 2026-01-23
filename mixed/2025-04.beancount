@@ -4436,6 +4436,23 @@
     referenceNo: "2350"
     description: "Closing Inventory 30/4/2025 (Item #9)"
 
+2025-04-30 * "Closing Inventory dr.CNY286.97 > cr.HKD312.7973 993 - Jewelry ID: 86d5aded-966a-4976-9c11-f29aac036445"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -286.970000 CNY {1.09 HKD}
+    type: "Conversion"
+    sourceId: "86d5aded-966a-4976-9c11-f29aac036445"
+    referenceNo: "198"
+    orderId: "86d5aded-966a-4976-9c11-f29aac036445"
+  Assets:CurrentAssets:ShopInventory:Jewelry  312.797300 HKD
+    type: "Conversion"
+    sourceId: "86d5aded-966a-4976-9c11-f29aac036445"
+    referenceNo: "198"
+    orderId: "86d5aded-966a-4976-9c11-f29aac036445"
+  Income:FXGainOrLoss
+    type: "Conversion"
+    sourceId: "86d5aded-966a-4976-9c11-f29aac036445"
+    referenceNo: "198"
+    orderId: "86d5aded-966a-4976-9c11-f29aac036445"
+
 2025-04-30 * "Closing Inventory dr.CNY286.97 > cr.HKD312.7973 ID: fac453c3-44f7-49ff-b3ed-21a388538d60"
   Assets:CurrentAssets:ShopInventory:Gemstones  -312.797300 HKD
     type: "Conversion"
