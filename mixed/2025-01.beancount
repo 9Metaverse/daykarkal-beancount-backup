@@ -629,6 +629,20 @@
     orderId: "e284d91d-c602-499a-a99c-ac4fddf59e85"
     contact: "852 91899893 () [5aad2aab-850c-4932-a156-9702bda54997]"
 
+2025-01-07 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 200"
+  Assets:CurrentAssets:Bank:BocSavingBank  343.750000 HKD
+    type: "MJ"
+    sourceId: "75598254-4867-4762-a642-c54d5465baed"
+    orderId: "75598254-4867-4762-a642-c54d5465baed"
+    referenceNo: "379"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -343.750000 HKD
+    type: "MJ"
+    sourceId: "75598254-4867-4762-a642-c54d5465baed"
+    orderId: "75598254-4867-4762-a642-c54d5465baed"
+    referenceNo: "379"
+    description: "KPAY to BOC Saving (Item #2)"
+
 2025-01-07 * "Bill #1222 藍寶石代鑲嵌/MS.POON 改SIZE #12.5 ff858727-c695-4b4c-b0b8-bea9344279c0"
   referenceNo: "1222"
   orderId: "ff858727-c695-4b4c-b0b8-bea9344279c0"
@@ -668,20 +682,6 @@
     sourceId: "c36553b8-de03-468d-8742-b0e14a06e13c"
     referenceNo: "1222"
     orderId: "ff858727-c695-4b4c-b0b8-bea9344279c0"
-
-2025-01-07 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 200"
-  Assets:CurrentAssets:Bank:BocSavingBank  343.750000 HKD
-    type: "MJ"
-    sourceId: "75598254-4867-4762-a642-c54d5465baed"
-    orderId: "75598254-4867-4762-a642-c54d5465baed"
-    referenceNo: "379"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -343.750000 HKD
-    type: "MJ"
-    sourceId: "75598254-4867-4762-a642-c54d5465baed"
-    orderId: "75598254-4867-4762-a642-c54d5465baed"
-    referenceNo: "379"
-    description: "KPAY to BOC Saving (Item #2)"
 
 2025-01-07 * "Reservation Delivery R#GR2025010600003S D#D20250107001"
   rsv-ref: "GR2025010600003S"
@@ -820,20 +820,6 @@
   Assets:Inventory:Gold:Gold-In-Stock  -20000.000000 XAU { }
   Expenses:Cogs:Cogs-Gold
 
-2025-01-08 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to VISA 0016"
-  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  1806.000000 HKD
-    type: "MJ"
-    sourceId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
-    orderId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
-    referenceNo: "220"
-    description: "BANK TRANSFER from BOC -saving to VISA 0016 (Item #1)"
-  Assets:CurrentAssets:Bank:BocSavingBank  -1806.000000 HKD
-    type: "MJ"
-    sourceId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
-    orderId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
-    referenceNo: "220"
-    description: "BANK TRANSFER from BOC -saving to VISA 0016 (Item #2)"
-
 2025-01-08 * "Bill #1283 DKK 固網電話費(01/25-04/25) fe0ac0de-9634-4497-8f5f-14163b8ab144"
   referenceNo: "1283"
   orderId: "fe0ac0de-9634-4497-8f5f-14163b8ab144"
@@ -864,6 +850,20 @@
     sourceId: "de5c5e57-c9ba-4e75-a172-e21612dafafa"
     referenceNo: "1283"
     orderId: "fe0ac0de-9634-4497-8f5f-14163b8ab144"
+
+2025-01-08 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to VISA 0016"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  1806.000000 HKD
+    type: "MJ"
+    sourceId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
+    orderId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
+    referenceNo: "220"
+    description: "BANK TRANSFER from BOC -saving to VISA 0016 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -1806.000000 HKD
+    type: "MJ"
+    sourceId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
+    orderId: "6e683a8e-e54b-42e1-b167-1c8e7d3b4d71"
+    referenceNo: "220"
+    description: "BANK TRANSFER from BOC -saving to VISA 0016 (Item #2)"
 
 2025-01-08 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1205 #f4070b7d-43d7-4395-ada5-56bd1ca13a77 252b2e04-91dd-4eae-aa11-559d8c814f56"
   Assets:CurrentAssets:Cash:CashInHand  -338.000000 HKD
@@ -1183,84 +1183,6 @@
     referenceNo: "6"
     orderId: "89dbadcd-7270-4f3e-9ce6-4e87ace966d9"
 
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1199 #e4ad1096-24fc-4034-9dbe-f5bbade3be70 f43f84ef-0e18-48e3-a354-3cae67a95d13"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -2500.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "e4ad1096-24fc-4034-9dbe-f5bbade3be70"
-    referenceNo: "1199"
-    orderId: "f43f84ef-0e18-48e3-a354-3cae67a95d13"
-  Liabilities:CurrentLiabilities:AccountPayable  2500.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "e4ad1096-24fc-4034-9dbe-f5bbade3be70"
-    referenceNo: "1199"
-    orderId: "f43f84ef-0e18-48e3-a354-3cae67a95d13"
-
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1159 #79ed8b74-d113-49a8-ac1e-0e18c8a51698 20b640af-c9bb-45ae-8874-36a42bf3c1ae"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -10002.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "79ed8b74-d113-49a8-ac1e-0e18c8a51698"
-    referenceNo: "1159"
-    orderId: "20b640af-c9bb-45ae-8874-36a42bf3c1ae"
-  Liabilities:CurrentLiabilities:AccountPayable  10002.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "79ed8b74-d113-49a8-ac1e-0e18c8a51698"
-    referenceNo: "1159"
-    orderId: "20b640af-c9bb-45ae-8874-36a42bf3c1ae"
-
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1194 #08db6399-ecd5-4af5-99f4-b43040b7e620 f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -2854.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "08db6399-ecd5-4af5-99f4-b43040b7e620"
-    referenceNo: "1194"
-    orderId: "f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
-  Liabilities:CurrentLiabilities:AccountPayable  2854.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "08db6399-ecd5-4af5-99f4-b43040b7e620"
-    referenceNo: "1194"
-    orderId: "f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
-
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1227 #bf0b54ce-55b9-4161-9c03-6587f944241c d665ee35-8600-48e6-b662-083abcc8eedb"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1845.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "bf0b54ce-55b9-4161-9c03-6587f944241c"
-    referenceNo: "1227"
-    orderId: "d665ee35-8600-48e6-b662-083abcc8eedb"
-  Liabilities:CurrentLiabilities:AccountPayable  1845.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "bf0b54ce-55b9-4161-9c03-6587f944241c"
-    referenceNo: "1227"
-    orderId: "d665ee35-8600-48e6-b662-083abcc8eedb"
-
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1156 #255ee814-bc9e-4daf-b80e-269c15257272 3e79aa57-5165-446f-ba55-960c8a267a14"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1845.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "255ee814-bc9e-4daf-b80e-269c15257272"
-    referenceNo: "1156"
-    orderId: "3e79aa57-5165-446f-ba55-960c8a267a14"
-  Liabilities:CurrentLiabilities:AccountPayable  1845.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "255ee814-bc9e-4daf-b80e-269c15257272"
-    referenceNo: "1156"
-    orderId: "3e79aa57-5165-446f-ba55-960c8a267a14"
-
-2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1139 #c6615adc-d890-4c08-b0fa-a60658d1f2f9 5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1652.000000 CNY {1.09 HKD}
-    type: "Bill Payment"
-    sourceId: "c6615adc-d890-4c08-b0fa-a60658d1f2f9"
-    referenceNo: "1139"
-    orderId: "5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
-  Liabilities:CurrentLiabilities:AccountPayable  1652.000000 CNY {1.09 HKD}
-    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
-    type: "Bill Payment"
-    sourceId: "c6615adc-d890-4c08-b0fa-a60658d1f2f9"
-    referenceNo: "1139"
-    orderId: "5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
-
 2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1141 #cc018550-37b1-48db-99c6-a705245c3d39 0fb82968-e04b-4e57-be34-6d841e2ae590"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1906.000000 CNY {1.09 HKD}
     type: "Bill Payment"
@@ -1303,6 +1225,32 @@
     sourceId: "fa3fc536-3030-4599-a5e1-22dc99b89e8d"
     referenceNo: "1152"
     orderId: "851813d4-2c04-4cc2-af13-0a769ce7a4c4"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1199 #e4ad1096-24fc-4034-9dbe-f5bbade3be70 f43f84ef-0e18-48e3-a354-3cae67a95d13"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -2500.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "e4ad1096-24fc-4034-9dbe-f5bbade3be70"
+    referenceNo: "1199"
+    orderId: "f43f84ef-0e18-48e3-a354-3cae67a95d13"
+  Liabilities:CurrentLiabilities:AccountPayable  2500.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "e4ad1096-24fc-4034-9dbe-f5bbade3be70"
+    referenceNo: "1199"
+    orderId: "f43f84ef-0e18-48e3-a354-3cae67a95d13"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1156 #255ee814-bc9e-4daf-b80e-269c15257272 3e79aa57-5165-446f-ba55-960c8a267a14"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1845.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "255ee814-bc9e-4daf-b80e-269c15257272"
+    referenceNo: "1156"
+    orderId: "3e79aa57-5165-446f-ba55-960c8a267a14"
+  Liabilities:CurrentLiabilities:AccountPayable  1845.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "255ee814-bc9e-4daf-b80e-269c15257272"
+    referenceNo: "1156"
+    orderId: "3e79aa57-5165-446f-ba55-960c8a267a14"
 
 2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1138 #7f8a3617-7021-4b62-8c6e-56ef61f00204 4712cadb-499f-424f-a94d-362c6e043859"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -260.760000 CNY {1.09 HKD}
@@ -1407,6 +1355,58 @@
     sourceId: "f87ce09d-f63e-4cf0-bf0c-907c8afeeaaf"
     referenceNo: "1151"
     orderId: "42a00d47-9684-426b-8bde-453473033d56"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1159 #79ed8b74-d113-49a8-ac1e-0e18c8a51698 20b640af-c9bb-45ae-8874-36a42bf3c1ae"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -10002.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "79ed8b74-d113-49a8-ac1e-0e18c8a51698"
+    referenceNo: "1159"
+    orderId: "20b640af-c9bb-45ae-8874-36a42bf3c1ae"
+  Liabilities:CurrentLiabilities:AccountPayable  10002.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "79ed8b74-d113-49a8-ac1e-0e18c8a51698"
+    referenceNo: "1159"
+    orderId: "20b640af-c9bb-45ae-8874-36a42bf3c1ae"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1194 #08db6399-ecd5-4af5-99f4-b43040b7e620 f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -2854.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "08db6399-ecd5-4af5-99f4-b43040b7e620"
+    referenceNo: "1194"
+    orderId: "f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
+  Liabilities:CurrentLiabilities:AccountPayable  2854.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "08db6399-ecd5-4af5-99f4-b43040b7e620"
+    referenceNo: "1194"
+    orderId: "f64a1e67-bb94-42fd-9c60-bd1ee3d1af12"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1227 #bf0b54ce-55b9-4161-9c03-6587f944241c d665ee35-8600-48e6-b662-083abcc8eedb"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1845.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "bf0b54ce-55b9-4161-9c03-6587f944241c"
+    referenceNo: "1227"
+    orderId: "d665ee35-8600-48e6-b662-083abcc8eedb"
+  Liabilities:CurrentLiabilities:AccountPayable  1845.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "bf0b54ce-55b9-4161-9c03-6587f944241c"
+    referenceNo: "1227"
+    orderId: "d665ee35-8600-48e6-b662-083abcc8eedb"
+
+2025-01-15 * "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]" "Bill Payment for Bill #1139 #c6615adc-d890-4c08-b0fa-a60658d1f2f9 5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Eric  -1652.000000 CNY {1.09 HKD}
+    type: "Bill Payment"
+    sourceId: "c6615adc-d890-4c08-b0fa-a60658d1f2f9"
+    referenceNo: "1139"
+    orderId: "5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
+  Liabilities:CurrentLiabilities:AccountPayable  1652.000000 CNY {1.09 HKD}
+    contact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
+    type: "Bill Payment"
+    sourceId: "c6615adc-d890-4c08-b0fa-a60658d1f2f9"
+    referenceNo: "1139"
+    orderId: "5c4a4da9-c332-45c4-bf42-3c5f041f3d5c"
 
 2025-01-15 * "Reservation Delivery R#GR2025011500001S D#D20250115001"
   rsv-ref: "GR2025011500001S"
@@ -1857,37 +1857,6 @@
     referenceNo: "1231"
     orderId: "b26618db-618c-4224-a626-9ac82ea09002"
 
-2025-01-20 * "Bill #1276 DAYTECH - SYSTEM DEV 3c963739-1dec-4609-b4a2-d009b136c035"
-  referenceNo: "1276"
-  orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
-  type: "Bill"
-  Expenses:GeneralExpense:WebErpDev  501000.000000 HKD
-    qty: "1"
-    description: "DAYTECH - SYSTEM DEVELOPMENT FEE"
-    referenceNo: "1276"
-    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
-    type: "Bill Item"
-    sourceId: "e8e65277-4174-4611-ac08-e3db4c6ae78a"
-  Liabilities:CurrentLiabilities:AccountPayable  -501000.000000 HKD
-    referenceNo: "1276"
-    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "3c963739-1dec-4609-b4a2-d009b136c035"
-
-2025-01-20 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1276 #9b8260b7-1a33-4b6f-a793-7969f52f4418 3c963739-1dec-4609-b4a2-d009b136c035"
-  Assets:CurrentAssets:Bank:BocSavingBank  -501000.000000 HKD
-    type: "Bill Payment"
-    sourceId: "9b8260b7-1a33-4b6f-a793-7969f52f4418"
-    referenceNo: "1276"
-    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
-  Liabilities:CurrentLiabilities:AccountPayable  501000.000000 HKD
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Payment"
-    sourceId: "9b8260b7-1a33-4b6f-a793-7969f52f4418"
-    referenceNo: "1276"
-    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
-
 2025-01-20 * "Bill #1280 G17 2月2025 租金 7f8f737e-e244-44c4-9625-877a0ba4eaa6"
   referenceNo: "1280"
   orderId: "7f8f737e-e244-44c4-9625-877a0ba4eaa6"
@@ -1932,6 +1901,37 @@
     orderId: "15bc2dd7-958c-406f-9d52-f9091404134f"
     referenceNo: "47"
     description: "KPAY to BOC Saving (Item #2)"
+
+2025-01-20 * "Bill #1276 DAYTECH - SYSTEM DEV 3c963739-1dec-4609-b4a2-d009b136c035"
+  referenceNo: "1276"
+  orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
+  type: "Bill"
+  Expenses:GeneralExpense:WebErpDev  501000.000000 HKD
+    qty: "1"
+    description: "DAYTECH - SYSTEM DEVELOPMENT FEE"
+    referenceNo: "1276"
+    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
+    type: "Bill Item"
+    sourceId: "e8e65277-4174-4611-ac08-e3db4c6ae78a"
+  Liabilities:CurrentLiabilities:AccountPayable  -501000.000000 HKD
+    referenceNo: "1276"
+    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "3c963739-1dec-4609-b4a2-d009b136c035"
+
+2025-01-20 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1276 #9b8260b7-1a33-4b6f-a793-7969f52f4418 3c963739-1dec-4609-b4a2-d009b136c035"
+  Assets:CurrentAssets:Bank:BocSavingBank  -501000.000000 HKD
+    type: "Bill Payment"
+    sourceId: "9b8260b7-1a33-4b6f-a793-7969f52f4418"
+    referenceNo: "1276"
+    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
+  Liabilities:CurrentLiabilities:AccountPayable  501000.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "9b8260b7-1a33-4b6f-a793-7969f52f4418"
+    referenceNo: "1276"
+    orderId: "3c963739-1dec-4609-b4a2-d009b136c035"
 
 2025-01-21 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 204"
   Assets:CurrentAssets:Bank:BocSavingBank  24377.750000 HKD
@@ -2231,20 +2231,6 @@
     orderId: "bf68d130-8752-4de6-8ac2-23d43a43095c"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-01-24 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 206"
-  Assets:CurrentAssets:Bank:BocSavingBank  40257.970000 HKD
-    type: "MJ"
-    sourceId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
-    orderId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
-    referenceNo: "51"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -40257.970000 HKD
-    type: "MJ"
-    sourceId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
-    orderId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
-    referenceNo: "51"
-    description: "KPAY to BOC Saving (Item #2)"
-
 2025-01-24 * "Bill #1277 SALARY 25年1月 ae1c1433-cfb1-474f-846e-355e2991143d"
   referenceNo: "1277"
   orderId: "ae1c1433-cfb1-474f-846e-355e2991143d"
@@ -2295,6 +2281,20 @@
     sourceId: "edd66d05-7dc9-4aee-b1cb-4a0c54d4e9da"
     referenceNo: "1277"
     orderId: "ae1c1433-cfb1-474f-846e-355e2991143d"
+
+2025-01-24 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 206"
+  Assets:CurrentAssets:Bank:BocSavingBank  40257.970000 HKD
+    type: "MJ"
+    sourceId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
+    orderId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
+    referenceNo: "51"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -40257.970000 HKD
+    type: "MJ"
+    sourceId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
+    orderId: "ea6284ff-1f6d-4a97-8d9e-31ed138befd2"
+    referenceNo: "51"
+    description: "KPAY to BOC Saving (Item #2)"
 
 2025-01-24 * "Reservation Delivery R#GR2025012300001S D#D20250124003"
   rsv-ref: "GR2025012300001S"
