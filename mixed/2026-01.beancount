@@ -1363,7 +1363,7 @@
     orderId: "8e90e37a-d2fe-4267-baa4-39da6cc3cb15"
     contact: "852 97497694 (青青邹) [5cd7c9f4-6af5-4298-be40-a39cc1f60efe]"
 
-2026-01-17 * "Invoice #1191 5a30e53e-4641-4fbc-a83e-f6800aaca5c5"
+2026-01-17 * "Invoice #1191 Bespoke Ring Setting #12 5a30e53e-4641-4fbc-a83e-f6800aaca5c5"
   Income:Sales:SalesItem:SellBespokeorotherFee  -5800.000000 HKD
     description: "Bespoke Ring Setting #12"
     qty: "1"
@@ -1727,7 +1727,7 @@
     referenceNo: "2626"
     description: "G17 Pretty Cash (糖果 (FOR 新年)) (Item #2)"
 
-2026-01-28 * "Invoice #1197 75e2b54e-beca-4a4a-943e-d041a9f786f7"
+2026-01-28 * "Invoice #1197 Stock BR2603 75e2b54e-beca-4a4a-943e-d041a9f786f7"
   Income:Sales:SalesItem:Sell18kJewelry  -3900.000000 HKD
     category: "Jewelry"
     sku: "Unknown"
@@ -1755,3 +1755,17 @@
     referenceNo: "1197"
     orderId: "75e2b54e-beca-4a4a-943e-d041a9f786f7"
     contact: "86 18578668857 (NoName) [3b7873e9-f582-4b1c-90b5-f3fa22895953]"
+
+2026-01-28 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -23000.000000 HKD
+    type: "MJ"
+    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:G17ShopCash  23000.000000 HKD
+    type: "MJ"
+    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    description: "417 to G17 (Item #2)"
