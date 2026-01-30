@@ -1994,3 +1994,42 @@
     orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
     referenceNo: "2628"
     description: "417 to G17 (Item #2)"
+
+2026-01-30 * "Reservation Delivery R#GR2026013000016S D#D20260130017"
+  rsv-ref: "GR2026013000016S"
+  del-ref: "D20260130017"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -16647.080000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20260130017"
+    sourceId: "61ebf1ab-e077-4e6d-be9a-1461327f6a66"
+    orderId: "fae165d5-f4a1-4769-b5d4-043b3ee24b0f"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  99.890000 XAU { }
+
+2026-01-30 * "Reservation Delivery R#GR2026013000011B D#D20260130018"
+  rsv-ref: "GR2026013000011B"
+  del-ref: "D20260130018"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wenLiFang文丽芳文麗芳8613402628878  130365.000000 HKD
+    type: "Reservation Delivery"
+    referenceNo: "D20260130018"
+    sourceId: "49c53ecd-9617-4f56-8573-f7d661a262c4"
+    orderId: "3e1b833d-968d-46e8-bf5f-fb57152be4c6"
+    contact: "86 13402628878 (WENLIFANG文丽芳文麗芳) [a6e70006-c918-4ad3-a6cf-3860f2468ac4]"
+  Income:Sales:Sales-Gold  -130365.000000 HKD
+  Assets:Inventory:Gold:Gold-In-Stock  -99.890000 XAU { }
+  Expenses:Cogs:Cogs-Gold
+
+2026-01-30 * "Reservation Payment R#GR2026013000011B P#P20260130022"
+  rsv-ref: "GR2026013000011B"
+  pay-ref: "P20260130022"
+  Assets:CurrentAssets:Cash:Cash金料  130365.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260130022"
+    sourceId: "6c7b5c7f-fe9b-44ae-9a7b-8343a605cc87"
+    orderId: "3e1b833d-968d-46e8-bf5f-fb57152be4c6"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-wenLiFang文丽芳文麗芳8613402628878  -130365.000000 HKD
+    type: "Reservation Payment"
+    referenceNo: "P20260130022"
+    sourceId: "6c7b5c7f-fe9b-44ae-9a7b-8343a605cc87"
+    orderId: "3e1b833d-968d-46e8-bf5f-fb57152be4c6"
+    contact: "86 13402628878 (WENLIFANG文丽芳文麗芳) [a6e70006-c918-4ad3-a6cf-3860f2468ac4]"
