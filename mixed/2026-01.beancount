@@ -1995,6 +1995,22 @@
     referenceNo: "2628"
     description: "417 to G17 (Item #2)"
 
+2026-01-28 * "Invoice #1198 Stock BE2508 a98cf5b8-83af-4356-b3ae-a26bf36741df"
+  Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1198"
+    orderId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
+    type: "Invoice Item"
+    sourceId: "af99e994-cd39-4be4-baab-c3550bce008d"
+  Assets:CurrentAssets:AccountReceivable  3800.000000 HKD
+    referenceNo: "1198"
+    orderId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
+    type: "Invoice"
+    sourceId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
+    contact: "852 96221520 (NoName) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
+
 2026-01-30 * "Reservation Delivery R#GR2026013000016S D#D20260130017"
   rsv-ref: "GR2026013000016S"
   del-ref: "D20260130017"
@@ -2033,3 +2049,16 @@
     sourceId: "6c7b5c7f-fe9b-44ae-9a7b-8343a605cc87"
     orderId: "3e1b833d-968d-46e8-bf5f-fb57152be4c6"
     contact: "86 13402628878 (WENLIFANG文丽芳文麗芳) [a6e70006-c918-4ad3-a6cf-3860f2468ac4]"
+
+2026-01-30 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1198 #bbb1522b-f401-499f-86dc-d1d16129f3a2 a98cf5b8-83af-4356-b3ae-a26bf36741df"
+  Assets:CurrentAssets:Bank:KpayBank  3800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "bbb1522b-f401-499f-86dc-d1d16129f3a2"
+    referenceNo: "1198"
+    orderId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
+  Assets:CurrentAssets:AccountReceivable  -3800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "bbb1522b-f401-499f-86dc-d1d16129f3a2"
+    referenceNo: "1198"
+    orderId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
+    contact: "852 96221520 (NoName) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
