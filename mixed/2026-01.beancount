@@ -117,6 +117,22 @@
     referenceNo: "2362"
     description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
 
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -135,22 +151,6 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
-
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
@@ -1585,6 +1585,25 @@
     referenceNo: "1541"
     orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
 
+2026-01-19 * "Bill #1542 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  referenceNo: "1542"
+  orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  123.000000 HKD
+    category: "Other"
+    sku: "PROCESSING143"
+    qty: "1"
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    type: "Bill Item"
+    sourceId: "dc0d7c1c-ec2f-498d-adfa-d4e07578d148"
+  Liabilities:CurrentLiabilities:AccountPayable  -123.000000 HKD
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill"
+    sourceId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+
 2026-01-19 * "Bill #1541 GIA#7531855335 1.20CT 23175323-db9f-4a63-a7ad-931c41ba98ff"
   referenceNo: "1541"
   orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
@@ -1611,24 +1630,19 @@
     type: "Bill"
     sourceId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
 
-2026-01-19 * "Bill #1542 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-  referenceNo: "1542"
-  orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  123.000000 HKD
-    category: "Other"
-    sku: "PROCESSING143"
-    qty: "1"
-    referenceNo: "1542"
-    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-    type: "Bill Item"
-    sourceId: "dc0d7c1c-ec2f-498d-adfa-d4e07578d148"
-  Liabilities:CurrentLiabilities:AccountPayable  -123.000000 HKD
-    referenceNo: "1542"
-    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
-    type: "Bill"
-    sourceId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+2026-01-20 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "734923b4-f46c-4d22-8afd-c1d3473c1640"
+    orderId: "734923b4-f46c-4d22-8afd-c1d3473c1640"
+    referenceNo: "2632"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #1)"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "734923b4-f46c-4d22-8afd-c1d3473c1640"
+    orderId: "734923b4-f46c-4d22-8afd-c1d3473c1640"
+    referenceNo: "2632"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
 
 2026-01-22 * "Reservation Payment R#GR2025121700001B P#P20260122001"
   rsv-ref: "GR2025121700001B"
@@ -1768,6 +1782,65 @@
     sourceId: "e9184d94-d48b-435d-ae11-bafea2107898"
     referenceNo: "1545"
     orderId: "66c0b616-5c80-4763-859d-18fbdecfce84"
+
+2026-01-26 * "Bill #1546 BOC VISA Card - David 01月 2026 b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+  referenceNo: "1546"
+  orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+  type: "Bill"
+  Expenses:GeneralExpense:Subscriptions  102.000000 HKD
+    qty: "1"
+    description: "Microsoft*Microsoft (27 DEC 2025)"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    type: "Bill Item"
+    sourceId: "d9c807cd-83e1-47f7-bbc2-344dee68fa2c"
+  Expenses:GeneralExpense:Subscriptions  93.000000 HKD
+    qty: "1"
+    description: "集團 CCTV監控系統訂閱費 TP-LINK GLOBAL INC.  1 JAN 2026"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    type: "Bill Item"
+    sourceId: "7d670d85-c7ac-46c1-946e-a511ad32c07d"
+  Expenses:GeneralExpense:BankFeesExpense  0.740000 HKD
+    qty: "1"
+    description: "BANK FEE 集團 CCTV監控系統訂閱費 TP-LINK GLOBAL INC.  1 JAN 2026"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    type: "Bill Item"
+    sourceId: "412bbd7c-5ca3-4f81-bf4e-b330da03aff2"
+  Expenses:GeneralExpense:Subscriptions  159.030000 HKD
+    qty: "1"
+    description: "VERCEL INC. 22/JAN/26 USD 20"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    type: "Bill Item"
+    sourceId: "cb5a12fb-e86e-4d54-9bb8-11c6ea5a46f0"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  34891.210000 HKD
+    qty: "1"
+    description: "Milways Gold Ltd - 物資"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    type: "Bill Item"
+    sourceId: "e8ff40c6-8372-4457-8209-96b2c40c5d65"
+  Liabilities:CurrentLiabilities:AccountPayable  -35245.980000 HKD
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+
+2026-01-26 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1546 #ac6cf885-6818-4b44-854d-470f7d097190 b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -35245.980000 HKD
+    type: "Bill Payment"
+    sourceId: "ac6cf885-6818-4b44-854d-470f7d097190"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
+  Liabilities:CurrentLiabilities:AccountPayable  35245.980000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "ac6cf885-6818-4b44-854d-470f7d097190"
+    referenceNo: "1546"
+    orderId: "b6ff1c6a-27e3-4e24-81ae-19a8bfa4d140"
 
 2026-01-28 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
   Expenses:GeneralExpense:G17ShopExpenses  24.000000 HKD
