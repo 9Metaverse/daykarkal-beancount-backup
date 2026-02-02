@@ -2107,6 +2107,37 @@
     referenceNo: "1144"
     description: "kpay 265 (Item #2)"
 
+2025-07-16 * "Bill #1377 G17電費(2025-06月) aed45b14-4d25-4b66-8c67-d33a70d17060"
+  referenceNo: "1377"
+  orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating  1754.000000 HKD
+    qty: "1"
+    description: "G17電費(2025-06月)"
+    referenceNo: "1377"
+    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+    type: "Bill Item"
+    sourceId: "1f95b927-2ace-4982-bcd5-1f98ca48f3ee"
+  Liabilities:CurrentLiabilities:AccountPayable  -1754.000000 HKD
+    referenceNo: "1377"
+    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+
+2025-07-16 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1377 #a533d0c8-f6ac-47da-a0bf-1632645be950 aed45b14-4d25-4b66-8c67-d33a70d17060"
+  Assets:CurrentAssets:Cash:CashInHand  -1754.000000 HKD
+    type: "Bill Payment"
+    sourceId: "a533d0c8-f6ac-47da-a0bf-1632645be950"
+    referenceNo: "1377"
+    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+  Liabilities:CurrentLiabilities:AccountPayable  1754.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "a533d0c8-f6ac-47da-a0bf-1632645be950"
+    referenceNo: "1377"
+    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
+
 2025-07-16 * "Bill #1369 BN2520~2522/BR2526~2528/BESPOKE038 67c7e872-898b-42cd-830d-7418c52aaab3"
   referenceNo: "1369"
   orderId: "67c7e872-898b-42cd-830d-7418c52aaab3"
@@ -2181,37 +2212,6 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "67c7e872-898b-42cd-830d-7418c52aaab3"
-
-2025-07-16 * "Bill #1377 G17電費(2025-06月) aed45b14-4d25-4b66-8c67-d33a70d17060"
-  referenceNo: "1377"
-  orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
-  type: "Bill"
-  Expenses:GeneralExpense:ElectricityLightHeating  1754.000000 HKD
-    qty: "1"
-    description: "G17電費(2025-06月)"
-    referenceNo: "1377"
-    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
-    type: "Bill Item"
-    sourceId: "1f95b927-2ace-4982-bcd5-1f98ca48f3ee"
-  Liabilities:CurrentLiabilities:AccountPayable  -1754.000000 HKD
-    referenceNo: "1377"
-    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
-
-2025-07-16 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1377 #a533d0c8-f6ac-47da-a0bf-1632645be950 aed45b14-4d25-4b66-8c67-d33a70d17060"
-  Assets:CurrentAssets:Cash:CashInHand  -1754.000000 HKD
-    type: "Bill Payment"
-    sourceId: "a533d0c8-f6ac-47da-a0bf-1632645be950"
-    referenceNo: "1377"
-    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
-  Liabilities:CurrentLiabilities:AccountPayable  1754.000000 HKD
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Payment"
-    sourceId: "a533d0c8-f6ac-47da-a0bf-1632645be950"
-    referenceNo: "1377"
-    orderId: "aed45b14-4d25-4b66-8c67-d33a70d17060"
 
 2025-07-16 * "852 27332222 () [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Bill Payment for Bill #1367 #d1a11ee6-9337-432d-a3d7-af887c5c7c22 e6d53e6d-c629-4d8b-8ada-6b1aae491f4b"
   Assets:CurrentAssets:Cash:CashInHand  -5503.000000 HKD
@@ -5604,33 +5604,27 @@
     orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     referenceNo: "2576"
     description: "Closing Inventory 31/7/2025 (CNY77,000*1.09) (Item #8)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2987129.180000 HKD
+  Assets:CurrentAssets:ShopInventory:Jewelry  -12240.000000 HKD
     type: "MJ"
     sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     referenceNo: "2576"
-    description: "Closing Inventory 31/7/2025 (Item #9)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  2121.600000 HKD
+    description: "Closing Inventory adj. 31/7/2025 (Item #9)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  171924.300000 HKD
     type: "MJ"
     sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     referenceNo: "2576"
-    description: "Closing Inventory 31/7/2025 (USD272*7.8) (Item #10)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  171611.510000 HKD
+    description: "Closing Inventory 31/7/2025 (CNY157728.72*1.09) (Item #10)"
+  Assets:CurrentAssets:ShopInventory:Jewelry  3024093.180000 HKD
     type: "MJ"
     sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     referenceNo: "2576"
-    description: "Closing Inventory 31/7/2025 (CNY157441.75*1.09) (Item #11)"
-  Assets:CurrentAssets:ShopInventory:Jewelry  -9232.000000 HKD
+    description: "Closing Inventory 31/7/2025 (Item #11)"
+  Expenses:CostOfSales:ClosingInventoryBalance  -5728447.110000 HKD
     type: "MJ"
     sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
     referenceNo: "2576"
-    description: "Closing Inventory 31/7/2025 adj (Item #12)"
-  Expenses:CostOfSales:ClosingInventoryBalance  -5696299.920000 HKD
-    type: "MJ"
-    sourceId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
-    orderId: "01daec3c-a5dc-4bb9-a84f-1e040f0b50b0"
-    referenceNo: "2576"
-    description: "Closing Inventory 31/7/2025 (Item #13)"
+    description: "Closing Inventory 31/7/2025 (Item #12)"
