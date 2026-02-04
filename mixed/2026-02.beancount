@@ -43,6 +43,37 @@
     sourceId: "ed974d9f-147c-472d-b022-032ffa759a28"
     contact: "852 61941589 (NoName) [6eaae5ab-94b8-4433-b729-dd02697fc182]"
 
+2026-02-03 * "Bill #1550 DKK雜項(e-Cert 續期) 0795782f-23dc-46cc-be97-529a27777cb1"
+  referenceNo: "1550"
+  orderId: "0795782f-23dc-46cc-be97-529a27777cb1"
+  type: "Bill"
+  Expenses:GeneralExpense:OfficeExpenses  331.000000 HKD
+    qty: "1"
+    description: "DKK雜項(e-Cert 續期) "
+    referenceNo: "1550"
+    orderId: "0795782f-23dc-46cc-be97-529a27777cb1"
+    type: "Bill Item"
+    sourceId: "3fbebba1-0b3f-419f-9c3d-12d7c7f0d5bf"
+  Liabilities:CurrentLiabilities:AccountPayable  -331.000000 HKD
+    referenceNo: "1550"
+    orderId: "0795782f-23dc-46cc-be97-529a27777cb1"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "0795782f-23dc-46cc-be97-529a27777cb1"
+
+2026-02-03 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1550 #9825fb3c-4363-4714-b6ec-08d31ca08822 0795782f-23dc-46cc-be97-529a27777cb1"
+  Assets:CurrentAssets:Cash:CashInHand  -331.000000 HKD
+    type: "Bill Payment"
+    sourceId: "9825fb3c-4363-4714-b6ec-08d31ca08822"
+    referenceNo: "1550"
+    orderId: "0795782f-23dc-46cc-be97-529a27777cb1"
+  Liabilities:CurrentLiabilities:AccountPayable  331.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "9825fb3c-4363-4714-b6ec-08d31ca08822"
+    referenceNo: "1550"
+    orderId: "0795782f-23dc-46cc-be97-529a27777cb1"
+
 2026-02-03 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1199 #1066720d-4104-4d1e-8d09-74fc0ca960b5 ed974d9f-147c-472d-b022-032ffa759a28"
   Assets:CurrentAssets:Bank:KpayBank  3800.000000 HKD
     type: "Invoice Payment"
