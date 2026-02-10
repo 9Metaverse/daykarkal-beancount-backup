@@ -204,9 +204,30 @@
     orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     type: "Invoice Item"
     sourceId: "6b6df9db-9e0c-4e5d-b0c6-c69a61740a5f"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING143"
+    qty: "1"
+    referenceNo: "1194"
+    orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
+    type: "Invoice Item"
+    sourceId: "2c6f3116-0c63-422b-bc2e-621013525522"
   Assets:CurrentAssets:AccountReceivable  40200.000000 HKD
     referenceNo: "1194"
     orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     type: "Invoice"
     sourceId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
+    contact: "852 68563208 (NoName) [252971f0-831c-40b1-87dd-baaa7959b4af]"
+
+2026-02-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1194 #1b3192a6-4da5-4a1f-b695-59b1b27dbef3 bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
+  Assets:CurrentAssets:Bank:BocSavingBank  40200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "1b3192a6-4da5-4a1f-b695-59b1b27dbef3"
+    referenceNo: "1194"
+    orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
+  Assets:CurrentAssets:AccountReceivable  -40200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "1b3192a6-4da5-4a1f-b695-59b1b27dbef3"
+    referenceNo: "1194"
+    orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     contact: "852 68563208 (NoName) [252971f0-831c-40b1-87dd-baaa7959b4af]"
