@@ -334,3 +334,35 @@
     referenceNo: "1205"
     orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
     contact: "86 18685028023 (NoName) [effc0307-f51a-43ee-ab90-59838cb98978]"
+
+2026-02-11 * "Bill #1551 SAP2606 GRS2011-071088 3.14CT 91673b3c-7070-4d40-9136-d1dea6773a0d"
+  referenceNo: "1551"
+  orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyGems  20800.000000 HKD
+    category: "Gem"
+    sku: "SAP2606"
+    qty: "1"
+    referenceNo: "1551"
+    orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+    type: "Bill Item"
+    sourceId: "c23f8529-1dc5-4ea3-a7c8-aee85d5f0aca"
+  Liabilities:CurrentLiabilities:AccountPayable  -20800.000000 HKD
+    referenceNo: "1551"
+    orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
+    type: "Bill"
+    sourceId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+
+2026-02-11 * "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]" "Bill Payment for Bill #1551 #b5babfdd-6395-471a-bbf2-28679f793a67 91673b3c-7070-4d40-9136-d1dea6773a0d"
+  Assets:CurrentAssets:Cash:G17ShopCash  -20800.000000 HKD
+    type: "Bill Payment"
+    sourceId: "b5babfdd-6395-471a-bbf2-28679f793a67"
+    referenceNo: "1551"
+    orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+  Liabilities:CurrentLiabilities:AccountPayable  20800.000000 HKD
+    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
+    type: "Bill Payment"
+    sourceId: "b5babfdd-6395-471a-bbf2-28679f793a67"
+    referenceNo: "1551"
+    orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
