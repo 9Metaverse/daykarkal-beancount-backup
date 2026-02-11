@@ -232,6 +232,22 @@
     orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     contact: "852 68563208 (NoName) [252971f0-831c-40b1-87dd-baaa7959b4af]"
 
+2026-02-11 * "Invoice #1204 2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+  Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    type: "Invoice Item"
+    sourceId: "073957e0-cfdb-4f1b-a7ab-4526db3f438f"
+  Assets:CurrentAssets:AccountReceivable  3100.000000 HKD
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    type: "Invoice"
+    sourceId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
+
 2026-02-11 * "Invoice #1203 a1a064f7-d889-429c-b04e-8a59c9806dc0"
   Income:Sales:SalesItem:Sell18kJewelry  -3000.000000 HKD
     category: "Jewelry"
@@ -260,3 +276,16 @@
     referenceNo: "1203"
     orderId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
     contact: "86 13580601694 (NoName) [1e45eef1-a912-4e75-be31-adf41da0f08f]"
+
+2026-02-11 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1204 #0970925b-07de-4023-9efc-e79d71c983a9 2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+  Assets:CurrentAssets:Bank:BocSavingBank  3100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0970925b-07de-4023-9efc-e79d71c983a9"
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+  Assets:CurrentAssets:AccountReceivable  -3100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0970925b-07de-4023-9efc-e79d71c983a9"
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
