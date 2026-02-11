@@ -248,6 +248,38 @@
     sourceId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
     contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
 
+2026-02-11 * "Invoice #1205 Stock~ BP2508/BN2533/E2501 9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+  Income:Sales:SalesItem:Sell18kJewelry  -1900.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    type: "Invoice Item"
+    sourceId: "5096e212-05fd-4f39-ae9b-740bef0058af"
+  Income:Sales:SalesItem:Sell18kJewelry  -4300.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    type: "Invoice Item"
+    sourceId: "2e720404-20d7-4869-84e7-2424f3517fd9"
+  Income:Sales:SalesItem:Sell18kJewelry  0.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    type: "Invoice Item"
+    sourceId: "38501521-47a1-4e12-8918-3619959b2c0b"
+  Assets:CurrentAssets:AccountReceivable  6200.000000 HKD
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    type: "Invoice"
+    sourceId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    contact: "86 18685028023 (NoName) [effc0307-f51a-43ee-ab90-59838cb98978]"
+
 2026-02-11 * "Invoice #1203 Stock~ BP2520 a1a064f7-d889-429c-b04e-8a59c9806dc0"
   Income:Sales:SalesItem:Sell18kJewelry  -3000.000000 HKD
     category: "Jewelry"
@@ -289,3 +321,16 @@
     referenceNo: "1204"
     orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
     contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
+
+2026-02-11 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1205 #0960bfaa-ef8d-4062-b558-2977e51e5fe5 9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+  Assets:CurrentAssets:Bank:BocSavingBank  6200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0960bfaa-ef8d-4062-b558-2977e51e5fe5"
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+  Assets:CurrentAssets:AccountReceivable  -6200.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "0960bfaa-ef8d-4062-b558-2977e51e5fe5"
+    referenceNo: "1205"
+    orderId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
+    contact: "86 18685028023 (NoName) [effc0307-f51a-43ee-ab90-59838cb98978]"
