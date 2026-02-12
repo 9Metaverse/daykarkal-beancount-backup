@@ -366,3 +366,32 @@
     sourceId: "b5babfdd-6395-471a-bbf2-28679f793a67"
     referenceNo: "1551"
     orderId: "91673b3c-7070-4d40-9136-d1dea6773a0d"
+
+2026-02-12 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1206 #f5d367a8-a365-40fe-a1a4-0fcbac600358 66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+  Assets:CurrentAssets:Bank:KpayBank  6800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "f5d367a8-a365-40fe-a1a4-0fcbac600358"
+    referenceNo: "1206"
+    orderId: "66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+  Assets:CurrentAssets:AccountReceivable  -6800.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "f5d367a8-a365-40fe-a1a4-0fcbac600358"
+    referenceNo: "1206"
+    orderId: "66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+    contact: "852 63427605 (NoName) [5b8b36ca-fe02-4cc0-93cf-8e46cb511f6f]"
+
+2026-02-12 * "Invoice #1206 Stock B24194 66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+  Income:Sales:SalesItem:Sell18kJewelry  -6800.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1206"
+    orderId: "66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+    type: "Invoice Item"
+    sourceId: "e852028a-cc44-49e3-9cf2-5cc6e4fa30f2"
+  Assets:CurrentAssets:AccountReceivable  6800.000000 HKD
+    referenceNo: "1206"
+    orderId: "66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+    type: "Invoice"
+    sourceId: "66689cca-e2d2-4322-bf2e-00d3a3e93ab9"
+    contact: "852 63427605 (NoName) [5b8b36ca-fe02-4cc0-93cf-8e46cb511f6f]"
