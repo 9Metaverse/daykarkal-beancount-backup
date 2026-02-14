@@ -421,3 +421,32 @@
     orderId: "869706a2-1fb1-4457-8a8e-60a979bf0a99"
     referenceNo: "2842"
     description: "G17 Pretty Cash (快圖美@5) (Item #4)"
+
+2026-02-14 * "Invoice #1207 12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+  Income:Sales:SalesItem:Sell18kJewelry  -10980.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1207"
+    orderId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+    type: "Invoice Item"
+    sourceId: "94991de4-28df-48a8-9a38-b5fa7ae9ef0a"
+  Assets:CurrentAssets:AccountReceivable  10980.000000 HKD
+    referenceNo: "1207"
+    orderId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+    type: "Invoice"
+    sourceId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+
+2026-02-14 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan" "Invoice Payment for Invoice #1207 #9e4728e5-0c8d-40f0-81c1-04a869b0a23d 12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  10980.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "9e4728e5-0c8d-40f0-81c1-04a869b0a23d"
+    referenceNo: "1207"
+    orderId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+  Assets:CurrentAssets:AccountReceivable  -10980.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "9e4728e5-0c8d-40f0-81c1-04a869b0a23d"
+    referenceNo: "1207"
+    orderId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
