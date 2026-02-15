@@ -187,6 +187,62 @@
     sourceId: "dea11141-860d-4dd3-b9c7-4cb6308fa62b"
     contact: "852 88888888 () [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
+2026-02-10 * "Bill #1552 嚴丹鳳代鑲石 合併 f6555263-fcaa-4ad4-8064-35e739212ce3"
+  referenceNo: "1552"
+  orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1931.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+    type: "Bill Item"
+    sourceId: "e48995eb-7f53-46b7-a0f2-5453ed104503"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2175.000000 HKD
+    category: "Other"
+    sku: "PE2602"
+    qty: "1"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+    type: "Bill Item"
+    sourceId: "1eff849e-eaea-4592-b6fa-1779f8d18066"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1266.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+    type: "Bill Item"
+    sourceId: "cb75d13d-653f-4f42-a84e-d11200a78fcd"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1314.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+    type: "Bill Item"
+    sourceId: "3734f08d-a0ad-46e8-9bb8-d6c57db03165"
+  Liabilities:CurrentLiabilities:AccountPayable  -6686.000000 HKD
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill"
+    sourceId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+
+2026-02-10 * "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Bill Payment for Bill #1552 #2e6d0419-15b1-4aa5-8046-d428dd251b0d f6555263-fcaa-4ad4-8064-35e739212ce3"
+  Assets:CurrentAssets:Cash:G17ShopCash  -6686.000000 HKD
+    type: "Bill Payment"
+    sourceId: "2e6d0419-15b1-4aa5-8046-d428dd251b0d"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+  Liabilities:CurrentLiabilities:AccountPayable  6686.000000 HKD
+    contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill Payment"
+    sourceId: "2e6d0419-15b1-4aa5-8046-d428dd251b0d"
+    referenceNo: "1552"
+    orderId: "f6555263-fcaa-4ad4-8064-35e739212ce3"
+
 2026-02-10 * "Invoice #1194 Mary Friend 做戒指 bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
   Income:Sales:SalesItem:SellDiamond  -36000.000000 HKD
     category: "Natural Diamond"
@@ -231,22 +287,6 @@
     referenceNo: "1194"
     orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     contact: "852 68563208 (NoName) [252971f0-831c-40b1-87dd-baaa7959b4af]"
-
-2026-02-11 * "Invoice #1204 Stock~ BN2527 2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
-  Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1204"
-    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
-    type: "Invoice Item"
-    sourceId: "073957e0-cfdb-4f1b-a7ab-4526db3f438f"
-  Assets:CurrentAssets:AccountReceivable  3100.000000 HKD
-    referenceNo: "1204"
-    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
-    type: "Invoice"
-    sourceId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
-    contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
 
 2026-02-11 * "Invoice #1205 Stock~ BP2508/BN2533/E2501 9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
   Income:Sales:SalesItem:Sell18kJewelry  -1900.000000 HKD
@@ -295,6 +335,22 @@
     type: "Invoice"
     sourceId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
     contact: "86 13580601694 (NoName) [1e45eef1-a912-4e75-be31-adf41da0f08f]"
+
+2026-02-11 * "Invoice #1204 Stock~ BN2527 2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+  Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    type: "Invoice Item"
+    sourceId: "073957e0-cfdb-4f1b-a7ab-4526db3f438f"
+  Assets:CurrentAssets:AccountReceivable  3100.000000 HKD
+    referenceNo: "1204"
+    orderId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    type: "Invoice"
+    sourceId: "2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
+    contact: "852 59587483 (NoName) [8ca83243-c2c3-46c3-b81c-d9e253e9105e]"
 
 2026-02-11 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1203 #5ebc52c3-fb34-4b77-8b0b-233c8806ac4c a1a064f7-d889-429c-b04e-8a59c9806dc0"
   Assets:CurrentAssets:Bank:KpayBank  3000.000000 HKD
