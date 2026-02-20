@@ -429,6 +429,20 @@
     sourceId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
     contact: "852 67177273 () [d4ede0de-055e-4a6d-8e5a-92040419284f]"
 
+2025-10-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 285"
+  Assets:CurrentAssets:Bank:KpayBank  -3545.000000 HKD
+    type: "MJ"
+    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    referenceNo: "1594"
+    description: "kpay 285 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  3545.000000 HKD
+    type: "MJ"
+    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    referenceNo: "1594"
+    description: "kpay 285 (Item #2)"
+
 2025-10-08 * "Bill #1496 卓遠 DKK NAR1 (25-26) fe0e8481-8a63-4280-85ec-e07f6c03441e"
   referenceNo: "1496"
   orderId: "fe0e8481-8a63-4280-85ec-e07f6c03441e"
@@ -453,20 +467,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "fe0e8481-8a63-4280-85ec-e07f6c03441e"
-
-2025-10-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 285"
-  Assets:CurrentAssets:Bank:KpayBank  -3545.000000 HKD
-    type: "MJ"
-    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    referenceNo: "1594"
-    description: "kpay 285 (Item #1)"
-  Assets:CurrentAssets:Bank:BocSavingBank  3545.000000 HKD
-    type: "MJ"
-    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    referenceNo: "1594"
-    description: "kpay 285 (Item #2)"
 
 2025-10-08 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1496 #411cca91-5a4e-4f53-a218-918b5e4fdb11 fe0e8481-8a63-4280-85ec-e07f6c03441e"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
@@ -661,17 +661,6 @@
     referenceNo: "1477"
     orderId: "094832c8-f384-4873-9889-12dc90aa761f"
 
-2025-10-14 * "Reservation Delivery R#GR2025101400021S D#D20251014004"
-  rsv-ref: "GR2025101400021S"
-  del-ref: "D20251014004"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -51613.430000 USDT {7.79 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20251014004"
-    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
-    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:Inventory:Gold:Gold-In-Stock  386.760000 XAU { }
-
 2025-10-14 * "Reservation Delivery R#GR2025101400025S D#D20251014010"
   rsv-ref: "GR2025101400025S"
   del-ref: "D20251014010"
@@ -682,6 +671,17 @@
     orderId: "5c3a5ad0-441f-44c9-9db4-3def2a6f0abb"
     contact: "852 92279798 (MINGYUKHO) [d5f4490e-3279-4fba-b304-baf49c80087c]"
   Assets:Inventory:Gold:Gold-In-Stock  398.930000 XAU { }
+
+2025-10-14 * "Reservation Delivery R#GR2025101400021S D#D20251014004"
+  rsv-ref: "GR2025101400021S"
+  del-ref: "D20251014004"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -51613.430000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20251014004"
+    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
+    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:Inventory:Gold:Gold-In-Stock  386.760000 XAU { }
 
 2025-10-14 * "Reservation Payment R#GR2025101400022B P#P20251014005"
   rsv-ref: "GR2025101400022B"
@@ -701,7 +701,7 @@
 2025-10-14 * "Reservation Payment R#GR2025101400022B P#P20251014031"
   rsv-ref: "GR2025101400022B"
   pay-ref: "P20251014031"
-  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  3285.960000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  3285.960000 USDT {7.79 HKD}
     type: "Reservation Payment"
     referenceNo: "P20251014031"
     sourceId: "cc291c29-9481-45f4-b574-99f578d2b3d1"
@@ -2086,20 +2086,6 @@
     orderId: "4be964e1-c9e0-44f8-b928-0304b5f831d3"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-10-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "INTEREST - BOC SAV 10/2025"
-  Assets:CurrentAssets:Bank:BocSavingBank  11.780000 HKD
-    type: "MJ"
-    sourceId: "84133aa3-bc66-4931-862c-c0c8b096872b"
-    orderId: "84133aa3-bc66-4931-862c-c0c8b096872b"
-    referenceNo: "1599"
-    description: "INTEREST - BOC SAV 10/2025 (Item #1)"
-  Income:OtherIncome:Interest-bank  -11.780000 HKD
-    type: "MJ"
-    sourceId: "84133aa3-bc66-4931-862c-c0c8b096872b"
-    orderId: "84133aa3-bc66-4931-862c-c0c8b096872b"
-    referenceNo: "1599"
-    description: "INTEREST - BOC SAV 10/2025 (Item #2)"
-
 2025-10-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "INTEREST - BOC Foreign 10/2025"
   Income:OtherIncome:Interest-bank   -12.246000 HKD
     type: "MJ"
@@ -2113,6 +2099,20 @@
     orderId: "f41fa176-7f60-4ac2-bcfe-9f542328525d"
     referenceNo: "1606"
     description: "INTEREST - BOC Foreign 10/2025 (Item #2)"
+
+2025-10-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "INTEREST - BOC SAV 10/2025"
+  Assets:CurrentAssets:Bank:BocSavingBank  11.780000 HKD
+    type: "MJ"
+    sourceId: "84133aa3-bc66-4931-862c-c0c8b096872b"
+    orderId: "84133aa3-bc66-4931-862c-c0c8b096872b"
+    referenceNo: "1599"
+    description: "INTEREST - BOC SAV 10/2025 (Item #1)"
+  Income:OtherIncome:Interest-bank  -11.780000 HKD
+    type: "MJ"
+    sourceId: "84133aa3-bc66-4931-862c-c0c8b096872b"
+    orderId: "84133aa3-bc66-4931-862c-c0c8b096872b"
+    referenceNo: "1599"
+    description: "INTEREST - BOC SAV 10/2025 (Item #2)"
 
 2025-10-31 * "Bill #1499 SALARY 25年10月 5a494194-d156-4bdd-9485-722d5024f1fe"
   referenceNo: "1499"
