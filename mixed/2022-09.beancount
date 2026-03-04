@@ -199,13 +199,13 @@
     description: "DEPOSIT 95500 (Item #2)"
 
 2022-09-02 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER - from BOC saving 4123 to VISA"
-  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
     type: "MJ"
     sourceId: "523e1e67-d999-4a1f-bc48-6deeb135e06d"
     orderId: "523e1e67-d999-4a1f-bc48-6deeb135e06d"
     referenceNo: "906"
     description: "(Item #1)"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
     type: "MJ"
     sourceId: "523e1e67-d999-4a1f-bc48-6deeb135e06d"
     orderId: "523e1e67-d999-4a1f-bc48-6deeb135e06d"
@@ -419,6 +419,24 @@
     referenceNo: "373"
     orderId: "d1e2f202-0af9-453f-8000-420464e34d96"
 
+2022-09-04 * "Bill #342 OVERSEA TRANSACTION FEE cedf6e3e-1976-4616-9d03-14d471f3fe42"
+  referenceNo: "342"
+  orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  60.000000 HKD
+    qty: "1"
+    description: "OVERSEA TRANSACTION FEE"
+    referenceNo: "342"
+    orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
+    type: "Bill Item"
+    sourceId: "de15bbca-f64c-43fa-b27e-454a5bd9286a"
+  Liabilities:CurrentLiabilities:AccountPayable  -60.000000 HKD
+    referenceNo: "342"
+    orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
+    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
+    type: "Bill"
+    sourceId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
+
 2022-09-04 * "Bill #341 FACEBK *GY7FWHBZM2 407f6b00-8578-49f6-95ac-35e8c85783ca"
   referenceNo: "341"
   orderId: "407f6b00-8578-49f6-95ac-35e8c85783ca"
@@ -448,24 +466,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "75161a10-a6d4-4f2a-bb52-24892ee64506"
-
-2022-09-04 * "Bill #342 OVERSEA TRANSACTION FEE cedf6e3e-1976-4616-9d03-14d471f3fe42"
-  referenceNo: "342"
-  orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  60.000000 HKD
-    qty: "1"
-    description: "OVERSEA TRANSACTION FEE"
-    referenceNo: "342"
-    orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
-    type: "Bill Item"
-    sourceId: "de15bbca-f64c-43fa-b27e-454a5bd9286a"
-  Liabilities:CurrentLiabilities:AccountPayable  -60.000000 HKD
-    referenceNo: "342"
-    orderId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
-    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
-    type: "Bill"
-    sourceId: "cedf6e3e-1976-4616-9d03-14d471f3fe42"
 
 2022-09-04 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #341 #28e3f172-aa32-4012-afe5-1d4959c95961 407f6b00-8578-49f6-95ac-35e8c85783ca"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
@@ -1186,6 +1186,59 @@
     orderId: "1785e5f2-21cb-4ac2-a4ce-a3bb4cccf588"
     contact: "852 63429784 (MR.LOGROVER) [a3568005-3936-4f47-a164-f7f753dee565]"
 
+2022-09-08 * "Bill #402 EX96 95 MKII Match9月報銷 4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+  referenceNo: "402"
+  orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+  type: "Bill"
+  Expenses:GeneralExpense:Packing  2150.000000 HKD
+    qty: "1"
+    description: "MKII 信封袋"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "30758966-2ebd-4dad-b64b-c07f598352f0"
+  Expenses:GeneralExpense:Packing  25.000000 HKD
+    qty: "1"
+    description: "MKII 淘寶運費"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "00d3f290-2de1-46f5-bcfe-7c70c16c7f37"
+  Expenses:GeneralExpense:AdvertisingAndBranding  367.000000 HKD
+    qty: "1"
+    description: "DKK 卡片 e-print"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "61b7206d-b90d-4c88-9bc2-0e7a53c4b442"
+  Expenses:GeneralExpense:AdvertisingAndBranding  297.000000 HKD
+    qty: "1"
+    description: "EX00093 Milrich卡片 e-print"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "9dc9fd56-2388-4504-a8ef-979ca474a42d"
+  Expenses:GeneralExpense:Packing  1660.000000 HKD
+    qty: "1"
+    description: "MKII卡片 e-print"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "cd87c823-b681-46fc-946b-3309d2c44d57"
+  Expenses:GeneralExpense:Packing  3600.000000 HKD
+    qty: "1"
+    description: "MKII 信封袋"
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    type: "Bill Item"
+    sourceId: "e9b9da00-c0ff-454f-b54a-c308b0ace674"
+  Liabilities:CurrentLiabilities:AccountPayable  -8099.000000 HKD
+    referenceNo: "402"
+    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
+
 2022-09-08 * "Bill #263 EX00077 CHING AH PRINTING $10500 b075c202-4d70-415f-ba5d-837df0dd5cbe"
   referenceNo: "263"
   orderId: "b075c202-4d70-415f-ba5d-837df0dd5cbe"
@@ -1239,59 +1292,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "3573d215-25c7-49b9-838e-faa7c744272b"
-
-2022-09-08 * "Bill #402 EX96 95 MKII Match9月報銷 4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-  referenceNo: "402"
-  orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-  type: "Bill"
-  Expenses:GeneralExpense:Packing  2150.000000 HKD
-    qty: "1"
-    description: "MKII 信封袋"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "30758966-2ebd-4dad-b64b-c07f598352f0"
-  Expenses:GeneralExpense:Packing  25.000000 HKD
-    qty: "1"
-    description: "MKII 淘寶運費"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "00d3f290-2de1-46f5-bcfe-7c70c16c7f37"
-  Expenses:GeneralExpense:AdvertisingAndBranding  367.000000 HKD
-    qty: "1"
-    description: "DKK 卡片 e-print"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "61b7206d-b90d-4c88-9bc2-0e7a53c4b442"
-  Expenses:GeneralExpense:AdvertisingAndBranding  297.000000 HKD
-    qty: "1"
-    description: "EX00093 Milrich卡片 e-print"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "9dc9fd56-2388-4504-a8ef-979ca474a42d"
-  Expenses:GeneralExpense:Packing  1660.000000 HKD
-    qty: "1"
-    description: "MKII卡片 e-print"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "cd87c823-b681-46fc-946b-3309d2c44d57"
-  Expenses:GeneralExpense:Packing  3600.000000 HKD
-    qty: "1"
-    description: "MKII 信封袋"
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    type: "Bill Item"
-    sourceId: "e9b9da00-c0ff-454f-b54a-c308b0ace674"
-  Liabilities:CurrentLiabilities:AccountPayable  -8099.000000 HKD
-    referenceNo: "402"
-    orderId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "4a9ffb1f-6e25-481a-9c27-b4949e47f2e9"
 
 2022-09-08 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #263 #95704538-cef9-4c9c-9e97-08f49bdb6023 b075c202-4d70-415f-ba5d-837df0dd5cbe"
   Assets:CurrentAssets:Bank:BocSavingBank  -10500.000000 HKD
@@ -1361,13 +1361,13 @@
     description: "DEPOSIT 55500 (Item #2)"
 
 2022-09-09 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (Borrow 49k)"
-  Assets:CurrentAssets:Cash:CashInHand  49800.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -49800.000000 HKD
     type: "MJ"
     sourceId: "2121ba53-bbd2-4d35-82e6-3bdeb98ebe8e"
     orderId: "2121ba53-bbd2-4d35-82e6-3bdeb98ebe8e"
     referenceNo: "886"
     description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -49800.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  49800.000000 HKD
     type: "MJ"
     sourceId: "2121ba53-bbd2-4d35-82e6-3bdeb98ebe8e"
     orderId: "2121ba53-bbd2-4d35-82e6-3bdeb98ebe8e"
@@ -1744,24 +1744,6 @@
     sourceId: "e3699677-5155-4057-bcc4-8169b2d9f19c"
     contact: "852 93616180 (MR.WONGFATSHING) [2503033a-fce0-4c8e-a8c1-fa02db11cdd6]"
 
-2022-09-13 * "Bill #144 EX00079 EPS 8月手續費 eb283dc2-5ebc-4e46-9682-fc26b905fd04"
-  referenceNo: "144"
-  orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  251.280000 HKD
-    qty: "1"
-    description: "EPS 8月手續費"
-    referenceNo: "144"
-    orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
-    type: "Bill Item"
-    sourceId: "212c90d5-51d9-4c92-abb2-a0a61b68b5e3"
-  Liabilities:CurrentLiabilities:AccountPayable  -251.280000 HKD
-    referenceNo: "144"
-    orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
-
 2022-09-13 * "Bill #768 WooCommerce Hqin Refund 95b25afc-3b03-4294-bc0c-ff365b0accf0"
   referenceNo: "768"
   orderId: "95b25afc-3b03-4294-bc0c-ff365b0accf0"
@@ -1779,6 +1761,24 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "95b25afc-3b03-4294-bc0c-ff365b0accf0"
+
+2022-09-13 * "Bill #144 EX00079 EPS 8月手續費 eb283dc2-5ebc-4e46-9682-fc26b905fd04"
+  referenceNo: "144"
+  orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  251.280000 HKD
+    qty: "1"
+    description: "EPS 8月手續費"
+    referenceNo: "144"
+    orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
+    type: "Bill Item"
+    sourceId: "212c90d5-51d9-4c92-abb2-a0a61b68b5e3"
+  Liabilities:CurrentLiabilities:AccountPayable  -251.280000 HKD
+    referenceNo: "144"
+    orderId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "eb283dc2-5ebc-4e46-9682-fc26b905fd04"
 
 2022-09-13 * "Bill #142 NO.112144 #119 GIA PURCHASE 3d810303-3d66-4d84-a467-4dbef2902180"
   referenceNo: "142"

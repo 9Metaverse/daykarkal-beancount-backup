@@ -103,24 +103,6 @@
     referenceNo: "1459"
     description: "Closing inventory 31/3/2022 (Item #4)"
 
-2022-04-06 * "Bill #75 EX00025 271e70bb-928e-4e18-afad-0dc00f1c58ee"
-  referenceNo: "75"
-  orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  2000.000000 HKD
-    qty: "1"
-    description: "其他雜費 - 323申請咭機手續費"
-    referenceNo: "75"
-    orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
-    type: "Bill Item"
-    sourceId: "a2f9696f-2c31-4f8a-b059-5d83bc1cbdbb"
-  Liabilities:CurrentLiabilities:AccountPayable  -2000.000000 HKD
-    referenceNo: "75"
-    orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
-
 2022-04-06 * "Bill #73 EX00024 47265c51-f889-4ba2-8249-4da8ab5260b6"
   referenceNo: "73"
   orderId: "47265c51-f889-4ba2-8249-4da8ab5260b6"
@@ -138,6 +120,24 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "47265c51-f889-4ba2-8249-4da8ab5260b6"
+
+2022-04-06 * "Bill #75 EX00025 271e70bb-928e-4e18-afad-0dc00f1c58ee"
+  referenceNo: "75"
+  orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  2000.000000 HKD
+    qty: "1"
+    description: "其他雜費 - 323申請咭機手續費"
+    referenceNo: "75"
+    orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
+    type: "Bill Item"
+    sourceId: "a2f9696f-2c31-4f8a-b059-5d83bc1cbdbb"
+  Liabilities:CurrentLiabilities:AccountPayable  -2000.000000 HKD
+    referenceNo: "75"
+    orderId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "271e70bb-928e-4e18-afad-0dc00f1c58ee"
 
 2022-04-07 * "Bill #123 EX00023 323電話費(4月-7月) 6ab3d2b7-498b-400c-ba25-62434265fe84"
   referenceNo: "123"
@@ -230,13 +230,13 @@
     description: "(Item #2)"
 
 2022-04-14 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash 借錢"
-  Assets:CurrentAssets:Cash:CashInHand  150000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -150000.000000 HKD
     type: "MJ"
     sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
     orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
     referenceNo: "1089"
     description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -150000.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  150000.000000 HKD
     type: "MJ"
     sourceId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"
     orderId: "73ca984e-cef5-48e2-b999-4a5db9c87ba6"

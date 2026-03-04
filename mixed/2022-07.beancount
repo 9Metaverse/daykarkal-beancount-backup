@@ -277,6 +277,25 @@
     sourceId: "ab1d9222-4f94-4e6a-91fe-56b4e2d674f4"
     contact: "852 95847684 (MR.LAUMYRON) [e7b5d123-b6eb-4c44-9ade-6eb5eaf94e87]"
 
+2022-07-05 * "Bill #649 SI-10261 #0087 cc8f09e7-f6dd-495d-9756-955db9a04696"
+  referenceNo: "649"
+  orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1874.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000123"
+    qty: "1"
+    referenceNo: "649"
+    orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
+    type: "Bill Item"
+    sourceId: "d70933e7-89e3-462a-8979-186cb59cef63"
+  Liabilities:CurrentLiabilities:AccountPayable  -1874.000000 HKD
+    referenceNo: "649"
+    orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
+
 2022-07-05 * "Bill #378 kpay012 1ea90fd4-d77f-4b97-964f-234d4c65278c"
   referenceNo: "378"
   orderId: "1ea90fd4-d77f-4b97-964f-234d4c65278c"
@@ -313,25 +332,6 @@
     contact: "998 12345690 (BELMOND) [bd69dd8e-67e6-4347-b6bd-f569752098ec]"
     type: "Bill"
     sourceId: "6ad0f8a8-7547-4d6d-9735-bcbf0673b6c6"
-
-2022-07-05 * "Bill #649 SI-10261 #0087 cc8f09e7-f6dd-495d-9756-955db9a04696"
-  referenceNo: "649"
-  orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  1874.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000123"
-    qty: "1"
-    referenceNo: "649"
-    orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
-    type: "Bill Item"
-    sourceId: "d70933e7-89e3-462a-8979-186cb59cef63"
-  Liabilities:CurrentLiabilities:AccountPayable  -1874.000000 HKD
-    referenceNo: "649"
-    orderId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "cc8f09e7-f6dd-495d-9756-955db9a04696"
 
 2022-07-05 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #133 #a9d48851-152b-4d48-9d42-03dbbd46e000 f2a97cf0-578a-4903-8515-c38f0ca59c72"
   Assets:CurrentAssets:Bank:KpayBank  33500.000000 HKD
@@ -1331,30 +1331,6 @@
     referenceNo: "1006"
     description: "GIA DEPOSIT 39050 (Item #2)"
 
-2022-07-14 * "Invoice #143 INV-0092 874e1cf1-192d-4288-9ae7-ebc052ee75e2"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -17500.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800006422024760"
-    qty: "1"
-    referenceNo: "143"
-    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
-    type: "Invoice Item"
-    sourceId: "9fb3ec3d-d152-4c1e-9f3c-3464e9ff96a7"
-  Income:Sales:SalesItem:Sell18kJewelry  -2500.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000128"
-    qty: "1"
-    referenceNo: "143"
-    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
-    type: "Invoice Item"
-    sourceId: "f48cdd17-2b84-4ba4-8cc3-a898d67522e2"
-  Assets:CurrentAssets:AccountReceivable  20000.000000 HKD
-    referenceNo: "143"
-    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
-    type: "Invoice"
-    sourceId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
-    contact: "852 91237055 (MR.LUKFRANKIE) [23d373b5-2bba-4242-ba5a-1903a85fb9ac]"
-
 2022-07-14 * "Invoice #140 INV-0091 43a03b09-a684-4ff2-9b96-b121380bf7fb"
   Income:Sales:SalesItem:SellBespokeorotherFee  -13500.000000 HKD
     category: "Natural Diamond"
@@ -1378,6 +1354,30 @@
     type: "Invoice"
     sourceId: "43a03b09-a684-4ff2-9b96-b121380bf7fb"
     contact: "852 63457234 (MR.YIUFUNG) [90b44d9a-3c83-4d84-a449-14699ae0e85e]"
+
+2022-07-14 * "Invoice #143 INV-0092 874e1cf1-192d-4288-9ae7-ebc052ee75e2"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -17500.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800006422024760"
+    qty: "1"
+    referenceNo: "143"
+    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
+    type: "Invoice Item"
+    sourceId: "9fb3ec3d-d152-4c1e-9f3c-3464e9ff96a7"
+  Income:Sales:SalesItem:Sell18kJewelry  -2500.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000128"
+    qty: "1"
+    referenceNo: "143"
+    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
+    type: "Invoice Item"
+    sourceId: "f48cdd17-2b84-4ba4-8cc3-a898d67522e2"
+  Assets:CurrentAssets:AccountReceivable  20000.000000 HKD
+    referenceNo: "143"
+    orderId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
+    type: "Invoice"
+    sourceId: "874e1cf1-192d-4288-9ae7-ebc052ee75e2"
+    contact: "852 91237055 (MR.LUKFRANKIE) [23d373b5-2bba-4242-ba5a-1903a85fb9ac]"
 
 2022-07-14 * "Bill #412 XS22072000079 #0091 #0094 GIA PURCHASE 081873b3-8826-441b-9505-4cdd47be90e3"
   referenceNo: "412"
@@ -1505,6 +1505,22 @@
     referenceNo: "993"
     description: "(Item #2)"
 
+2022-07-15 * "Invoice #142 INV-0094 MR. SIN ENOCH 6436fa1d-e810-45fc-84a8-448fe78cd40a"
+  Income:Sales:SalesItem:SellDiamond  -53800.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800007408630961"
+    qty: "1"
+    referenceNo: "142"
+    orderId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
+    type: "Invoice Item"
+    sourceId: "2344166d-77d5-4d47-95ad-b6f147786bd9"
+  Assets:CurrentAssets:AccountReceivable  53800.000000 HKD
+    referenceNo: "142"
+    orderId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
+    type: "Invoice"
+    sourceId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
+    contact: "852 56456480 (MR.SINENOCH) [6e668564-493e-4c57-8b1a-c584e9055ae4]"
+
 2022-07-15 * "Invoice #141 INV-0093 MR. CHEUNG BROOKE c7a9b971-cdaf-47b0-bc30-8be0f871f8fc"
   Income:Sales:SalesItem:SellDiamond  -48500.000000 HKD
     category: "Natural Diamond"
@@ -1528,22 +1544,6 @@
     type: "Invoice"
     sourceId: "c7a9b971-cdaf-47b0-bc30-8be0f871f8fc"
     contact: "852 98238949 (MR.CHEUNGBROOKE) [a470a34e-8efc-4bb0-b6c4-92a1ba923d9b]"
-
-2022-07-15 * "Invoice #142 INV-0094 MR. SIN ENOCH 6436fa1d-e810-45fc-84a8-448fe78cd40a"
-  Income:Sales:SalesItem:SellDiamond  -53800.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800007408630961"
-    qty: "1"
-    referenceNo: "142"
-    orderId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
-    type: "Invoice Item"
-    sourceId: "2344166d-77d5-4d47-95ad-b6f147786bd9"
-  Assets:CurrentAssets:AccountReceivable  53800.000000 HKD
-    referenceNo: "142"
-    orderId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
-    type: "Invoice"
-    sourceId: "6436fa1d-e810-45fc-84a8-448fe78cd40a"
-    contact: "852 56456480 (MR.SINENOCH) [6e668564-493e-4c57-8b1a-c584e9055ae4]"
 
 2022-07-15 * "Bill #213 BANK FEE 9da9d8cc-53a3-4a3d-81bf-18e85d92c4a2"
   referenceNo: "213"
@@ -1707,13 +1707,13 @@
     description: "GIA DEPOSIT 67180 (Item #2)"
 
 2022-07-16 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash"
-  Assets:CurrentAssets:Cash:CashInHand  67180.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -67180.000000 HKD
     type: "MJ"
     sourceId: "39898a16-e218-49b8-ae43-7237de12bf28"
     orderId: "39898a16-e218-49b8-ae43-7237de12bf28"
     referenceNo: "308"
     description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -67180.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  67180.000000 HKD
     type: "MJ"
     sourceId: "39898a16-e218-49b8-ae43-7237de12bf28"
     orderId: "39898a16-e218-49b8-ae43-7237de12bf28"

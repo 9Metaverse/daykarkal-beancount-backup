@@ -1,18 +1,18 @@
 ; Mixed transactions for 2023-01 (FY 2023)
 
 2023-01-03 * "Assets:CurrentAssets:Cash:CashInHand" "borrow HKD 6000 from 217"
-  Assets:CurrentAssets:Cash:CashInHand  6000.000000 HKD
-    type: "MJ"
-    sourceId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
-    orderId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
-    referenceNo: "367"
-    description: "borrow 6000 from 217 (Item #1)"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -6000.000000 HKD
     type: "MJ"
     sourceId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
     orderId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
     referenceNo: "367"
-    description: "(Item #2)"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  6000.000000 HKD
+    type: "MJ"
+    sourceId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
+    orderId: "691bcf1a-8215-4e13-bdcf-084518de8e86"
+    referenceNo: "367"
+    description: "borrow 6000 from 217 (Item #2)"
 
 2023-01-03 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds" "deposit HKD 86800 to VN"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds  86800.000000 HKD
@@ -376,6 +376,25 @@
     sourceId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
     contact: "852 67457650 (MR.KWONG) [279abd56-0fbf-4194-9d4d-a2b61a9f57fb]"
 
+2023-01-05 * "Bill #634 SI-10348, #167 3516fecb-df96-4693-85a8-3deb51ac862c"
+  referenceNo: "634"
+  orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2281.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000158"
+    qty: "1"
+    referenceNo: "634"
+    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+    type: "Bill Item"
+    sourceId: "ac56a460-09f4-4e17-8bc0-ede64134ba44"
+  Liabilities:CurrentLiabilities:AccountPayable  -2281.000000 HKD
+    referenceNo: "634"
+    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+
 2023-01-05 * "Bill #319 SI-10348, #166 b0b1f67e-da6f-41ca-9183-5725cd159fd5"
   referenceNo: "319"
   orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
@@ -440,25 +459,6 @@
     contact: "998 12345762 (STARRAYSDIAMONDHKLTD.) [541705df-67e8-4341-a8fc-b7225224b6a4]"
     type: "Bill"
     sourceId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
-
-2023-01-05 * "Bill #634 SI-10348, #167 3516fecb-df96-4693-85a8-3deb51ac862c"
-  referenceNo: "634"
-  orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2281.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000158"
-    qty: "1"
-    referenceNo: "634"
-    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-    type: "Bill Item"
-    sourceId: "ac56a460-09f4-4e17-8bc0-ede64134ba44"
-  Liabilities:CurrentLiabilities:AccountPayable  -2281.000000 HKD
-    referenceNo: "634"
-    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "3516fecb-df96-4693-85a8-3deb51ac862c"
 
 2023-01-05 * "Bill #382 kpay058 94fff578-51a0-4e61-a7ab-acbdccb9320b"
   referenceNo: "382"
@@ -1079,24 +1079,6 @@
     type: "Bill"
     sourceId: "972573e9-f77e-4750-9c33-f79260cad872"
 
-2023-01-26 * "Bill #440 dec4c102-bb55-48f7-8dc2-c5bd36249271"
-  referenceNo: "440"
-  orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
-  type: "Bill"
-  Expenses:GeneralExpense:BankFeesExpense  55.000000 HKD
-    qty: "1"
-    description: ""
-    referenceNo: "440"
-    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
-    type: "Bill Item"
-    sourceId: "058785c8-0513-40b7-b449-c341bf030dcf"
-  Liabilities:CurrentLiabilities:AccountPayable  -55.000000 HKD
-    referenceNo: "440"
-    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
-    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
-    type: "Bill"
-    sourceId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
-
 2023-01-26 * "Bill #449 FACEBK *7672CL7ZM2 9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
   referenceNo: "449"
   orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
@@ -1114,6 +1096,24 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
+
+2023-01-26 * "Bill #440 dec4c102-bb55-48f7-8dc2-c5bd36249271"
+  referenceNo: "440"
+  orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+  type: "Bill"
+  Expenses:GeneralExpense:BankFeesExpense  55.000000 HKD
+    qty: "1"
+    description: ""
+    referenceNo: "440"
+    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+    type: "Bill Item"
+    sourceId: "058785c8-0513-40b7-b449-c341bf030dcf"
+  Liabilities:CurrentLiabilities:AccountPayable  -55.000000 HKD
+    referenceNo: "440"
+    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
+    type: "Bill"
+    sourceId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
 
 2023-01-26 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #449 #14d56077-b090-41ba-baeb-ee282072383a 9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD

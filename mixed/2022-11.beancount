@@ -180,13 +180,13 @@
     description: "DEPOSIT RETURN 53400 (Item #2)"
 
 2022-11-03 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Pg-PromisingGems" "Cash to PG-Promising GEM (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Pg-PromisingGems  52200.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  -52200.000000 HKD
     type: "MJ"
     sourceId: "3bcf5ad1-2b7c-4036-9557-c144d6a54ea7"
     orderId: "3bcf5ad1-2b7c-4036-9557-c144d6a54ea7"
     referenceNo: "792"
     description: "DEPOSIT 52200 (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -52200.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Pg-PromisingGems  52200.000000 HKD
     type: "MJ"
     sourceId: "3bcf5ad1-2b7c-4036-9557-c144d6a54ea7"
     orderId: "3bcf5ad1-2b7c-4036-9557-c144d6a54ea7"
@@ -723,19 +723,19 @@
     sourceId: "68719e95-94db-446d-a45b-3d8ebc542474"
 
 2022-11-09 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 87.3k)"
-  Assets:CurrentAssets:Cash:CashInHand  59100.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -87300.000000 HKD
     type: "MJ"
     sourceId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
     orderId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
     referenceNo: "765"
     description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  28200.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  59100.000000 HKD
     type: "MJ"
     sourceId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
     orderId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
     referenceNo: "765"
     description: "(Item #2)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -87300.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  28200.000000 HKD
     type: "MJ"
     sourceId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
     orderId: "996db8ef-86b0-4d30-ac22-8c981e0a5cb6"
@@ -1524,13 +1524,13 @@
     description: "DEPOSIT RETURN 74400 (Item #2)"
 
 2022-11-18 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd  85500.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  -85500.000000 HKD
     type: "MJ"
     sourceId: "e8d2c470-7e22-48fd-bb64-f954491331b9"
     orderId: "e8d2c470-7e22-48fd-bb64-f954491331b9"
     referenceNo: "335"
     description: "DEPOSIT (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -85500.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd  85500.000000 HKD
     type: "MJ"
     sourceId: "e8d2c470-7e22-48fd-bb64-f954491331b9"
     orderId: "e8d2c470-7e22-48fd-bb64-f954491331b9"
@@ -2377,6 +2377,24 @@
     referenceNo: "621"
     description: "RETURN BACK USD 7400 (58238) (Item #2)"
 
+2022-11-28 * "Bill #330 kpay050 aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
+  referenceNo: "330"
+  orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
+  type: "Bill"
+  Expenses:GeneralExpense:CardFeeExpense  706.000000 HKD
+    qty: "1"
+    description: "KPAY FEE"
+    referenceNo: "330"
+    orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
+    type: "Bill Item"
+    sourceId: "f5b4f71a-f2fe-40c6-be19-0cfb80f5c172"
+  Liabilities:CurrentLiabilities:AccountPayable  -706.000000 HKD
+    referenceNo: "330"
+    orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    type: "Bill"
+    sourceId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
+
 2022-11-28 * "Bill #780 323上網(2022- 6 / 7 / 8 / 9 / 10月) 19e3386e-642d-4831-a102-c1220a4845cc"
   referenceNo: "780"
   orderId: "19e3386e-642d-4831-a102-c1220a4845cc"
@@ -2422,24 +2440,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "19e3386e-642d-4831-a102-c1220a4845cc"
-
-2022-11-28 * "Bill #330 kpay050 aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
-  referenceNo: "330"
-  orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
-  type: "Bill"
-  Expenses:GeneralExpense:CardFeeExpense  706.000000 HKD
-    qty: "1"
-    description: "KPAY FEE"
-    referenceNo: "330"
-    orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
-    type: "Bill Item"
-    sourceId: "f5b4f71a-f2fe-40c6-be19-0cfb80f5c172"
-  Liabilities:CurrentLiabilities:AccountPayable  -706.000000 HKD
-    referenceNo: "330"
-    orderId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    type: "Bill"
-    sourceId: "aec4910e-075c-44e0-a6aa-b77ca1b55fd6"
 
 2022-11-28 * "Bill #280 EX00087 11月salary bda77e17-4c4a-441d-87e5-8ad3554b3027"
   referenceNo: "280"

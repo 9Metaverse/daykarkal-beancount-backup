@@ -1,5 +1,24 @@
 ; Mixed transactions for 2023-03 (FY 2023)
 
+2023-03-01 * "Bill #627 SI-10356, #175 RESIZE 26dee097-e64c-4848-b1a2-66f896626e74"
+  referenceNo: "627"
+  orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  350.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "627"
+    orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
+    type: "Bill Item"
+    sourceId: "42947eb0-bce5-4f72-acc5-96e5793abafb"
+  Liabilities:CurrentLiabilities:AccountPayable  -350.000000 HKD
+    referenceNo: "627"
+    orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "26dee097-e64c-4848-b1a2-66f896626e74"
+
 2023-03-01 * "Bill #781 323上網(2023-1 / 2 / 3月) e97659d0-e7fa-4eb9-ac43-94719c821ebe"
   referenceNo: "781"
   orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
@@ -31,25 +50,6 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
-
-2023-03-01 * "Bill #627 SI-10356, #175 RESIZE 26dee097-e64c-4848-b1a2-66f896626e74"
-  referenceNo: "627"
-  orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  350.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "627"
-    orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
-    type: "Bill Item"
-    sourceId: "42947eb0-bce5-4f72-acc5-96e5793abafb"
-  Liabilities:CurrentLiabilities:AccountPayable  -350.000000 HKD
-    referenceNo: "627"
-    orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "26dee097-e64c-4848-b1a2-66f896626e74"
 
 2023-03-01 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #781 #29dd4eab-eedd-4912-85b5-0242162d306e e97659d0-e7fa-4eb9-ac43-94719c821ebe"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -1140.000000 HKD
@@ -1099,6 +1099,21 @@
     referenceNo: "1193"
     description: "323上網(2023-4月) (Item #8)"
 
+2023-03-31 * "Invoice #255 INTEREST 687bc900-72fe-4c3e-90a5-4638d393ce44"
+  Income:OtherIncome:Interest-bank  -42.580000 HKD
+    description: "interest"
+    qty: "1"
+    referenceNo: "255"
+    orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
+    type: "Invoice Item"
+    sourceId: "2fd32d9c-c583-4761-8f0f-9b182201fe46"
+  Assets:CurrentAssets:AccountReceivable  42.580000 HKD
+    referenceNo: "255"
+    orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
+    type: "Invoice"
+    sourceId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
+    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
+
 2023-03-31 * "Invoice #1126 Stock & COGS Adjustment dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
     category: "Other"
@@ -1170,21 +1185,6 @@
     type: "Invoice"
     sourceId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     contact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
-
-2023-03-31 * "Invoice #255 INTEREST 687bc900-72fe-4c3e-90a5-4638d393ce44"
-  Income:OtherIncome:Interest-bank  -42.580000 HKD
-    description: "interest"
-    qty: "1"
-    referenceNo: "255"
-    orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
-    type: "Invoice Item"
-    sourceId: "2fd32d9c-c583-4761-8f0f-9b182201fe46"
-  Assets:CurrentAssets:AccountReceivable  42.580000 HKD
-    referenceNo: "255"
-    orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
-    type: "Invoice"
-    sourceId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
-    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-03-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #255 #d75a1d05-f748-4170-92ae-1e0a4e6cf2c6 687bc900-72fe-4c3e-90a5-4638d393ce44"
   Assets:CurrentAssets:Bank:BocSavingBank  42.580000 HKD

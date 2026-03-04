@@ -264,25 +264,25 @@
     orderId: "eea7a25d-2a14-4045-8e21-2c1e327fa43d"
 
 2022-12-06 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (BORROW 129.5k)"
-  Assets:CurrentAssets:Cash:CashInHand  68000.000000 HKD
-    type: "MJ"
-    sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
-    orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
-    referenceNo: "417"
-    description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -129500.000000 HKD
-    type: "MJ"
-    sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
-    orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
-    referenceNo: "417"
-    description: "(Item #2)"
   Assets:CurrentAssets:Cash:CashInHand  39300.000000 HKD
     type: "MJ"
     sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
     orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
     referenceNo: "417"
-    description: "(Item #3)"
+    description: "(Item #1)"
   Assets:CurrentAssets:Cash:CashInHand  22200.000000 HKD
+    type: "MJ"
+    sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
+    orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
+    referenceNo: "417"
+    description: "(Item #2)"
+  Assets:CurrentAssets:Cash:CashInHand  68000.000000 HKD
+    type: "MJ"
+    sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
+    orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
+    referenceNo: "417"
+    description: "(Item #3)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -129500.000000 HKD
     type: "MJ"
     sourceId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
     orderId: "606199db-39dc-42d0-b46c-cdb1c179ceb9"
@@ -1578,43 +1578,6 @@
     sourceId: "39500486-cb34-4db1-9a95-f1c6d782a8cb"
     contact: "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]"
 
-2022-12-20 * "Bill #588 SI-10327 a4c48b74-bde9-48dc-920b-2acb1348d951"
-  referenceNo: "588"
-  orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  500.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "588"
-    orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
-    type: "Bill Item"
-    sourceId: "50f3ec13-0703-47e5-be6a-f62651b55d77"
-  Liabilities:CurrentLiabilities:AccountPayable  -500.000000 HKD
-    referenceNo: "588"
-    orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
-
-2022-12-20 * "Bill #359 kpay054 335cd59e-1878-470e-9279-c115bb744bb1"
-  referenceNo: "359"
-  orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
-  type: "Bill"
-  Expenses:GeneralExpense:CardFeeExpense  1450.000000 HKD
-    qty: "1"
-    description: "KPAY FEE"
-    referenceNo: "359"
-    orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
-    type: "Bill Item"
-    sourceId: "3a5a7234-fdc3-4985-989f-0cdaa631b925"
-  Liabilities:CurrentLiabilities:AccountPayable  -1450.000000 HKD
-    referenceNo: "359"
-    orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    type: "Bill"
-    sourceId: "335cd59e-1878-470e-9279-c115bb744bb1"
-
 2022-12-20 * "Bill #381 kpay056 8a50dd67-88db-4df6-a8da-6d2dcc9b9dee"
   referenceNo: "381"
   orderId: "8a50dd67-88db-4df6-a8da-6d2dcc9b9dee"
@@ -1651,6 +1614,43 @@
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
     type: "Bill"
     sourceId: "9c11225c-39fc-4e47-b200-2441f6007710"
+
+2022-12-20 * "Bill #588 SI-10327 a4c48b74-bde9-48dc-920b-2acb1348d951"
+  referenceNo: "588"
+  orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  500.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "588"
+    orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
+    type: "Bill Item"
+    sourceId: "50f3ec13-0703-47e5-be6a-f62651b55d77"
+  Liabilities:CurrentLiabilities:AccountPayable  -500.000000 HKD
+    referenceNo: "588"
+    orderId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
+
+2022-12-20 * "Bill #359 kpay054 335cd59e-1878-470e-9279-c115bb744bb1"
+  referenceNo: "359"
+  orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
+  type: "Bill"
+  Expenses:GeneralExpense:CardFeeExpense  1450.000000 HKD
+    qty: "1"
+    description: "KPAY FEE"
+    referenceNo: "359"
+    orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
+    type: "Bill Item"
+    sourceId: "3a5a7234-fdc3-4985-989f-0cdaa631b925"
+  Liabilities:CurrentLiabilities:AccountPayable  -1450.000000 HKD
+    referenceNo: "359"
+    orderId: "335cd59e-1878-470e-9279-c115bb744bb1"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    type: "Bill"
+    sourceId: "335cd59e-1878-470e-9279-c115bb744bb1"
 
 2022-12-20 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #205 #d1f95b2b-da01-485f-9493-4571cff5a8be 39500486-cb34-4db1-9a95-f1c6d782a8cb"
   Assets:CurrentAssets:Bank:KpayBank  9990.000000 HKD

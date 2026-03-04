@@ -126,25 +126,6 @@
     sourceId: "8522a0e3-ef14-45db-b947-a9e08d1a3c97"
     contact: "852 91295555 (MS.O) [1716a1e9-7921-4af1-beac-4dbbd848b424]"
 
-2022-06-02 * "Bill #617 SI-10243 #0065 b700e6b1-6f47-40cd-8cc9-a0703067399c"
-  referenceNo: "617"
-  orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  16904.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "617"
-    orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
-    type: "Bill Item"
-    sourceId: "1a92c84f-3290-4f00-a940-c8382226ae21"
-  Liabilities:CurrentLiabilities:AccountPayable  -16904.000000 HKD
-    referenceNo: "617"
-    orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
-
 2022-06-02 * "Bill #130 無 SI - GIA PURCHASE 6214720776 6411279196 4f2f2873-c2ab-40b1-9d78-f011f59c0c4e"
   referenceNo: "130"
   orderId: "4f2f2873-c2ab-40b1-9d78-f011f59c0c4e"
@@ -171,6 +152,25 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     type: "Bill"
     sourceId: "4f2f2873-c2ab-40b1-9d78-f011f59c0c4e"
+
+2022-06-02 * "Bill #617 SI-10243 #0065 b700e6b1-6f47-40cd-8cc9-a0703067399c"
+  referenceNo: "617"
+  orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  16904.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "617"
+    orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
+    type: "Bill Item"
+    sourceId: "1a92c84f-3290-4f00-a940-c8382226ae21"
+  Liabilities:CurrentLiabilities:AccountPayable  -16904.000000 HKD
+    referenceNo: "617"
+    orderId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "b700e6b1-6f47-40cd-8cc9-a0703067399c"
 
 2022-06-02 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Bill Payment for Bill #130 #3e3b8562-1dbc-4910-8b24-5203ec43830d 4f2f2873-c2ab-40b1-9d78-f011f59c0c4e"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -85473.000000 HKD
@@ -1216,13 +1216,13 @@
     description: "GIA DEPOSIT 9540*7.87 (75080) (Item #2)"
 
 2022-06-20 * "Assets:CurrentAssets:Cash:CashInHand" "Milrich to Cash (9540*7.87)"
-  Assets:CurrentAssets:Cash:CashInHand  75080.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -75080.000000 HKD
     type: "MJ"
     sourceId: "9e1c36a0-bf00-4c00-ab22-cc9d5902e80e"
     orderId: "9e1c36a0-bf00-4c00-ab22-cc9d5902e80e"
     referenceNo: "1058"
     description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -75080.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  75080.000000 HKD
     type: "MJ"
     sourceId: "9e1c36a0-bf00-4c00-ab22-cc9d5902e80e"
     orderId: "9e1c36a0-bf00-4c00-ab22-cc9d5902e80e"
@@ -1976,30 +1976,6 @@
     referenceNo: "1046"
     description: "GIA DEPOSIT 26822*7.87 (Item #2)"
 
-2022-06-24 * "Invoice #124 INV-0079 b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
-  Income:Sales:SalesItem:Sell18kJewelry  -1200.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000116"
-    qty: "1"
-    referenceNo: "124"
-    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
-    type: "Invoice Item"
-    sourceId: "e02d8ced-05c6-41f5-9a84-b6a434e547a3"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -24800.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800006432191300"
-    qty: "1"
-    referenceNo: "124"
-    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
-    type: "Invoice Item"
-    sourceId: "2f4426a7-016a-4317-adfa-bbc34bebe469"
-  Assets:CurrentAssets:AccountReceivable  26000.000000 HKD
-    referenceNo: "124"
-    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
-    type: "Invoice"
-    sourceId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
-    contact: "852 98385534 (MR.CHENGNICKY) [e6a97aed-3f5c-4617-a723-02015f3dbf54]"
-
 2022-06-24 * "Invoice #125 INV-0078 0daa4f9c-99da-408e-b28f-b5e88616bc68"
   Income:Sales:SalesItem:SellBespokeorotherFee  -2500.000000 HKD
     category: "Ring Setting"
@@ -2024,6 +2000,30 @@
     sourceId: "0daa4f9c-99da-408e-b28f-b5e88616bc68"
     contact: "852 68990920 (MS.POONPHOEBE) [9d8efe39-6f10-48ab-9e60-e6376bfb0379]"
 
+2022-06-24 * "Invoice #124 INV-0079 b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
+  Income:Sales:SalesItem:Sell18kJewelry  -1200.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000116"
+    qty: "1"
+    referenceNo: "124"
+    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
+    type: "Invoice Item"
+    sourceId: "e02d8ced-05c6-41f5-9a84-b6a434e547a3"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -24800.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800006432191300"
+    qty: "1"
+    referenceNo: "124"
+    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
+    type: "Invoice Item"
+    sourceId: "2f4426a7-016a-4317-adfa-bbc34bebe469"
+  Assets:CurrentAssets:AccountReceivable  26000.000000 HKD
+    referenceNo: "124"
+    orderId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
+    type: "Invoice"
+    sourceId: "b48a3d75-3aa7-4a87-8b11-2f9711c8d2f5"
+    contact: "852 98385534 (MR.CHENGNICKY) [e6a97aed-3f5c-4617-a723-02015f3dbf54]"
+
 2022-06-24 * "Bill #184 NO#30747 #0079 GIA PURCHASE 55a26a1e-1648-4271-abb7-1c4afa02b416"
   referenceNo: "184"
   orderId: "55a26a1e-1648-4271-abb7-1c4afa02b416"
@@ -2042,6 +2042,25 @@
     contact: "998 12345709 (EVERESTGEMSLTD) [57b2054c-8a63-41bb-a352-e717f3833104]"
     type: "Bill"
     sourceId: "55a26a1e-1648-4271-abb7-1c4afa02b416"
+
+2022-06-24 * "Bill #187 NO.4231 #0078 GIA PURCHASE 586f06c1-fa2c-4348-8722-cd56a83e1342"
+  referenceNo: "187"
+  orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  25323.520000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800005393801586"
+    qty: "1"
+    referenceNo: "187"
+    orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
+    type: "Bill Item"
+    sourceId: "6a70840e-562c-4c63-9b4a-db04ecc78e1a"
+  Liabilities:CurrentLiabilities:AccountPayable  -25323.520000 HKD
+    referenceNo: "187"
+    orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
+    contact: "998 12345759 (SHEETAL(FAREAST)LIMITED) [17bca8d2-1243-4600-a316-2c2f4ee18a74]"
+    type: "Bill"
+    sourceId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
 
 2022-06-24 * "Bill #623 SI-10274 #0079 66b5b952-fbf7-4f7c-b719-a7c2e34b014c"
   referenceNo: "623"
@@ -2097,25 +2116,6 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     type: "Bill"
     sourceId: "82af4947-2f6d-4793-9f99-c06033d12ef5"
-
-2022-06-24 * "Bill #187 NO.4231 #0078 GIA PURCHASE 586f06c1-fa2c-4348-8722-cd56a83e1342"
-  referenceNo: "187"
-  orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  25323.520000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800005393801586"
-    qty: "1"
-    referenceNo: "187"
-    orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
-    type: "Bill Item"
-    sourceId: "6a70840e-562c-4c63-9b4a-db04ecc78e1a"
-  Liabilities:CurrentLiabilities:AccountPayable  -25323.520000 HKD
-    referenceNo: "187"
-    orderId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
-    contact: "998 12345759 (SHEETAL(FAREAST)LIMITED) [17bca8d2-1243-4600-a316-2c2f4ee18a74]"
-    type: "Bill"
-    sourceId: "586f06c1-fa2c-4348-8722-cd56a83e1342"
 
 2022-06-24 * "Bill #653 SI-10249-1 #0069, 0078 71cc1329-7d18-4867-bf5b-28a01677c930"
   referenceNo: "653"
@@ -3075,25 +3075,6 @@
     sourceId: "23cdca4d-3fdd-4313-9553-7d69f9dd8180"
     contact: "852 62093677 (MR.LIANTHONY) [66d9bf71-d062-4f2f-9413-6d0391cba3b3]"
 
-2022-06-30 * "Bill #197 XS22071100300 #0085 baa74aa8-165b-494c-bce5-0572d3a0d117"
-  referenceNo: "197"
-  orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  88599.660000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800006415962271"
-    qty: "1"
-    referenceNo: "197"
-    orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
-    type: "Bill Item"
-    sourceId: "22556b43-7e00-4f21-9623-54a77d01278a"
-  Liabilities:CurrentLiabilities:AccountPayable  -88599.660000 HKD
-    referenceNo: "197"
-    orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
-    contact: "998 12345696 (CHINASTAR) [18f558fe-9c32-4da8-8102-e67648c847a2]"
-    type: "Bill"
-    sourceId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
-
 2022-06-30 * "Bill #364 kpay011 eadd6403-0356-44af-904d-fa28d035861a"
   referenceNo: "364"
   orderId: "eadd6403-0356-44af-904d-fa28d035861a"
@@ -3111,6 +3092,25 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     type: "Bill"
     sourceId: "eadd6403-0356-44af-904d-fa28d035861a"
+
+2022-06-30 * "Bill #193 DI-519 2022-23 #0084 GIA PURCHASE eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+  referenceNo: "193"
+  orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  24781.370000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800001387458788"
+    qty: "1"
+    referenceNo: "193"
+    orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+    type: "Bill Item"
+    sourceId: "5e653941-9307-4f31-b799-40504778dbef"
+  Liabilities:CurrentLiabilities:AccountPayable  -24781.370000 HKD
+    referenceNo: "193"
+    orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+    contact: "998 12345703 (DIAMART(HK)LTD) [8df3094f-07c1-474f-b57e-185730c4762e]"
+    type: "Bill"
+    sourceId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
 
 2022-06-30 * "Bill #635 SI-10258 #85, 99 fa08c1be-6e1b-4561-bbf9-c9f4a757a317"
   referenceNo: "635"
@@ -3155,24 +3155,24 @@
     type: "Bill"
     sourceId: "fa08c1be-6e1b-4561-bbf9-c9f4a757a317"
 
-2022-06-30 * "Bill #193 DI-519 2022-23 #0084 GIA PURCHASE eba08e3a-ba86-4290-93f4-8be7b31d20ad"
-  referenceNo: "193"
-  orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+2022-06-30 * "Bill #197 XS22071100300 #0085 baa74aa8-165b-494c-bce5-0572d3a0d117"
+  referenceNo: "197"
+  orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  24781.370000 HKD
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyBespoke  88599.660000 HKD
     category: "Natural Diamond"
-    sku: "DDFFFFFF0800001387458788"
+    sku: "DDFFFFFF0800006415962271"
     qty: "1"
-    referenceNo: "193"
-    orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+    referenceNo: "197"
+    orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
     type: "Bill Item"
-    sourceId: "5e653941-9307-4f31-b799-40504778dbef"
-  Liabilities:CurrentLiabilities:AccountPayable  -24781.370000 HKD
-    referenceNo: "193"
-    orderId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
-    contact: "998 12345703 (DIAMART(HK)LTD) [8df3094f-07c1-474f-b57e-185730c4762e]"
+    sourceId: "22556b43-7e00-4f21-9623-54a77d01278a"
+  Liabilities:CurrentLiabilities:AccountPayable  -88599.660000 HKD
+    referenceNo: "197"
+    orderId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
+    contact: "998 12345696 (CHINASTAR) [18f558fe-9c32-4da8-8102-e67648c847a2]"
     type: "Bill"
-    sourceId: "eba08e3a-ba86-4290-93f4-8be7b31d20ad"
+    sourceId: "baa74aa8-165b-494c-bce5-0572d3a0d117"
 
 2022-06-30 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #129 #f5f70d36-5384-4c8b-94c4-d4286214f4ac de01be22-0555-46ca-9e6a-8098f6074da7"
   Assets:CurrentAssets:Bank:KpayBank  34900.000000 HKD
