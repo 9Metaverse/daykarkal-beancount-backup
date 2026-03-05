@@ -547,6 +547,44 @@
     referenceNo: "3012"
     description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #2)"
 
+2026-02-25 * "Bill #1555 BOC VISA Card - Sam 02月 2026 16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+  referenceNo: "1555"
+  orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+  type: "Bill"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  3858.050000 HKD
+    qty: "1"
+    description: "Milways Gold Ltd  - 淘寶雜項"
+    referenceNo: "1555"
+    orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+    type: "Bill Item"
+    sourceId: "ea368114-94e3-4b12-b2d2-1428d9dee80a"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  47325.870000 HKD
+    qty: "1"
+    description: "Milways Factory Ltd  - 淘寶雜項"
+    referenceNo: "1555"
+    orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+    type: "Bill Item"
+    sourceId: "cd5ad256-a48e-46fc-9c78-f53adb99d393"
+  Liabilities:CurrentLiabilities:AccountPayable  -51183.920000 HKD
+    referenceNo: "1555"
+    orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+
+2026-02-25 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1555 #70c082ee-786a-4cde-a0ca-8c6492a792be 16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  -51183.920000 HKD
+    type: "Bill Payment"
+    sourceId: "70c082ee-786a-4cde-a0ca-8c6492a792be"
+    referenceNo: "1555"
+    orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+  Liabilities:CurrentLiabilities:AccountPayable  51183.920000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "70c082ee-786a-4cde-a0ca-8c6492a792be"
+    referenceNo: "1555"
+    orderId: "16bbabd3-7a5a-449a-a6d3-b06e5b3dc1f9"
+
 2026-02-25 * "Bill #1554 BOC VISA Card - David 02月 2026 eda01093-c025-4efb-8ec2-c702d67e32db"
   referenceNo: "1554"
   orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
