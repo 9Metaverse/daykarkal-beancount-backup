@@ -288,22 +288,6 @@
     orderId: "bd9c5eeb-d9e3-4792-8b36-e728726b04a8"
     contact: "852 68563208 (NoName) [252971f0-831c-40b1-87dd-baaa7959b4af]"
 
-2026-02-11 * "Invoice #1203 Stock~ BP2520 a1a064f7-d889-429c-b04e-8a59c9806dc0"
-  Income:Sales:SalesItem:Sell18kJewelry  -3000.000000 HKD
-    category: "Jewelry"
-    sku: "DD20250716001-1"
-    qty: "1"
-    referenceNo: "1203"
-    orderId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
-    type: "Invoice Item"
-    sourceId: "e90ebaa2-2a92-4c00-9428-756a3c6c439e"
-  Assets:CurrentAssets:AccountReceivable  3000.000000 HKD
-    referenceNo: "1203"
-    orderId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
-    type: "Invoice"
-    sourceId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
-    contact: "86 13580601694 (NoName) [1e45eef1-a912-4e75-be31-adf41da0f08f]"
-
 2026-02-11 * "Invoice #1205 Stock~ BP2508/BN2533/E2501 9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
   Income:Sales:SalesItem:Sell18kJewelry  -1900.000000 HKD
     category: "Jewelry"
@@ -335,6 +319,22 @@
     type: "Invoice"
     sourceId: "9a7fabfb-d8ea-403d-ae8e-91923dd2a793"
     contact: "86 18685028023 (NoName) [effc0307-f51a-43ee-ab90-59838cb98978]"
+
+2026-02-11 * "Invoice #1203 Stock~ BP2520 a1a064f7-d889-429c-b04e-8a59c9806dc0"
+  Income:Sales:SalesItem:Sell18kJewelry  -3000.000000 HKD
+    category: "Jewelry"
+    sku: "DD20250716001-1"
+    qty: "1"
+    referenceNo: "1203"
+    orderId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
+    type: "Invoice Item"
+    sourceId: "e90ebaa2-2a92-4c00-9428-756a3c6c439e"
+  Assets:CurrentAssets:AccountReceivable  3000.000000 HKD
+    referenceNo: "1203"
+    orderId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
+    type: "Invoice"
+    sourceId: "a1a064f7-d889-429c-b04e-8a59c9806dc0"
+    contact: "86 13580601694 (NoName) [1e45eef1-a912-4e75-be31-adf41da0f08f]"
 
 2026-02-11 * "Invoice #1204 Stock~ BN2527 2ec7d7c0-b2c6-4c4c-b5e1-6859d37657ed"
   Income:Sales:SalesItem:Sell18kJewelry  -3100.000000 HKD
@@ -507,7 +507,47 @@
     orderId: "12ddc0d2-8757-4108-ae47-8406f1ff0bdb"
     contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
 
-2026-02-25 * "Bill #1554 BOC VISA Card - David 01月 2026 eda01093-c025-4efb-8ec2-c702d67e32db"
+2026-02-16 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    orderId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    referenceNo: "3010"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #1)"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    orderId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    referenceNo: "3010"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    orderId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    referenceNo: "3010"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #3)"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    orderId: "8a772415-0e20-48a1-a74d-b5f33665a594"
+    referenceNo: "3010"
+    description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #4)"
+
+2026-02-16 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to SAM VISA"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "4416b0f5-5418-49c5-824b-43390d8ec320"
+    orderId: "4416b0f5-5418-49c5-824b-43390d8ec320"
+    referenceNo: "3012"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #1)"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "4416b0f5-5418-49c5-824b-43390d8ec320"
+    orderId: "4416b0f5-5418-49c5-824b-43390d8ec320"
+    referenceNo: "3012"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #2)"
+
+2026-02-25 * "Bill #1554 BOC VISA Card - David 02月 2026 eda01093-c025-4efb-8ec2-c702d67e32db"
   referenceNo: "1554"
   orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
   type: "Bill"
@@ -539,12 +579,67 @@
     orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
     type: "Bill Item"
     sourceId: "14f3a462-9394-4d8e-9d39-6b72de4e9a75"
-  Liabilities:CurrentLiabilities:AccountPayable  -355.110000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  3202.720000 HKD
+    qty: "1"
+    description: "Milways Gold Ltd - 物資"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "fb28a489-795e-48bb-8a14-33f8963a10a4"
+  Expenses:GeneralExpense:OfficeExpenses  53.950000 HKD
+    qty: "1"
+    description: "DKK 耳钉硅胶耳堵+日本zebra斑油性记号笔"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "4db6ac34-da71-4543-aaf8-2b64492361ee"
+  Expenses:GeneralExpense:OfficeExpenses  69.610000 HKD
+    qty: "1"
+    description: "DKK 2026新年春节装"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "bde156ff-df92-47c5-a53f-67b6a5b743f3"
+  Expenses:GeneralExpense:OfficeExpenses  51.690000 HKD
+    qty: "1"
+    description: "DKK 集運-2026新年春节装"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "a07ad492-f7b0-4e34-8b74-373c97d9d9ab"
+  Expenses:GeneralExpense:OfficeExpenses  118.710000 HKD
+    qty: "1"
+    description: "DKK 热敏标签贴纸"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "b7f19c51-d233-454f-a2cc-6b637b264bff"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  34432.470000 HKD
+    qty: "1"
+    description: "Milways Factory Ltd - 物資"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+    type: "Bill Item"
+    sourceId: "47523f85-025c-48af-ae41-675cec381e02"
+  Liabilities:CurrentLiabilities:AccountPayable  -38284.260000 HKD
     referenceNo: "1554"
     orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+
+2026-02-25 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1554 #bcf113d5-1677-47a0-94a0-1ec91df3634b eda01093-c025-4efb-8ec2-c702d67e32db"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -38284.260000 HKD
+    type: "Bill Payment"
+    sourceId: "bcf113d5-1677-47a0-94a0-1ec91df3634b"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
+  Liabilities:CurrentLiabilities:AccountPayable  38284.260000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "bcf113d5-1677-47a0-94a0-1ec91df3634b"
+    referenceNo: "1554"
+    orderId: "eda01093-c025-4efb-8ec2-c702d67e32db"
 
 2026-02-28 * "852 98622472 (NoName) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]" "Bill Payment for Bill #1553 #00b7be5a-930c-4737-8be4-ba777427a853 0e4222a5-f486-44cb-9c21-25260bedc089"
   Assets:CurrentAssets:Cash:G17ShopCash  -930.000000 HKD
