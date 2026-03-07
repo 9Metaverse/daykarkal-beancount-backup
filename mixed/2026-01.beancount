@@ -1882,6 +1882,51 @@
     referenceNo: "2632"
     description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
 
+2026-01-22 * "Bill #1562 K11 按金加上期 b2fc38e5-791e-41c7-a081-989c4d256d69"
+  referenceNo: "1562"
+  orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+  type: "Bill"
+  Assets:OtherAssets:Deposit押金  180000.000000 HKD
+    qty: "1"
+    description: "K11 - 三個月按金"
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+    type: "Bill Item"
+    sourceId: "15e139a6-e050-4d2c-8672-2e55affbb295"
+  Expenses:GeneralExpense:Rent  60000.000000 HKD
+    qty: "1"
+    description: "K11  25 May 26 - 24 Jun 2026 租金"
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+    type: "Bill Item"
+    sourceId: "e340e6c4-695a-44f7-84fd-6924a0162c91"
+  Income:OtherIncome:HandlingFee  50.000000 HKD
+    qty: "1"
+    description: "行政費"
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+    type: "Bill Item"
+    sourceId: "c41e891a-eea0-4d5e-9e0e-edb81bbd041c"
+  Liabilities:CurrentLiabilities:AccountPayable  -240050.000000 HKD
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+
+2026-01-22 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1562 #6bf138e4-dc01-47c7-8b09-48037a0b4ece b2fc38e5-791e-41c7-a081-989c4d256d69"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -240050.000000 HKD
+    type: "Bill Payment"
+    sourceId: "6bf138e4-dc01-47c7-8b09-48037a0b4ece"
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+  Liabilities:CurrentLiabilities:AccountPayable  240050.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "6bf138e4-dc01-47c7-8b09-48037a0b4ece"
+    referenceNo: "1562"
+    orderId: "b2fc38e5-791e-41c7-a081-989c4d256d69"
+
 2026-01-22 * "Reservation Payment R#GR2025121700001B P#P20260122001"
   rsv-ref: "GR2025121700001B"
   pay-ref: "P20260122001"

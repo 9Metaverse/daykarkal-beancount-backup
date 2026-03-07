@@ -14,6 +14,37 @@
     referenceNo: "2372"
     description: "G17 2月2026 租金 (Item #2)"
 
+2026-02-02 * "Bill #1564 2月2026年MPF be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+  referenceNo: "1564"
+  orderId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "2月2026年MPF"
+    referenceNo: "1564"
+    orderId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+    type: "Bill Item"
+    sourceId: "19304255-42c4-46b4-b200-b411c79d73aa"
+  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+    referenceNo: "1564"
+    orderId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+
+2026-02-02 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1564 #eb178a89-5ee8-415b-aa03-e133970e2deb be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "eb178a89-5ee8-415b-aa03-e133970e2deb"
+    referenceNo: "1564"
+    orderId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "eb178a89-5ee8-415b-aa03-e133970e2deb"
+    referenceNo: "1564"
+    orderId: "be1666fe-20a2-409b-8f2c-98c1714c0ddf"
+
 2026-02-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1191 #1dd86673-f77b-4bb2-acee-2de7f6d67dbb 5a30e53e-4641-4fbc-a83e-f6800aaca5c5"
   Assets:CurrentAssets:Bank:BocSavingBank  4000.000000 HKD
     type: "Invoice Payment"
@@ -26,6 +57,24 @@
     referenceNo: "1191"
     orderId: "5a30e53e-4641-4fbc-a83e-f6800aaca5c5"
     contact: "852 94140678 (NoName) [cd4dc3d2-e0d0-467f-8836-044635f9d261]"
+
+2026-02-03 * "Bill #1563 1月2026年MPF 918745a4-9c14-488d-ace2-a3acf4fd550e"
+  referenceNo: "1563"
+  orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "1月2026年MPF"
+    referenceNo: "1563"
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+    type: "Bill Item"
+    sourceId: "fa9a520b-7084-40ac-a083-a672d2d98aa5"
+  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+    referenceNo: "1563"
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
 
 2026-02-03 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 309"
   Assets:CurrentAssets:Bank:KpayBank  -3742.000000 HKD
@@ -40,6 +89,19 @@
     orderId: "69ffee39-21cb-444e-984f-6ee70b0389b1"
     referenceNo: "3019"
     description: "kpay 309 (Item #2)"
+
+2026-02-03 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1563 #64d4c3e7-b70f-4f6b-a747-9cc1ca8ba8fd 918745a4-9c14-488d-ace2-a3acf4fd550e"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "64d4c3e7-b70f-4f6b-a747-9cc1ca8ba8fd"
+    referenceNo: "1563"
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "64d4c3e7-b70f-4f6b-a747-9cc1ca8ba8fd"
+    referenceNo: "1563"
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
 
 2026-02-03 * "Invoice #1199 Stock~ BR2505 ed974d9f-147c-472d-b022-032ffa759a28"
   Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
@@ -879,6 +941,20 @@
     sourceId: "99d87d97-11f9-4d1a-a7b2-691683674929"
     referenceNo: "1561"
     orderId: "4e439193-1a0a-48e0-9f02-2e97f12dadd2"
+
+2026-02-28 * "Assets:CurrentAssets:Bank:BocSavingBank" "INTEREST - BOC SAV 02/2026"
+  Assets:CurrentAssets:Bank:BocSavingBank  0.270000 HKD
+    type: "MJ"
+    sourceId: "6e018a5f-3696-4fe1-b1b7-c421854ab678"
+    orderId: "6e018a5f-3696-4fe1-b1b7-c421854ab678"
+    referenceNo: "3022"
+    description: "INTEREST - BOC SAV 02/2026 (Item #1)"
+  Income:OtherIncome:Interest-bank  -0.270000 HKD
+    type: "MJ"
+    sourceId: "6e018a5f-3696-4fe1-b1b7-c421854ab678"
+    orderId: "6e018a5f-3696-4fe1-b1b7-c421854ab678"
+    referenceNo: "3022"
+    description: "INTEREST - BOC SAV 02/2026 (Item #2)"
 
 2026-02-28 * "852 98622472 (NoName) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]" "Bill Payment for Bill #1553 #00b7be5a-930c-4737-8be4-ba777427a853 0e4222a5-f486-44cb-9c21-25260bedc089"
   Assets:CurrentAssets:Cash:G17ShopCash  -930.000000 HKD

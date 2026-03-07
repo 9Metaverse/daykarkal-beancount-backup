@@ -1142,20 +1142,6 @@
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
-  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #1)"
-  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #2)"
-
 2025-11-16 * "Invoice #1168 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Income:Sales:SalesItem:Sell18kJewelry  -5800.000000 HKD
     category: "Jewelry"
@@ -1171,6 +1157,20 @@
     type: "Invoice"
     sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
     contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
+  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #1)"
+  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #2)"
 
 2025-11-16 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1168 #94c7114c-3791-48bb-b1b3-2106e7bcdcef b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Assets:CurrentAssets:Cash:G17ShopCash  5800.000000 HKD
@@ -2412,6 +2412,20 @@
     referenceNo: "1173"
     orderId: "42288337-43a1-4c3a-8a1e-e79f101e0cc2"
     contact: "852 65798624 () [c8fc8421-1d8c-4248-b7f8-ce264f9ece55]"
+
+2025-11-30 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 11/2025"
+  Assets:CurrentAssets:Bank:BocForeignBank  0.110000 USD {7.8 HKD}
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025 (Item #1)"
+  Income:OtherIncome:Interest-bank   -0.858000 HKD
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025 (Item #2)"
 
 2025-11-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 11/2025"
   Income:OtherIncome:Interest-bank  -0.860000 HKD
