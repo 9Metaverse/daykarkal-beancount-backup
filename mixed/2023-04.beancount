@@ -6,6 +6,56 @@
   currency: "USD"
   oldRate: "7.85"
   newRate: "7.84"
+  Assets:CurrentAssets:Bank:BocForeignBank  -3002.410000 USD {7.85 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+  Assets:CurrentAssets:Bank:BocForeignBank  3002.410000 USD {7.84 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+  Income:FXGainOrLoss
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+
+2023-04-01 * "Cost Adjustment for Fiscal Year 2024"
+  type: "ADJUST_COST"
+  fiscalYear: "2024"
+  currency: "USD"
+  oldRate: "7.85"
+  newRate: "7.84"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-vd99812345774  -1460.000000 USD {7.85 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-vd99812345774  1460.000000 USD {7.84 HKD}
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+  Income:FXGainOrLoss
+    type: "ADJUST_COST"
+    fiscalYear: "2024"
+    currency: "USD"
+    oldRate: "7.85"
+    newRate: "7.84"
+
+2023-04-01 * "Cost Adjustment for Fiscal Year 2024"
+  type: "ADJUST_COST"
+  fiscalYear: "2024"
+  currency: "USD"
+  oldRate: "7.85"
+  newRate: "7.84"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  360.000000 USD {7.85 HKD}
     type: "ADJUST_COST"
     fiscalYear: "2024"
@@ -31,13 +81,13 @@
   currency: "USD"
   oldRate: "7.85"
   newRate: "7.84"
-  Assets:CurrentAssets:Bank:BocForeignBank  -3002.410000 USD {7.85 HKD}
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-vd99812345774  1460.000000 USD {7.85 HKD}
     type: "ADJUST_COST"
     fiscalYear: "2024"
     currency: "USD"
     oldRate: "7.85"
     newRate: "7.84"
-  Assets:CurrentAssets:Bank:BocForeignBank  3002.410000 USD {7.84 HKD}
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-vd99812345774  -1460.000000 USD {7.84 HKD}
     type: "ADJUST_COST"
     fiscalYear: "2024"
     currency: "USD"
@@ -129,7 +179,7 @@
     orderId: "66223d75-c03b-46c1-bd8a-ad606919dd3b"
     type: "Bill Item"
     sourceId: "9600a2b6-6a62-4348-91d1-4f4e8f9f2c87"
-  Liabilities:CurrentLiabilities:AccountPayable  -1800.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  -1800.000000 HKD
     referenceNo: "666"
     orderId: "66223d75-c03b-46c1-bd8a-ad606919dd3b"
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
@@ -142,7 +192,7 @@
     sourceId: "4c81de44-b004-4215-b9dc-c480edc0925e"
     referenceNo: "666"
     orderId: "66223d75-c03b-46c1-bd8a-ad606919dd3b"
-  Liabilities:CurrentLiabilities:AccountPayable  1800.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  1800.000000 HKD
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     type: "Bill Payment"
     sourceId: "4c81de44-b004-4215-b9dc-c480edc0925e"
@@ -160,7 +210,7 @@
     orderId: "5501d6a1-59c2-474b-8394-4eaf40fde428"
     type: "Bill Item"
     sourceId: "4f6fdec0-f284-4ed3-99fa-e7607b4ab601"
-  Liabilities:CurrentLiabilities:AccountPayable  -3890.250000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -3890.250000 HKD
     referenceNo: "472"
     orderId: "5501d6a1-59c2-474b-8394-4eaf40fde428"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -178,7 +228,7 @@
     orderId: "6aa04914-11d8-4d75-bf2e-6e0d26bb0de3"
     type: "Bill Item"
     sourceId: "8c968fe4-805b-4670-a3b1-36454680d30c"
-  Liabilities:CurrentLiabilities:AccountPayable  -31.120000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  -31.120000 HKD
     referenceNo: "465"
     orderId: "6aa04914-11d8-4d75-bf2e-6e0d26bb0de3"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
@@ -191,7 +241,7 @@
     sourceId: "6bb7a169-0f9c-4f5f-82cf-90b63a26194c"
     referenceNo: "472"
     orderId: "5501d6a1-59c2-474b-8394-4eaf40fde428"
-  Liabilities:CurrentLiabilities:AccountPayable  3890.250000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  3890.250000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "6bb7a169-0f9c-4f5f-82cf-90b63a26194c"
@@ -204,7 +254,7 @@
     sourceId: "26c6875f-0f6b-48dd-8c01-ac29da8e84d8"
     referenceNo: "465"
     orderId: "6aa04914-11d8-4d75-bf2e-6e0d26bb0de3"
-  Liabilities:CurrentLiabilities:AccountPayable  31.120000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  31.120000 HKD
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     type: "Bill Payment"
     sourceId: "26c6875f-0f6b-48dd-8c01-ac29da8e84d8"
@@ -222,7 +272,7 @@
     orderId: "8a28c67f-8257-4e1b-ac3f-cb3970e73a19"
     type: "Bill Item"
     sourceId: "b3b2b5db-c40c-4828-891d-98ec7e4d8333"
-  Liabilities:CurrentLiabilities:AccountPayable  -17000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -17000.000000 HKD
     referenceNo: "256"
     orderId: "8a28c67f-8257-4e1b-ac3f-cb3970e73a19"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -235,7 +285,7 @@
     sourceId: "f625b9bd-be95-4fd5-bf4b-f5587d2c8dcd"
     referenceNo: "256"
     orderId: "8a28c67f-8257-4e1b-ac3f-cb3970e73a19"
-  Liabilities:CurrentLiabilities:AccountPayable  17000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  17000.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "f625b9bd-be95-4fd5-bf4b-f5587d2c8dcd"
@@ -253,7 +303,7 @@
     orderId: "5a99e967-ed52-4960-b15b-a787c06bdd39"
     type: "Bill Item"
     sourceId: "78c043a0-3939-4e8c-a0c3-851b8ff5ceec"
-  Liabilities:CurrentLiabilities:AccountPayable  -48000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -48000.000000 HKD
     referenceNo: "314"
     orderId: "5a99e967-ed52-4960-b15b-a787c06bdd39"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -271,7 +321,7 @@
     orderId: "bcee3682-9844-44a5-b672-4da109b0477a"
     type: "Bill Item"
     sourceId: "f19bd2c0-9f2a-4a48-a7f1-8e84f0b74ace"
-  Liabilities:CurrentLiabilities:AccountPayable  -96000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -96000.000000 HKD
     referenceNo: "293"
     orderId: "bcee3682-9844-44a5-b672-4da109b0477a"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -284,7 +334,7 @@
     sourceId: "1b303b8d-303c-45d5-993f-ba6496cedb6d"
     referenceNo: "293"
     orderId: "bcee3682-9844-44a5-b672-4da109b0477a"
-  Liabilities:CurrentLiabilities:AccountPayable  96000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  96000.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "1b303b8d-303c-45d5-993f-ba6496cedb6d"
@@ -297,7 +347,7 @@
     sourceId: "f7f048e1-4541-4247-b612-d2eb480b96eb"
     referenceNo: "314"
     orderId: "5a99e967-ed52-4960-b15b-a787c06bdd39"
-  Liabilities:CurrentLiabilities:AccountPayable  48000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  48000.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "f7f048e1-4541-4247-b612-d2eb480b96eb"
@@ -315,7 +365,7 @@
     orderId: "2d1f1ce1-8ebf-4ac7-9f4c-b388aedd16f4"
     type: "Bill Item"
     sourceId: "4da8a434-9d5b-4857-81e0-aaf752993866"
-  Liabilities:CurrentLiabilities:AccountPayable  -2000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -2000.000000 HKD
     referenceNo: "804"
     orderId: "2d1f1ce1-8ebf-4ac7-9f4c-b388aedd16f4"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -333,7 +383,7 @@
     orderId: "d54dfd86-b992-44e4-86b9-2eaa44f67526"
     type: "Bill Item"
     sourceId: "51ed761b-59e3-448f-a642-97fdab0171a6"
-  Liabilities:CurrentLiabilities:AccountPayable  -1440.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1440.000000 HKD
     referenceNo: "811"
     orderId: "d54dfd86-b992-44e4-86b9-2eaa44f67526"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -346,7 +396,7 @@
     sourceId: "54aa6e6a-4258-4c54-92a9-7983e63ea3da"
     referenceNo: "804"
     orderId: "2d1f1ce1-8ebf-4ac7-9f4c-b388aedd16f4"
-  Liabilities:CurrentLiabilities:AccountPayable  2000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  2000.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "54aa6e6a-4258-4c54-92a9-7983e63ea3da"
@@ -359,7 +409,7 @@
     sourceId: "d968fe83-0cf1-4f15-b8f9-8f1c5d09da4e"
     referenceNo: "811"
     orderId: "d54dfd86-b992-44e4-86b9-2eaa44f67526"
-  Liabilities:CurrentLiabilities:AccountPayable  1440.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1440.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "d968fe83-0cf1-4f15-b8f9-8f1c5d09da4e"
@@ -377,7 +427,7 @@
     orderId: "e8269f30-bb42-4009-9a31-23e3e6ad87ac"
     type: "Bill Item"
     sourceId: "128e2e23-58ca-444b-9dd3-615e1f93a777"
-  Liabilities:CurrentLiabilities:AccountPayable  -302.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -302.000000 HKD
     referenceNo: "792"
     orderId: "e8269f30-bb42-4009-9a31-23e3e6ad87ac"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -390,7 +440,7 @@
     sourceId: "753f385e-f66b-4e8b-a0d1-dc2aac4ae64d"
     referenceNo: "792"
     orderId: "e8269f30-bb42-4009-9a31-23e3e6ad87ac"
-  Liabilities:CurrentLiabilities:AccountPayable  302.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  302.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "753f385e-f66b-4e8b-a0d1-dc2aac4ae64d"
@@ -403,7 +453,7 @@
     sourceId: "65f5551b-2247-4acf-9504-d45e6632a146"
     referenceNo: "470"
     orderId: "d9c08b90-14f9-4bd6-ab17-c2b787fd3774"
-  Liabilities:CurrentLiabilities:AccountPayable  1440.690000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1440.690000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "65f5551b-2247-4acf-9504-d45e6632a146"
@@ -421,7 +471,7 @@
     orderId: "d9c08b90-14f9-4bd6-ab17-c2b787fd3774"
     type: "Bill Item"
     sourceId: "95fee0e5-66e5-4b3c-99a5-9beee880a4da"
-  Liabilities:CurrentLiabilities:AccountPayable  -1440.690000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1440.690000 HKD
     referenceNo: "470"
     orderId: "d9c08b90-14f9-4bd6-ab17-c2b787fd3774"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -439,7 +489,7 @@
     orderId: "93a9c0b6-20a3-4169-ad3f-96dbc219e491"
     type: "Bill Item"
     sourceId: "3df49384-d3c7-43c7-8a30-d20610c327c6"
-  Liabilities:CurrentLiabilities:AccountPayable  -300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -300.000000 HKD
     referenceNo: "806"
     orderId: "93a9c0b6-20a3-4169-ad3f-96dbc219e491"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -457,7 +507,7 @@
     orderId: "b6e8c778-2ed2-49c9-9f1e-ecab89a12a7c"
     type: "Bill Item"
     sourceId: "7538fad7-af83-4177-9840-9a9542709608"
-  Liabilities:CurrentLiabilities:AccountPayable  -3333.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -3333.000000 HKD
     referenceNo: "803"
     orderId: "b6e8c778-2ed2-49c9-9f1e-ecab89a12a7c"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -475,7 +525,7 @@
     orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
     type: "Bill Item"
     sourceId: "1f2356f6-c68f-45a7-a599-9fc73538651b"
-  Liabilities:CurrentLiabilities:AccountPayable  -410.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -410.000000 HKD
     referenceNo: "222"
     orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -493,7 +543,7 @@
     orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
     type: "Bill Item"
     sourceId: "ebacd093-8206-4c8e-8aa0-f803f45af845"
-  Liabilities:CurrentLiabilities:AccountPayable  -355.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -355.000000 HKD
     referenceNo: "243"
     orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -511,7 +561,7 @@
     orderId: "8bd64fe9-43e4-4fa7-955c-174d6f669d27"
     type: "Bill Item"
     sourceId: "7eb6ec93-d67a-4fd6-98dd-2e2777971972"
-  Liabilities:CurrentLiabilities:AccountPayable  -40000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -40000.000000 HKD
     referenceNo: "805"
     orderId: "8bd64fe9-43e4-4fa7-955c-174d6f669d27"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -524,7 +574,7 @@
     sourceId: "8c5d2db7-ae7c-4c30-a043-53ef4e2e4d75"
     referenceNo: "805"
     orderId: "8bd64fe9-43e4-4fa7-955c-174d6f669d27"
-  Liabilities:CurrentLiabilities:AccountPayable  40000.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  40000.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "8c5d2db7-ae7c-4c30-a043-53ef4e2e4d75"
@@ -537,7 +587,7 @@
     sourceId: "98a0943c-f186-4056-b5d6-38dd12c2cadc"
     referenceNo: "806"
     orderId: "93a9c0b6-20a3-4169-ad3f-96dbc219e491"
-  Liabilities:CurrentLiabilities:AccountPayable  300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  300.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "98a0943c-f186-4056-b5d6-38dd12c2cadc"
@@ -550,7 +600,7 @@
     sourceId: "88a6a5a1-416b-4201-aa6f-831ddf065aaf"
     referenceNo: "803"
     orderId: "b6e8c778-2ed2-49c9-9f1e-ecab89a12a7c"
-  Liabilities:CurrentLiabilities:AccountPayable  3333.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  3333.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "88a6a5a1-416b-4201-aa6f-831ddf065aaf"
@@ -563,7 +613,7 @@
     sourceId: "a6617771-f6f7-40b9-886e-349b391f974e"
     referenceNo: "243"
     orderId: "d704ac9f-623a-46f8-9751-88d19e631ec0"
-  Liabilities:CurrentLiabilities:AccountPayable  355.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  355.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "a6617771-f6f7-40b9-886e-349b391f974e"
@@ -576,7 +626,7 @@
     sourceId: "63959e7e-9a1b-402f-9081-b83bff0c2da1"
     referenceNo: "222"
     orderId: "d416e37d-1784-43cd-ba32-97215a555a5b"
-  Liabilities:CurrentLiabilities:AccountPayable  410.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  410.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "63959e7e-9a1b-402f-9081-b83bff0c2da1"
@@ -594,7 +644,7 @@
     orderId: "3c4a878a-49a4-4993-a94a-d32ee0b47fbe"
     type: "Bill Item"
     sourceId: "fb9bd807-a249-4aa0-92b8-f717372746cb"
-  Liabilities:CurrentLiabilities:AccountPayable  -240.100000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -240.100000 HKD
     referenceNo: "473"
     orderId: "3c4a878a-49a4-4993-a94a-d32ee0b47fbe"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -607,7 +657,7 @@
     sourceId: "8a93fa42-9a4f-4c03-a3d3-3a384581f26a"
     referenceNo: "473"
     orderId: "3c4a878a-49a4-4993-a94a-d32ee0b47fbe"
-  Liabilities:CurrentLiabilities:AccountPayable  240.100000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  240.100000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "8a93fa42-9a4f-4c03-a3d3-3a384581f26a"
@@ -625,7 +675,7 @@
     orderId: "2bb5d3d3-385e-4f8c-a6e8-c74ddd263e4e"
     type: "Bill Item"
     sourceId: "e620b1e4-f134-432d-87eb-1a6434d7d0c4"
-  Liabilities:CurrentLiabilities:AccountPayable  -2000.000000 USD {7.84 HKD}
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-biz4xPteLtdSg99812345691  -2000.000000 USD {7.84 HKD}
     referenceNo: "422"
     orderId: "2bb5d3d3-385e-4f8c-a6e8-c74ddd263e4e"
     contact: "998 12345691 (BIZ4XPTELTDSG) [e3e3ccd9-3885-464a-bd03-d46e3bcb4000]"
@@ -638,7 +688,7 @@
     sourceId: "4f3c528b-2ebb-4a72-8df3-a7ec1b13979b"
     referenceNo: "422"
     orderId: "2bb5d3d3-385e-4f8c-a6e8-c74ddd263e4e"
-  Liabilities:CurrentLiabilities:AccountPayable  2000.000000 USD {7.84 HKD}
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-biz4xPteLtdSg99812345691  2000.000000 USD {7.84 HKD}
     contact: "998 12345691 (BIZ4XPTELTDSG) [e3e3ccd9-3885-464a-bd03-d46e3bcb4000]"
     type: "Bill Payment"
     sourceId: "4f3c528b-2ebb-4a72-8df3-a7ec1b13979b"
@@ -656,7 +706,7 @@
     orderId: "4db24a88-7aac-432b-8029-ee17c2dd1086"
     type: "Bill Item"
     sourceId: "70dc7a90-5608-48dc-98de-dbf855f35c66"
-  Liabilities:CurrentLiabilities:AccountPayable  -658.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -658.000000 HKD
     referenceNo: "773"
     orderId: "4db24a88-7aac-432b-8029-ee17c2dd1086"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -669,7 +719,7 @@
     sourceId: "a5191950-9e52-4f22-9ab3-b03235cd39c0"
     referenceNo: "773"
     orderId: "4db24a88-7aac-432b-8029-ee17c2dd1086"
-  Liabilities:CurrentLiabilities:AccountPayable  658.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  658.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "a5191950-9e52-4f22-9ab3-b03235cd39c0"
@@ -701,7 +751,7 @@
     orderId: "6c4ec43e-2707-49c7-b855-855d348b50d4"
     type: "Bill Item"
     sourceId: "cdd464a7-e82b-49a1-836a-abf35f834d98"
-  Liabilities:CurrentLiabilities:AccountPayable  -7200.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7200.000000 HKD
     referenceNo: "832"
     orderId: "6c4ec43e-2707-49c7-b855-855d348b50d4"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -714,7 +764,7 @@
     sourceId: "cb034a38-b36f-481f-9f7d-2803dae45d3a"
     referenceNo: "832"
     orderId: "6c4ec43e-2707-49c7-b855-855d348b50d4"
-  Liabilities:CurrentLiabilities:AccountPayable  7200.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  7200.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "cb034a38-b36f-481f-9f7d-2803dae45d3a"
@@ -732,7 +782,7 @@
     orderId: "11723f76-cb40-4370-a054-ed1245155e56"
     type: "Bill Item"
     sourceId: "c514da35-724a-4c10-bd31-6b09447122c7"
-  Liabilities:CurrentLiabilities:AccountPayable  -1040.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1040.000000 HKD
     referenceNo: "474"
     orderId: "11723f76-cb40-4370-a054-ed1245155e56"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -745,7 +795,7 @@
     sourceId: "69475a60-8a20-4b98-bbd7-94723abb504d"
     referenceNo: "474"
     orderId: "11723f76-cb40-4370-a054-ed1245155e56"
-  Liabilities:CurrentLiabilities:AccountPayable  1040.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1040.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "69475a60-8a20-4b98-bbd7-94723abb504d"
@@ -777,7 +827,7 @@
     orderId: "578de5fd-68ba-49c9-8913-83471760b3ff"
     type: "Bill Item"
     sourceId: "569d62a1-0d14-4661-b658-601f3d32bb98"
-  Liabilities:CurrentLiabilities:AccountPayable  -100.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  -100.000000 HKD
     referenceNo: "555"
     orderId: "578de5fd-68ba-49c9-8913-83471760b3ff"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
@@ -790,7 +840,7 @@
     sourceId: "d8236380-4fc6-4cdd-b8b1-2bbb8cc16027"
     referenceNo: "555"
     orderId: "578de5fd-68ba-49c9-8913-83471760b3ff"
-  Liabilities:CurrentLiabilities:AccountPayable  100.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  100.000000 HKD
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     type: "Bill Payment"
     sourceId: "d8236380-4fc6-4cdd-b8b1-2bbb8cc16027"
@@ -808,7 +858,7 @@
     orderId: "659402e9-985d-46ad-a0f6-c4bebf91ac33"
     type: "Bill Item"
     sourceId: "d236ebc1-7fc5-4e44-8580-ec814c0e8876"
-  Liabilities:CurrentLiabilities:AccountPayable  -5300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -5300.000000 HKD
     referenceNo: "318"
     orderId: "659402e9-985d-46ad-a0f6-c4bebf91ac33"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -821,7 +871,7 @@
     sourceId: "c6a1e516-6e7d-4f63-bacb-dbb11e9f9006"
     referenceNo: "318"
     orderId: "659402e9-985d-46ad-a0f6-c4bebf91ac33"
-  Liabilities:CurrentLiabilities:AccountPayable  5300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5300.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "c6a1e516-6e7d-4f63-bacb-dbb11e9f9006"
@@ -848,7 +898,7 @@
     sourceId: "e216715d-1119-47f4-8924-9a33d93c5b9b"
     referenceNo: "831"
     orderId: "ac7d484f-058a-4628-8e1f-217ba32d90e2"
-  Liabilities:CurrentLiabilities:AccountPayable  929.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  929.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "e216715d-1119-47f4-8924-9a33d93c5b9b"
@@ -873,7 +923,7 @@
     orderId: "da69e1a0-f5bc-4acd-ba56-5dd9201b0009"
     type: "Bill Item"
     sourceId: "4e7c3059-bb11-4635-b522-25d2c374c170"
-  Liabilities:CurrentLiabilities:AccountPayable  -62850.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -62850.000000 HKD
     referenceNo: "168"
     orderId: "da69e1a0-f5bc-4acd-ba56-5dd9201b0009"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -898,7 +948,7 @@
     orderId: "4cebec7e-21bd-4672-bf16-5bcd48e8f087"
     type: "Bill Item"
     sourceId: "95fca8e2-d3cf-4a7f-aa70-eb8fac74f429"
-  Liabilities:CurrentLiabilities:AccountPayable  -34680.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -34680.000000 HKD
     referenceNo: "814"
     orderId: "4cebec7e-21bd-4672-bf16-5bcd48e8f087"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -911,7 +961,7 @@
     sourceId: "e4e92fcb-4d60-4156-9452-f70ccf3876a3"
     referenceNo: "814"
     orderId: "4cebec7e-21bd-4672-bf16-5bcd48e8f087"
-  Liabilities:CurrentLiabilities:AccountPayable  34680.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  34680.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "e4e92fcb-4d60-4156-9452-f70ccf3876a3"
@@ -924,7 +974,7 @@
     sourceId: "731ab7ee-9477-485d-b905-9f96bffd4bc9"
     referenceNo: "168"
     orderId: "da69e1a0-f5bc-4acd-ba56-5dd9201b0009"
-  Liabilities:CurrentLiabilities:AccountPayable  12500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  12500.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "731ab7ee-9477-485d-b905-9f96bffd4bc9"
@@ -937,7 +987,7 @@
     sourceId: "cd56a60b-2592-4599-b25b-6a15fe3820de"
     referenceNo: "168"
     orderId: "da69e1a0-f5bc-4acd-ba56-5dd9201b0009"
-  Liabilities:CurrentLiabilities:AccountPayable  50350.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  50350.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "cd56a60b-2592-4599-b25b-6a15fe3820de"
@@ -955,7 +1005,7 @@
     orderId: "74a7785b-a168-4ea2-a0ae-e6deac41cb80"
     type: "Bill Item"
     sourceId: "ab8be436-66fd-4de9-bd55-6b4d042c690d"
-  Liabilities:CurrentLiabilities:AccountPayable  -338.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -338.000000 HKD
     referenceNo: "783"
     orderId: "74a7785b-a168-4ea2-a0ae-e6deac41cb80"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1008,7 +1058,7 @@
     orderId: "ac7d484f-058a-4628-8e1f-217ba32d90e2"
     type: "Bill Item"
     sourceId: "3a1e2bb1-e736-4124-9b08-54ab41c456bc"
-  Liabilities:CurrentLiabilities:AccountPayable  -929.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -929.000000 HKD
     referenceNo: "831"
     orderId: "ac7d484f-058a-4628-8e1f-217ba32d90e2"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1026,7 +1076,7 @@
     orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
     type: "Bill Item"
     sourceId: "63fa53bc-1046-4006-a087-fbd44e81a778"
-  Liabilities:CurrentLiabilities:AccountPayable  -4500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -4500.000000 HKD
     referenceNo: "833"
     orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1039,7 +1089,7 @@
     sourceId: "69cdf45a-e8c9-4bfb-993f-892eb2294c4b"
     referenceNo: "783"
     orderId: "74a7785b-a168-4ea2-a0ae-e6deac41cb80"
-  Liabilities:CurrentLiabilities:AccountPayable  338.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  338.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "69cdf45a-e8c9-4bfb-993f-892eb2294c4b"
@@ -1052,7 +1102,7 @@
     sourceId: "2f1e55f0-06f1-4aa5-854a-949cede8f153"
     referenceNo: "833"
     orderId: "b71062e1-6e7a-44fa-a2cd-de11bcd3f6c4"
-  Liabilities:CurrentLiabilities:AccountPayable  4500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  4500.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "2f1e55f0-06f1-4aa5-854a-949cede8f153"
@@ -1067,7 +1117,7 @@
     orderId: "6ce85cd1-8bcf-4dc7-8b22-9482c681d80a"
     type: "Invoice Item"
     sourceId: "65fe9076-4e1d-44ce-a4df-939634664dcd"
-  Assets:CurrentAssets:AccountReceivable  8.190000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  8.190000 HKD
     referenceNo: "257"
     orderId: "6ce85cd1-8bcf-4dc7-8b22-9482c681d80a"
     type: "Invoice"
@@ -1085,7 +1135,7 @@
     orderId: "fa49f14f-5ab7-40b7-9c85-16ba103ad972"
     type: "Bill Item"
     sourceId: "26ef9dc6-65e9-4cbe-95df-c70922eb558e"
-  Liabilities:CurrentLiabilities:AccountPayable  -920.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -920.000000 HKD
     referenceNo: "1102"
     orderId: "fa49f14f-5ab7-40b7-9c85-16ba103ad972"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1098,7 +1148,7 @@
     sourceId: "d98afc3c-725e-43fb-8ab9-3229b2ddf8aa"
     referenceNo: "257"
     orderId: "6ce85cd1-8bcf-4dc7-8b22-9482c681d80a"
-  Assets:CurrentAssets:AccountReceivable  -8.190000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -8.190000 HKD
     type: "Invoice Payment"
     sourceId: "d98afc3c-725e-43fb-8ab9-3229b2ddf8aa"
     referenceNo: "257"
@@ -1111,7 +1161,7 @@
     sourceId: "57a62cd0-d5bd-4d7e-8adf-2d57e6a9ce3b"
     referenceNo: "1102"
     orderId: "fa49f14f-5ab7-40b7-9c85-16ba103ad972"
-  Liabilities:CurrentLiabilities:AccountPayable  920.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  920.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "57a62cd0-d5bd-4d7e-8adf-2d57e6a9ce3b"
@@ -1126,7 +1176,7 @@
     orderId: "54197368-f7ae-48af-a64c-77ed397106c2"
     type: "Invoice Item"
     sourceId: "1ee5c99d-c3f8-4150-90de-55a1e8d85211"
-  Assets:CurrentAssets:AccountReceivable  0.560000 USD {7.84 HKD}
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  0.560000 USD {7.84 HKD}
     referenceNo: "253"
     orderId: "54197368-f7ae-48af-a64c-77ed397106c2"
     type: "Invoice"
@@ -1139,7 +1189,7 @@
     sourceId: "a240f8e1-1bee-4941-b009-3c3985b739b5"
     referenceNo: "253"
     orderId: "54197368-f7ae-48af-a64c-77ed397106c2"
-  Assets:CurrentAssets:AccountReceivable  -0.560000 USD {7.84 HKD}
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -0.560000 USD {7.84 HKD}
     type: "Invoice Payment"
     sourceId: "a240f8e1-1bee-4941-b009-3c3985b739b5"
     referenceNo: "253"

@@ -95,7 +95,7 @@
     orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
     type: "Bill Item"
     sourceId: "0ddafe0b-2895-466b-81f2-1f46e700f334"
-  Liabilities:CurrentLiabilities:AccountPayable  -358.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -358.000000 HKD
     referenceNo: "1524"
     orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -108,7 +108,7 @@
     sourceId: "61e78b23-03f8-4558-9097-6ae0f711a662"
     referenceNo: "1524"
     orderId: "516239e4-0cf9-41e3-8b95-bfb53ebcd3ad"
-  Liabilities:CurrentLiabilities:AccountPayable  358.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  358.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "61e78b23-03f8-4558-9097-6ae0f711a662"
@@ -126,7 +126,7 @@
     orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
     type: "Bill Item"
     sourceId: "d96458a8-c84c-4424-98d1-c59f4e41bd05"
-  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
     referenceNo: "1533"
     orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -153,7 +153,7 @@
     sourceId: "021eb8c4-0226-41b3-8d87-fdcaed0deb54"
     referenceNo: "1533"
     orderId: "190685d2-fff2-4aa7-a71b-17d11a1ff94a"
-  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  7500.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "021eb8c4-0226-41b3-8d87-fdcaed0deb54"
@@ -191,7 +191,7 @@
     orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
     type: "Invoice Item"
     sourceId: "4b542ac8-9042-4da1-a425-bef06395f3c9"
-  Assets:CurrentAssets:AccountReceivable  2000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mandy85253719444  2000.000000 HKD
     referenceNo: "1174"
     orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
     type: "Invoice"
@@ -204,12 +204,26 @@
     sourceId: "fc4aa66f-5164-4b91-9b31-1bacda1252ff"
     referenceNo: "1174"
     orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
-  Assets:CurrentAssets:AccountReceivable  -2000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mandy85253719444  -2000.000000 HKD
     type: "Invoice Payment"
     sourceId: "fc4aa66f-5164-4b91-9b31-1bacda1252ff"
     referenceNo: "1174"
     orderId: "5238d1ca-85ae-4f95-ba88-a5a5a0fc94a0"
     contact: "852 53719444 () [e8081506-9154-49a9-8405-a0d46a91dd69]"
+
+2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
+    type: "MJ"
+    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
+    type: "MJ"
+    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    description: "417 to G17 (Item #2)"
 
 2025-12-04 * "Bill #1510 嚴丹鳳代鑲石 合併 e880a5cf-f5b3-4deb-bb98-52132720a177"
   referenceNo: "1510"
@@ -271,26 +285,12 @@
     orderId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
     type: "Bill Item"
     sourceId: "b3664910-8b25-4a45-9da8-492e7fd626c6"
-  Liabilities:CurrentLiabilities:AccountPayable  -10995.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -10995.000000 HKD
     referenceNo: "1510"
     orderId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
-
-2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
-    type: "MJ"
-    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    description: "417 to G17 (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
-    type: "MJ"
-    sourceId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    description: "417 to G17 (Item #2)"
 
 2025-12-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 297"
   Assets:CurrentAssets:Bank:KpayBank  -1969.000000 HKD
@@ -312,7 +312,7 @@
     sourceId: "8c293c07-2dd0-4a11-b7af-dcfba4980b3c"
     referenceNo: "1510"
     orderId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
-  Liabilities:CurrentLiabilities:AccountPayable  10995.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  10995.000000 HKD
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Payment"
     sourceId: "8c293c07-2dd0-4a11-b7af-dcfba4980b3c"
@@ -328,7 +328,7 @@
     orderId: "be1a7d9a-0dcf-41f1-b436-89838e75eba9"
     type: "Invoice Item"
     sourceId: "f5a71171-4391-4ba8-a073-de66a07c4c61"
-  Assets:CurrentAssets:AccountReceivable  0.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-kitki85295276207  0.000000 HKD
     referenceNo: "1175"
     orderId: "be1a7d9a-0dcf-41f1-b436-89838e75eba9"
     type: "Invoice"
@@ -358,7 +358,7 @@
     orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
     type: "Invoice Item"
     sourceId: "3f5b9ebf-c2bb-42a3-a881-025295b82d08"
-  Assets:CurrentAssets:AccountReceivable  8100.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missLeung85264801689  8100.000000 HKD
     referenceNo: "1176"
     orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
     type: "Invoice"
@@ -371,7 +371,7 @@
     sourceId: "f79672f0-324b-4521-9315-846f13a80d80"
     referenceNo: "1176"
     orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
-  Assets:CurrentAssets:AccountReceivable  -4200.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missLeung85264801689  -4200.000000 HKD
     type: "Invoice Payment"
     sourceId: "f79672f0-324b-4521-9315-846f13a80d80"
     referenceNo: "1176"
@@ -390,7 +390,7 @@
     orderId: "874a3116-c170-4705-96f1-731a615ecde9"
     type: "Bill Item"
     sourceId: "3ff076ae-6198-4864-9e7c-aaed544689b3"
-  Liabilities:CurrentLiabilities:AccountPayable  -300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jackie85293032716  -300.000000 HKD
     referenceNo: "1511"
     orderId: "874a3116-c170-4705-96f1-731a615ecde9"
     contact: "852 93032716 (JACKIE) [2c6ec785-bec4-40f7-b485-6d6e7ae28f28]"
@@ -403,7 +403,7 @@
     sourceId: "2054bcfc-e507-49c4-849a-4f3349fdd4af"
     referenceNo: "1511"
     orderId: "874a3116-c170-4705-96f1-731a615ecde9"
-  Liabilities:CurrentLiabilities:AccountPayable  300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jackie85293032716  300.000000 HKD
     contact: "852 93032716 (JACKIE) [2c6ec785-bec4-40f7-b485-6d6e7ae28f28]"
     type: "Bill Payment"
     sourceId: "2054bcfc-e507-49c4-849a-4f3349fdd4af"
@@ -430,7 +430,7 @@
     sourceId: "625904d0-fc4d-4c34-90ad-fa2727c89ede"
     referenceNo: "1176"
     orderId: "bbcfb26e-9d51-465c-a997-e11f9f89de53"
-  Assets:CurrentAssets:AccountReceivable  -3900.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missLeung85264801689  -3900.000000 HKD
     type: "Invoice Payment"
     sourceId: "625904d0-fc4d-4c34-90ad-fa2727c89ede"
     referenceNo: "1176"
@@ -478,7 +478,7 @@
     orderId: "4c86ef2f-570f-48c0-b025-562c49ddd795"
     type: "Invoice Item"
     sourceId: "eda549bf-2b6c-41ed-8d86-c337dfdbb5b8"
-  Assets:CurrentAssets:AccountReceivable  3800.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-christy85264669322  3800.000000 HKD
     referenceNo: "1177"
     orderId: "4c86ef2f-570f-48c0-b025-562c49ddd795"
     type: "Invoice"
@@ -491,7 +491,7 @@
     sourceId: "5b8db15b-23ee-4c7a-ac67-876176076ca4"
     referenceNo: "1177"
     orderId: "4c86ef2f-570f-48c0-b025-562c49ddd795"
-  Assets:CurrentAssets:AccountReceivable  -3800.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-christy85264669322  -3800.000000 HKD
     type: "Invoice Payment"
     sourceId: "5b8db15b-23ee-4c7a-ac67-876176076ca4"
     referenceNo: "1177"
@@ -506,7 +506,7 @@
     orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
     type: "Invoice Item"
     sourceId: "147f36e8-a45d-47a4-8102-6f0d48d9112c"
-  Assets:CurrentAssets:AccountReceivable  4300.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrChan85264660097  4300.000000 HKD
     referenceNo: "1178"
     orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
     type: "Invoice"
@@ -519,7 +519,7 @@
     sourceId: "8c2f1398-b85c-48cb-8261-8daec39a431e"
     referenceNo: "1178"
     orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
-  Assets:CurrentAssets:AccountReceivable  -2150.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrChan85264660097  -2150.000000 HKD
     type: "Invoice Payment"
     sourceId: "8c2f1398-b85c-48cb-8261-8daec39a431e"
     referenceNo: "1178"
@@ -560,7 +560,7 @@
     orderId: "512b3f20-f9c2-485c-b686-614077d220da"
     type: "Bill Item"
     sourceId: "d29e7384-626d-4cc5-93a3-62eb9eb6fc43"
-  Liabilities:CurrentLiabilities:AccountPayable  -13856.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -13856.000000 HKD
     referenceNo: "1512"
     orderId: "512b3f20-f9c2-485c-b686-614077d220da"
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
@@ -573,7 +573,7 @@
     sourceId: "89650e01-e550-4f75-93ba-03f952471648"
     referenceNo: "1512"
     orderId: "512b3f20-f9c2-485c-b686-614077d220da"
-  Liabilities:CurrentLiabilities:AccountPayable  13856.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  13856.000000 HKD
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Payment"
     sourceId: "89650e01-e550-4f75-93ba-03f952471648"
@@ -592,7 +592,7 @@
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
     type: "Bill Item"
     sourceId: "a8294966-47c5-4cdc-8fe2-882007550016"
-  Liabilities:CurrentLiabilities:AccountPayable  -354.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDanfeng嚴丹鳳严丹凤85291475444  -354.000000 HKD
     referenceNo: "1513"
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
     contact: "852 91475444 (丹凤严) [9f307e98-6204-4c1f-a731-940ddf4fa956]"
@@ -605,7 +605,7 @@
     sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
     referenceNo: "1513"
     orderId: "c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
-  Liabilities:CurrentLiabilities:AccountPayable  354.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDanfeng嚴丹鳳严丹凤85291475444  354.000000 HKD
     contact: "852 91475444 (丹凤严) [9f307e98-6204-4c1f-a731-940ddf4fa956]"
     type: "Bill Payment"
     sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
@@ -623,7 +623,7 @@
     orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
     type: "Bill Item"
     sourceId: "64ac60d3-3713-4b67-ac73-897786ad2fb8"
-  Liabilities:CurrentLiabilities:AccountPayable  -2143.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -2143.000000 HKD
     referenceNo: "1523"
     orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -636,7 +636,7 @@
     sourceId: "3f22430c-6027-4b4b-a05a-dbb0165244a2"
     referenceNo: "1523"
     orderId: "1a2a0c69-592b-477b-a3ba-d0b5325a32a8"
-  Liabilities:CurrentLiabilities:AccountPayable  2143.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  2143.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "3f22430c-6027-4b4b-a05a-dbb0165244a2"
@@ -673,7 +673,7 @@
     orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
     type: "Invoice Item"
     sourceId: "5c8f9632-5373-44e2-9b88-ff4fcf2b271b"
-  Assets:CurrentAssets:AccountReceivable  4000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrsChan（phoebeWong）85262268988  4000.000000 HKD
     referenceNo: "1179"
     orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
     type: "Invoice"
@@ -686,7 +686,7 @@
     sourceId: "477a8209-564f-4caf-a2f0-b12c1202b0cc"
     referenceNo: "1179"
     orderId: "a9ad22e7-e2fc-4752-841c-0f8b2f085f3d"
-  Assets:CurrentAssets:AccountReceivable  -4000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrsChan（phoebeWong）85262268988  -4000.000000 HKD
     type: "Invoice Payment"
     sourceId: "477a8209-564f-4caf-a2f0-b12c1202b0cc"
     referenceNo: "1179"
@@ -787,7 +787,7 @@
     orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
     type: "Bill Item"
     sourceId: "024671fb-c3b0-4a35-b2eb-f69dcbedc9b2"
-  Liabilities:CurrentLiabilities:AccountPayable  -21017.380000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -21017.380000 HKD
     referenceNo: "1528"
     orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -803,7 +803,7 @@
     orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
     type: "Invoice Item"
     sourceId: "e2596b7e-add9-424e-8845-6981346f4762"
-  Assets:CurrentAssets:AccountReceivable  849.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-davidKwandirector99812345708  849.000000 HKD
     referenceNo: "1180"
     orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
     type: "Invoice"
@@ -822,7 +822,7 @@
     orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
     type: "Bill Item"
     sourceId: "3ad604ae-b16b-4b86-b81f-2ae7fe4f68d8"
-  Liabilities:CurrentLiabilities:AccountPayable  -300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  -300.000000 HKD
     referenceNo: "1518"
     orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
@@ -835,7 +835,7 @@
     sourceId: "aa3469ca-8d72-4e0a-b172-974a366a4d83"
     referenceNo: "1518"
     orderId: "80e5f666-2132-46a7-b486-daf0ded77b21"
-  Liabilities:CurrentLiabilities:AccountPayable  300.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  300.000000 HKD
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill Payment"
     sourceId: "aa3469ca-8d72-4e0a-b172-974a366a4d83"
@@ -862,7 +862,7 @@
     sourceId: "728dbee7-b792-4646-942e-384ebb62d090"
     referenceNo: "1127"
     orderId: "6ce842ee-f118-4b52-bf10-2d079f86b4d4"
-  Assets:CurrentAssets:AccountReceivable  -1400.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-venusLeung85298566810  -1400.000000 HKD
     type: "Invoice Payment"
     sourceId: "728dbee7-b792-4646-942e-384ebb62d090"
     referenceNo: "1127"
@@ -878,7 +878,7 @@
     orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
     type: "Invoice Item"
     sourceId: "dbce4d2c-c124-4ddf-ac8b-f55b3bbdcf74"
-  Assets:CurrentAssets:AccountReceivable  450.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-aliceHung85292348501  450.000000 HKD
     referenceNo: "1181"
     orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
     type: "Invoice"
@@ -891,7 +891,7 @@
     sourceId: "65b23db2-bb24-413f-a56a-a129c5e17c8b"
     referenceNo: "1181"
     orderId: "580f62ba-a5f8-4cbf-8b8f-c0c8e6890a72"
-  Assets:CurrentAssets:AccountReceivable  -450.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-aliceHung85292348501  -450.000000 HKD
     type: "Invoice Payment"
     sourceId: "65b23db2-bb24-413f-a56a-a129c5e17c8b"
     referenceNo: "1181"
@@ -907,7 +907,7 @@
     orderId: "e62d05a0-5688-45ea-9d11-708a2a24d516"
     type: "Invoice Item"
     sourceId: "296f83f9-ca77-4296-995a-9a1ca9c0c02a"
-  Assets:CurrentAssets:AccountReceivable  3500.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSara971508466440  3500.000000 HKD
     referenceNo: "1182"
     orderId: "e62d05a0-5688-45ea-9d11-708a2a24d516"
     type: "Invoice"
@@ -920,7 +920,7 @@
     sourceId: "fe2aa94c-3183-49c0-aaf0-37fa47c31fbd"
     referenceNo: "1182"
     orderId: "e62d05a0-5688-45ea-9d11-708a2a24d516"
-  Assets:CurrentAssets:AccountReceivable  -3500.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSara971508466440  -3500.000000 HKD
     type: "Invoice Payment"
     sourceId: "fe2aa94c-3183-49c0-aaf0-37fa47c31fbd"
     referenceNo: "1182"
@@ -961,7 +961,7 @@
     orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
     type: "Bill Item"
     sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
-  Liabilities:CurrentLiabilities:AccountPayable  -5760.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  -5760.000000 HKD
     referenceNo: "1516"
     orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
     contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
@@ -996,7 +996,7 @@
     orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
     type: "Bill Item"
     sourceId: "d98f51bd-fdb5-42c2-9a19-00e4b69ecea5"
-  Liabilities:CurrentLiabilities:AccountPayable  -3801.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -3801.000000 HKD
     referenceNo: "1515"
     orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
@@ -1009,7 +1009,7 @@
     sourceId: "4ad2a336-03da-4b77-93f3-1eb30a23726a"
     referenceNo: "1178"
     orderId: "3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
-  Assets:CurrentAssets:AccountReceivable  -2150.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrChan85264660097  -2150.000000 HKD
     type: "Invoice Payment"
     sourceId: "4ad2a336-03da-4b77-93f3-1eb30a23726a"
     referenceNo: "1178"
@@ -1036,7 +1036,7 @@
     sourceId: "b91ec583-ba0a-49ce-9866-a791321d64f0"
     referenceNo: "1180"
     orderId: "ee1725e0-1150-4c9d-82c8-283633bdd62c"
-  Assets:CurrentAssets:AccountReceivable  -849.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-davidKwandirector99812345708  -849.000000 HKD
     type: "Invoice Payment"
     sourceId: "b91ec583-ba0a-49ce-9866-a791321d64f0"
     referenceNo: "1180"
@@ -1049,7 +1049,7 @@
     sourceId: "1c2eb409-e7f8-4b41-b705-38d54d367aa7"
     referenceNo: "1516"
     orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  Liabilities:CurrentLiabilities:AccountPayable  5760.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  5760.000000 HKD
     contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
     type: "Bill Payment"
     sourceId: "1c2eb409-e7f8-4b41-b705-38d54d367aa7"
@@ -1062,7 +1062,7 @@
     sourceId: "0d8aca7d-d908-4f3b-95e9-e27cd9b3e465"
     referenceNo: "1515"
     orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
-  Liabilities:CurrentLiabilities:AccountPayable  3801.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  3801.000000 HKD
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Payment"
     sourceId: "0d8aca7d-d908-4f3b-95e9-e27cd9b3e465"
@@ -1157,7 +1157,7 @@
     orderId: "53598125-e82b-4761-b908-e72885cca107"
     type: "Bill Item"
     sourceId: "0f81cf0f-51a0-4083-b49e-a7433ff75262"
-  Liabilities:CurrentLiabilities:AccountPayable  -15700.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -15700.000000 HKD
     referenceNo: "1519"
     orderId: "53598125-e82b-4761-b908-e72885cca107"
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
@@ -1214,7 +1214,7 @@
     sourceId: "c344491c-0949-4fa1-b7a9-a4b4984c472f"
     referenceNo: "1519"
     orderId: "53598125-e82b-4761-b908-e72885cca107"
-  Liabilities:CurrentLiabilities:AccountPayable  15700.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  15700.000000 HKD
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Payment"
     sourceId: "c344491c-0949-4fa1-b7a9-a4b4984c472f"
@@ -1229,7 +1229,7 @@
     orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
     type: "Invoice Item"
     sourceId: "cf7ddbf2-fd9c-4930-ad22-ddc4426f6dc7"
-  Assets:CurrentAssets:AccountReceivable  900.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrsWong85292242127  900.000000 HKD
     referenceNo: "1183"
     orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
     type: "Invoice"
@@ -1242,7 +1242,7 @@
     sourceId: "3e35c536-095e-4b83-8398-8d49813d53ef"
     referenceNo: "1183"
     orderId: "bdc87a7c-f057-478c-881b-43bc6d7cd75f"
-  Assets:CurrentAssets:AccountReceivable  -900.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrsWong85292242127  -900.000000 HKD
     type: "Invoice Payment"
     sourceId: "3e35c536-095e-4b83-8398-8d49813d53ef"
     referenceNo: "1183"
@@ -1288,7 +1288,7 @@
     orderId: "781a68a9-e37e-49b4-8c30-99b8e27d4dde"
     type: "Bill Item"
     sourceId: "9f194b41-f897-4637-845d-2e850470b904"
-  Liabilities:CurrentLiabilities:AccountPayable  -15542.710000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -15542.710000 HKD
     referenceNo: "1526"
     orderId: "781a68a9-e37e-49b4-8c30-99b8e27d4dde"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1313,7 +1313,7 @@
     orderId: "d3c12bc0-865e-4615-9945-b269bd1aac73"
     type: "Bill Item"
     sourceId: "82a6e9a7-1858-4c83-9cc5-2f3b366ed582"
-  Liabilities:CurrentLiabilities:AccountPayable  -8924.520000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -8924.520000 HKD
     referenceNo: "1525"
     orderId: "d3c12bc0-865e-4615-9945-b269bd1aac73"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -1326,7 +1326,7 @@
     sourceId: "0e674e33-c1d7-455e-8e43-bb93f71608f7"
     referenceNo: "1525"
     orderId: "d3c12bc0-865e-4615-9945-b269bd1aac73"
-  Liabilities:CurrentLiabilities:AccountPayable  8924.520000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  8924.520000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "0e674e33-c1d7-455e-8e43-bb93f71608f7"
@@ -1339,7 +1339,7 @@
     sourceId: "bd83eef7-0548-43c3-9a70-06de642f03aa"
     referenceNo: "1526"
     orderId: "781a68a9-e37e-49b4-8c30-99b8e27d4dde"
-  Liabilities:CurrentLiabilities:AccountPayable  15542.710000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  15542.710000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "bd83eef7-0548-43c3-9a70-06de642f03aa"
@@ -1366,7 +1366,7 @@
     sourceId: "c384425a-cfa2-4cba-a0a6-9fe9e040ba74"
     referenceNo: "1528"
     orderId: "fe68dcc3-d6ba-4080-8759-46741e72ad31"
-  Liabilities:CurrentLiabilities:AccountPayable  21017.380000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  21017.380000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "c384425a-cfa2-4cba-a0a6-9fe9e040ba74"
@@ -1382,7 +1382,7 @@
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
     type: "Invoice Item"
     sourceId: "097ec27d-4695-4a72-8a62-5ec4e2c24293"
-  Assets:CurrentAssets:AccountReceivable  3900.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missYung85256861588  3900.000000 HKD
     referenceNo: "1184"
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
     type: "Invoice"
@@ -1952,12 +1952,30 @@
     sourceId: "eb2da3fa-6c90-456b-8cd0-4465ae83e9aa"
     referenceNo: "1184"
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
-  Assets:CurrentAssets:AccountReceivable  -3900.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missYung85256861588  -3900.000000 HKD
     type: "Invoice Payment"
     sourceId: "eb2da3fa-6c90-456b-8cd0-4465ae83e9aa"
     referenceNo: "1184"
     orderId: "f1f25bb0-1169-4cca-bc8a-4615199820a9"
     contact: "852 56861588 (NoName) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
+
+2025-12-31 * "Bill #1534 12月2025年MPF 70877967-2b34-4bdc-a505-6345c7ab6c16"
+  referenceNo: "1534"
+  orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "12月2025年MPF"
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+    type: "Bill Item"
+    sourceId: "95ed02e7-261b-4070-a6c5-6e7b9a350f3a"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    referenceNo: "1534"
+    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
 
 2025-12-31 * "Bill #1530 SALARY 25年12月 cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
   referenceNo: "1530"
@@ -1977,30 +1995,12 @@
     orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
     type: "Bill Item"
     sourceId: "d4e37e6e-67a3-4b09-b8e8-dde511dfdbdf"
-  Liabilities:CurrentLiabilities:AccountPayable  -71252.100000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -71252.100000 HKD
     referenceNo: "1530"
     orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
-
-2025-12-31 * "Bill #1534 12月2025年MPF 70877967-2b34-4bdc-a505-6345c7ab6c16"
-  referenceNo: "1534"
-  orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
-  type: "Bill"
-  Expenses:GeneralExpense:Mpf  7500.000000 HKD
-    qty: "1"
-    description: "12月2025年MPF"
-    referenceNo: "1534"
-    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
-    type: "Bill Item"
-    sourceId: "95ed02e7-261b-4070-a6c5-6e7b9a350f3a"
-  Liabilities:CurrentLiabilities:AccountPayable  -7500.000000 HKD
-    referenceNo: "1534"
-    orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
 
 2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
   Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
@@ -2046,7 +2046,7 @@
     orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
     type: "Invoice Item"
     sourceId: "96cb85ec-1ca7-487e-81be-e5bbe55f500d"
-  Assets:CurrentAssets:AccountReceivable  5300.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-idyChan85296010387  5300.000000 HKD
     referenceNo: "1185"
     orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
     type: "Invoice"
@@ -2059,7 +2059,7 @@
     sourceId: "d227e19b-4ccb-4c0a-bf62-2e19c6ff486f"
     referenceNo: "1530"
     orderId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
-  Liabilities:CurrentLiabilities:AccountPayable  71252.100000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  71252.100000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "d227e19b-4ccb-4c0a-bf62-2e19c6ff486f"
@@ -2072,7 +2072,7 @@
     sourceId: "4cda235c-af68-4c37-a250-dd0ea16b3e8f"
     referenceNo: "1534"
     orderId: "70877967-2b34-4bdc-a505-6345c7ab6c16"
-  Liabilities:CurrentLiabilities:AccountPayable  7500.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  7500.000000 HKD
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
     sourceId: "4cda235c-af68-4c37-a250-dd0ea16b3e8f"
@@ -2085,7 +2085,7 @@
     sourceId: "a4e3b1b9-c56f-4b89-a0a7-b491fe30050d"
     referenceNo: "1185"
     orderId: "6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
-  Assets:CurrentAssets:AccountReceivable  -5300.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-idyChan85296010387  -5300.000000 HKD
     type: "Invoice Payment"
     sourceId: "a4e3b1b9-c56f-4b89-a0a7-b491fe30050d"
     referenceNo: "1185"
