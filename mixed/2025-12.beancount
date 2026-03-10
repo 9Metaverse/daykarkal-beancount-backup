@@ -941,33 +941,6 @@
     referenceNo: "2120"
     description: "417 to G17 (Item #2)"
 
-2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  referenceNo: "1516"
-  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "Natural Diamond"
-    sku: "7408284897"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
-    category: "Natural Diamond"
-    sku: "7396974978"
-    qty: "1"
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    type: "Bill Item"
-    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  -5760.000000 HKD
-    referenceNo: "1516"
-    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
-    type: "Bill"
-    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-
 2025-12-20 * "Bill #1515 嚴丹鳳代鑲石 合併 ff7a06be-4e24-49b1-94ca-63cf6be66e87"
   referenceNo: "1515"
   orderId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
@@ -1002,6 +975,33 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
+
+2025-12-20 * "Bill #1516 GIA 0.30CT*2 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  referenceNo: "1516"
+  orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "Natural Diamond"
+    sku: "7408284897"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "67d75930-a398-4d0c-aac3-c75b47505e14"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2880.000000 HKD
+    category: "Natural Diamond"
+    sku: "7396974978"
+    qty: "1"
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    type: "Bill Item"
+    sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  -5760.000000 HKD
+    referenceNo: "1516"
+    orderId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
+    contact: "852 35758833 (NoName) [b3237208-af48-4327-b669-24dc9e83312a]"
+    type: "Bill"
+    sourceId: "baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
 
 2025-12-20 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1178 #4ad2a336-03da-4b77-93f3-1eb30a23726a 3fc7856c-d81e-4f9a-9487-4d2c28ba9a0f"
   Assets:CurrentAssets:Bank:KpayBank  2150.000000 HKD
@@ -2002,20 +2002,6 @@
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
 
-2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
-  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
-    type: "MJ"
-    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
-  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
-    type: "MJ"
-    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
-
 2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 12/2025"
   Income:OtherIncome:Interest-bank  -0.120000 HKD
     type: "MJ"
@@ -2029,6 +2015,20 @@
     orderId: "b58cd946-05ba-4097-a024-28d85a866465"
     referenceNo: "2352"
     description: "NTEREST - BOC SAV 12/2025 (Item #2)"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
+  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
+    type: "MJ"
+    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
+    type: "MJ"
+    sourceId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
 
 2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
   Income:Sales:SalesItem:SellGems  -2500.000000 HKD
