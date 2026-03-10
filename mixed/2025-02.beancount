@@ -987,20 +987,6 @@
     sourceId: "08da0175-d4f5-4e3f-bc7b-2bebb03acdc1"
     contact: "998 12345827 (MilrichElectronics(HK)Co.Ltd.) [13d02d21-4a93-4d1f-b3bf-44fe873468a0]"
 
-2025-02-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 209"
-  Assets:CurrentAssets:Bank:BocSavingBank  1230.250000 HKD
-    type: "MJ"
-    sourceId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-    orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-    referenceNo: "95"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -1230.250000 HKD
-    type: "MJ"
-    sourceId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-    orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
-    referenceNo: "95"
-    description: "KPAY to BOC Saving (Item #2)"
-
 2025-02-14 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
   Assets:CurrentAssets:Bank:BocSavingBank  -100000.000000 HKD
     type: "MJ"
@@ -1014,6 +1000,20 @@
     orderId: "d5e3241d-21e6-4c2f-aea4-f6c376147995"
     referenceNo: "60"
     description: "(Item #2)"
+
+2025-02-14 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 209"
+  Assets:CurrentAssets:Bank:BocSavingBank  1230.250000 HKD
+    type: "MJ"
+    sourceId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+    orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+    referenceNo: "95"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -1230.250000 HKD
+    type: "MJ"
+    sourceId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+    orderId: "d535db30-0b32-491e-a9d7-1067d92a378c"
+    referenceNo: "95"
+    description: "KPAY to BOC Saving (Item #2)"
 
 2025-02-14 * "Invoice #944 Stock BD002M/BD002F 72cb65ea-3b03-44dd-961a-9d7028e51c9f"
   Income:Sales:SalesItem:Sell18kJewelry  -4000.000000 HKD
@@ -1515,20 +1515,6 @@
     referenceNo: "1284"
     orderId: "9decb083-4248-437c-bad6-a0bf4a5711d0"
 
-2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" "MILWAYS GOLD 集團注資"
-  Assets:CurrentAssets:Bank:BocSavingBank  550000.000000 HKD
-    type: "MJ"
-    sourceId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-    orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-    referenceNo: "11"
-    description: "(Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -550000.000000 HKD
-    type: "MJ"
-    sourceId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-    orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
-    referenceNo: "11"
-    description: "(Item #2)"
-
 2025-02-25 * "Assets:CurrentAssets:Bank:BocCurrentBank" " Bank Transfer : BOC -saving to BOC - current"
   Assets:CurrentAssets:Bank:BocSavingBank  -550000.000000 HKD
     type: "MJ"
@@ -1570,6 +1556,20 @@
     orderId: "e5fb353e-7f8a-46a0-97e2-c139fbe9505a"
     referenceNo: "73"
     description: "KPAY to BOC Saving (Item #2)"
+
+2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" "MILWAYS GOLD 集團注資"
+  Assets:CurrentAssets:Bank:BocSavingBank  550000.000000 HKD
+    type: "MJ"
+    sourceId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+    orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+    referenceNo: "11"
+    description: "(Item #1)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -550000.000000 HKD
+    type: "MJ"
+    sourceId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+    orderId: "bfbc4400-692c-4bdf-ae0d-bdce38c25e45"
+    referenceNo: "11"
+    description: "(Item #2)"
 
 2025-02-25 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 212"
   Assets:CurrentAssets:Bank:BocSavingBank  2461.500000 HKD
