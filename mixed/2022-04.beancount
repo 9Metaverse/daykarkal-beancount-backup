@@ -13,6 +13,19 @@
     orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
     contact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
 
+2022-04-01 * "Income:Sales:SalesDiscount" "Invoice Payment for Invoice #84 #d86a8100-3c62-4e59-b724-762e93ec8b03 fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Income:Sales:SalesDiscount  0.600000 HKD
+    type: "Invoice Payment"
+    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
+    referenceNo: "84"
+    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  -0.600000 HKD
+    type: "Invoice Payment"
+    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
+    referenceNo: "84"
+    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
+    contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+
 2022-04-01 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Opening adjustment 2022-2023"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  300.000000 HKD
     type: "MJ"
@@ -37,7 +50,7 @@
     sourceId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
     orderId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
     referenceNo: "477"
-    description: "Released adjustment of Expenses for payment settle on 22/5/2022 (Item #4)"
+    description: "Released adjustment of Expenses for payment settle on 16/5/2022 (Item #4)"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -400.000000 HKD
     type: "MJ"
     sourceId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
@@ -62,20 +75,7 @@
     sourceId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
     orderId: "5a11f11f-61a8-4426-bf72-f4b55df86a19"
     referenceNo: "477"
-    description: "Released adjustment of Expenses for payment settle on 22/5/2022 (Item #8)"
-
-2022-04-01 * "Income:Sales:SalesDiscount" "Invoice Payment for Invoice #84 #d86a8100-3c62-4e59-b724-762e93ec8b03 fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-  Income:Sales:SalesDiscount  0.600000 HKD
-    type: "Invoice Payment"
-    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
-    referenceNo: "84"
-    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  -0.600000 HKD
-    type: "Invoice Payment"
-    sourceId: "d86a8100-3c62-4e59-b724-762e93ec8b03"
-    referenceNo: "84"
-    orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
-    contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
+    description: "Released adjustment of Expenses for payment settle on 16/5/2022 (Item #8)"
 
 2022-04-01 * "Expenses:CostOfSales:OpeningInventoryBalance" "Inventory Balance 1/4/2022"
   Expenses:CostOfSales:OpeningInventoryBalance  2992853.970000 HKD
@@ -558,6 +558,25 @@
     referenceNo: "1083"
     description: "DEPOSIT RETURN 166600 (Item #2)"
 
+2022-04-22 * "Bill #82 GIA PURCHASE, PL/17214/2002 fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
+  referenceNo: "82"
+  orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  52685.000000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800003425330979"
+    qty: "1"
+    referenceNo: "82"
+    orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
+    type: "Bill Item"
+    sourceId: "34a4a4b9-0783-408b-a190-4b307627a73a"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-twinklediamHongKongLtd99812345770  -52685.000000 HKD
+    referenceNo: "82"
+    orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
+    contact: "998 12345770 (TWINKLEDIAMHONGKONGLTD) [d2e73164-7688-4f4c-b342-12d5e1a440fc]"
+    type: "Bill"
+    sourceId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
+
 2022-04-22 * "Bill #565 SI-10225 Bill PO-0005(INV-0044,0048, MEMO GIA PURCHASE) 1f821f1f-4aa1-4307-a7ed-4c99d7287973"
   referenceNo: "565"
   orderId: "1f821f1f-4aa1-4307-a7ed-4c99d7287973"
@@ -592,25 +611,6 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     type: "Bill"
     sourceId: "1f821f1f-4aa1-4307-a7ed-4c99d7287973"
-
-2022-04-22 * "Bill #82 GIA PURCHASE, PL/17214/2002 fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
-  referenceNo: "82"
-  orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  52685.000000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800003425330979"
-    qty: "1"
-    referenceNo: "82"
-    orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
-    type: "Bill Item"
-    sourceId: "34a4a4b9-0783-408b-a190-4b307627a73a"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-twinklediamHongKongLtd99812345770  -52685.000000 HKD
-    referenceNo: "82"
-    orderId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
-    contact: "998 12345770 (TWINKLEDIAMHONGKONGLTD) [d2e73164-7688-4f4c-b342-12d5e1a440fc]"
-    type: "Bill"
-    sourceId: "fd6594bf-3354-4c63-bdd4-eb84a8fbc581"
 
 2022-04-23 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu" "Invoice Payment for Invoice #89 #77b9da77-0d9e-448d-99ff-b2a93d67fa36 0be64ddd-6d97-40c5-bc98-ff43b2bc6cb0"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  35000.000000 HKD
