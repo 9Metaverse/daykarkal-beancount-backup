@@ -14,20 +14,6 @@
     referenceNo: "367"
     description: "borrow 6000 from 217 (Item #2)"
 
-2023-01-03 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds" "deposit HKD 86800 to VN"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds  86800.000000 HKD
-    type: "MJ"
-    sourceId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
-    orderId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
-    referenceNo: "687"
-    description: "Deposit 86800 (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -86800.000000 HKD
-    type: "MJ"
-    sourceId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
-    orderId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
-    referenceNo: "687"
-    description: "Deposit 86800 (Item #2)"
-
 2023-01-03 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "MILRICH TO JP HKD 73700"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  73700.000000 HKD
     type: "MJ"
@@ -41,6 +27,20 @@
     orderId: "b2a99758-f3e2-47fb-92e3-f0fb0fc86788"
     referenceNo: "495"
     description: "borrow 73700 (Item #2)"
+
+2023-01-03 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds" "deposit HKD 86800 to VN"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VnDiamonds  86800.000000 HKD
+    type: "MJ"
+    sourceId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
+    orderId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
+    referenceNo: "687"
+    description: "Deposit 86800 (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -86800.000000 HKD
+    type: "MJ"
+    sourceId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
+    orderId: "cb35eb58-6798-485c-b058-99bdd58d17ae"
+    referenceNo: "687"
+    description: "Deposit 86800 (Item #2)"
 
 2023-01-03 * "Assets:CurrentAssets:Cash:CashInHand" "borrow HKD 86800 from 217"
   Assets:CurrentAssets:Cash:CashInHand  86800.000000 HKD
@@ -87,20 +87,6 @@
     referenceNo: "375"
     orderId: "8f8490b9-608d-4ffd-ac4c-939cb0820b7d"
 
-2023-01-04 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd" "deposit HKD 6000 to FDL"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd  6000.000000 HKD
-    type: "MJ"
-    sourceId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
-    orderId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
-    referenceNo: "686"
-    description: "Deposit 6000 (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -6000.000000 HKD
-    type: "MJ"
-    sourceId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
-    orderId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
-    referenceNo: "686"
-    description: "Deposit 6000 (Item #2)"
-
 2023-01-04 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 106000 from SGV"
   Assets:CurrentAssets:Cash:CashInHand  106000.000000 HKD
     type: "MJ"
@@ -114,20 +100,6 @@
     orderId: "330158b8-e96f-4d55-bf5e-c0abfaa4d5bb"
     referenceNo: "323"
     description: "Deposit return (Item #2)"
-
-2023-01-04 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 106000 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  106000.000000 HKD
-    type: "MJ"
-    sourceId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
-    orderId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
-    referenceNo: "696"
-    description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -106000.000000 HKD
-    type: "MJ"
-    sourceId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
-    orderId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
-    referenceNo: "696"
-    description: "(Item #2)"
 
 2023-01-04 * "Invoice #206 INV-0165 MR LAW 9c6e87cf-e905-4e6a-96ad-e774f0c9f105"
   Income:Sales:SalesItem:SellBespokeorotherFee  -3100.000000 HKD
@@ -174,6 +146,34 @@
     orderId: "9c6e87cf-e905-4e6a-96ad-e774f0c9f105"
     contact: "852 69003855 (MR.LAWROY) [1431d21e-93de-4440-bcef-f0c63afe43ff]"
 
+2023-01-04 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd" "deposit HKD 6000 to FDL"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd  6000.000000 HKD
+    type: "MJ"
+    sourceId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
+    orderId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
+    referenceNo: "686"
+    description: "Deposit 6000 (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -6000.000000 HKD
+    type: "MJ"
+    sourceId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
+    orderId: "21c00f17-c84e-43db-8ed8-0f32c1be075c"
+    referenceNo: "686"
+    description: "Deposit 6000 (Item #2)"
+
+2023-01-04 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 106000 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  106000.000000 HKD
+    type: "MJ"
+    sourceId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
+    orderId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
+    referenceNo: "696"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -106000.000000 HKD
+    type: "MJ"
+    sourceId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
+    orderId: "76a4f6cd-d2da-4a4d-9bf0-758df4d5b860"
+    referenceNo: "696"
+    description: "(Item #2)"
+
 2023-01-04 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
     type: "MJ"
@@ -187,132 +187,6 @@
     orderId: "19918f5a-ba91-44aa-b891-8aa9f66b0216"
     referenceNo: "688"
     description: "(Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 78800 from 217"
-  Assets:CurrentAssets:Cash:CashInHand  78800.000000 HKD
-    type: "MJ"
-    sourceId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
-    orderId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
-    referenceNo: "366"
-    description: "rcd 78800 from 217 (Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -78800.000000 HKD
-    type: "MJ"
-    sourceId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
-    orderId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
-    referenceNo: "366"
-    description: "(Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd" "DEPOSIT 52400 to Kit"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd  52400.000000 HKD
-    type: "MJ"
-    sourceId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
-    orderId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
-    referenceNo: "697"
-    description: "DEPOSIT 52400 to Kit (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -52400.000000 HKD
-    type: "MJ"
-    sourceId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
-    orderId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
-    referenceNo: "697"
-    description: "DEPOSIT 52400 to Kit (Item #2)"
-
-2023-01-05 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 14540 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  14540.000000 HKD
-    type: "MJ"
-    sourceId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
-    orderId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
-    referenceNo: "695"
-    description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -14540.000000 HKD
-    type: "MJ"
-    sourceId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
-    orderId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
-    referenceNo: "695"
-    description: "paid 14540 to 217 (Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 52400 from 217"
-  Assets:CurrentAssets:Cash:CashInHand  52400.000000 HKD
-    type: "MJ"
-    sourceId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
-    orderId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
-    referenceNo: "694"
-    description: "rcd 52400 from 217 (Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -52400.000000 HKD
-    type: "MJ"
-    sourceId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
-    orderId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
-    referenceNo: "694"
-    description: "(Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 22900 from 217"
-  Assets:CurrentAssets:Cash:CashInHand  22900.000000 HKD
-    type: "MJ"
-    sourceId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
-    orderId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
-    referenceNo: "402"
-    description: "rcd 22900 from 217 (Item #1)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -22900.000000 HKD
-    type: "MJ"
-    sourceId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
-    orderId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
-    referenceNo: "402"
-    description: "(Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 73700 from Jp"
-  Assets:CurrentAssets:Cash:CashInHand  73700.000000 HKD
-    type: "MJ"
-    sourceId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
-    orderId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
-    referenceNo: "483"
-    description: "rcd 73700 from Jp (Item #1)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  -73700.000000 HKD
-    type: "MJ"
-    sourceId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
-    orderId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
-    referenceNo: "483"
-    description: "rcd 73700 from Jp (Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd" "DEPOSIT 22900 to SR"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd  22900.000000 HKD
-    type: "MJ"
-    sourceId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
-    orderId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
-    referenceNo: "685"
-    description: "DEPOSIT 22900 to SR (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -22900.000000 HKD
-    type: "MJ"
-    sourceId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
-    orderId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
-    referenceNo: "685"
-    description: "DEPOSIT 22900 to SR (Item #2)"
-
-2023-01-05 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 73700 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  73700.000000 HKD
-    type: "MJ"
-    sourceId: "71954d19-0707-4537-8aad-e03f34bcb44d"
-    orderId: "71954d19-0707-4537-8aad-e03f34bcb44d"
-    referenceNo: "693"
-    description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -73700.000000 HKD
-    type: "MJ"
-    sourceId: "71954d19-0707-4537-8aad-e03f34bcb44d"
-    orderId: "71954d19-0707-4537-8aad-e03f34bcb44d"
-    referenceNo: "693"
-    description: "paid 73700 to 217 (Item #2)"
-
-2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "DEPOSIT 78800 to Jp"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  78800.000000 HKD
-    type: "MJ"
-    sourceId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
-    orderId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
-    referenceNo: "689"
-    description: "DEPOSIT 78800 to Jp (Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -78800.000000 HKD
-    type: "MJ"
-    sourceId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
-    orderId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
-    referenceNo: "689"
-    description: "DEPOSIT 78800 to Jp (Item #2)"
 
 2023-01-05 * "Invoice #207 INV-0166 MR. PAU 337a8d91-84b6-410a-916d-a2e4f248df2e"
   Income:Sales:SalesDiscount  1500.000000 HKD
@@ -345,6 +219,172 @@
     sourceId: "337a8d91-84b6-410a-916d-a2e4f248df2e"
     contact: "852 64374474 (MR.PAU) [afed29a3-78c1-4e7f-832c-55bb12b83e45]"
 
+2023-01-05 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #207 #7e5c5d5b-6042-431c-a735-c86f88cdfb24 337a8d91-84b6-410a-916d-a2e4f248df2e"
+  Assets:CurrentAssets:Bank:KpayBank  17400.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "7e5c5d5b-6042-431c-a735-c86f88cdfb24"
+    referenceNo: "207"
+    orderId: "337a8d91-84b6-410a-916d-a2e4f248df2e"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrPau85264374474  -17400.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "7e5c5d5b-6042-431c-a735-c86f88cdfb24"
+    referenceNo: "207"
+    orderId: "337a8d91-84b6-410a-916d-a2e4f248df2e"
+    contact: "852 64374474 (MR.PAU) [afed29a3-78c1-4e7f-832c-55bb12b83e45]"
+
+2023-01-05 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 14540 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  14540.000000 HKD
+    type: "MJ"
+    sourceId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
+    orderId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
+    referenceNo: "695"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -14540.000000 HKD
+    type: "MJ"
+    sourceId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
+    orderId: "40ccda74-ce97-488e-a8f8-54ab1a93e7fc"
+    referenceNo: "695"
+    description: "paid 14540 to 217 (Item #2)"
+
+2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd" "DEPOSIT 52400 to Kit"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd  52400.000000 HKD
+    type: "MJ"
+    sourceId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
+    orderId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
+    referenceNo: "697"
+    description: "DEPOSIT 52400 to Kit (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -52400.000000 HKD
+    type: "MJ"
+    sourceId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
+    orderId: "a8d3ac90-3bdc-433a-a732-6f0d27836466"
+    referenceNo: "697"
+    description: "DEPOSIT 52400 to Kit (Item #2)"
+
+2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "DEPOSIT 78800 to Jp"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  78800.000000 HKD
+    type: "MJ"
+    sourceId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
+    orderId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
+    referenceNo: "689"
+    description: "DEPOSIT 78800 to Jp (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -78800.000000 HKD
+    type: "MJ"
+    sourceId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
+    orderId: "7c5b9373-e211-4ee6-9e10-f04b4ed805d3"
+    referenceNo: "689"
+    description: "DEPOSIT 78800 to Jp (Item #2)"
+
+2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 73700 from Jp"
+  Assets:CurrentAssets:Cash:CashInHand  73700.000000 HKD
+    type: "MJ"
+    sourceId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
+    orderId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
+    referenceNo: "483"
+    description: "rcd 73700 from Jp (Item #1)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  -73700.000000 HKD
+    type: "MJ"
+    sourceId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
+    orderId: "7e9cd095-522f-4554-8e70-eca56b3accaa"
+    referenceNo: "483"
+    description: "rcd 73700 from Jp (Item #2)"
+
+2023-01-05 * "Bill #319 SI-10348, #166 b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+  referenceNo: "319"
+  orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2225.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000159"
+    qty: "1"
+    referenceNo: "319"
+    orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+    type: "Bill Item"
+    sourceId: "3e40dcd8-283c-417f-82af-e9b997a4f05f"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -2225.000000 HKD
+    referenceNo: "319"
+    orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+
+2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 78800 from 217"
+  Assets:CurrentAssets:Cash:CashInHand  78800.000000 HKD
+    type: "MJ"
+    sourceId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
+    orderId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
+    referenceNo: "366"
+    description: "rcd 78800 from 217 (Item #1)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -78800.000000 HKD
+    type: "MJ"
+    sourceId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
+    orderId: "bc7ffcaa-ee05-40f0-a3a6-b8a7767734cd"
+    referenceNo: "366"
+    description: "(Item #2)"
+
+2023-01-05 * "Bill #382 kpay058 94fff578-51a0-4e61-a7ab-acbdccb9320b"
+  referenceNo: "382"
+  orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+  type: "Bill"
+  Expenses:GeneralExpense:CardFeeExpense  515.500000 HKD
+    qty: "1"
+    description: "KPAY FEE"
+    referenceNo: "382"
+    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+    type: "Bill Item"
+    sourceId: "ac439c3c-caab-4abb-903f-3e1f479e5adc"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  -515.500000 HKD
+    referenceNo: "382"
+    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    type: "Bill"
+    sourceId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+
+2023-01-05 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Bill Payment for Bill #382 #ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64 94fff578-51a0-4e61-a7ab-acbdccb9320b"
+  Assets:CurrentAssets:Bank:KpayBank  -515.500000 HKD
+    type: "Bill Payment"
+    sourceId: "ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64"
+    referenceNo: "382"
+    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  515.500000 HKD
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    type: "Bill Payment"
+    sourceId: "ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64"
+    referenceNo: "382"
+    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
+
+2023-01-05 * "Bill #634 SI-10348, #167 3516fecb-df96-4693-85a8-3deb51ac862c"
+  referenceNo: "634"
+  orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2281.000000 HKD
+    category: "Ring Setting"
+    sku: "DDFFFFFF0B00000000000158"
+    qty: "1"
+    referenceNo: "634"
+    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+    type: "Bill Item"
+    sourceId: "ac56a460-09f4-4e17-8bc0-ede64134ba44"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -2281.000000 HKD
+    referenceNo: "634"
+    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    type: "Bill"
+    sourceId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+
+2023-01-05 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd" "DEPOSIT 22900 to SR"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd  22900.000000 HKD
+    type: "MJ"
+    sourceId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
+    orderId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
+    referenceNo: "685"
+    description: "DEPOSIT 22900 to SR (Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -22900.000000 HKD
+    type: "MJ"
+    sourceId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
+    orderId: "a75483c1-61f0-4a2a-8300-f1259f222c50"
+    referenceNo: "685"
+    description: "DEPOSIT 22900 to SR (Item #2)"
+
 2023-01-05 * "Invoice #208 INV-0167 MR. KWONG ab36ba01-31b7-4af7-b2be-70f960f49373"
   Income:Sales:SalesDiscount  1500.000000 HKD
     description: "STAFF DISCOUNT"
@@ -376,43 +416,51 @@
     sourceId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
     contact: "852 67457650 (MR.KWONG) [279abd56-0fbf-4194-9d4d-a2b61a9f57fb]"
 
-2023-01-05 * "Bill #634 SI-10348, #167 3516fecb-df96-4693-85a8-3deb51ac862c"
-  referenceNo: "634"
-  orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2281.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000158"
-    qty: "1"
-    referenceNo: "634"
-    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-    type: "Bill Item"
-    sourceId: "ac56a460-09f4-4e17-8bc0-ede64134ba44"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -2281.000000 HKD
-    referenceNo: "634"
-    orderId: "3516fecb-df96-4693-85a8-3deb51ac862c"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    type: "Bill"
-    sourceId: "3516fecb-df96-4693-85a8-3deb51ac862c"
+2023-01-05 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #208 #a0832cde-26db-4cfa-9d9d-ab65713d3b31 ab36ba01-31b7-4af7-b2be-70f960f49373"
+  Assets:CurrentAssets:Bank:KpayBank  16900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "a0832cde-26db-4cfa-9d9d-ab65713d3b31"
+    referenceNo: "208"
+    orderId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrKwong85267457650  -16900.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "a0832cde-26db-4cfa-9d9d-ab65713d3b31"
+    referenceNo: "208"
+    orderId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
+    contact: "852 67457650 (MR.KWONG) [279abd56-0fbf-4194-9d4d-a2b61a9f57fb]"
 
-2023-01-05 * "Bill #319 SI-10348, #166 b0b1f67e-da6f-41ca-9183-5725cd159fd5"
-  referenceNo: "319"
-  orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 52400 from 217"
+  Assets:CurrentAssets:Cash:CashInHand  52400.000000 HKD
+    type: "MJ"
+    sourceId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
+    orderId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
+    referenceNo: "694"
+    description: "rcd 52400 from 217 (Item #1)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -52400.000000 HKD
+    type: "MJ"
+    sourceId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
+    orderId: "f080422c-3ea3-4cc7-96a7-1e61841bb88a"
+    referenceNo: "694"
+    description: "(Item #2)"
+
+2023-01-05 * "Bill #418 #0166 GIA PURCHASE, NO.22233581 9c173564-20f2-4d5b-82fd-dd9901f34719"
+  referenceNo: "418"
+  orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry  2225.000000 HKD
-    category: "Ring Setting"
-    sku: "DDFFFFFF0B00000000000159"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  22380.060000 HKD
+    category: "Natural Diamond"
+    sku: "DDFFFFFF0800005221537861"
     qty: "1"
-    referenceNo: "319"
-    orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+    referenceNo: "418"
+    orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
     type: "Bill Item"
-    sourceId: "3e40dcd8-283c-417f-82af-e9b997a4f05f"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -2225.000000 HKD
-    referenceNo: "319"
-    orderId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    sourceId: "f41ffe1e-56cb-4e1f-82eb-62b5b1fba217"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-starRaysDiamondHkLtd99812345762  -22380.060000 HKD
+    referenceNo: "418"
+    orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
+    contact: "998 12345762 (STARRAYSDIAMONDHKLTD.) [541705df-67e8-4341-a8fc-b7225224b6a4]"
     type: "Bill"
-    sourceId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
+    sourceId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
 
 2023-01-05 * "Bill #312 #0165 GIA PURCHASE, NO.231-057 7f1d7c63-bf69-47ff-ae9a-e4084d547882"
   referenceNo: "312"
@@ -441,95 +489,33 @@
     type: "Bill"
     sourceId: "7f1d7c63-bf69-47ff-ae9a-e4084d547882"
 
-2023-01-05 * "Bill #418 #0166 GIA PURCHASE, NO.22233581 9c173564-20f2-4d5b-82fd-dd9901f34719"
-  referenceNo: "418"
-  orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  22380.060000 HKD
-    category: "Natural Diamond"
-    sku: "DDFFFFFF0800005221537861"
-    qty: "1"
-    referenceNo: "418"
-    orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
-    type: "Bill Item"
-    sourceId: "f41ffe1e-56cb-4e1f-82eb-62b5b1fba217"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-starRaysDiamondHkLtd99812345762  -22380.060000 HKD
-    referenceNo: "418"
-    orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
-    contact: "998 12345762 (STARRAYSDIAMONDHKLTD.) [541705df-67e8-4341-a8fc-b7225224b6a4]"
-    type: "Bill"
-    sourceId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
-
-2023-01-05 * "Bill #382 kpay058 94fff578-51a0-4e61-a7ab-acbdccb9320b"
-  referenceNo: "382"
-  orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-  type: "Bill"
-  Expenses:GeneralExpense:CardFeeExpense  515.500000 HKD
-    qty: "1"
-    description: "KPAY FEE"
-    referenceNo: "382"
-    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-    type: "Bill Item"
-    sourceId: "ac439c3c-caab-4abb-903f-3e1f479e5adc"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  -515.500000 HKD
-    referenceNo: "382"
-    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    type: "Bill"
-    sourceId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-
-2023-01-05 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #208 #a0832cde-26db-4cfa-9d9d-ab65713d3b31 ab36ba01-31b7-4af7-b2be-70f960f49373"
-  Assets:CurrentAssets:Bank:KpayBank  16900.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "a0832cde-26db-4cfa-9d9d-ab65713d3b31"
-    referenceNo: "208"
-    orderId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrKwong85267457650  -16900.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "a0832cde-26db-4cfa-9d9d-ab65713d3b31"
-    referenceNo: "208"
-    orderId: "ab36ba01-31b7-4af7-b2be-70f960f49373"
-    contact: "852 67457650 (MR.KWONG) [279abd56-0fbf-4194-9d4d-a2b61a9f57fb]"
-
-2023-01-05 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #207 #7e5c5d5b-6042-431c-a735-c86f88cdfb24 337a8d91-84b6-410a-916d-a2e4f248df2e"
-  Assets:CurrentAssets:Bank:KpayBank  17400.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "7e5c5d5b-6042-431c-a735-c86f88cdfb24"
-    referenceNo: "207"
-    orderId: "337a8d91-84b6-410a-916d-a2e4f248df2e"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrPau85264374474  -17400.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "7e5c5d5b-6042-431c-a735-c86f88cdfb24"
-    referenceNo: "207"
-    orderId: "337a8d91-84b6-410a-916d-a2e4f248df2e"
-    contact: "852 64374474 (MR.PAU) [afed29a3-78c1-4e7f-832c-55bb12b83e45]"
-
-2023-01-05 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Bill Payment for Bill #382 #ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64 94fff578-51a0-4e61-a7ab-acbdccb9320b"
-  Assets:CurrentAssets:Bank:KpayBank  -515.500000 HKD
-    type: "Bill Payment"
-    sourceId: "ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64"
-    referenceNo: "382"
-    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  515.500000 HKD
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    type: "Bill Payment"
-    sourceId: "ae2b3eaa-48cf-47e6-9b2e-e0306b9c3b64"
-    referenceNo: "382"
-    orderId: "94fff578-51a0-4e61-a7ab-acbdccb9320b"
-
-2023-01-06 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 78800 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  78800.000000 HKD
+2023-01-05 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 22900 from 217"
+  Assets:CurrentAssets:Cash:CashInHand  22900.000000 HKD
     type: "MJ"
-    sourceId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
-    orderId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
-    referenceNo: "365"
+    sourceId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
+    orderId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
+    referenceNo: "402"
+    description: "rcd 22900 from 217 (Item #1)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -22900.000000 HKD
+    type: "MJ"
+    sourceId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
+    orderId: "4493352f-8bc1-41fe-9206-58c6fe8e59ec"
+    referenceNo: "402"
+    description: "(Item #2)"
+
+2023-01-05 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 73700 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  73700.000000 HKD
+    type: "MJ"
+    sourceId: "71954d19-0707-4537-8aad-e03f34bcb44d"
+    orderId: "71954d19-0707-4537-8aad-e03f34bcb44d"
+    referenceNo: "693"
     description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -78800.000000 HKD
+  Assets:CurrentAssets:Cash:CashInHand  -73700.000000 HKD
     type: "MJ"
-    sourceId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
-    orderId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
-    referenceNo: "365"
-    description: "paid 78800 to 217 (Item #2)"
+    sourceId: "71954d19-0707-4537-8aad-e03f34bcb44d"
+    orderId: "71954d19-0707-4537-8aad-e03f34bcb44d"
+    referenceNo: "693"
+    description: "paid 73700 to 217 (Item #2)"
 
 2023-01-06 * "Assets:CurrentAssets:Cash:CashInHand" "rcd 78800 from Jp"
   Assets:CurrentAssets:Cash:CashInHand  78800.000000 HKD
@@ -545,19 +531,19 @@
     referenceNo: "372"
     description: "rcd 78800 from Jp (Item #2)"
 
-2023-01-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay058"
-  Assets:CurrentAssets:Bank:BocSavingBank  33784.500000 HKD
+2023-01-06 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "paid 78800 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  78800.000000 HKD
     type: "MJ"
-    sourceId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
-    orderId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
-    referenceNo: "227"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -33784.500000 HKD
+    sourceId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
+    orderId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
+    referenceNo: "365"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -78800.000000 HKD
     type: "MJ"
-    sourceId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
-    orderId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
-    referenceNo: "227"
-    description: "KPAY to BOC Saving (Item #2)"
+    sourceId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
+    orderId: "c93c7009-2174-4f2d-abb1-b27df78f82f9"
+    referenceNo: "365"
+    description: "paid 78800 to 217 (Item #2)"
 
 2023-01-09 * "Bill #791 323 23年1-4月電話費 7ae51d93-a759-4dc6-b61e-99fb816bed82"
   referenceNo: "791"
@@ -590,19 +576,19 @@
     referenceNo: "791"
     orderId: "7ae51d93-a759-4dc6-b61e-99fb816bed82"
 
-2023-01-10 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 52400 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  52400.000000 HKD
+2023-01-09 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay058"
+  Assets:CurrentAssets:Bank:BocSavingBank  33784.500000 HKD
     type: "MJ"
-    sourceId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
-    orderId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
-    referenceNo: "680"
-    description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -52400.000000 HKD
+    sourceId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
+    orderId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
+    referenceNo: "227"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -33784.500000 HKD
     type: "MJ"
-    sourceId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
-    orderId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
-    referenceNo: "680"
-    description: "(Item #2)"
+    sourceId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
+    orderId: "433d6baf-7b72-44a3-9049-e6f34ff73654"
+    referenceNo: "227"
+    description: "KPAY to BOC Saving (Item #2)"
 
 2023-01-10 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 86800 from VN"
   Assets:CurrentAssets:Cash:CashInHand  86800.000000 HKD
@@ -631,6 +617,20 @@
     orderId: "25ca0262-14a9-4d61-9835-b85bb10172f7"
     referenceNo: "521"
     description: "Deposit return 52400 (Item #2)"
+
+2023-01-10 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 52400 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  52400.000000 HKD
+    type: "MJ"
+    sourceId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
+    orderId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
+    referenceNo: "680"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -52400.000000 HKD
+    type: "MJ"
+    sourceId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
+    orderId: "2c34ebf8-bff5-447b-9ea8-014b1458e510"
+    referenceNo: "680"
+    description: "(Item #2)"
 
 2023-01-10 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 86800 to 217"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  86800.000000 HKD
@@ -717,24 +717,6 @@
     orderId: "abd389d6-4bea-4dda-b577-112a41269300"
     contact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
 
-2023-01-13 * "Bill #450 FACEBK *UX82VL32N2 cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-  referenceNo: "450"
-  orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-  type: "Bill"
-  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
-    qty: "1"
-    description: "FACEBK *UX82VL32N2"
-    referenceNo: "450"
-    orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-    type: "Bill Item"
-    sourceId: "f0c6da93-2ae9-4b02-8114-ffc09f6f8653"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
-    referenceNo: "450"
-    orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-
 2023-01-13 * "Bill #448 OVERSEA TRANSACTION FEE 1b383022-8285-4ace-9105-ddf915a3889d"
   referenceNo: "448"
   orderId: "1b383022-8285-4ace-9105-ddf915a3889d"
@@ -766,6 +748,24 @@
     referenceNo: "448"
     orderId: "1b383022-8285-4ace-9105-ddf915a3889d"
 
+2023-01-13 * "Bill #450 FACEBK *UX82VL32N2 cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
+  referenceNo: "450"
+  orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
+    qty: "1"
+    description: "FACEBK *UX82VL32N2"
+    referenceNo: "450"
+    orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
+    type: "Bill Item"
+    sourceId: "f0c6da93-2ae9-4b02-8114-ffc09f6f8653"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    referenceNo: "450"
+    orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
+
 2023-01-13 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #450 #5e84f602-7391-48cc-bea8-f26bf4930cb2 cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
     type: "Bill Payment"
@@ -778,22 +778,6 @@
     sourceId: "5e84f602-7391-48cc-bea8-f26bf4930cb2"
     referenceNo: "450"
     orderId: "cd26f29e-6b1b-492d-ac2d-fa7e6d4d5090"
-
-2023-01-14 * "Invoice #209 INV-0169 MR.AU a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-  Income:Sales:SalesItem:Sell18kJewelry  -26000.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "209"
-    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-    type: "Invoice Item"
-    sourceId: "cbe4ca6a-401e-4e46-acfb-7ef185390f1e"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAu85261211155  26000.000000 HKD
-    referenceNo: "209"
-    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-    type: "Invoice"
-    sourceId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-    contact: "852 61211155 (MR.AU) [5974a6fc-fac9-4714-bd11-0a1bf8016cf3]"
 
 2023-01-14 * "Bill #199 kpay059 f5101768-37d8-4cbf-a61d-8afe833c72d6"
   referenceNo: "199"
@@ -813,19 +797,6 @@
     type: "Bill"
     sourceId: "f5101768-37d8-4cbf-a61d-8afe833c72d6"
 
-2023-01-14 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #209 #6e6eaea2-2889-4ed4-b0a3-b1ae370c727a a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-  Assets:CurrentAssets:Bank:KpayBank  26000.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "6e6eaea2-2889-4ed4-b0a3-b1ae370c727a"
-    referenceNo: "209"
-    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAu85261211155  -26000.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "6e6eaea2-2889-4ed4-b0a3-b1ae370c727a"
-    referenceNo: "209"
-    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
-    contact: "852 61211155 (MR.AU) [5974a6fc-fac9-4714-bd11-0a1bf8016cf3]"
-
 2023-01-14 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Bill Payment for Bill #199 #1527378f-b4bf-4b00-8721-3abf2d711b16 f5101768-37d8-4cbf-a61d-8afe833c72d6"
   Assets:CurrentAssets:Bank:KpayBank  -391.000000 HKD
     type: "Bill Payment"
@@ -839,23 +810,34 @@
     referenceNo: "199"
     orderId: "f5101768-37d8-4cbf-a61d-8afe833c72d6"
 
-2023-01-16 * "Bill #392 FACEBK *9A9T5L7ZM2 f4f11276-dac6-4770-b655-10b359a21ac3"
-  referenceNo: "392"
-  orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
-  type: "Bill"
-  Expenses:GeneralExpense:AdvertisingAndBranding  2692.480000 HKD
+2023-01-14 * "Invoice #209 INV-0169 MR.AU a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+  Income:Sales:SalesItem:Sell18kJewelry  -26000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
     qty: "1"
-    description: "FACEBK *9A9T5L7ZM2"
-    referenceNo: "392"
-    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
-    type: "Bill Item"
-    sourceId: "09cdc5cc-3178-48e7-8e7c-c1f1be28c1e0"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -2692.480000 HKD
-    referenceNo: "392"
-    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+    referenceNo: "209"
+    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+    type: "Invoice Item"
+    sourceId: "cbe4ca6a-401e-4e46-acfb-7ef185390f1e"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAu85261211155  26000.000000 HKD
+    referenceNo: "209"
+    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+    type: "Invoice"
+    sourceId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+    contact: "852 61211155 (MR.AU) [5974a6fc-fac9-4714-bd11-0a1bf8016cf3]"
+
+2023-01-14 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #209 #6e6eaea2-2889-4ed4-b0a3-b1ae370c727a a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+  Assets:CurrentAssets:Bank:KpayBank  26000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "6e6eaea2-2889-4ed4-b0a3-b1ae370c727a"
+    referenceNo: "209"
+    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAu85261211155  -26000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "6e6eaea2-2889-4ed4-b0a3-b1ae370c727a"
+    referenceNo: "209"
+    orderId: "a525dd44-8d74-48f1-8d72-a4f08fc00f0c"
+    contact: "852 61211155 (MR.AU) [5974a6fc-fac9-4714-bd11-0a1bf8016cf3]"
 
 2023-01-16 * "Bill #451 OVERSEA TRANSACTION FEE ff18e7f0-c2e1-46a0-92c1-a12829580463"
   referenceNo: "451"
@@ -875,19 +857,6 @@
     type: "Bill"
     sourceId: "ff18e7f0-c2e1-46a0-92c1-a12829580463"
 
-2023-01-16 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #392 #243ac851-8d40-4b19-b8dd-32d211080605 f4f11276-dac6-4770-b655-10b359a21ac3"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -2692.480000 HKD
-    type: "Bill Payment"
-    sourceId: "243ac851-8d40-4b19-b8dd-32d211080605"
-    referenceNo: "392"
-    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  2692.480000 HKD
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Payment"
-    sourceId: "243ac851-8d40-4b19-b8dd-32d211080605"
-    referenceNo: "392"
-    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
-
 2023-01-16 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Bill Payment for Bill #451 #5862d375-2ee3-4ca5-8456-f02420e0df60 ff18e7f0-c2e1-46a0-92c1-a12829580463"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -21.530000 HKD
     type: "Bill Payment"
@@ -900,6 +869,37 @@
     sourceId: "5862d375-2ee3-4ca5-8456-f02420e0df60"
     referenceNo: "451"
     orderId: "ff18e7f0-c2e1-46a0-92c1-a12829580463"
+
+2023-01-16 * "Bill #392 FACEBK *9A9T5L7ZM2 f4f11276-dac6-4770-b655-10b359a21ac3"
+  referenceNo: "392"
+  orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  2692.480000 HKD
+    qty: "1"
+    description: "FACEBK *9A9T5L7ZM2"
+    referenceNo: "392"
+    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+    type: "Bill Item"
+    sourceId: "09cdc5cc-3178-48e7-8e7c-c1f1be28c1e0"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -2692.480000 HKD
+    referenceNo: "392"
+    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+
+2023-01-16 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #392 #243ac851-8d40-4b19-b8dd-32d211080605 f4f11276-dac6-4770-b655-10b359a21ac3"
+  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -2692.480000 HKD
+    type: "Bill Payment"
+    sourceId: "243ac851-8d40-4b19-b8dd-32d211080605"
+    referenceNo: "392"
+    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  2692.480000 HKD
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "243ac851-8d40-4b19-b8dd-32d211080605"
+    referenceNo: "392"
+    orderId: "f4f11276-dac6-4770-b655-10b359a21ac3"
 
 2023-01-17 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay059"
   Assets:CurrentAssets:Bank:BocSavingBank  25609.000000 HKD
@@ -1079,24 +1079,6 @@
     type: "Bill"
     sourceId: "972573e9-f77e-4750-9c33-f79260cad872"
 
-2023-01-26 * "Bill #449 FACEBK *7672CL7ZM2 9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
-  referenceNo: "449"
-  orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
-  type: "Bill"
-  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
-    qty: "1"
-    description: "FACEBK *7672CL7ZM2"
-    referenceNo: "449"
-    orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
-    type: "Bill Item"
-    sourceId: "0f8615bb-f465-40dc-9f44-42fe9eaf22d4"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
-    referenceNo: "449"
-    orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
-
 2023-01-26 * "Bill #440 dec4c102-bb55-48f7-8dc2-c5bd36249271"
   referenceNo: "440"
   orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
@@ -1114,6 +1096,37 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     type: "Bill"
     sourceId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+
+2023-01-26 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Bill Payment for Bill #440 #0060f1b9-bcec-4789-8c5b-350c8044de9c dec4c102-bb55-48f7-8dc2-c5bd36249271"
+  Assets:CurrentAssets:Bank:BocSavingBank  -55.000000 HKD
+    type: "Bill Payment"
+    sourceId: "0060f1b9-bcec-4789-8c5b-350c8044de9c"
+    referenceNo: "440"
+    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  55.000000 HKD
+    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
+    type: "Bill Payment"
+    sourceId: "0060f1b9-bcec-4789-8c5b-350c8044de9c"
+    referenceNo: "440"
+    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
+
+2023-01-26 * "Bill #449 FACEBK *7672CL7ZM2 9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
+  referenceNo: "449"
+  orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
+    qty: "1"
+    description: "FACEBK *7672CL7ZM2"
+    referenceNo: "449"
+    orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
+    type: "Bill Item"
+    sourceId: "0f8615bb-f465-40dc-9f44-42fe9eaf22d4"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    referenceNo: "449"
+    orderId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
 
 2023-01-26 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #449 #14d56077-b090-41ba-baeb-ee282072383a 9c0d48f8-6b3a-4134-9417-b4e7c46fd98b"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
@@ -1140,19 +1153,6 @@
     sourceId: "e8c5e854-8f9d-4cc8-9f01-9e3c10d18fb6"
     referenceNo: "452"
     orderId: "972573e9-f77e-4750-9c33-f79260cad872"
-
-2023-01-26 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Bill Payment for Bill #440 #0060f1b9-bcec-4789-8c5b-350c8044de9c dec4c102-bb55-48f7-8dc2-c5bd36249271"
-  Assets:CurrentAssets:Bank:BocSavingBank  -55.000000 HKD
-    type: "Bill Payment"
-    sourceId: "0060f1b9-bcec-4789-8c5b-350c8044de9c"
-    referenceNo: "440"
-    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  55.000000 HKD
-    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
-    type: "Bill Payment"
-    sourceId: "0060f1b9-bcec-4789-8c5b-350c8044de9c"
-    referenceNo: "440"
-    orderId: "dec4c102-bb55-48f7-8dc2-c5bd36249271"
 
 2023-01-26 * "Assets:CurrentAssets:Bank:BocCurrentBank" "to: curr account"
   Assets:CurrentAssets:Bank:BocCurrentBank  25000.000000 HKD
@@ -1181,19 +1181,19 @@
     referenceNo: "418"
     orderId: "9c173564-20f2-4d5b-82fd-dd9901f34719"
 
-2023-01-27 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 6000 from FDL"
-  Assets:CurrentAssets:Cash:CashInHand  6000.000000 HKD
+2023-01-27 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 6000 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  6000.000000 HKD
     type: "MJ"
-    sourceId: "67794fe8-1069-4781-bcf0-b93970e5893f"
-    orderId: "67794fe8-1069-4781-bcf0-b93970e5893f"
-    referenceNo: "673"
-    description: "Deposit return 6000 (Item #1)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd  -6000.000000 HKD
+    sourceId: "03763fe3-1738-48a5-af1b-1d70189537da"
+    orderId: "03763fe3-1738-48a5-af1b-1d70189537da"
+    referenceNo: "678"
+    description: "(Item #1)"
+  Assets:CurrentAssets:Cash:CashInHand  -6000.000000 HKD
     type: "MJ"
-    sourceId: "67794fe8-1069-4781-bcf0-b93970e5893f"
-    orderId: "67794fe8-1069-4781-bcf0-b93970e5893f"
-    referenceNo: "673"
-    description: "Deposit return 6000 (Item #2)"
+    sourceId: "03763fe3-1738-48a5-af1b-1d70189537da"
+    orderId: "03763fe3-1738-48a5-af1b-1d70189537da"
+    referenceNo: "678"
+    description: "(Item #2)"
 
 2023-01-27 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 84000 to 217"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  84000.000000 HKD
@@ -1209,19 +1209,19 @@
     referenceNo: "381"
     description: "(Item #2)"
 
-2023-01-27 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return HKD 6000 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  6000.000000 HKD
+2023-01-27 * "Assets:CurrentAssets:Cash:CashInHand" "rcd HKD 6000 from FDL"
+  Assets:CurrentAssets:Cash:CashInHand  6000.000000 HKD
     type: "MJ"
-    sourceId: "03763fe3-1738-48a5-af1b-1d70189537da"
-    orderId: "03763fe3-1738-48a5-af1b-1d70189537da"
-    referenceNo: "678"
-    description: "(Item #1)"
-  Assets:CurrentAssets:Cash:CashInHand  -6000.000000 HKD
+    sourceId: "67794fe8-1069-4781-bcf0-b93970e5893f"
+    orderId: "67794fe8-1069-4781-bcf0-b93970e5893f"
+    referenceNo: "673"
+    description: "Deposit return 6000 (Item #1)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-FookDiamLtd  -6000.000000 HKD
     type: "MJ"
-    sourceId: "03763fe3-1738-48a5-af1b-1d70189537da"
-    orderId: "03763fe3-1738-48a5-af1b-1d70189537da"
-    referenceNo: "678"
-    description: "(Item #2)"
+    sourceId: "67794fe8-1069-4781-bcf0-b93970e5893f"
+    orderId: "67794fe8-1069-4781-bcf0-b93970e5893f"
+    referenceNo: "673"
+    description: "Deposit return 6000 (Item #2)"
 
 2023-01-27 * "Bill #844 kpay060 rebate 開戶費回贈 2000 2396a274-4c20-4c0c-a40f-5e338b511ddf"
   referenceNo: "844"
@@ -1254,24 +1254,6 @@
     referenceNo: "844"
     orderId: "2396a274-4c20-4c0c-a40f-5e338b511ddf"
 
-2023-01-28 * "Bill #458 FACEBK *EYTVCPXYM2 d8256b47-39dd-422f-af75-4eb5780d1fb8"
-  referenceNo: "458"
-  orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
-  type: "Bill"
-  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
-    qty: "1"
-    description: "FACEBK *EYTVCPXYM2"
-    referenceNo: "458"
-    orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
-    type: "Bill Item"
-    sourceId: "ac33b24d-3047-4893-9e28-20cee0974ba0"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
-    referenceNo: "458"
-    orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
-
 2023-01-28 * "Bill #454 OVERSEA TRANSACTION FEE d40309d5-ee5b-4829-8279-e00a235c5ccc"
   referenceNo: "454"
   orderId: "d40309d5-ee5b-4829-8279-e00a235c5ccc"
@@ -1302,6 +1284,24 @@
     sourceId: "84b038ea-6f03-40d5-ab5f-a82a03f51c3e"
     referenceNo: "454"
     orderId: "d40309d5-ee5b-4829-8279-e00a235c5ccc"
+
+2023-01-28 * "Bill #458 FACEBK *EYTVCPXYM2 d8256b47-39dd-422f-af75-4eb5780d1fb8"
+  referenceNo: "458"
+  orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
+  type: "Bill"
+  Expenses:GeneralExpense:AdvertisingAndBranding  7500.000000 HKD
+    qty: "1"
+    description: "FACEBK *EYTVCPXYM2"
+    referenceNo: "458"
+    orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
+    type: "Bill Item"
+    sourceId: "ac33b24d-3047-4893-9e28-20cee0974ba0"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    referenceNo: "458"
+    orderId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "d8256b47-39dd-422f-af75-4eb5780d1fb8"
 
 2023-01-28 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #458 #7021a39b-1da1-4b3b-8889-fdcb6ce98a79 d8256b47-39dd-422f-af75-4eb5780d1fb8"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
@@ -1437,6 +1437,19 @@
     referenceNo: "372"
     orderId: "62ab7cc0-3371-423f-b996-a67ad02221ed"
 
+2023-01-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "Invoice Payment for Invoice #250 #690345b9-b87e-4b46-a57b-c9910e4f354f 1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
+  Assets:CurrentAssets:Bank:BocForeignBank  2.910000 USD {7.85 HKD}
+    type: "Invoice Payment"
+    sourceId: "690345b9-b87e-4b46-a57b-c9910e4f354f"
+    referenceNo: "250"
+    orderId: "1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -2.910000 USD {7.85 HKD}
+    type: "Invoice Payment"
+    sourceId: "690345b9-b87e-4b46-a57b-c9910e4f354f"
+    referenceNo: "250"
+    orderId: "1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
+    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
+
 2023-01-31 * "Invoice #259 interest 7473a7ab-5d3d-4ca9-877e-3040492e00ad"
   Income:OtherIncome:Interest-bank  -141.230000 HKD
     description: "interest"
@@ -1463,19 +1476,6 @@
     sourceId: "e12bbb07-792d-40f9-b2a2-84ba05d07904"
     referenceNo: "259"
     orderId: "7473a7ab-5d3d-4ca9-877e-3040492e00ad"
-    contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
-
-2023-01-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "Invoice Payment for Invoice #250 #690345b9-b87e-4b46-a57b-c9910e4f354f 1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
-  Assets:CurrentAssets:Bank:BocForeignBank  2.910000 USD {7.85 HKD}
-    type: "Invoice Payment"
-    sourceId: "690345b9-b87e-4b46-a57b-c9910e4f354f"
-    referenceNo: "250"
-    orderId: "1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -2.910000 USD {7.85 HKD}
-    type: "Invoice Payment"
-    sourceId: "690345b9-b87e-4b46-a57b-c9910e4f354f"
-    referenceNo: "250"
-    orderId: "1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-01-31 * "Invoice #250 INTEREST 1c2463a8-90b1-483a-8df9-98c4f9c8b7b5"

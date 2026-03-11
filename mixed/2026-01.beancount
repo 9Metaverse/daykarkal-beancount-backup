@@ -148,22 +148,6 @@
     referenceNo: "2362"
     description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
 
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-yummy85252665426  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -182,6 +166,22 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
+
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-yummy85252665426  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
@@ -262,7 +262,7 @@
     referenceNo: "D20260103015"
     sourceId: "58de00fc-295f-4b25-be03-4fe6abd5d3db"
     orderId: "014d06b3-6750-4ecb-bfba-e44ffc733835"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260103015"
     sourceId: "58de00fc-295f-4b25-be03-4fe6abd5d3db"
@@ -456,7 +456,7 @@
     referenceNo: "D20260106012"
     sourceId: "7ae3d26b-bbc2-425b-a747-8eff4d92dc53"
     orderId: "f015fa83-c413-4ef4-91fd-7c5502af583e"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260106012"
     sourceId: "7ae3d26b-bbc2-425b-a747-8eff4d92dc53"
@@ -784,7 +784,7 @@
     referenceNo: "D20260109006"
     sourceId: "b3bdf64b-abbd-47ac-9447-3d496f590a46"
     orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260109006"
     sourceId: "b3bdf64b-abbd-47ac-9447-3d496f590a46"
@@ -883,7 +883,7 @@
     referenceNo: "D20260112003"
     sourceId: "2b933efe-d512-48a3-a933-a5bae6d4b8ab"
     orderId: "504d36ee-03a6-463d-a8e8-61f7c89f5838"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260112003"
     sourceId: "2b933efe-d512-48a3-a933-a5bae6d4b8ab"
@@ -939,7 +939,7 @@
     referenceNo: "D20260112006"
     sourceId: "e2a53a19-720b-42e6-b4ff-7192fa817227"
     orderId: "4094131f-d1ee-4968-900d-c9371370d2c6"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260112006"
     sourceId: "e2a53a19-720b-42e6-b4ff-7192fa817227"
@@ -1084,7 +1084,7 @@
     referenceNo: "D20260112008"
     sourceId: "980aa1f1-e687-4b7e-a8db-7fa6b9f88dcd"
     orderId: "4094131f-d1ee-4968-900d-c9371370d2c6"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260112008"
     sourceId: "980aa1f1-e687-4b7e-a8db-7fa6b9f88dcd"
@@ -1557,7 +1557,7 @@
     referenceNo: "D20260114004"
     sourceId: "d40f317a-3261-4490-8a6d-6d486ab07ec0"
     orderId: "765df4c3-3aad-4fbd-9c8c-868413a30324"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260114004"
     sourceId: "d40f317a-3261-4490-8a6d-6d486ab07ec0"
@@ -2388,6 +2388,25 @@
     sourceId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
     contact: "852 96221520 (NoName) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
 
+2026-01-29 * "INVENTORY_BILL #IB20260129001 9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
+  referenceNo: "IB20260129001"
+  orderId: "9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
+  type: "INVENTORY_BILL"
+  Expenses:GeneralExpense:Software   780.000000 HKD
+    category: "Jewelry"
+    sku: "DKK030"
+    qty: "1"
+    referenceNo: "IB20260129001"
+    orderId: "9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
+    type: "INVENTORY_BILL_ITEM"
+    sourceId: "307ca57a-84fc-44fc-96a1-8795fb070178"
+  Liabilities:CurrentLiabilities:AccountPayable  -100.000000 USD {7.8 HKD}
+    referenceNo: "IB20260129001"
+    orderId: "9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
+    contact: "852 668199171 () [cf5a1e9c-e1e8-436b-97b5-ad23566df740]"
+    type: "INVENTORY_BILL"
+    sourceId: "9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
+
 2026-01-30 * "Bill #1558 SALARY 26年1月 c9b8254e-b749-4235-a3bd-875f42779e08"
   referenceNo: "1558"
   orderId: "c9b8254e-b749-4235-a3bd-875f42779e08"
@@ -2487,7 +2506,7 @@
     referenceNo: "D20260130018"
     sourceId: "49c53ecd-9617-4f56-8573-f7d661a262c4"
     orderId: "3e1b833d-968d-46e8-bf5f-fb57152be4c6"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20260130018"
     sourceId: "49c53ecd-9617-4f56-8573-f7d661a262c4"

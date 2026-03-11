@@ -48,7 +48,7 @@
     referenceNo: "D20251102003"
     sourceId: "925b5b8a-bc90-4dbb-948c-2c79bbeeb6e0"
     orderId: "65c96ea6-c55c-4684-91e9-630ae03b46b9"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251102003"
     sourceId: "925b5b8a-bc90-4dbb-948c-2c79bbeeb6e0"
@@ -118,7 +118,7 @@
     referenceNo: "D20251103002"
     sourceId: "53508e8e-6c67-4347-aa67-77d032f0d478"
     orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251103002"
     sourceId: "53508e8e-6c67-4347-aa67-77d032f0d478"
@@ -200,7 +200,7 @@
     referenceNo: "D20251104003"
     sourceId: "f0c12532-f932-4605-b224-7fbdad0b94c4"
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251104003"
     sourceId: "f0c12532-f932-4605-b224-7fbdad0b94c4"
@@ -236,20 +236,6 @@
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #1)"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #2)"
-
 2025-11-05 * "Invoice #1160 Stock BR2524 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Income:Sales:SalesItem:Sell18kJewelry  -4900.000000 HKD
     category: "Jewelry"
@@ -265,6 +251,20 @@
     type: "Invoice"
     sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
     contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+
+2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #2)"
 
 2025-11-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1160 #277b5aa9-b33b-4f7d-b37f-04d823acea2a 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Assets:CurrentAssets:Bank:BocSavingBank  4900.000000 HKD
@@ -513,7 +513,7 @@
     referenceNo: "D20251106004"
     sourceId: "5634c021-520d-4ba3-a4f6-e4a559468a7e"
     orderId: "0286ac16-7383-45ee-9c6c-a3de3a60d8d4"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251106004"
     sourceId: "5634c021-520d-4ba3-a4f6-e4a559468a7e"
@@ -626,7 +626,7 @@
     referenceNo: "D20251108003"
     sourceId: "b0ad28c1-e9b7-4d39-870c-d666611403b3"
     orderId: "6be36256-aea6-4631-b440-0418b11d9825"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251108003"
     sourceId: "b0ad28c1-e9b7-4d39-870c-d666611403b3"
@@ -733,6 +733,22 @@
     orderId: "b8e1fb25-230f-4cdc-82d1-6c081ab4950e"
     contact: "852 53193535 () [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
 
+2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice Item"
+    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-crystalChan85264881161  3900.000000 HKD
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice"
+    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
+
 2025-11-10 * "Invoice #1166 Stock BR2523 R24142 ce261d79-51b6-460d-9cf6-14611d38673e"
   Income:Sales:SalesItem:Sell18kJewelry  -4500.000000 HKD
     category: "Jewelry"
@@ -756,22 +772,6 @@
     type: "Invoice"
     sourceId: "ce261d79-51b6-460d-9cf6-14611d38673e"
     contact: "852 95567627 () [fe0f601c-7523-4171-8b90-acb77e898186]"
-
-2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice Item"
-    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-crystalChan85264881161  3900.000000 HKD
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice"
-    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
 
 2025-11-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1165 #b58ee875-c92b-4cbe-a4a4-6193c7900e89 f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
   Assets:CurrentAssets:Bank:BocSavingBank  2000.000000 HKD
@@ -820,7 +820,7 @@
     referenceNo: "D20251111003"
     sourceId: "2ee17fe9-ba30-497a-8515-d11c91abd5ee"
     orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251111003"
     sourceId: "2ee17fe9-ba30-497a-8515-d11c91abd5ee"
@@ -895,22 +895,6 @@
     orderId: "ce261d79-51b6-460d-9cf6-14611d38673e"
     contact: "852 95567627 () [fe0f601c-7523-4171-8b90-acb77e898186]"
 
-2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    type: "Invoice Item"
-    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    type: "Invoice"
-    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-
 2025-11-12 * "Bill #1503 强哥改戒指手寸#14 Ref INV#1160(846) 179aa720-f99f-4b3a-baca-768f726f9208"
   referenceNo: "1503"
   orderId: "179aa720-f99f-4b3a-baca-768f726f9208"
@@ -929,6 +913,22 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "179aa720-f99f-4b3a-baca-768f726f9208"
+
+2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    type: "Invoice Item"
+    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    type: "Invoice"
+    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
 
 2025-11-12 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1503 #101d0c13-d598-488c-b0f3-9bfd76dc4518 179aa720-f99f-4b3a-baca-768f726f9208"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.000000 HKD
@@ -977,7 +977,7 @@
     referenceNo: "D20251113003"
     sourceId: "722b7057-863e-4598-a2ce-e2a6122b8e8f"
     orderId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251113003"
     sourceId: "722b7057-863e-4598-a2ce-e2a6122b8e8f"
@@ -1106,7 +1106,7 @@
     referenceNo: "D20251116001"
     sourceId: "e470bf24-3328-4337-bd1b-ab3714fc680f"
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251116001"
     sourceId: "e470bf24-3328-4337-bd1b-ab3714fc680f"
@@ -1142,20 +1142,6 @@
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
-  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #1)"
-  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #2)"
-
 2025-11-16 * "Invoice #1168 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Income:Sales:SalesItem:Sell18kJewelry  -5800.000000 HKD
     category: "Jewelry"
@@ -1171,6 +1157,20 @@
     type: "Invoice"
     sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
     contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
+  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #1)"
+  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #2)"
 
 2025-11-16 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1168 #94c7114c-3791-48bb-b1b3-2106e7bcdcef b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Assets:CurrentAssets:Cash:G17ShopCash  5800.000000 HKD
@@ -1292,7 +1292,7 @@
     referenceNo: "D20251118005"
     sourceId: "64729954-c25f-466c-aaa7-dd87e6247991"
     orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251118005"
     sourceId: "64729954-c25f-466c-aaa7-dd87e6247991"
@@ -1391,7 +1391,7 @@
     referenceNo: "D20251119005"
     sourceId: "9df0a60d-250f-4faf-8fec-19e48ebacf5b"
     orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251119005"
     sourceId: "9df0a60d-250f-4faf-8fec-19e48ebacf5b"
@@ -1446,7 +1446,7 @@
     referenceNo: "D20251120003"
     sourceId: "d6be3a13-b445-4454-b5b2-b7186e38c2e9"
     orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251120003"
     sourceId: "d6be3a13-b445-4454-b5b2-b7186e38c2e9"
@@ -1574,7 +1574,7 @@
     referenceNo: "D20251122003"
     sourceId: "262ebebc-0712-4fcd-a90a-efe3eac43257"
     orderId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251122003"
     sourceId: "262ebebc-0712-4fcd-a90a-efe3eac43257"
@@ -1658,7 +1658,7 @@
     referenceNo: "D20251124003"
     sourceId: "98a042e4-00df-4f89-9057-a5da0bcebebd"
     orderId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251124003"
     sourceId: "98a042e4-00df-4f89-9057-a5da0bcebebd"
@@ -1757,7 +1757,7 @@
     referenceNo: "D20251124005"
     sourceId: "29818d30-c88c-4714-affe-182731a1a360"
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251124005"
     sourceId: "29818d30-c88c-4714-affe-182731a1a360"
@@ -1777,6 +1777,25 @@
     sourceId: "4477db67-3741-4b33-bd8d-49c153b90970"
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     contact: "852 64128618 (WINGHONGLEUNG) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
+
+2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  referenceNo: "1505"
+  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    type: "Bill Item"
+    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  -250.000000 HKD
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill"
+    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
 
 2025-11-24 * "Bill #1506 嚴丹鳳代鑲石 合併 84137cd3-5ee7-410f-94e3-019de563cc34"
   referenceNo: "1506"
@@ -1804,25 +1823,6 @@
     contact: "86 13502891558 () [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "84137cd3-5ee7-410f-94e3-019de563cc34"
-
-2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  referenceNo: "1505"
-  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    type: "Bill Item"
-    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  -250.000000 HKD
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-    type: "Bill"
-    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
 
 2025-11-24 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1505 #47323968-9a8c-4f44-821e-b81715051940 4895491b-83b4-4fe4-95de-6e0db98c37aa"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.000000 HKD
@@ -2066,7 +2066,7 @@
     referenceNo: "D20251126002"
     sourceId: "16d9c853-c2d0-4c34-a782-bcee126a6927"
     orderId: "c8844d08-0ddc-46b4-91d2-3f6305805d08"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251126002"
     sourceId: "16d9c853-c2d0-4c34-a782-bcee126a6927"
@@ -2193,7 +2193,7 @@
     referenceNo: "D20251127003"
     sourceId: "29b691c0-abf0-4ab4-b7f3-6a6840025278"
     orderId: "99cc4886-2f6a-49ba-b8af-24833cc535f0"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251127003"
     sourceId: "29b691c0-abf0-4ab4-b7f3-6a6840025278"
@@ -2319,7 +2319,7 @@
     referenceNo: "D20251128002"
     sourceId: "b9a9aee6-6bcc-44a4-926a-6dff0aff1cfe"
     orderId: "df0c3860-b674-4003-b218-a9c8ff739972"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20251128002"
     sourceId: "b9a9aee6-6bcc-44a4-926a-6dff0aff1cfe"

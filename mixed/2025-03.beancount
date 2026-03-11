@@ -64,7 +64,7 @@
     referenceNo: "D20250301002"
     sourceId: "2d3053b6-30fc-4632-b151-f666004264d1"
     orderId: "ca4a67c6-3171-45b5-aad1-8fcc20421526"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250301002"
     sourceId: "2d3053b6-30fc-4632-b151-f666004264d1"
@@ -99,6 +99,20 @@
     orderId: "9b026f05-d290-4a59-ab54-73b599de1308"
     contact: " 65898390 () [b2932d90-e380-43b6-bba9-e47f0684957f]"
 
+2025-03-03 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 214"
+  Assets:CurrentAssets:Bank:BocSavingBank  2461.500000 HKD
+    type: "MJ"
+    sourceId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
+    orderId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
+    referenceNo: "45"
+    description: "KPAY to BOC Saving (Item #1)"
+  Assets:CurrentAssets:Bank:KpayBank  -2461.500000 HKD
+    type: "MJ"
+    sourceId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
+    orderId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
+    referenceNo: "45"
+    description: "KPAY to BOC Saving (Item #2)"
+
 2025-03-03 * "Bill #1302 G17 雜項 (墨盒) c33b2630-77a6-4f3c-ac53-52c24c844689"
   referenceNo: "1302"
   orderId: "c33b2630-77a6-4f3c-ac53-52c24c844689"
@@ -129,20 +143,6 @@
     sourceId: "5bd817c3-6252-4bbc-909b-60f0dd55f786"
     referenceNo: "1302"
     orderId: "c33b2630-77a6-4f3c-ac53-52c24c844689"
-
-2025-03-03 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay 214"
-  Assets:CurrentAssets:Bank:BocSavingBank  2461.500000 HKD
-    type: "MJ"
-    sourceId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
-    orderId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
-    referenceNo: "45"
-    description: "KPAY to BOC Saving (Item #1)"
-  Assets:CurrentAssets:Bank:KpayBank  -2461.500000 HKD
-    type: "MJ"
-    sourceId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
-    orderId: "0ce90204-1e67-4ffa-8e9d-6918cbe8004e"
-    referenceNo: "45"
-    description: "KPAY to BOC Saving (Item #2)"
 
 2025-03-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 215"
   Assets:CurrentAssets:Bank:BocSavingBank  7091.000000 HKD
@@ -250,7 +250,7 @@
     referenceNo: "D20250306002"
     sourceId: "5f27559e-370e-48bf-95b8-22f8cfb39823"
     orderId: "2d646678-60be-49fa-b7c9-eb5a7cfd1b28"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250306002"
     sourceId: "5f27559e-370e-48bf-95b8-22f8cfb39823"
@@ -350,28 +350,11 @@
     referenceNo: "D20250309002"
     sourceId: "819fec39-2f1d-4d9b-ae97-053f9109b1bc"
     orderId: "bf41693e-447f-4bbb-99da-88b7651a8d02"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250309002"
     sourceId: "819fec39-2f1d-4d9b-ae97-053f9109b1bc"
     orderId: "bf41693e-447f-4bbb-99da-88b7651a8d02"
-
-2025-03-10 * " ID: 1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-  Assets:CurrentAssets:Cash:Cash金料  -29574801.000000 USD {7.82 HKD}
-    type: "Conversion"
-    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-    referenceNo: "41"
-    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  29602282.820000 USDT {7.79 HKD}
-    type: "Conversion"
-    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-    referenceNo: "41"
-    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-  Income:FXGainOrLoss
-    type: "Conversion"
-    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
-    referenceNo: "41"
-    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
 
 2025-03-10 * "金料HKD TO Wallet  ID: 51c51743-8ca3-4ec0-a6d5-387bd598c5c8"
   Assets:CurrentAssets:Cash:Cash金料  -1839204006.000000 HKD
@@ -389,6 +372,23 @@
     sourceId: "51c51743-8ca3-4ec0-a6d5-387bd598c5c8"
     referenceNo: "40"
     orderId: "51c51743-8ca3-4ec0-a6d5-387bd598c5c8"
+
+2025-03-10 * " ID: 1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+  Assets:CurrentAssets:Cash:Cash金料  -29574801.000000 USD {7.82 HKD}
+    type: "Conversion"
+    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+    referenceNo: "41"
+    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  29602282.820000 USDT {7.79 HKD}
+    type: "Conversion"
+    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+    referenceNo: "41"
+    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+  Income:FXGainOrLoss
+    type: "Conversion"
+    sourceId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
+    referenceNo: "41"
+    orderId: "1bf713b0-28bc-4971-9c7d-3ed258c673c7"
 
 2025-03-10 * "Reservation Delivery R#GR2025031000008S D#D20250310001"
   rsv-ref: "GR2025031000008S"
@@ -514,7 +514,7 @@
     referenceNo: "D20250310002"
     sourceId: "3f941cdb-8e29-414a-af1e-11fa254762c3"
     orderId: "20c60195-2a2e-4d5d-94ce-51c0ca185755"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250310002"
     sourceId: "3f941cdb-8e29-414a-af1e-11fa254762c3"
@@ -539,7 +539,7 @@
     referenceNo: "D20250310006"
     sourceId: "c0bcbe27-bad3-4467-b547-4be9176f8f70"
     orderId: "8bc657fd-b6ce-4d58-ae5e-a0d33258d9b3"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250310006"
     sourceId: "c0bcbe27-bad3-4467-b547-4be9176f8f70"
@@ -564,7 +564,7 @@
     referenceNo: "D20250310004"
     sourceId: "64394471-7f88-4c09-9745-b4f2ea2b4bfc"
     orderId: "0786cf66-3cfb-46e5-9055-08afdc02a310"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250310004"
     sourceId: "64394471-7f88-4c09-9745-b4f2ea2b4bfc"
@@ -589,7 +589,7 @@
     referenceNo: "D20250310005"
     sourceId: "670351be-2c71-49d4-88dc-fbf4d62f0b3e"
     orderId: "d05e03d4-0546-4646-9b91-0c455ded92d6"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250310005"
     sourceId: "670351be-2c71-49d4-88dc-fbf4d62f0b3e"
@@ -614,7 +614,7 @@
     referenceNo: "D20250310003"
     sourceId: "012f2ab0-56c2-43fe-a3aa-14b704013de8"
     orderId: "43dcc284-31dd-4834-ac6d-438714b4a903"
-  Expenses:Cogs:Cogs-Gold
+  Expenses:Cogs:Cogs-gold
     type: "Reservation Delivery"
     referenceNo: "D20250310003"
     sourceId: "012f2ab0-56c2-43fe-a3aa-14b704013de8"
@@ -1005,19 +1005,6 @@
     orderId: "8be9717f-ea43-43c2-bcc2-8b2ab0bb6f41"
     contact: "852 97009230 () [b2206a34-f0a6-4d95-ba88-7f9cbcb93553]"
 
-2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #947 #d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4 96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-  Assets:CurrentAssets:Bank:BocSavingBank  2100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
-    referenceNo: "947"
-    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missChan85265958447  -2100.000000 HKD
-    type: "Invoice Payment"
-    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
-    referenceNo: "947"
-    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
-    contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
-
 2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #964 #c0c940d5-b35a-43ff-9d4d-657bc72928b5 ff90d41b-de72-41f1-a4c8-078460a40ffb"
   Assets:CurrentAssets:Bank:BocSavingBank  1450.000000 HKD
     type: "Invoice Payment"
@@ -1029,6 +1016,19 @@
     sourceId: "c0c940d5-b35a-43ff-9d4d-657bc72928b5"
     referenceNo: "964"
     orderId: "ff90d41b-de72-41f1-a4c8-078460a40ffb"
+    contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
+
+2025-03-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #947 #d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4 96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
+  Assets:CurrentAssets:Bank:BocSavingBank  2100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
+    referenceNo: "947"
+    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missChan85265958447  -2100.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "d3b61180-4f2b-4f8a-bacc-dd6bcb7c44c4"
+    referenceNo: "947"
+    orderId: "96f65081-5cf1-4dc9-90d2-1aa0827b69b4"
     contact: "852 65958447 () [f166fab7-40b3-4644-bc01-8f115babb418]"
 
 2025-03-22 * "Invoice #964 Order R24142 #18 ff90d41b-de72-41f1-a4c8-078460a40ffb"
