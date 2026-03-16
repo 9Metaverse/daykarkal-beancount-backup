@@ -125,6 +125,28 @@
     referenceNo: "3014"
     description: "G17 Pretty Cash (濕紙巾) (Item #6)"
 
+2026-03-12 * "Invoice #1210 GIA Diamond 1.00CT *2 d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
+    description: "GIA#7531114042 1.01CT F VS2"
+    qty: "1"
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice Item"
+    sourceId: "46d0545a-b19d-451e-9e72-285fb2577bc6"
+  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
+    description: "GIA#2527632317 1.00CT F VS2"
+    qty: "1"
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice Item"
+    sourceId: "deff46b3-da61-43dd-88ba-69e61e0e26c1"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  59800.000000 HKD
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice"
+    sourceId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    contact: "852 57437998 (NoName) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
+
 2026-03-12 * "Invoice #1209 GIA Diamond 0.50CT *4 4b61d7c3-29d1-4326-ac7e-63bffe010a56"
   Income:Sales:SalesItem:SellDiamond  -5900.000000 HKD
     description: "GIA#5543420237 0.50CT E SII"
@@ -162,28 +184,6 @@
     type: "Invoice"
     sourceId: "4b61d7c3-29d1-4326-ac7e-63bffe010a56"
     contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
-
-2026-03-12 * "Invoice #1210 GIA Diamond 1.00CT *2 d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
-    description: "GIA#7531114042 1.01CT F VS2"
-    qty: "1"
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice Item"
-    sourceId: "46d0545a-b19d-451e-9e72-285fb2577bc6"
-  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
-    description: "GIA#2527632317 1.00CT F VS2"
-    qty: "1"
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice Item"
-    sourceId: "deff46b3-da61-43dd-88ba-69e61e0e26c1"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  59800.000000 HKD
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice"
-    sourceId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    contact: "852 57437998 (NoName) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
 
 2026-03-12 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1209 #2712ab71-da64-44dc-8078-be2dc80aab84 4b61d7c3-29d1-4326-ac7e-63bffe010a56"
   Assets:CurrentAssets:Bank:KpayBank  22800.000000 HKD
@@ -270,6 +270,22 @@
     type: "Bill"
     sourceId: "96472020-3963-40c2-8408-50f56bf1deca"
 
+2026-03-16 * "Invoice #1211 cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+  Income:Sales:SalesItem:Sell18kJewelry  -4000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1211"
+    orderId: "cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+    type: "Invoice Item"
+    sourceId: "a2589f19-f492-4a6e-91b3-42aec1e435e3"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  4000.000000 HKD
+    referenceNo: "1211"
+    orderId: "cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+    type: "Invoice"
+    sourceId: "cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
 2026-03-16 * "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]" "Bill Payment for Bill #1566 #7db656b7-46db-4fbd-9623-e346f8657267 96472020-3963-40c2-8408-50f56bf1deca"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  -2000.000000 HKD
     type: "Bill Payment"
@@ -282,3 +298,16 @@
     sourceId: "7db656b7-46db-4fbd-9623-e346f8657267"
     referenceNo: "1566"
     orderId: "96472020-3963-40c2-8408-50f56bf1deca"
+
+2026-03-16 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1211 #291e1395-1d86-4cf4-9be9-55f6b95f4e07 cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+  Assets:CurrentAssets:Bank:KpayBank  4000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "291e1395-1d86-4cf4-9be9-55f6b95f4e07"
+    referenceNo: "1211"
+    orderId: "cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  -4000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "291e1395-1d86-4cf4-9be9-55f6b95f4e07"
+    referenceNo: "1211"
+    orderId: "cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
