@@ -250,3 +250,35 @@
     contact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     type: "Bill"
     sourceId: "f9f5cfd7-c0c7-4870-ba44-e0ace5b62afa"
+
+2026-03-16 * "Bill #1566 REF INV#691 耳環托return 96472020-3963-40c2-8408-50f56bf1deca"
+  referenceNo: "1566"
+  orderId: "96472020-3963-40c2-8408-50f56bf1deca"
+  type: "Bill"
+  Income:Sales:SalesReturn  2000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1566"
+    orderId: "96472020-3963-40c2-8408-50f56bf1deca"
+    type: "Bill Item"
+    sourceId: "5ff7156d-5b9c-4cca-abe1-ceabe4497013"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-davidKwandirector99812345708  -2000.000000 HKD
+    referenceNo: "1566"
+    orderId: "96472020-3963-40c2-8408-50f56bf1deca"
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+    type: "Bill"
+    sourceId: "96472020-3963-40c2-8408-50f56bf1deca"
+
+2026-03-16 * "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]" "Bill Payment for Bill #1566 #7db656b7-46db-4fbd-9623-e346f8657267 96472020-3963-40c2-8408-50f56bf1deca"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  -2000.000000 HKD
+    type: "Bill Payment"
+    sourceId: "7db656b7-46db-4fbd-9623-e346f8657267"
+    referenceNo: "1566"
+    orderId: "96472020-3963-40c2-8408-50f56bf1deca"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-davidKwandirector99812345708  2000.000000 HKD
+    contact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
+    type: "Bill Payment"
+    sourceId: "7db656b7-46db-4fbd-9623-e346f8657267"
+    referenceNo: "1566"
+    orderId: "96472020-3963-40c2-8408-50f56bf1deca"
