@@ -419,3 +419,35 @@
     sourceId: "07a6e889-1e5f-4ccb-bce9-b69a522a0465"
     referenceNo: "1568"
     orderId: "457ccc90-dec0-457a-92a4-44860685b2dc"
+
+2026-03-17 * "INVENTORY_BILL #IB20260317001 464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+  referenceNo: "IB20260317001"
+  orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+  type: "INVENTORY_BILL"
+  Assets:Inventory:Silver:Silver-in-stock  107088.000000 HKD
+    category: "Silver"
+    sku: "Unknown"
+    qty: "5000"
+    referenceNo: "IB20260317001"
+    orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+    type: "INVENTORY_BILL_ITEM"
+    sourceId: "bd45a0af-456c-4900-9fc7-af6eded04a14"
+  Liabilities:CurrentLiabilities:AccountPayable  -107088.000000 HKD
+    referenceNo: "IB20260317001"
+    orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+    type: "INVENTORY_BILL"
+    sourceId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+
+2026-03-17 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Inventory Bill Payment for Bill #IB20260317001 #582fd3d1-b315-4c89-977a-06c1b822adc8 464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -107088.000000 HKD
+    type: "INVENTORY_BILL_PAYMENT"
+    sourceId: "582fd3d1-b315-4c89-977a-06c1b822adc8"
+    referenceNo: "IB20260317001"
+    orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
+  Liabilities:CurrentLiabilities:AccountPayable  107088.000000 HKD
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+    type: "INVENTORY_BILL_PAYMENT"
+    sourceId: "582fd3d1-b315-4c89-977a-06c1b822adc8"
+    referenceNo: "IB20260317001"
+    orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
