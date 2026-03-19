@@ -236,20 +236,6 @@
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #1)"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #2)"
-
 2025-11-05 * "Invoice #1160 Stock BR2524 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Income:Sales:SalesItem:Sell18kJewelry  -4900.000000 HKD
     category: "Jewelry"
@@ -265,6 +251,20 @@
     type: "Invoice"
     sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
     contact: "852 97046812 () [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+
+2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #2)"
 
 2025-11-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1160 #277b5aa9-b33b-4f7d-b37f-04d823acea2a 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Assets:CurrentAssets:Bank:BocSavingBank  4900.000000 HKD
@@ -733,6 +733,22 @@
     orderId: "b8e1fb25-230f-4cdc-82d1-6c081ab4950e"
     contact: "852 53193535 () [ce85c324-57a0-4ed9-9130-b9797cae04eb]"
 
+2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice Item"
+    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-crystalChan85264881161  3900.000000 HKD
+    referenceNo: "1165"
+    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    type: "Invoice"
+    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
+    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
+
 2025-11-10 * "Invoice #1166 Stock BR2523 R24142 ce261d79-51b6-460d-9cf6-14611d38673e"
   Income:Sales:SalesItem:Sell18kJewelry  -4500.000000 HKD
     category: "Jewelry"
@@ -756,22 +772,6 @@
     type: "Invoice"
     sourceId: "ce261d79-51b6-460d-9cf6-14611d38673e"
     contact: "852 95567627 () [fe0f601c-7523-4171-8b90-acb77e898186]"
-
-2025-11-10 * "Invoice #1165 Bespoke Ring Setting R f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -3900.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice Item"
-    sourceId: "a7b28014-e6b3-40c9-a43f-46af476adc4c"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-crystalChan85264881161  3900.000000 HKD
-    referenceNo: "1165"
-    orderId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    type: "Invoice"
-    sourceId: "f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
-    contact: "852 64881161 () [b59a55d9-ea06-4495-aed9-9a2151a2256a]"
 
 2025-11-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1165 #b58ee875-c92b-4cbe-a4a4-6193c7900e89 f1d3ceca-c6ac-4e68-80dd-00ac7a949c45"
   Assets:CurrentAssets:Bank:BocSavingBank  2000.000000 HKD
@@ -1142,20 +1142,6 @@
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     contact: "82 220887071 (AUTIFACo.,Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
-  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #1)"
-  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
-    type: "MJ"
-    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    description: "G17 Pretty Cash (電池) (Item #2)"
-
 2025-11-16 * "Invoice #1168 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Income:Sales:SalesItem:Sell18kJewelry  -5800.000000 HKD
     category: "Jewelry"
@@ -1171,6 +1157,20 @@
     type: "Invoice"
     sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
     contact: "880 802 () [42348712-7daa-4c29-93b7-756b472429a4]"
+
+2025-11-16 * "Expenses:GeneralExpense:G17ShopExpenses" "G17 Pretty Cash"
+  Expenses:GeneralExpense:G17ShopExpenses  21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #1)"
+  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
+    type: "MJ"
+    sourceId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    description: "G17 Pretty Cash (電池) (Item #2)"
 
 2025-11-16 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1168 #94c7114c-3791-48bb-b1b3-2106e7bcdcef b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Assets:CurrentAssets:Cash:G17ShopCash  5800.000000 HKD
@@ -1907,31 +1907,6 @@
     referenceNo: "1507"
     orderId: "a6b61f67-dbde-484e-a2a6-e3e53a45ba74"
 
-2025-11-25 * "Bill #1508 BOC VISA Card - Sam 11月 2025 5f372806-dff5-45c9-bc60-192d5b859427"
-  referenceNo: "1508"
-  orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-  type: "Bill"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  8416.980000 HKD
-    qty: "1"
-    description: "Milways Gold Ltd  - 淘寶雜項"
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    type: "Bill Item"
-    sourceId: "01a4cc69-0e0f-4b36-9477-e8ad632fc070"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  20860.410000 HKD
-    qty: "1"
-    description: "Milways Factory Ltd - 淘寶雜項"
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    type: "Bill Item"
-    sourceId: "e1124f70-e5fe-4707-a6f7-15557a98e33d"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -29277.390000 HKD
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "5f372806-dff5-45c9-bc60-192d5b859427"
-
 2025-11-25 * "Bill #1509 BOC VISA Card - David 11月 2025 b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
   referenceNo: "1509"
   orderId: "b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
@@ -2005,6 +1980,31 @@
     contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
+
+2025-11-25 * "Bill #1508 BOC VISA Card - Sam 11月 2025 5f372806-dff5-45c9-bc60-192d5b859427"
+  referenceNo: "1508"
+  orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+  type: "Bill"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  8416.980000 HKD
+    qty: "1"
+    description: "Milways Gold Ltd  - 淘寶雜項"
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    type: "Bill Item"
+    sourceId: "01a4cc69-0e0f-4b36-9477-e8ad632fc070"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  20860.410000 HKD
+    qty: "1"
+    description: "Milways Factory Ltd - 淘寶雜項"
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    type: "Bill Item"
+    sourceId: "e1124f70-e5fe-4707-a6f7-15557a98e33d"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -29277.390000 HKD
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    contact: "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "5f372806-dff5-45c9-bc60-192d5b859427"
 
 2025-11-25 * "880 806 () [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1508 #5c846e75-efc8-44b9-be3a-159b920d00cc 5f372806-dff5-45c9-bc60-192d5b859427"
   Assets:CurrentAssets:Bank:BocVisaCard-SamBank  -29277.390000 HKD
