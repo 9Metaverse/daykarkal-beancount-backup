@@ -125,30 +125,6 @@
     referenceNo: "3014"
     description: "G17 Pretty Cash (濕紙巾) (Item #6)"
 
-2026-03-12 * "Invoice #1210 GIA Diamond 1.00CT *2 d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
-    category: "Natural Diamond"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice Item"
-    sourceId: "46d0545a-b19d-451e-9e72-285fb2577bc6"
-  Income:Sales:SalesItem:SellDiamond  0.000000 HKD
-    category: "Natural Diamond"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice Item"
-    sourceId: "deff46b3-da61-43dd-88ba-69e61e0e26c1"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  29900.000000 HKD
-    referenceNo: "1210"
-    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    type: "Invoice"
-    sourceId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
-    contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
-
 2026-03-12 * "Invoice #1209 GIA Diamond 0.50CT *4 4b61d7c3-29d1-4326-ac7e-63bffe010a56"
   Income:Sales:SalesItem:SellDiamond  -5900.000000 HKD
     category: "Natural Diamond"
@@ -187,6 +163,30 @@
     orderId: "4b61d7c3-29d1-4326-ac7e-63bffe010a56"
     type: "Invoice"
     sourceId: "4b61d7c3-29d1-4326-ac7e-63bffe010a56"
+    contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
+
+2026-03-12 * "Invoice #1210 GIA Diamond 1.00CT *2 d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+  Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
+    category: "Natural Diamond"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice Item"
+    sourceId: "46d0545a-b19d-451e-9e72-285fb2577bc6"
+  Income:Sales:SalesItem:SellDiamond  0.000000 HKD
+    category: "Natural Diamond"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice Item"
+    sourceId: "deff46b3-da61-43dd-88ba-69e61e0e26c1"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  29900.000000 HKD
+    referenceNo: "1210"
+    orderId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
+    type: "Invoice"
+    sourceId: "d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
     contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
 
 2026-03-12 * "Assets:CurrentAssets:Bank:KpayBank" "Invoice Payment for Invoice #1209 #2712ab71-da64-44dc-8078-be2dc80aab84 4b61d7c3-29d1-4326-ac7e-63bffe010a56"
@@ -595,3 +595,32 @@
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "c72ea5f1-f18d-45c9-87c6-889aa9e3d487"
+
+2026-03-19 * "Invoice #1213 staff~阿能 d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+  Income:Sales:SalesItem:Sell18kJewelry  -5000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1213"
+    orderId: "d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+    type: "Invoice Item"
+    sourceId: "43030c33-cc6a-4d8f-bc2b-025e8b4fa7c3"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  5000.000000 HKD
+    referenceNo: "1213"
+    orderId: "d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+    type: "Invoice"
+    sourceId: "d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
+2026-03-19 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1213 #f1b4db94-f1d0-4163-9950-235d1100c037 d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+  Assets:CurrentAssets:Cash:G17ShopCash  5000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "f1b4db94-f1d0-4163-9950-235d1100c037"
+    referenceNo: "1213"
+    orderId: "d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  -5000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "f1b4db94-f1d0-4163-9950-235d1100c037"
+    referenceNo: "1213"
+    orderId: "d3eba9bb-a4fb-4f37-960f-1961e015b32a"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
