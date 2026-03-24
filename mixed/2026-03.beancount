@@ -767,3 +767,43 @@
     referenceNo: "1214"
     orderId: "6c786e2c-8cca-43aa-a2a1-06a06a3e9699"
     contact: "852 65753538 (MrSyrusCheung) [3b702c06-0f4c-4770-a4e7-48b4c13e1993]"
+
+2026-03-24 * "Bill #1571 2.07CT*2 Lab Diamond c6c9b8cb-3894-445d-91c8-3372cdf64721"
+  referenceNo: "1571"
+  orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2002.500000 HKD
+    category: "Diamonds/Gems/Others (For Bespoke)"
+    sku: "LG750568641"
+    qty: "1"
+    referenceNo: "1571"
+    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+    type: "Bill Item"
+    sourceId: "2dc04743-b934-43de-ad60-f5135b407f9a"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2002.500000 HKD
+    category: "Diamonds/Gems/Others (For Bespoke)"
+    sku: "LG750568662"
+    qty: "1"
+    referenceNo: "1571"
+    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+    type: "Bill Item"
+    sourceId: "b5ff65ba-b38e-4d20-b434-f407034ad8e6"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jayviHkLimited917990120567  -4005.000000 HKD
+    referenceNo: "1571"
+    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+    contact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+    type: "Bill"
+    sourceId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+
+2026-03-24 * "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]" "Bill Payment for Bill #1571 #e26acbbe-8089-4dc9-99be-5481f58aefa5 c6c9b8cb-3894-445d-91c8-3372cdf64721"
+  Assets:CurrentAssets:Bank:BocSavingBank  -1000.000000 HKD
+    type: "Bill Payment"
+    sourceId: "e26acbbe-8089-4dc9-99be-5481f58aefa5"
+    referenceNo: "1571"
+    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jayviHkLimited917990120567  1000.000000 HKD
+    contact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+    type: "Bill Payment"
+    sourceId: "e26acbbe-8089-4dc9-99be-5481f58aefa5"
+    referenceNo: "1571"
+    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
