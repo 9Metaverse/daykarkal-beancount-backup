@@ -1048,7 +1048,7 @@
     sourceId: "2b56a7c9-af08-467f-8a71-e0ae51392bba"
     contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
-2026-03-24 * "Invoice #1216 1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
+2026-03-24 * "Invoice #1216 Ring Setting Change 1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
   Income:Sales:SalesItem:SellBespokeorotherFee  -2500.000000 HKD
     category: "Other"
     sku: "PROCESSING174"
@@ -1246,3 +1246,38 @@
     orderId: "5e1a9884-c2e6-493f-a931-8a6830fa0b47"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     description: ""
+
+2026-03-26 * "Invoice #1217 Bespoke Lab Diamond Ring #12 75a50abd-8b55-4865-80f7-c2b581f101c5"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -5500.000000 HKD
+    description: "Bespoke Lab Diamond Ring #12 (LG563228713)"
+    qty: "1"
+    referenceNo: "1217"
+    orderId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
+    orderContact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+    type: "Invoice Item"
+    sourceId: "4c95ed62-526a-4eac-b24a-85270d3ca670"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAsim85263338500  5500.000000 HKD
+    referenceNo: "1217"
+    orderId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
+    orderContact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+    type: "Invoice"
+    sourceId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
+    contact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+
+2026-03-26 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1217 #05871dd2-3d8c-4656-a13e-a6f2bc161536 75a50abd-8b55-4865-80f7-c2b581f101c5"
+  Assets:CurrentAssets:Cash:G17ShopCash  5500.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "05871dd2-3d8c-4656-a13e-a6f2bc161536"
+    referenceNo: "1217"
+    orderId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
+    orderContact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+    description: ""
+    contact: ""
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrAsim85263338500  -5500.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "05871dd2-3d8c-4656-a13e-a6f2bc161536"
+    referenceNo: "1217"
+    orderId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
+    orderContact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+    description: ""
+    contact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
