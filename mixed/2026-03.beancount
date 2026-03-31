@@ -154,10 +154,10 @@
     type: "Bill"
     sourceId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
 
-2026-03-09 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1577 #4c984276-d3ae-4fc8-9cd7-7959fcc15d9c 447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -358.000000 HKD
+2026-03-09 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1577 #411efa3d-9ae5-4ab7-a79a-d75b5e3d6fb5 447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+  Assets:CurrentAssets:Cash:CashInHand  -358.000000 HKD
     type: "Bill Payment"
-    sourceId: "4c984276-d3ae-4fc8-9cd7-7959fcc15d9c"
+    sourceId: "411efa3d-9ae5-4ab7-a79a-d75b5e3d6fb5"
     referenceNo: "1577"
     orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -165,7 +165,7 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  358.000000 HKD
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill Payment"
-    sourceId: "4c984276-d3ae-4fc8-9cd7-7959fcc15d9c"
+    sourceId: "411efa3d-9ae5-4ab7-a79a-d75b5e3d6fb5"
     referenceNo: "1577"
     orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -579,6 +579,44 @@
     referenceNo: "IB20260317003"
     orderId: "464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+
+2026-03-17 * "Bill #1580 G17電費(2026-02月) 685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+  referenceNo: "1580"
+  orderId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill"
+  Expenses:GeneralExpense:ElectricityLightHeating  1841.000000 HKD
+    qty: "1"
+    description: "G17電費(2026-02月)"
+    referenceNo: "1580"
+    orderId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "42470442-49fa-4350-b8d3-43399ff49150"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1841.000000 HKD
+    referenceNo: "1580"
+    orderId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+
+2026-03-17 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1580 #8f28d136-ff3d-4498-ba39-7cacf51be9b7 685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+  Assets:CurrentAssets:Cash:CashInHand  -1841.000000 HKD
+    type: "Bill Payment"
+    sourceId: "8f28d136-ff3d-4498-ba39-7cacf51be9b7"
+    referenceNo: "1580"
+    orderId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17電費(2026-02月)"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1841.000000 HKD
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "8f28d136-ff3d-4498-ba39-7cacf51be9b7"
+    referenceNo: "1580"
+    orderId: "685f6683-7b54-4027-9ba4-29e6fd9d0c14"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17電費(2026-02月)"
 
 2026-03-18 * "Assets:CurrentAssets:Cash:G17ShopCash" "Inventory Invoice Payment for Invoice #II20260317003 #75185e28-c205-479e-b04a-7a2638081752 4453ebcd-5f43-40e1-bab5-70b0a99413d4"
   Assets:CurrentAssets:Cash:G17ShopCash  108338.000000 HKD
@@ -1029,6 +1067,24 @@
     orderContact: "852 69023871 (梁健勳) [1bf918bd-f6fc-46d2-98b3-860298a6d6f8]"
     contact: "852 69023871 (梁健勳) [1bf918bd-f6fc-46d2-98b3-860298a6d6f8]"
 
+2026-03-24 * "Invoice #1216 Ring Setting Change 1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
+  Income:Sales:SalesItem:SellBespokeorotherFee  -2500.000000 HKD
+    category: "Other"
+    sku: "PROCESSING174"
+    qty: "1"
+    referenceNo: "1216"
+    orderId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
+    orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
+    type: "Invoice Item"
+    sourceId: "eac6e21e-21d0-4399-ba86-230b26e9bbd3"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTangRaymond85297871622  2500.000000 HKD
+    referenceNo: "1216"
+    orderId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
+    orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
+    type: "Invoice"
+    sourceId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
+    contact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
+
 2026-03-24 * "Bill #1572 鄧生2CT戒指對金改戒托 f66b3818-3ca1-4941-a13d-b9d418c83e8e"
   referenceNo: "1572"
   orderId: "f66b3818-3ca1-4941-a13d-b9d418c83e8e"
@@ -1085,24 +1141,6 @@
     type: "Invoice"
     sourceId: "2b56a7c9-af08-467f-8a71-e0ae51392bba"
     contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-
-2026-03-24 * "Invoice #1216 Ring Setting Change 1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
-  Income:Sales:SalesItem:SellBespokeorotherFee  -2500.000000 HKD
-    category: "Other"
-    sku: "PROCESSING174"
-    qty: "1"
-    referenceNo: "1216"
-    orderId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
-    orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
-    type: "Invoice Item"
-    sourceId: "eac6e21e-21d0-4399-ba86-230b26e9bbd3"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTangRaymond85297871622  2500.000000 HKD
-    referenceNo: "1216"
-    orderId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
-    orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
-    type: "Invoice"
-    sourceId: "1e8ce37d-522e-44ee-a8ba-97afa1e588b1"
-    contact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
 
 2026-03-24 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1215 #6e1f5219-766b-466b-abe8-ed47e19121b3 2b56a7c9-af08-467f-8a71-e0ae51392bba"
   Assets:CurrentAssets:Bank:BocSavingBank  10800.000000 HKD
@@ -1558,6 +1596,27 @@
     sourceId: "75a50abd-8b55-4865-80f7-c2b581f101c5"
     contact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
 
+2026-03-26 * "Bill #1578 G17上網(2026-03月) 50e08eca-e856-4d80-a684-8062e3319acd"
+  referenceNo: "1578"
+  orderId: "50e08eca-e856-4d80-a684-8062e3319acd"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  358.000000 HKD
+    qty: "1"
+    description: "G17上網(2026-03月)"
+    referenceNo: "1578"
+    orderId: "50e08eca-e856-4d80-a684-8062e3319acd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "619765b1-0129-4eb9-aa1c-5a5392d5ee2c"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -358.000000 HKD
+    referenceNo: "1578"
+    orderId: "50e08eca-e856-4d80-a684-8062e3319acd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "50e08eca-e856-4d80-a684-8062e3319acd"
+
 2026-03-26 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1217 #05871dd2-3d8c-4656-a13e-a6f2bc161536 75a50abd-8b55-4865-80f7-c2b581f101c5"
   Assets:CurrentAssets:Cash:G17ShopCash  5500.000000 HKD
     type: "Invoice Payment"
@@ -1575,6 +1634,23 @@
     orderContact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
     description: ""
     contact: "852 63338500 (MR.ASIM) [5935c53a-70ee-455f-a1f1-294d48954eb9]"
+
+2026-03-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1578 #8e83c5b9-672e-4fff-b32e-1d2d6463c5b5 50e08eca-e856-4d80-a684-8062e3319acd"
+  Assets:CurrentAssets:Cash:CashInHand  -358.000000 HKD
+    type: "Bill Payment"
+    sourceId: "8e83c5b9-672e-4fff-b32e-1d2d6463c5b5"
+    referenceNo: "1578"
+    orderId: "50e08eca-e856-4d80-a684-8062e3319acd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17上網(2026-03月)"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  358.000000 HKD
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "8e83c5b9-672e-4fff-b32e-1d2d6463c5b5"
+    referenceNo: "1578"
+    orderId: "50e08eca-e856-4d80-a684-8062e3319acd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17上網(2026-03月)"
 
 2026-03-27 * "Bill #1575 4爪戒指托鑲嵌LAB diamond 45e828b0-218d-453d-b858-c15cfbb2d70f"
   referenceNo: "1575"
