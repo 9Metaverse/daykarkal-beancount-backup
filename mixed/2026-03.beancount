@@ -133,6 +133,44 @@
     referenceNo: "3014"
     description: "G17 Pretty Cash (濕紙巾) (Item #6)"
 
+2026-03-09 * "Bill #1577 G17上網(2026-02月) 447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+  referenceNo: "1577"
+  orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill"
+  Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  358.000000 HKD
+    qty: "1"
+    description: "G17上網(2026-02月)"
+    referenceNo: "1577"
+    orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "3a17452b-9768-46ed-8ef3-64c1c28752e0"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -358.000000 HKD
+    referenceNo: "1577"
+    orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+
+2026-03-09 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1577 #4c984276-d3ae-4fc8-9cd7-7959fcc15d9c 447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -358.000000 HKD
+    type: "Bill Payment"
+    sourceId: "4c984276-d3ae-4fc8-9cd7-7959fcc15d9c"
+    referenceNo: "1577"
+    orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17上網(2026-02月)"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  358.000000 HKD
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "4c984276-d3ae-4fc8-9cd7-7959fcc15d9c"
+    referenceNo: "1577"
+    orderId: "447bfdc1-8fbe-46e6-bbe8-4de27d6c6dd2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "G17上網(2026-02月)"
+
 2026-03-12 * "Invoice #1210 GIA Diamond 1.00CT *2 d39f90c8-7a3e-4d0c-bd1f-874a8fdb05ac"
   Income:Sales:SalesItem:SellDiamond  -29900.000000 HKD
     category: "Natural Diamond"
