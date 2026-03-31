@@ -170,6 +170,24 @@
     referenceNo: "2362"
     description: "VIDA 12/2025 SALARY bank fee  (Item #4)"
 
+2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
+  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
+    category: "Other"
+    sku: "PROCESSING110"
+    qty: "1"
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    orderContact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+    type: "Invoice Item"
+    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-yummy85252665426  0.000000 HKD
+    referenceNo: "1186"
+    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    orderContact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+    type: "Invoice"
+    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
+    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
+
 2026-01-02 * "Bill #1520 Ref Yummy inv#931(636) 戒指甩石修理 199341f8-7ac4-43ae-ab78-404c755b783d"
   referenceNo: "1520"
   orderId: "199341f8-7ac4-43ae-ab78-404c755b783d"
@@ -191,24 +209,6 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "199341f8-7ac4-43ae-ab78-404c755b783d"
-
-2026-01-02 * "Invoice #1186 Ref Yummy inv#931(636) 戒指甩石修理 9f185023-b336-407a-bd7e-ac1370a069fd"
-  Income:Sales:SalesItem:SellBespokeorotherFee  0.000000 HKD
-    category: "Other"
-    sku: "PROCESSING110"
-    qty: "1"
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    orderContact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-    type: "Invoice Item"
-    sourceId: "a0cba894-8ddc-40bb-be7e-84608528e6b4"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-yummy85252665426  0.000000 HKD
-    referenceNo: "1186"
-    orderId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    orderContact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
-    type: "Invoice"
-    sourceId: "9f185023-b336-407a-bd7e-ac1370a069fd"
-    contact: "852 52665426 (YUMMY) [22a2be29-f4b7-41b7-a0eb-af626862ec69]"
 
 2026-01-02 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
@@ -1951,24 +1951,6 @@
     description: ""
     contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
 
-2026-01-18 * "Invoice #1193 Stock~ R24127 c0426e47-be3d-4bda-a193-5541909f02b9"
-  Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1193"
-    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    type: "Invoice Item"
-    sourceId: "3bb19064-0e34-46b0-a036-c8fe2267dd2e"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  7000.000000 HKD
-    referenceNo: "1193"
-    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    type: "Invoice"
-    sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-
 2026-01-18 * "Bill #1540 REF INV#1188 1.20CT 做托鑲石 c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
   referenceNo: "1540"
   orderId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
@@ -1990,6 +1972,24 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
+
+2026-01-18 * "Invoice #1193 Stock~ R24127 c0426e47-be3d-4bda-a193-5541909f02b9"
+  Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    type: "Invoice Item"
+    sourceId: "3bb19064-0e34-46b0-a036-c8fe2267dd2e"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIn街客85288888888  7000.000000 HKD
+    referenceNo: "1193"
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    type: "Invoice"
+    sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
 2026-01-18 * "Assets:CurrentAssets:Cash:G17ShopCash" "Invoice Payment for Invoice #1193 #0cd9ce15-64f2-483c-a5b6-6d6677dbf0f3 c0426e47-be3d-4bda-a193-5541909f02b9"
   Assets:CurrentAssets:Cash:G17ShopCash  7000.000000 HKD
@@ -2140,28 +2140,6 @@
     orderContact: "998 12345775 (VED-VENIDIAMLTD) [af11cd82-725d-4855-83d7-d2ed50d9fa56]"
     description: "BANK FEE"
 
-2026-01-19 * "Bill #1542 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-  referenceNo: "1542"
-  orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-  orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  123.000000 HKD
-    category: "Other"
-    sku: "PROCESSING143"
-    qty: "1"
-    referenceNo: "1542"
-    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
-    type: "Bill Item"
-    sourceId: "dc0d7c1c-ec2f-498d-adfa-d4e07578d148"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -123.000000 HKD
-    referenceNo: "1542"
-    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
-    contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
-    type: "Bill"
-    sourceId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
-
 2026-01-19 * "Bill #1541 GIA#7531855335 1.20CT 23175323-db9f-4a63-a7ad-931c41ba98ff"
   referenceNo: "1541"
   orderId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
@@ -2191,6 +2169,28 @@
     contact: "998 12345775 (VED-VENIDIAMLTD) [af11cd82-725d-4855-83d7-d2ed50d9fa56]"
     type: "Bill"
     sourceId: "23175323-db9f-4a63-a7ad-931c41ba98ff"
+
+2026-01-19 * "Bill #1542 77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  referenceNo: "1542"
+  orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+  orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  123.000000 HKD
+    category: "Other"
+    sku: "PROCESSING143"
+    qty: "1"
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill Item"
+    sourceId: "dc0d7c1c-ec2f-498d-adfa-d4e07578d148"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -123.000000 HKD
+    referenceNo: "1542"
+    orderId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    type: "Bill"
+    sourceId: "77c516ef-9d71-4dac-8d64-8868ebe7bdfb"
 
 2026-01-20 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER from BOC -saving to DAVIS VISA"
   Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
@@ -2804,20 +2804,6 @@
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     description: "G17上網(2026-01月)"
 
-2026-01-28 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -23000.000000 HKD
-    type: "MJ"
-    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    referenceNo: "2628"
-    description: "417 to G17 (Item #1)"
-  Assets:CurrentAssets:Cash:G17ShopCash  23000.000000 HKD
-    type: "MJ"
-    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    referenceNo: "2628"
-    description: "417 to G17 (Item #2)"
-
 2026-01-28 * "Invoice #1198 Stock BE2508 a98cf5b8-83af-4356-b3ae-a26bf36741df"
   Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
     category: "Jewelry"
@@ -2835,6 +2821,20 @@
     type: "Invoice"
     sourceId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
     contact: "852 96221520 (IrisKwong) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
+
+2026-01-28 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -23000.000000 HKD
+    type: "MJ"
+    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:G17ShopCash  23000.000000 HKD
+    type: "MJ"
+    sourceId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    description: "417 to G17 (Item #2)"
 
 2026-01-29 * "INVENTORY_BILL #IB20260129001 9ff71d28-21f2-4f6c-aad8-f33aaec937f3"
   referenceNo: "IB20260129001"

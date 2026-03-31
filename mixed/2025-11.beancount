@@ -268,20 +268,6 @@
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #1)"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
-    type: "MJ"
-    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    description: "417 to G17 (Item #2)"
-
 2025-11-05 * "Invoice #1160 Stock BR2524 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Income:Sales:SalesItem:Sell18kJewelry  -4900.000000 HKD
     category: "Jewelry"
@@ -299,6 +285,20 @@
     type: "Invoice"
     sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
     contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+
+2025-11-05 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:CashInHand  -10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #1)"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
+    type: "MJ"
+    sourceId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    description: "417 to G17 (Item #2)"
 
 2025-11-05 * "Assets:CurrentAssets:Bank:BocSavingBank" "Invoice Payment for Invoice #1160 #277b5aa9-b33b-4f7d-b37f-04d823acea2a 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Assets:CurrentAssets:Bank:BocSavingBank  4900.000000 HKD
@@ -1038,6 +1038,24 @@
     description: "VISA #111125000003"
     contact: "852 95567627 (MrsWong) [fe0f601c-7523-4171-8b90-acb77e898186]"
 
+2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+    type: "Invoice Item"
+    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
+    referenceNo: "1167"
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+    type: "Invoice"
+    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+
 2025-11-12 * "Bill #1503 强哥改戒指手寸#14 Ref INV#1160(846) 179aa720-f99f-4b3a-baca-768f726f9208"
   referenceNo: "1503"
   orderId: "179aa720-f99f-4b3a-baca-768f726f9208"
@@ -1059,24 +1077,6 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "179aa720-f99f-4b3a-baca-768f726f9208"
-
-2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-    type: "Invoice Item"
-    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
-    referenceNo: "1167"
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-    type: "Invoice"
-    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
 
 2025-11-12 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1503 #101d0c13-d598-488c-b0f3-9bfd76dc4518 179aa720-f99f-4b3a-baca-768f726f9208"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.000000 HKD
@@ -2057,6 +2057,28 @@
     orderContact: "852 64128618 (WINGHONGLEUNG梁永康) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
     contact: "852 64128618 (WINGHONGLEUNG梁永康) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
 
+2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  referenceNo: "1505"
+  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+  orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+  type: "Bill"
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill Item"
+    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  -250.000000 HKD
+    referenceNo: "1505"
+    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+    orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
+    type: "Bill"
+    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
+
 2025-11-24 * "Bill #1506 嚴丹鳳代鑲石 合併 84137cd3-5ee7-410f-94e3-019de563cc34"
   referenceNo: "1506"
   orderId: "84137cd3-5ee7-410f-94e3-019de563cc34"
@@ -2087,28 +2109,6 @@
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "84137cd3-5ee7-410f-94e3-019de563cc34"
-
-2025-11-24 * "Bill #1505 ref INV#1169(855) 手鏈改短 4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  referenceNo: "1505"
-  orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-  orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-  type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyCost-ProcessingFee  250.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-    type: "Bill Item"
-    sourceId: "46d557cf-78d2-4738-9678-ebcc058a3767"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  -250.000000 HKD
-    referenceNo: "1505"
-    orderId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
-    orderContact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-    contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
-    type: "Bill"
-    sourceId: "4895491b-83b4-4fe4-95de-6e0db98c37aa"
 
 2025-11-24 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill #1505 #47323968-9a8c-4f44-821e-b81715051940 4895491b-83b4-4fe4-95de-6e0db98c37aa"
   Assets:CurrentAssets:Cash:G17ShopCash  -250.000000 HKD
@@ -2207,6 +2207,35 @@
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     description: ""
 
+2025-11-25 * "Bill #1508 BOC VISA Card - Sam 11月 2025 5f372806-dff5-45c9-bc60-192d5b859427"
+  referenceNo: "1508"
+  orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  8416.980000 HKD
+    qty: "1"
+    description: "Milways Gold Ltd  - 淘寶雜項"
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "01a4cc69-0e0f-4b36-9477-e8ad632fc070"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  20860.410000 HKD
+    qty: "1"
+    description: "Milways Factory Ltd - 淘寶雜項"
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "e1124f70-e5fe-4707-a6f7-15557a98e33d"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -29277.390000 HKD
+    referenceNo: "1508"
+    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "5f372806-dff5-45c9-bc60-192d5b859427"
+
 2025-11-25 * "Bill #1509 BOC VISA Card - David 11月 2025 b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
   referenceNo: "1509"
   orderId: "b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
@@ -2291,35 +2320,6 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "b65b7b33-37d8-4c94-b6dc-a537e9bfab4a"
-
-2025-11-25 * "Bill #1508 BOC VISA Card - Sam 11月 2025 5f372806-dff5-45c9-bc60-192d5b859427"
-  referenceNo: "1508"
-  orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  type: "Bill"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  8416.980000 HKD
-    qty: "1"
-    description: "Milways Gold Ltd  - 淘寶雜項"
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Item"
-    sourceId: "01a4cc69-0e0f-4b36-9477-e8ad632fc070"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  20860.410000 HKD
-    qty: "1"
-    description: "Milways Factory Ltd - 淘寶雜項"
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill Item"
-    sourceId: "e1124f70-e5fe-4707-a6f7-15557a98e33d"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -29277.390000 HKD
-    referenceNo: "1508"
-    orderId: "5f372806-dff5-45c9-bc60-192d5b859427"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    type: "Bill"
-    sourceId: "5f372806-dff5-45c9-bc60-192d5b859427"
 
 2025-11-25 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1508 #5c846e75-efc8-44b9-be3a-159b920d00cc 5f372806-dff5-45c9-bc60-192d5b859427"
   Assets:CurrentAssets:Bank:BocVisaCard-SamBank  -29277.390000 HKD
@@ -2801,20 +2801,6 @@
     description: ""
     contact: "852 65798624 (BonnyWang) [c8fc8421-1d8c-4248-b7f8-ce264f9ece55]"
 
-2025-11-30 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 11/2025"
-  Assets:CurrentAssets:Bank:BocForeignBank  0.110000 USD {7.8 HKD}
-    type: "MJ"
-    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    referenceNo: "2349"
-    description: "NTEREST - BOC Foreign 11/2025 (Item #1)"
-  Income:OtherIncome:Interest-bank   -0.858000 HKD
-    type: "MJ"
-    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
-    referenceNo: "2349"
-    description: "NTEREST - BOC Foreign 11/2025 (Item #2)"
-
 2025-11-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 11/2025"
   Income:OtherIncome:Interest-bank  -0.860000 HKD
     type: "MJ"
@@ -2828,6 +2814,20 @@
     orderId: "69e811c7-d170-4981-ba9e-bb87dc1fb76f"
     referenceNo: "2348"
     description: "NTEREST - BOC SAV 11/2025 (Item #2)"
+
+2025-11-30 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 11/2025"
+  Assets:CurrentAssets:Bank:BocForeignBank  0.110000 USD {7.8 HKD}
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025 (Item #1)"
+  Income:OtherIncome:Interest-bank   -0.858000 HKD
+    type: "MJ"
+    sourceId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    orderId: "79d1cfc7-dd5e-4b8f-91b3-fcbe74f46be8"
+    referenceNo: "2349"
+    description: "NTEREST - BOC Foreign 11/2025 (Item #2)"
 
 2025-11-30 * " Cash金料USD>USDT金料 Nov ID: 3ba4ddce-8ec9-4db9-b14e-3043038c008f"
   Assets:CurrentAssets:Cash:Cash金料  -1023700.000000 USD {7.8 HKD}

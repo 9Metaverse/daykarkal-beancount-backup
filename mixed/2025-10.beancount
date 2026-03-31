@@ -555,6 +555,20 @@
     sourceId: "be03acdd-d47d-4a62-95da-406675b7ed9a"
     contact: "852 67177273 (MR.Chung) [d4ede0de-055e-4a6d-8e5a-92040419284f]"
 
+2025-10-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 285"
+  Assets:CurrentAssets:Bank:KpayBank  -3545.000000 HKD
+    type: "MJ"
+    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    referenceNo: "1594"
+    description: "kpay 285 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  3545.000000 HKD
+    type: "MJ"
+    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
+    referenceNo: "1594"
+    description: "kpay 285 (Item #2)"
+
 2025-10-08 * "Bill #1496 卓遠 DKK NAR1 (25-26) fe0e8481-8a63-4280-85ec-e07f6c03441e"
   referenceNo: "1496"
   orderId: "fe0e8481-8a63-4280-85ec-e07f6c03441e"
@@ -583,20 +597,6 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "fe0e8481-8a63-4280-85ec-e07f6c03441e"
-
-2025-10-08 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 285"
-  Assets:CurrentAssets:Bank:KpayBank  -3545.000000 HKD
-    type: "MJ"
-    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    referenceNo: "1594"
-    description: "kpay 285 (Item #1)"
-  Assets:CurrentAssets:Bank:BocSavingBank  3545.000000 HKD
-    type: "MJ"
-    sourceId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    orderId: "4b70b920-bba0-4a20-b971-0163dc938b5f"
-    referenceNo: "1594"
-    description: "kpay 285 (Item #2)"
 
 2025-10-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1496 #411cca91-5a4e-4f53-a218-918b5e4fdb11 fe0e8481-8a63-4280-85ec-e07f6c03441e"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
@@ -826,23 +826,6 @@
     orderContact: "86 97978678 (ERIC) [cb2cbf18-d8c3-40eb-a388-d7234ea70615]"
     description: ""
 
-2025-10-14 * "Reservation Delivery R#GR2025101400021S D#D20251014004"
-  rsv-ref: "GR2025101400021S"
-  del-ref: "D20251014004"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -51613.430000 USDT {7.79 HKD}
-    type: "Reservation Delivery"
-    referenceNo: "D20251014004"
-    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
-    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
-    orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-  Assets:CurrentAssets:Inventory:Gold:Gold-In-Stock  386.760000 XAU { }
-    type: "Reservation Delivery"
-    referenceNo: "D20251014004"
-    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
-    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
-    orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-
 2025-10-14 * "Reservation Delivery R#GR2025101400025S D#D20251014010"
   rsv-ref: "GR2025101400025S"
   del-ref: "D20251014010"
@@ -859,6 +842,23 @@
     sourceId: "faa01f72-84f4-4986-a6a4-76c60fceaf7f"
     orderId: "5c3a5ad0-441f-44c9-9db4-3def2a6f0abb"
     orderContact: "852 92279798 (MINGYUKHO) [d5f4490e-3279-4fba-b304-baf49c80087c]"
+
+2025-10-14 * "Reservation Delivery R#GR2025101400021S D#D20251014004"
+  rsv-ref: "GR2025101400021S"
+  del-ref: "D20251014004"
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-milwaysGoldLtd萬寶黄金有限公司85262244422  -51613.430000 USDT {7.79 HKD}
+    type: "Reservation Delivery"
+    referenceNo: "D20251014004"
+    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
+    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
+    orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+    contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
+  Assets:CurrentAssets:Inventory:Gold:Gold-In-Stock  386.760000 XAU { }
+    type: "Reservation Delivery"
+    referenceNo: "D20251014004"
+    sourceId: "02db4793-f32f-4667-baa6-338515e397ea"
+    orderId: "169bc844-e1a5-486e-a047-aa6999b5b4b7"
+    orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-10-14 * "Reservation Payment R#GR2025101400022B P#P20251014005"
   rsv-ref: "GR2025101400022B"
