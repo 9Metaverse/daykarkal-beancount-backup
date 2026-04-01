@@ -368,13 +368,35 @@
     orderContact: "998 12345699 (DDL-DARSHDIAMLIMITED) [034cfca4-684f-4283-a068-b29549f5cbf8]"
     type: "Bill Item"
     sourceId: "2fb6c162-eb69-47c3-bbe4-2d4da523f22d"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-ddl-DarshDiamLimited99812345699  -64200.000000 HKD
+  Expenses:GeneralExpense:BankFeesExpense  5.000000 HKD
+    qty: "1"
+    description: "bank fee"
+    referenceNo: "1567"
+    orderId: "53d90b59-1672-4f3b-8fdc-ee6975803b6a"
+    orderContact: "998 12345699 (DDL-DARSHDIAMLIMITED) [034cfca4-684f-4283-a068-b29549f5cbf8]"
+    type: "Bill Item"
+    sourceId: "74f89551-85cb-4153-be50-99d7779699b2"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-ddl-DarshDiamLimited99812345699  -64205.000000 HKD
     referenceNo: "1567"
     orderId: "53d90b59-1672-4f3b-8fdc-ee6975803b6a"
     orderContact: "998 12345699 (DDL-DARSHDIAMLIMITED) [034cfca4-684f-4283-a068-b29549f5cbf8]"
     contact: "998 12345699 (DDL-DARSHDIAMLIMITED) [034cfca4-684f-4283-a068-b29549f5cbf8]"
     type: "Bill"
     sourceId: "53d90b59-1672-4f3b-8fdc-ee6975803b6a"
+
+2026-03-16 * "Assets:CurrentAssets:Bank:BocSavingBank" "Milways Gold Limited 償還代支付淘寶雜項費用"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -300000.000000 HKD
+    type: "MJ"
+    sourceId: "73064984-0d4c-460f-b903-fb52803951ac"
+    orderId: "73064984-0d4c-460f-b903-fb52803951ac"
+    referenceNo: "3277"
+    description: "Milways Gold Limited 償還代支付淘寶雜項費用 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  300000.000000 HKD
+    type: "MJ"
+    sourceId: "73064984-0d4c-460f-b903-fb52803951ac"
+    orderId: "73064984-0d4c-460f-b903-fb52803951ac"
+    referenceNo: "3277"
+    description: "Milways Gold Limited 償還代支付淘寶雜項費用 (Item #2)"
 
 2026-03-16 * "Invoice #1211 Stock~ BN2539 CHU KA LAN +852 94054910 cb55710e-1995-4d7b-9b57-44d1e9bfd9b0"
   Income:Sales:SalesItem:Sell18kJewelry  -4000.000000 HKD
