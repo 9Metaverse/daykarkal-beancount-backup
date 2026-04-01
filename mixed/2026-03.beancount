@@ -473,6 +473,20 @@
     description: "MC #031626000006"
     contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
+2026-03-16 * "Assets:CurrentAssets:Bank:BocVisaCard-SamBank" "BANK TRANSFER from BOC -saving to SAM VISA"
+  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  40000.000000 HKD
+    type: "MJ"
+    sourceId: "517a82bb-f0e8-4977-9443-f0ab1b714a98"
+    orderId: "517a82bb-f0e8-4977-9443-f0ab1b714a98"
+    referenceNo: "3278"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+    type: "MJ"
+    sourceId: "517a82bb-f0e8-4977-9443-f0ab1b714a98"
+    orderId: "517a82bb-f0e8-4977-9443-f0ab1b714a98"
+    referenceNo: "3278"
+    description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #2)"
+
 2026-03-16 * "Invoice #1212 戒指改size 96ff984a-604c-4ed2-b69a-db3a176c943c"
   Income:Sales:SalesItem:SellBespokeorotherFee  -350.000000 HKD
     category: "Other"
@@ -570,6 +584,20 @@
     sourceId: "4453ebcd-5f43-40e1-bab5-70b0a99413d4"
     contact: "852 69023871 (梁健勳) [1bf918bd-f6fc-46d2-98b3-860298a6d6f8]"
 
+2026-03-17 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 317"
+  Assets:CurrentAssets:Bank:KpayBank  -81360.000000 HKD
+    type: "MJ"
+    sourceId: "c3696232-83f0-45b9-9eb2-508800879806"
+    orderId: "c3696232-83f0-45b9-9eb2-508800879806"
+    referenceNo: "3279"
+    description: "kpay 317 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  81360.000000 HKD
+    type: "MJ"
+    sourceId: "c3696232-83f0-45b9-9eb2-508800879806"
+    orderId: "c3696232-83f0-45b9-9eb2-508800879806"
+    referenceNo: "3279"
+    description: "kpay 317 (Item #2)"
+
 2026-03-17 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Inventory Bill Payment for Bill #IB20260317003 #582fd3d1-b315-4c89-977a-06c1b822adc8 464e58f4-3b20-4293-b1dc-7c9b7a91bd16"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -107088.000000 HKD
     type: "INVENTORY_BILL_PAYMENT"
@@ -637,6 +665,20 @@
     orderId: "4453ebcd-5f43-40e1-bab5-70b0a99413d4"
     orderContact: "852 69023871 (梁健勳) [1bf918bd-f6fc-46d2-98b3-860298a6d6f8]"
     contact: "852 69023871 (梁健勳) [1bf918bd-f6fc-46d2-98b3-860298a6d6f8]"
+
+2026-03-18 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 318"
+  Assets:CurrentAssets:Bank:KpayBank  -3939.000000 HKD
+    type: "MJ"
+    sourceId: "9ca27b80-80b2-4ae3-b43a-66666bc2c317"
+    orderId: "9ca27b80-80b2-4ae3-b43a-66666bc2c317"
+    referenceNo: "3280"
+    description: "kpay 318 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  3939.000000 HKD
+    type: "MJ"
+    sourceId: "9ca27b80-80b2-4ae3-b43a-66666bc2c317"
+    orderId: "9ca27b80-80b2-4ae3-b43a-66666bc2c317"
+    referenceNo: "3280"
+    description: "kpay 318 (Item #2)"
 
 2026-03-18 * "INVENTORY_INVOICE #II20260318001 test 3d69c71d-7c43-40f7-ae21-7358dcc47259"
   Income:Sales:Sales-silver  -119000.000000 HKD
@@ -969,10 +1011,24 @@
     description: ""
     contact: "852 65753538 (MrSyrusCheung) [3b702c06-0f4c-4770-a4e7-48b4c13e1993]"
 
+2026-03-24 * "Assets:CurrentAssets:Bank:BocCurrentBank" "Bank Transfer : BOC -saving to BOC - current"
+  Assets:CurrentAssets:Bank:BocCurrentBank  50000.000000 HKD
+    type: "MJ"
+    sourceId: "26f92670-a38d-4694-948d-f6a66a5e674d"
+    orderId: "26f92670-a38d-4694-948d-f6a66a5e674d"
+    referenceNo: "3281"
+    description: "Bank Transfer : BOC -saving to BOC - current (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -50000.000000 HKD
+    type: "MJ"
+    sourceId: "26f92670-a38d-4694-948d-f6a66a5e674d"
+    orderId: "26f92670-a38d-4694-948d-f6a66a5e674d"
+    referenceNo: "3281"
+    description: "Bank Transfer : BOC -saving to BOC - current (Item #2)"
+
 2026-03-24 * "Bill #1571 2.01CT*2 Lab Diamond c6c9b8cb-3894-445d-91c8-3372cdf64721"
   referenceNo: "1571"
   orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-  orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+  orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   type: "Bill"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2002.500000 HKD
     category: "Diamonds/Gems/Others (For Bespoke)"
@@ -980,7 +1036,7 @@
     qty: "1"
     referenceNo: "1571"
     orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-    orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Item"
     sourceId: "2dc04743-b934-43de-ad60-f5135b407f9a"
   Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  2002.500000 HKD
@@ -989,33 +1045,16 @@
     qty: "1"
     referenceNo: "1571"
     orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-    orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill Item"
     sourceId: "b5ff65ba-b38e-4d20-b434-f407034ad8e6"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jayviHkLimited917990120567  -4005.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -4005.000000 HKD
     referenceNo: "1571"
     orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-    orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
-    contact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-
-2026-03-24 * "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]" "Bill Payment for Bill #1571 #e26acbbe-8089-4dc9-99be-5481f58aefa5 c6c9b8cb-3894-445d-91c8-3372cdf64721"
-  Assets:CurrentAssets:Bank:BocSavingBank  -1000.000000 HKD
-    type: "Bill Payment"
-    sourceId: "e26acbbe-8089-4dc9-99be-5481f58aefa5"
-    referenceNo: "1571"
-    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-    orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
-    description: ""
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-jayviHkLimited917990120567  1000.000000 HKD
-    contact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
-    type: "Bill Payment"
-    sourceId: "e26acbbe-8089-4dc9-99be-5481f58aefa5"
-    referenceNo: "1571"
-    orderId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
-    orderContact: "91 7990120567 (JAYVI(HK)LIMITED) [6b5408a4-8e07-4075-9d6a-ffd359e123a6]"
-    description: ""
 
 2026-03-24 * "INVENTORY_INVOICE #II20260324001 AA43515 c40f0a11-111f-4fbc-8d17-05eac8245770"
   Income:Sales:Sales-silver  -88373.000000 HKD
@@ -1271,6 +1310,23 @@
     orderContact: "852 268858968 (Wendytest) [41bfe7e1-e107-4c62-a9f5-182b3b0b94e1]"
     contact: "852 268858968 (Wendytest) [41bfe7e1-e107-4c62-a9f5-182b3b0b94e1]"
 
+2026-03-25 * " ID: 65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+  Assets:CurrentAssets:Bank:BocSavingBank  -29227.440000 HKD
+    type: "Conversion"
+    sourceId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+    referenceNo: "226"
+    orderId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+  Assets:CurrentAssets:Bank:BocCurrentBank  3724.000000 USD {7.8 HKD}
+    type: "Conversion"
+    sourceId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+    referenceNo: "226"
+    orderId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+  Income:FXGainOrLoss
+    type: "Conversion"
+    sourceId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+    referenceNo: "226"
+    orderId: "65adfbe3-57bd-4e66-97c2-e9c7543d1e36"
+
 2026-03-25 * "Bill #1573 嚴丹鳳代鑲石 合併 5e1a9884-c2e6-493f-a931-8a6830fa0b47"
   referenceNo: "1573"
   orderId: "5e1a9884-c2e6-493f-a931-8a6830fa0b47"
@@ -1327,6 +1383,20 @@
     orderId: "5e1a9884-c2e6-493f-a931-8a6830fa0b47"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     description: ""
+
+2026-03-26 * "Assets:CurrentAssets:Bank:KpayBank" "kpay 319"
+  Assets:CurrentAssets:Bank:KpayBank  2461.500000 HKD
+    type: "MJ"
+    sourceId: "932c8cf9-577d-4bb9-9189-c98424f54dc2"
+    orderId: "932c8cf9-577d-4bb9-9189-c98424f54dc2"
+    referenceNo: "3282"
+    description: "kpay 319 (Item #1)"
+  Assets:CurrentAssets:Bank:BocSavingBank  -2461.500000 HKD
+    type: "MJ"
+    sourceId: "932c8cf9-577d-4bb9-9189-c98424f54dc2"
+    orderId: "932c8cf9-577d-4bb9-9189-c98424f54dc2"
+    referenceNo: "3282"
+    description: "kpay 319 (Item #2)"
 
 2026-03-26 * "Invoice #1218 MEMO No.0686 11PCS LAB DIAMOND consign買斷 a8fdbff4-2c12-46c4-9225-c6f187b040e9"
   Expenses:CostOfSales:Purchase:PurchaseReturn  0.000000 HKD
