@@ -1252,7 +1252,16 @@
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     type: "Invoice Item"
     sourceId: "c6ff4878-cab3-4eca-99ef-1b8ada10fa45"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  4400.000000 HKD
+  Income:Sales:SalesItem:SellGems  -3600.000000 HKD
+    category: "Gem"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1226"
+    orderId: "31790563-2be6-4971-b65a-091b30e51689"
+    orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
+    type: "Invoice Item"
+    sourceId: "a22abf8e-880c-473c-8a33-d69c5366e48c"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  8000.000000 HKD
     referenceNo: "1226"
     orderId: "31790563-2be6-4971-b65a-091b30e51689"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
@@ -1351,3 +1360,21 @@
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     description: ""
     contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
+
+2026-04-16 * "Assets:CurrentAssets:Bank:AeBank" "Invoice Payment for Invoice #1226 #4fc87823-deb1-46de-9c15-80270c54ffd0 31790563-2be6-4971-b65a-091b30e51689"
+  Assets:CurrentAssets:Bank:AeBank  8000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
+    referenceNo: "1226"
+    orderId: "31790563-2be6-4971-b65a-091b30e51689"
+    orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
+    description: ""
+    contact: ""
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  -8000.000000 HKD
+    type: "Invoice Payment"
+    sourceId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
+    referenceNo: "1226"
+    orderId: "31790563-2be6-4971-b65a-091b30e51689"
+    orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
+    description: ""
+    contact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
