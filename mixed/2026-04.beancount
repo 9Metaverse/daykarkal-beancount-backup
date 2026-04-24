@@ -1311,6 +1311,44 @@
     orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     description: ""
 
+2026-04-13 * "Bill #1598 3月2026年MPF 3a7abde8-2431-409f-b46c-8320748108bb"
+  referenceNo: "1598"
+  orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  type: "Bill"
+  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+    qty: "1"
+    description: "3月2026年MPF"
+    referenceNo: "1598"
+    orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Item"
+    sourceId: "6f37dc42-b8d5-4963-a87c-046bd86bd31b"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    referenceNo: "1598"
+    orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "3a7abde8-2431-409f-b46c-8320748108bb"
+
+2026-04-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill #1598 #e9a16638-184f-46b3-90b6-1fa2a15db526 3a7abde8-2431-409f-b46c-8320748108bb"
+  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+    type: "Bill Payment"
+    sourceId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
+    referenceNo: "1598"
+    orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "3月2026年MPF"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  7500.000000 HKD
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill Payment"
+    sourceId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
+    referenceNo: "1598"
+    orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "3月2026年MPF"
+
 2026-04-14 * "Invoice #1225 Bespoke 18K Earrings Setting dc2acfa0-c7df-45cc-9b4f-aacfb373e612"
   Income:Sales:SalesItem:Sell18kJewelry  -3600.000000 HKD
     description: "Bespoke 18K Earrings Setting 2.00ct"
