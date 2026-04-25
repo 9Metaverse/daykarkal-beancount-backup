@@ -1,12 +1,13 @@
 ; Mixed transactions for 2022-02 (FY 2022)
 
-2022-02-06 * "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]" "Deposit D#CD20220206001"
+2022-02-06 * "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]" "Client Deposit D#CD20220206001"
   Assets:CurrentAssets:Cash:CashInHand  2100.000000 HKD
     type: "Deposit"
     sourceId: "badf1204-6b19-4dc5-8817-b7dc5689ba07"
     orderId: "badf1204-6b19-4dc5-8817-b7dc5689ba07"
     orderContact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
     referenceNo: "CD20220206001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220207001"
@@ -19,6 +20,7 @@
     orderId: "badf1204-6b19-4dc5-8817-b7dc5689ba07"
     orderContact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
     referenceNo: "CD20220206001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220207001"
@@ -32,6 +34,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "82"
+    parentReferenceNo: ""
     orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
     orderContact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
     dateTs: "1644163200000"
@@ -40,6 +43,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWongMatch85260276419  2100.000000 HKD
     referenceNo: "82"
+    parentReferenceNo: ""
     orderId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
     orderContact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
     dateTs: "1644163200000"
@@ -52,7 +56,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWongMatch85260276419  2100.000000 HKD
     type: "Payment"
     sourceId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
-    referenceNo: 82
+    referenceNo: "IP20220207001"
+    parentReferenceNo: 82
     orderId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
     parentId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
     parentType: "Invoice"
@@ -64,7 +69,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWongMatch85260276419  -2100.000000 HKD
     type: "Payment"
     sourceId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
-    referenceNo: 82
+    referenceNo: "IP20220207001"
+    parentReferenceNo: 82
     orderId: "9cb9d27f-f175-4116-acff-b5bdc9badc50"
     parentId: "045fdf19-2cd8-409d-836d-55d73715c9fc"
     parentType: "Invoice"
@@ -74,13 +80,14 @@
     contact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
     accountId: "dc88053d-d993-44a7-a41a-3fbf302db1b9"
 
-2022-02-07 * "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]" "Deposit D#CD20220207002"
+2022-02-07 * "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]" "Client Deposit D#CD20220207002"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  3750.000000 HKD
     type: "Deposit"
     sourceId: "2542f7bf-6f34-4cc3-8a74-f7b8c819eba6"
     orderId: "2542f7bf-6f34-4cc3-8a74-f7b8c819eba6"
     orderContact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     referenceNo: "CD20220207002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220208003"
@@ -93,6 +100,7 @@
     orderId: "2542f7bf-6f34-4cc3-8a74-f7b8c819eba6"
     orderContact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     referenceNo: "CD20220207002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220208003"
@@ -100,13 +108,14 @@
     contact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     accountId: "e94edfc4-f9c5-4601-9cf8-8f218d165e14"
 
-2022-02-07 * "852 95001836 (MrHoLam) [bbdb6572-6747-437c-ab69-43a230072e5e]" "Deposit D#CD20220207001"
+2022-02-07 * "852 95001836 (MrHoLam) [bbdb6572-6747-437c-ab69-43a230072e5e]" "Client Deposit D#CD20220207001"
   Assets:CurrentAssets:Cash:CashInHand  1340.000000 HKD
     type: "Deposit"
     sourceId: "635c9a3f-8ba6-499e-904a-85293a29b255"
     orderId: "635c9a3f-8ba6-499e-904a-85293a29b255"
     orderContact: "852 95001836 (MrHoLam) [bbdb6572-6747-437c-ab69-43a230072e5e]"
     referenceNo: "CD20220207001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220208002"
@@ -119,6 +128,7 @@
     orderId: "635c9a3f-8ba6-499e-904a-85293a29b255"
     orderContact: "852 95001836 (MrHoLam) [bbdb6572-6747-437c-ab69-43a230072e5e]"
     referenceNo: "CD20220207001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220208002"
@@ -132,6 +142,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "83"
+    parentReferenceNo: ""
     orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
     orderContact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     dateTs: "1644249600000"
@@ -140,6 +151,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-ernest85262220524  3750.530000 HKD
     referenceNo: "83"
+    parentReferenceNo: ""
     orderId: "d03a5659-8907-4464-8fdf-a33efebca16d"
     orderContact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     dateTs: "1644249600000"
@@ -152,7 +164,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoLam85295001836  1340.000000 HKD
     type: "Payment"
     sourceId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
-    referenceNo: 79
+    referenceNo: "IP20220208002"
+    parentReferenceNo: 79
     orderId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
     parentId: "e631bca7-cfc8-44bf-b64a-1e6328271c7a"
     parentType: "Invoice"
@@ -164,7 +177,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHoLam85295001836  -1340.000000 HKD
     type: "Payment"
     sourceId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
-    referenceNo: 79
+    referenceNo: "IP20220208002"
+    parentReferenceNo: 79
     orderId: "885f4901-bed5-4c5a-ac61-60e9759615fc"
     parentId: "e631bca7-cfc8-44bf-b64a-1e6328271c7a"
     parentType: "Invoice"
@@ -178,7 +192,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-Ernest85262220524  3750.000000 HKD
     type: "Payment"
     sourceId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
-    referenceNo: 83
+    referenceNo: "IP20220208003"
+    parentReferenceNo: 83
     orderId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
     parentId: "d03a5659-8907-4464-8fdf-a33efebca16d"
     parentType: "Invoice"
@@ -190,7 +205,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-ernest85262220524  -3750.000000 HKD
     type: "Payment"
     sourceId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
-    referenceNo: 83
+    referenceNo: "IP20220208003"
+    parentReferenceNo: 83
     orderId: "cc839736-c987-48c8-80ad-d6820ed2b3f1"
     parentId: "d03a5659-8907-4464-8fdf-a33efebca16d"
     parentType: "Invoice"
@@ -200,13 +216,14 @@
     contact: "852 62220524 (ERNEST) [0252d024-757a-46e6-9a23-b671aa90dc5c]"
     accountId: "e61ffa8e-4a80-4cc7-acc1-c556fe9441c5"
 
-2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Deposit D#CD20220211003"
+2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Client Deposit D#CD20220211003"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  6000.000000 HKD
     type: "Deposit"
     sourceId: "96e57f3d-9299-4a91-8fa0-55c2bdc5b3a6"
     orderId: "96e57f3d-9299-4a91-8fa0-55c2bdc5b3a6"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212004"
@@ -219,6 +236,7 @@
     orderId: "96e57f3d-9299-4a91-8fa0-55c2bdc5b3a6"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212004"
@@ -226,13 +244,14 @@
     contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     accountId: "be2ad66c-c9a9-49e4-881c-ddc75527c523"
 
-2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Deposit D#CD20220211001"
+2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Client Deposit D#CD20220211001"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  5000.000000 HKD
     type: "Deposit"
     sourceId: "dba5e65f-9ac3-4ed4-aecd-3cc01c5d98b4"
     orderId: "dba5e65f-9ac3-4ed4-aecd-3cc01c5d98b4"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212002"
@@ -245,6 +264,7 @@
     orderId: "dba5e65f-9ac3-4ed4-aecd-3cc01c5d98b4"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212002"
@@ -252,13 +272,14 @@
     contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     accountId: "be2ad66c-c9a9-49e4-881c-ddc75527c523"
 
-2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Deposit D#CD20220211002"
+2022-02-11 * "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]" "Client Deposit D#CD20220211002"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  12000.000000 HKD
     type: "Deposit"
     sourceId: "c3e1032d-fcc8-4e45-9247-bd9cbd6317fa"
     orderId: "c3e1032d-fcc8-4e45-9247-bd9cbd6317fa"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212003"
@@ -271,6 +292,7 @@
     orderId: "c3e1032d-fcc8-4e45-9247-bd9cbd6317fa"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     referenceNo: "CD20220211002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220212003"
@@ -284,6 +306,7 @@
     sku: "DDFFFFFF0B00000000000030"
     qty: "1"
     referenceNo: "84"
+    parentReferenceNo: ""
     orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     dateTs: "1644595200000"
@@ -295,6 +318,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "84"
+    parentReferenceNo: ""
     orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     dateTs: "1644595200000"
@@ -303,6 +327,7 @@
     accountId: "9cf4a9d7-1e40-4e5b-a3d6-eda271facd38"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  23000.600000 HKD
     referenceNo: "84"
+    parentReferenceNo: ""
     orderId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     orderContact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     dateTs: "1644595200000"
@@ -315,7 +340,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MsSally85293865330  6000.000000 HKD
     type: "Payment"
     sourceId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
-    referenceNo: 84
+    referenceNo: "IP20220212004"
+    parentReferenceNo: 84
     orderId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -327,7 +353,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  -6000.000000 HKD
     type: "Payment"
     sourceId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
-    referenceNo: 84
+    referenceNo: "IP20220212004"
+    parentReferenceNo: 84
     orderId: "cd317673-79a8-44b8-8ab5-c2db652b62d7"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -341,7 +368,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MsSally85293865330  5000.000000 HKD
     type: "Payment"
     sourceId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
-    referenceNo: 84
+    referenceNo: "IP20220212002"
+    parentReferenceNo: 84
     orderId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -353,7 +381,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  -5000.000000 HKD
     type: "Payment"
     sourceId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
-    referenceNo: 84
+    referenceNo: "IP20220212002"
+    parentReferenceNo: 84
     orderId: "05d92e61-c319-4545-a4e5-a23d41ab0a24"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -367,7 +396,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MsSally85293865330  12000.000000 HKD
     type: "Payment"
     sourceId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
-    referenceNo: 84
+    referenceNo: "IP20220212003"
+    parentReferenceNo: 84
     orderId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -379,7 +409,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-msSally85293865330  -12000.000000 HKD
     type: "Payment"
     sourceId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
-    referenceNo: 84
+    referenceNo: "IP20220212003"
+    parentReferenceNo: 84
     orderId: "ed825514-bbab-4013-acfc-9e3f8e4b8ec8"
     parentId: "fbb7d8bc-083d-4f96-bf50-cd96714e08af"
     parentType: "Invoice"
@@ -389,13 +420,14 @@
     contact: "852 93865330 (MS.SALLY) [32740512-4737-4dce-b9e4-5a38a4e27bba]"
     accountId: "783df677-bd9b-443b-b9ca-29e6bee22275"
 
-2022-02-13 * "852 62872786 (MR.LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]" "Deposit D#CD20220213001"
+2022-02-13 * "852 62872786 (MR.LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]" "Client Deposit D#CD20220213001"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  4500.000000 HKD
     type: "Deposit"
     sourceId: "7609afd3-bead-413c-9c67-bcf3b287bba9"
     orderId: "7609afd3-bead-413c-9c67-bcf3b287bba9"
     orderContact: "852 62872786 (MR.LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]"
     referenceNo: "CD20220213001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220214001"
@@ -408,6 +440,7 @@
     orderId: "7609afd3-bead-413c-9c67-bcf3b287bba9"
     orderContact: "852 62872786 (MR.LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]"
     referenceNo: "CD20220213001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20220214001"
@@ -419,7 +452,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrLeo85262872786  4500.000000 HKD
     type: "Payment"
     sourceId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
-    referenceNo: 69
+    referenceNo: "IP20220214001"
+    parentReferenceNo: 69
     orderId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
     parentId: "bbbeed00-3cff-4af2-8198-6cda2ef6b23b"
     parentType: "Invoice"
@@ -431,7 +465,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrLeo85262872786  -4500.000000 HKD
     type: "Payment"
     sourceId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
-    referenceNo: 69
+    referenceNo: "IP20220214001"
+    parentReferenceNo: 69
     orderId: "c5a90e02-53af-4aaa-96bf-ed67fd88c4b8"
     parentId: "bbbeed00-3cff-4af2-8198-6cda2ef6b23b"
     parentType: "Invoice"
@@ -441,13 +476,14 @@
     contact: "852 62872786 (MR.LEO) [4e19bbb6-d82f-484b-b38b-dc32e8f5798d]"
     accountId: "be6d06f2-fe2a-4d14-83e7-c33cb1333e58"
 
-2022-02-16 * "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]" "Deposit D#CD20220216001"
+2022-02-16 * "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]" "Trade Deposit D#CD20220216001"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -185000.000000 HKD
     type: "Deposit"
     sourceId: "87a0076e-bd3a-4b26-8e3e-63ff2b24269d"
     orderId: "87a0076e-bd3a-4b26-8e3e-63ff2b24269d"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     referenceNo: "CD20220216001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20220217001"
@@ -460,6 +496,7 @@
     orderId: "87a0076e-bd3a-4b26-8e3e-63ff2b24269d"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     referenceNo: "CD20220216001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20220217001"
@@ -469,6 +506,7 @@
 
 2022-02-17 * "Bill #70 15 pcs og GEMS aefce75c-164e-4ec3-bee6-4554004e3f0e"
   referenceNo: "70"
+  parentReferenceNo: ""
   orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
   orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
   dateTs: "1645027200000"
@@ -478,6 +516,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -489,6 +528,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -500,6 +540,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -511,6 +552,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -522,6 +564,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -533,6 +576,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -544,6 +588,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -555,6 +600,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -566,6 +612,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -577,6 +624,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -588,6 +636,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -599,6 +648,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -610,6 +660,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -621,6 +672,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -632,6 +684,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -640,6 +693,7 @@
     accountId: "162c4685-6cf2-47c0-9854-f374d05a7cd5"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-fathimaGems99812345711  -185000.000000 HKD
     referenceNo: "70"
+    parentReferenceNo: ""
     orderId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     orderContact: "998 12345711 (FathimaGems) [25e7ee45-aa94-43a2-b299-287c6c0d6677]"
     dateTs: "1645027200000"
@@ -652,7 +706,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-fathimaGems99812345711  185000.000000 HKD
     type: "Payment"
     sourceId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
-    referenceNo: 70
+    referenceNo: "BP20220217001"
+    parentReferenceNo: 70
     orderId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
     parentId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     parentType: "Bill"
@@ -664,7 +719,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-FathimaGems99812345711  -185000.000000 HKD
     type: "Payment"
     sourceId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
-    referenceNo: 70
+    referenceNo: "BP20220217001"
+    parentReferenceNo: 70
     orderId: "fff687b3-326e-4cf0-95e0-76235ec763a7"
     parentId: "aefce75c-164e-4ec3-bee6-4554004e3f0e"
     parentType: "Bill"
@@ -676,6 +732,7 @@
 
 2022-02-18 * "Bill #615 SI-10202 ad79bb81-992b-49ad-8ecf-db40b28f6357"
   referenceNo: "615"
+  parentReferenceNo: ""
   orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
   orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
   dateTs: "1645113600000"
@@ -685,6 +742,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "615"
+    parentReferenceNo: ""
     orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     dateTs: "1645113600000"
@@ -693,6 +751,7 @@
     accountId: "f09ea58f-86fb-43bf-b9bd-e43e4a971f0b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -7708.000000 HKD
     referenceNo: "615"
+    parentReferenceNo: ""
     orderId: "ad79bb81-992b-49ad-8ecf-db40b28f6357"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     dateTs: "1645113600000"
@@ -703,6 +762,7 @@
 
 2022-02-22 * "Bill #71 EX00031 4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
   referenceNo: "71"
+  parentReferenceNo: ""
   orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1645459200000"
@@ -711,6 +771,7 @@
     qty: "1"
     description: "323電費(2022-1月)"
     referenceNo: "71"
+    parentReferenceNo: ""
     orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645459200000"
@@ -719,6 +780,7 @@
     accountId: "707e61dc-38f1-43ec-bb20-98d907550150"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -475.000000 HKD
     referenceNo: "71"
+    parentReferenceNo: ""
     orderId: "4b04bc4d-58e0-491d-99f4-bda8689e1dc7"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645459200000"
@@ -729,6 +791,7 @@
 
 2022-02-24 * "Bill #106 EX00030 EX00029 0e45a63c-c2d3-4d6d-bdae-6f174c748454"
   referenceNo: "106"
+  parentReferenceNo: ""
   orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1645632000000"
@@ -737,6 +800,7 @@
     qty: "1"
     description: "323租金(2022-3月) EX00030"
     referenceNo: "106"
+    parentReferenceNo: ""
     orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645632000000"
@@ -747,6 +811,7 @@
     qty: "1"
     description: "323管理費(2022-3月) EX00029"
     referenceNo: "106"
+    parentReferenceNo: ""
     orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645632000000"
@@ -755,6 +820,7 @@
     accountId: "2765f3d6-8b22-47a2-9cf0-0dadc140e12f"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -21048.000000 HKD
     referenceNo: "106"
+    parentReferenceNo: ""
     orderId: "0e45a63c-c2d3-4d6d-bdae-6f174c748454"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645632000000"
@@ -765,6 +831,7 @@
 
 2022-02-27 * "Bill #66 EX00028 efa596f4-8810-48a2-b76d-0d299156ebdb"
   referenceNo: "66"
+  parentReferenceNo: ""
   orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1645891200000"
@@ -773,6 +840,7 @@
     qty: "1"
     description: "323上網(2022-2月)"
     referenceNo: "66"
+    parentReferenceNo: ""
     orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645891200000"
@@ -781,6 +849,7 @@
     accountId: "89f5c159-eb37-493c-802b-2351480afa05"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -380.000000 HKD
     referenceNo: "66"
+    parentReferenceNo: ""
     orderId: "efa596f4-8810-48a2-b76d-0d299156ebdb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1645891200000"

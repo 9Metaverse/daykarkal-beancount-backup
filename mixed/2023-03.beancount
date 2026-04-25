@@ -2,6 +2,7 @@
 
 2023-03-01 * "Bill #627 SI-10356, #175 RESIZE 26dee097-e64c-4848-b1a2-66f896626e74"
   referenceNo: "627"
+  parentReferenceNo: ""
   orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
   orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
   dateTs: "1677600000000"
@@ -11,6 +12,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "627"
+    parentReferenceNo: ""
     orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     dateTs: "1677600000000"
@@ -19,6 +21,7 @@
     accountId: "d3d24466-3e9a-4991-ad91-86d4536da30e"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  -350.000000 HKD
     referenceNo: "627"
+    parentReferenceNo: ""
     orderId: "26dee097-e64c-4848-b1a2-66f896626e74"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     dateTs: "1677600000000"
@@ -29,6 +32,7 @@
 
 2023-03-01 * "Bill #781 323上網(2023-1 / 2 / 3月) e97659d0-e7fa-4eb9-ac43-94719c821ebe"
   referenceNo: "781"
+  parentReferenceNo: ""
   orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1677600000000"
@@ -37,6 +41,7 @@
     qty: "1"
     description: "323上網(2023-1月)"
     referenceNo: "781"
+    parentReferenceNo: ""
     orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677600000000"
@@ -47,6 +52,7 @@
     qty: "1"
     description: "323上網(2023- 2月)"
     referenceNo: "781"
+    parentReferenceNo: ""
     orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677600000000"
@@ -57,6 +63,7 @@
     qty: "1"
     description: "323上網(2023- 3月)"
     referenceNo: "781"
+    parentReferenceNo: ""
     orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677600000000"
@@ -65,6 +72,7 @@
     accountId: "89f5c159-eb37-493c-802b-2351480afa05"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1140.000000 HKD
     referenceNo: "781"
+    parentReferenceNo: ""
     orderId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677600000000"
@@ -77,7 +85,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1140.000000 HKD
     type: "Payment"
     sourceId: "29dd4eab-eedd-4912-85b5-0242162d306e"
-    referenceNo: 781
+    referenceNo: "BP20230301004"
+    parentReferenceNo: 781
     orderId: "29dd4eab-eedd-4912-85b5-0242162d306e"
     parentId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     parentType: "Bill"
@@ -89,7 +98,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -1140.000000 HKD
     type: "Payment"
     sourceId: "29dd4eab-eedd-4912-85b5-0242162d306e"
-    referenceNo: 781
+    referenceNo: "BP20230301004"
+    parentReferenceNo: 781
     orderId: "29dd4eab-eedd-4912-85b5-0242162d306e"
     parentId: "e97659d0-e7fa-4eb9-ac43-94719c821ebe"
     parentType: "Bill"
@@ -99,13 +109,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230301002"
+2023-03-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230301002"
   Assets:CurrentAssets:Bank:BocCurrentBank  -17000.000000 HKD
     type: "Deposit"
     sourceId: "674bf032-035b-4f39-a770-476a8fef7a63"
     orderId: "674bf032-035b-4f39-a770-476a8fef7a63"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230301002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230301005"
@@ -118,6 +129,7 @@
     orderId: "674bf032-035b-4f39-a770-476a8fef7a63"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230301002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230301005"
@@ -127,6 +139,7 @@
 
 2023-03-01 * "Bill #230 323 3月2023 租金 1bab076e-eafd-46b7-8fd3-2e19c61647f7"
   referenceNo: "230"
+  parentReferenceNo: ""
   orderId: "1bab076e-eafd-46b7-8fd3-2e19c61647f7"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1677628800000"
@@ -135,6 +148,7 @@
     qty: "1"
     description: "323 3月2023 租金"
     referenceNo: "230"
+    parentReferenceNo: ""
     orderId: "1bab076e-eafd-46b7-8fd3-2e19c61647f7"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677628800000"
@@ -143,6 +157,7 @@
     accountId: "2765f3d6-8b22-47a2-9cf0-0dadc140e12f"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -17000.000000 HKD
     referenceNo: "230"
+    parentReferenceNo: ""
     orderId: "1bab076e-eafd-46b7-8fd3-2e19c61647f7"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677628800000"
@@ -155,7 +170,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  17000.000000 HKD
     type: "Payment"
     sourceId: "471a77b3-c6b9-46f8-84fe-9247de7e26f7"
-    referenceNo: 230
+    referenceNo: "BP20230301005"
+    parentReferenceNo: 230
     orderId: "471a77b3-c6b9-46f8-84fe-9247de7e26f7"
     parentId: "1bab076e-eafd-46b7-8fd3-2e19c61647f7"
     parentType: "Bill"
@@ -167,7 +183,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -17000.000000 HKD
     type: "Payment"
     sourceId: "471a77b3-c6b9-46f8-84fe-9247de7e26f7"
-    referenceNo: 230
+    referenceNo: "BP20230301005"
+    parentReferenceNo: 230
     orderId: "471a77b3-c6b9-46f8-84fe-9247de7e26f7"
     parentId: "1bab076e-eafd-46b7-8fd3-2e19c61647f7"
     parentType: "Bill"
@@ -177,13 +194,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230301001"
+2023-03-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230301001"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -80.030000 HKD
     type: "Deposit"
     sourceId: "e38da4b4-b878-4b4c-aaf4-b5374c6c24f1"
     orderId: "e38da4b4-b878-4b4c-aaf4-b5374c6c24f1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230301001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230302001"
@@ -196,6 +214,7 @@
     orderId: "e38da4b4-b878-4b4c-aaf4-b5374c6c24f1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230301001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230302001"
@@ -207,7 +226,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  80.030000 HKD
     type: "Payment"
     sourceId: "7f04955b-dfae-4e7b-ba89-0fe07d8f7458"
-    referenceNo: 453
+    referenceNo: "BP20230302001"
+    parentReferenceNo: 453
     orderId: "7f04955b-dfae-4e7b-ba89-0fe07d8f7458"
     parentId: "86b91641-a4c0-4187-8dbf-400c1e50eab3"
     parentType: "Bill"
@@ -219,7 +239,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -80.030000 HKD
     type: "Payment"
     sourceId: "7f04955b-dfae-4e7b-ba89-0fe07d8f7458"
-    referenceNo: 453
+    referenceNo: "BP20230302001"
+    parentReferenceNo: 453
     orderId: "7f04955b-dfae-4e7b-ba89-0fe07d8f7458"
     parentId: "86b91641-a4c0-4187-8dbf-400c1e50eab3"
     parentType: "Bill"
@@ -229,13 +250,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230302002"
+2023-03-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230302002"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -240.080000 HKD
     type: "Deposit"
     sourceId: "3b8ce4ab-d560-4cdf-8808-76ca2192f56a"
     orderId: "3b8ce4ab-d560-4cdf-8808-76ca2192f56a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230302002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230302002"
@@ -248,6 +270,7 @@
     orderId: "3b8ce4ab-d560-4cdf-8808-76ca2192f56a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230302002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230302002"
@@ -257,6 +280,7 @@
 
 2023-03-02 * "Bill #456 CHATFUEL c456631f-1bc1-488d-9acf-02c807041db0"
   referenceNo: "456"
+  parentReferenceNo: ""
   orderId: "c456631f-1bc1-488d-9acf-02c807041db0"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1677700800000"
@@ -265,6 +289,7 @@
     qty: "1"
     description: "CHATFUEL USD10 @8.003"
     referenceNo: "456"
+    parentReferenceNo: ""
     orderId: "c456631f-1bc1-488d-9acf-02c807041db0"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677700800000"
@@ -273,6 +298,7 @@
     accountId: "f943c881-605d-45c7-b4fb-404c37bcdbbb"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -240.080000 HKD
     referenceNo: "456"
+    parentReferenceNo: ""
     orderId: "c456631f-1bc1-488d-9acf-02c807041db0"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677700800000"
@@ -283,6 +309,7 @@
 
 2023-03-02 * "Bill #453 CHATFUEL 86b91641-a4c0-4187-8dbf-400c1e50eab3"
   referenceNo: "453"
+  parentReferenceNo: ""
   orderId: "86b91641-a4c0-4187-8dbf-400c1e50eab3"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1677700800000"
@@ -291,6 +318,7 @@
     qty: "1"
     description: "CHATFUEL USD10 @8.0026667"
     referenceNo: "453"
+    parentReferenceNo: ""
     orderId: "86b91641-a4c0-4187-8dbf-400c1e50eab3"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677700800000"
@@ -299,6 +327,7 @@
     accountId: "f943c881-605d-45c7-b4fb-404c37bcdbbb"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -80.030000 HKD
     referenceNo: "453"
+    parentReferenceNo: ""
     orderId: "86b91641-a4c0-4187-8dbf-400c1e50eab3"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1677700800000"
@@ -311,7 +340,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  240.080000 HKD
     type: "Payment"
     sourceId: "ab32159c-48e6-4c22-b0c6-54cf3156a52b"
-    referenceNo: 456
+    referenceNo: "BP20230302002"
+    parentReferenceNo: 456
     orderId: "ab32159c-48e6-4c22-b0c6-54cf3156a52b"
     parentId: "c456631f-1bc1-488d-9acf-02c807041db0"
     parentType: "Bill"
@@ -323,7 +353,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -240.080000 HKD
     type: "Payment"
     sourceId: "ab32159c-48e6-4c22-b0c6-54cf3156a52b"
-    referenceNo: 456
+    referenceNo: "BP20230302002"
+    parentReferenceNo: 456
     orderId: "ab32159c-48e6-4c22-b0c6-54cf3156a52b"
     parentId: "c456631f-1bc1-488d-9acf-02c807041db0"
     parentType: "Bill"
@@ -333,13 +364,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230302001"
+2023-03-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230302001"
   Assets:CurrentAssets:Bank:BocSavingBank  -410.000000 HKD
     type: "Deposit"
     sourceId: "44e6156d-52bf-4943-8939-89a1785cdaad"
     orderId: "44e6156d-52bf-4943-8939-89a1785cdaad"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230302001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230303001"
@@ -352,6 +384,7 @@
     orderId: "44e6156d-52bf-4943-8939-89a1785cdaad"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230302001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230303001"
@@ -363,7 +396,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  410.000000 HKD
     type: "Payment"
     sourceId: "a2a9f851-a102-434a-b3ab-62fd038803dd"
-    referenceNo: 413
+    referenceNo: "BP20230303001"
+    parentReferenceNo: 413
     orderId: "a2a9f851-a102-434a-b3ab-62fd038803dd"
     parentId: "fad6632b-810d-4150-9065-67fdac0cb08d"
     parentType: "Bill"
@@ -375,7 +409,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -410.000000 HKD
     type: "Payment"
     sourceId: "a2a9f851-a102-434a-b3ab-62fd038803dd"
-    referenceNo: 413
+    referenceNo: "BP20230303001"
+    parentReferenceNo: 413
     orderId: "a2a9f851-a102-434a-b3ab-62fd038803dd"
     parentId: "fad6632b-810d-4150-9065-67fdac0cb08d"
     parentType: "Bill"
@@ -391,6 +426,7 @@
     sourceId: "5cb1457e-5d6d-4cba-bf7b-c9bbd25d0496"
     orderId: "b6274aed-5abe-4d2d-9e8c-d827aa390efa"
     referenceNo: "284"
+    parentReferenceNo: ""
     description: "from BOC - saving to VISA (Item #1)"
     dateTs: "1678132800000"
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
@@ -399,17 +435,19 @@
     sourceId: "6ddd0710-fd97-4eef-aba1-58ecaff97b4c"
     orderId: "b6274aed-5abe-4d2d-9e8c-d827aa390efa"
     referenceNo: "284"
+    parentReferenceNo: ""
     description: "from BOC - saving to VISA (Item #2)"
     dateTs: "1678132800000"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
 
-2023-03-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230308001"
+2023-03-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230308001"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -224.100000 HKD
     type: "Deposit"
     sourceId: "7a08fd7f-b024-4e94-ad46-91d74c52d01e"
     orderId: "7a08fd7f-b024-4e94-ad46-91d74c52d01e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230308001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230308001"
@@ -422,6 +460,7 @@
     orderId: "7a08fd7f-b024-4e94-ad46-91d74c52d01e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230308001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230308001"
@@ -431,6 +470,7 @@
 
 2023-03-08 * "Bill #427 WEBFLOW.COM 6f165594-3557-4872-a3c9-69bec69bdc6e"
   referenceNo: "427"
+  parentReferenceNo: ""
   orderId: "6f165594-3557-4872-a3c9-69bec69bdc6e"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1678219200000"
@@ -439,6 +479,7 @@
     qty: "1"
     description: "WEBFLOW.COM USD28 @8.0035714"
     referenceNo: "427"
+    parentReferenceNo: ""
     orderId: "6f165594-3557-4872-a3c9-69bec69bdc6e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678219200000"
@@ -447,6 +488,7 @@
     accountId: "f943c881-605d-45c7-b4fb-404c37bcdbbb"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -224.100000 HKD
     referenceNo: "427"
+    parentReferenceNo: ""
     orderId: "6f165594-3557-4872-a3c9-69bec69bdc6e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678219200000"
@@ -459,7 +501,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  224.100000 HKD
     type: "Payment"
     sourceId: "f4cf6ae0-e3f6-4c7b-9406-abc1eff71595"
-    referenceNo: 427
+    referenceNo: "BP20230308001"
+    parentReferenceNo: 427
     orderId: "f4cf6ae0-e3f6-4c7b-9406-abc1eff71595"
     parentId: "6f165594-3557-4872-a3c9-69bec69bdc6e"
     parentType: "Bill"
@@ -471,7 +514,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -224.100000 HKD
     type: "Payment"
     sourceId: "f4cf6ae0-e3f6-4c7b-9406-abc1eff71595"
-    referenceNo: 427
+    referenceNo: "BP20230308001"
+    parentReferenceNo: 427
     orderId: "f4cf6ae0-e3f6-4c7b-9406-abc1eff71595"
     parentId: "6f165594-3557-4872-a3c9-69bec69bdc6e"
     parentType: "Bill"
@@ -481,13 +525,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-11 * "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]" "Deposit D#CD20230311002"
+2023-03-11 * "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]" "Client Deposit D#CD20230311002"
   Assets:CurrentAssets:Bank:KpayBank  21400.000000 HKD
     type: "Deposit"
     sourceId: "0040c305-89d8-4375-88df-44a190ddcf06"
     orderId: "0040c305-89d8-4375-88df-44a190ddcf06"
     orderContact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     referenceNo: "CD20230311002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230312002"
@@ -500,6 +545,7 @@
     orderId: "0040c305-89d8-4375-88df-44a190ddcf06"
     orderContact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     referenceNo: "CD20230311002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230312002"
@@ -507,13 +553,14 @@
     contact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     accountId: "5f78daf1-64a4-4799-9c7f-98a66b023968"
 
-2023-03-11 * "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]" "Deposit D#CD20230311001"
+2023-03-11 * "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]" "Client Deposit D#CD20230311001"
   Assets:CurrentAssets:Bank:KpayBank  15000.000000 HKD
     type: "Deposit"
     sourceId: "4ffba6f5-0ccf-428e-9014-1394da612b06"
     orderId: "4ffba6f5-0ccf-428e-9014-1394da612b06"
     orderContact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     referenceNo: "CD20230311001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230312001"
@@ -526,6 +573,7 @@
     orderId: "4ffba6f5-0ccf-428e-9014-1394da612b06"
     orderContact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     referenceNo: "CD20230311001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230312001"
@@ -533,13 +581,14 @@
     contact: "852 63233897 (MR.NGJAN) [10657229-e41d-4e3a-9688-1adf2b783a99]"
     accountId: "5f78daf1-64a4-4799-9c7f-98a66b023968"
 
-2023-03-11 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Deposit D#CD20230311007"
+2023-03-11 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20230311007"
   Assets:CurrentAssets:Bank:KpayBank  -547.000000 HKD
     type: "Deposit"
     sourceId: "35c2561c-3241-44ee-a7f6-602579b9d136"
     orderId: "35c2561c-3241-44ee-a7f6-602579b9d136"
     orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     referenceNo: "CD20230311007"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230312007"
@@ -552,6 +601,7 @@
     orderId: "35c2561c-3241-44ee-a7f6-602579b9d136"
     orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     referenceNo: "CD20230311007"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230312007"
@@ -561,6 +611,7 @@
 
 2023-03-12 * "Bill #48 kpay063 e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
   referenceNo: "48"
+  parentReferenceNo: ""
   orderId: "e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
   orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
   dateTs: "1678550400000"
@@ -569,6 +620,7 @@
     qty: "1"
     description: ""
     referenceNo: "48"
+    parentReferenceNo: ""
     orderId: "e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
     orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     dateTs: "1678550400000"
@@ -577,6 +629,7 @@
     accountId: "9f17e48f-8c37-4a2c-b369-20e3e7f7de27"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  -547.000000 HKD
     referenceNo: "48"
+    parentReferenceNo: ""
     orderId: "e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
     orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     dateTs: "1678550400000"
@@ -589,7 +642,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrNgJan85263233897  15000.000000 HKD
     type: "Payment"
     sourceId: "824ae2ca-8a01-4743-94a6-04cd2b672722"
-    referenceNo: 214
+    referenceNo: "IP20230312001"
+    parentReferenceNo: 214
     orderId: "824ae2ca-8a01-4743-94a6-04cd2b672722"
     parentId: "74eaabdd-08c5-42b4-bd55-4929d6c1fb2d"
     parentType: "Invoice"
@@ -601,7 +655,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrNgJan85263233897  -15000.000000 HKD
     type: "Payment"
     sourceId: "824ae2ca-8a01-4743-94a6-04cd2b672722"
-    referenceNo: 214
+    referenceNo: "IP20230312001"
+    parentReferenceNo: 214
     orderId: "824ae2ca-8a01-4743-94a6-04cd2b672722"
     parentId: "74eaabdd-08c5-42b4-bd55-4929d6c1fb2d"
     parentType: "Invoice"
@@ -615,7 +670,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  547.000000 HKD
     type: "Payment"
     sourceId: "9139c778-168d-4a0e-aa0b-e48ae2f794b7"
-    referenceNo: 48
+    referenceNo: "BP20230312007"
+    parentReferenceNo: 48
     orderId: "9139c778-168d-4a0e-aa0b-e48ae2f794b7"
     parentId: "e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
     parentType: "Bill"
@@ -627,7 +683,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -547.000000 HKD
     type: "Payment"
     sourceId: "9139c778-168d-4a0e-aa0b-e48ae2f794b7"
-    referenceNo: 48
+    referenceNo: "BP20230312007"
+    parentReferenceNo: 48
     orderId: "9139c778-168d-4a0e-aa0b-e48ae2f794b7"
     parentId: "e4a39493-15ab-4e9e-9f60-3cad6dd384d0"
     parentType: "Bill"
@@ -641,7 +698,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrNgJan85263233897  21400.000000 HKD
     type: "Payment"
     sourceId: "7eb0e98c-25c7-47d4-b8bd-eb54ea1118e5"
-    referenceNo: 214
+    referenceNo: "IP20230312002"
+    parentReferenceNo: 214
     orderId: "7eb0e98c-25c7-47d4-b8bd-eb54ea1118e5"
     parentId: "74eaabdd-08c5-42b4-bd55-4929d6c1fb2d"
     parentType: "Invoice"
@@ -653,7 +711,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrNgJan85263233897  -21400.000000 HKD
     type: "Payment"
     sourceId: "7eb0e98c-25c7-47d4-b8bd-eb54ea1118e5"
-    referenceNo: 214
+    referenceNo: "IP20230312002"
+    parentReferenceNo: 214
     orderId: "7eb0e98c-25c7-47d4-b8bd-eb54ea1118e5"
     parentId: "74eaabdd-08c5-42b4-bd55-4929d6c1fb2d"
     parentType: "Invoice"
@@ -669,6 +728,7 @@
     sourceId: "af07c9e1-715b-458d-81fd-05ed260cbe47"
     orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
     referenceNo: "350"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1678636800000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -677,12 +737,14 @@
     sourceId: "6d353156-8638-453f-9af2-48a20fd0c89e"
     orderId: "2a016abf-0bbe-488d-8218-776d215ad80f"
     referenceNo: "350"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1678636800000"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
 
 2023-03-13 * "Bill #413 EPS 23年2月手續費 fad6632b-810d-4150-9065-67fdac0cb08d"
   referenceNo: "413"
+  parentReferenceNo: ""
   orderId: "fad6632b-810d-4150-9065-67fdac0cb08d"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1678636800000"
@@ -691,6 +753,7 @@
     qty: "1"
     description: "EPS 23年2月手續費"
     referenceNo: "413"
+    parentReferenceNo: ""
     orderId: "fad6632b-810d-4150-9065-67fdac0cb08d"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678636800000"
@@ -699,6 +762,7 @@
     accountId: "0895c7bc-3600-48bf-9063-7ddd33dc3299"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -410.000000 HKD
     referenceNo: "413"
+    parentReferenceNo: ""
     orderId: "fad6632b-810d-4150-9065-67fdac0cb08d"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678636800000"
@@ -707,13 +771,14 @@
     sourceId: "fad6632b-810d-4150-9065-67fdac0cb08d"
     accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
 
-2023-03-13 * "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]" "Deposit D#CD20230313006"
+2023-03-13 * "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]" "Trade Deposit D#CD20230313006"
   Assets:CurrentAssets:Cash:CashInHand  -22000.000000 HKD
     type: "Deposit"
     sourceId: "d4188283-4c8a-4163-9184-f2e4404294b0"
     orderId: "d4188283-4c8a-4163-9184-f2e4404294b0"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     referenceNo: "CD20230313006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230314006"
@@ -726,6 +791,7 @@
     orderId: "d4188283-4c8a-4163-9184-f2e4404294b0"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     referenceNo: "CD20230313006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230314006"
@@ -733,13 +799,14 @@
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     accountId: "c3e24e13-4b46-4d61-9b69-b64b8e129f3c"
 
-2023-03-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230313005"
+2023-03-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230313005"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -1337.000000 HKD
     type: "Deposit"
     sourceId: "08c7f7f8-e95c-4aa4-9fd0-bf6b6c130e82"
     orderId: "08c7f7f8-e95c-4aa4-9fd0-bf6b6c130e82"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230313005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230314005"
@@ -752,6 +819,7 @@
     orderId: "08c7f7f8-e95c-4aa4-9fd0-bf6b6c130e82"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230313005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230314005"
@@ -759,13 +827,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-13 * "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]" "Deposit D#CD20230313002"
+2023-03-13 * "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]" "Client Deposit D#CD20230313002"
   Assets:CurrentAssets:Cash:CashInHand  24000.000000 HKD
     type: "Deposit"
     sourceId: "778950ab-8b83-486d-a496-715437ee8749"
     orderId: "778950ab-8b83-486d-a496-715437ee8749"
     orderContact: "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]"
     referenceNo: "CD20230313002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230314002"
@@ -778,6 +847,7 @@
     orderId: "778950ab-8b83-486d-a496-715437ee8749"
     orderContact: "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]"
     referenceNo: "CD20230313002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230314002"
@@ -791,6 +861,7 @@
     sourceId: "422de97a-4579-482c-a9ab-a3a329afa832"
     orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
     referenceNo: "658"
+    parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1678723200000"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -799,6 +870,7 @@
     sourceId: "f14e5db3-e158-4427-bd71-01d03997c0b5"
     orderId: "36ec43b7-784d-4378-b095-dd41bf77edab"
     referenceNo: "658"
+    parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #2)"
     dateTs: "1678723200000"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
@@ -809,6 +881,7 @@
     sourceId: "2c0d539a-1422-4dab-8711-f8b42a5f4a9c"
     orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
     referenceNo: "659"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1678723200000"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
@@ -817,6 +890,7 @@
     sourceId: "e1a227b3-e764-4f3a-a782-161b28bb2cfc"
     orderId: "b6eca8f2-3637-4357-b9c8-9ed72f921c91"
     referenceNo: "659"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1678723200000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -828,6 +902,7 @@
     sourceId: "db6eb9a6-93ce-4a1b-aa6c-4480a072ab56"
     orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
     referenceNo: "371"
+    parentReferenceNo: ""
     description: "Deposit 80000 (Item #1)"
     dateTs: "1678723200000"
     accountId: "eb75bf52-c4c9-4d60-86d8-3dd7bf5e8b71"
@@ -836,6 +911,7 @@
     sourceId: "854a6584-d8b3-47d4-91d7-0975a92baa69"
     orderId: "d7b5f4be-2a4c-4459-8428-371c4bae9d7c"
     referenceNo: "371"
+    parentReferenceNo: ""
     description: "Deposit 80000 (Item #2)"
     dateTs: "1678723200000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -846,6 +922,7 @@
     sourceId: "9d76a64f-2d49-4ba7-9cc9-3ec5a4f7e72d"
     orderId: "caab9cd4-93af-4166-acad-757bdf6bc2cd"
     referenceNo: "305"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1678723200000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -854,6 +931,7 @@
     sourceId: "ff23f8b2-4df0-4b27-9204-2c1ef4cf025b"
     orderId: "caab9cd4-93af-4166-acad-757bdf6bc2cd"
     referenceNo: "305"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1678723200000"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
@@ -864,6 +942,7 @@
     sourceId: "be1aad6d-008e-4aa0-87c2-1a0869c614f4"
     orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
     referenceNo: "649"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1678723200000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -872,6 +951,7 @@
     sourceId: "2b5f19ee-3eb8-419b-8329-d5a9669bc9e3"
     orderId: "487b04f0-7e4b-49ff-8392-42c7f717ab02"
     referenceNo: "649"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1678723200000"
     accountId: "ede59747-2a28-409c-be61-1e62547ad935"
@@ -882,6 +962,7 @@
     sourceId: "a463b03e-cd32-4b51-b5c2-db9cd64f3b22"
     orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
     referenceNo: "660"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1678723200000"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -890,6 +971,7 @@
     sourceId: "ae534eee-5308-44f9-b97b-3a79d1fe78c8"
     orderId: "5040ad47-5973-45b3-af65-5b0907ca5b1a"
     referenceNo: "660"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1678723200000"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
@@ -900,6 +982,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "215"
+    parentReferenceNo: ""
     orderId: "483f924f-a13e-4053-941a-89f356efa781"
     orderContact: "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]"
     dateTs: "1678723200000"
@@ -908,6 +991,7 @@
     accountId: "9e9a6bec-aa16-408f-a7f6-48d59c262d37"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrGorGor85296217870  24000.000000 HKD
     referenceNo: "215"
+    parentReferenceNo: ""
     orderId: "483f924f-a13e-4053-941a-89f356efa781"
     orderContact: "852 96217870 (MR.GORGOR) [6649c5c8-38bd-4efd-a54b-f8b3c84477bf]"
     dateTs: "1678723200000"
@@ -918,6 +1002,7 @@
 
 2023-03-14 * "Bill #668 📝MEMO No.0686 11PCS LAB DIAMOND 92952642-dab5-4e46-b265-f61063a0001e"
   referenceNo: "668"
+  parentReferenceNo: ""
   orderId: "92952642-dab5-4e46-b265-f61063a0001e"
   orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
   dateTs: "1678723200000"
@@ -927,6 +1012,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -938,6 +1024,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -949,6 +1036,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -960,6 +1048,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -971,6 +1060,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -982,6 +1072,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -993,6 +1084,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1004,6 +1096,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1015,6 +1108,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1026,6 +1120,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1037,6 +1132,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1045,6 +1141,7 @@
     accountId: "b9ba35e1-9d4a-4908-98ab-c1d8bb2478f2"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-mahekDiamLtd85261274004  0.000000 HKD
     referenceNo: "668"
+    parentReferenceNo: ""
     orderId: "92952642-dab5-4e46-b265-f61063a0001e"
     orderContact: "852 61274004 (MAHEKDIAMLTD) [f2bb19c1-78c4-40d5-82f8-1da8a4525633]"
     dateTs: "1678723200000"
@@ -1055,6 +1152,7 @@
 
 2023-03-14 * "Bill #772 323電費(2022- 12 ~ 2023- 1 / 2 月) 38994887-d79b-447d-b026-10d18d2f4c7b"
   referenceNo: "772"
+  parentReferenceNo: ""
   orderId: "38994887-d79b-447d-b026-10d18d2f4c7b"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1678723200000"
@@ -1063,6 +1161,7 @@
     qty: "1"
     description: "323電費(2023- 1月)"
     referenceNo: "772"
+    parentReferenceNo: ""
     orderId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678723200000"
@@ -1073,6 +1172,7 @@
     qty: "1"
     description: "323電費(2023- 2月)"
     referenceNo: "772"
+    parentReferenceNo: ""
     orderId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678723200000"
@@ -1083,6 +1183,7 @@
     qty: "1"
     description: "323電費(2022- 12月)"
     referenceNo: "772"
+    parentReferenceNo: ""
     orderId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678723200000"
@@ -1091,6 +1192,7 @@
     accountId: "707e61dc-38f1-43ec-bb20-98d907550150"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1337.000000 HKD
     referenceNo: "772"
+    parentReferenceNo: ""
     orderId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678723200000"
@@ -1101,6 +1203,7 @@
 
 2023-03-14 * "Bill #657 230314 ba672480-1013-452a-a577-0770267aa973"
   referenceNo: "657"
+  parentReferenceNo: ""
   orderId: "ba672480-1013-452a-a577-0770267aa973"
   orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
   dateTs: "1678723200000"
@@ -1110,6 +1213,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "657"
+    parentReferenceNo: ""
     orderId: "ba672480-1013-452a-a577-0770267aa973"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     dateTs: "1678723200000"
@@ -1118,6 +1222,7 @@
     accountId: "dd517e28-5860-43a9-953e-38f78d2d9de6"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  -22000.000000 HKD
     referenceNo: "657"
+    parentReferenceNo: ""
     orderId: "ba672480-1013-452a-a577-0770267aa973"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     dateTs: "1678723200000"
@@ -1130,7 +1235,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrGorGor85296217870  24000.000000 HKD
     type: "Payment"
     sourceId: "a2d59742-4ba6-44e9-af71-d1ef171723c9"
-    referenceNo: 215
+    referenceNo: "IP20230314002"
+    parentReferenceNo: 215
     orderId: "a2d59742-4ba6-44e9-af71-d1ef171723c9"
     parentId: "483f924f-a13e-4053-941a-89f356efa781"
     parentType: "Invoice"
@@ -1142,7 +1248,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrGorGor85296217870  -24000.000000 HKD
     type: "Payment"
     sourceId: "a2d59742-4ba6-44e9-af71-d1ef171723c9"
-    referenceNo: 215
+    referenceNo: "IP20230314002"
+    parentReferenceNo: 215
     orderId: "a2d59742-4ba6-44e9-af71-d1ef171723c9"
     parentId: "483f924f-a13e-4053-941a-89f356efa781"
     parentType: "Invoice"
@@ -1156,7 +1263,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1337.000000 HKD
     type: "Payment"
     sourceId: "206a7af9-e79e-44fc-8926-ff7350ba99b2"
-    referenceNo: 772
+    referenceNo: "BP20230314005"
+    parentReferenceNo: 772
     orderId: "206a7af9-e79e-44fc-8926-ff7350ba99b2"
     parentId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     parentType: "Bill"
@@ -1168,7 +1276,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -1337.000000 HKD
     type: "Payment"
     sourceId: "206a7af9-e79e-44fc-8926-ff7350ba99b2"
-    referenceNo: 772
+    referenceNo: "BP20230314005"
+    parentReferenceNo: 772
     orderId: "206a7af9-e79e-44fc-8926-ff7350ba99b2"
     parentId: "38994887-d79b-447d-b026-10d18d2f4c7b"
     parentType: "Bill"
@@ -1182,7 +1291,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  22000.000000 HKD
     type: "Payment"
     sourceId: "2867d31f-cc8c-40bd-9467-89d960a28c4a"
-    referenceNo: 657
+    referenceNo: "BP20230314006"
+    parentReferenceNo: 657
     orderId: "2867d31f-cc8c-40bd-9467-89d960a28c4a"
     parentId: "ba672480-1013-452a-a577-0770267aa973"
     parentType: "Bill"
@@ -1194,7 +1304,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-PressureWorkDesignConsultants99812345740  -22000.000000 HKD
     type: "Payment"
     sourceId: "2867d31f-cc8c-40bd-9467-89d960a28c4a"
-    referenceNo: 657
+    referenceNo: "BP20230314006"
+    parentReferenceNo: 657
     orderId: "2867d31f-cc8c-40bd-9467-89d960a28c4a"
     parentId: "ba672480-1013-452a-a577-0770267aa973"
     parentType: "Bill"
@@ -1204,13 +1315,14 @@
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     accountId: "c3e24e13-4b46-4d61-9b69-b64b8e129f3c"
 
-2023-03-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230316002"
+2023-03-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230316002"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -3138.540000 HKD
     type: "Deposit"
     sourceId: "f8b05ed6-67e5-473b-aa8f-6a7e85a4dc91"
     orderId: "f8b05ed6-67e5-473b-aa8f-6a7e85a4dc91"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230316002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230316003"
@@ -1223,6 +1335,7 @@
     orderId: "f8b05ed6-67e5-473b-aa8f-6a7e85a4dc91"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230316002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230316003"
@@ -1230,13 +1343,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-16 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Deposit D#CD20230316003"
+2023-03-16 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230316003"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -25.100000 HKD
     type: "Deposit"
     sourceId: "503a53af-f7a8-4767-a543-f9bfd9b6ef15"
     orderId: "503a53af-f7a8-4767-a543-f9bfd9b6ef15"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230316003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230316004"
@@ -1249,6 +1363,7 @@
     orderId: "503a53af-f7a8-4767-a543-f9bfd9b6ef15"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230316003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230316004"
@@ -1258,6 +1373,7 @@
 
 2023-03-16 * "Bill #459 FACEBK *M3ZUZPTZM2 7a5fc2df-62a4-4417-8b09-f74f54160b5a"
   referenceNo: "459"
+  parentReferenceNo: ""
   orderId: "7a5fc2df-62a4-4417-8b09-f74f54160b5a"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1678910400000"
@@ -1266,6 +1382,7 @@
     qty: "1"
     description: "FACEBK *M3ZUZPTZM2"
     referenceNo: "459"
+    parentReferenceNo: ""
     orderId: "7a5fc2df-62a4-4417-8b09-f74f54160b5a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678910400000"
@@ -1274,6 +1391,7 @@
     accountId: "5896ac8a-7e5a-4898-bec5-577718648b75"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -3138.540000 HKD
     referenceNo: "459"
+    parentReferenceNo: ""
     orderId: "7a5fc2df-62a4-4417-8b09-f74f54160b5a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1678910400000"
@@ -1284,6 +1402,7 @@
 
 2023-03-16 * "Bill #463 OVERSEA TRANSACTION FEE 31cd83cc-5e28-4437-bee9-3eff74ce2f86"
   referenceNo: "463"
+  parentReferenceNo: ""
   orderId: "31cd83cc-5e28-4437-bee9-3eff74ce2f86"
   orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
   dateTs: "1678910400000"
@@ -1292,6 +1411,7 @@
     qty: "1"
     description: "OVERSEA TRANSACTION FEE"
     referenceNo: "463"
+    parentReferenceNo: ""
     orderId: "31cd83cc-5e28-4437-bee9-3eff74ce2f86"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1678910400000"
@@ -1300,6 +1420,7 @@
     accountId: "0895c7bc-3600-48bf-9063-7ddd33dc3299"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  -25.100000 HKD
     referenceNo: "463"
+    parentReferenceNo: ""
     orderId: "31cd83cc-5e28-4437-bee9-3eff74ce2f86"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1678910400000"
@@ -1312,7 +1433,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  25.100000 HKD
     type: "Payment"
     sourceId: "cb35cb87-2a44-4ef8-aab9-cf602e533bbe"
-    referenceNo: 463
+    referenceNo: "BP20230316004"
+    parentReferenceNo: 463
     orderId: "cb35cb87-2a44-4ef8-aab9-cf602e533bbe"
     parentId: "31cd83cc-5e28-4437-bee9-3eff74ce2f86"
     parentType: "Bill"
@@ -1324,7 +1446,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-BocbankOfChina99812345835  -25.100000 HKD
     type: "Payment"
     sourceId: "cb35cb87-2a44-4ef8-aab9-cf602e533bbe"
-    referenceNo: 463
+    referenceNo: "BP20230316004"
+    parentReferenceNo: 463
     orderId: "cb35cb87-2a44-4ef8-aab9-cf602e533bbe"
     parentId: "31cd83cc-5e28-4437-bee9-3eff74ce2f86"
     parentType: "Bill"
@@ -1338,7 +1461,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  3138.540000 HKD
     type: "Payment"
     sourceId: "44a97825-43eb-4218-8fb1-3dd67ab87e81"
-    referenceNo: 459
+    referenceNo: "BP20230316003"
+    parentReferenceNo: 459
     orderId: "44a97825-43eb-4218-8fb1-3dd67ab87e81"
     parentId: "7a5fc2df-62a4-4417-8b09-f74f54160b5a"
     parentType: "Bill"
@@ -1350,7 +1474,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -3138.540000 HKD
     type: "Payment"
     sourceId: "44a97825-43eb-4218-8fb1-3dd67ab87e81"
-    referenceNo: 459
+    referenceNo: "BP20230316003"
+    parentReferenceNo: 459
     orderId: "44a97825-43eb-4218-8fb1-3dd67ab87e81"
     parentId: "7a5fc2df-62a4-4417-8b09-f74f54160b5a"
     parentType: "Bill"
@@ -1366,6 +1491,7 @@
     sourceId: "a278ea67-1ddb-42d7-ba91-19cf98c6b727"
     orderId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
     referenceNo: "648"
+    parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1679241600000"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -1374,17 +1500,19 @@
     sourceId: "2efcc7fb-0f76-40b0-af88-e90279d92e5d"
     orderId: "0b79ffe3-4f3d-488c-876f-499f0527bc72"
     referenceNo: "648"
+    parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1679241600000"
     accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
 
-2023-03-20 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230320004"
+2023-03-20 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230320004"
   Assets:CurrentAssets:Bank:BocCurrentBank  -5300.000000 HKD
     type: "Deposit"
     sourceId: "92d39e8d-2dbe-4212-83c5-5647d352569e"
     orderId: "92d39e8d-2dbe-4212-83c5-5647d352569e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230320004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230320001"
@@ -1397,6 +1525,7 @@
     orderId: "92d39e8d-2dbe-4212-83c5-5647d352569e"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230320004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230320001"
@@ -1406,6 +1535,7 @@
 
 2023-03-20 * "Bill #245 3月2023 MPF e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
   referenceNo: "245"
+  parentReferenceNo: ""
   orderId: "e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1679270400000"
@@ -1414,6 +1544,7 @@
     qty: "1"
     description: "3月2023 MPF"
     referenceNo: "245"
+    parentReferenceNo: ""
     orderId: "e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679270400000"
@@ -1422,6 +1553,7 @@
     accountId: "8634d5ab-02ec-4f10-8301-0db9acb8167c"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -5300.000000 HKD
     referenceNo: "245"
+    parentReferenceNo: ""
     orderId: "e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679270400000"
@@ -1434,7 +1566,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5300.000000 HKD
     type: "Payment"
     sourceId: "8e286251-25dc-40ba-8dbe-52b01983db00"
-    referenceNo: 245
+    referenceNo: "BP20230320001"
+    parentReferenceNo: 245
     orderId: "8e286251-25dc-40ba-8dbe-52b01983db00"
     parentId: "e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
     parentType: "Bill"
@@ -1446,7 +1579,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5300.000000 HKD
     type: "Payment"
     sourceId: "8e286251-25dc-40ba-8dbe-52b01983db00"
-    referenceNo: 245
+    referenceNo: "BP20230320001"
+    parentReferenceNo: 245
     orderId: "8e286251-25dc-40ba-8dbe-52b01983db00"
     parentId: "e8a5ef9b-f6ef-4c44-bda2-aac1a92d4db6"
     parentType: "Bill"
@@ -1456,13 +1590,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-21 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230321004"
+2023-03-21 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230321004"
   Assets:CurrentAssets:Bank:BocCurrentBank  -1648.000000 HKD
     type: "Deposit"
     sourceId: "c408a75b-c0b8-4ac0-8f64-492a1b92fffa"
     orderId: "c408a75b-c0b8-4ac0-8f64-492a1b92fffa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230321004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230321004"
@@ -1475,6 +1610,7 @@
     orderId: "c408a75b-c0b8-4ac0-8f64-492a1b92fffa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230321004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230321004"
@@ -1484,6 +1620,7 @@
 
 2023-03-21 * "Bill #246 323 4月管理費 06f66122-5f96-41de-8f93-f71e56f46ece"
   referenceNo: "246"
+  parentReferenceNo: ""
   orderId: "06f66122-5f96-41de-8f93-f71e56f46ece"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1679356800000"
@@ -1492,6 +1629,7 @@
     qty: "1"
     description: "323 4月管理費"
     referenceNo: "246"
+    parentReferenceNo: ""
     orderId: "06f66122-5f96-41de-8f93-f71e56f46ece"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679356800000"
@@ -1500,6 +1638,7 @@
     accountId: "b723a8d5-16e2-411b-a7df-cad809d282ff"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1648.000000 HKD
     referenceNo: "246"
+    parentReferenceNo: ""
     orderId: "06f66122-5f96-41de-8f93-f71e56f46ece"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679356800000"
@@ -1512,7 +1651,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1648.000000 HKD
     type: "Payment"
     sourceId: "fcf440d9-f89c-479a-8143-3e4ab3b6bc5b"
-    referenceNo: 246
+    referenceNo: "BP20230321004"
+    parentReferenceNo: 246
     orderId: "fcf440d9-f89c-479a-8143-3e4ab3b6bc5b"
     parentId: "06f66122-5f96-41de-8f93-f71e56f46ece"
     parentType: "Bill"
@@ -1524,7 +1664,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -1648.000000 HKD
     type: "Payment"
     sourceId: "fcf440d9-f89c-479a-8143-3e4ab3b6bc5b"
-    referenceNo: 246
+    referenceNo: "BP20230321004"
+    parentReferenceNo: 246
     orderId: "fcf440d9-f89c-479a-8143-3e4ab3b6bc5b"
     parentId: "06f66122-5f96-41de-8f93-f71e56f46ece"
     parentType: "Bill"
@@ -1534,13 +1675,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-22 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Deposit D#CD20230322006"
+2023-03-22 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230322006"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -40.000000 HKD
     type: "Deposit"
     sourceId: "d38bf401-ce82-4bc4-9688-6bafb6e7fd0c"
     orderId: "d38bf401-ce82-4bc4-9688-6bafb6e7fd0c"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230322006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230322005"
@@ -1553,6 +1695,7 @@
     orderId: "d38bf401-ce82-4bc4-9688-6bafb6e7fd0c"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230322006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230322005"
@@ -1560,13 +1703,14 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     accountId: "f38ad076-05a5-403c-aa4a-4b48576c5046"
 
-2023-03-22 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230322005"
+2023-03-22 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230322005"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -5000.000000 HKD
     type: "Deposit"
     sourceId: "c2b035af-f5f6-4405-a2bb-9cfd6eba42cb"
     orderId: "c2b035af-f5f6-4405-a2bb-9cfd6eba42cb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230322005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230322004"
@@ -1579,6 +1723,7 @@
     orderId: "c2b035af-f5f6-4405-a2bb-9cfd6eba42cb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230322005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230322004"
@@ -1588,6 +1733,7 @@
 
 2023-03-22 * "Bill #467 GOOGLE*ADS7416995186 bdbee966-c914-466b-85a5-9daa54c38d48"
   referenceNo: "467"
+  parentReferenceNo: ""
   orderId: "bdbee966-c914-466b-85a5-9daa54c38d48"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1679428800000"
@@ -1596,6 +1742,7 @@
     qty: "1"
     description: "GOOGLE*ADS7416995186"
     referenceNo: "467"
+    parentReferenceNo: ""
     orderId: "bdbee966-c914-466b-85a5-9daa54c38d48"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679428800000"
@@ -1604,6 +1751,7 @@
     accountId: "5896ac8a-7e5a-4898-bec5-577718648b75"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -5000.000000 HKD
     referenceNo: "467"
+    parentReferenceNo: ""
     orderId: "bdbee966-c914-466b-85a5-9daa54c38d48"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679428800000"
@@ -1614,6 +1762,7 @@
 
 2023-03-22 * "Bill #461 OVERSEA TRANSACTION FEE c56814cf-7691-44a0-b915-877687676159"
   referenceNo: "461"
+  parentReferenceNo: ""
   orderId: "c56814cf-7691-44a0-b915-877687676159"
   orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
   dateTs: "1679428800000"
@@ -1622,6 +1771,7 @@
     qty: "1"
     description: "OVERSEA TRANSACTION FEE"
     referenceNo: "461"
+    parentReferenceNo: ""
     orderId: "c56814cf-7691-44a0-b915-877687676159"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1679428800000"
@@ -1630,6 +1780,7 @@
     accountId: "0895c7bc-3600-48bf-9063-7ddd33dc3299"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  -40.000000 HKD
     referenceNo: "461"
+    parentReferenceNo: ""
     orderId: "c56814cf-7691-44a0-b915-877687676159"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1679428800000"
@@ -1642,7 +1793,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  40.000000 HKD
     type: "Payment"
     sourceId: "3da5228f-2d7b-44d8-9db3-780f31903ae4"
-    referenceNo: 461
+    referenceNo: "BP20230322005"
+    parentReferenceNo: 461
     orderId: "3da5228f-2d7b-44d8-9db3-780f31903ae4"
     parentId: "c56814cf-7691-44a0-b915-877687676159"
     parentType: "Bill"
@@ -1654,7 +1806,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-BocbankOfChina99812345835  -40.000000 HKD
     type: "Payment"
     sourceId: "3da5228f-2d7b-44d8-9db3-780f31903ae4"
-    referenceNo: 461
+    referenceNo: "BP20230322005"
+    parentReferenceNo: 461
     orderId: "3da5228f-2d7b-44d8-9db3-780f31903ae4"
     parentId: "c56814cf-7691-44a0-b915-877687676159"
     parentType: "Bill"
@@ -1668,7 +1821,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5000.000000 HKD
     type: "Payment"
     sourceId: "12344491-a72c-4167-96f6-8a6ec317ac6e"
-    referenceNo: 467
+    referenceNo: "BP20230322004"
+    parentReferenceNo: 467
     orderId: "12344491-a72c-4167-96f6-8a6ec317ac6e"
     parentId: "bdbee966-c914-466b-85a5-9daa54c38d48"
     parentType: "Bill"
@@ -1680,7 +1834,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5000.000000 HKD
     type: "Payment"
     sourceId: "12344491-a72c-4167-96f6-8a6ec317ac6e"
-    referenceNo: 467
+    referenceNo: "BP20230322004"
+    parentReferenceNo: 467
     orderId: "12344491-a72c-4167-96f6-8a6ec317ac6e"
     parentId: "bdbee966-c914-466b-85a5-9daa54c38d48"
     parentType: "Bill"
@@ -1690,13 +1845,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-27 * "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]" "Deposit D#CD20230327001"
+2023-03-27 * "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]" "Trade Deposit D#CD20230327001"
   Assets:CurrentAssets:Cash:CashInHand  -3800.000000 HKD
     type: "Deposit"
     sourceId: "4b473f99-eedd-4c83-8f79-3bf4386485bd"
     orderId: "4b473f99-eedd-4c83-8f79-3bf4386485bd"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     referenceNo: "CD20230327001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328002"
@@ -1709,6 +1865,7 @@
     orderId: "4b473f99-eedd-4c83-8f79-3bf4386485bd"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     referenceNo: "CD20230327001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328002"
@@ -1718,6 +1875,7 @@
 
 2023-03-28 * "Bill #619 NO.230328 57db354b-020d-4fae-b19d-a9dad76ed0b1"
   referenceNo: "619"
+  parentReferenceNo: ""
   orderId: "57db354b-020d-4fae-b19d-a9dad76ed0b1"
   orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
   dateTs: "1679932800000"
@@ -1727,6 +1885,7 @@
     sku: "DDFFFFFF0B00000000000094"
     qty: "1"
     referenceNo: "619"
+    parentReferenceNo: ""
     orderId: "57db354b-020d-4fae-b19d-a9dad76ed0b1"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     dateTs: "1679932800000"
@@ -1735,6 +1894,7 @@
     accountId: "f09ea58f-86fb-43bf-b9bd-e43e4a971f0b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  -3800.000000 HKD
     referenceNo: "619"
+    parentReferenceNo: ""
     orderId: "57db354b-020d-4fae-b19d-a9dad76ed0b1"
     orderContact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     dateTs: "1679932800000"
@@ -1747,7 +1907,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  3800.000000 HKD
     type: "Payment"
     sourceId: "dab5cbb4-bf12-41e6-9a45-935510f2928d"
-    referenceNo: 619
+    referenceNo: "BP20230328002"
+    parentReferenceNo: 619
     orderId: "dab5cbb4-bf12-41e6-9a45-935510f2928d"
     parentId: "57db354b-020d-4fae-b19d-a9dad76ed0b1"
     parentType: "Bill"
@@ -1759,7 +1920,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-PressureWorkDesignConsultants99812345740  -3800.000000 HKD
     type: "Payment"
     sourceId: "dab5cbb4-bf12-41e6-9a45-935510f2928d"
-    referenceNo: 619
+    referenceNo: "BP20230328002"
+    parentReferenceNo: 619
     orderId: "dab5cbb4-bf12-41e6-9a45-935510f2928d"
     parentId: "57db354b-020d-4fae-b19d-a9dad76ed0b1"
     parentType: "Bill"
@@ -1769,13 +1931,14 @@
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
     accountId: "c3e24e13-4b46-4d61-9b69-b64b8e129f3c"
 
-2023-03-28 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Deposit D#CD20230328002"
+2023-03-28 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230328002"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -40.000000 HKD
     type: "Deposit"
     sourceId: "0bf259a3-93b6-4da7-8c7b-e23883555b7b"
     orderId: "0bf259a3-93b6-4da7-8c7b-e23883555b7b"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230328002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328001"
@@ -1788,6 +1951,7 @@
     orderId: "0bf259a3-93b6-4da7-8c7b-e23883555b7b"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230328002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328001"
@@ -1795,13 +1959,14 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     accountId: "f38ad076-05a5-403c-aa4a-4b48576c5046"
 
-2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230328003"
+2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230328003"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -5000.000000 HKD
     type: "Deposit"
     sourceId: "bf3c4e29-4c95-4362-aa42-58ff78f66519"
     orderId: "bf3c4e29-4c95-4362-aa42-58ff78f66519"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328003"
@@ -1814,6 +1979,7 @@
     orderId: "bf3c4e29-4c95-4362-aa42-58ff78f66519"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230328003"
@@ -1823,6 +1989,7 @@
 
 2023-03-28 * "Bill #466 GOOGLE*ADS7416995186 4048366d-cb17-4dd5-870a-ccff5a0210ca"
   referenceNo: "466"
+  parentReferenceNo: ""
   orderId: "4048366d-cb17-4dd5-870a-ccff5a0210ca"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1679947200000"
@@ -1831,6 +1998,7 @@
     qty: "1"
     description: "GOOGLE*ADS7416995186 "
     referenceNo: "466"
+    parentReferenceNo: ""
     orderId: "4048366d-cb17-4dd5-870a-ccff5a0210ca"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679947200000"
@@ -1839,6 +2007,7 @@
     accountId: "5896ac8a-7e5a-4898-bec5-577718648b75"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -5000.000000 HKD
     referenceNo: "466"
+    parentReferenceNo: ""
     orderId: "4048366d-cb17-4dd5-870a-ccff5a0210ca"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1679947200000"
@@ -1849,6 +2018,7 @@
 
 2023-03-28 * "Bill #469 OVERSEA TRANSACTION FEE 7fd2d62f-67fd-4553-a005-5be667d0e844"
   referenceNo: "469"
+  parentReferenceNo: ""
   orderId: "7fd2d62f-67fd-4553-a005-5be667d0e844"
   orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
   dateTs: "1679947200000"
@@ -1857,6 +2027,7 @@
     qty: "1"
     description: "OVERSEA TRANSACTION FEE"
     referenceNo: "469"
+    parentReferenceNo: ""
     orderId: "7fd2d62f-67fd-4553-a005-5be667d0e844"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1679947200000"
@@ -1865,6 +2036,7 @@
     accountId: "0895c7bc-3600-48bf-9063-7ddd33dc3299"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  -40.000000 HKD
     referenceNo: "469"
+    parentReferenceNo: ""
     orderId: "7fd2d62f-67fd-4553-a005-5be667d0e844"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1679947200000"
@@ -1877,7 +2049,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-bocbankOfChina99812345835  40.000000 HKD
     type: "Payment"
     sourceId: "2325c13b-915c-40ec-8986-c2e15d835348"
-    referenceNo: 469
+    referenceNo: "BP20230328001"
+    parentReferenceNo: 469
     orderId: "2325c13b-915c-40ec-8986-c2e15d835348"
     parentId: "7fd2d62f-67fd-4553-a005-5be667d0e844"
     parentType: "Bill"
@@ -1889,7 +2062,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-BocbankOfChina99812345835  -40.000000 HKD
     type: "Payment"
     sourceId: "2325c13b-915c-40ec-8986-c2e15d835348"
-    referenceNo: 469
+    referenceNo: "BP20230328001"
+    parentReferenceNo: 469
     orderId: "2325c13b-915c-40ec-8986-c2e15d835348"
     parentId: "7fd2d62f-67fd-4553-a005-5be667d0e844"
     parentType: "Bill"
@@ -1903,7 +2077,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5000.000000 HKD
     type: "Payment"
     sourceId: "10460de5-3675-4a44-9cb2-fa069ac28621"
-    referenceNo: 466
+    referenceNo: "BP20230328003"
+    parentReferenceNo: 466
     orderId: "10460de5-3675-4a44-9cb2-fa069ac28621"
     parentId: "4048366d-cb17-4dd5-870a-ccff5a0210ca"
     parentType: "Bill"
@@ -1915,7 +2090,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5000.000000 HKD
     type: "Payment"
     sourceId: "10460de5-3675-4a44-9cb2-fa069ac28621"
-    referenceNo: 466
+    referenceNo: "BP20230328003"
+    parentReferenceNo: 466
     orderId: "10460de5-3675-4a44-9cb2-fa069ac28621"
     parentId: "4048366d-cb17-4dd5-870a-ccff5a0210ca"
     parentType: "Bill"
@@ -1925,13 +2101,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230328004"
+2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230328004"
   Assets:CurrentAssets:Bank:C中銀卡機Bank  -5381.750000 HKD
     type: "Deposit"
     sourceId: "328ffedc-5479-4605-bd9c-43eb2e6fd830"
     orderId: "328ffedc-5479-4605-bd9c-43eb2e6fd830"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230329002"
@@ -1944,6 +2121,7 @@
     orderId: "328ffedc-5479-4605-bd9c-43eb2e6fd830"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230329002"
@@ -1951,13 +2129,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230328001"
+2023-03-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230328001"
   Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -338.000000 HKD
     type: "Deposit"
     sourceId: "d62ac283-52e1-484b-9d47-04698ae4be78"
     orderId: "d62ac283-52e1-484b-9d47-04698ae4be78"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230329001"
@@ -1970,6 +2149,7 @@
     orderId: "d62ac283-52e1-484b-9d47-04698ae4be78"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230328001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230329001"
@@ -1979,6 +2159,7 @@
 
 2023-03-29 * "Bill #95 boc card fee 7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
   referenceNo: "95"
+  parentReferenceNo: ""
   orderId: "7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1680019200000"
@@ -1987,6 +2168,7 @@
     qty: "1"
     description: "BOC card fee"
     referenceNo: "95"
+    parentReferenceNo: ""
     orderId: "7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680019200000"
@@ -1995,6 +2177,7 @@
     accountId: "9f17e48f-8c37-4a2c-b369-20e3e7f7de27"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -5381.750000 HKD
     referenceNo: "95"
+    parentReferenceNo: ""
     orderId: "7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680019200000"
@@ -2005,6 +2188,7 @@
 
 2023-03-29 * "Bill #782 323上網(2023-4月) 8ed47771-5007-4591-b984-bf074a993114"
   referenceNo: "782"
+  parentReferenceNo: ""
   orderId: "8ed47771-5007-4591-b984-bf074a993114"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1680019200000"
@@ -2013,6 +2197,7 @@
     qty: "1"
     description: "323上網(2023-4月)"
     referenceNo: "782"
+    parentReferenceNo: ""
     orderId: "8ed47771-5007-4591-b984-bf074a993114"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680019200000"
@@ -2021,6 +2206,7 @@
     accountId: "89f5c159-eb37-493c-802b-2351480afa05"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -338.000000 HKD
     referenceNo: "782"
+    parentReferenceNo: ""
     orderId: "8ed47771-5007-4591-b984-bf074a993114"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680019200000"
@@ -2033,7 +2219,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  338.000000 HKD
     type: "Payment"
     sourceId: "e95664a7-5929-404a-91d6-9d25f6d94e0c"
-    referenceNo: 782
+    referenceNo: "BP20230329001"
+    parentReferenceNo: 782
     orderId: "e95664a7-5929-404a-91d6-9d25f6d94e0c"
     parentId: "8ed47771-5007-4591-b984-bf074a993114"
     parentType: "Bill"
@@ -2045,7 +2232,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -338.000000 HKD
     type: "Payment"
     sourceId: "e95664a7-5929-404a-91d6-9d25f6d94e0c"
-    referenceNo: 782
+    referenceNo: "BP20230329001"
+    parentReferenceNo: 782
     orderId: "e95664a7-5929-404a-91d6-9d25f6d94e0c"
     parentId: "8ed47771-5007-4591-b984-bf074a993114"
     parentType: "Bill"
@@ -2059,7 +2247,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5381.750000 HKD
     type: "Payment"
     sourceId: "7a7a04f0-8f67-4201-90ec-126619d72f5d"
-    referenceNo: 95
+    referenceNo: "BP20230329002"
+    parentReferenceNo: 95
     orderId: "7a7a04f0-8f67-4201-90ec-126619d72f5d"
     parentId: "7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
     parentType: "Bill"
@@ -2071,7 +2260,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5381.750000 HKD
     type: "Payment"
     sourceId: "7a7a04f0-8f67-4201-90ec-126619d72f5d"
-    referenceNo: 95
+    referenceNo: "BP20230329002"
+    parentReferenceNo: 95
     orderId: "7a7a04f0-8f67-4201-90ec-126619d72f5d"
     parentId: "7b70ebb0-176f-4cea-a8b6-d3ea3a28ee85"
     parentType: "Bill"
@@ -2081,13 +2271,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230329002"
+2023-03-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230329002"
   Assets:CurrentAssets:Bank:BocSavingBank  -67770.000000 HKD
     type: "Deposit"
     sourceId: "54a03de4-b747-4d6d-85f0-914672155c6a"
     orderId: "54a03de4-b747-4d6d-85f0-914672155c6a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230329002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230330002"
@@ -2100,6 +2291,7 @@
     orderId: "54a03de4-b747-4d6d-85f0-914672155c6a"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230329002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230330002"
@@ -2109,6 +2301,7 @@
 
 2023-03-30 * "Bill #162 SALARY 23年3月 0bb8e72e-3fb4-47f2-867e-41e6ce949470"
   referenceNo: "162"
+  parentReferenceNo: ""
   orderId: "0bb8e72e-3fb4-47f2-867e-41e6ce949470"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1680105600000"
@@ -2117,6 +2310,7 @@
     qty: "1"
     description: "SALARY 23年3月"
     referenceNo: "162"
+    parentReferenceNo: ""
     orderId: "0bb8e72e-3fb4-47f2-867e-41e6ce949470"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680105600000"
@@ -2125,6 +2319,7 @@
     accountId: "27c46981-854a-497d-8339-d1784a353f58"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -67770.000000 HKD
     referenceNo: "162"
+    parentReferenceNo: ""
     orderId: "0bb8e72e-3fb4-47f2-867e-41e6ce949470"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680105600000"
@@ -2137,7 +2332,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  67770.000000 HKD
     type: "Payment"
     sourceId: "4c0cce86-0db9-4c2c-885f-b914c610ab59"
-    referenceNo: 162
+    referenceNo: "BP20230330002"
+    parentReferenceNo: 162
     orderId: "4c0cce86-0db9-4c2c-885f-b914c610ab59"
     parentId: "0bb8e72e-3fb4-47f2-867e-41e6ce949470"
     parentType: "Bill"
@@ -2149,7 +2345,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -67770.000000 HKD
     type: "Payment"
     sourceId: "4c0cce86-0db9-4c2c-885f-b914c610ab59"
-    referenceNo: 162
+    referenceNo: "BP20230330002"
+    parentReferenceNo: 162
     orderId: "4c0cce86-0db9-4c2c-885f-b914c610ab59"
     parentId: "0bb8e72e-3fb4-47f2-867e-41e6ce949470"
     parentType: "Bill"
@@ -2159,13 +2356,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-30 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20230330006"
+2023-03-30 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230330006"
   Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -240.100000 HKD
     type: "Deposit"
     sourceId: "659b6d7d-8012-4cd2-abed-f275c065ca34"
     orderId: "659b6d7d-8012-4cd2-abed-f275c065ca34"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230330006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230330003"
@@ -2178,6 +2376,7 @@
     orderId: "659b6d7d-8012-4cd2-abed-f275c065ca34"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20230330006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230330003"
@@ -2187,6 +2386,7 @@
 
 2023-03-30 * "Bill #471 CHATFUEL ed6f4634-4f21-450e-a459-d0fbcb6093a2"
   referenceNo: "471"
+  parentReferenceNo: ""
   orderId: "ed6f4634-4f21-450e-a459-d0fbcb6093a2"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1680120000000"
@@ -2195,6 +2395,7 @@
     qty: "1"
     description: "CHATFUEL USD30 @8.0033333"
     referenceNo: "471"
+    parentReferenceNo: ""
     orderId: "ed6f4634-4f21-450e-a459-d0fbcb6093a2"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680120000000"
@@ -2203,6 +2404,7 @@
     accountId: "f943c881-605d-45c7-b4fb-404c37bcdbbb"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -240.100000 HKD
     referenceNo: "471"
+    parentReferenceNo: ""
     orderId: "ed6f4634-4f21-450e-a459-d0fbcb6093a2"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1680120000000"
@@ -2215,7 +2417,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  240.100000 HKD
     type: "Payment"
     sourceId: "a3876b03-4d14-47f7-99f1-d4c36f563923"
-    referenceNo: 471
+    referenceNo: "BP20230330003"
+    parentReferenceNo: 471
     orderId: "a3876b03-4d14-47f7-99f1-d4c36f563923"
     parentId: "ed6f4634-4f21-450e-a459-d0fbcb6093a2"
     parentType: "Bill"
@@ -2227,7 +2430,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -240.100000 HKD
     type: "Payment"
     sourceId: "a3876b03-4d14-47f7-99f1-d4c36f563923"
-    referenceNo: 471
+    referenceNo: "BP20230330003"
+    parentReferenceNo: 471
     orderId: "a3876b03-4d14-47f7-99f1-d4c36f563923"
     parentId: "ed6f4634-4f21-450e-a459-d0fbcb6093a2"
     parentType: "Bill"
@@ -2237,13 +2441,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2023-03-30 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Deposit D#CD20230330004"
+2023-03-30 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20230330004"
   Assets:CurrentAssets:Bank:BocSavingBank  42.580000 HKD
     type: "Deposit"
     sourceId: "33a3a489-f509-4dab-950f-62e616ce0cfd"
     orderId: "33a3a489-f509-4dab-950f-62e616ce0cfd"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230330004"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230331005"
@@ -2256,6 +2461,7 @@
     orderId: "33a3a489-f509-4dab-950f-62e616ce0cfd"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230330004"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230331005"
@@ -2263,13 +2469,14 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     accountId: "7a01e4d8-3395-4db1-a5c7-33dc6e1b7da3"
 
-2023-03-30 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230330005"
+2023-03-30 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230330005"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -29415.000000 HKD
     type: "Deposit"
     sourceId: "741760c7-8ed7-4628-a3ef-8aec0f1e3ece"
     orderId: "741760c7-8ed7-4628-a3ef-8aec0f1e3ece"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230330005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331020"
@@ -2282,6 +2489,7 @@
     orderId: "741760c7-8ed7-4628-a3ef-8aec0f1e3ece"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230330005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331020"
@@ -2295,6 +2503,7 @@
     sourceId: "b2e5983a-136b-4cc0-819f-415d014f1a21"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory adj. Jewelry 31/3/2023 (Item #1)"
     dateTs: "1680192000000"
     accountId: "64916631-69ba-4f6b-bad3-212b2b7f8b84"
@@ -2303,6 +2512,7 @@
     sourceId: "2e7676ca-24e8-42e2-97de-24144c3b4214"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory 31/3/2023 (Item #2)"
     dateTs: "1680192000000"
     accountId: "c5e13e86-59d7-4fea-a34f-a6e346aeeaeb"
@@ -2311,6 +2521,7 @@
     sourceId: "7360c6a8-5dc6-4714-9e19-04ff74a07648"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory 31/3/2023 (Item #3)"
     dateTs: "1680192000000"
     accountId: "b39bc522-2f03-4032-bc23-f19c54964fa3"
@@ -2319,6 +2530,7 @@
     sourceId: "93e2f09f-ac5f-4006-905d-7bce0e01ce30"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory adj. Jewelry 31/3/2023 (Item #4)"
     dateTs: "1680192000000"
     accountId: "c382847a-8b26-4fb7-842c-cf1054997d53"
@@ -2327,6 +2539,7 @@
     sourceId: "3e246570-cbeb-4cbe-ad73-8d038b844131"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory 31/3/2023 (Item #5)"
     dateTs: "1680192000000"
     accountId: "c382847a-8b26-4fb7-842c-cf1054997d53"
@@ -2335,6 +2548,7 @@
     sourceId: "7ab8bcb7-38fe-40c3-a4f3-4c6a44c07676"
     orderId: "9e3e154f-eac1-4fb6-a1c1-369b1d5c3523"
     referenceNo: "1188"
+    parentReferenceNo: ""
     description: "Closing Inventory 31/3/2023 (Item #6)"
     dateTs: "1680192000000"
     accountId: "64916631-69ba-4f6b-bad3-212b2b7f8b84"
@@ -2345,6 +2559,7 @@
     sourceId: "f6b2310b-a7cc-4d12-b87b-f70ec420a5ad"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323 4月2023管理費 (Item #1)"
     dateTs: "1680192000000"
     accountId: "fa4d3224-2959-4935-afc2-0eea3e0042db"
@@ -2353,6 +2568,7 @@
     sourceId: "3c660814-93a5-442a-8410-eb0c3b2d14b1"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "DKK 網頁設計03/23費用 - Web Design (Hazel) (Item #2)"
     dateTs: "1680192000000"
     accountId: "f943c881-605d-45c7-b4fb-404c37bcdbbb"
@@ -2361,6 +2577,7 @@
     sourceId: "63dd1a30-e4fc-4756-8774-4a04ddc2d3d4"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323電費(2023- 3月) (Item #3)"
     dateTs: "1680192000000"
     accountId: "707e61dc-38f1-43ec-bb20-98d907550150"
@@ -2369,6 +2586,7 @@
     sourceId: "642b0804-5d62-4ead-a815-18b53c6ef60c"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323 4月2023管理費 (Item #4)"
     dateTs: "1680192000000"
     accountId: "b723a8d5-16e2-411b-a7df-cad809d282ff"
@@ -2377,6 +2595,7 @@
     sourceId: "e5fa6d6c-dea5-4514-88b2-5face41ec502"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "DKK 網頁設計03/23費用 - Web Design (Hazel) (Item #5)"
     dateTs: "1680192000000"
     accountId: "c7730b8c-141f-4fab-8bc0-5b3a7cb76513"
@@ -2385,6 +2604,7 @@
     sourceId: "e996ad93-b1ce-415b-af2e-b2c05f09fec9"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323電費(2023- 3月) (Item #6)"
     dateTs: "1680192000000"
     accountId: "c7730b8c-141f-4fab-8bc0-5b3a7cb76513"
@@ -2393,6 +2613,7 @@
     sourceId: "cfdec6d2-4742-45dd-b4d4-45f8f88b4436"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323上網(2023-4月) (Item #7)"
     dateTs: "1680192000000"
     accountId: "89f5c159-eb37-493c-802b-2351480afa05"
@@ -2401,6 +2622,7 @@
     sourceId: "2ae1ffe2-3416-407f-b80a-aa15d4d327ed"
     orderId: "9e8eac66-95c8-48e9-9749-db474f72af71"
     referenceNo: "1193"
+    parentReferenceNo: ""
     description: "323上網(2023-4月) (Item #8)"
     dateTs: "1680192000000"
     accountId: "fa4d3224-2959-4935-afc2-0eea3e0042db"
@@ -2410,6 +2632,7 @@
     description: "interest"
     qty: "1"
     referenceNo: "255"
+    parentReferenceNo: ""
     orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1680192000000"
@@ -2418,6 +2641,7 @@
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  42.580000 HKD
     referenceNo: "255"
+    parentReferenceNo: ""
     orderId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1680192000000"
@@ -2432,6 +2656,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2443,6 +2668,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2454,6 +2680,7 @@
     sku: "PROCESSING002"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2465,6 +2692,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2476,6 +2704,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2487,6 +2716,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2498,6 +2728,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2509,6 +2740,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2517,6 +2749,7 @@
     accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-badDebtOrOtherAdjustment9980000000001  0.000000 HKD
     referenceNo: "1126"
+    parentReferenceNo: ""
     orderId: "dd9f6ada-863c-43ea-b2af-e63eeb4d8b50"
     orderContact: "998 0000000001 (BadDebt/otheradjustment) [aa36b528-fbf4-4676-93f7-6aaafc481df7]"
     dateTs: "1680192000000"
@@ -2529,7 +2762,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-BocbankOfChina99812345835  42.580000 HKD
     type: "Payment"
     sourceId: "d75a1d05-f748-4170-92ae-1e0a4e6cf2c6"
-    referenceNo: 255
+    referenceNo: "IP20230331005"
+    parentReferenceNo: 255
     orderId: "d75a1d05-f748-4170-92ae-1e0a4e6cf2c6"
     parentId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
     parentType: "Invoice"
@@ -2541,7 +2775,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -42.580000 HKD
     type: "Payment"
     sourceId: "d75a1d05-f748-4170-92ae-1e0a4e6cf2c6"
-    referenceNo: 255
+    referenceNo: "IP20230331005"
+    parentReferenceNo: 255
     orderId: "d75a1d05-f748-4170-92ae-1e0a4e6cf2c6"
     parentId: "687bc900-72fe-4c3e-90a5-4638d393ce44"
     parentType: "Invoice"
@@ -2555,7 +2790,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  29415.000000 HKD
     type: "Payment"
     sourceId: "a531de2c-8394-47cb-9d1b-e0607148d9e0"
-    referenceNo: 326
+    referenceNo: "BP20230331020"
+    parentReferenceNo: 326
     orderId: "a531de2c-8394-47cb-9d1b-e0607148d9e0"
     parentId: "b495c3de-312d-4322-9150-d4b07b055616"
     parentType: "Bill"
@@ -2567,7 +2803,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -29415.000000 HKD
     type: "Payment"
     sourceId: "a531de2c-8394-47cb-9d1b-e0607148d9e0"
-    referenceNo: 326
+    referenceNo: "BP20230331020"
+    parentReferenceNo: 326
     orderId: "a531de2c-8394-47cb-9d1b-e0607148d9e0"
     parentId: "b495c3de-312d-4322-9150-d4b07b055616"
     parentType: "Bill"
@@ -2577,13 +2814,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Deposit D#CD20230331004"
+2023-03-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20230331004"
   Assets:CurrentAssets:Bank:BocForeignBank  0.970000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "6b5be2b6-7cd3-44b2-9091-61f7ad3591ee"
     orderId: "6b5be2b6-7cd3-44b2-9091-61f7ad3591ee"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230331004"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230331004"
@@ -2596,6 +2834,7 @@
     orderId: "6b5be2b6-7cd3-44b2-9091-61f7ad3591ee"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     referenceNo: "CD20230331004"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20230331004"
@@ -2608,6 +2847,7 @@
     description: "INTEREST"
     qty: "1"
     referenceNo: "252"
+    parentReferenceNo: ""
     orderId: "6ab38102-b992-4d67-b72f-89b9ba660085"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1680220800000"
@@ -2616,6 +2856,7 @@
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  0.970000 USD {7.85 HKD}
     referenceNo: "252"
+    parentReferenceNo: ""
     orderId: "6ab38102-b992-4d67-b72f-89b9ba660085"
     orderContact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
     dateTs: "1680220800000"
@@ -2628,7 +2869,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-BocbankOfChina99812345835  0.970000 USD {7.85 HKD}
     type: "Payment"
     sourceId: "0979e0bd-ba7a-45f1-8cdb-eb4e21d2f9ea"
-    referenceNo: 252
+    referenceNo: "IP20230331004"
+    parentReferenceNo: 252
     orderId: "0979e0bd-ba7a-45f1-8cdb-eb4e21d2f9ea"
     parentId: "6ab38102-b992-4d67-b72f-89b9ba660085"
     parentType: "Invoice"
@@ -2640,7 +2882,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-bocbankOfChina99812345835  -0.970000 USD {7.85 HKD}
     type: "Payment"
     sourceId: "0979e0bd-ba7a-45f1-8cdb-eb4e21d2f9ea"
-    referenceNo: 252
+    referenceNo: "IP20230331004"
+    parentReferenceNo: 252
     orderId: "0979e0bd-ba7a-45f1-8cdb-eb4e21d2f9ea"
     parentId: "6ab38102-b992-4d67-b72f-89b9ba660085"
     parentType: "Invoice"
@@ -2656,6 +2899,7 @@
     sourceId: "b0a92e1e-11e7-4229-bb28-4692a8ec045f"
     orderId: "8cfe71b7-ae1e-42ac-90d2-6b6f082cc844"
     referenceNo: "1751"
+    parentReferenceNo: ""
     description: "Equipment 2022-2023 ($20140.48 of 1/5) (Item #1)"
     dateTs: "1680242345189"
     accountId: "c1defda7-edbd-43ca-95bb-72a47dd44673"
@@ -2664,6 +2908,7 @@
     sourceId: "b2dea1a0-d819-497d-9de0-709cd5d5baf1"
     orderId: "8cfe71b7-ae1e-42ac-90d2-6b6f082cc844"
     referenceNo: "1751"
+    parentReferenceNo: ""
     description: "Equipment 2022-2023 ($20140.48 of 1/5) (Item #2)"
     dateTs: "1680242345189"
     accountId: "6b5eac5a-fe62-4521-bb8e-e7607cd667b8"
@@ -2674,6 +2919,7 @@
     sourceId: "8aca10e0-826c-4bae-bfa8-9847d5cd7b33"
     orderId: "33294f85-b880-40a4-a725-80d060c025a1"
     referenceNo: "3026"
+    parentReferenceNo: ""
     description: "Audit Adjustments - Audit fee (Item #1)"
     dateTs: "1680250030447"
     accountId: "50480941-7667-444a-bc38-e2d362520928"
@@ -2682,17 +2928,19 @@
     sourceId: "271b1ea3-7b0a-4104-b23f-9ac4eb963aca"
     orderId: "33294f85-b880-40a4-a725-80d060c025a1"
     referenceNo: "3026"
+    parentReferenceNo: ""
     description: "Audit Adjustments - Audit fee (Item #2)"
     dateTs: "1680250030447"
     accountId: "c7730b8c-141f-4fab-8bc0-5b3a7cb76513"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331010"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331010"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -3656.000000 HKD
     type: "Deposit"
     sourceId: "0aa6bed0-59d6-41cb-aaae-6eaf089b9c50"
     orderId: "0aa6bed0-59d6-41cb-aaae-6eaf089b9c50"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331010"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331012"
@@ -2705,6 +2953,7 @@
     orderId: "0aa6bed0-59d6-41cb-aaae-6eaf089b9c50"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331010"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331012"
@@ -2716,7 +2965,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  3656.000000 HKD
     type: "Payment"
     sourceId: "1c5352e4-0be5-4abc-90a0-3a2f4bb76b03"
-    referenceNo: 93
+    referenceNo: "BP20230331012"
+    parentReferenceNo: 93
     orderId: "1c5352e4-0be5-4abc-90a0-3a2f4bb76b03"
     parentId: "9109ae9d-fd2c-4964-8091-fd32ddb4bc39"
     parentType: "Bill"
@@ -2728,7 +2978,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -3656.000000 HKD
     type: "Payment"
     sourceId: "1c5352e4-0be5-4abc-90a0-3a2f4bb76b03"
-    referenceNo: 93
+    referenceNo: "BP20230331012"
+    parentReferenceNo: 93
     orderId: "1c5352e4-0be5-4abc-90a0-3a2f4bb76b03"
     parentId: "9109ae9d-fd2c-4964-8091-fd32ddb4bc39"
     parentType: "Bill"
@@ -2738,13 +2989,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331006"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331006"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -191799.000000 HKD
     type: "Deposit"
     sourceId: "8901731e-a893-4c63-bf3a-37a5593890b0"
     orderId: "8901731e-a893-4c63-bf3a-37a5593890b0"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331008"
@@ -2757,6 +3009,7 @@
     orderId: "8901731e-a893-4c63-bf3a-37a5593890b0"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331008"
@@ -2768,7 +3021,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  191799.000000 HKD
     type: "Payment"
     sourceId: "659c31c7-aef5-4cd0-b129-fca4df7caffa"
-    referenceNo: 85
+    referenceNo: "BP20230331008"
+    parentReferenceNo: 85
     orderId: "659c31c7-aef5-4cd0-b129-fca4df7caffa"
     parentId: "447c4767-c059-4666-b41a-5e6b1f00f042"
     parentType: "Bill"
@@ -2780,7 +3034,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -191799.000000 HKD
     type: "Payment"
     sourceId: "659c31c7-aef5-4cd0-b129-fca4df7caffa"
-    referenceNo: 85
+    referenceNo: "BP20230331008"
+    parentReferenceNo: 85
     orderId: "659c31c7-aef5-4cd0-b129-fca4df7caffa"
     parentId: "447c4767-c059-4666-b41a-5e6b1f00f042"
     parentType: "Bill"
@@ -2790,13 +3045,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331009"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331009"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -82720.000000 HKD
     type: "Deposit"
     sourceId: "304f2852-4b4d-4cb4-af27-89047ef2f320"
     orderId: "304f2852-4b4d-4cb4-af27-89047ef2f320"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331009"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331011"
@@ -2809,6 +3065,7 @@
     orderId: "304f2852-4b4d-4cb4-af27-89047ef2f320"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331009"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331011"
@@ -2820,7 +3077,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  82720.000000 HKD
     type: "Payment"
     sourceId: "79cfd32c-dc91-4793-a071-d4bcc58881b6"
-    referenceNo: 86
+    referenceNo: "BP20230331011"
+    parentReferenceNo: 86
     orderId: "79cfd32c-dc91-4793-a071-d4bcc58881b6"
     parentId: "25307f18-5a82-4229-af9b-0f0e94220edf"
     parentType: "Bill"
@@ -2832,7 +3090,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -82720.000000 HKD
     type: "Payment"
     sourceId: "79cfd32c-dc91-4793-a071-d4bcc58881b6"
-    referenceNo: 86
+    referenceNo: "BP20230331011"
+    parentReferenceNo: 86
     orderId: "79cfd32c-dc91-4793-a071-d4bcc58881b6"
     parentId: "25307f18-5a82-4229-af9b-0f0e94220edf"
     parentType: "Bill"
@@ -2842,13 +3101,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331016"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331016"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -54690.000000 HKD
     type: "Deposit"
     sourceId: "204931df-d525-44af-a109-a141c4ccfda1"
     orderId: "204931df-d525-44af-a109-a141c4ccfda1"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331016"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331018"
@@ -2861,6 +3121,7 @@
     orderId: "204931df-d525-44af-a109-a141c4ccfda1"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331016"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331018"
@@ -2872,7 +3133,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  54690.000000 HKD
     type: "Payment"
     sourceId: "e5065fe1-dc6d-41c2-92d8-0afa49ccbd8a"
-    referenceNo: 2
+    referenceNo: "BP20230331018"
+    parentReferenceNo: 2
     orderId: "e5065fe1-dc6d-41c2-92d8-0afa49ccbd8a"
     parentId: "1011a30d-7524-4022-b2c9-fe8bb66252a7"
     parentType: "Bill"
@@ -2884,7 +3146,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -54690.000000 HKD
     type: "Payment"
     sourceId: "e5065fe1-dc6d-41c2-92d8-0afa49ccbd8a"
-    referenceNo: 2
+    referenceNo: "BP20230331018"
+    parentReferenceNo: 2
     orderId: "e5065fe1-dc6d-41c2-92d8-0afa49ccbd8a"
     parentId: "1011a30d-7524-4022-b2c9-fe8bb66252a7"
     parentType: "Bill"
@@ -2894,13 +3157,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331017"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331017"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -40354.000000 HKD
     type: "Deposit"
     sourceId: "d1eef62d-0f7f-4ec2-b6a8-1c7a36118e29"
     orderId: "d1eef62d-0f7f-4ec2-b6a8-1c7a36118e29"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331017"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331019"
@@ -2913,6 +3177,7 @@
     orderId: "d1eef62d-0f7f-4ec2-b6a8-1c7a36118e29"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331017"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331019"
@@ -2924,7 +3189,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  40354.000000 HKD
     type: "Payment"
     sourceId: "1af87b37-7998-4db7-8f33-cdb15ca5923f"
-    referenceNo: 587
+    referenceNo: "BP20230331019"
+    parentReferenceNo: 587
     orderId: "1af87b37-7998-4db7-8f33-cdb15ca5923f"
     parentId: "900aec0e-07f9-422f-80c8-9ccb67fe7908"
     parentType: "Bill"
@@ -2936,7 +3202,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -40354.000000 HKD
     type: "Payment"
     sourceId: "1af87b37-7998-4db7-8f33-cdb15ca5923f"
-    referenceNo: 587
+    referenceNo: "BP20230331019"
+    parentReferenceNo: 587
     orderId: "1af87b37-7998-4db7-8f33-cdb15ca5923f"
     parentId: "900aec0e-07f9-422f-80c8-9ccb67fe7908"
     parentType: "Bill"
@@ -2946,13 +3213,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331011"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331011"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -45133.000000 HKD
     type: "Deposit"
     sourceId: "23590c96-f883-4122-9d4a-49ec3733cd30"
     orderId: "23590c96-f883-4122-9d4a-49ec3733cd30"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331011"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331013"
@@ -2965,6 +3233,7 @@
     orderId: "23590c96-f883-4122-9d4a-49ec3733cd30"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331011"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331013"
@@ -2976,7 +3245,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  45133.000000 HKD
     type: "Payment"
     sourceId: "425b9d5e-682b-4d3c-9f21-78e9d426aa58"
-    referenceNo: 337
+    referenceNo: "BP20230331013"
+    parentReferenceNo: 337
     orderId: "425b9d5e-682b-4d3c-9f21-78e9d426aa58"
     parentId: "03462648-0017-40c7-b51e-23d5071e8e51"
     parentType: "Bill"
@@ -2988,7 +3258,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -45133.000000 HKD
     type: "Payment"
     sourceId: "425b9d5e-682b-4d3c-9f21-78e9d426aa58"
-    referenceNo: 337
+    referenceNo: "BP20230331013"
+    parentReferenceNo: 337
     orderId: "425b9d5e-682b-4d3c-9f21-78e9d426aa58"
     parentId: "03462648-0017-40c7-b51e-23d5071e8e51"
     parentType: "Bill"
@@ -2998,13 +3269,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331007"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331007"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -5500.000000 HKD
     type: "Deposit"
     sourceId: "39974d48-cde8-4f3e-975c-8df8073c1ca6"
     orderId: "39974d48-cde8-4f3e-975c-8df8073c1ca6"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331007"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331009"
@@ -3017,6 +3289,7 @@
     orderId: "39974d48-cde8-4f3e-975c-8df8073c1ca6"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331007"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331009"
@@ -3028,7 +3301,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  5500.000000 HKD
     type: "Payment"
     sourceId: "5f9dbd24-a7da-4781-a4fe-8a7fb3ca1ab5"
-    referenceNo: 5
+    referenceNo: "BP20230331009"
+    parentReferenceNo: 5
     orderId: "5f9dbd24-a7da-4781-a4fe-8a7fb3ca1ab5"
     parentId: "d8316c2c-f6be-44cd-a017-b608cdfdb57c"
     parentType: "Bill"
@@ -3040,7 +3314,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -5500.000000 HKD
     type: "Payment"
     sourceId: "5f9dbd24-a7da-4781-a4fe-8a7fb3ca1ab5"
-    referenceNo: 5
+    referenceNo: "BP20230331009"
+    parentReferenceNo: 5
     orderId: "5f9dbd24-a7da-4781-a4fe-8a7fb3ca1ab5"
     parentId: "d8316c2c-f6be-44cd-a017-b608cdfdb57c"
     parentType: "Bill"
@@ -3050,13 +3325,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331021"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331021"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -80421.000000 HKD
     type: "Deposit"
     sourceId: "df471307-39a0-4f1a-a2f7-430dd8c6cbd4"
     orderId: "df471307-39a0-4f1a-a2f7-430dd8c6cbd4"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331021"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331024"
@@ -3069,6 +3345,7 @@
     orderId: "df471307-39a0-4f1a-a2f7-430dd8c6cbd4"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331021"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331024"
@@ -3080,7 +3357,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  80421.000000 HKD
     type: "Payment"
     sourceId: "3d291008-6d93-40dd-9903-c0b0bed8b365"
-    referenceNo: 12
+    referenceNo: "BP20230331024"
+    parentReferenceNo: 12
     orderId: "3d291008-6d93-40dd-9903-c0b0bed8b365"
     parentId: "3da5072d-4e5b-4f7f-b7bd-ff43ae393067"
     parentType: "Bill"
@@ -3092,7 +3370,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -80421.000000 HKD
     type: "Payment"
     sourceId: "3d291008-6d93-40dd-9903-c0b0bed8b365"
-    referenceNo: 12
+    referenceNo: "BP20230331024"
+    parentReferenceNo: 12
     orderId: "3d291008-6d93-40dd-9903-c0b0bed8b365"
     parentId: "3da5072d-4e5b-4f7f-b7bd-ff43ae393067"
     parentType: "Bill"
@@ -3102,13 +3381,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331005"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331005"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -28025.000000 HKD
     type: "Deposit"
     sourceId: "6f875ca3-4dcc-44f3-a6af-e1b0751f864f"
     orderId: "6f875ca3-4dcc-44f3-a6af-e1b0751f864f"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331007"
@@ -3121,6 +3401,7 @@
     orderId: "6f875ca3-4dcc-44f3-a6af-e1b0751f864f"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331007"
@@ -3132,7 +3413,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  28025.000000 HKD
     type: "Payment"
     sourceId: "1b9c3693-b178-42ee-a7b7-77686593cd9f"
-    referenceNo: 231
+    referenceNo: "BP20230331007"
+    parentReferenceNo: 231
     orderId: "1b9c3693-b178-42ee-a7b7-77686593cd9f"
     parentId: "ac504521-15f6-40e1-b934-8d30a61655dd"
     parentType: "Bill"
@@ -3144,7 +3426,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -28025.000000 HKD
     type: "Payment"
     sourceId: "1b9c3693-b178-42ee-a7b7-77686593cd9f"
-    referenceNo: 231
+    referenceNo: "BP20230331007"
+    parentReferenceNo: 231
     orderId: "1b9c3693-b178-42ee-a7b7-77686593cd9f"
     parentId: "ac504521-15f6-40e1-b934-8d30a61655dd"
     parentType: "Bill"
@@ -3154,13 +3437,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331012"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331012"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2484.000000 HKD
     type: "Deposit"
     sourceId: "c5c15eb4-8fb1-4b4a-9afe-7152142163ce"
     orderId: "c5c15eb4-8fb1-4b4a-9afe-7152142163ce"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331012"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331014"
@@ -3173,6 +3457,7 @@
     orderId: "c5c15eb4-8fb1-4b4a-9afe-7152142163ce"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331012"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331014"
@@ -3184,7 +3469,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2484.000000 HKD
     type: "Payment"
     sourceId: "3803243e-5e76-40d1-bb62-5814b5fd2308"
-    referenceNo: 623
+    referenceNo: "BP20230331014"
+    parentReferenceNo: 623
     orderId: "3803243e-5e76-40d1-bb62-5814b5fd2308"
     parentId: "66b5b952-fbf7-4f7c-b719-a7c2e34b014c"
     parentType: "Bill"
@@ -3196,7 +3482,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2484.000000 HKD
     type: "Payment"
     sourceId: "3803243e-5e76-40d1-bb62-5814b5fd2308"
-    referenceNo: 623
+    referenceNo: "BP20230331014"
+    parentReferenceNo: 623
     orderId: "3803243e-5e76-40d1-bb62-5814b5fd2308"
     parentId: "66b5b952-fbf7-4f7c-b719-a7c2e34b014c"
     parentType: "Bill"
@@ -3206,13 +3493,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331025"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331025"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1489.000000 HKD
     type: "Deposit"
     sourceId: "02cd6705-59d1-4bca-b662-9138b9ef3199"
     orderId: "02cd6705-59d1-4bca-b662-9138b9ef3199"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331025"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331028"
@@ -3225,6 +3513,7 @@
     orderId: "02cd6705-59d1-4bca-b662-9138b9ef3199"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331025"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331028"
@@ -3236,7 +3525,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1489.000000 HKD
     type: "Payment"
     sourceId: "c0e55293-ffb8-400e-8053-c317c24a807c"
-    referenceNo: 317
+    referenceNo: "BP20230331028"
+    parentReferenceNo: 317
     orderId: "c0e55293-ffb8-400e-8053-c317c24a807c"
     parentId: "c859872d-4118-401a-82a2-6105e4f400f7"
     parentType: "Bill"
@@ -3248,7 +3538,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1489.000000 HKD
     type: "Payment"
     sourceId: "c0e55293-ffb8-400e-8053-c317c24a807c"
-    referenceNo: 317
+    referenceNo: "BP20230331028"
+    parentReferenceNo: 317
     orderId: "c0e55293-ffb8-400e-8053-c317c24a807c"
     parentId: "c859872d-4118-401a-82a2-6105e4f400f7"
     parentType: "Bill"
@@ -3258,13 +3549,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331027"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331027"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1982.000000 HKD
     type: "Deposit"
     sourceId: "037343da-d86d-41dd-822a-3de60bf18598"
     orderId: "037343da-d86d-41dd-822a-3de60bf18598"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331027"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331030"
@@ -3277,6 +3569,7 @@
     orderId: "037343da-d86d-41dd-822a-3de60bf18598"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331027"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331030"
@@ -3288,7 +3581,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1982.000000 HKD
     type: "Payment"
     sourceId: "73fccb56-36ae-44d8-beea-43eb45d7d029"
-    referenceNo: 325
+    referenceNo: "BP20230331030"
+    parentReferenceNo: 325
     orderId: "73fccb56-36ae-44d8-beea-43eb45d7d029"
     parentId: "bfe50b71-4ca9-4e8e-8d0f-c0786c3a2112"
     parentType: "Bill"
@@ -3300,7 +3594,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1982.000000 HKD
     type: "Payment"
     sourceId: "73fccb56-36ae-44d8-beea-43eb45d7d029"
-    referenceNo: 325
+    referenceNo: "BP20230331030"
+    parentReferenceNo: 325
     orderId: "73fccb56-36ae-44d8-beea-43eb45d7d029"
     parentId: "bfe50b71-4ca9-4e8e-8d0f-c0786c3a2112"
     parentType: "Bill"
@@ -3310,13 +3605,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331018"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331018"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1726.000000 HKD
     type: "Deposit"
     sourceId: "5860e487-b0b5-4a07-a4b6-06a2d592bcd5"
     orderId: "5860e487-b0b5-4a07-a4b6-06a2d592bcd5"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331018"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331021"
@@ -3329,6 +3625,7 @@
     orderId: "5860e487-b0b5-4a07-a4b6-06a2d592bcd5"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331018"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331021"
@@ -3340,7 +3637,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1726.000000 HKD
     type: "Payment"
     sourceId: "052d20f4-5643-4324-8541-8b2e0f0c2a92"
-    referenceNo: 149
+    referenceNo: "BP20230331021"
+    parentReferenceNo: 149
     orderId: "052d20f4-5643-4324-8541-8b2e0f0c2a92"
     parentId: "97f769cf-41a7-42cf-90ff-124e52528ce0"
     parentType: "Bill"
@@ -3352,7 +3650,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1726.000000 HKD
     type: "Payment"
     sourceId: "052d20f4-5643-4324-8541-8b2e0f0c2a92"
-    referenceNo: 149
+    referenceNo: "BP20230331021"
+    parentReferenceNo: 149
     orderId: "052d20f4-5643-4324-8541-8b2e0f0c2a92"
     parentId: "97f769cf-41a7-42cf-90ff-124e52528ce0"
     parentType: "Bill"
@@ -3362,13 +3661,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331026"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331026"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -200.000000 HKD
     type: "Deposit"
     sourceId: "40592512-5e5f-4ad9-808c-140ed405d8fb"
     orderId: "40592512-5e5f-4ad9-808c-140ed405d8fb"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331026"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331029"
@@ -3381,6 +3681,7 @@
     orderId: "40592512-5e5f-4ad9-808c-140ed405d8fb"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331026"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331029"
@@ -3392,7 +3693,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  200.000000 HKD
     type: "Payment"
     sourceId: "2fc9eca3-086d-486a-af15-47d566078d33"
-    referenceNo: 148
+    referenceNo: "BP20230331029"
+    parentReferenceNo: 148
     orderId: "2fc9eca3-086d-486a-af15-47d566078d33"
     parentId: "0500f5ff-9558-4b72-a666-28c807111f1d"
     parentType: "Bill"
@@ -3404,7 +3706,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -200.000000 HKD
     type: "Payment"
     sourceId: "2fc9eca3-086d-486a-af15-47d566078d33"
-    referenceNo: 148
+    referenceNo: "BP20230331029"
+    parentReferenceNo: 148
     orderId: "2fc9eca3-086d-486a-af15-47d566078d33"
     parentId: "0500f5ff-9558-4b72-a666-28c807111f1d"
     parentType: "Bill"
@@ -3414,13 +3717,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331019"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331019"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -15995.000000 HKD
     type: "Deposit"
     sourceId: "2c96f292-827f-47c1-b294-bfb525239096"
     orderId: "2c96f292-827f-47c1-b294-bfb525239096"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331019"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331022"
@@ -3433,6 +3737,7 @@
     orderId: "2c96f292-827f-47c1-b294-bfb525239096"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331019"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331022"
@@ -3444,7 +3749,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  15995.000000 HKD
     type: "Payment"
     sourceId: "679c3467-81a0-497f-af64-1dcbc8192fbd"
-    referenceNo: 614
+    referenceNo: "BP20230331022"
+    parentReferenceNo: 614
     orderId: "679c3467-81a0-497f-af64-1dcbc8192fbd"
     parentId: "662096c4-ba18-442d-ba83-be005eadcb07"
     parentType: "Bill"
@@ -3456,7 +3762,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -15995.000000 HKD
     type: "Payment"
     sourceId: "679c3467-81a0-497f-af64-1dcbc8192fbd"
-    referenceNo: 614
+    referenceNo: "BP20230331022"
+    parentReferenceNo: 614
     orderId: "679c3467-81a0-497f-af64-1dcbc8192fbd"
     parentId: "662096c4-ba18-442d-ba83-be005eadcb07"
     parentType: "Bill"
@@ -3466,13 +3773,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331022"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331022"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1891.000000 HKD
     type: "Deposit"
     sourceId: "5165a00d-4f1a-4ff5-80f6-d1bbbed3b7a6"
     orderId: "5165a00d-4f1a-4ff5-80f6-d1bbbed3b7a6"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331022"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331025"
@@ -3485,6 +3793,7 @@
     orderId: "5165a00d-4f1a-4ff5-80f6-d1bbbed3b7a6"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331022"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331025"
@@ -3496,7 +3805,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1891.000000 HKD
     type: "Payment"
     sourceId: "a47d48bf-8b2f-4296-9652-7721454ef1ed"
-    referenceNo: 290
+    referenceNo: "BP20230331025"
+    parentReferenceNo: 290
     orderId: "a47d48bf-8b2f-4296-9652-7721454ef1ed"
     parentId: "9ebaae3c-d424-4e10-bced-012cdac83ff9"
     parentType: "Bill"
@@ -3508,7 +3818,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1891.000000 HKD
     type: "Payment"
     sourceId: "a47d48bf-8b2f-4296-9652-7721454ef1ed"
-    referenceNo: 290
+    referenceNo: "BP20230331025"
+    parentReferenceNo: 290
     orderId: "a47d48bf-8b2f-4296-9652-7721454ef1ed"
     parentId: "9ebaae3c-d424-4e10-bced-012cdac83ff9"
     parentType: "Bill"
@@ -3518,13 +3829,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331028"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331028"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1891.000000 HKD
     type: "Deposit"
     sourceId: "e8ea075f-45a9-4a8f-8e1e-3c09aff8ee35"
     orderId: "e8ea075f-45a9-4a8f-8e1e-3c09aff8ee35"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331028"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331031"
@@ -3537,6 +3849,7 @@
     orderId: "e8ea075f-45a9-4a8f-8e1e-3c09aff8ee35"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331028"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331031"
@@ -3548,7 +3861,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1891.000000 HKD
     type: "Payment"
     sourceId: "e279b013-37d0-4d03-9513-3284389a30b5"
-    referenceNo: 6
+    referenceNo: "BP20230331031"
+    parentReferenceNo: 6
     orderId: "e279b013-37d0-4d03-9513-3284389a30b5"
     parentId: "7bdcbed9-674f-49e3-8e80-506a26f16564"
     parentType: "Bill"
@@ -3560,7 +3874,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1891.000000 HKD
     type: "Payment"
     sourceId: "e279b013-37d0-4d03-9513-3284389a30b5"
-    referenceNo: 6
+    referenceNo: "BP20230331031"
+    parentReferenceNo: 6
     orderId: "e279b013-37d0-4d03-9513-3284389a30b5"
     parentId: "7bdcbed9-674f-49e3-8e80-506a26f16564"
     parentType: "Bill"
@@ -3570,13 +3885,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331013"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331013"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1768.000000 HKD
     type: "Deposit"
     sourceId: "470feed8-2404-4feb-8fd1-c3bf7f4bfbd8"
     orderId: "470feed8-2404-4feb-8fd1-c3bf7f4bfbd8"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331013"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331015"
@@ -3589,6 +3905,7 @@
     orderId: "470feed8-2404-4feb-8fd1-c3bf7f4bfbd8"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331013"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331015"
@@ -3600,7 +3917,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  1768.000000 HKD
     type: "Payment"
     sourceId: "f33f9e06-17e9-40d3-b5aa-300bd61e32eb"
-    referenceNo: 309
+    referenceNo: "BP20230331015"
+    parentReferenceNo: 309
     orderId: "f33f9e06-17e9-40d3-b5aa-300bd61e32eb"
     parentId: "50ab233e-d174-4ca1-9e12-e5751fd89440"
     parentType: "Bill"
@@ -3612,7 +3930,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -1768.000000 HKD
     type: "Payment"
     sourceId: "f33f9e06-17e9-40d3-b5aa-300bd61e32eb"
-    referenceNo: 309
+    referenceNo: "BP20230331015"
+    parentReferenceNo: 309
     orderId: "f33f9e06-17e9-40d3-b5aa-300bd61e32eb"
     parentId: "50ab233e-d174-4ca1-9e12-e5751fd89440"
     parentType: "Bill"
@@ -3622,13 +3941,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331014"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331014"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -200.000000 HKD
     type: "Deposit"
     sourceId: "db07bff4-7643-4f55-9320-8a7baf77ab3a"
     orderId: "db07bff4-7643-4f55-9320-8a7baf77ab3a"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331014"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331016"
@@ -3641,6 +3961,7 @@
     orderId: "db07bff4-7643-4f55-9320-8a7baf77ab3a"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331014"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331016"
@@ -3652,7 +3973,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  200.000000 HKD
     type: "Payment"
     sourceId: "a034f906-7822-41f7-bc6c-e150f100e98c"
-    referenceNo: 322
+    referenceNo: "BP20230331016"
+    parentReferenceNo: 322
     orderId: "a034f906-7822-41f7-bc6c-e150f100e98c"
     parentId: "c80290d5-a8cb-42db-a152-e15069e55991"
     parentType: "Bill"
@@ -3664,7 +3986,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -200.000000 HKD
     type: "Payment"
     sourceId: "a034f906-7822-41f7-bc6c-e150f100e98c"
-    referenceNo: 322
+    referenceNo: "BP20230331016"
+    parentReferenceNo: 322
     orderId: "a034f906-7822-41f7-bc6c-e150f100e98c"
     parentId: "c80290d5-a8cb-42db-a152-e15069e55991"
     parentType: "Bill"
@@ -3674,13 +3997,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331029"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331029"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -150.000000 HKD
     type: "Deposit"
     sourceId: "e89b8d35-7bba-4787-a452-1629bf87d337"
     orderId: "e89b8d35-7bba-4787-a452-1629bf87d337"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331029"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331032"
@@ -3693,6 +4017,7 @@
     orderId: "e89b8d35-7bba-4787-a452-1629bf87d337"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331029"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331032"
@@ -3704,7 +4029,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  150.000000 HKD
     type: "Payment"
     sourceId: "e7c87a92-6cb1-44b6-a0b7-f8ab4aab9b86"
-    referenceNo: 323
+    referenceNo: "BP20230331032"
+    parentReferenceNo: 323
     orderId: "e7c87a92-6cb1-44b6-a0b7-f8ab4aab9b86"
     parentId: "f756a28b-701d-4224-b7b1-8c6754acae08"
     parentType: "Bill"
@@ -3716,7 +4042,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -150.000000 HKD
     type: "Payment"
     sourceId: "e7c87a92-6cb1-44b6-a0b7-f8ab4aab9b86"
-    referenceNo: 323
+    referenceNo: "BP20230331032"
+    parentReferenceNo: 323
     orderId: "e7c87a92-6cb1-44b6-a0b7-f8ab4aab9b86"
     parentId: "f756a28b-701d-4224-b7b1-8c6754acae08"
     parentType: "Bill"
@@ -3726,13 +4053,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331020"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331020"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2063.000000 HKD
     type: "Deposit"
     sourceId: "86c4c691-8ba4-43a8-96de-1c5bab4e0e53"
     orderId: "86c4c691-8ba4-43a8-96de-1c5bab4e0e53"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331020"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331023"
@@ -3745,6 +4073,7 @@
     orderId: "86c4c691-8ba4-43a8-96de-1c5bab4e0e53"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331020"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331023"
@@ -3756,7 +4085,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2063.000000 HKD
     type: "Payment"
     sourceId: "da29d580-4883-4642-9637-fa7e440ceda3"
-    referenceNo: 550
+    referenceNo: "BP20230331023"
+    parentReferenceNo: 550
     orderId: "da29d580-4883-4642-9637-fa7e440ceda3"
     parentId: "e52d185d-4296-4307-8c8b-c86c31f8a4b4"
     parentType: "Bill"
@@ -3768,7 +4098,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2063.000000 HKD
     type: "Payment"
     sourceId: "da29d580-4883-4642-9637-fa7e440ceda3"
-    referenceNo: 550
+    referenceNo: "BP20230331023"
+    parentReferenceNo: 550
     orderId: "da29d580-4883-4642-9637-fa7e440ceda3"
     parentId: "e52d185d-4296-4307-8c8b-c86c31f8a4b4"
     parentType: "Bill"
@@ -3778,13 +4109,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331031"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331031"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -500.000000 HKD
     type: "Deposit"
     sourceId: "b4bdc131-13ae-4814-922a-02e95604a1df"
     orderId: "b4bdc131-13ae-4814-922a-02e95604a1df"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331031"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331034"
@@ -3797,6 +4129,7 @@
     orderId: "b4bdc131-13ae-4814-922a-02e95604a1df"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331031"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331034"
@@ -3808,7 +4141,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  500.000000 HKD
     type: "Payment"
     sourceId: "f15e5865-7d5b-4f26-9014-14e3c73fe06e"
-    referenceNo: 588
+    referenceNo: "BP20230331034"
+    parentReferenceNo: 588
     orderId: "f15e5865-7d5b-4f26-9014-14e3c73fe06e"
     parentId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
     parentType: "Bill"
@@ -3820,7 +4154,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -500.000000 HKD
     type: "Payment"
     sourceId: "f15e5865-7d5b-4f26-9014-14e3c73fe06e"
-    referenceNo: 588
+    referenceNo: "BP20230331034"
+    parentReferenceNo: 588
     orderId: "f15e5865-7d5b-4f26-9014-14e3c73fe06e"
     parentId: "a4c48b74-bde9-48dc-920b-2acb1348d951"
     parentType: "Bill"
@@ -3830,13 +4165,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331032"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331032"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Deposit"
     sourceId: "bbd35ed1-efe0-4383-b064-83ac40bba5a4"
     orderId: "bbd35ed1-efe0-4383-b064-83ac40bba5a4"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331032"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331035"
@@ -3849,6 +4185,7 @@
     orderId: "bbd35ed1-efe0-4383-b064-83ac40bba5a4"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331032"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331035"
@@ -3860,7 +4197,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  350.000000 HKD
     type: "Payment"
     sourceId: "beaac6ed-0592-400a-adbe-9de4430acd10"
-    referenceNo: 628
+    referenceNo: "BP20230331035"
+    parentReferenceNo: 628
     orderId: "beaac6ed-0592-400a-adbe-9de4430acd10"
     parentId: "8151ee68-3a50-43bc-8a37-4c1b7405dc2f"
     parentType: "Bill"
@@ -3872,7 +4210,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Payment"
     sourceId: "beaac6ed-0592-400a-adbe-9de4430acd10"
-    referenceNo: 628
+    referenceNo: "BP20230331035"
+    parentReferenceNo: 628
     orderId: "beaac6ed-0592-400a-adbe-9de4430acd10"
     parentId: "8151ee68-3a50-43bc-8a37-4c1b7405dc2f"
     parentType: "Bill"
@@ -3882,13 +4221,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331023"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331023"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Deposit"
     sourceId: "3376a81f-551d-49ea-aa98-30429e260f6d"
     orderId: "3376a81f-551d-49ea-aa98-30429e260f6d"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331023"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331026"
@@ -3901,6 +4241,7 @@
     orderId: "3376a81f-551d-49ea-aa98-30429e260f6d"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331023"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331026"
@@ -3912,7 +4253,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  350.000000 HKD
     type: "Payment"
     sourceId: "d0b4d948-ed8b-4d77-8a93-d918c9a44449"
-    referenceNo: 597
+    referenceNo: "BP20230331026"
+    parentReferenceNo: 597
     orderId: "d0b4d948-ed8b-4d77-8a93-d918c9a44449"
     parentId: "dabdaaf2-ab79-441b-a9ef-da002fb4705a"
     parentType: "Bill"
@@ -3924,7 +4266,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Payment"
     sourceId: "d0b4d948-ed8b-4d77-8a93-d918c9a44449"
-    referenceNo: 597
+    referenceNo: "BP20230331026"
+    parentReferenceNo: 597
     orderId: "d0b4d948-ed8b-4d77-8a93-d918c9a44449"
     parentId: "dabdaaf2-ab79-441b-a9ef-da002fb4705a"
     parentType: "Bill"
@@ -3934,13 +4277,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331030"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331030"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2281.000000 HKD
     type: "Deposit"
     sourceId: "ccdecf66-18e2-4a5c-9dcb-b422efce81bb"
     orderId: "ccdecf66-18e2-4a5c-9dcb-b422efce81bb"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331030"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331033"
@@ -3953,6 +4297,7 @@
     orderId: "ccdecf66-18e2-4a5c-9dcb-b422efce81bb"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331030"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331033"
@@ -3964,7 +4309,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2281.000000 HKD
     type: "Payment"
     sourceId: "b6d1484a-6a54-41c8-88de-9e124804adfd"
-    referenceNo: 634
+    referenceNo: "BP20230331033"
+    parentReferenceNo: 634
     orderId: "b6d1484a-6a54-41c8-88de-9e124804adfd"
     parentId: "3516fecb-df96-4693-85a8-3deb51ac862c"
     parentType: "Bill"
@@ -3976,7 +4322,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2281.000000 HKD
     type: "Payment"
     sourceId: "b6d1484a-6a54-41c8-88de-9e124804adfd"
-    referenceNo: 634
+    referenceNo: "BP20230331033"
+    parentReferenceNo: 634
     orderId: "b6d1484a-6a54-41c8-88de-9e124804adfd"
     parentId: "3516fecb-df96-4693-85a8-3deb51ac862c"
     parentType: "Bill"
@@ -3986,13 +4333,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331015"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331015"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2225.000000 HKD
     type: "Deposit"
     sourceId: "864687f1-f248-45bc-aab1-fe8dc4d36501"
     orderId: "864687f1-f248-45bc-aab1-fe8dc4d36501"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331015"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331017"
@@ -4005,6 +4353,7 @@
     orderId: "864687f1-f248-45bc-aab1-fe8dc4d36501"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331015"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331017"
@@ -4016,7 +4365,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2225.000000 HKD
     type: "Payment"
     sourceId: "50310524-3772-4ede-8f81-2da1cd3459c5"
-    referenceNo: 319
+    referenceNo: "BP20230331017"
+    parentReferenceNo: 319
     orderId: "50310524-3772-4ede-8f81-2da1cd3459c5"
     parentId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
     parentType: "Bill"
@@ -4028,7 +4378,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2225.000000 HKD
     type: "Payment"
     sourceId: "50310524-3772-4ede-8f81-2da1cd3459c5"
-    referenceNo: 319
+    referenceNo: "BP20230331017"
+    parentReferenceNo: 319
     orderId: "50310524-3772-4ede-8f81-2da1cd3459c5"
     parentId: "b0b1f67e-da6f-41ca-9183-5725cd159fd5"
     parentType: "Bill"
@@ -4038,13 +4389,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331008"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331008"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -3231.000000 HKD
     type: "Deposit"
     sourceId: "a414fcaa-e51c-497e-ade9-dff10d9b7db8"
     orderId: "a414fcaa-e51c-497e-ade9-dff10d9b7db8"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331008"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331010"
@@ -4057,6 +4409,7 @@
     orderId: "a414fcaa-e51c-497e-ade9-dff10d9b7db8"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331008"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331010"
@@ -4068,7 +4421,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  3231.000000 HKD
     type: "Payment"
     sourceId: "de9924f7-9415-4683-a0ae-18b5f1281b16"
-    referenceNo: 320
+    referenceNo: "BP20230331010"
+    parentReferenceNo: 320
     orderId: "de9924f7-9415-4683-a0ae-18b5f1281b16"
     parentId: "b034f5c7-7ac3-446d-a0df-db59d27006a8"
     parentType: "Bill"
@@ -4080,7 +4434,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -3231.000000 HKD
     type: "Payment"
     sourceId: "de9924f7-9415-4683-a0ae-18b5f1281b16"
-    referenceNo: 320
+    referenceNo: "BP20230331010"
+    parentReferenceNo: 320
     orderId: "de9924f7-9415-4683-a0ae-18b5f1281b16"
     parentId: "b034f5c7-7ac3-446d-a0df-db59d27006a8"
     parentType: "Bill"
@@ -4090,13 +4445,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331024"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331024"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2096.000000 HKD
     type: "Deposit"
     sourceId: "6c7802b8-e2a0-4e63-9a70-2d596acda687"
     orderId: "6c7802b8-e2a0-4e63-9a70-2d596acda687"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331024"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331027"
@@ -4109,6 +4465,7 @@
     orderId: "6c7802b8-e2a0-4e63-9a70-2d596acda687"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331024"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331027"
@@ -4120,7 +4477,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2096.000000 HKD
     type: "Payment"
     sourceId: "c205d1dd-4b80-4633-8ff2-f33635909a47"
-    referenceNo: 551
+    referenceNo: "BP20230331027"
+    parentReferenceNo: 551
     orderId: "c205d1dd-4b80-4633-8ff2-f33635909a47"
     parentId: "a159d2ac-d7e0-4b4e-a754-cff427d925f3"
     parentType: "Bill"
@@ -4132,7 +4490,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -2096.000000 HKD
     type: "Payment"
     sourceId: "c205d1dd-4b80-4633-8ff2-f33635909a47"
-    referenceNo: 551
+    referenceNo: "BP20230331027"
+    parentReferenceNo: 551
     orderId: "c205d1dd-4b80-4633-8ff2-f33635909a47"
     parentId: "a159d2ac-d7e0-4b4e-a754-cff427d925f3"
     parentType: "Bill"
@@ -4142,13 +4501,14 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
 
-2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Deposit D#CD20230331033"
+2023-03-31 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Trade Deposit D#CD20230331033"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Deposit"
     sourceId: "b1558129-2de5-4395-9a3d-824e1f4b408f"
     orderId: "b1558129-2de5-4395-9a3d-824e1f4b408f"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331033"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331036"
@@ -4161,6 +4521,7 @@
     orderId: "b1558129-2de5-4395-9a3d-824e1f4b408f"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     referenceNo: "CD20230331033"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230331036"
@@ -4172,7 +4533,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  350.000000 HKD
     type: "Payment"
     sourceId: "23e658c1-23a0-4679-9e49-963d17fffd02"
-    referenceNo: 627
+    referenceNo: "BP20230331036"
+    parentReferenceNo: 627
     orderId: "23e658c1-23a0-4679-9e49-963d17fffd02"
     parentId: "26dee097-e64c-4848-b1a2-66f896626e74"
     parentType: "Bill"
@@ -4184,7 +4546,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -350.000000 HKD
     type: "Payment"
     sourceId: "23e658c1-23a0-4679-9e49-963d17fffd02"
-    referenceNo: 627
+    referenceNo: "BP20230331036"
+    parentReferenceNo: 627
     orderId: "23e658c1-23a0-4679-9e49-963d17fffd02"
     parentId: "26dee097-e64c-4848-b1a2-66f896626e74"
     parentType: "Bill"

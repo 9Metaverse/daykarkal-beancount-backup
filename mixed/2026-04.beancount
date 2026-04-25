@@ -895,6 +895,7 @@
     sourceId: "6ab93bde-0021-47e6-87c2-259d36eb8738"
     orderId: "963b7605-13ca-46d6-8117-82613614ed23"
     referenceNo: "2374"
+    parentReferenceNo: ""
     description: "G17 4月2026 租金 (Item #1)"
     dateTs: "1775025957692"
     accountId: "2765f3d6-8b22-47a2-9cf0-0dadc140e12f"
@@ -903,17 +904,19 @@
     sourceId: "760eeff2-5308-4837-84a8-00f63137b5c8"
     orderId: "963b7605-13ca-46d6-8117-82613614ed23"
     referenceNo: "2374"
+    parentReferenceNo: ""
     description: "G17 4月2026 租金 (Item #2)"
     dateTs: "1775025957692"
     accountId: "fa4d3224-2959-4935-afc2-0eea3e0042db"
 
-2026-04-01 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Deposit D#CD20260401005"
+2026-04-01 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260401005"
   Assets:CurrentAssets:Cash:G17ShopCash  -14099.000000 HKD
     type: "Deposit"
     sourceId: "5ac3e251-3713-4dc3-87dc-6bc9a55138c4"
     orderId: "5ac3e251-3713-4dc3-87dc-6bc9a55138c4"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260401005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260401005"
@@ -926,6 +929,7 @@
     orderId: "5ac3e251-3713-4dc3-87dc-6bc9a55138c4"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260401005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260401005"
@@ -937,7 +941,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  14099.000000 HKD
     type: "Payment"
     sourceId: "7f6718a6-a0a3-4b25-bf3b-601b78d1e370"
-    referenceNo: 1587
+    referenceNo: "BP20260401005"
+    parentReferenceNo: 1587
     orderId: "7f6718a6-a0a3-4b25-bf3b-601b78d1e370"
     parentId: "a1e0b8a6-f5e9-4c8b-8dac-5dd97f5c10c8"
     parentType: "Bill"
@@ -949,7 +954,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市嘉寧珏珠寶股份有限公司8613502891558  -14099.000000 HKD
     type: "Payment"
     sourceId: "7f6718a6-a0a3-4b25-bf3b-601b78d1e370"
-    referenceNo: 1587
+    referenceNo: "BP20260401005"
+    parentReferenceNo: 1587
     orderId: "7f6718a6-a0a3-4b25-bf3b-601b78d1e370"
     parentId: "a1e0b8a6-f5e9-4c8b-8dac-5dd97f5c10c8"
     parentType: "Bill"
@@ -959,13 +965,14 @@
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     accountId: "c3c7693e-d6b8-4a1b-91ab-4007245053cf"
 
-2026-04-01 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Deposit D#CD20260401003"
+2026-04-01 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260401003"
   Assets:CurrentAssets:Cash:G17ShopCash  -4190.000000 HKD
     type: "Deposit"
     sourceId: "1f69181a-80d8-4403-932d-82217758ba1e"
     orderId: "1f69181a-80d8-4403-932d-82217758ba1e"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260401003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260401003"
@@ -978,6 +985,7 @@
     orderId: "1f69181a-80d8-4403-932d-82217758ba1e"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260401003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260401003"
@@ -989,7 +997,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  4190.000000 HKD
     type: "Payment"
     sourceId: "c4c744d3-2358-4d96-a244-c78a4615595b"
-    referenceNo: 1571
+    referenceNo: "BP20260401003"
+    parentReferenceNo: 1571
     orderId: "c4c744d3-2358-4d96-a244-c78a4615595b"
     parentId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
     parentType: "Bill"
@@ -1001,7 +1010,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市嘉寧珏珠寶股份有限公司8613502891558  -4190.000000 HKD
     type: "Payment"
     sourceId: "c4c744d3-2358-4d96-a244-c78a4615595b"
-    referenceNo: 1571
+    referenceNo: "BP20260401003"
+    parentReferenceNo: 1571
     orderId: "c4c744d3-2358-4d96-a244-c78a4615595b"
     parentId: "c6c9b8cb-3894-445d-91c8-3372cdf64721"
     parentType: "Bill"
@@ -1017,6 +1027,7 @@
     sourceId: "b51f190e-5583-4a59-b568-dd14f3736a7b"
     orderId: "68b6d21a-a218-430a-ac45-c0c88c6d5f05"
     referenceNo: "3304"
+    parentReferenceNo: ""
     description: "G17 Pretty Cash (Cutter) (Item #1)"
     dateTs: "1775100924556"
     accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
@@ -1025,6 +1036,7 @@
     sourceId: "7e2ac958-bc36-4f02-8ecd-037fcc0d9325"
     orderId: "68b6d21a-a218-430a-ac45-c0c88c6d5f05"
     referenceNo: "3304"
+    parentReferenceNo: ""
     description: "G17 Pretty Cash (Cutter) (Item #2)"
     dateTs: "1775100924556"
     accountId: "ede59747-2a28-409c-be61-1e62547ad935"
@@ -1033,6 +1045,7 @@
     sourceId: "8e2b12b6-3a5e-43c2-857c-0c6d019eb7fe"
     orderId: "68b6d21a-a218-430a-ac45-c0c88c6d5f05"
     referenceNo: "3304"
+    parentReferenceNo: ""
     description: "G17 Pretty Cash (消毒液) (Item #3)"
     dateTs: "1775100924556"
     accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
@@ -1041,17 +1054,19 @@
     sourceId: "da3a852d-fe0d-45fe-8f52-41f9bc1f4007"
     orderId: "68b6d21a-a218-430a-ac45-c0c88c6d5f05"
     referenceNo: "3304"
+    parentReferenceNo: ""
     description: "G17 Pretty Cash (消毒液) (Item #4)"
     dateTs: "1775100924556"
     accountId: "ede59747-2a28-409c-be61-1e62547ad935"
 
-2026-04-02 * "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Deposit D#CD20260402020"
+2026-04-02 * "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Trade Deposit D#CD20260402020"
   Assets:CurrentAssets:Bank:BocCurrentBank  -3723.900000 USD {1 HKD}
     type: "Deposit"
     sourceId: "d5592611-51a1-49ce-acc2-292fc07c67f7"
     orderId: "d5592611-51a1-49ce-acc2-292fc07c67f7"
     orderContact: "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     referenceNo: "CD20260402020"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260402021"
@@ -1064,6 +1079,7 @@
     orderId: "d5592611-51a1-49ce-acc2-292fc07c67f7"
     orderContact: "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     referenceNo: "CD20260402020"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260402021"
@@ -1075,7 +1091,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kgkPrecioushkLtd85227332222  3723.900000 USD {1 HKD}
     type: "Payment"
     sourceId: "92afb9d9-2541-4258-bf16-5296091e1291"
-    referenceNo: 1570
+    referenceNo: "BP20260402021"
+    parentReferenceNo: 1570
     orderId: "92afb9d9-2541-4258-bf16-5296091e1291"
     parentId: "4d304610-1fe1-46be-9b5e-da161367b6ff"
     parentType: "Bill"
@@ -1087,7 +1104,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-KgkPrecioushkLtd85227332222  -3723.900000 USD {1 HKD}
     type: "Payment"
     sourceId: "92afb9d9-2541-4258-bf16-5296091e1291"
-    referenceNo: 1570
+    referenceNo: "BP20260402021"
+    parentReferenceNo: 1570
     orderId: "92afb9d9-2541-4258-bf16-5296091e1291"
     parentId: "4d304610-1fe1-46be-9b5e-da161367b6ff"
     parentType: "Bill"
@@ -1097,13 +1115,14 @@
     contact: "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     accountId: "e5166fb5-e5ff-4744-b819-3c3b09a63282"
 
-2026-04-04 * "852 84955166 (ChenxiGuo) [3227722d-ebde-41aa-9f7a-e943cf037af8]" "Deposit D#CD20260404001"
+2026-04-04 * "852 84955166 (ChenxiGuo) [3227722d-ebde-41aa-9f7a-e943cf037af8]" "Client Deposit D#CD20260404001"
   Assets:CurrentAssets:Bank:KpayBank  3600.000000 HKD
     type: "Deposit"
     sourceId: "956a08e0-123c-4303-b0f0-86f90055e9ce"
     orderId: "956a08e0-123c-4303-b0f0-86f90055e9ce"
     orderContact: "852 84955166 (ChenxiGuo) [3227722d-ebde-41aa-9f7a-e943cf037af8]"
     referenceNo: "CD20260404001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404001"
@@ -1116,6 +1135,7 @@
     orderId: "956a08e0-123c-4303-b0f0-86f90055e9ce"
     orderContact: "852 84955166 (ChenxiGuo) [3227722d-ebde-41aa-9f7a-e943cf037af8]"
     referenceNo: "CD20260404001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404001"
@@ -1127,7 +1147,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-ChenxiGuo85284955166  3600.000000 HKD
     type: "Payment"
     sourceId: "7fd7dec2-1695-457e-abe3-fb2c5e4550b1"
-    referenceNo: 1220
+    referenceNo: "IP20260404001"
+    parentReferenceNo: 1220
     orderId: "7fd7dec2-1695-457e-abe3-fb2c5e4550b1"
     parentId: "9f54aaa0-6997-4e09-bf9d-b19337287b54"
     parentType: "Invoice"
@@ -1139,7 +1160,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-chenxiGuo85284955166  -3600.000000 HKD
     type: "Payment"
     sourceId: "7fd7dec2-1695-457e-abe3-fb2c5e4550b1"
-    referenceNo: 1220
+    referenceNo: "IP20260404001"
+    parentReferenceNo: 1220
     orderId: "7fd7dec2-1695-457e-abe3-fb2c5e4550b1"
     parentId: "9f54aaa0-6997-4e09-bf9d-b19337287b54"
     parentType: "Invoice"
@@ -1149,13 +1171,14 @@
     contact: "852 84955166 (ChenxiGuo) [3227722d-ebde-41aa-9f7a-e943cf037af8]"
     accountId: "2a90218f-ce25-4eab-a1f8-3b37569292df"
 
-2026-04-04 * "86 18621967968 (吳雪) [78a553f3-70d0-4103-8efe-922a874c4889]" "Deposit D#CD20260404005"
+2026-04-04 * "86 18621967968 (吳雪) [78a553f3-70d0-4103-8efe-922a874c4889]" "Client Deposit D#CD20260404005"
   Assets:CurrentAssets:Bank:KpayBank  10200.000000 HKD
     type: "Deposit"
     sourceId: "49371b63-453b-4a78-973b-1635e46ce6e3"
     orderId: "49371b63-453b-4a78-973b-1635e46ce6e3"
     orderContact: "86 18621967968 (吳雪) [78a553f3-70d0-4103-8efe-922a874c4889]"
     referenceNo: "CD20260404005"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404005"
@@ -1168,6 +1191,7 @@
     orderId: "49371b63-453b-4a78-973b-1635e46ce6e3"
     orderContact: "86 18621967968 (吳雪) [78a553f3-70d0-4103-8efe-922a874c4889]"
     referenceNo: "CD20260404005"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404005"
@@ -1179,7 +1203,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-吳雪8618621967968  10200.000000 HKD
     type: "Payment"
     sourceId: "4ba4245e-bc08-45d5-a37e-08eb553c2fa1"
-    referenceNo: 1221
+    referenceNo: "IP20260404005"
+    parentReferenceNo: 1221
     orderId: "4ba4245e-bc08-45d5-a37e-08eb553c2fa1"
     parentId: "15ee052c-1d61-40ad-88d5-2415c4b8c0d4"
     parentType: "Invoice"
@@ -1191,7 +1216,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-吳雪8618621967968  -10200.000000 HKD
     type: "Payment"
     sourceId: "4ba4245e-bc08-45d5-a37e-08eb553c2fa1"
-    referenceNo: 1221
+    referenceNo: "IP20260404005"
+    parentReferenceNo: 1221
     orderId: "4ba4245e-bc08-45d5-a37e-08eb553c2fa1"
     parentId: "15ee052c-1d61-40ad-88d5-2415c4b8c0d4"
     parentType: "Invoice"
@@ -1201,13 +1227,14 @@
     contact: "86 18621967968 (吳雪) [78a553f3-70d0-4103-8efe-922a874c4889]"
     accountId: "2f657705-26ac-48fd-8399-02839af07166"
 
-2026-04-04 * "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]" "Deposit D#CD20260404003"
+2026-04-04 * "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]" "Client Deposit D#CD20260404003"
   Assets:CurrentAssets:Bank:KpayBank  2800.000000 HKD
     type: "Deposit"
     sourceId: "c3055ef0-ced8-4f24-8ff7-0fd854f1ed5b"
     orderId: "c3055ef0-ced8-4f24-8ff7-0fd854f1ed5b"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     referenceNo: "CD20260404003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404003"
@@ -1220,6 +1247,7 @@
     orderId: "c3055ef0-ced8-4f24-8ff7-0fd854f1ed5b"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     referenceNo: "CD20260404003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404003"
@@ -1231,7 +1259,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-Vida85290551171  2800.000000 HKD
     type: "Payment"
     sourceId: "40cf9726-a01a-49cd-aa27-ad2d4921a7ca"
-    referenceNo: 1222
+    referenceNo: "IP20260404003"
+    parentReferenceNo: 1222
     orderId: "40cf9726-a01a-49cd-aa27-ad2d4921a7ca"
     parentId: "39952ecc-efdb-4dbe-9ab8-a7dd5f1a4580"
     parentType: "Invoice"
@@ -1243,7 +1272,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  -2800.000000 HKD
     type: "Payment"
     sourceId: "40cf9726-a01a-49cd-aa27-ad2d4921a7ca"
-    referenceNo: 1222
+    referenceNo: "IP20260404003"
+    parentReferenceNo: 1222
     orderId: "40cf9726-a01a-49cd-aa27-ad2d4921a7ca"
     parentId: "39952ecc-efdb-4dbe-9ab8-a7dd5f1a4580"
     parentType: "Invoice"
@@ -1259,6 +1289,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1223"
+    parentReferenceNo: ""
     orderId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     dateTs: "1775293602084"
@@ -1270,6 +1301,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1223"
+    parentReferenceNo: ""
     orderId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     dateTs: "1775293602084"
@@ -1281,6 +1313,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1223"
+    parentReferenceNo: ""
     orderId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     dateTs: "1775293602084"
@@ -1289,6 +1322,7 @@
     accountId: "9e9a6bec-aa16-408f-a7f6-48d59c262d37"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTangRaymond85297871622  8700.000000 HKD
     referenceNo: "1223"
+    parentReferenceNo: ""
     orderId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     dateTs: "1775293602084"
@@ -1297,13 +1331,14 @@
     contact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     accountId: "eb61df7f-56de-4de4-b9d5-9a7630b5c961"
 
-2026-04-04 * "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]" "Deposit D#CD20260404002"
+2026-04-04 * "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]" "Client Deposit D#CD20260404002"
   Assets:CurrentAssets:Bank:KpayBank  8700.000000 HKD
     type: "Deposit"
     sourceId: "c05d1e24-5e6d-445f-8d91-4c9c6337ef5f"
     orderId: "c05d1e24-5e6d-445f-8d91-4c9c6337ef5f"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     referenceNo: "CD20260404002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404002"
@@ -1316,6 +1351,7 @@
     orderId: "c05d1e24-5e6d-445f-8d91-4c9c6337ef5f"
     orderContact: "852 97871622 (MR.TANGRAYMOND) [adb81ba5-9fca-4071-96c9-9ab337011447]"
     referenceNo: "CD20260404002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260404002"
@@ -1327,7 +1363,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTangRaymond85297871622  8700.000000 HKD
     type: "Payment"
     sourceId: "6becb8e3-a85d-4c10-9d11-ff635d8510e9"
-    referenceNo: 1223
+    referenceNo: "IP20260404002"
+    parentReferenceNo: 1223
     orderId: "6becb8e3-a85d-4c10-9d11-ff635d8510e9"
     parentId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     parentType: "Invoice"
@@ -1339,7 +1376,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTangRaymond85297871622  -8700.000000 HKD
     type: "Payment"
     sourceId: "6becb8e3-a85d-4c10-9d11-ff635d8510e9"
-    referenceNo: 1223
+    referenceNo: "IP20260404002"
+    parentReferenceNo: 1223
     orderId: "6becb8e3-a85d-4c10-9d11-ff635d8510e9"
     parentId: "3b76e5ae-40bc-4064-9597-6843d6a904d5"
     parentType: "Invoice"
@@ -1351,6 +1389,7 @@
 
 2026-04-08 * "Bill #1588 1.17+1.58+0.02 做貨 @1000+630 4be460f1-8e89-435b-8cc0-21dbdc58abce"
   referenceNo: "1588"
+  parentReferenceNo: ""
   orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
   orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
   dateTs: "1775619763663"
@@ -1360,6 +1399,7 @@
     sku: "SAP2612"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1371,6 +1411,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1382,6 +1423,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1393,6 +1435,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1404,6 +1447,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1415,6 +1459,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1426,6 +1471,7 @@
     sku: "SAP2613-05"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1437,6 +1483,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1445,6 +1492,7 @@
     accountId: "162c4685-6cf2-47c0-9854-f374d05a7cd5"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-leGlami85298622472  -1630.000000 HKD
     referenceNo: "1588"
+    parentReferenceNo: ""
     orderId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     dateTs: "1775619763663"
@@ -1453,13 +1501,14 @@
     sourceId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     accountId: "fe7f3037-c8a6-44ae-9900-a472d6c0d075"
 
-2026-04-08 * "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]" "Deposit D#CD20260408002"
+2026-04-08 * "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]" "Trade Deposit D#CD20260408002"
   Assets:CurrentAssets:Cash:G17ShopCash  -1630.000000 HKD
     type: "Deposit"
     sourceId: "ef767eb0-95ca-4f55-9e28-481148e6c6b3"
     orderId: "ef767eb0-95ca-4f55-9e28-481148e6c6b3"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     referenceNo: "CD20260408002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260408002"
@@ -1472,6 +1521,7 @@
     orderId: "ef767eb0-95ca-4f55-9e28-481148e6c6b3"
     orderContact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
     referenceNo: "CD20260408002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260408002"
@@ -1483,7 +1533,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-leGlami85298622472  1630.000000 HKD
     type: "Payment"
     sourceId: "544a1056-974c-4cbc-b1a0-8923cbc126ed"
-    referenceNo: 1588
+    referenceNo: "BP20260408002"
+    parentReferenceNo: 1588
     orderId: "544a1056-974c-4cbc-b1a0-8923cbc126ed"
     parentId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     parentType: "Bill"
@@ -1495,7 +1546,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-LeGlami85298622472  -1630.000000 HKD
     type: "Payment"
     sourceId: "544a1056-974c-4cbc-b1a0-8923cbc126ed"
-    referenceNo: 1588
+    referenceNo: "BP20260408002"
+    parentReferenceNo: 1588
     orderId: "544a1056-974c-4cbc-b1a0-8923cbc126ed"
     parentId: "4be460f1-8e89-435b-8cc0-21dbdc58abce"
     parentType: "Bill"
@@ -1511,6 +1563,7 @@
     sku: "2527572478"
     qty: "1"
     referenceNo: "1224"
+    parentReferenceNo: ""
     orderId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     dateTs: "1775707974817"
@@ -1522,6 +1575,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1224"
+    parentReferenceNo: ""
     orderId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     dateTs: "1775707974817"
@@ -1530,6 +1584,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrCheng85298823488  11100.000000 HKD
     referenceNo: "1224"
+    parentReferenceNo: ""
     orderId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     dateTs: "1775707974817"
@@ -1538,13 +1593,14 @@
     contact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     accountId: "b63388f9-5fbc-4cc4-8723-2e762c6b3225"
 
-2026-04-09 * "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]" "Deposit D#CD20260409001"
+2026-04-09 * "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]" "Client Deposit D#CD20260409001"
   Assets:CurrentAssets:Bank:BocSavingBank  2000.000000 HKD
     type: "Deposit"
     sourceId: "782f06eb-8194-4d08-b4b8-c5f909b42236"
     orderId: "782f06eb-8194-4d08-b4b8-c5f909b42236"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     referenceNo: "CD20260409001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260409001"
@@ -1557,6 +1613,7 @@
     orderId: "782f06eb-8194-4d08-b4b8-c5f909b42236"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     referenceNo: "CD20260409001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260409001"
@@ -1568,7 +1625,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrCheng85298823488  2000.000000 HKD
     type: "Payment"
     sourceId: "3e1faac9-1066-4fe2-bfb7-bc05549014e7"
-    referenceNo: 1224
+    referenceNo: "IP20260409001"
+    parentReferenceNo: 1224
     orderId: "3e1faac9-1066-4fe2-bfb7-bc05549014e7"
     parentId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     parentType: "Invoice"
@@ -1580,7 +1638,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrCheng85298823488  -2000.000000 HKD
     type: "Payment"
     sourceId: "3e1faac9-1066-4fe2-bfb7-bc05549014e7"
-    referenceNo: 1224
+    referenceNo: "IP20260409001"
+    parentReferenceNo: 1224
     orderId: "3e1faac9-1066-4fe2-bfb7-bc05549014e7"
     parentId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     parentType: "Invoice"
@@ -1590,13 +1649,14 @@
     contact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     accountId: "b63388f9-5fbc-4cc4-8723-2e762c6b3225"
 
-2026-04-09 * "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Deposit D#CD20260409004"
+2026-04-09 * "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]" "Trade Deposit D#CD20260409004"
   Assets:CurrentAssets:Cash:G17ShopCash  -10479.000000 HKD
     type: "Deposit"
     sourceId: "0f6b906b-3901-49aa-be06-8c442ba101c2"
     orderId: "0f6b906b-3901-49aa-be06-8c442ba101c2"
     orderContact: "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     referenceNo: "CD20260409004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409004"
@@ -1609,6 +1669,7 @@
     orderId: "0f6b906b-3901-49aa-be06-8c442ba101c2"
     orderContact: "852 27332222 (KGKPRECIOUS(HK)LTD) [9fff2798-f1db-47cb-8899-6d52f49f6715]"
     referenceNo: "CD20260409004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409004"
@@ -1620,7 +1681,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kgkPrecioushkLtd85227332222  10479.000000 HKD
     type: "Payment"
     sourceId: "527c26fc-ed70-42df-9e67-9b805940017a"
-    referenceNo: 1585
+    referenceNo: "BP20260409004"
+    parentReferenceNo: 1585
     orderId: "527c26fc-ed70-42df-9e67-9b805940017a"
     parentId: "9eb69d4c-9a63-476d-b88c-63ef4b134841"
     parentType: "Bill"
@@ -1632,7 +1694,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-KgkPrecioushkLtd85227332222  -10479.000000 HKD
     type: "Payment"
     sourceId: "527c26fc-ed70-42df-9e67-9b805940017a"
-    referenceNo: 1585
+    referenceNo: "BP20260409004"
+    parentReferenceNo: 1585
     orderId: "527c26fc-ed70-42df-9e67-9b805940017a"
     parentId: "9eb69d4c-9a63-476d-b88c-63ef4b134841"
     parentType: "Bill"
@@ -1648,6 +1711,7 @@
     sourceId: "583592a2-4e1d-4c0d-9aff-1794b795dab7"
     orderId: "2cb96741-e2bf-4975-8a5b-ac6b9cc07917"
     referenceNo: "3481"
+    parentReferenceNo: ""
     description: "kpay 320 (Item #1)"
     dateTs: "1775725445287"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -1656,12 +1720,14 @@
     sourceId: "c21bfdde-b61b-4b26-a01d-fcbf16842fa0"
     orderId: "2cb96741-e2bf-4975-8a5b-ac6b9cc07917"
     referenceNo: "3481"
+    parentReferenceNo: ""
     description: "kpay 320 (Item #2)"
     dateTs: "1775725445287"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
 
 2026-04-09 * "Bill #1589 嚴丹鳳代鑲石 合併 678e5ea9-8c89-440b-9a1c-b72d3b579301"
   referenceNo: "1589"
+  parentReferenceNo: ""
   orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
   orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   dateTs: "1775726609659"
@@ -1671,6 +1737,7 @@
     sku: "PN2609"
     qty: "1"
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1682,6 +1749,7 @@
     sku: "BESPOKE59"
     qty: "1"
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1693,6 +1761,7 @@
     sku: "PE2608"
     qty: "1"
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1704,6 +1773,7 @@
     sku: "PR2641"
     qty: "1"
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1715,6 +1785,7 @@
     sku: "PR2642"
     qty: "1"
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1723,6 +1794,7 @@
     accountId: "f09ea58f-86fb-43bf-b9bd-e43e4a971f0b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -10908.000000 HKD
     referenceNo: "1589"
+    parentReferenceNo: ""
     orderId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1733,6 +1805,7 @@
 
 2026-04-09 * "Bill #1590 2CHAIN+4 耳迫 090f8b6d-a03e-4702-966c-626a7fabf00c"
   referenceNo: "1590"
+  parentReferenceNo: ""
   orderId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
   orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   dateTs: "1775726609659"
@@ -1742,6 +1815,7 @@
     sku: "Unknown"
     qty: "4"
     referenceNo: "1590"
+    parentReferenceNo: ""
     orderId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1753,6 +1827,7 @@
     sku: "DD20260409006"
     qty: "2"
     referenceNo: "1590"
+    parentReferenceNo: ""
     orderId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1761,6 +1836,7 @@
     accountId: "f09ea58f-86fb-43bf-b9bd-e43e4a971f0b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -2447.000000 HKD
     referenceNo: "1590"
+    parentReferenceNo: ""
     orderId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1775726609659"
@@ -1769,13 +1845,14 @@
     sourceId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     accountId: "471de9ca-7282-451b-8bda-2eb7efeebcbb"
 
-2026-04-09 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Deposit D#CD20260409005"
+2026-04-09 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260409005"
   Assets:CurrentAssets:Cash:G17ShopCash  -10908.000000 HKD
     type: "Deposit"
     sourceId: "868653e3-9193-447e-b4b0-4c4568a65d36"
     orderId: "868653e3-9193-447e-b4b0-4c4568a65d36"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260409005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409005"
@@ -1788,6 +1865,7 @@
     orderId: "868653e3-9193-447e-b4b0-4c4568a65d36"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260409005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409005"
@@ -1799,7 +1877,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  10908.000000 HKD
     type: "Payment"
     sourceId: "180b7763-1bc1-4897-9f4b-de3e4fd01583"
-    referenceNo: 1589
+    referenceNo: "BP20260409005"
+    parentReferenceNo: 1589
     orderId: "180b7763-1bc1-4897-9f4b-de3e4fd01583"
     parentId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     parentType: "Bill"
@@ -1811,7 +1890,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市嘉寧珏珠寶股份有限公司8613502891558  -10908.000000 HKD
     type: "Payment"
     sourceId: "180b7763-1bc1-4897-9f4b-de3e4fd01583"
-    referenceNo: 1589
+    referenceNo: "BP20260409005"
+    parentReferenceNo: 1589
     orderId: "180b7763-1bc1-4897-9f4b-de3e4fd01583"
     parentId: "678e5ea9-8c89-440b-9a1c-b72d3b579301"
     parentType: "Bill"
@@ -1821,13 +1901,14 @@
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     accountId: "c3c7693e-d6b8-4a1b-91ab-4007245053cf"
 
-2026-04-09 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Deposit D#CD20260409006"
+2026-04-09 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260409006"
   Assets:CurrentAssets:Cash:G17ShopCash  -2447.000000 HKD
     type: "Deposit"
     sourceId: "b9a76d2c-6867-4bf4-a495-bd37bc17ae7f"
     orderId: "b9a76d2c-6867-4bf4-a495-bd37bc17ae7f"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260409006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409006"
@@ -1840,6 +1921,7 @@
     orderId: "b9a76d2c-6867-4bf4-a495-bd37bc17ae7f"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260409006"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260409006"
@@ -1851,7 +1933,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  2447.000000 HKD
     type: "Payment"
     sourceId: "f0b5a5b3-bbbe-4bdc-918b-ba3d331fef2f"
-    referenceNo: 1590
+    referenceNo: "BP20260409006"
+    parentReferenceNo: 1590
     orderId: "f0b5a5b3-bbbe-4bdc-918b-ba3d331fef2f"
     parentId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     parentType: "Bill"
@@ -1863,7 +1946,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市嘉寧珏珠寶股份有限公司8613502891558  -2447.000000 HKD
     type: "Payment"
     sourceId: "f0b5a5b3-bbbe-4bdc-918b-ba3d331fef2f"
-    referenceNo: 1590
+    referenceNo: "BP20260409006"
+    parentReferenceNo: 1590
     orderId: "f0b5a5b3-bbbe-4bdc-918b-ba3d331fef2f"
     parentId: "090f8b6d-a03e-4702-966c-626a7fabf00c"
     parentType: "Bill"
@@ -1879,6 +1963,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1226"
+    parentReferenceNo: ""
     orderId: "31790563-2be6-4971-b65a-091b30e51689"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     dateTs: "1775811863241"
@@ -1890,6 +1975,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1226"
+    parentReferenceNo: ""
     orderId: "31790563-2be6-4971-b65a-091b30e51689"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     dateTs: "1775811863241"
@@ -1901,6 +1987,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1226"
+    parentReferenceNo: ""
     orderId: "31790563-2be6-4971-b65a-091b30e51689"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     dateTs: "1775811863241"
@@ -1909,6 +1996,7 @@
     accountId: "0e845b49-6785-4386-8639-474b4ddcfda3"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  8000.000000 HKD
     referenceNo: "1226"
+    parentReferenceNo: ""
     orderId: "31790563-2be6-4971-b65a-091b30e51689"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     dateTs: "1775811863241"
@@ -1919,6 +2007,7 @@
 
 2026-04-13 * "Bill #1591 GIA E SI2 0.50CT #2527572478 64e9b597-ee8b-41f7-bc47-ac328010af88"
   referenceNo: "1591"
+  parentReferenceNo: ""
   orderId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
   orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
   dateTs: "1776059171369"
@@ -1928,6 +2017,7 @@
     sku: "2527572478"
     qty: "1"
     referenceNo: "1591"
+    parentReferenceNo: ""
     orderId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
     orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     dateTs: "1776059171369"
@@ -1936,6 +2026,7 @@
     accountId: "b9ba35e1-9d4a-4908-98ab-c1d8bb2478f2"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-tvesaJewellery85294146156  -4200.000000 HKD
     referenceNo: "1591"
+    parentReferenceNo: ""
     orderId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
     orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     dateTs: "1776059171369"
@@ -1944,13 +2035,14 @@
     sourceId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
     accountId: "4a8674d8-9f5c-4a70-9761-4c96532966bc"
 
-2026-04-13 * "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]" "Deposit D#CD20260413003"
+2026-04-13 * "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]" "Trade Deposit D#CD20260413003"
   Assets:CurrentAssets:Cash:G17ShopCash  -4200.000000 HKD
     type: "Deposit"
     sourceId: "ef49d522-fedb-400e-93a1-170506c45a1c"
     orderId: "ef49d522-fedb-400e-93a1-170506c45a1c"
     orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     referenceNo: "CD20260413003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260413003"
@@ -1963,6 +2055,7 @@
     orderId: "ef49d522-fedb-400e-93a1-170506c45a1c"
     orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
     referenceNo: "CD20260413003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260413003"
@@ -1974,7 +2067,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-tvesaJewellery85294146156  4200.000000 HKD
     type: "Payment"
     sourceId: "04d10351-f70c-4594-a5aa-dd12df1f7c96"
-    referenceNo: 1591
+    referenceNo: "BP20260413003"
+    parentReferenceNo: 1591
     orderId: "04d10351-f70c-4594-a5aa-dd12df1f7c96"
     parentId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
     parentType: "Bill"
@@ -1986,7 +2080,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-TvesaJewellery85294146156  -4200.000000 HKD
     type: "Payment"
     sourceId: "04d10351-f70c-4594-a5aa-dd12df1f7c96"
-    referenceNo: 1591
+    referenceNo: "BP20260413003"
+    parentReferenceNo: 1591
     orderId: "04d10351-f70c-4594-a5aa-dd12df1f7c96"
     parentId: "64e9b597-ee8b-41f7-bc47-ac328010af88"
     parentType: "Bill"
@@ -1998,6 +2093,7 @@
 
 2026-04-13 * "Bill #1598 3月2026年MPF 3a7abde8-2431-409f-b46c-8320748108bb"
   referenceNo: "1598"
+  parentReferenceNo: ""
   orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1776070647262"
@@ -2006,6 +2102,7 @@
     qty: "1"
     description: "3月2026年MPF"
     referenceNo: "1598"
+    parentReferenceNo: ""
     orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776070647262"
@@ -2014,6 +2111,7 @@
     accountId: "8634d5ab-02ec-4f10-8301-0db9acb8167c"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
     referenceNo: "1598"
+    parentReferenceNo: ""
     orderId: "3a7abde8-2431-409f-b46c-8320748108bb"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776070647262"
@@ -2022,13 +2120,14 @@
     sourceId: "3a7abde8-2431-409f-b46c-8320748108bb"
     accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
 
-2026-04-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260413016"
+2026-04-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260413016"
   Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
     type: "Deposit"
     sourceId: "96558fa4-929b-4479-a6da-a65538079d03"
     orderId: "96558fa4-929b-4479-a6da-a65538079d03"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260413016"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260413018"
@@ -2041,6 +2140,7 @@
     orderId: "96558fa4-929b-4479-a6da-a65538079d03"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260413016"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260413018"
@@ -2052,7 +2152,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  7500.000000 HKD
     type: "Payment"
     sourceId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
-    referenceNo: 1598
+    referenceNo: "BP20260413018"
+    parentReferenceNo: 1598
     orderId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
     parentId: "3a7abde8-2431-409f-b46c-8320748108bb"
     parentType: "Bill"
@@ -2064,7 +2165,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -7500.000000 HKD
     type: "Payment"
     sourceId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
-    referenceNo: 1598
+    referenceNo: "BP20260413018"
+    parentReferenceNo: 1598
     orderId: "e9a16638-184f-46b3-90b6-1fa2a15db526"
     parentId: "3a7abde8-2431-409f-b46c-8320748108bb"
     parentType: "Bill"
@@ -2080,6 +2182,7 @@
     sourceId: "f0261972-e204-44f9-89e1-cec0bcbb0a44"
     orderId: "bc739e68-5810-42bd-be15-138d3df15817"
     referenceNo: "3482"
+    parentReferenceNo: ""
     description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #1)"
     dateTs: "1776071148697"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -2088,6 +2191,7 @@
     sourceId: "19a4be98-94b4-4362-a211-a69c55d0eb1f"
     orderId: "bc739e68-5810-42bd-be15-138d3df15817"
     referenceNo: "3482"
+    parentReferenceNo: ""
     description: "BANK TRANSFER from BOC -saving to SAM VISA (Item #2)"
     dateTs: "1776071148697"
     accountId: "2dc4c021-5843-4a80-9fb8-be2dfe2fb7e2"
@@ -2097,6 +2201,7 @@
     description: "Bespoke 18K Earrings Setting 2.00ct"
     qty: "1"
     referenceNo: "1225"
+    parentReferenceNo: ""
     orderId: "dc2acfa0-c7df-45cc-9b4f-aacfb373e612"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     dateTs: "1776145999808"
@@ -2105,6 +2210,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  3600.000000 HKD
     referenceNo: "1225"
+    parentReferenceNo: ""
     orderId: "dc2acfa0-c7df-45cc-9b4f-aacfb373e612"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     dateTs: "1776145999808"
@@ -2113,13 +2219,14 @@
     contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     accountId: "53412629-757a-455f-a08a-1e2a1c2f1444"
 
-2026-04-14 * "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]" "Deposit D#CD20260414002"
+2026-04-14 * "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]" "Client Deposit D#CD20260414002"
   Assets:CurrentAssets:Bank:KpayBank  7400.000000 HKD
     type: "Deposit"
     sourceId: "18b3634f-5cd5-4da4-82d6-ca7782279bc8"
     orderId: "18b3634f-5cd5-4da4-82d6-ca7782279bc8"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     referenceNo: "CD20260414002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260414002"
@@ -2132,6 +2239,7 @@
     orderId: "18b3634f-5cd5-4da4-82d6-ca7782279bc8"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     referenceNo: "CD20260414002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260414002"
@@ -2143,7 +2251,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MayHo85257437998  7400.000000 HKD
     type: "Payment"
     sourceId: "8b8c1914-0824-4350-be37-efd498480282"
-    referenceNo: 1219
+    referenceNo: "IP20260414002"
+    parentReferenceNo: 1219
     orderId: "8b8c1914-0824-4350-be37-efd498480282"
     parentId: "40908c6e-4350-445d-8fc9-5c170fc755e5"
     parentType: "Invoice"
@@ -2155,7 +2264,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  -7400.000000 HKD
     type: "Payment"
     sourceId: "8b8c1914-0824-4350-be37-efd498480282"
-    referenceNo: 1219
+    referenceNo: "IP20260414002"
+    parentReferenceNo: 1219
     orderId: "8b8c1914-0824-4350-be37-efd498480282"
     parentId: "40908c6e-4350-445d-8fc9-5c170fc755e5"
     parentType: "Invoice"
@@ -2165,13 +2275,14 @@
     contact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     accountId: "53412629-757a-455f-a08a-1e2a1c2f1444"
 
-2026-04-14 * "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]" "Deposit D#CD20260414001"
+2026-04-14 * "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]" "Client Deposit D#CD20260414001"
   Assets:CurrentAssets:Bank:KpayBank  3600.000000 HKD
     type: "Deposit"
     sourceId: "8acb5fca-4791-42c1-8995-5aae11a9c983"
     orderId: "8acb5fca-4791-42c1-8995-5aae11a9c983"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     referenceNo: "CD20260414001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260414001"
@@ -2184,6 +2295,7 @@
     orderId: "8acb5fca-4791-42c1-8995-5aae11a9c983"
     orderContact: "852 57437998 (MayHo) [b7d21f95-8871-42f8-81dd-cdc59cf66a92]"
     referenceNo: "CD20260414001"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260414001"
@@ -2195,7 +2307,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MayHo85257437998  3600.000000 HKD
     type: "Payment"
     sourceId: "2c820d42-2fac-416d-b6a6-4eb20f6d6671"
-    referenceNo: 1225
+    referenceNo: "IP20260414001"
+    parentReferenceNo: 1225
     orderId: "2c820d42-2fac-416d-b6a6-4eb20f6d6671"
     parentId: "dc2acfa0-c7df-45cc-9b4f-aacfb373e612"
     parentType: "Invoice"
@@ -2207,7 +2320,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mayHo85257437998  -3600.000000 HKD
     type: "Payment"
     sourceId: "2c820d42-2fac-416d-b6a6-4eb20f6d6671"
-    referenceNo: 1225
+    referenceNo: "IP20260414001"
+    parentReferenceNo: 1225
     orderId: "2c820d42-2fac-416d-b6a6-4eb20f6d6671"
     parentId: "dc2acfa0-c7df-45cc-9b4f-aacfb373e612"
     parentType: "Invoice"
@@ -2219,6 +2333,7 @@
 
 2026-04-15 * "Bill #1595 G17電費(2026-03月) 5f5abe37-5a15-4820-9734-8936ddb7e15c"
   referenceNo: "1595"
+  parentReferenceNo: ""
   orderId: "5f5abe37-5a15-4820-9734-8936ddb7e15c"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1776236015585"
@@ -2227,6 +2342,7 @@
     qty: "1"
     description: "G17電費(2026-03月)"
     referenceNo: "1595"
+    parentReferenceNo: ""
     orderId: "5f5abe37-5a15-4820-9734-8936ddb7e15c"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776236015585"
@@ -2235,6 +2351,7 @@
     accountId: "707e61dc-38f1-43ec-bb20-98d907550150"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -1904.000000 HKD
     referenceNo: "1595"
+    parentReferenceNo: ""
     orderId: "5f5abe37-5a15-4820-9734-8936ddb7e15c"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776236015585"
@@ -2245,6 +2362,7 @@
 
 2026-04-15 * "Bill #1596 DKK 固網電話費(04/26-07/26) 3374309f-030a-4b98-93c7-b26dd6238bcf"
   referenceNo: "1596"
+  parentReferenceNo: ""
   orderId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1776236015585"
@@ -2253,6 +2371,7 @@
     qty: "1"
     description: "DKK 固網電話費(04/26-07/26)"
     referenceNo: "1596"
+    parentReferenceNo: ""
     orderId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776236015585"
@@ -2261,6 +2380,7 @@
     accountId: "89f5c159-eb37-493c-802b-2351480afa05"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -328.000000 HKD
     referenceNo: "1596"
+    parentReferenceNo: ""
     orderId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1776236015585"
@@ -2269,13 +2389,14 @@
     sourceId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
     accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
 
-2026-04-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260415003"
+2026-04-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260415003"
   Assets:CurrentAssets:Cash:CashInHand  -1904.000000 HKD
     type: "Deposit"
     sourceId: "27624d13-f548-4eef-913d-bf4d502b4849"
     orderId: "27624d13-f548-4eef-913d-bf4d502b4849"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260415003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260415003"
@@ -2288,6 +2409,7 @@
     orderId: "27624d13-f548-4eef-913d-bf4d502b4849"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260415003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260415003"
@@ -2299,7 +2421,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1904.000000 HKD
     type: "Payment"
     sourceId: "727eaac8-80c1-4a3d-82a6-133fd7344601"
-    referenceNo: 1595
+    referenceNo: "BP20260415003"
+    parentReferenceNo: 1595
     orderId: "727eaac8-80c1-4a3d-82a6-133fd7344601"
     parentId: "5f5abe37-5a15-4820-9734-8936ddb7e15c"
     parentType: "Bill"
@@ -2311,7 +2434,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -1904.000000 HKD
     type: "Payment"
     sourceId: "727eaac8-80c1-4a3d-82a6-133fd7344601"
-    referenceNo: 1595
+    referenceNo: "BP20260415003"
+    parentReferenceNo: 1595
     orderId: "727eaac8-80c1-4a3d-82a6-133fd7344601"
     parentId: "5f5abe37-5a15-4820-9734-8936ddb7e15c"
     parentType: "Bill"
@@ -2321,13 +2445,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2026-04-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260415005"
+2026-04-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260415005"
   Assets:CurrentAssets:Cash:CashInHand  -328.000000 HKD
     type: "Deposit"
     sourceId: "21b1dacd-fb5b-4587-906c-950d177d38dd"
     orderId: "21b1dacd-fb5b-4587-906c-950d177d38dd"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260415005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260415005"
@@ -2340,6 +2465,7 @@
     orderId: "21b1dacd-fb5b-4587-906c-950d177d38dd"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260415005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260415005"
@@ -2351,7 +2477,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  328.000000 HKD
     type: "Payment"
     sourceId: "e585c2b1-85e0-45b2-bb94-fe0690bdd565"
-    referenceNo: 1596
+    referenceNo: "BP20260415005"
+    parentReferenceNo: 1596
     orderId: "e585c2b1-85e0-45b2-bb94-fe0690bdd565"
     parentId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
     parentType: "Bill"
@@ -2363,7 +2490,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -328.000000 HKD
     type: "Payment"
     sourceId: "e585c2b1-85e0-45b2-bb94-fe0690bdd565"
-    referenceNo: 1596
+    referenceNo: "BP20260415005"
+    parentReferenceNo: 1596
     orderId: "e585c2b1-85e0-45b2-bb94-fe0690bdd565"
     parentId: "3374309f-030a-4b98-93c7-b26dd6238bcf"
     parentType: "Bill"
@@ -2379,6 +2507,7 @@
     sourceId: "a0ebc753-638b-459c-855c-06653e369872"
     orderId: "3d66001c-44f1-4619-859a-48532c390844"
     referenceNo: "3483"
+    parentReferenceNo: ""
     description: "kpay 321 (Item #1)"
     dateTs: "1776330389843"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -2387,17 +2516,19 @@
     sourceId: "67e2c073-3d1b-4d66-a0d5-6cd4b5b31c4c"
     orderId: "3d66001c-44f1-4619-859a-48532c390844"
     referenceNo: "3483"
+    parentReferenceNo: ""
     description: "kpay 321 (Item #2)"
     dateTs: "1776330389843"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
 
-2026-04-16 * "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]" "Deposit D#CD20260416003"
+2026-04-16 * "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]" "Client Deposit D#CD20260416003"
   Assets:CurrentAssets:Bank:AeBank  8000.000000 HKD
     type: "Deposit"
     sourceId: "0dd02e45-e90e-4865-b38a-7ed53543adde"
     orderId: "0dd02e45-e90e-4865-b38a-7ed53543adde"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     referenceNo: "CD20260416003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260416003"
@@ -2410,6 +2541,7 @@
     orderId: "0dd02e45-e90e-4865-b38a-7ed53543adde"
     orderContact: "852 90551171 (VIDA) [e6849602-7837-4c55-9238-f7eacce03b4f]"
     referenceNo: "CD20260416003"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260416003"
@@ -2421,7 +2553,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-Vida85290551171  8000.000000 HKD
     type: "Payment"
     sourceId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
-    referenceNo: 1226
+    referenceNo: "IP20260416003"
+    parentReferenceNo: 1226
     orderId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
     parentId: "31790563-2be6-4971-b65a-091b30e51689"
     parentType: "Invoice"
@@ -2433,7 +2566,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-vida85290551171  -8000.000000 HKD
     type: "Payment"
     sourceId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
-    referenceNo: 1226
+    referenceNo: "IP20260416003"
+    parentReferenceNo: 1226
     orderId: "4fc87823-deb1-46de-9c15-80270c54ffd0"
     parentId: "31790563-2be6-4971-b65a-091b30e51689"
     parentType: "Invoice"
@@ -2449,6 +2583,7 @@
     sku: "HM000003"
     qty: "1"
     referenceNo: "1227"
+    parentReferenceNo: ""
     orderId: "867e3881-3c30-402f-8a92-4220693bbee5"
     orderContact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
     dateTs: "1776410156415"
@@ -2457,6 +2592,7 @@
     accountId: "9e9a6bec-aa16-408f-a7f6-48d59c262d37"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-davidKwandirector99812345708  0.000000 HKD
     referenceNo: "1227"
+    parentReferenceNo: ""
     orderId: "867e3881-3c30-402f-8a92-4220693bbee5"
     orderContact: "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]"
     dateTs: "1776410156415"
@@ -2467,6 +2603,7 @@
 
 2026-04-17 * "Bill #1592 嚴丹鳳代鑲石 合併 744c40b4-a824-4838-be66-f5048e2446b3"
   referenceNo: "1592"
+  parentReferenceNo: ""
   orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
   orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   dateTs: "1776410156415"
@@ -2476,6 +2613,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2487,6 +2625,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2498,6 +2637,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2509,6 +2649,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2520,6 +2661,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2531,6 +2673,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2542,6 +2685,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2553,6 +2697,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2564,6 +2709,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2575,6 +2721,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2583,6 +2730,7 @@
     accountId: "dd517e28-5860-43a9-953e-38f78d2d9de6"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -23162.000000 HKD
     referenceNo: "1592"
+    parentReferenceNo: ""
     orderId: "744c40b4-a824-4838-be66-f5048e2446b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776410156415"
@@ -2591,13 +2739,14 @@
     sourceId: "744c40b4-a824-4838-be66-f5048e2446b3"
     accountId: "471de9ca-7282-451b-8bda-2eb7efeebcbb"
 
-2026-04-17 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Deposit D#CD20260417001"
+2026-04-17 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260417001"
   Assets:CurrentAssets:Cash:G17ShopCash  -23162.000000 HKD
     type: "Deposit"
     sourceId: "bc42cc26-12ef-4276-83c8-61f5cf7b792c"
     orderId: "bc42cc26-12ef-4276-83c8-61f5cf7b792c"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260417001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260417001"
@@ -2610,6 +2759,7 @@
     orderId: "bc42cc26-12ef-4276-83c8-61f5cf7b792c"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     referenceNo: "CD20260417001"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260417001"
@@ -2621,7 +2771,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  23162.000000 HKD
     type: "Payment"
     sourceId: "29d8f777-cf3d-4eaf-8c68-7d59433a5eb0"
-    referenceNo: 1592
+    referenceNo: "BP20260417001"
+    parentReferenceNo: 1592
     orderId: "29d8f777-cf3d-4eaf-8c68-7d59433a5eb0"
     parentId: "744c40b4-a824-4838-be66-f5048e2446b3"
     parentType: "Bill"
@@ -2633,7 +2784,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市嘉寧珏珠寶股份有限公司8613502891558  -23162.000000 HKD
     type: "Payment"
     sourceId: "29d8f777-cf3d-4eaf-8c68-7d59433a5eb0"
-    referenceNo: 1592
+    referenceNo: "BP20260417001"
+    parentReferenceNo: 1592
     orderId: "29d8f777-cf3d-4eaf-8c68-7d59433a5eb0"
     parentId: "744c40b4-a824-4838-be66-f5048e2446b3"
     parentType: "Bill"
@@ -2645,6 +2797,7 @@
 
 2026-04-21 * "Bill #1594 嚴丹鳳代鑲石 合併 577d5dd8-0ae9-4a73-b7da-61be194972b3"
   referenceNo: "1594"
+  parentReferenceNo: ""
   orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
   orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   dateTs: "1776755756000"
@@ -2654,6 +2807,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2665,6 +2819,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2676,6 +2831,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2687,6 +2843,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2698,6 +2855,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2706,6 +2864,7 @@
     accountId: "f09ea58f-86fb-43bf-b9bd-e43e4a971f0b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -2026.000000 HKD
     referenceNo: "1594"
+    parentReferenceNo: ""
     orderId: "577d5dd8-0ae9-4a73-b7da-61be194972b3"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2716,6 +2875,7 @@
 
 2026-04-21 * "Bill #1593 嚴丹鳳代鑲石 合併 7d90b31c-1434-494b-84e1-c8b405e2c5a2"
   referenceNo: "1593"
+  parentReferenceNo: ""
   orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
   orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
   dateTs: "1776755756000"
@@ -2725,6 +2885,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2736,6 +2897,7 @@
     sku: "Unknown"
     qty: "-1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2747,6 +2909,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2758,6 +2921,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2769,6 +2933,7 @@
     sku: "PROCESSING183"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2780,6 +2945,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2791,6 +2957,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2802,6 +2969,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2813,6 +2981,7 @@
     sku: "Unknown"
     qty: "1"
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2821,6 +2990,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -8521.000000 HKD
     referenceNo: "1593"
+    parentReferenceNo: ""
     orderId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     dateTs: "1776755756000"
@@ -2829,13 +2999,14 @@
     sourceId: "7d90b31c-1434-494b-84e1-c8b405e2c5a2"
     accountId: "471de9ca-7282-451b-8bda-2eb7efeebcbb"
 
-2026-04-23 * "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]" "Deposit D#CD20260423002"
+2026-04-23 * "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]" "Client Deposit D#CD20260423002"
   Assets:CurrentAssets:Bank:KpayBank  7800.000000 HKD
     type: "Deposit"
     sourceId: "d56f0054-4b39-44ca-8e38-5a94d2fc1339"
     orderId: "d56f0054-4b39-44ca-8e38-5a94d2fc1339"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     referenceNo: "CD20260423002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260423002"
@@ -2848,6 +3019,7 @@
     orderId: "d56f0054-4b39-44ca-8e38-5a94d2fc1339"
     orderContact: "852 98823488 (MRCHENG) [d706dd9c-edc6-4b20-b1d6-ffa71d58254f]"
     referenceNo: "CD20260423002"
+    parentReferenceNo: ""
     depositType: "client"
     paymentParentType: "Invoice"
     paymentReferenceNo: "IP20260423002"
@@ -2859,7 +3031,8 @@
   Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrCheng85298823488  7800.000000 HKD
     type: "Payment"
     sourceId: "eb8b31cf-0146-4a72-b8e6-d59e23e07998"
-    referenceNo: 1224
+    referenceNo: "IP20260423002"
+    parentReferenceNo: 1224
     orderId: "eb8b31cf-0146-4a72-b8e6-d59e23e07998"
     parentId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     parentType: "Invoice"
@@ -2871,7 +3044,8 @@
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrCheng85298823488  -7800.000000 HKD
     type: "Payment"
     sourceId: "eb8b31cf-0146-4a72-b8e6-d59e23e07998"
-    referenceNo: 1224
+    referenceNo: "IP20260423002"
+    parentReferenceNo: 1224
     orderId: "eb8b31cf-0146-4a72-b8e6-d59e23e07998"
     parentId: "93cf65e6-4f0a-4e28-94b0-d1567af96215"
     parentType: "Invoice"
@@ -2887,6 +3061,7 @@
     dateTs: "1777015587562"
     type: "Reservation"
     referenceNo: "GR2026042400015S"
+    parentReferenceNo: ""
     sourceId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
@@ -2894,6 +3069,7 @@
     dateTs: "1777015587562"
     type: "Reservation"
     referenceNo: "GR2026042400015S"
+    parentReferenceNo: ""
     sourceId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
@@ -2907,6 +3083,7 @@
     dateTs: "1777016781998"
     type: "Reservation Delivery"
     referenceNo: "D20260424005"
+    parentReferenceNo: "GR2026042400015S"
     sourceId: "d7491973-e6e0-4207-95b7-53bef2bad07f"
     orderId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
@@ -2914,6 +3091,7 @@
     dateTs: "1777016781998"
     type: "Reservation Delivery"
     referenceNo: "D20260424005"
+    parentReferenceNo: "GR2026042400015S"
     sourceId: "d7491973-e6e0-4207-95b7-53bef2bad07f"
     orderId: "f94cb321-0c34-4b9a-8649-ec3631fd883f"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
@@ -2924,6 +3102,7 @@
     dateTs: "1777016890976"
     type: "Reservation"
     referenceNo: "GR2026042400018B"
+    parentReferenceNo: ""
     sourceId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2931,6 +3110,7 @@
     dateTs: "1777016890976"
     type: "Reservation"
     referenceNo: "GR2026042400018B"
+    parentReferenceNo: ""
     sourceId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2944,6 +3124,7 @@
     dateTs: "1777019427332"
     type: "Reservation Delivery"
     referenceNo: "D20260424006"
+    parentReferenceNo: "GR2026042400018B"
     sourceId: "fb0ac97a-c235-49b2-bb6a-2b8769ddeaa7"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2951,6 +3132,7 @@
     dateTs: "1777019427332"
     type: "Reservation Delivery"
     referenceNo: "D20260424006"
+    parentReferenceNo: "GR2026042400018B"
     sourceId: "fb0ac97a-c235-49b2-bb6a-2b8769ddeaa7"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2959,6 +3141,7 @@
     dateTs: "1777019427332"
     type: "Reservation Delivery"
     referenceNo: "D20260424006"
+    parentReferenceNo: "GR2026042400018B"
     sourceId: "fb0ac97a-c235-49b2-bb6a-2b8769ddeaa7"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2966,6 +3149,7 @@
     dateTs: "1777019427332"
     type: "Reservation Delivery"
     referenceNo: "D20260424006"
+    parentReferenceNo: "GR2026042400018B"
     sourceId: "fb0ac97a-c235-49b2-bb6a-2b8769ddeaa7"
     orderId: "e676414f-b7e9-4194-9fdc-8c753a358554"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
@@ -2973,6 +3157,7 @@
 
 2026-04-24 * "Bill #1599 Zurich Insurance Company Ltd 6e802414-d9bf-4f7f-a768-834cf47d68fa"
   referenceNo: "1599"
+  parentReferenceNo: ""
   orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1777021047262"
@@ -2981,6 +3166,7 @@
     qty: "1"
     description: "K11 Contractor’s Insurance"
     referenceNo: "1599"
+    parentReferenceNo: ""
     orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1777021047262"
@@ -2991,6 +3177,7 @@
     qty: "1"
     description: "bank fee "
     referenceNo: "1599"
+    parentReferenceNo: ""
     orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1777021047262"
@@ -3001,6 +3188,7 @@
     qty: "1"
     description: "K11  P.L Insurance "
     referenceNo: "1599"
+    parentReferenceNo: ""
     orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1777021047262"
@@ -3011,6 +3199,7 @@
     qty: "1"
     description: "bank fee "
     referenceNo: "1599"
+    parentReferenceNo: ""
     orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1777021047262"
@@ -3019,6 +3208,7 @@
     accountId: "0895c7bc-3600-48bf-9063-7ddd33dc3299"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -6278.100000 HKD
     referenceNo: "1599"
+    parentReferenceNo: ""
     orderId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1777021047262"
@@ -3027,13 +3217,14 @@
     sourceId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
 
-2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260424004"
+2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260424004"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
     type: "Deposit"
     sourceId: "4fe9f171-ac34-428e-8f55-50206d0db15b"
     orderId: "4fe9f171-ac34-428e-8f55-50206d0db15b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424004"
@@ -3046,6 +3237,7 @@
     orderId: "4fe9f171-ac34-428e-8f55-50206d0db15b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424004"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424004"
@@ -3057,7 +3249,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5.000000 HKD
     type: "Payment"
     sourceId: "9815b479-d482-4454-a406-118fbc0b6258"
-    referenceNo: 1599
+    referenceNo: "BP20260424004"
+    parentReferenceNo: 1599
     orderId: "9815b479-d482-4454-a406-118fbc0b6258"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3069,7 +3262,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5.000000 HKD
     type: "Payment"
     sourceId: "9815b479-d482-4454-a406-118fbc0b6258"
-    referenceNo: 1599
+    referenceNo: "BP20260424004"
+    parentReferenceNo: 1599
     orderId: "9815b479-d482-4454-a406-118fbc0b6258"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3079,13 +3273,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260424002"
+2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260424002"
   Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
     type: "Deposit"
     sourceId: "747f771e-9f6d-413f-ab83-f10f2e8ac798"
     orderId: "747f771e-9f6d-413f-ab83-f10f2e8ac798"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424002"
@@ -3098,6 +3293,7 @@
     orderId: "747f771e-9f6d-413f-ab83-f10f2e8ac798"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424002"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424002"
@@ -3109,7 +3305,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5.000000 HKD
     type: "Payment"
     sourceId: "221d4d38-7a8d-456d-9c72-d153fdec5331"
-    referenceNo: 1599
+    referenceNo: "BP20260424002"
+    parentReferenceNo: 1599
     orderId: "221d4d38-7a8d-456d-9c72-d153fdec5331"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3121,7 +3318,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -5.000000 HKD
     type: "Payment"
     sourceId: "221d4d38-7a8d-456d-9c72-d153fdec5331"
-    referenceNo: 1599
+    referenceNo: "BP20260424002"
+    parentReferenceNo: 1599
     orderId: "221d4d38-7a8d-456d-9c72-d153fdec5331"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3131,13 +3329,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260424005"
+2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260424005"
   Assets:CurrentAssets:Bank:BocSavingBank  -3465.300000 HKD
     type: "Deposit"
     sourceId: "076650eb-36e0-41b4-8f4b-2dfa0130a0a1"
     orderId: "076650eb-36e0-41b4-8f4b-2dfa0130a0a1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424005"
@@ -3150,6 +3349,7 @@
     orderId: "076650eb-36e0-41b4-8f4b-2dfa0130a0a1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424005"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424005"
@@ -3161,7 +3361,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  3465.300000 HKD
     type: "Payment"
     sourceId: "bcbdc9bc-455a-4c8f-9193-22a69beeeeeb"
-    referenceNo: 1599
+    referenceNo: "BP20260424005"
+    parentReferenceNo: 1599
     orderId: "bcbdc9bc-455a-4c8f-9193-22a69beeeeeb"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3173,7 +3374,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -3465.300000 HKD
     type: "Payment"
     sourceId: "bcbdc9bc-455a-4c8f-9193-22a69beeeeeb"
-    referenceNo: 1599
+    referenceNo: "BP20260424005"
+    parentReferenceNo: 1599
     orderId: "bcbdc9bc-455a-4c8f-9193-22a69beeeeeb"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3183,13 +3385,14 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
 
-2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Deposit D#CD20260424003"
+2026-04-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20260424003"
   Assets:CurrentAssets:Bank:BocSavingBank  -2802.800000 HKD
     type: "Deposit"
     sourceId: "f91423bc-12ac-41cf-876d-b3f1cd57de6b"
     orderId: "f91423bc-12ac-41cf-876d-b3f1cd57de6b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424003"
@@ -3202,6 +3405,7 @@
     orderId: "f91423bc-12ac-41cf-876d-b3f1cd57de6b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     referenceNo: "CD20260424003"
+    parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20260424003"
@@ -3213,7 +3417,8 @@
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  2802.800000 HKD
     type: "Payment"
     sourceId: "a0005da9-f002-4436-9824-fde89c7b3b59"
-    referenceNo: 1599
+    referenceNo: "BP20260424003"
+    parentReferenceNo: 1599
     orderId: "a0005da9-f002-4436-9824-fde89c7b3b59"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
@@ -3225,7 +3430,8 @@
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  -2802.800000 HKD
     type: "Payment"
     sourceId: "a0005da9-f002-4436-9824-fde89c7b3b59"
-    referenceNo: 1599
+    referenceNo: "BP20260424003"
+    parentReferenceNo: 1599
     orderId: "a0005da9-f002-4436-9824-fde89c7b3b59"
     parentId: "6e802414-d9bf-4f7f-a768-834cf47d68fa"
     parentType: "Bill"
