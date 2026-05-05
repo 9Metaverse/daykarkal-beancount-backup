@@ -5393,26 +5393,6 @@
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
 
-2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
-  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
-    accountId: "27c46981-854a-497d-8339-d1784a353f58"
-    type: "MJ"
-    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
-    dateTs: "1767161558848"
-  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
-    dateTs: "1767161558848"
-
 2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 12/2025"
   Income:OtherIncome:Interest-bank  -0.120000 HKD
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
@@ -5431,6 +5411,26 @@
     referenceNo: "2352"
     parentReferenceNo: ""
     description: "NTEREST - BOC SAV 12/2025 (Item #2)"
+    dateTs: "1767161558848"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
+  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
+    accountId: "27c46981-854a-497d-8339-d1784a353f58"
+    type: "MJ"
+    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
+    dateTs: "1767161558848"
+  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
     dateTs: "1767161558848"
 
 2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
