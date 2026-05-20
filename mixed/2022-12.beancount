@@ -1,7 +1,7 @@
 ; Mixed transactions for 2022-12 (FY 2023)
 
-2022-12-01 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd" "Cash to SRD - SR Diam (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd  172500.000000 HKD
+2022-12-01 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SRD-SRDiamHKLtd" "Cash to SRD - SR Diam (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SRD-SRDiamHKLtd  172500.000000 HKD
     contact: "998 12345761 (SRD-SRDiamHKLtd) [1aad55c0-5d9b-4453-8b8e-2e970ee6751b]"
     accountId: "96a01374-ca89-4dfc-9408-e8beb03a5d4b"
     type: "MJ"
@@ -21,8 +21,8 @@
     description: "DEPOSIT 172500 (Item #2)"
     dateTs: "1669824000000"
 
-2022-12-01 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay051"
-  Assets:CurrentAssets:Bank:BocSavingBank  49544.500000 HKD
+2022-12-01 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay051"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  49544.500000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "e03ac333-74d4-4a27-ba41-3f9d6e06c347"
@@ -31,7 +31,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1669824000000"
-  Assets:CurrentAssets:Bank:KpayBank  -49544.500000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -49544.500000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "cb89369d-4d65-4c81-a111-a9d481217e6a"
@@ -81,7 +81,7 @@
     parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1669824000000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -339100.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -339100.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "28b7636f-cf08-45e3-a0f9-54d767ee3298"
@@ -101,7 +101,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 172500 (Item #1)"
     dateTs: "1669910400000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Srd-SrDiamHkLtd  -172500.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SRD-SRDiamHKLtd  -172500.000000 HKD
     contact: "998 12345761 (SRD-SRDiamHKLtd) [1aad55c0-5d9b-4453-8b8e-2e970ee6751b]"
     accountId: "96a01374-ca89-4dfc-9408-e8beb03a5d4b"
     type: "MJ"
@@ -112,8 +112,8 @@
     description: "DEPOSIT RETURN 172500 (Item #2)"
     dateTs: "1669910400000"
 
-2022-12-02 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 339.1k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  339100.000000 HKD
+2022-12-02 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 339.1k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  339100.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "6f5f6f06-c7cb-4bc9-8040-19d99e4399e4"
@@ -142,7 +142,7 @@
     dateTs: "1669910400000"
 
 2022-12-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221202001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "0ccf6da9-16f4-42ba-a97e-fddfd5e88020"
     orderId: "0ccf6da9-16f4-42ba-a97e-fddfd5e88020"
@@ -170,7 +170,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-02 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221202002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "c441e895-7b56-4c78-85ef-d118a33c6e11"
     orderId: "c441e895-7b56-4c78-85ef-d118a33c6e11"
@@ -197,8 +197,8 @@
     accountId: "f38ad076-05a5-403c-aa4a-4b48576c5046"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
-2022-12-02 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
-  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+2022-12-02 * "Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK" "BANK TRANSFER : from BOC - saving to VISA"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -40000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "104f1cf3-0a2a-474d-83f5-28dbf31fd73e"
@@ -207,7 +207,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1669924800000"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  40000.000000 HKD
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
     type: "MJ"
     sourceId: "06e5631d-b83b-443c-bdf3-5045b8dfe01f"
@@ -332,7 +332,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-02 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221202003"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -17000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -17000.000000 HKD
     type: "Deposit"
     sourceId: "e33daad8-a6b8-415b-99fc-5813980a4fd4"
     orderId: "e33daad8-a6b8-415b-99fc-5813980a4fd4"
@@ -417,7 +417,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-04 * "998 12345734 (MaysunJewelleryMfg.ComLtd) [34a919ea-90e7-4663-a9ad-c946900ff74a]" "Client Deposit D#CD20221204001"
-  Assets:CurrentAssets:Bank:BocForeignBank  8970.000000 USD {7.85 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  8970.000000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "487ef519-f372-4b80-bc43-f546826f7a19"
     orderId: "487ef519-f372-4b80-bc43-f546826f7a19"
@@ -445,7 +445,7 @@
     contact: "998 12345734 (MaysunJewelleryMfg.ComLtd) [34a919ea-90e7-4663-a9ad-c946900ff74a]"
 
 2022-12-04 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221204004"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -8805.080000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -8805.080000 HKD
     type: "Deposit"
     sourceId: "78a24825-2d44-439f-9956-05bdedc24204"
     orderId: "78a24825-2d44-439f-9956-05bdedc24204"
@@ -582,7 +582,7 @@
     contact: "998 12345734 (MaysunJewelleryMfg.ComLtd) [34a919ea-90e7-4663-a9ad-c946900ff74a]"
 
 2022-12-05 * "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]" "Client Deposit D#CD20221205001"
-  Assets:CurrentAssets:Bank:BocSavingBank  42000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  42000.000000 HKD
     type: "Deposit"
     sourceId: "b35f8711-1300-4741-a281-843851125892"
     orderId: "b35f8711-1300-4741-a281-843851125892"
@@ -595,7 +595,7 @@
     dateTs: "1670255999999"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoChunKeung85251314057  -42000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOCHUNKEUNG85251314057  -42000.000000 HKD
     type: "Deposit"
     sourceId: "b35f8711-1300-4741-a281-843851125892"
     orderId: "b35f8711-1300-4741-a281-843851125892"
@@ -610,7 +610,7 @@
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
 
 2022-12-05 * "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]" "Client Deposit D#CD20221205002"
-  Assets:CurrentAssets:Bank:BocSavingBank  200.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  200.000000 HKD
     type: "Deposit"
     sourceId: "9776640f-43ee-496f-985e-a802195e14f2"
     orderId: "9776640f-43ee-496f-985e-a802195e14f2"
@@ -623,7 +623,7 @@
     dateTs: "1670255999999"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoChunKeung85251314057  -200.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOCHUNKEUNG85251314057  -200.000000 HKD
     type: "Deposit"
     sourceId: "9776640f-43ee-496f-985e-a802195e14f2"
     orderId: "9776640f-43ee-496f-985e-a802195e14f2"
@@ -637,8 +637,8 @@
     accountId: "d074c4ea-640d-4ded-8ded-782e660b8bfa"
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
 
-2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  22200.000000 HKD
+2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd  22200.000000 HKD
     contact: "998 12345722 (JP-JEWELPARADISECOMPANYLTD) [5089c388-50da-4482-a7cc-58901ecb47dc]"
     accountId: "eb5640de-d618-402b-865f-b98c9ef3f71f"
     type: "MJ"
@@ -658,8 +658,8 @@
     description: "DEPOSIT 22200 (Item #2)"
     dateTs: "1670256000000"
 
-2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading" "Cash to WWT - WE WIN TRADING (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading  68000.000000 HKD
+2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-WWT-WeWinTrading" "Cash to WWT - WE WIN TRADING (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-WWT-WeWinTrading  68000.000000 HKD
     contact: "998 12345779 (WWT-WEWINTRADING) [d1e456c3-53c5-416f-987c-3e4f64417707]"
     accountId: "67607786-e537-482b-951e-2f03bec1c177"
     type: "MJ"
@@ -679,8 +679,8 @@
     description: "DEPOSIT 68000 (Item #2)"
     dateTs: "1670256000000"
 
-2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd" "Cash to KIT - ANKIT GEMS (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd  39300.000000 HKD
+2022-12-06 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-KIT-AnkitGemsHongkongLtd" "Cash to KIT - ANKIT GEMS (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KIT-AnkitGemsHongkongLtd  39300.000000 HKD
     contact: "998 12345727 (KIT-ANKITGEMS(HONGKONG)LIMITED) [56b80510-8e0c-43fc-9874-96ad8367784d]"
     accountId: "adf952d1-634e-4e71-a5d7-2b65a0df8a20"
     type: "MJ"
@@ -728,7 +728,7 @@
     parentReferenceNo: ""
     description: "(Item #3)"
     dateTs: "1670256000000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -129500.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -129500.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "f193eba7-fd36-45a2-9210-0eb13ad857df"
@@ -739,7 +739,7 @@
     dateTs: "1670256000000"
 
 2022-12-06 * "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]" "Invoice Payment for Invoice#162 P#IP20221206002 65cd7155-ff1d-491f-b946-919214252f3a"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoChunKeung85251314057  200.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOCHUNKEUNG85251314057  200.000000 HKD
     type: "Payment"
     sourceId: "06a90651-55bf-4a61-bd98-ca49ca3a0c6e"
     referenceNo: "IP20221206002"
@@ -752,7 +752,7 @@
     dateTs: "1670256000000"
     accountId: "d074c4ea-640d-4ded-8ded-782e660b8bfa"
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHoChunKeung85251314057  -200.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHOCHUNKEUNG85251314057  -200.000000 HKD
     type: "Payment"
     sourceId: "06a90651-55bf-4a61-bd98-ca49ca3a0c6e"
     referenceNo: "IP20221206002"
@@ -767,7 +767,7 @@
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
 
 2022-12-06 * "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]" "Invoice Payment for Invoice#162 P#IP20221206001 65cd7155-ff1d-491f-b946-919214252f3a"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoChunKeung85251314057  42000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOCHUNKEUNG85251314057  42000.000000 HKD
     type: "Payment"
     sourceId: "b7733bde-c4c1-4943-af60-0c4b0614fd55"
     referenceNo: "IP20221206001"
@@ -780,7 +780,7 @@
     dateTs: "1670256000000"
     accountId: "d074c4ea-640d-4ded-8ded-782e660b8bfa"
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHoChunKeung85251314057  -42000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHOCHUNKEUNG85251314057  -42000.000000 HKD
     type: "Payment"
     sourceId: "b7733bde-c4c1-4943-af60-0c4b0614fd55"
     referenceNo: "IP20221206001"
@@ -795,7 +795,7 @@
     contact: "852 51314057 (MR.HOCHUNKEUNG) [3acc9f4d-f5f5-43d3-b286-accf2959e51a]"
 
 2022-12-06 * "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]" "Client Deposit D#CD20221206001"
-  Assets:CurrentAssets:Bank:KpayBank  170000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  170000.000000 HKD
     type: "Deposit"
     sourceId: "3ccab3cc-3b62-4dbb-8f98-583bf45ba63a"
     orderId: "3ccab3cc-3b62-4dbb-8f98-583bf45ba63a"
@@ -808,7 +808,7 @@
     dateTs: "1670342399999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTseSunny85252468997  -170000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTSESUNNY85252468997  -170000.000000 HKD
     type: "Deposit"
     sourceId: "3ccab3cc-3b62-4dbb-8f98-583bf45ba63a"
     orderId: "3ccab3cc-3b62-4dbb-8f98-583bf45ba63a"
@@ -823,7 +823,7 @@
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
 
 2022-12-06 * "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]" "Client Deposit D#CD20221206002"
-  Assets:CurrentAssets:Bank:KpayBank  34650.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  34650.000000 HKD
     type: "Deposit"
     sourceId: "44702c90-9c60-4f85-932c-a9264052ed80"
     orderId: "44702c90-9c60-4f85-932c-a9264052ed80"
@@ -836,7 +836,7 @@
     dateTs: "1670342399999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTang85293841438  -34650.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTANG85293841438  -34650.000000 HKD
     type: "Deposit"
     sourceId: "44702c90-9c60-4f85-932c-a9264052ed80"
     orderId: "44702c90-9c60-4f85-932c-a9264052ed80"
@@ -851,7 +851,7 @@
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
 
 2022-12-06 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221206003"
-  Assets:CurrentAssets:Bank:KpayBank  -625.750000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -625.750000 HKD
     type: "Deposit"
     sourceId: "5cf21545-5ed7-4c8d-b5f0-4e2894f8f6a1"
     orderId: "5cf21545-5ed7-4c8d-b5f0-4e2894f8f6a1"
@@ -864,7 +864,7 @@
     dateTs: "1670342399999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  625.750000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  625.750000 HKD
     type: "Deposit"
     sourceId: "5cf21545-5ed7-4c8d-b5f0-4e2894f8f6a1"
     orderId: "5cf21545-5ed7-4c8d-b5f0-4e2894f8f6a1"
@@ -909,7 +909,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1670342400000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -166600.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -166600.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "857a2ac5-b907-40a3-8a6e-972891f3435d"
@@ -955,7 +955,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
     type: "Invoice Item"
     sourceId: "90c268f1-7cc7-440c-8f47-6c71600feccb"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTang85293841438  69300.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTANG85293841438  69300.000000 HKD
     accountId: "fc89bf48-fbf5-4e24-94d4-71bd6be80017"
     referenceNo: "200"
     parentReferenceNo: ""
@@ -979,7 +979,7 @@
     accountId: "9cf4a9d7-1e40-4e5b-a3d6-eda271facd38"
     type: "Invoice Item"
     sourceId: "5dec48c4-cc56-4138-8d3f-d3717461ccbe"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTseSunny85252468997  177000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTSESUNNY85252468997  177000.000000 HKD
     accountId: "13877bce-5aa6-4308-a086-7bc72158726f"
     referenceNo: "199"
     parentReferenceNo: ""
@@ -1003,7 +1003,7 @@
     accountId: "9e9a6bec-aa16-408f-a7f6-48d59c262d37"
     type: "Invoice Item"
     sourceId: "251d03cd-a119-4ca1-bd67-41549df71af6"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWongMatch85260276419  200.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWONGMATCH85260276419  200.000000 HKD
     accountId: "dc88053d-d993-44a7-a41a-3fbf302db1b9"
     referenceNo: "201"
     parentReferenceNo: ""
@@ -1058,7 +1058,7 @@
     dateTs: "1670342400000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -625.750000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -625.750000 HKD
     type: "Payment"
     sourceId: "5bbd20a1-0d9a-4820-9a09-0f560d7eb031"
     referenceNo: "BP20221207003"
@@ -1073,7 +1073,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-07 * "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]" "Invoice Payment for Invoice#200 P#IP20221207002 a02f59c5-bb79-4838-a252-c706655f402e"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTang85293841438  34650.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTANG85293841438  34650.000000 HKD
     type: "Payment"
     sourceId: "6f71d725-6e7f-476b-8572-f20ff610c46f"
     referenceNo: "IP20221207002"
@@ -1086,7 +1086,7 @@
     dateTs: "1670342400000"
     accountId: "cda69b98-be08-4d10-8055-d58e9f22d055"
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTang85293841438  -34650.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTANG85293841438  -34650.000000 HKD
     type: "Payment"
     sourceId: "6f71d725-6e7f-476b-8572-f20ff610c46f"
     referenceNo: "IP20221207002"
@@ -1101,7 +1101,7 @@
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
 
 2022-12-07 * "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]" "Invoice Payment for Invoice#199 P#IP20221207001 d2c00a4e-2064-4649-83a8-73872f48cb72"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTseSunny85252468997  170000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTSESUNNY85252468997  170000.000000 HKD
     type: "Payment"
     sourceId: "b43ae347-a6f5-486f-8aaf-2456b3c2ed50"
     referenceNo: "IP20221207001"
@@ -1114,7 +1114,7 @@
     dateTs: "1670342400000"
     accountId: "c7516817-21ec-458b-81be-17d2b324b8a1"
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTseSunny85252468997  -170000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTSESUNNY85252468997  -170000.000000 HKD
     type: "Payment"
     sourceId: "b43ae347-a6f5-486f-8aaf-2456b3c2ed50"
     referenceNo: "IP20221207001"
@@ -1129,7 +1129,7 @@
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
 
 2022-12-07 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221207004"
-  Assets:CurrentAssets:Bank:KpayBank  -2551.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -2551.000000 HKD
     type: "Deposit"
     sourceId: "b24ef1ae-eef8-4ad6-8a75-88d2691ee41e"
     orderId: "b24ef1ae-eef8-4ad6-8a75-88d2691ee41e"
@@ -1142,7 +1142,7 @@
     dateTs: "1670428799999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  2551.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  2551.000000 HKD
     type: "Deposit"
     sourceId: "b24ef1ae-eef8-4ad6-8a75-88d2691ee41e"
     orderId: "b24ef1ae-eef8-4ad6-8a75-88d2691ee41e"
@@ -1157,7 +1157,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-07 * "998 12345689 (BEEGEMSCO.LIMITED) [f086b72b-16f2-4988-8d2c-43226241b70f]" "Trade Deposit D#CD20221207002"
-  Assets:CurrentAssets:Bank:BocSavingBank  -164228.370000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -164228.370000 HKD
     type: "Deposit"
     sourceId: "fc184dd3-70a5-4b94-9987-1ff645e6a025"
     orderId: "fc184dd3-70a5-4b94-9987-1ff645e6a025"
@@ -1185,7 +1185,7 @@
     contact: "998 12345689 (BEEGEMSCO.LIMITED) [f086b72b-16f2-4988-8d2c-43226241b70f]"
 
 2022-12-07 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221207003"
-  Assets:CurrentAssets:Bank:BocSavingBank  -55.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -55.000000 HKD
     type: "Deposit"
     sourceId: "4d233a22-b0e2-4a4c-8dcd-6f6705715f95"
     orderId: "4d233a22-b0e2-4a4c-8dcd-6f6705715f95"
@@ -1213,7 +1213,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-07 * "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]" "Client Deposit D#CD20221207001"
-  Assets:CurrentAssets:Bank:KpayBank  7000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  7000.000000 HKD
     type: "Deposit"
     sourceId: "b2ec0f1c-7980-453a-8364-60f32ccc9f5d"
     orderId: "b2ec0f1c-7980-453a-8364-60f32ccc9f5d"
@@ -1226,7 +1226,7 @@
     dateTs: "1670428799999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTseSunny85252468997  -7000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTSESUNNY85252468997  -7000.000000 HKD
     type: "Deposit"
     sourceId: "b2ec0f1c-7980-453a-8364-60f32ccc9f5d"
     orderId: "b2ec0f1c-7980-453a-8364-60f32ccc9f5d"
@@ -1240,8 +1240,8 @@
     accountId: "c7516817-21ec-458b-81be-17d2b324b8a1"
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
 
-2022-12-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 166.6k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  166600.000000 HKD
+2022-12-08 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 166.6k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  166600.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "9721448c-172c-4a72-89e3-f8e80ff02e35"
@@ -1358,7 +1358,7 @@
     accountId: "b9ba35e1-9d4a-4908-98ab-c1d8bb2478f2"
     type: "Bill Item"
     sourceId: "247e9395-ba3f-4735-b95c-f9465302c7e1"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-beeGemsCoLimited99812345689  -164228.370000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-beeGEMSCOLIMITED99812345689  -164228.370000 HKD
     accountId: "8b28d072-d776-4049-b843-3a76c09d7898"
     referenceNo: "281"
     parentReferenceNo: ""
@@ -1370,7 +1370,7 @@
     sourceId: "24127b02-b550-4d61-a20b-6ae2f4624c68"
 
 2022-12-08 * "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]" "Invoice Payment for Invoice#199 P#IP20221208001 d2c00a4e-2064-4649-83a8-73872f48cb72"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTseSunny85252468997  7000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTSESUNNY85252468997  7000.000000 HKD
     type: "Payment"
     sourceId: "9d6550da-3d8c-4a6a-bacb-eaa33be54e8d"
     referenceNo: "IP20221208001"
@@ -1383,7 +1383,7 @@
     dateTs: "1670428800000"
     accountId: "c7516817-21ec-458b-81be-17d2b324b8a1"
     contact: "852 52468997 (MR.TSESUNNY) [14b1feaf-871e-48d3-91b4-ffac60dd3080]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTseSunny85252468997  -7000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTSESUNNY85252468997  -7000.000000 HKD
     type: "Payment"
     sourceId: "9d6550da-3d8c-4a6a-bacb-eaa33be54e8d"
     referenceNo: "IP20221208001"
@@ -1411,7 +1411,7 @@
     dateTs: "1670428800000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -2551.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -2551.000000 HKD
     type: "Payment"
     sourceId: "f566837d-9831-4a6b-8af1-7c2a63778563"
     referenceNo: "BP20221208006"
@@ -1454,7 +1454,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-08 * "998 12345689 (BEEGEMSCO.LIMITED) [f086b72b-16f2-4988-8d2c-43226241b70f]" "Bill Payment for Bill#281 P#BP20221208004 24127b02-b550-4d61-a20b-6ae2f4624c68"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-beeGemsCoLimited99812345689  164228.370000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-beeGEMSCOLIMITED99812345689  164228.370000 HKD
     type: "Payment"
     sourceId: "bab23e2f-fe25-4c1c-b9df-71ba9ad2f09f"
     referenceNo: "BP20221208004"
@@ -1482,7 +1482,7 @@
     contact: "998 12345689 (BEEGEMSCO.LIMITED) [f086b72b-16f2-4988-8d2c-43226241b70f]"
 
 2022-12-08 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221208002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "f7a0b95d-98bc-4405-bb30-171d72d2e6c7"
     orderId: "f7a0b95d-98bc-4405-bb30-171d72d2e6c7"
@@ -1510,7 +1510,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221208001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "c75ce5b3-b655-4ecd-9dce-a89919507f89"
     orderId: "c75ce5b3-b655-4ecd-9dce-a89919507f89"
@@ -1652,7 +1652,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221208004"
-  Assets:CurrentAssets:Bank:BocSavingBank  -410.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -410.000000 HKD
     type: "Deposit"
     sourceId: "9f54da21-a680-4c0e-bc50-8b1af0054ab3"
     orderId: "9f54da21-a680-4c0e-bc50-8b1af0054ab3"
@@ -1680,7 +1680,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-08 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221208003"
-  Assets:CurrentAssets:Bank:BocSavingBank  -105.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -105.000000 HKD
     type: "Deposit"
     sourceId: "060272ae-0bd8-4486-b757-ec1098bb4b8a"
     orderId: "060272ae-0bd8-4486-b757-ec1098bb4b8a"
@@ -1707,8 +1707,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2022-12-09 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 22.2k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  22200.000000 HKD
+2022-12-09 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 22.2k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  22200.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "77ba8eb7-0113-41d4-ba86-36bd985c364b"
@@ -1727,8 +1727,8 @@
     description: "(Item #2)"
     dateTs: "1670515200000"
 
-2022-12-09 * "Assets:CurrentAssets:Bank:BocSavingBank" " kpay052"
-  Assets:CurrentAssets:Bank:BocSavingBank  41024.250000 HKD
+2022-12-09 * "Assets:CurrentAssets:Bank:BOCSavingBANK" " kpay052"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  41024.250000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "d4a69037-580a-4cea-ab0c-36d632c6564b"
@@ -1737,7 +1737,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1670515200000"
-  Assets:CurrentAssets:Bank:KpayBank  -41024.250000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -41024.250000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "a3717a77-e677-429a-91b1-762b41a97631"
@@ -1757,7 +1757,7 @@
     parentReferenceNo: ""
     description: "Com2000 (Equity) 670000shares (USD20100) (Item #1)"
     dateTs: "1670515200000"
-  Assets:CurrentAssets:Bank:BocSavingBank  -156948.840000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -156948.840000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "51fe1f62-e638-49cf-8b03-1141b3f484bd"
@@ -1777,7 +1777,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 22200 (Item #1)"
     dateTs: "1670515200000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  -22200.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd  -22200.000000 HKD
     contact: "998 12345722 (JP-JEWELPARADISECOMPANYLTD) [5089c388-50da-4482-a7cc-58901ecb47dc]"
     accountId: "eb5640de-d618-402b-865f-b98c9ef3f71f"
     type: "MJ"
@@ -1932,7 +1932,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-09 * "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]" "Client Deposit D#CD20221209001"
-  Assets:CurrentAssets:Bank:BocSavingBank  24350.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  24350.000000 HKD
     type: "Deposit"
     sourceId: "f70ecc7e-d5bf-446f-9b33-fa31d001f573"
     orderId: "f70ecc7e-d5bf-446f-9b33-fa31d001f573"
@@ -1945,7 +1945,7 @@
     dateTs: "1670601599999"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoEmo85264641108  -24350.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOEMO85264641108  -24350.000000 HKD
     type: "Deposit"
     sourceId: "f70ecc7e-d5bf-446f-9b33-fa31d001f573"
     orderId: "f70ecc7e-d5bf-446f-9b33-fa31d001f573"
@@ -1960,7 +1960,7 @@
     contact: "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]"
 
 2022-12-10 * "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]" "Invoice Payment for Invoice#197 P#IP20221210001 2249781a-08f0-4bc9-9ee8-0a3ee5e4e978"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrHoEmo85264641108  24350.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRHOEMO85264641108  24350.000000 HKD
     type: "Payment"
     sourceId: "30d99ba8-61f0-4bdf-a8c2-7bd669dc9f18"
     referenceNo: "IP20221210001"
@@ -1973,7 +1973,7 @@
     dateTs: "1670601600000"
     accountId: "bc646d82-5a1e-4857-8245-399aa7362bec"
     contact: "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHoEmo85264641108  -24350.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrHOEMO85264641108  -24350.000000 HKD
     type: "Payment"
     sourceId: "30d99ba8-61f0-4bdf-a8c2-7bd669dc9f18"
     referenceNo: "IP20221210001"
@@ -1987,8 +1987,8 @@
     accountId: "3f816e43-a3d3-48db-8433-c91fe303050b"
     contact: "852 64641108 (MR.HOEMO) [861bbeb2-155d-4c09-9165-e5b9f846228f]"
 
-2022-12-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 68k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  68000.000000 HKD
+2022-12-12 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 68k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  68000.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "95e84920-8844-49b9-869a-989f6b381485"
@@ -2007,8 +2007,8 @@
     description: "(Item #2)"
     dateTs: "1670774400000"
 
-2022-12-12 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay053"
-  Assets:CurrentAssets:Bank:BocSavingBank  167449.000000 HKD
+2022-12-12 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay053"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  167449.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "fd789b6b-d744-40f1-a1f3-561115a4fb4f"
@@ -2017,7 +2017,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1670774400000"
-  Assets:CurrentAssets:Bank:KpayBank  -167449.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -167449.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "cf143632-9490-4463-8df5-dfa9ae675899"
@@ -2055,7 +2055,7 @@
     parentReferenceNo: ""
     description: "(Item #3)"
     dateTs: "1670774400000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -777.500000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -777.500000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "1e73639f-a910-4e9d-b9f8-3ba3715893a6"
@@ -2075,7 +2075,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 68000 (Item #1)"
     dateTs: "1670774400000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Wwt-WeWinTrading  -68000.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-WWT-WeWinTrading  -68000.000000 HKD
     contact: "998 12345779 (WWT-WEWINTRADING) [d1e456c3-53c5-416f-987c-3e4f64417707]"
     accountId: "67607786-e537-482b-951e-2f03bec1c177"
     type: "MJ"
@@ -2108,7 +2108,7 @@
     dateTs: "1670774400000"
 
 2022-12-12 * "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]" "Trade Deposit D#CD20221212001"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -235.000000 USD {7.85 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -235.000000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "7d5e78ea-f3e8-4c18-a4ff-50215fd884aa"
     orderId: "7d5e78ea-f3e8-4c18-a4ff-50215fd884aa"
@@ -2121,7 +2121,7 @@
     dateTs: "1670860799999"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vd99812345774  235.000000 USD {7.85 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VD99812345774  235.000000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "7d5e78ea-f3e8-4c18-a4ff-50215fd884aa"
     orderId: "7d5e78ea-f3e8-4c18-a4ff-50215fd884aa"
@@ -2136,7 +2136,7 @@
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
 
 2022-12-12 * "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]" "Trade Deposit D#CD20221212002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -360.000000 USD {7.85 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -360.000000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "9748be3f-e950-428e-bb36-ef11c202026d"
     orderId: "9748be3f-e950-428e-bb36-ef11c202026d"
@@ -2149,7 +2149,7 @@
     dateTs: "1670860799999"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vd99812345774  360.000000 USD {7.85 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VD99812345774  360.000000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "9748be3f-e950-428e-bb36-ef11c202026d"
     orderId: "9748be3f-e950-428e-bb36-ef11c202026d"
@@ -2164,7 +2164,7 @@
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
 
 2022-12-13 * "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]" "rcd USD 2055 from 217 to VD (mj 1460 + bill payment 235 + 360)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -1460.000000 USD {7.85 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -1460.000000 USD {7.85 HKD}
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "d6a4ec8d-6f04-4eac-9d59-12a08ce96cf3"
@@ -2184,8 +2184,8 @@
     description: "(Item #2)"
     dateTs: "1670860800000"
 
-2022-12-13 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd" "deposit HKD 106000 to SGV"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHkLtd  106000.000000 HKD
+2022-12-13 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHKLtd" "deposit HKD 106000 to SGV"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Sgv-sanghviStarHKLtd  106000.000000 HKD
     contact: "998 12345758 (SGV-SANGHVISTARHKLTD) [698e45d3-46fa-4eb3-9072-cfdd653daa1b]"
     accountId: "e3da0251-c6ea-4df7-929a-67dcad9efa2d"
     type: "MJ"
@@ -2215,7 +2215,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1670860800000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -106000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -106000.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "10ec0ca7-90e8-4302-a896-23c55609c1e4"
@@ -2305,7 +2305,7 @@
     dateTs: "1670860800000"
     accountId: "40bea1a3-2c93-4a3e-ba4b-cb0983d692b6"
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vd99812345774  -235.000000 USD {7.85 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VD99812345774  -235.000000 USD {7.85 HKD}
     type: "Payment"
     sourceId: "b8c345a4-e1a3-4032-980f-7a2151774d7c"
     referenceNo: "BP20221213001"
@@ -2333,7 +2333,7 @@
     dateTs: "1670860800000"
     accountId: "40bea1a3-2c93-4a3e-ba4b-cb0983d692b6"
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Vd99812345774  -360.000000 USD {7.85 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-VD99812345774  -360.000000 USD {7.85 HKD}
     type: "Payment"
     sourceId: "787097a4-3e68-4d85-a880-d6eb873eecfc"
     referenceNo: "BP20221213002"
@@ -2348,7 +2348,7 @@
     contact: "998 12345774 (VD) [a630ded6-776b-4380-8200-f2b72dd81269]"
 
 2022-12-14 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221214002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "723bdbb9-4a86-4541-89cc-fc78e856bff2"
     orderId: "723bdbb9-4a86-4541-89cc-fc78e856bff2"
@@ -2376,7 +2376,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-14 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221214001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "a25f966e-8233-4f6a-9c55-2faba7ffd1ab"
     orderId: "a25f966e-8233-4f6a-9c55-2faba7ffd1ab"
@@ -2518,7 +2518,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221215002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -595.010000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -595.010000 HKD
     type: "Deposit"
     sourceId: "87bc8c92-4b55-4e68-96a0-ced1251a2914"
     orderId: "87bc8c92-4b55-4e68-96a0-ced1251a2914"
@@ -2546,7 +2546,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-15 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221215003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -4.760000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -4.760000 HKD
     type: "Deposit"
     sourceId: "a380acdc-cceb-43f4-b50e-6282ea392e93"
     orderId: "a380acdc-cceb-43f4-b50e-6282ea392e93"
@@ -2701,7 +2701,7 @@
     dateTs: "1671119999999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWongMatch85260276419  -200.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONGMATCH85260276419  -200.000000 HKD
     type: "Deposit"
     sourceId: "a4489f5e-d516-4110-9ebf-95df89590476"
     orderId: "a4489f5e-d516-4110-9ebf-95df89590476"
@@ -2746,7 +2746,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1671120000000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -10500.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -10500.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "ae1c457c-950b-49f0-a4e6-49a2506aced6"
@@ -2756,8 +2756,8 @@
     description: "(Item #2)"
     dateTs: "1671120000000"
 
-2022-12-16 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony" "Cash to Rstar - R-STAR (TONY) (DEPOSIT 4300USD7.775)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony  33432.500000 HKD
+2022-12-16 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-RSTAR-R-starTony" "Cash to Rstar - R-STAR (TONY) (DEPOSIT 4300USD7.775)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RSTAR-R-starTony  33432.500000 HKD
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
     accountId: "c8e76252-a701-4f09-9b98-9ca286c56f68"
     type: "MJ"
@@ -2787,7 +2787,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1671120000000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -33432.500000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -33432.500000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "c3dd5a5c-9b53-45a7-8c47-05a5e53c9f90"
@@ -2828,7 +2828,7 @@
     sourceId: "e52d185d-4296-4307-8c8b-c86c31f8a4b4"
 
 2022-12-16 * "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]" "Invoice Payment for Invoice#201 P#IP20221216001 b782f128-1b53-4eb7-b8af-a18a457c8b62"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWongMatch85260276419  200.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONGMATCH85260276419  200.000000 HKD
     type: "Payment"
     sourceId: "48c3b0e8-6aa1-4561-82e4-b253c4574293"
     referenceNo: "IP20221216001"
@@ -2841,7 +2841,7 @@
     dateTs: "1671120000000"
     accountId: "d64ed1b9-8db8-4b40-8a81-604cdcec522b"
     contact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWongMatch85260276419  -200.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWONGMATCH85260276419  -200.000000 HKD
     type: "Payment"
     sourceId: "48c3b0e8-6aa1-4561-82e4-b253c4574293"
     referenceNo: "IP20221216001"
@@ -2856,7 +2856,7 @@
     contact: "852 60276419 (MR.WONGMATCH) [83ea2688-e643-4c48-9674-ef82ccf28843]"
 
 2022-12-16 * "852 94475719 (MR.TRISTANREEVES) [316c43df-aea4-4295-aeb8-f416579ee6c3]" "Client Deposit D#CD20221216002"
-  Assets:CurrentAssets:Bank:KpayBank  42600.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  42600.000000 HKD
     type: "Deposit"
     sourceId: "fd2b326c-5401-4d46-a6f4-39b97659c958"
     orderId: "fd2b326c-5401-4d46-a6f4-39b97659c958"
@@ -2869,7 +2869,7 @@
     dateTs: "1671206399999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 94475719 (MR.TRISTANREEVES) [316c43df-aea4-4295-aeb8-f416579ee6c3]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTristanReeves85294475719  -42600.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTRISTANREEVES85294475719  -42600.000000 HKD
     type: "Deposit"
     sourceId: "fd2b326c-5401-4d46-a6f4-39b97659c958"
     orderId: "fd2b326c-5401-4d46-a6f4-39b97659c958"
@@ -2884,7 +2884,7 @@
     contact: "852 94475719 (MR.TRISTANREEVES) [316c43df-aea4-4295-aeb8-f416579ee6c3]"
 
 2022-12-16 * "852 98200989 (85298200989) [468e6ff8-303f-40fd-9c40-3c058ee3c474]" "Client Deposit D#CD20221216001"
-  Assets:CurrentAssets:Bank:KpayBank  54000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  54000.000000 HKD
     type: "Deposit"
     sourceId: "2805db36-b8fd-4ba8-9601-e53ff806ad2c"
     orderId: "2805db36-b8fd-4ba8-9601-e53ff806ad2c"
@@ -2912,7 +2912,7 @@
     contact: "852 98200989 (85298200989) [468e6ff8-303f-40fd-9c40-3c058ee3c474]"
 
 2022-12-16 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221216004"
-  Assets:CurrentAssets:Bank:KpayBank  -1450.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -1450.000000 HKD
     type: "Deposit"
     sourceId: "6d7b1b05-2dd9-4989-a521-6b7b2625094f"
     orderId: "6d7b1b05-2dd9-4989-a521-6b7b2625094f"
@@ -2925,7 +2925,7 @@
     dateTs: "1671206399999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  1450.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  1450.000000 HKD
     type: "Deposit"
     sourceId: "6d7b1b05-2dd9-4989-a521-6b7b2625094f"
     orderId: "6d7b1b05-2dd9-4989-a521-6b7b2625094f"
@@ -2940,7 +2940,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221216003"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -2677.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -2677.000000 HKD
     type: "Deposit"
     sourceId: "d7c2e1ac-a060-4960-a43a-d89c166ee19d"
     orderId: "d7c2e1ac-a060-4960-a43a-d89c166ee19d"
@@ -3004,7 +3004,7 @@
     accountId: "9cf4a9d7-1e40-4e5b-a3d6-eda271facd38"
     type: "Invoice Item"
     sourceId: "b1d59920-901b-4767-9a6e-60496186aa99"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTristanReeves85294475719  42600.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTRISTANREEVES85294475719  42600.000000 HKD
     accountId: "2fac6539-3434-4776-a3dd-869ce9aec127"
     referenceNo: "202"
     parentReferenceNo: ""
@@ -3080,7 +3080,7 @@
     dateTs: "1671206400000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -1450.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -1450.000000 HKD
     type: "Payment"
     sourceId: "ce924179-7dd8-4a4b-8e75-b9fc45f35793"
     referenceNo: "BP20221217004"
@@ -3095,7 +3095,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-17 * "852 94475719 (MR.TRISTANREEVES) [316c43df-aea4-4295-aeb8-f416579ee6c3]" "Invoice Payment for Invoice#202 P#IP20221217002 8241c989-8dbf-4b04-a6d6-5c74ad435c84"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTristanReeves85294475719  42600.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTRISTANREEVES85294475719  42600.000000 HKD
     type: "Payment"
     sourceId: "6d3f5b0e-73f2-4fe5-9b0f-4d5e648e7154"
     referenceNo: "IP20221217002"
@@ -3108,7 +3108,7 @@
     dateTs: "1671206400000"
     accountId: "8e215893-8f5f-4928-9089-6fee702c75d3"
     contact: "852 94475719 (MR.TRISTANREEVES) [316c43df-aea4-4295-aeb8-f416579ee6c3]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTristanReeves85294475719  -42600.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTRISTANREEVES85294475719  -42600.000000 HKD
     type: "Payment"
     sourceId: "6d3f5b0e-73f2-4fe5-9b0f-4d5e648e7154"
     referenceNo: "IP20221217002"
@@ -3179,7 +3179,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-18 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221218004"
-  Assets:CurrentAssets:Bank:KpayBank  -46.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -46.000000 HKD
     type: "Deposit"
     sourceId: "1e8cd806-d466-459d-a1a5-b579adc8fd82"
     orderId: "1e8cd806-d466-459d-a1a5-b579adc8fd82"
@@ -3192,7 +3192,7 @@
     dateTs: "1671379199999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  46.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  46.000000 HKD
     type: "Deposit"
     sourceId: "1e8cd806-d466-459d-a1a5-b579adc8fd82"
     orderId: "1e8cd806-d466-459d-a1a5-b579adc8fd82"
@@ -3207,7 +3207,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-18 * "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]" "Client Deposit D#CD20221218002"
-  Assets:CurrentAssets:Bank:KpayBank  3000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  3000.000000 HKD
     type: "Deposit"
     sourceId: "2ea869bb-0792-4e72-bc07-e91bbba6ed46"
     orderId: "2ea869bb-0792-4e72-bc07-e91bbba6ed46"
@@ -3220,7 +3220,7 @@
     dateTs: "1671379199999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWong85264411254  -3000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONG85264411254  -3000.000000 HKD
     type: "Deposit"
     sourceId: "2ea869bb-0792-4e72-bc07-e91bbba6ed46"
     orderId: "2ea869bb-0792-4e72-bc07-e91bbba6ed46"
@@ -3248,7 +3248,7 @@
     dateTs: "1671379199999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "852 69003855 (MR.LAWROY) [1431d21e-93de-4440-bcef-f0c63afe43ff]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrLawRoy85269003855  -2204.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRLAWROY85269003855  -2204.000000 HKD
     type: "Deposit"
     sourceId: "c0e2b000-29a3-43cb-9365-a2282c66dad9"
     orderId: "c0e2b000-29a3-43cb-9365-a2282c66dad9"
@@ -3275,7 +3275,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
     type: "Invoice Item"
     sourceId: "dcdee0ca-3813-43b1-993e-6876062ba913"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWong85264411254  3000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWONG85264411254  3000.000000 HKD
     accountId: "f621a926-cb57-415f-a0b5-40dffcb07fd5"
     referenceNo: "204"
     parentReferenceNo: ""
@@ -3287,7 +3287,7 @@
     contact: "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]"
 
 2022-12-19 * "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]" "Invoice Payment for Invoice#204 P#IP20221219002 e4a3e9f4-aae0-47cd-8394-ac1136ed0bd6"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWong85264411254  3000.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONG85264411254  3000.000000 HKD
     type: "Payment"
     sourceId: "0691b55a-73d5-4fa5-aaa5-0195ea216e1a"
     referenceNo: "IP20221219002"
@@ -3300,7 +3300,7 @@
     dateTs: "1671379200000"
     accountId: "0706befc-356b-48e4-8545-25a0b6cfc9f5"
     contact: "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWong85264411254  -3000.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWONG85264411254  -3000.000000 HKD
     type: "Payment"
     sourceId: "0691b55a-73d5-4fa5-aaa5-0195ea216e1a"
     referenceNo: "IP20221219002"
@@ -3315,7 +3315,7 @@
     contact: "852 64411254 (MR.WONG) [e1d0e9f7-aa52-4f62-b606-cfff7d492104]"
 
 2022-12-19 * "852 69003855 (MR.LAWROY) [1431d21e-93de-4440-bcef-f0c63afe43ff]" "Invoice Payment for Invoice#185 P#IP20221219003 d18adcc6-3ea6-4416-9b77-bbabe807fe8c"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrLawRoy85269003855  2204.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRLAWROY85269003855  2204.000000 HKD
     type: "Payment"
     sourceId: "7c8cbe58-44d1-485f-b33e-f5125e19ffab"
     referenceNo: "IP20221219003"
@@ -3328,7 +3328,7 @@
     dateTs: "1671379200000"
     accountId: "c0a02267-acfa-475e-8330-300232e7c2fe"
     contact: "852 69003855 (MR.LAWROY) [1431d21e-93de-4440-bcef-f0c63afe43ff]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrLawRoy85269003855  -2204.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrLAWROY85269003855  -2204.000000 HKD
     type: "Payment"
     sourceId: "7c8cbe58-44d1-485f-b33e-f5125e19ffab"
     referenceNo: "IP20221219003"
@@ -3356,7 +3356,7 @@
     dateTs: "1671379200000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -46.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -46.000000 HKD
     type: "Payment"
     sourceId: "539514df-4bec-422d-ad88-f683d0ac7c79"
     referenceNo: "BP20221219004"
@@ -3384,7 +3384,7 @@
     dateTs: "1671465599999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony  32818.280000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RSTAR-R-starTony  32818.280000 HKD
     type: "Deposit"
     sourceId: "7318e59f-c910-4273-b5f9-359545c93157"
     orderId: "7318e59f-c910-4273-b5f9-359545c93157"
@@ -3399,7 +3399,7 @@
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
 
 2022-12-19 * "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]" "Client Deposit D#CD20221219001"
-  Assets:CurrentAssets:Bank:KpayBank  9990.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  9990.000000 HKD
     type: "Deposit"
     sourceId: "0acb1e9f-3496-4073-8592-222183ea9875"
     orderId: "0acb1e9f-3496-4073-8592-222183ea9875"
@@ -3412,7 +3412,7 @@
     dateTs: "1671465599999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrIp85253495050  -9990.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRIP85253495050  -9990.000000 HKD
     type: "Deposit"
     sourceId: "0acb1e9f-3496-4073-8592-222183ea9875"
     orderId: "0acb1e9f-3496-4073-8592-222183ea9875"
@@ -3427,7 +3427,7 @@
     contact: "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]"
 
 2022-12-19 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221219005"
-  Assets:CurrentAssets:Bank:KpayBank  -150.850000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -150.850000 HKD
     type: "Deposit"
     sourceId: "6d0122cc-d161-45eb-b11b-5334d3bda0e3"
     orderId: "6d0122cc-d161-45eb-b11b-5334d3bda0e3"
@@ -3440,7 +3440,7 @@
     dateTs: "1671465599999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  150.850000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  150.850000 HKD
     type: "Deposit"
     sourceId: "6d0122cc-d161-45eb-b11b-5334d3bda0e3"
     orderId: "6d0122cc-d161-45eb-b11b-5334d3bda0e3"
@@ -3454,8 +3454,8 @@
     accountId: "b11721ac-d922-41b5-8ef1-5984ed24175f"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
-2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 49.8k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  49800.000000 HKD
+2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 49.8k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  49800.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "7afb35ae-d535-4867-94b9-81b12ea7ad6b"
@@ -3483,8 +3483,8 @@
     description: "(Item #3)"
     dateTs: "1671465600000"
 
-2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "return USD 1460 to 217"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  1460.000000 USD {7.85 HKD}
+2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "return USD 1460 to 217"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  1460.000000 USD {7.85 HKD}
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "fb07835f-d3d9-41c0-8590-c190872b144b"
@@ -3503,8 +3503,8 @@
     description: "(Item #2)"
     dateTs: "1671465600000"
 
-2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK USD 179)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  1391.720000 HKD
+2022-12-20 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK USD 179)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  1391.720000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "2b712129-e99e-41ad-81fb-3244bd2a5f2b"
@@ -3542,7 +3542,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 33432.5 (Item #1)"
     dateTs: "1671465600000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony  -33432.500000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RSTAR-R-starTony  -33432.500000 HKD
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
     accountId: "c8e76252-a701-4f09-9b98-9ca286c56f68"
     type: "MJ"
@@ -3574,8 +3574,8 @@
     description: "DEPOSIT RETURN 10500 (Item #2)"
     dateTs: "1671465600000"
 
-2022-12-20 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
-  Assets:CurrentAssets:Bank:BocSavingBank  -23000.000000 HKD
+2022-12-20 * "Assets:CurrentAssets:Bank:BOCCurrentBANK" "BANK TRANSFER : from BOC-saving to BOC-current"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -23000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "f346afa6-df7a-4d5c-922c-a77f5cef6331"
@@ -3584,7 +3584,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1671465600000"
-  Assets:CurrentAssets:Bank:BocCurrentBank  23000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  23000.000000 HKD
     accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
     type: "MJ"
     sourceId: "6c48add8-3928-4a8e-90b1-87bf5b567887"
@@ -3604,7 +3604,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 39300 (Item #1)"
     dateTs: "1671465600000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kit-AnkitGemsHongkongLtd  -39300.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KIT-AnkitGemsHongkongLtd  -39300.000000 HKD
     contact: "998 12345727 (KIT-ANKITGEMS(HONGKONG)LIMITED) [56b80510-8e0c-43fc-9874-96ad8367784d]"
     accountId: "adf952d1-634e-4e71-a5d7-2b65a0df8a20"
     type: "MJ"
@@ -3615,8 +3615,8 @@
     description: "DEPOSIT RETURN 39300 (Item #2)"
     dateTs: "1671465600000"
 
-2022-12-20 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay054"
-  Assets:CurrentAssets:Bank:BocSavingBank  95150.000000 HKD
+2022-12-20 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay054"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  95150.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "cad8c79d-dbbd-4c12-b920-48f1ae6825fb"
@@ -3625,7 +3625,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1671465600000"
-  Assets:CurrentAssets:Bank:KpayBank  -95150.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -95150.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "6a0fec1e-5bc6-4704-b887-c24b692354f6"
@@ -3660,7 +3660,7 @@
     accountId: "9cf4a9d7-1e40-4e5b-a3d6-eda271facd38"
     type: "Invoice Item"
     sourceId: "dc1707ab-03f0-43b1-9a1c-be33db001c7d"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrIp85253495050  9990.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrIP85253495050  9990.000000 HKD
     accountId: "d225d010-a2a6-4d62-972f-42b1f0c67878"
     referenceNo: "205"
     parentReferenceNo: ""
@@ -3719,7 +3719,7 @@
     accountId: "b9ba35e1-9d4a-4908-98ab-c1d8bb2478f2"
     type: "Bill Item"
     sourceId: "85fc3fc6-7e06-4e6d-b5e2-1ba3c3104f86"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-rstar-R-starTony99812345749  -32818.280000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-rstar-R-STARTONY99812345749  -32818.280000 HKD
     accountId: "43d3863f-0119-42f4-a157-2e003c0ad84d"
     referenceNo: "287"
     parentReferenceNo: ""
@@ -3803,7 +3803,7 @@
     dateTs: "1671465600000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -150.850000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -150.850000 HKD
     type: "Payment"
     sourceId: "060e517b-f0ce-4937-b152-ec57ff0f9e9c"
     referenceNo: "BP20221220005"
@@ -3818,7 +3818,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-20 * "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]" "Bill Payment for Bill#287 P#BP20221220007 9c11225c-39fc-4e47-b200-2441f6007710"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-rstar-R-starTony99812345749  32818.280000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-rstar-R-STARTONY99812345749  32818.280000 HKD
     type: "Payment"
     sourceId: "e978aa89-dfeb-4f41-9a39-b42ba2c02161"
     referenceNo: "BP20221220007"
@@ -3831,7 +3831,7 @@
     dateTs: "1671465600000"
     accountId: "43d3863f-0119-42f4-a157-2e003c0ad84d"
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Rstar-R-starTony  -32818.280000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-RSTAR-R-starTony  -32818.280000 HKD
     type: "Payment"
     sourceId: "e978aa89-dfeb-4f41-9a39-b42ba2c02161"
     referenceNo: "BP20221220007"
@@ -3846,7 +3846,7 @@
     contact: "998 12345749 (Rstar-R-STAR(TONY)) [e7828e4e-ab43-4da4-b0ee-6eac017a9607]"
 
 2022-12-20 * "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]" "Invoice Payment for Invoice#205 P#IP20221220001 39500486-cb34-4db1-9a95-f1c6d782a8cb"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrIp85253495050  9990.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRIP85253495050  9990.000000 HKD
     type: "Payment"
     sourceId: "d1f95b2b-da01-485f-9493-4571cff5a8be"
     referenceNo: "IP20221220001"
@@ -3859,7 +3859,7 @@
     dateTs: "1671465600000"
     accountId: "883dca29-1d7a-4c99-8acd-6240ede7b220"
     contact: "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrIp85253495050  -9990.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrIP85253495050  -9990.000000 HKD
     type: "Payment"
     sourceId: "d1f95b2b-da01-485f-9493-4571cff5a8be"
     referenceNo: "IP20221220001"
@@ -3874,7 +3874,7 @@
     contact: "852 53495050 (MR.IP) [80e4d9eb-e851-4b10-9744-feda0e049024]"
 
 2022-12-20 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221220002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "a91bf14c-25a9-4a1f-b36e-328b0c520150"
     orderId: "a91bf14c-25a9-4a1f-b36e-328b0c520150"
@@ -3902,7 +3902,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-20 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221220001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "fcda45f1-6da4-48eb-b8c7-a2169340fe6e"
     orderId: "fcda45f1-6da4-48eb-b8c7-a2169340fe6e"
@@ -4043,8 +4043,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2022-12-21 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay055"
-  Assets:CurrentAssets:Bank:BocSavingBank  2954.000000 HKD
+2022-12-21 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay055"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  2954.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "92ef9f20-7135-4ca7-b6e0-b00c2c523bb0"
@@ -4053,7 +4053,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1671552000000"
-  Assets:CurrentAssets:Bank:KpayBank  -2954.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -2954.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "20056417-ec32-4af9-828d-df027399776a"
@@ -4092,8 +4092,8 @@
     type: "Bill"
     sourceId: "26b70d3a-20ec-4e7a-aeff-f750b2498147"
 
-2022-12-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay056"
-  Assets:CurrentAssets:Bank:BocSavingBank  9839.150000 HKD
+2022-12-22 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay056"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  9839.150000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "aa8d7d25-10ba-4c27-b2ca-0204f6a9b903"
@@ -4102,7 +4102,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1671638400000"
-  Assets:CurrentAssets:Bank:KpayBank  -9839.150000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -9839.150000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "987189c3-4108-4dc4-bf3e-285b48bb8841"
@@ -4126,7 +4126,7 @@
     dateTs: "1671724799999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-PressureWorkDesignConsultants99812345740  3800.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-PRESSUREWORKDESIGNCONSULTANTS99812345740  3800.000000 HKD
     type: "Deposit"
     sourceId: "fb3db26b-1115-4e2b-bbd9-1e28caa43f03"
     orderId: "fb3db26b-1115-4e2b-bbd9-1e28caa43f03"
@@ -4140,8 +4140,8 @@
     accountId: "c3e24e13-4b46-4d61-9b69-b64b8e129f3c"
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
 
-2022-12-23 * "Assets:CurrentAssets:Bank:BocCurrentBank" "BANK TRANSFER : from BOC-saving to BOC-current"
-  Assets:CurrentAssets:Bank:BocSavingBank  -1700.000000 HKD
+2022-12-23 * "Assets:CurrentAssets:Bank:BOCCurrentBANK" "BANK TRANSFER : from BOC-saving to BOC-current"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -1700.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "82e125fe-75e4-45f7-91b7-cc6254bea245"
@@ -4150,7 +4150,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1671724800000"
-  Assets:CurrentAssets:Bank:BocCurrentBank  1700.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  1700.000000 HKD
     accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
     type: "MJ"
     sourceId: "4b85a1ae-254e-48e9-8c18-6aa46f23d4d5"
@@ -4170,7 +4170,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1671724800000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -3800.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -3800.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "3bc53d7b-7061-4742-96d7-36f835fbdd03"
@@ -4247,7 +4247,7 @@
     sourceId: "8151ee68-3a50-43bc-8a37-4c1b7405dc2f"
 
 2022-12-23 * "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]" "Bill Payment for Bill#654 P#BP20221223001 b2fcbc51-348d-4927-8bcd-bd8d2c8ea1d6"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWorkDesignConsultants99812345740  3800.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pressureWORKDESIGNCONSULTANTS99812345740  3800.000000 HKD
     type: "Payment"
     sourceId: "06191db3-3a03-4643-bbc2-d57fb77568c8"
     referenceNo: "BP20221223001"
@@ -4260,7 +4260,7 @@
     dateTs: "1671724800000"
     accountId: "f34bbca5-7c50-40a9-8839-e53d45b497b7"
     contact: "998 12345740 (PRESSUREWORKDESIGNCONSULTANTS) [205398a5-a6c5-4a09-938a-7308f6334f41]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-PressureWorkDesignConsultants99812345740  -3800.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-PRESSUREWORKDESIGNCONSULTANTS99812345740  -3800.000000 HKD
     type: "Payment"
     sourceId: "06191db3-3a03-4643-bbc2-d57fb77568c8"
     referenceNo: "BP20221223001"
@@ -4331,7 +4331,7 @@
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
 
 2022-12-27 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Trade Deposit D#CD20221227007"
-  Assets:CurrentAssets:Bank:KpayBank  -520.750000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -520.750000 HKD
     type: "Deposit"
     sourceId: "2412307c-31cb-4bbc-8407-8f92da8ccdcd"
     orderId: "2412307c-31cb-4bbc-8407-8f92da8ccdcd"
@@ -4344,7 +4344,7 @@
     dateTs: "1672156799999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  520.750000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  520.750000 HKD
     type: "Deposit"
     sourceId: "2412307c-31cb-4bbc-8407-8f92da8ccdcd"
     orderId: "2412307c-31cb-4bbc-8407-8f92da8ccdcd"
@@ -4359,7 +4359,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-27 * "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]" "Client Deposit D#CD20221227001"
-  Assets:CurrentAssets:Bank:KpayBank  34650.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  34650.000000 HKD
     type: "Deposit"
     sourceId: "33ddca10-7250-4ece-93c5-92d7c6dbba70"
     orderId: "33ddca10-7250-4ece-93c5-92d7c6dbba70"
@@ -4372,7 +4372,7 @@
     dateTs: "1672156799999"
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTang85293841438  -34650.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTANG85293841438  -34650.000000 HKD
     type: "Deposit"
     sourceId: "33ddca10-7250-4ece-93c5-92d7c6dbba70"
     orderId: "33ddca10-7250-4ece-93c5-92d7c6dbba70"
@@ -4429,7 +4429,7 @@
     dateTs: "1672156800000"
     accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Kpay99812345821  -520.750000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-KPAY99812345821  -520.750000 HKD
     type: "Payment"
     sourceId: "e433fb89-1f52-4dfd-9da9-0763d24a9597"
     referenceNo: "BP20221228009"
@@ -4444,7 +4444,7 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
 2022-12-28 * "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]" "Invoice Payment for Invoice#200 P#IP20221228001 a02f59c5-bb79-4838-a252-c706655f402e"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrTang85293841438  34650.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRTANG85293841438  34650.000000 HKD
     type: "Payment"
     sourceId: "eee77687-c754-4ca2-b81f-e7c31b213efe"
     referenceNo: "IP20221228001"
@@ -4457,7 +4457,7 @@
     dateTs: "1672156800000"
     accountId: "cda69b98-be08-4d10-8055-d58e9f22d055"
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTang85293841438  -34650.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTANG85293841438  -34650.000000 HKD
     type: "Payment"
     sourceId: "eee77687-c754-4ca2-b81f-e7c31b213efe"
     referenceNo: "IP20221228001"
@@ -4472,7 +4472,7 @@
     contact: "852 93841438 (MR.TANG) [7ba3b134-36ae-436f-ae6c-5e9e634ba25b]"
 
 2022-12-28 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221228011"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "fe64e301-4c65-40c7-8742-01ad7b54cb07"
     orderId: "fe64e301-4c65-40c7-8742-01ad7b54cb07"
@@ -4500,7 +4500,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221228005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "a70ae142-6c86-4bb2-8ef7-f5e95c462fb6"
     orderId: "a70ae142-6c86-4bb2-8ef7-f5e95c462fb6"
@@ -4642,7 +4642,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221228010"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -5300.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -5300.000000 HKD
     type: "Deposit"
     sourceId: "4eb4ae47-e0a7-4052-8ca0-a8872b546980"
     orderId: "4eb4ae47-e0a7-4052-8ca0-a8872b546980"
@@ -4676,7 +4676,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1672185600000"
   type: "Bill"
-  Expenses:GeneralExpense:Mpf  5300.000000 HKD
+  Expenses:GeneralExpense:MPF  5300.000000 HKD
     qty: "1"
     description: "12月2022 MPF"
     referenceNo: "443"
@@ -4727,7 +4727,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221228009"
-  Assets:CurrentAssets:Bank:BocSavingBank  -10.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -10.000000 HKD
     type: "Deposit"
     sourceId: "bad02e9e-169f-4103-8393-c6a334b84f25"
     orderId: "bad02e9e-169f-4103-8393-c6a334b84f25"
@@ -4783,7 +4783,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221228007"
-  Assets:CurrentAssets:Bank:BocSavingBank  -5753.200000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5753.200000 HKD
     type: "Deposit"
     sourceId: "6c145d17-7f38-43fc-aea1-94e90d84e633"
     orderId: "6c145d17-7f38-43fc-aea1-94e90d84e633"
@@ -4824,7 +4824,7 @@
     dateTs: "1672243199999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "852 96607390 (MR.WONGKELVIN) [a730169a-cefc-4efd-89a1-0ff9aee47eab]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWongKelvin85296607390  -5300.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONGKELVIN85296607390  -5300.000000 HKD
     type: "Deposit"
     sourceId: "4886029f-5b26-4eb4-bbd7-8315bfd1770a"
     orderId: "4886029f-5b26-4eb4-bbd7-8315bfd1770a"
@@ -4839,7 +4839,7 @@
     contact: "852 96607390 (MR.WONGKELVIN) [a730169a-cefc-4efd-89a1-0ff9aee47eab]"
 
 2022-12-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221228008"
-  Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5.000000 HKD
     type: "Deposit"
     sourceId: "39dc6dd9-690d-427a-8fd6-9139508cf960"
     orderId: "39dc6dd9-690d-427a-8fd6-9139508cf960"
@@ -4866,8 +4866,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2022-12-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 350k)"
-  Assets:CurrentAssets:Bank:BocSavingBank  -350000.000000 HKD
+2022-12-29 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 350k)"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -350000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "5e10af8f-5c62-408e-8a8e-0c189f2bc8af"
@@ -4876,7 +4876,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1672243200000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  350000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  350000.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "081d398d-08e9-472f-b1e5-7d1c627a7b11"
@@ -4896,7 +4896,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1672243200000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -57400.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -57400.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "70038424-d3f4-4826-8bda-36acc8dfbc25"
@@ -4906,8 +4906,8 @@
     description: "(Item #2)"
     dateTs: "1672243200000"
 
-2022-12-29 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  57400.000000 HKD
+2022-12-29 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd" "Cash to JP - JEWEL PARADISE (DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd  57400.000000 HKD
     contact: "998 12345722 (JP-JEWELPARADISECOMPANYLTD) [5089c388-50da-4482-a7cc-58901ecb47dc]"
     accountId: "eb5640de-d618-402b-865f-b98c9ef3f71f"
     type: "MJ"
@@ -5158,7 +5158,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-29 * "852 96607390 (MR.WONGKELVIN) [a730169a-cefc-4efd-89a1-0ff9aee47eab]" "Invoice Payment for Invoice#182 P#IP20221229001 d7253c91-36b0-4c58-bea7-2bc650c00695"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MrWongKelvin85296607390  5300.000000 HKD
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-MRWONGKELVIN85296607390  5300.000000 HKD
     type: "Payment"
     sourceId: "ced26d19-afd7-41d9-925a-29ca37118b13"
     referenceNo: "IP20221229001"
@@ -5171,7 +5171,7 @@
     dateTs: "1672243200000"
     accountId: "e9494c98-5adb-4a53-ad4b-020723692c89"
     contact: "852 96607390 (MR.WONGKELVIN) [a730169a-cefc-4efd-89a1-0ff9aee47eab]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWongKelvin85296607390  -5300.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrWONGKELVIN85296607390  -5300.000000 HKD
     type: "Payment"
     sourceId: "ced26d19-afd7-41d9-925a-29ca37118b13"
     referenceNo: "IP20221229001"
@@ -5214,7 +5214,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221229005"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -1648.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -1648.000000 HKD
     type: "Deposit"
     sourceId: "6e8cdff2-2a6f-41b6-93fe-170a5885517f"
     orderId: "6e8cdff2-2a6f-41b6-93fe-170a5885517f"
@@ -5299,7 +5299,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221229004"
-  Assets:CurrentAssets:Bank:BocSavingBank  -50350.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -50350.000000 HKD
     type: "Deposit"
     sourceId: "e552f6da-8ac6-42a5-9cd1-342fcacb038e"
     orderId: "e552f6da-8ac6-42a5-9cd1-342fcacb038e"
@@ -5326,8 +5326,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2022-12-30 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay057"
-  Assets:CurrentAssets:Bank:BocSavingBank  34129.250000 HKD
+2022-12-30 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay057"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  34129.250000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "78215bdc-b9db-4c4a-8007-f611538b121b"
@@ -5336,7 +5336,7 @@
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #1)"
     dateTs: "1672329600000"
-  Assets:CurrentAssets:Bank:KpayBank  -34129.250000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -34129.250000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "51c1dbd8-378a-4906-8dc7-0ece09a7206c"
@@ -5346,8 +5346,8 @@
     description: "KPAY to BOC Saving (Item #2)"
     dateTs: "1672329600000"
 
-2022-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "Cash to Milrich (PAID BACK 57.4k)"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  57400.000000 HKD
+2022-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to Milrich (PAID BACK 57.4k)"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  57400.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "029eb41b-4c33-424d-a5d4-28dc54896636"
@@ -5376,7 +5376,7 @@
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 57400 (Item #1)"
     dateTs: "1672329600000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jp-JewelParadiseCoLtd  -57400.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JP-JewelParadiseCoLtd  -57400.000000 HKD
     contact: "998 12345722 (JP-JEWELPARADISECOMPANYLTD) [5089c388-50da-4482-a7cc-58901ecb47dc]"
     accountId: "eb5640de-d618-402b-865f-b98c9ef3f71f"
     type: "MJ"
@@ -5445,7 +5445,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2022-12-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20221231008"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -60.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -60.000000 HKD
     type: "Deposit"
     sourceId: "98c5d875-2067-4b35-aeb5-eb5aa7bb6126"
     orderId: "98c5d875-2067-4b35-aeb5-eb5aa7bb6126"
@@ -5473,7 +5473,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20221231005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "babeca11-04c9-4396-b6a2-caacad397fec"
     orderId: "babeca11-04c9-4396-b6a2-caacad397fec"
@@ -5615,7 +5615,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2022-12-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20221231004"
-  Assets:CurrentAssets:Bank:BocForeignBank  2.530000 USD {7.85 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  2.530000 USD {7.85 HKD}
     type: "Deposit"
     sourceId: "8409a99a-8ddf-4b7a-bb94-1e288b2bf816"
     orderId: "8409a99a-8ddf-4b7a-bb94-1e288b2bf816"

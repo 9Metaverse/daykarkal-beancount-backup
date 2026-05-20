@@ -1,7 +1,7 @@
 ; Mixed transactions for 2023-05 (FY 2024)
 
 2023-05-04 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230504002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -8.500000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -8.500000 HKD
     type: "Deposit"
     sourceId: "5bdc40e9-a776-4043-af52-e627819dd7ea"
     orderId: "5bdc40e9-a776-4043-af52-e627819dd7ea"
@@ -29,7 +29,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-05-04 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230504003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1062.820000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1062.820000 HKD
     type: "Deposit"
     sourceId: "0f9ae20f-0147-42d7-be5a-d9c681693bfb"
     orderId: "0f9ae20f-0147-42d7-be5a-d9c681693bfb"
@@ -171,7 +171,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-05-04 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230504001"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -2002.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -2002.000000 HKD
     type: "Deposit"
     sourceId: "e6f7723e-3369-4c74-bcb1-d5b30f4f749a"
     orderId: "e6f7723e-3369-4c74-bcb1-d5b30f4f749a"
@@ -255,36 +255,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-07 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230507002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -116447.520000 HKD
-    type: "Deposit"
-    sourceId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
-    orderId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230507002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230508002"
-    dateTs: "1683475199999"
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  116447.520000 HKD
-    type: "Deposit"
-    sourceId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
-    orderId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230507002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230508002"
-    dateTs: "1683475199999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-07 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230507001"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -292.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -292.000000 HKD
     type: "Deposit"
     sourceId: "43020ee7-17ed-43f3-a86b-bafbeb97f30b"
     orderId: "43020ee7-17ed-43f3-a86b-bafbeb97f30b"
@@ -307,6 +279,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230508001"
+    dateTs: "1683475199999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-07 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230507002"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -116447.520000 HKD
+    type: "Deposit"
+    sourceId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
+    orderId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230507002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230508002"
+    dateTs: "1683475199999"
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  116447.520000 HKD
+    type: "Deposit"
+    sourceId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
+    orderId: "71ba724c-0cae-4ab2-a67a-687b62cf72c8"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230507002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230508002"
     dateTs: "1683475199999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -426,7 +426,7 @@
     sourceId: "129b6485-ee70-4a88-813b-dfea7ac30714"
 
 2023-05-08 * "for Bill#611 : XRF 貴金屬分析儀 Niton DXL (deposit 50% payment USD29,705 to HKD) @7.84 ID: 0a989a88-6460-4cd3-88d9-d273ede74d28"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -14853.000000 USD {7.84 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -14853.000000 USD {7.84 HKD}
     type: "Conversion"
     sourceId: "0a989a88-6460-4cd3-88d9-d273ede74d28"
     referenceNo: "156"
@@ -434,7 +434,7 @@
     orderId: "0a989a88-6460-4cd3-88d9-d273ede74d28"
     dateTs: "1683522015000"
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  116447.520000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  116447.520000 HKD
     type: "Conversion"
     sourceId: "0a989a88-6460-4cd3-88d9-d273ede74d28"
     referenceNo: "156"
@@ -450,34 +450,6 @@
     orderId: "0a989a88-6460-4cd3-88d9-d273ede74d28"
     dateTs: "1683522015000"
     accountId: ""
-
-2023-05-08 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230508001"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  -56468.710000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
-    orderId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
-    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230508001"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230509001"
-    dateTs: "1683561599999"
-    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
-    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  56468.710000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
-    orderId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
-    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230508001"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230509001"
-    dateTs: "1683561599999"
-    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
-    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
 
 2023-05-08 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230508002"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  -282031.530000 CNY {1.08 HKD}
@@ -503,6 +475,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230509003"
+    dateTs: "1683561599999"
+    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
+    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+
+2023-05-08 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230508001"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  -56468.710000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
+    orderId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
+    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+    referenceNo: "CD20230508001"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230509001"
+    dateTs: "1683561599999"
+    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
+    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  56468.710000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
+    orderId: "cdb8e092-ed79-4f29-a8cc-d1095e295360"
+    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+    referenceNo: "CD20230508001"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230509001"
     dateTs: "1683561599999"
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
@@ -546,7 +546,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1683561600000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  -904440.000000 CNY {1.08 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-DirectorDavidKwan  -904440.000000 CNY {1.08 HKD}
     accountId: "70475916-19d4-41f4-b532-019cc1f2cc4a"
     type: "MJ"
     sourceId: "8a769776-4994-4778-9a1c-e9b9ca40d832"
@@ -3386,30 +3386,30 @@
     type: "Bill"
     sourceId: "e9001fb6-8cb1-49a7-a4bb-db6fb8189ae1"
 
-2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511007"
-  Assets:CurrentAssets:Cash:417CashInHand  -18689.190000 CNY {1.08 HKD}
+2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511004"
+  Assets:CurrentAssets:Cash:417CashInHand  -7173.400000 CNY {1.08 HKD}
     type: "Deposit"
-    sourceId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
-    orderId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
+    sourceId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
+    orderId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
     orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511007"
+    referenceNo: "CD20230511004"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512008"
+    paymentReferenceNo: "BP20230512005"
     dateTs: "1683820799999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  18689.190000 CNY {1.08 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  7173.400000 CNY {1.08 HKD}
     type: "Deposit"
-    sourceId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
-    orderId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
+    sourceId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
+    orderId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
     orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511007"
+    referenceNo: "CD20230511004"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512008"
+    paymentReferenceNo: "BP20230512005"
     dateTs: "1683820799999"
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
@@ -3442,6 +3442,34 @@
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
 
+2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511002"
+  Assets:CurrentAssets:Cash:417CashInHand  -3613.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
+    orderId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
+    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+    referenceNo: "CD20230511002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230512003"
+    dateTs: "1683820799999"
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  3613.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
+    orderId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
+    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+    referenceNo: "CD20230511002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230512003"
+    dateTs: "1683820799999"
+    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
+    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
+
 2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511005"
   Assets:CurrentAssets:Cash:417CashInHand  -100260.630000 CNY {1.08 HKD}
     type: "Deposit"
@@ -3470,30 +3498,30 @@
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
 
-2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511004"
-  Assets:CurrentAssets:Cash:417CashInHand  -7173.400000 CNY {1.08 HKD}
+2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511007"
+  Assets:CurrentAssets:Cash:417CashInHand  -18689.190000 CNY {1.08 HKD}
     type: "Deposit"
-    sourceId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
-    orderId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
+    sourceId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
+    orderId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
     orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511004"
+    referenceNo: "CD20230511007"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512005"
+    paymentReferenceNo: "BP20230512008"
     dateTs: "1683820799999"
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  7173.400000 CNY {1.08 HKD}
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  18689.190000 CNY {1.08 HKD}
     type: "Deposit"
-    sourceId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
-    orderId: "f9386635-a8d1-4fbd-833d-05c7214186f0"
+    sourceId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
+    orderId: "7dbc0892-2d9a-47b9-8134-869e6a36a94c"
     orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511004"
+    referenceNo: "CD20230511007"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512005"
+    paymentReferenceNo: "BP20230512008"
     dateTs: "1683820799999"
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
@@ -3526,34 +3554,6 @@
     accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
 
-2023-05-11 * "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]" "Trade Deposit D#CD20230511002"
-  Assets:CurrentAssets:Cash:417CashInHand  -3613.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
-    orderId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
-    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512003"
-    dateTs: "1683820799999"
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-粵豪珠寶  3613.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
-    orderId: "38c607f6-9c9b-4291-964e-b9014ac4a98a"
-    orderContact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-    referenceNo: "CD20230511002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230512003"
-    dateTs: "1683820799999"
-    accountId: "60a503b2-fb3f-4904-a293-5bd93cb857be"
-    contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
-
 2023-05-12 * "Assets:CurrentAssets:Cash:417CashInHand" "Milrich to Cash (CNY) (找數給粵豪)"
   Assets:CurrentAssets:Cash:417CashInHand  261007.970000 CNY {1.08 HKD}
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -3564,7 +3564,7 @@
     parentReferenceNo: ""
     description: "找數給粵豪 (Item #1)"
     dateTs: "1683820800000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -261007.970000 CNY {1.08 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -261007.970000 CNY {1.08 HKD}
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "9ae66913-4445-4c51-9120-1c17b86c1f45"
@@ -3795,7 +3795,7 @@
     contact: "998 12345842 (粵豪珠寶) [d452a034-9f5a-4b05-b8d6-6e1c7ed56ec4]"
 
 2023-05-12 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230512001"
-  Assets:CurrentAssets:Bank:BocSavingBank  -410.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -410.000000 HKD
     type: "Deposit"
     sourceId: "78558e90-efbe-4579-b7e6-9fa76eeb38de"
     orderId: "78558e90-efbe-4579-b7e6-9fa76eeb38de"
@@ -3879,8 +3879,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-13 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd" "RCD ELMA TO MILRICH HKD 1000000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  1000000.000000 HKD
+2023-05-13 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "RCD ELMA TO MILRICH HKD 1000000"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  1000000.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "3a83b8d4-0a44-41ae-a2dc-ade16de5f3d9"
@@ -3889,7 +3889,7 @@
     parentReferenceNo: ""
     description: "RCD ELMA TO MILRICH HKD 1000000 (Item #1)"
     dateTs: "1683907200000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-ElmaMaYu  -1000000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-ElmaMaYu  -1000000.000000 HKD
     accountId: "4b8d77a5-5111-41b8-8e94-b5298906f3b4"
     type: "MJ"
     sourceId: "3a6284ea-7ab4-4602-9040-312671d80081"
@@ -3900,7 +3900,7 @@
     dateTs: "1683907200000"
 
 2023-05-13 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230513001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -239.860000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -239.860000 HKD
     type: "Deposit"
     sourceId: "3f9b9e2a-e1e4-49e8-a906-2f04a39b8531"
     orderId: "3f9b9e2a-e1e4-49e8-a906-2f04a39b8531"
@@ -3934,7 +3934,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1683921600000"
   type: "Bill"
-  Expenses:GeneralExpense:WebErpDev  239.860000 HKD
+  Expenses:GeneralExpense:WebERPDev  239.860000 HKD
     qty: "1"
     description: "MIDJOURNEY INC."
     referenceNo: "476"
@@ -3985,7 +3985,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-15 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230515002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -236.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -236.000000 HKD
     type: "Deposit"
     sourceId: "5be39267-6290-4783-9d72-3df765aa347f"
     orderId: "5be39267-6290-4783-9d72-3df765aa347f"
@@ -4023,7 +4023,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1684166400000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  -904440.000000 CNY {1.08 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-DirectorDavidKwan  -904440.000000 CNY {1.08 HKD}
     accountId: "70475916-19d4-41f4-b532-019cc1f2cc4a"
     type: "MJ"
     sourceId: "1c29c9ab-2cf1-4a9f-a50b-fe72e3a63130"
@@ -4091,7 +4091,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516012"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -2841.380000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -2841.380000 HKD
     type: "Deposit"
     sourceId: "a2b48be5-d4f4-44ae-afaf-9a83b9556edb"
     orderId: "a2b48be5-d4f4-44ae-afaf-9a83b9556edb"
@@ -4175,8 +4175,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-16 * "Assets:CurrentAssets:Bank:BocVisaCard-DavidBank" "BANK TRANSFER : from BOC - saving to VISA"
-  Assets:CurrentAssets:Bank:BocSavingBank  -40000.000000 HKD
+2023-05-16 * "Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK" "BANK TRANSFER : from BOC - saving to VISA"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -40000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "e976ddf1-e0f3-4f2d-bcf0-ea4e4e7de717"
@@ -4185,7 +4185,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1684195200000"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  40000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  40000.000000 HKD
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
     type: "MJ"
     sourceId: "c6820f3b-f66a-42d8-a0a2-f32a29f948f5"
@@ -4195,8 +4195,8 @@
     description: "(Item #2)"
     dateTs: "1684195200000"
 
-2023-05-16 * "Assets:CurrentAssets:Bank:BocSavingBank" "BANK TRANSFER from Milrich to DKK"
-  Assets:CurrentAssets:Bank:BocSavingBank  200000.000000 HKD
+2023-05-16 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "BANK TRANSFER from Milrich to DKK"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  200000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "ec53d726-1df3-4106-ad09-f524b784db62"
@@ -4205,7 +4205,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1684195200000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -200000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -200000.000000 HKD
     accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
     type: "MJ"
     sourceId: "d5c1c484-1b1e-40bb-966f-be29acd0f6e7"
@@ -4214,174 +4214,6 @@
     parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1684195200000"
-
-2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516007"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -117901.340000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
-    orderId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516007"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517007"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  117901.340000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
-    orderId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516007"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517007"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-
-2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -185.000000 HKD
-    type: "Deposit"
-    sourceId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
-    orderId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230516002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517002"
-    dateTs: "1684252799999"
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  185.000000 HKD
-    type: "Deposit"
-    sourceId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
-    orderId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230516002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517002"
-    dateTs: "1684252799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
-2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516010"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -18125.000000 HKD
-    type: "Deposit"
-    sourceId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
-    orderId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230516010"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517010"
-    dateTs: "1684252799999"
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  18125.000000 HKD
-    type: "Deposit"
-    sourceId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
-    orderId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230516010"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517010"
-    dateTs: "1684252799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
-2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516001"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -398323.650000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "904624ab-54ff-4443-9a27-091a463afe0d"
-    orderId: "904624ab-54ff-4443-9a27-091a463afe0d"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516001"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517001"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  398323.650000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "904624ab-54ff-4443-9a27-091a463afe0d"
-    orderId: "904624ab-54ff-4443-9a27-091a463afe0d"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516001"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517001"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-
-2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516009"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -223650.140000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
-    orderId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516009"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517009"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  223650.140000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
-    orderId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516009"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517009"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-
-2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516003"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -21509.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "6b773906-31c8-4982-b65f-d22155c0ff10"
-    orderId: "6b773906-31c8-4982-b65f-d22155c0ff10"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517003"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  21509.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "6b773906-31c8-4982-b65f-d22155c0ff10"
-    orderId: "6b773906-31c8-4982-b65f-d22155c0ff10"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230516003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230517003"
-    dateTs: "1684252799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516004"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -17342.030000 CNY {1.08 HKD}
@@ -4412,7 +4244,7 @@
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516011"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -206.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -206.000000 HKD
     type: "Deposit"
     sourceId: "11bd6b0f-5cd0-4f1b-8851-466cd551678e"
     orderId: "11bd6b0f-5cd0-4f1b-8851-466cd551678e"
@@ -4435,6 +4267,90 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230517011"
+    dateTs: "1684252799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516003"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -21509.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "6b773906-31c8-4982-b65f-d22155c0ff10"
+    orderId: "6b773906-31c8-4982-b65f-d22155c0ff10"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517003"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  21509.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "6b773906-31c8-4982-b65f-d22155c0ff10"
+    orderId: "6b773906-31c8-4982-b65f-d22155c0ff10"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517003"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516001"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -398323.650000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "904624ab-54ff-4443-9a27-091a463afe0d"
+    orderId: "904624ab-54ff-4443-9a27-091a463afe0d"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516001"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517001"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  398323.650000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "904624ab-54ff-4443-9a27-091a463afe0d"
+    orderId: "904624ab-54ff-4443-9a27-091a463afe0d"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516001"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517001"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516010"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -18125.000000 HKD
+    type: "Deposit"
+    sourceId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
+    orderId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230516010"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517010"
+    dateTs: "1684252799999"
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  18125.000000 HKD
+    type: "Deposit"
+    sourceId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
+    orderId: "e5528eb7-331b-4ade-a100-e6ceda8ea864"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230516010"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517010"
     dateTs: "1684252799999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -4466,6 +4382,34 @@
     dateTs: "1684252799999"
     accountId: "d989f252-cae8-4363-9613-acc94452f172"
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-16 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230516002"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -185.000000 HKD
+    type: "Deposit"
+    sourceId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
+    orderId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230516002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517002"
+    dateTs: "1684252799999"
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  185.000000 HKD
+    type: "Deposit"
+    sourceId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
+    orderId: "dcf04ea2-3e0f-495a-b95f-1c40f111934f"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230516002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517002"
+    dateTs: "1684252799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516006"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -2904.660000 CNY {1.08 HKD}
@@ -4519,6 +4463,62 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230517008"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516007"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -117901.340000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
+    orderId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516007"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517007"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  117901.340000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
+    orderId: "57f7e7f7-4130-4863-9def-42ef2fe4642f"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516007"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517007"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-16 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230516009"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  -223650.140000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
+    orderId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516009"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517009"
+    dateTs: "1684252799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  223650.140000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
+    orderId: "212f9b31-de6a-4f55-9ff9-0b51ac59274e"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230516009"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230517009"
     dateTs: "1684252799999"
     accountId: "d989f252-cae8-4363-9613-acc94452f172"
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
@@ -8836,8 +8836,8 @@
     accountId: "d989f252-cae8-4363-9613-acc94452f172"
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
-2023-05-17 * "Assets:CurrentAssets:Bank:BocCurrentBank" " SAVINGS TO CURRENT ACC"
-  Assets:CurrentAssets:Bank:BocSavingBank  -60000.000000 HKD
+2023-05-17 * "Assets:CurrentAssets:Bank:BOCCurrentBANK" " SAVINGS TO CURRENT ACC"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -60000.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "20c07cb1-e08a-4c78-9dde-90a0c34d0be0"
@@ -8846,7 +8846,7 @@
     parentReferenceNo: ""
     description: "(Item #1)"
     dateTs: "1684281600000"
-  Assets:CurrentAssets:Bank:BocCurrentBank  60000.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  60000.000000 HKD
     accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
     type: "MJ"
     sourceId: "bb68e8bc-1e79-4b8b-aa70-a4bdf03169b1"
@@ -8857,7 +8857,7 @@
     dateTs: "1684281600000"
 
 2023-05-17 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Client Deposit D#CD20230517001"
-  Assets:CurrentAssets:Bank:BocSavingBank  2642.600000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  2642.600000 HKD
     type: "Deposit"
     sourceId: "c8971f49-c6fa-4fb5-ae85-1817b704427d"
     orderId: "c8971f49-c6fa-4fb5-ae85-1817b704427d"
@@ -8885,7 +8885,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-17 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230517002"
-  Assets:CurrentAssets:Bank:BocSavingBank  -150.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -150.000000 HKD
     type: "Deposit"
     sourceId: "74eab4a8-8e37-4cd9-8c2e-b2d89cb3b9ae"
     orderId: "74eab4a8-8e37-4cd9-8c2e-b2d89cb3b9ae"
@@ -8913,7 +8913,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "Invoice #271 中電 退回按金 (DEPOSIT RETURN) 9cf74078-d57b-4aad-9fe6-ff9289f4c0cc"
-  Assets:OtherAssets:Deposit押金  -2642.600000 HKD
+  Assets:OtherAssets:DEPOSIT押金  -2642.600000 HKD
     description: "中電 退回按金 (DEPOSIT RETURN)"
     qty: "1"
     referenceNo: "271"
@@ -8992,7 +8992,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230518003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1956.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1956.000000 HKD
     type: "Deposit"
     sourceId: "31d126c4-c9e8-4d56-b824-29616057f463"
     orderId: "31d126c4-c9e8-4d56-b824-29616057f463"
@@ -9077,7 +9077,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Client Deposit D#CD20230518001"
-  Assets:CurrentAssets:Bank:BocSavingBank  55944.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  55944.000000 HKD
     type: "Deposit"
     sourceId: "9bbc79fe-5967-4922-b20a-b35d1aaa0078"
     orderId: "9bbc79fe-5967-4922-b20a-b35d1aaa0078"
@@ -9105,7 +9105,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230518004"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -2580.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -2580.000000 HKD
     type: "Deposit"
     sourceId: "0b58409b-0e4d-4544-bdfa-d62902a7f9f1"
     orderId: "0b58409b-0e4d-4544-bdfa-d62902a7f9f1"
@@ -9133,7 +9133,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "Invoice #258 323 退回按金 DEPOSIT bfe5439e-65f1-4ca9-ace5-c57885a47cdd"
-  Assets:OtherAssets:Deposit押金  -55944.000000 HKD
+  Assets:OtherAssets:DEPOSIT押金  -55944.000000 HKD
     description: "323 退回按金"
     qty: "1"
     referenceNo: "258"
@@ -9214,7 +9214,7 @@
     sourceId: "974e024c-c00d-43d6-9e51-5e9bf1e2fd40"
 
 2023-05-18 * "BOC Saving to Foregin (HKD>CNY @1.1195802) ID: 6eb6d1ef-2a52-417f-afbc-2d326a100234"
-  Assets:CurrentAssets:Bank:BocSavingBank  -33840.430000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -33840.430000 HKD
     type: "Conversion"
     sourceId: "6eb6d1ef-2a52-417f-afbc-2d326a100234"
     referenceNo: "4"
@@ -9222,7 +9222,7 @@
     orderId: "6eb6d1ef-2a52-417f-afbc-2d326a100234"
     dateTs: "1684368000000"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-  Assets:CurrentAssets:Bank:BocForeignBank  30226.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  30226.000000 CNY {1.08 HKD}
     type: "Conversion"
     sourceId: "6eb6d1ef-2a52-417f-afbc-2d326a100234"
     referenceNo: "4"
@@ -9296,7 +9296,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-18 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230518002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -4446.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -4446.000000 HKD
     type: "Deposit"
     sourceId: "556524d3-4afc-41c7-8e8a-f26b7acbcbb0"
     orderId: "556524d3-4afc-41c7-8e8a-f26b7acbcbb0"
@@ -9403,7 +9403,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230519003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -21719.180000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -21719.180000 HKD
     type: "Deposit"
     sourceId: "b0cf47f3-22e3-42fc-be7a-bc28e05337b7"
     orderId: "b0cf47f3-22e3-42fc-be7a-bc28e05337b7"
@@ -9487,36 +9487,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230519002"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -48000.000000 HKD
-    type: "Deposit"
-    sourceId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
-    orderId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230519002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230519003"
-    dateTs: "1684454399999"
-    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  48000.000000 HKD
-    type: "Deposit"
-    sourceId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
-    orderId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230519002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230519003"
-    dateTs: "1684454399999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230519004"
-  Assets:CurrentAssets:Bank:BocSavingBank  -3262.500000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -3262.500000 HKD
     type: "Deposit"
     sourceId: "20f61f51-d9ae-482f-a2d9-11b75166c831"
     orderId: "20f61f51-d9ae-482f-a2d9-11b75166c831"
@@ -9543,8 +9515,36 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
+2023-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230519002"
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -48000.000000 HKD
+    type: "Deposit"
+    sourceId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
+    orderId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230519002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230519003"
+    dateTs: "1684454399999"
+    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  48000.000000 HKD
+    type: "Deposit"
+    sourceId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
+    orderId: "b0eea251-4311-4d97-b5ec-72c5fcc8d28d"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230519002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230519003"
+    dateTs: "1684454399999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2023-05-19 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230519001"
-  Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5.000000 HKD
     type: "Deposit"
     sourceId: "6dce4543-5dd8-433f-b36d-debff88c1637"
     orderId: "6dce4543-5dd8-433f-b36d-debff88c1637"
@@ -9743,7 +9743,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-20 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230520001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -28.810000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -28.810000 HKD
     type: "Deposit"
     sourceId: "0aaa5190-c463-443d-b7c7-af8cdf0bd9a8"
     orderId: "0aaa5190-c463-443d-b7c7-af8cdf0bd9a8"
@@ -9771,7 +9771,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-20 * "998 12345840 (淘寶(珠寶配件)) [b82a0444-864d-4fc7-a48e-452de771eae9]" "Trade Deposit D#CD20230520002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -220.830000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -220.830000 HKD
     type: "Deposit"
     sourceId: "c6de9503-18bf-4341-8070-164a7b752ce8"
     orderId: "c6de9503-18bf-4341-8070-164a7b752ce8"
@@ -9937,36 +9937,8 @@
     accountId: "5b58f99c-8c54-4730-86c6-7f59058d6e4f"
     contact: "998 12345840 (淘寶(珠寶配件)) [b82a0444-864d-4fc7-a48e-452de771eae9]"
 
-2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521009"
-  Assets:CurrentAssets:Bank:BocForeignBank  -634.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "69309193-438f-4db7-8976-fb40f59c1b4f"
-    orderId: "69309193-438f-4db7-8976-fb40f59c1b4f"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230521009"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230522010"
-    dateTs: "1684684799999"
-    accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  634.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "69309193-438f-4db7-8976-fb40f59c1b4f"
-    orderId: "69309193-438f-4db7-8976-fb40f59c1b4f"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230521009"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230522010"
-    dateTs: "1684684799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521005"
-  Assets:CurrentAssets:Bank:BocForeignBank  -1006.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -1006.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "47aa5d19-43bc-4f63-a7e5-c19e6ee69679"
     orderId: "47aa5d19-43bc-4f63-a7e5-c19e6ee69679"
@@ -9993,36 +9965,8 @@
     accountId: "d989f252-cae8-4363-9613-acc94452f172"
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
-2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521012"
-  Assets:CurrentAssets:Bank:BocForeignBank  -6961.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
-    orderId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230521012"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230522013"
-    dateTs: "1684684799999"
-    accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  6961.000000 CNY {1.08 HKD}
-    type: "Deposit"
-    sourceId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
-    orderId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
-    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-    referenceNo: "CD20230521012"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230522013"
-    dateTs: "1684684799999"
-    accountId: "d989f252-cae8-4363-9613-acc94452f172"
-    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
-
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521011"
-  Assets:CurrentAssets:Bank:BocForeignBank  -295.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -295.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "4dd48fb2-1bbd-4093-b15f-5a661d5fe842"
     orderId: "4dd48fb2-1bbd-4093-b15f-5a661d5fe842"
@@ -10049,8 +9993,64 @@
     accountId: "d989f252-cae8-4363-9613-acc94452f172"
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
+2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521012"
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -6961.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
+    orderId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230521012"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230522013"
+    dateTs: "1684684799999"
+    accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  6961.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
+    orderId: "ca4a84ca-d861-4cb1-927d-ebe053726a17"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230521012"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230522013"
+    dateTs: "1684684799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
+2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521009"
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -634.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "69309193-438f-4db7-8976-fb40f59c1b4f"
+    orderId: "69309193-438f-4db7-8976-fb40f59c1b4f"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230521009"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230522010"
+    dateTs: "1684684799999"
+    accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-深圳市翠綠手飾製造有限公司  634.000000 CNY {1.08 HKD}
+    type: "Deposit"
+    sourceId: "69309193-438f-4db7-8976-fb40f59c1b4f"
+    orderId: "69309193-438f-4db7-8976-fb40f59c1b4f"
+    orderContact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+    referenceNo: "CD20230521009"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230522010"
+    dateTs: "1684684799999"
+    accountId: "d989f252-cae8-4363-9613-acc94452f172"
+    contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
+
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521010"
-  Assets:CurrentAssets:Bank:BocForeignBank  -843.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -843.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "5c595531-2f96-4847-8dab-901b4d567826"
     orderId: "5c595531-2f96-4847-8dab-901b4d567826"
@@ -10078,7 +10078,7 @@
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521006"
-  Assets:CurrentAssets:Bank:BocForeignBank  -8742.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -8742.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "5a9bb793-e852-4ad1-8713-3f93dcbcaba4"
     orderId: "5a9bb793-e852-4ad1-8713-3f93dcbcaba4"
@@ -10106,7 +10106,7 @@
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521008"
-  Assets:CurrentAssets:Bank:BocForeignBank  -10635.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -10635.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "989f5c71-6f88-4bbe-ae7d-80fe23d3aba1"
     orderId: "989f5c71-6f88-4bbe-ae7d-80fe23d3aba1"
@@ -10134,7 +10134,7 @@
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-21 * "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]" "Trade Deposit D#CD20230521007"
-  Assets:CurrentAssets:Bank:BocForeignBank  -1110.000000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  -1110.000000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "0499333c-17c3-4e65-90b1-9f1a75e53392"
     orderId: "0499333c-17c3-4e65-90b1-9f1a75e53392"
@@ -10386,7 +10386,7 @@
     contact: "998 12345843 (深圳市翠綠手飾製造有限公司) [418d4c3f-7ae7-4edc-b509-fe215e1732a0]"
 
 2023-05-22 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230522007"
-  Assets:CurrentAssets:Bank:BocSavingBank  -25.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -25.000000 HKD
     type: "Deposit"
     sourceId: "f31003fd-c850-4700-a96b-63ea5887e6db"
     orderId: "f31003fd-c850-4700-a96b-63ea5887e6db"
@@ -10471,7 +10471,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-05-22 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230522006"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -50000.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -50000.000000 HKD
     type: "Deposit"
     sourceId: "fdae6a61-985f-4c72-87dc-2b0cfb36cff1"
     orderId: "fdae6a61-985f-4c72-87dc-2b0cfb36cff1"
@@ -10555,64 +10555,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523006"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -480.920000 HKD
-    type: "Deposit"
-    sourceId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
-    orderId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230523006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230523010"
-    dateTs: "1684785599999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  480.920000 HKD
-    type: "Deposit"
-    sourceId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
-    orderId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230523006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230523010"
-    dateTs: "1684785599999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
-2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523004"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1391.820000 HKD
-    type: "Deposit"
-    sourceId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
-    orderId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230523004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230523008"
-    dateTs: "1684785599999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1391.820000 HKD
-    type: "Deposit"
-    sourceId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
-    orderId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230523004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230523008"
-    dateTs: "1684785599999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -27.160000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -27.160000 HKD
     type: "Deposit"
     sourceId: "52094276-6c67-4802-a0d6-18ae6c3c3753"
     orderId: "52094276-6c67-4802-a0d6-18ae6c3c3753"
@@ -10639,8 +10583,36 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
+2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523006"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -480.920000 HKD
+    type: "Deposit"
+    sourceId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
+    orderId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230523006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230523010"
+    dateTs: "1684785599999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  480.920000 HKD
+    type: "Deposit"
+    sourceId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
+    orderId: "ed8cda58-1729-4729-8014-56ec8e116ee3"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230523006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230523010"
+    dateTs: "1684785599999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -17.870000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -17.870000 HKD
     type: "Deposit"
     sourceId: "d00269b8-e4a9-4e41-ab25-d871c2f4dfb9"
     orderId: "d00269b8-e4a9-4e41-ab25-d871c2f4dfb9"
@@ -10663,6 +10635,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230523007"
+    dateTs: "1684785599999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-23 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230523004"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1391.820000 HKD
+    type: "Deposit"
+    sourceId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
+    orderId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230523004"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230523008"
+    dateTs: "1684785599999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1391.820000 HKD
+    type: "Deposit"
+    sourceId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
+    orderId: "242e2cc6-14b0-4d3f-85f1-dd92b46ff3ff"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230523004"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230523008"
     dateTs: "1684785599999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -10895,36 +10895,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230524006"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -814.070000 HKD
-    type: "Deposit"
-    sourceId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
-    orderId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230524006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230524005"
-    dateTs: "1684871999999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  814.070000 HKD
-    type: "Deposit"
-    sourceId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
-    orderId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230524006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230524005"
-    dateTs: "1684871999999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230524004"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -229.520000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -229.520000 HKD
     type: "Deposit"
     sourceId: "c31d141d-cdc5-452c-8925-3c0645a001f5"
     orderId: "c31d141d-cdc5-452c-8925-3c0645a001f5"
@@ -10951,8 +10923,36 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
+2023-05-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230524006"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -814.070000 HKD
+    type: "Deposit"
+    sourceId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
+    orderId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230524006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230524005"
+    dateTs: "1684871999999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  814.070000 HKD
+    type: "Deposit"
+    sourceId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
+    orderId: "a436bec3-937b-4d51-8ce9-5d24b5d380f6"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230524006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230524005"
+    dateTs: "1684871999999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2023-05-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230524005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -27.130000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -27.130000 HKD
     type: "Deposit"
     sourceId: "bc067e4b-0b9e-4b15-8a89-6dd3a5886057"
     orderId: "bc067e4b-0b9e-4b15-8a89-6dd3a5886057"
@@ -11151,7 +11151,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-24 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230524003"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -220.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -220.000000 HKD
     type: "Deposit"
     sourceId: "5571f4d7-58c7-4f7f-84bb-2331dd5381ae"
     orderId: "5571f4d7-58c7-4f7f-84bb-2331dd5381ae"
@@ -11322,36 +11322,8 @@
     type: "Bill"
     sourceId: "3ca828f7-bc55-46f2-88a4-79270186aa61"
 
-2023-05-25 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230525002"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -3945.700000 HKD
-    type: "Deposit"
-    sourceId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
-    orderId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230525002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230525006"
-    dateTs: "1684972799999"
-    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  3945.700000 HKD
-    type: "Deposit"
-    sourceId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
-    orderId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230525002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230525006"
-    dateTs: "1684972799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-25 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Trade Deposit D#CD20230525001"
-  Assets:CurrentAssets:Bank:BocSavingBank  -25.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -25.000000 HKD
     type: "Deposit"
     sourceId: "48d4bf34-f620-4a07-80f4-47a63f4697ed"
     orderId: "48d4bf34-f620-4a07-80f4-47a63f4697ed"
@@ -11378,8 +11350,36 @@
     accountId: "f38ad076-05a5-403c-aa4a-4b48576c5046"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
+2023-05-25 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230525002"
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -3945.700000 HKD
+    type: "Deposit"
+    sourceId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
+    orderId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230525002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230525006"
+    dateTs: "1684972799999"
+    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  3945.700000 HKD
+    type: "Deposit"
+    sourceId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
+    orderId: "71d67d15-a111-495f-aeb6-e57f82fa6c82"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230525002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230525006"
+    dateTs: "1684972799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2023-05-25 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230525003"
-  Assets:CurrentAssets:Bank:BocSavingBank  -80400.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -80400.000000 HKD
     type: "Deposit"
     sourceId: "0e093163-7742-4b08-ad94-73c8c2b693b3"
     orderId: "0e093163-7742-4b08-ad94-73c8c2b693b3"
@@ -11413,7 +11413,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1684972800000"
   type: "Bill"
-  Expenses:GeneralExpense:Mpf  3945.700000 HKD
+  Expenses:GeneralExpense:MPF  3945.700000 HKD
     qty: "1"
     description: "5月2023 MPF"
     referenceNo: "143"
@@ -11442,7 +11442,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1684972800000"
   type: "Bill"
-  Expenses:GeneralExpense:WebErpDev  80400.000000 HKD
+  Expenses:GeneralExpense:WebERPDev  80400.000000 HKD
     qty: "1"
     description: "TO:DKK ERP系統的編寫程式費用 (Algohash)"
     referenceNo: "277"
@@ -11577,36 +11577,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526004"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1308.820000 HKD
-    type: "Deposit"
-    sourceId: "9a919801-0439-4495-a2e3-883ab21dab9a"
-    orderId: "9a919801-0439-4495-a2e3-883ab21dab9a"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230526004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230526001"
-    dateTs: "1685044799999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1308.820000 HKD
-    type: "Deposit"
-    sourceId: "9a919801-0439-4495-a2e3-883ab21dab9a"
-    orderId: "9a919801-0439-4495-a2e3-883ab21dab9a"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230526004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230526001"
-    dateTs: "1685044799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1017.770000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1017.770000 HKD
     type: "Deposit"
     sourceId: "bb95592e-b78d-4d23-b084-4fa175b16ff0"
     orderId: "bb95592e-b78d-4d23-b084-4fa175b16ff0"
@@ -11629,6 +11601,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230526002"
+    dateTs: "1685044799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526004"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1308.820000 HKD
+    type: "Deposit"
+    sourceId: "9a919801-0439-4495-a2e3-883ab21dab9a"
+    orderId: "9a919801-0439-4495-a2e3-883ab21dab9a"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230526004"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230526001"
+    dateTs: "1685044799999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1308.820000 HKD
+    type: "Deposit"
+    sourceId: "9a919801-0439-4495-a2e3-883ab21dab9a"
+    orderId: "9a919801-0439-4495-a2e3-883ab21dab9a"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230526004"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230526001"
     dateTs: "1685044799999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -11748,7 +11748,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -264.860000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -264.860000 HKD
     type: "Deposit"
     sourceId: "6ef22e34-35e6-44a5-aba4-d7000f28158d"
     orderId: "6ef22e34-35e6-44a5-aba4-d7000f28158d"
@@ -11775,36 +11775,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -191.590000 HKD
-    type: "Deposit"
-    sourceId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
-    orderId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230526002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230527002"
-    dateTs: "1685116799999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  191.590000 HKD
-    type: "Deposit"
-    sourceId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
-    orderId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230526002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230527002"
-    dateTs: "1685116799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1465.140000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1465.140000 HKD
     type: "Deposit"
     sourceId: "803a73d2-179b-46ca-9892-579bed941923"
     orderId: "803a73d2-179b-46ca-9892-579bed941923"
@@ -11827,6 +11799,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230527001"
+    dateTs: "1685116799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230526002"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -191.590000 HKD
+    type: "Deposit"
+    sourceId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
+    orderId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230526002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230527002"
+    dateTs: "1685116799999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  191.590000 HKD
+    type: "Deposit"
+    sourceId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
+    orderId: "535a91a4-6c86-4cc8-83f6-974bdfb58071"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230526002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230527002"
     dateTs: "1685116799999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -11915,36 +11915,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-27 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230527003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -78.000000 HKD
-    type: "Deposit"
-    sourceId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
-    orderId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230527003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230527006"
-    dateTs: "1685131199999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  78.000000 HKD
-    type: "Deposit"
-    sourceId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
-    orderId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230527003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230527006"
-    dateTs: "1685131199999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-27 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230527002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -89.970000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -89.970000 HKD
     type: "Deposit"
     sourceId: "b9844d54-d2e3-49bf-9e6e-6415b2ab0372"
     orderId: "b9844d54-d2e3-49bf-9e6e-6415b2ab0372"
@@ -11972,7 +11944,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-27 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230527001"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -152.940000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -152.940000 HKD
     type: "Deposit"
     sourceId: "c84d291d-5a42-469b-9d87-1889b5eb497d"
     orderId: "c84d291d-5a42-469b-9d87-1889b5eb497d"
@@ -11995,6 +11967,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230527004"
+    dateTs: "1685131199999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-27 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230527003"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -78.000000 HKD
+    type: "Deposit"
+    sourceId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
+    orderId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230527003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230527006"
+    dateTs: "1685131199999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  78.000000 HKD
+    type: "Deposit"
+    sourceId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
+    orderId: "a28c2d68-5157-4dce-bdc3-692c0dc2cfa6"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230527003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230527006"
     dateTs: "1685131199999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -12170,64 +12170,36 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528006"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -503.820000 HKD
+2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528005"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -659.020000 HKD
     type: "Deposit"
-    sourceId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
-    orderId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    sourceId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
+    orderId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528006"
+    referenceNo: "CD20230528005"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528003"
+    paymentReferenceNo: "BP20230528002"
     dateTs: "1685217599999"
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  503.820000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  659.020000 HKD
     type: "Deposit"
-    sourceId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
-    orderId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    sourceId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
+    orderId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528006"
+    referenceNo: "CD20230528005"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528003"
-    dateTs: "1685217599999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
-2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528004"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -226.610000 HKD
-    type: "Deposit"
-    sourceId: "914dcd1b-064b-4702-ba50-3675a06941e1"
-    orderId: "914dcd1b-064b-4702-ba50-3675a06941e1"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528001"
-    dateTs: "1685217599999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  226.610000 HKD
-    type: "Deposit"
-    sourceId: "914dcd1b-064b-4702-ba50-3675a06941e1"
-    orderId: "914dcd1b-064b-4702-ba50-3675a06941e1"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528004"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528001"
+    paymentReferenceNo: "BP20230528002"
     dateTs: "1685217599999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528007"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -478.000000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -478.000000 HKD
     type: "Deposit"
     sourceId: "55c2553d-95cf-4368-8adc-1d2b2b890090"
     orderId: "55c2553d-95cf-4368-8adc-1d2b2b890090"
@@ -12254,30 +12226,58 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -659.020000 HKD
+2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528004"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -226.610000 HKD
     type: "Deposit"
-    sourceId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
-    orderId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
+    sourceId: "914dcd1b-064b-4702-ba50-3675a06941e1"
+    orderId: "914dcd1b-064b-4702-ba50-3675a06941e1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528005"
+    referenceNo: "CD20230528004"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528002"
+    paymentReferenceNo: "BP20230528001"
     dateTs: "1685217599999"
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  659.020000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  226.610000 HKD
     type: "Deposit"
-    sourceId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
-    orderId: "7ee08839-fae2-42e4-85f5-61aaa64ac867"
+    sourceId: "914dcd1b-064b-4702-ba50-3675a06941e1"
+    orderId: "914dcd1b-064b-4702-ba50-3675a06941e1"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528005"
+    referenceNo: "CD20230528004"
     parentReferenceNo: ""
     depositType: "trade"
     paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230528002"
+    paymentReferenceNo: "BP20230528001"
+    dateTs: "1685217599999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528006"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -503.820000 HKD
+    type: "Deposit"
+    sourceId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    orderId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230528006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230528003"
+    dateTs: "1685217599999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  503.820000 HKD
+    type: "Deposit"
+    sourceId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    orderId: "9b0d7656-d855-46a4-b21b-e8fc29c20cb2"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230528006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230528003"
     dateTs: "1685217599999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -12511,7 +12511,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528001"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -338.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -338.000000 HKD
     type: "Deposit"
     sourceId: "c04f4e9c-d65b-41de-8f83-6b6bbbba3d2a"
     orderId: "c04f4e9c-d65b-41de-8f83-6b6bbbba3d2a"
@@ -12538,36 +12538,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -1900.000000 HKD
-    type: "Deposit"
-    sourceId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
-    orderId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230529002"
-    dateTs: "1685289599999"
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1900.000000 HKD
-    type: "Deposit"
-    sourceId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
-    orderId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230528002"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230529002"
-    dateTs: "1685289599999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528003"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -5600.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -5600.000000 HKD
     type: "Deposit"
     sourceId: "cb754019-4d34-4313-b5e8-71fa08e8513a"
     orderId: "cb754019-4d34-4313-b5e8-71fa08e8513a"
@@ -12590,6 +12562,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230529003"
+    dateTs: "1685289599999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-28 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230528002"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -1900.000000 HKD
+    type: "Deposit"
+    sourceId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
+    orderId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230528002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230529002"
+    dateTs: "1685289599999"
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  1900.000000 HKD
+    type: "Deposit"
+    sourceId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
+    orderId: "f6e8e03f-4cec-483b-a7df-76dc3f2b2559"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230528002"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230529002"
     dateTs: "1685289599999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -12766,7 +12766,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230529002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -2004.110000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -2004.110000 HKD
     type: "Deposit"
     sourceId: "f2e0e445-0bee-4529-aed2-8c5e1df536d7"
     orderId: "f2e0e445-0bee-4529-aed2-8c5e1df536d7"
@@ -12793,36 +12793,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230529003"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -903.380000 HKD
-    type: "Deposit"
-    sourceId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
-    orderId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230529003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230529005"
-    dateTs: "1685303999999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  903.380000 HKD
-    type: "Deposit"
-    sourceId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
-    orderId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230529003"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230529005"
-    dateTs: "1685303999999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230529004"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -101.330000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -101.330000 HKD
     type: "Deposit"
     sourceId: "9b688519-b82a-4868-a565-37e690bea3a4"
     orderId: "9b688519-b82a-4868-a565-37e690bea3a4"
@@ -12845,6 +12817,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230529006"
+    dateTs: "1685303999999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230529003"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -903.380000 HKD
+    type: "Deposit"
+    sourceId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
+    orderId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230529003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230529005"
+    dateTs: "1685303999999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  903.380000 HKD
+    type: "Deposit"
+    sourceId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
+    orderId: "8c58eb57-b6f9-46d0-9a13-fb50e592affd"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230529003"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230529005"
     dateTs: "1685303999999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -13101,7 +13101,7 @@
     sourceId: "4d6a5208-57f2-4602-8acf-4d577e23098f"
 
 2023-05-30 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230530005"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -540.400000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -540.400000 HKD
     type: "Deposit"
     sourceId: "32f2700d-fcf5-44e7-8bfd-b7fdabbecdc6"
     orderId: "32f2700d-fcf5-44e7-8bfd-b7fdabbecdc6"
@@ -13186,7 +13186,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-30 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230530004"
-  Assets:CurrentAssets:Bank:BocSavingBank  -36259.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -36259.000000 HKD
     type: "Deposit"
     sourceId: "c3929769-e54e-4040-9303-3131add2695f"
     orderId: "c3929769-e54e-4040-9303-3131add2695f"
@@ -13271,7 +13271,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-30 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20230530003"
-  Assets:CurrentAssets:Bank:BocForeignBank  0.340000 CNY {1.08 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  0.340000 CNY {1.08 HKD}
     type: "Deposit"
     sourceId: "9f544d4a-6b73-4a99-905b-1d81a82647c1"
     orderId: "9f544d4a-6b73-4a99-905b-1d81a82647c1"
@@ -13392,7 +13392,7 @@
     dateTs: "1685462400000"
     accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:Bank:BocSavingBank  22959.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  22959.000000 HKD
     type: "Payment"
     sourceId: "f02b183d-c7d6-4cf7-b658-94e0abe8aa69"
     referenceNo: "BP20230531006"
@@ -13406,64 +13406,8 @@
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531010"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -232.740000 HKD
-    type: "Deposit"
-    sourceId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
-    orderId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531010"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230531009"
-    dateTs: "1685476799999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  232.740000 HKD
-    type: "Deposit"
-    sourceId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
-    orderId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531010"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230531009"
-    dateTs: "1685476799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
-2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531008"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -94.350000 HKD
-    type: "Deposit"
-    sourceId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
-    orderId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531008"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230531007"
-    dateTs: "1685476799999"
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  94.350000 HKD
-    type: "Deposit"
-    sourceId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
-    orderId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531008"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230531007"
-    dateTs: "1685476799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531009"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -1203.470000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -1203.470000 HKD
     type: "Deposit"
     sourceId: "d5c4541b-09b1-471a-aa69-0a4056923d3f"
     orderId: "d5c4541b-09b1-471a-aa69-0a4056923d3f"
@@ -13491,7 +13435,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531012"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -147.920000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -147.920000 HKD
     type: "Deposit"
     sourceId: "702afe06-149a-4db8-bba7-37a29195d01e"
     orderId: "702afe06-149a-4db8-bba7-37a29195d01e"
@@ -13519,7 +13463,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531011"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -75.090000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -75.090000 HKD
     type: "Deposit"
     sourceId: "e4a21e2f-3d4d-47b1-bb4d-375cce44d948"
     orderId: "e4a21e2f-3d4d-47b1-bb4d-375cce44d948"
@@ -13542,6 +13486,62 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230531010"
+    dateTs: "1685476799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531010"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -232.740000 HKD
+    type: "Deposit"
+    sourceId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
+    orderId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531010"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230531009"
+    dateTs: "1685476799999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  232.740000 HKD
+    type: "Deposit"
+    sourceId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
+    orderId: "10ff0514-f43b-41e3-b77f-0a358bf2e15e"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531010"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230531009"
+    dateTs: "1685476799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531008"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -94.350000 HKD
+    type: "Deposit"
+    sourceId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
+    orderId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531008"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230531007"
+    dateTs: "1685476799999"
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  94.350000 HKD
+    type: "Deposit"
+    sourceId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
+    orderId: "8bb78356-5a41-4d38-abfa-d6766fc94bad"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531008"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230531007"
     dateTs: "1685476799999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
@@ -13832,7 +13832,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2023-05-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20230531004"
-  Assets:CurrentAssets:Bank:BocForeignBank  0.370000 USD {7.84 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  0.370000 USD {7.84 HKD}
     type: "Deposit"
     sourceId: "7ceb8302-90fb-44c8-a4ab-de835474f39c"
     orderId: "7ceb8302-90fb-44c8-a4ab-de835474f39c"
@@ -13860,7 +13860,7 @@
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
 2023-05-31 * "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]" "Client Deposit D#CD20230531005"
-  Assets:CurrentAssets:Bank:BocSavingBank  20.370000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  20.370000 HKD
     type: "Deposit"
     sourceId: "dbf43e96-bfc8-4549-8fa9-c7da5def54c2"
     orderId: "dbf43e96-bfc8-4549-8fa9-c7da5def54c2"
@@ -13989,36 +13989,8 @@
     accountId: "8c116d2d-aaa7-48d0-9fdd-ab5518c2da74"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
-2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531006"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -33930.000000 HKD
-    type: "Deposit"
-    sourceId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
-    orderId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230601004"
-    dateTs: "1685548799999"
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  33930.000000 HKD
-    type: "Deposit"
-    sourceId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
-    orderId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    referenceNo: "CD20230531006"
-    parentReferenceNo: ""
-    depositType: "trade"
-    paymentParentType: "Bill"
-    paymentReferenceNo: "BP20230601004"
-    dateTs: "1685548799999"
-    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531007"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilrichElectronicsHkCoLtd  -223.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -223.000000 HKD
     type: "Deposit"
     sourceId: "b5a1914b-4485-481a-8740-7c42119ee62b"
     orderId: "b5a1914b-4485-481a-8740-7c42119ee62b"
@@ -14041,6 +14013,34 @@
     depositType: "trade"
     paymentParentType: "Bill"
     paymentReferenceNo: "BP20230601005"
+    dateTs: "1685548799999"
+    accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2023-05-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20230531006"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -33930.000000 HKD
+    type: "Deposit"
+    sourceId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
+    orderId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230601004"
+    dateTs: "1685548799999"
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-ExpensesVendor880806  33930.000000 HKD
+    type: "Deposit"
+    sourceId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
+    orderId: "750c6248-91a5-4dc8-932c-1f08be78e2a7"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    referenceNo: "CD20230531006"
+    parentReferenceNo: ""
+    depositType: "trade"
+    paymentParentType: "Bill"
+    paymentReferenceNo: "BP20230601004"
     dateTs: "1685548799999"
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"

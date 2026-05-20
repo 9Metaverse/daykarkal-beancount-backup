@@ -1,7 +1,7 @@
 ; Mixed transactions for 2025-12 (FY 2026)
 
-2025-12-01 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 295"
-  Assets:CurrentAssets:Bank:KpayBank  -1870.500000 HKD
+2025-12-01 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 295"
+  Assets:CurrentAssets:Bank:KPAYBank  -1870.500000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "36b92015-503c-4e73-8ce3-1c56e6b43701"
@@ -10,7 +10,7 @@
     parentReferenceNo: ""
     description: "kpay 295 (Item #1)"
     dateTs: "1764537158848"
-  Assets:CurrentAssets:Bank:BocSavingBank  1870.500000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  1870.500000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "3defbe7a-a3aa-4834-8dfb-c41e151273e0"
@@ -34,7 +34,7 @@
     dateTs: "1764555888826"
     accountId: "7bcc4694-7cc7-46c3-8296-2e60edf0a99c"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -2411.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  -2411.000000 USD {7.8 HKD}
     type: "Deposit"
     sourceId: "1c1bccc8-483f-4f14-87dd-582652878dd4"
     orderId: "1c1bccc8-483f-4f14-87dd-582652878dd4"
@@ -49,7 +49,7 @@
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
 2025-12-01 * "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]" "Reservation Payment for Reservation#GR2025112800004B P#P20251201001 df0c3860-b674-4003-b218-a9c8ff739972"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  2411.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  2411.000000 USD {7.8 HKD}
     type: "Payment"
     sourceId: "d00871fa-780a-404c-bfc8-d9ce4fce6079"
     referenceNo: "P20251201001"
@@ -196,7 +196,7 @@
     dateTs: "1764559234720"
     accountId: "7bcc4694-7cc7-46c3-8296-2e60edf0a99c"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -2043.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  -2043.000000 USD {7.8 HKD}
     type: "Deposit"
     sourceId: "0a193532-f931-492e-811f-791aec77ffd4"
     orderId: "0a193532-f931-492e-811f-791aec77ffd4"
@@ -211,7 +211,7 @@
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
 2025-12-01 * "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]" "Reservation Payment for Reservation#GR2025120100007B P#P20251201003 7699505d-17ca-4316-bdad-86f08cfbbe0b"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  2043.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  2043.000000 USD {7.8 HKD}
     type: "Payment"
     sourceId: "e11124d2-f9fe-4760-9107-6255416be4a7"
     referenceNo: "P20251201003"
@@ -330,7 +330,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1764569528136"
   type: "Bill"
-  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+  Expenses:GeneralExpense:MPF  7500.000000 HKD
     qty: "1"
     description: "11月2025年MPF"
     referenceNo: "1533"
@@ -373,7 +373,7 @@
     dateTs: "1764571557000"
 
 2025-12-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251201008"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "f5c7ea51-2505-462e-84c5-be1011ee651a"
     orderId: "f5c7ea51-2505-462e-84c5-be1011ee651a"
@@ -428,8 +428,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2025-12-02 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 296"
-  Assets:CurrentAssets:Bank:KpayBank  -7583.500000 HKD
+2025-12-02 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 296"
+  Assets:CurrentAssets:Bank:KPAYBank  -7583.500000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "2823ba86-7105-4e33-8513-bd7c49268d73"
@@ -438,7 +438,7 @@
     parentReferenceNo: ""
     description: "kpay 296 (Item #1)"
     dateTs: "1764655958848"
-  Assets:CurrentAssets:Bank:BocSavingBank  7583.500000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  7583.500000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "09287dac-3458-40ae-aac2-cc5b8afac811"
@@ -485,7 +485,7 @@
     contact: "852 53719444 (Mandy) [e8081506-9154-49a9-8405-a0d46a91dd69]"
 
 2025-12-02 * "852 53719444 (Mandy) [e8081506-9154-49a9-8405-a0d46a91dd69]" "Client Deposit D#CD20251202001"
-  Assets:CurrentAssets:Bank:KpayBank  2000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  2000.000000 HKD
     type: "Deposit"
     sourceId: "a34aea64-528f-4c62-bec4-699514b1703f"
     orderId: "a34aea64-528f-4c62-bec4-699514b1703f"
@@ -539,6 +539,26 @@
     dateTs: "1764671146988"
     accountId: "7532edf9-b1d8-4b83-8ff9-b5961e6a38bc"
     contact: "852 53719444 (Mandy) [e8081506-9154-49a9-8405-a0d46a91dd69]"
+
+2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
+    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
+    type: "MJ"
+    sourceId: "e822ed20-db81-4b45-9b4e-9465cb85bbef"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #1)"
+    dateTs: "1764827788247"
+  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "26a42b13-2983-4e8e-bf21-17765f246144"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #2)"
+    dateTs: "1764827788247"
 
 2025-12-04 * "Bill #1510 嚴丹鳳代鑲石 合併 e880a5cf-f5b3-4deb-bb98-52132720a177"
   referenceNo: "1510"
@@ -666,28 +686,8 @@
     type: "Bill"
     sourceId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
 
-2025-12-04 * "Assets:CurrentAssets:Cash:G17ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:G17ShopCash  10000.000000 HKD
-    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
-    type: "MJ"
-    sourceId: "e822ed20-db81-4b45-9b4e-9465cb85bbef"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #1)"
-    dateTs: "1764827788247"
-  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "26a42b13-2983-4e8e-bf21-17765f246144"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #2)"
-    dateTs: "1764827788247"
-
-2025-12-04 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 297"
-  Assets:CurrentAssets:Bank:KpayBank  -1969.000000 HKD
+2025-12-04 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 297"
+  Assets:CurrentAssets:Bank:KPAYBank  -1969.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "e405022e-3ad1-414c-b57b-f2c913d67ca5"
@@ -696,7 +696,7 @@
     parentReferenceNo: ""
     description: "kpay 297 (Item #1)"
     dateTs: "1764828758848"
-  Assets:CurrentAssets:Bank:BocSavingBank  1969.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  1969.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "4c7a6843-1d9d-4fb5-9215-90a049455569"
@@ -833,7 +833,7 @@
     contact: "852 64801689 (MissLeung) [61ee614a-7af2-4b4c-a394-9c6e36576ecb]"
 
 2025-12-08 * "852 64801689 (MissLeung) [61ee614a-7af2-4b4c-a394-9c6e36576ecb]" "Client Deposit D#CD20251208002"
-  Assets:CurrentAssets:Bank:KpayBank  4200.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  4200.000000 HKD
     type: "Deposit"
     sourceId: "52ec7eaf-59d1-4da4-a061-96502a24b0b5"
     orderId: "52ec7eaf-59d1-4da4-a061-96502a24b0b5"
@@ -932,7 +932,7 @@
     dateTs: "1765259118192"
     accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
     contact: "852 93032716 (JACKIE) [2c6ec785-bec4-40f7-b485-6d6e7ae28f28]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jackie85293032716  300.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JACKIE85293032716  300.000000 HKD
     type: "Deposit"
     sourceId: "165f02c4-c804-409c-9f64-a6fbb961b421"
     orderId: "165f02c4-c804-409c-9f64-a6fbb961b421"
@@ -960,7 +960,7 @@
     dateTs: "1765259118193"
     accountId: "8f7bc310-953c-471f-8eaf-848a2b65cd8a"
     contact: "852 93032716 (JACKIE) [2c6ec785-bec4-40f7-b485-6d6e7ae28f28]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-Jackie85293032716  -300.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-JACKIE85293032716  -300.000000 HKD
     type: "Payment"
     sourceId: "2054bcfc-e507-49c4-849a-4f3349fdd4af"
     referenceNo: "BP20251209005"
@@ -974,8 +974,8 @@
     accountId: "d76c55df-53d1-497c-b3d1-be3faa5621fa"
     contact: "852 93032716 (JACKIE) [2c6ec785-bec4-40f7-b485-6d6e7ae28f28]"
 
-2025-12-10 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 298"
-  Assets:CurrentAssets:Bank:KpayBank  -4136.000000 HKD
+2025-12-10 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 298"
+  Assets:CurrentAssets:Bank:KPAYBank  -4136.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "68fe1db2-4aeb-4644-8f2c-f90fd9ff379e"
@@ -984,7 +984,7 @@
     parentReferenceNo: ""
     description: "kpay 298 (Item #1)"
     dateTs: "1765314758848"
-  Assets:CurrentAssets:Bank:BocSavingBank  4136.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  4136.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "335b2a5f-52e9-47f1-8d50-41d16993d617"
@@ -995,7 +995,7 @@
     dateTs: "1765314758848"
 
 2025-12-10 * "852 64801689 (MissLeung) [61ee614a-7af2-4b4c-a394-9c6e36576ecb]" "Client Deposit D#CD20251210004"
-  Assets:CurrentAssets:Bank:BocSavingBank  3900.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  3900.000000 HKD
     type: "Deposit"
     sourceId: "d7aeb817-c380-4d87-97b5-f18e9eab6d56"
     orderId: "d7aeb817-c380-4d87-97b5-f18e9eab6d56"
@@ -1069,7 +1069,7 @@
     parentReferenceNo: ""
     description: "REFUND INV #1176 (DOUBLE PAID) (Item #2)"
     dateTs: "1765436220742"
-  Assets:CurrentAssets:Bank:BocSavingBank  -4195.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -4195.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "9b265a80-6193-4c60-8ba5-4bee42eb7d3d"
@@ -1078,7 +1078,7 @@
     parentReferenceNo: ""
     description: "REFUND INV #1176 (DOUBLE PAID) (Item #3)"
     dateTs: "1765436220742"
-  Assets:CurrentAssets:Bank:BocSavingBank  -5.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "8c0f5871-6d27-4554-8eca-b0f63576cd9e"
@@ -1122,7 +1122,7 @@
     contact: "852 64669322 (Christy) [0da02c8e-da81-4600-9f8e-2aa9f1121ccd]"
 
 2025-12-11 * "852 64669322 (Christy) [0da02c8e-da81-4600-9f8e-2aa9f1121ccd]" "Client Deposit D#CD20251211001"
-  Assets:CurrentAssets:Bank:KpayBank  3800.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  3800.000000 HKD
     type: "Deposit"
     sourceId: "d3bea60c-6935-4177-8f36-a5f0808f8d6e"
     orderId: "d3bea60c-6935-4177-8f36-a5f0808f8d6e"
@@ -1202,7 +1202,7 @@
     contact: "852 64660097 (MrChan) [793c7b3b-6a9c-426f-8abf-10a0d680d42f]"
 
 2025-12-12 * "852 64660097 (MrChan) [793c7b3b-6a9c-426f-8abf-10a0d680d42f]" "Client Deposit D#CD20251212001"
-  Assets:CurrentAssets:Bank:BocSavingBank  2150.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  2150.000000 HKD
     type: "Deposit"
     sourceId: "af426583-7150-4559-94e1-b2bd37bc0deb"
     orderId: "af426583-7150-4559-94e1-b2bd37bc0deb"
@@ -1394,7 +1394,7 @@
     accountId: "d3d24466-3e9a-4991-ad91-86d4536da30e"
     type: "Bill Item"
     sourceId: "a8294966-47c5-4cdc-8fe2-882007550016"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDanfeng嚴丹鳳严丹凤85291475444  -354.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDANFENG嚴丹鳳严丹凤85291475444  -354.000000 HKD
     accountId: "204b52a7-5005-498c-843d-93f2da2f67d3"
     referenceNo: "1513"
     parentReferenceNo: ""
@@ -1434,7 +1434,7 @@
     contact: "852 91475444 (YANDANFENG嚴丹鳳严丹凤) [9f307e98-6204-4c1f-a731-940ddf4fa956]"
 
 2025-12-13 * "852 91475444 (YANDANFENG嚴丹鳳严丹凤) [9f307e98-6204-4c1f-a731-940ddf4fa956]" "Bill Payment for Bill#1513 P#BP20251213001 c5cac4e2-d31b-4d9b-afa4-54750ea821b8"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDanfeng嚴丹鳳严丹凤85291475444  354.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-yanDANFENG嚴丹鳳严丹凤85291475444  354.000000 HKD
     type: "Payment"
     sourceId: "e5d7fec8-9700-497d-9394-9b0cef4b2970"
     referenceNo: "BP20251213001"
@@ -1546,8 +1546,8 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2025-12-15 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 299"
-  Assets:CurrentAssets:Bank:KpayBank  -3742.000000 HKD
+2025-12-15 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 299"
+  Assets:CurrentAssets:Bank:KPAYBank  -3742.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "1a5c05a6-2a7a-400b-9303-1d53c3786103"
@@ -1556,7 +1556,7 @@
     parentReferenceNo: ""
     description: "kpay 299 (Item #1)"
     dateTs: "1765779158848"
-  Assets:CurrentAssets:Bank:BocSavingBank  3742.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  3742.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "f4822e92-90bb-44b0-85a3-d6d6017f5032"
@@ -1602,7 +1602,7 @@
     contact: "852 62268988 (MrsChan（PhoebeWong）) [2cda5cd9-7067-4dd4-8c01-edaeb5fcfefb]"
 
 2025-12-16 * "852 62268988 (MrsChan（PhoebeWong）) [2cda5cd9-7067-4dd4-8c01-edaeb5fcfefb]" "Client Deposit D#CD20251216001"
-  Assets:CurrentAssets:Bank:KpayBank  4000.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  4000.000000 HKD
     type: "Deposit"
     sourceId: "db202f97-da74-4bc9-9175-a352336f1db8"
     orderId: "db202f97-da74-4bc9-9175-a352336f1db8"
@@ -1777,7 +1777,7 @@
     dateTs: "1765940448973"
     accountId: "7bcc4694-7cc7-46c3-8296-2e60edf0a99c"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  -59987.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  -59987.000000 USD {7.8 HKD}
     type: "Deposit"
     sourceId: "416a4c0a-58ac-4e3f-9640-f264bb7824e9"
     orderId: "416a4c0a-58ac-4e3f-9640-f264bb7824e9"
@@ -1792,7 +1792,7 @@
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
 2025-12-17 * "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]" "Reservation Payment for Reservation#GR2025121700001B P#P20251217001 84e6cf58-faf9-4c97-a64c-9d2352ba0b9c"
-  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTifaCoLtd82220887071  59987.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-auTIFACoLtd82220887071  59987.000000 USD {7.8 HKD}
     type: "Payment"
     sourceId: "2bc75418-acaf-4c28-9ffe-51a347309074"
     referenceNo: "P20251217001"
@@ -2002,8 +2002,8 @@
     accountId: "138a171b-e5ea-4377-a802-fe41eea54e61"
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
 
-2025-12-18 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 300"
-  Assets:CurrentAssets:Bank:KpayBank  -3939.000000 HKD
+2025-12-18 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 300"
+  Assets:CurrentAssets:Bank:KPAYBank  -3939.000000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "07cf44ee-339b-4e83-89f6-8da993f6607f"
@@ -2012,7 +2012,7 @@
     parentReferenceNo: ""
     description: "kpay 300 (Item #1)"
     dateTs: "1766038358848"
-  Assets:CurrentAssets:Bank:BocSavingBank  3939.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  3939.000000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "63fce116-c35a-4062-8e81-e94bc61ddcf1"
@@ -2023,7 +2023,7 @@
     dateTs: "1766038358848"
 
 2025-12-18 * "852 98566810 (VenusLeung) [ec0a7665-ea08-47ba-8523-aaa2f23b52d6]" "Client Deposit D#CD20251218002"
-  Assets:CurrentAssets:Bank:KpayBank  1400.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  1400.000000 HKD
     type: "Deposit"
     sourceId: "db6e6788-3ce1-4b17-8dda-db82feaa0918"
     orderId: "db6e6788-3ce1-4b17-8dda-db82feaa0918"
@@ -2103,7 +2103,7 @@
     contact: "852 92348501 (AliceHung) [88290fc1-7356-41f1-b1d9-37caf91c4b2a]"
 
 2025-12-18 * "852 92348501 (AliceHung) [88290fc1-7356-41f1-b1d9-37caf91c4b2a]" "Client Deposit D#CD20251218003"
-  Assets:CurrentAssets:Bank:KpayBank  450.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  450.000000 HKD
     type: "Deposit"
     sourceId: "50449fb8-ec1b-4c0c-aa02-90ed05292883"
     orderId: "50449fb8-ec1b-4c0c-aa02-90ed05292883"
@@ -2183,7 +2183,7 @@
     contact: "971 508466440 (Ms.Sara) [4860047a-62d2-430a-bdd2-4b4fe49f25dd]"
 
 2025-12-19 * "971 508466440 (Ms.Sara) [4860047a-62d2-430a-bdd2-4b4fe49f25dd]" "Client Deposit D#CD20251219001"
-  Assets:CurrentAssets:Bank:BocSavingBank  3500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  3500.000000 HKD
     type: "Deposit"
     sourceId: "83eb863c-13b0-4bd3-b275-b036d36672cb"
     orderId: "83eb863c-13b0-4bd3-b275-b036d36672cb"
@@ -2289,7 +2289,7 @@
     accountId: "b9ba35e1-9d4a-4908-98ab-c1d8bb2478f2"
     type: "Bill Item"
     sourceId: "ae3fac4b-94dc-43bf-b226-707387bd76bb"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  -5760.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLTD85235758833  -5760.000000 HKD
     accountId: "77b18de8-1af4-4b3f-9046-7010a23e2375"
     referenceNo: "1516"
     parentReferenceNo: ""
@@ -2355,7 +2355,7 @@
     sourceId: "ff7a06be-4e24-49b1-94ca-63cf6be66e87"
 
 2025-12-20 * "852 64660097 (MrChan) [793c7b3b-6a9c-426f-8abf-10a0d680d42f]" "Client Deposit D#CD20251220001"
-  Assets:CurrentAssets:Bank:KpayBank  2150.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  2150.000000 HKD
     type: "Deposit"
     sourceId: "843ddd5b-aad5-4677-a6e9-532808770945"
     orderId: "843ddd5b-aad5-4677-a6e9-532808770945"
@@ -2431,7 +2431,7 @@
     dateTs: "1766210609216"
 
 2025-12-20 * "998 12345708 (DavidKwan(Director)) [02ab8da0-959b-440e-9733-c02eab1b0288]" "Client Deposit D#CD20251220002"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-DirectorDavidKwan  849.000000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-DirectorDavidKwan  849.000000 HKD
     type: "Deposit"
     sourceId: "6b716286-cfbd-47c7-8c49-827331e2f52a"
     orderId: "6b716286-cfbd-47c7-8c49-827331e2f52a"
@@ -2500,7 +2500,7 @@
     dateTs: "1766215175361"
     accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
     contact: "852 35758833 (DIAMOLTD) [b3237208-af48-4327-b669-24dc9e83312a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamoLtd85235758833  5760.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DIAMOLTD85235758833  5760.000000 HKD
     type: "Deposit"
     sourceId: "284200d2-c07f-447b-84eb-f78150398046"
     orderId: "284200d2-c07f-447b-84eb-f78150398046"
@@ -2515,7 +2515,7 @@
     contact: "852 35758833 (DIAMOLTD) [b3237208-af48-4327-b669-24dc9e83312a]"
 
 2025-12-20 * "852 35758833 (DIAMOLTD) [b3237208-af48-4327-b669-24dc9e83312a]" "Bill Payment for Bill#1516 P#BP20251220003 baabf341-aca8-4f9e-bbfb-7fa9569fb1f1"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLtd85235758833  5760.000000 HKD
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-diamoLTD85235758833  5760.000000 HKD
     type: "Payment"
     sourceId: "1c2eb409-e7f8-4b41-b705-38d54d367aa7"
     referenceNo: "BP20251220003"
@@ -2528,7 +2528,7 @@
     dateTs: "1766215175362"
     accountId: "77b18de8-1af4-4b3f-9046-7010a23e2375"
     contact: "852 35758833 (DIAMOLTD) [b3237208-af48-4327-b669-24dc9e83312a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DiamoLtd85235758833  -5760.000000 HKD
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DIAMOLTD85235758833  -5760.000000 HKD
     type: "Payment"
     sourceId: "1c2eb409-e7f8-4b41-b705-38d54d367aa7"
     referenceNo: "BP20251220003"
@@ -2598,8 +2598,8 @@
     accountId: "c3c7693e-d6b8-4a1b-91ab-4007245053cf"
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
 
-2025-12-22 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 301"
-  Assets:CurrentAssets:Bank:BocSavingBank  1821.250000 HKD
+2025-12-22 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 301"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  1821.250000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "c269208a-e8a2-4402-99a1-a5dcaf7ea3fc"
@@ -2608,7 +2608,7 @@
     parentReferenceNo: ""
     description: "kpay 301 (Item #1)"
     dateTs: "1766383958848"
-  Assets:CurrentAssets:Bank:KpayBank  -1821.250000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  -1821.250000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "3c5bdef2-cb2f-490a-868f-d154f58099c6"
@@ -2618,8 +2618,8 @@
     description: "kpay 301 (Item #2)"
     dateTs: "1766383958848"
 
-2025-12-23 * "Assets:CurrentAssets:Bank:BocSavingBank" "kpay 302"
-  Assets:CurrentAssets:Bank:KpayBank  -2116.750000 HKD
+2025-12-23 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 302"
+  Assets:CurrentAssets:Bank:KPAYBank  -2116.750000 HKD
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     type: "MJ"
     sourceId: "1bc9c4a6-46fe-47ec-9983-d443cd4f06e5"
@@ -2628,7 +2628,7 @@
     parentReferenceNo: ""
     description: "kpay 302 (Item #1)"
     dateTs: "1766470358848"
-  Assets:CurrentAssets:Bank:BocSavingBank  2116.750000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  2116.750000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "f8fc62c1-c781-4f2c-98e9-4b381582cd33"
@@ -2761,7 +2761,7 @@
     dateTs: "1766566235277"
 
 2025-12-24 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251224004"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -61404.900000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -61404.900000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "53a2376e-0f58-4098-a7fe-e0696de07979"
     orderId: "53a2376e-0f58-4098-a7fe-e0696de07979"
@@ -2817,7 +2817,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-24 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251224003"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -2042.170000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -2042.170000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "582ec598-b48d-47af-8bb9-44d0a3fcbf44"
     orderId: "582ec598-b48d-47af-8bb9-44d0a3fcbf44"
@@ -3058,7 +3058,7 @@
     accountId: "bc9a71cf-6b90-4fa8-bf88-108a43da2965"
     type: "Bill Item"
     sourceId: "71c74d3c-0d1f-4908-9ea2-8e33606c0cab"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  15188.250000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  15188.250000 HKD
     qty: "1"
     description: "Milways Gold Ltd - 物資"
     referenceNo: "1526"
@@ -3087,7 +3087,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1766729558848"
   type: "Bill"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  8045.660000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  8045.660000 HKD
     qty: "1"
     description: "Milways Gold Ltd  - 淘寶雜項"
     referenceNo: "1525"
@@ -3098,7 +3098,7 @@
     accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
     type: "Bill Item"
     sourceId: "0b18b754-d30e-43b9-a232-1e009ab876ac"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  878.860000 HKD
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  878.860000 HKD
     qty: "1"
     description: "Milways Factory Ltd - 淘寶雜項"
     referenceNo: "1525"
@@ -3121,7 +3121,7 @@
     sourceId: "d3c12bc0-865e-4615-9945-b269bd1aac73"
 
 2025-12-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251226003"
-  Assets:CurrentAssets:Bank:BocVisaCard-SamBank  -8924.520000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-SamBANK  -8924.520000 HKD
     type: "Deposit"
     sourceId: "58ecf545-900a-4856-a87a-4102267e9db8"
     orderId: "58ecf545-900a-4856-a87a-4102267e9db8"
@@ -3177,7 +3177,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2025-12-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251226002"
-  Assets:CurrentAssets:Bank:BocVisaCard-DavidBank  -15542.710000 HKD
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  -15542.710000 HKD
     type: "Deposit"
     sourceId: "8f02e718-c842-42d6-bdf1-54f656c87560"
     orderId: "8f02e718-c842-42d6-bdf1-54f656c87560"
@@ -3253,7 +3253,7 @@
     dateTs: "1766735407428"
 
 2025-12-29 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251229002"
-  Assets:CurrentAssets:Bank:BocSavingBank  -21017.380000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -21017.380000 HKD
     type: "Deposit"
     sourceId: "36599e81-45c6-4acb-bd34-045c3a519f49"
     orderId: "36599e81-45c6-4acb-bd34-045c3a519f49"
@@ -3333,7 +3333,7 @@
     contact: "852 56861588 (MissYung) [99e4343d-5cd5-48c1-9047-635cf2256e7f]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230006"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -370047.290000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -370047.290000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "3e3e12cd-8dd2-409c-8b3f-b4e1dea0e83f"
     orderId: "3e3e12cd-8dd2-409c-8b3f-b4e1dea0e83f"
@@ -3389,7 +3389,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230007"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -22608.550000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -22608.550000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "0dea396d-f846-4638-8f0f-88e6a33f5f67"
     orderId: "0dea396d-f846-4638-8f0f-88e6a33f5f67"
@@ -3445,7 +3445,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230018"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -26420.760000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -26420.760000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "2cc607d4-7e82-4f0a-91a4-49ced4cf3074"
     orderId: "2cc607d4-7e82-4f0a-91a4-49ced4cf3074"
@@ -3501,7 +3501,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230033"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -705902.240000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -705902.240000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "dcea9c5d-8d16-4ccc-8e8b-3dd3ed926acc"
     orderId: "dcea9c5d-8d16-4ccc-8e8b-3dd3ed926acc"
@@ -3557,7 +3557,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230034"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -43513.320000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -43513.320000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "bc7a0372-8fb9-4ee1-ba78-64c945dbd825"
     orderId: "bc7a0372-8fb9-4ee1-ba78-64c945dbd825"
@@ -3612,8 +3612,8 @@
     accountId: "e5db1874-6fb2-456f-ac93-f898511fea5e"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited" "Paid for Sept of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  10.000000 USDT {7.79 HKD}
+2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited" "Paid for Sept of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  10.000000 USDT {7.79 HKD}
     accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
     type: "MJ"
     sourceId: "9564ce2b-34d2-4162-a046-f02c426287bd"
@@ -3622,7 +3622,7 @@
     parentReferenceNo: ""
     description: "Paid for Sept of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #1)"
     dateTs: "1767092058013"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  1168482.160000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  1168482.160000 USDT {7.79 HKD}
     accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
     type: "MJ"
     sourceId: "f218c8b6-8818-402c-af51-ad2c38a19ca7"
@@ -3631,7 +3631,7 @@
     parentReferenceNo: ""
     description: "Paid for Sept of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #2)"
     dateTs: "1767092058013"
-  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1168492.160000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DKKCWallet金料  -1168492.160000 USDT {7.79 HKD}
     accountId: "c90d1285-2d3e-44e3-bf5d-7f2b68e8a97e"
     type: "MJ"
     sourceId: "b5759ba2-6e3e-4fa7-9742-7021ece3f72f"
@@ -3641,8 +3641,8 @@
     description: "Paid for Sept of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #3)"
     dateTs: "1767092058013"
 
-2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited" "Paid for Oct of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  1617435.800000 USDT {7.79 HKD}
+2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited" "Paid for Oct of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  1617435.800000 USDT {7.79 HKD}
     accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
     type: "MJ"
     sourceId: "10c54992-54d9-47b6-8199-2f7b36840860"
@@ -3651,7 +3651,7 @@
     parentReferenceNo: ""
     description: "Paid for Oct of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #1)"
     dateTs: "1767094218013"
-  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1617435.800000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DKKCWallet金料  -1617435.800000 USDT {7.79 HKD}
     accountId: "c90d1285-2d3e-44e3-bf5d-7f2b68e8a97e"
     type: "MJ"
     sourceId: "bdd050ec-1e32-4fd1-aabf-968dbc028cd5"
@@ -3661,8 +3661,8 @@
     description: "Paid for Oct of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #2)"
     dateTs: "1767094218013"
 
-2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited" "Paid for Nov of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  1061609.560000 USDT {7.79 HKD}
+2025-12-30 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited" "Paid for Nov of gold summary :DKK C Wallet金料 to C/A - Milways Gold Limited"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  1061609.560000 USDT {7.79 HKD}
     accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
     type: "MJ"
     sourceId: "1d02e467-c0e3-4bc8-9f84-085671a6d7c1"
@@ -3671,7 +3671,7 @@
     parentReferenceNo: ""
     description: "Paid for Nov of gold summary  :DKK C Wallet金料 to C/A - Milways Gold Limited (Item #1)"
     dateTs: "1767094269933"
-  Assets:CurrentAssets:DigitalAsset:DkkCWallet金料  -1061609.560000 USDT {7.79 HKD}
+  Assets:CurrentAssets:DigitalAsset:DKKCWallet金料  -1061609.560000 USDT {7.79 HKD}
     accountId: "c90d1285-2d3e-44e3-bf5d-7f2b68e8a97e"
     type: "MJ"
     sourceId: "da252332-c9f4-4d5e-a9d7-7d5b376b924f"
@@ -3682,7 +3682,7 @@
     dateTs: "1767094269933"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230008"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -512413.780000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -512413.780000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "c39fbc1b-b925-4666-8aad-d64f34298752"
     orderId: "c39fbc1b-b925-4666-8aad-d64f34298752"
@@ -3738,7 +3738,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230009"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -51613.430000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -51613.430000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "563c232a-3e4b-4f99-bed2-f451c8345118"
     orderId: "563c232a-3e4b-4f99-bed2-f451c8345118"
@@ -3794,7 +3794,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230010"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -269783.140000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -269783.140000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "84ae129a-f77e-4f08-bd7d-510b5e73dcaa"
     orderId: "84ae129a-f77e-4f08-bd7d-510b5e73dcaa"
@@ -3850,7 +3850,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230011"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -126516.770000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -126516.770000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "aa796e56-519c-42d7-9b8d-77533c64db3a"
     orderId: "aa796e56-519c-42d7-9b8d-77533c64db3a"
@@ -3906,7 +3906,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230035"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -51466.910000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -51466.910000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "f548d33e-cb8e-4ee7-a581-1939fd649f64"
     orderId: "f548d33e-cb8e-4ee7-a581-1939fd649f64"
@@ -3962,7 +3962,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230012"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -266243.160000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -266243.160000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "cd771884-e6be-47a7-9e0f-ec2b4e1ef362"
     orderId: "cd771884-e6be-47a7-9e0f-ec2b4e1ef362"
@@ -4018,7 +4018,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230019"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -48473.520000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -48473.520000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "d294c78e-dbeb-4b4e-9a19-c75df4ed3870"
     orderId: "d294c78e-dbeb-4b4e-9a19-c75df4ed3870"
@@ -4074,7 +4074,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230020"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -129935.630000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -129935.630000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "840ce86b-157f-4171-b8e0-d2f7afee1e6e"
     orderId: "840ce86b-157f-4171-b8e0-d2f7afee1e6e"
@@ -4130,7 +4130,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230036"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -45263.400000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -45263.400000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "5213bfbe-5b9e-4f74-8e86-0713c16384f8"
     orderId: "5213bfbe-5b9e-4f74-8e86-0713c16384f8"
@@ -4186,7 +4186,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230037"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38035.130000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -38035.130000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "011da122-8dff-4057-b3b3-51b8953e217a"
     orderId: "011da122-8dff-4057-b3b3-51b8953e217a"
@@ -4242,7 +4242,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230013"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -77690.930000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -77690.930000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "f50f962a-6e2e-4b39-85fb-df24951b869a"
     orderId: "f50f962a-6e2e-4b39-85fb-df24951b869a"
@@ -4298,7 +4298,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230021"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -42345.280000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -42345.280000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "7a39efea-8dfa-4003-b365-dccb49f23ba7"
     orderId: "7a39efea-8dfa-4003-b365-dccb49f23ba7"
@@ -4354,7 +4354,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230014"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -44414.970000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -44414.970000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "f75e831a-91de-4672-b2b7-7d1193ec2c24"
     orderId: "f75e831a-91de-4672-b2b7-7d1193ec2c24"
@@ -4410,7 +4410,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230022"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38566.590000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -38566.590000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "889f2998-5c54-44a0-815b-1ecbc4d4638e"
     orderId: "889f2998-5c54-44a0-815b-1ecbc4d4638e"
@@ -4466,7 +4466,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230038"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -106278.240000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -106278.240000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "5e947b7d-0292-4a0e-8210-8142d38358b9"
     orderId: "5e947b7d-0292-4a0e-8210-8142d38358b9"
@@ -4522,7 +4522,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230023"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -100232.620000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -100232.620000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "ffdbbfa2-7995-4c39-8891-e0bdd575a5fd"
     orderId: "ffdbbfa2-7995-4c39-8891-e0bdd575a5fd"
@@ -4578,7 +4578,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230024"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -51370.140000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -51370.140000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "e2746678-7686-46ca-b33a-ca2d30d7ab72"
     orderId: "e2746678-7686-46ca-b33a-ca2d30d7ab72"
@@ -4634,7 +4634,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230015"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -92651.940000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -92651.940000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "4a22a79c-e8f6-4ad9-b5b5-ee718dc41064"
     orderId: "4a22a79c-e8f6-4ad9-b5b5-ee718dc41064"
@@ -4690,7 +4690,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230025"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -102699.400000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -102699.400000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "d0414653-166c-4afb-b7fc-50ed4d2081c3"
     orderId: "d0414653-166c-4afb-b7fc-50ed4d2081c3"
@@ -4746,7 +4746,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230039"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -100794.780000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -100794.780000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "18ccaa65-67d0-4820-a7a9-ebabf00084e4"
     orderId: "18ccaa65-67d0-4820-a7a9-ebabf00084e4"
@@ -4802,7 +4802,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230026"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38138.100000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -38138.100000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "8301961a-cf5b-4043-8fa3-36a1fa666c66"
     orderId: "8301961a-cf5b-4043-8fa3-36a1fa666c66"
@@ -4858,7 +4858,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230027"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -38064.650000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -38064.650000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "52afe21c-fe11-47d5-a2fb-95bb82b9d8c4"
     orderId: "52afe21c-fe11-47d5-a2fb-95bb82b9d8c4"
@@ -4914,7 +4914,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230028"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -41756.040000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -41756.040000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "1b7242bc-4e86-481b-a9b7-55dcb75cbd76"
     orderId: "1b7242bc-4e86-481b-a9b7-55dcb75cbd76"
@@ -4970,7 +4970,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230016"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -95798.120000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -95798.120000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "d1069cd9-e407-46c8-b808-07dff6382217"
     orderId: "d1069cd9-e407-46c8-b808-07dff6382217"
@@ -5026,7 +5026,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230040"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -7631.090000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -7631.090000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "d76d58ef-7b74-4a24-b000-626e3fd3442d"
     orderId: "d76d58ef-7b74-4a24-b000-626e3fd3442d"
@@ -5082,7 +5082,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230041"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -48629.810000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -48629.810000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "a6b97537-1985-488d-bd2b-6a0631776b98"
     orderId: "a6b97537-1985-488d-bd2b-6a0631776b98"
@@ -5138,7 +5138,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230042"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -90271.000000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -90271.000000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "c1fcb1e2-6a1f-41f3-99ae-d05a34d11f68"
     orderId: "c1fcb1e2-6a1f-41f3-99ae-d05a34d11f68"
@@ -5194,7 +5194,7 @@
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
 2025-12-30 * "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]" "Trade Deposit D#CD20251230029"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-a-MilwaysGoldLimited  -21966.790000 USDT {7.79 HKD}
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -21966.790000 USDT {7.79 HKD}
     type: "Deposit"
     sourceId: "8c3b1524-09a3-42c7-8663-4a852f8bffb7"
     orderId: "8c3b1524-09a3-42c7-8663-4a852f8bffb7"
@@ -5249,7 +5249,7 @@
     accountId: "e5db1874-6fb2-456f-ac93-f898511fea5e"
     contact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
 
-2025-12-31 * "Assets:CurrentAssets:Bank:BocForeignBank" "NTEREST - BOC Foreign 12/2025"
+2025-12-31 * "Assets:CurrentAssets:Bank:BOCForeignBANK" "NTEREST - BOC Foreign 12/2025"
   Income:OtherIncome:Interest-bank   -0.390000 HKD
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
     type: "MJ"
@@ -5259,7 +5259,7 @@
     parentReferenceNo: ""
     description: "NTEREST - BOC Foreign 12/2025 (Item #1)"
     dateTs: "1767144055636"
-  Assets:CurrentAssets:Bank:BocForeignBank  0.050000 USD {7.8 HKD}
+  Assets:CurrentAssets:Bank:BOCForeignBANK  0.050000 USD {7.8 HKD}
     accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
     type: "MJ"
     sourceId: "c2b23063-4e00-463d-9b6c-d519806d34c4"
@@ -5270,7 +5270,7 @@
     dateTs: "1767144055636"
 
 2025-12-31 * "852 56861588 (MissYung) [99e4343d-5cd5-48c1-9047-635cf2256e7f]" "Client Deposit D#CD20251231001"
-  Assets:CurrentAssets:Bank:BocSavingBank  3900.000000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  3900.000000 HKD
     type: "Deposit"
     sourceId: "cc34b501-f3a9-4b4b-9ed3-f13c8b50238e"
     orderId: "cc34b501-f3a9-4b4b-9ed3-f13c8b50238e"
@@ -5332,7 +5332,7 @@
   orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
   dateTs: "1767161528136"
   type: "Bill"
-  Expenses:GeneralExpense:Mpf  7500.000000 HKD
+  Expenses:GeneralExpense:MPF  7500.000000 HKD
     qty: "1"
     description: "12月2025年MPF"
     referenceNo: "1534"
@@ -5394,27 +5394,7 @@
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
 
-2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "RETURN ITEM ( VIDA 12/2025 SALARY )"
-  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
-    accountId: "27c46981-854a-497d-8339-d1784a353f58"
-    type: "MJ"
-    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
-    dateTs: "1767161558848"
-  Assets:CurrentAssets:Bank:BocSavingBank  25650.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
-    dateTs: "1767161558848"
-
-2025-12-31 * "Assets:CurrentAssets:Bank:BocSavingBank" "NTEREST - BOC SAV 12/2025"
+2025-12-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "NTEREST - BOC SAV 12/2025"
   Income:OtherIncome:Interest-bank  -0.120000 HKD
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
     type: "MJ"
@@ -5424,7 +5404,7 @@
     parentReferenceNo: ""
     description: "NTEREST - BOC SAV 12/2025 (Item #1)"
     dateTs: "1767161558848"
-  Assets:CurrentAssets:Bank:BocSavingBank  0.120000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  0.120000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     type: "MJ"
     sourceId: "a209fba7-e082-46ca-8574-41aa44a0e2e3"
@@ -5432,6 +5412,26 @@
     referenceNo: "2352"
     parentReferenceNo: ""
     description: "NTEREST - BOC SAV 12/2025 (Item #2)"
+    dateTs: "1767161558848"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "RETURN ITEM ( VIDA 12/2025 SALARY )"
+  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
+    accountId: "27c46981-854a-497d-8339-d1784a353f58"
+    type: "MJ"
+    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
+    dateTs: "1767161558848"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  25650.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
     dateTs: "1767161558848"
 
 2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
@@ -5471,7 +5471,7 @@
     contact: "852 96010387 (IdyChan) [ecf68dfc-7c33-4e46-917f-ccb0762efb2f]"
 
 2025-12-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251231015"
-  Assets:CurrentAssets:Bank:BocSavingBank  -71252.100000 HKD
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -71252.100000 HKD
     type: "Deposit"
     sourceId: "3aa53001-2520-48e1-beee-6a25da201e52"
     orderId: "3aa53001-2520-48e1-beee-6a25da201e52"
@@ -5527,7 +5527,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2025-12-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Trade Deposit D#CD20251231016"
-  Assets:CurrentAssets:Bank:BocCurrentBank  -7500.000000 HKD
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  -7500.000000 HKD
     type: "Deposit"
     sourceId: "1e05ee81-6721-44d6-9451-b68bf3ce43d2"
     orderId: "1e05ee81-6721-44d6-9451-b68bf3ce43d2"
@@ -5583,7 +5583,7 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2025-12-31 * "852 96010387 (IdyChan) [ecf68dfc-7c33-4e46-917f-ccb0762efb2f]" "Client Deposit D#CD20251231002"
-  Assets:CurrentAssets:Bank:KpayBank  5300.000000 HKD
+  Assets:CurrentAssets:Bank:KPAYBank  5300.000000 HKD
     type: "Deposit"
     sourceId: "c0885ef2-e183-4442-acaf-d7853cf2a6d9"
     orderId: "c0885ef2-e183-4442-acaf-d7853cf2a6d9"
