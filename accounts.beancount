@@ -1,4 +1,7 @@
 ; Account definitions
+
+2020-11-12 open Assets:CurrentAssets "FIFO"
+
 2020-11-12 open Assets:CurrentAssets:AccountReceivable "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:AccountReceivable:AccountReceivable-8525571836985255718369 "FIFO"
@@ -1663,6 +1666,8 @@
 
 2020-11-12 open Assets:CurrentAssets:AccountReceivable:AccountReceivable-龔浩8613058001675 "FIFO"
 
+2020-11-12 open Assets:CurrentAssets:Bank "FIFO"
+
 2020-11-12 open Assets:CurrentAssets:Bank:AEBank "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:Bank:BOCCurrentBANK "FIFO"
@@ -1681,6 +1686,8 @@
 
 2020-11-12 open Assets:CurrentAssets:Bank:KPAYBank "FIFO"
 
+2020-11-12 open Assets:CurrentAssets:Cash "FIFO"
+
 2020-11-12 open Assets:CurrentAssets:Cash:417CashInHand "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:Cash:Cash金料 "FIFO"
@@ -1689,7 +1696,11 @@
 
 2020-11-12 open Assets:CurrentAssets:Cash:PettyCash "FIFO"
 
+2020-11-12 open Assets:CurrentAssets:DigitalAsset "FIFO"
+
 2020-11-12 open Assets:CurrentAssets:DigitalAsset:DKKCWallet金料 "FIFO"
+
+2020-11-12 open Assets:CurrentAssets:E-tradingPlatform "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:E-tradingPlatform:Ctrader2279373INVEST "FIFO"
 
@@ -1707,9 +1718,15 @@
 
 2020-11-12 open Assets:CurrentAssets:E-tradingPlatform:MT57170667INVEST "FIFO"
 
+2020-11-12 open Assets:CurrentAssets:Inventory "FIFO"
+
+2020-11-12 open Assets:CurrentAssets:Inventory:Gold "FIFO"
+
 2020-11-12 open Assets:CurrentAssets:Inventory:Gold:Gold-in-stock "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:Inventory:Gold:Gold-in-transit "FIFO"
+
+2020-11-12 open Assets:CurrentAssets:ShopInventory "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:ShopInventory:Gemstones "FIFO"
 
@@ -1718,6 +1735,8 @@
 2020-11-12 open Assets:CurrentAssets:ShopInventory:Jewelry "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:ShopInventory:NaturalDiamond "FIFO"
+
+2020-11-12 open Assets:CurrentAssets:TradeDeposit "FIFO"
 
 2020-11-12 open Assets:CurrentAssets:TradeDeposit:TradeDeposit-666Milrich8526666 "FIFO"
 
@@ -2999,19 +3018,33 @@
 
 2020-11-12 open Assets:CurrentAssets:TradeDeposit:TradeDeposit-龔浩8613058001675 "FIFO"
 
+2020-11-12 open Assets:Inventory "FIFO"
+
+2020-11-12 open Assets:Inventory:Silver "FIFO"
+
 2020-11-12 open Assets:Inventory:Silver:Silver-in-stock "FIFO"
+
+2020-11-12 open Assets:Non-currentAssets "FIFO"
+
+2020-11-12 open Assets:Non-currentAssets:Equipment "FIFO"
 
 2020-11-12 open Assets:Non-currentAssets:Equipment:AccumulatedDepreciationOfEquipment "FIFO"
 
 2020-11-12 open Assets:Non-currentAssets:Equipment:BuyEquipment "FIFO"
 
+2020-11-12 open Assets:Non-currentAssets:FixturesAndFittings "FIFO"
+
 2020-11-12 open Assets:Non-currentAssets:FixturesAndFittings:AccumulatedDepreciationOfFixturesAndFittings "FIFO"
 
 2020-11-12 open Assets:Non-currentAssets:FixturesAndFittings:FixturesAndFittings "FIFO"
 
+2020-11-12 open Assets:Non-currentAssets:Long-termInvestment "FIFO"
+
 2020-11-12 open Assets:Non-currentAssets:Long-termInvestment:Long-termInvestment "FIFO"
 
 2020-11-12 open Assets:Non-currentAssets:Long-termInvestment:UnquotedInvestments "FIFO"
+
+2020-11-12 open Assets:OtherAssets "FIFO"
 
 2020-11-12 open Assets:OtherAssets:DEPOSIT押金 "FIFO"
 
@@ -3019,6 +3052,9 @@
 
 
 2020-11-12 open Equity:ShareCapital "FIFO"
+
+
+2020-11-12 open Expenses:AdministrativeAndOperatingExpenses "FIFO"
 
 2020-11-12 open Expenses:AdministrativeAndOperatingExpenses:CommissionFee "FIFO"
 
@@ -3028,11 +3064,17 @@
 
 2020-11-12 open Expenses:Cogs:Cogs-gold "FIFO"
 
+2020-11-12 open Expenses:CostOfSales "FIFO"
+
 2020-11-12 open Expenses:CostOfSales:ClosingInventoryBalance "FIFO"
 
 2020-11-12 open Expenses:CostOfSales:OpeningInventoryBalance "FIFO"
 
+2020-11-12 open Expenses:CostOfSales:Purchase "FIFO"
+
 2020-11-12 open Expenses:CostOfSales:Purchase:PurchaseDiscount "FIFO"
+
+2020-11-12 open Expenses:CostOfSales:Purchase:PurchaseItem "FIFO"
 
 2020-11-12 open Expenses:CostOfSales:Purchase:PurchaseItem:Buy18kJewelry "FIFO"
 
@@ -3116,7 +3158,12 @@
 
 2020-11-12 open Expenses:IncomeTaxExpense "FIFO"
 
+
 2020-11-12 open Income:DerivativeFVTPL "FIFO"
+
+2020-11-12 open Income:GeneralRevenue "FIFO"
+
+2020-11-12 open Income:OtherIncome "FIFO"
 
 2020-11-12 open Income:OtherIncome:AssistHedging金 "FIFO"
 
@@ -3132,11 +3179,15 @@
 
 2020-11-12 open Income:OtherIncome:RebateFromLP "FIFO"
 
+2020-11-12 open Income:Sales "FIFO"
+
 2020-11-12 open Income:Sales:Sales-gold "FIFO"
 
 2020-11-12 open Income:Sales:Sales-silver "FIFO"
 
 2020-11-12 open Income:Sales:SalesDiscount "FIFO"
+
+2020-11-12 open Income:Sales:SalesItem "FIFO"
 
 2020-11-12 open Income:Sales:SalesItem:LostOrDamagedGoods "FIFO"
 
@@ -3156,7 +3207,12 @@
 
 2020-11-12 open Income:Sales:SalesReturn "FIFO"
 
+
+2020-11-12 open Liabilities:CurrentAssets "FIFO"
+
 2020-11-12 open Liabilities:CurrentAssets:TradeDeposit "FIFO"
+
+2020-11-12 open Liabilities:CurrentLiabilities "FIFO"
 
 2020-11-12 open Liabilities:CurrentLiabilities:AccountPayable "FIFO"
 
@@ -5861,6 +5917,8 @@
 2020-11-12 open Liabilities:CurrentLiabilities:ClientDeposit:ClientDeposit-龐浩文PONGHOMANDAVID85267692314 "FIFO"
 
 2020-11-12 open Liabilities:CurrentLiabilities:CommissionPayable "FIFO"
+
+2020-11-12 open Liabilities:CurrentLiabilities:CurrentAccount "FIFO"
 
 2020-11-12 open Liabilities:CurrentLiabilities:CurrentAccount:C-A-DirectorDavidKwan "FIFO"
 
