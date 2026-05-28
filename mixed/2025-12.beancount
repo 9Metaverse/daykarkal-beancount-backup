@@ -544,6 +544,26 @@
     accountId: "7532edf9-b1d8-4b83-8ff9-b5961e6a38bc"
     contact: "852 53719444 (Mandy) [e8081506-9154-49a9-8405-a0d46a91dd69]"
 
+2025-12-04 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:K11ShopCash  10000.000000 HKD
+    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
+    type: "MJ"
+    sourceId: "e822ed20-db81-4b45-9b4e-9465cb85bbef"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #1)"
+    dateTs: "1764827788247"
+  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "26a42b13-2983-4e8e-bf21-17765f246144"
+    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
+    referenceNo: "1883"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #2)"
+    dateTs: "1764827788247"
+
 2025-12-04 * "Bill #1510 嚴丹鳳代鑲石 合併 e880a5cf-f5b3-4deb-bb98-52132720a177"
   referenceNo: "1510"
   parentReferenceNo: ""
@@ -669,26 +689,6 @@
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
     type: "Bill"
     sourceId: "e880a5cf-f5b3-4deb-bb98-52132720a177"
-
-2025-12-04 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:K11ShopCash  10000.000000 HKD
-    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
-    type: "MJ"
-    sourceId: "e822ed20-db81-4b45-9b4e-9465cb85bbef"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #1)"
-    dateTs: "1764827788247"
-  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "26a42b13-2983-4e8e-bf21-17765f246144"
-    orderId: "43eaea5d-125d-47c8-b98c-a89a9b0bc97b"
-    referenceNo: "1883"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #2)"
-    dateTs: "1764827788247"
 
 2025-12-04 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 297"
   Assets:CurrentAssets:Bank:KPAYBank  -1969.000000 HKD
@@ -5402,26 +5402,6 @@
     type: "Bill"
     sourceId: "cda2a2d7-7d0b-48e0-8b74-16b1d91d3030"
 
-2025-12-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "RETURN ITEM ( VIDA 12/2025 SALARY )"
-  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
-    accountId: "27c46981-854a-497d-8339-d1784a353f58"
-    type: "MJ"
-    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
-    dateTs: "1767161558848"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  25650.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
-    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
-    referenceNo: "2351"
-    parentReferenceNo: ""
-    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
-    dateTs: "1767161558848"
-
 2025-12-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "NTEREST - BOC SAV 12/2025"
   Income:OtherIncome:Interest-bank  -0.120000 HKD
     accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
@@ -5440,6 +5420,26 @@
     referenceNo: "2352"
     parentReferenceNo: ""
     description: "NTEREST - BOC SAV 12/2025 (Item #2)"
+    dateTs: "1767161558848"
+
+2025-12-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "RETURN ITEM ( VIDA 12/2025 SALARY )"
+  Expenses:GeneralExpense:WagesAndSalaries  -25650.000000 HKD
+    accountId: "27c46981-854a-497d-8339-d1784a353f58"
+    type: "MJ"
+    sourceId: "e4bef035-25ff-44f0-ba46-e7025ab5424b"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #1)"
+    dateTs: "1767161558848"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  25650.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "1dd50347-951b-40f6-8408-9c2dac8af7eb"
+    orderId: "06b54cf4-0382-403d-925a-8d8df8eb7550"
+    referenceNo: "2351"
+    parentReferenceNo: ""
+    description: "RETURN ITEM ( VIDA 12/2025 SALARY  ) (Item #2)"
     dateTs: "1767161558848"
 
 2025-12-31 * "Invoice #1185 Bespoke Necklace/SAP2428 6de15a3e-8c46-45cc-b50d-f5fc6ac5b6c7"
