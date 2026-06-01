@@ -1,5 +1,29 @@
 ; Mixed transactions for 2026-06 (FY 2027)
 
+2026-06-01 * "Invoice #1234 熔金PT R2498戒指托 713e0d0f-f212-48b4-88ff-4b2693c43b58"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -4259.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1234"
+    parentReferenceNo: ""
+    orderId: "713e0d0f-f212-48b4-88ff-4b2693c43b58"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    dateTs: "1780308487201"
+    accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
+    type: "Invoice Item"
+    sourceId: "366991c4-d81f-4a83-9a50-8491fc778a89"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-深圳市嘉寧珏珠寶股份有限公司8613502891558  4259.000000 HKD
+    accountId: "3abb8134-fb16-4287-ac1f-414f07dd6d79"
+    referenceNo: "1234"
+    parentReferenceNo: ""
+    orderId: "713e0d0f-f212-48b4-88ff-4b2693c43b58"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    dateTs: "1780308487201"
+    type: "Invoice"
+    sourceId: "713e0d0f-f212-48b4-88ff-4b2693c43b58"
+    contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+
 2026-06-01 * "852 54239565 (MissNgChristina) [836465c7-cefc-4afe-98cd-dfe814b3127c]" "Client Deposit D#CD20260601031"
   Assets:CurrentAssets:Bank:KPAYBank  2500.000000 HKD
     type: "Deposit"
