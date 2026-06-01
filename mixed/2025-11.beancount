@@ -1379,30 +1379,6 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2025-11-07 * "Invoice #1161 Stock~ BD2501M c3582b83-09ea-48cb-b93a-316385906019"
-  Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1161"
-    parentReferenceNo: ""
-    orderId: "c3582b83-09ea-48cb-b93a-316385906019"
-    orderContact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-    dateTs: "1762494083347"
-    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
-    type: "Invoice Item"
-    sourceId: "dc00cd7f-ab66-4e37-abfa-490f1c5e792d"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-舊-DKK有數WalkIn880802  3800.000000 HKD
-    accountId: "1ef79095-a7b9-4ecb-b052-b215d2c3787c"
-    referenceNo: "1161"
-    parentReferenceNo: ""
-    orderId: "c3582b83-09ea-48cb-b93a-316385906019"
-    orderContact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-    dateTs: "1762494083347"
-    type: "Invoice"
-    sourceId: "c3582b83-09ea-48cb-b93a-316385906019"
-    contact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-
 2025-11-07 * "Invoice #1162 Staff~ Angel 15513918-5c2e-4da2-be43-830a1a4664c8"
   Income:Sales:SalesItem:Sell18kJewelry  -2800.000000 HKD
     category: "Jewelry"
@@ -1426,6 +1402,30 @@
     type: "Invoice"
     sourceId: "15513918-5c2e-4da2-be43-830a1a4664c8"
     contact: "852 62244993 (ANGEL1) [fb9ae1b4-9eca-49c0-91ed-1c1be0e96949]"
+
+2025-11-07 * "Invoice #1161 Stock~ BD2501M c3582b83-09ea-48cb-b93a-316385906019"
+  Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1161"
+    parentReferenceNo: ""
+    orderId: "c3582b83-09ea-48cb-b93a-316385906019"
+    orderContact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+    dateTs: "1762494083347"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "Invoice Item"
+    sourceId: "dc00cd7f-ab66-4e37-abfa-490f1c5e792d"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-舊-DKK有數WalkIn880802  3800.000000 HKD
+    accountId: "1ef79095-a7b9-4ecb-b052-b215d2c3787c"
+    referenceNo: "1161"
+    parentReferenceNo: ""
+    orderId: "c3582b83-09ea-48cb-b93a-316385906019"
+    orderContact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
+    dateTs: "1762494083347"
+    type: "Invoice"
+    sourceId: "c3582b83-09ea-48cb-b93a-316385906019"
+    contact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
 
 2025-11-07 * "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]" "Client Deposit D#CD20251107002"
   Assets:CurrentAssets:Bank:KPAYBank  3800.000000 HKD
@@ -3060,6 +3060,26 @@
     accountId: "cbafbff7-6fc1-4c78-8d50-71eb73215318"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-11-16 * "Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses" "G17 Pretty Cash"
+  Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses  21.000000 HKD
+    accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
+    type: "MJ"
+    sourceId: "ac5ca5dd-3afd-4654-a265-edfe32b9fa08"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    parentReferenceNo: ""
+    description: "G17 Pretty Cash (電池) (Item #1)"
+    dateTs: "1763274075466"
+  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
+    accountId: "ede59747-2a28-409c-be61-1e62547ad935"
+    type: "MJ"
+    sourceId: "92ca6b2e-f7e1-407a-9fd6-bc132c395d5b"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    parentReferenceNo: ""
+    description: "G17 Pretty Cash (電池) (Item #2)"
+    dateTs: "1763274075466"
+
 2025-11-16 * "Invoice #1168 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Income:Sales:SalesItem:Sell18kJewelry  -5800.000000 HKD
     category: "Jewelry"
@@ -3083,26 +3103,6 @@
     type: "Invoice"
     sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
     contact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-
-2025-11-16 * "Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses" "G17 Pretty Cash"
-  Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses  21.000000 HKD
-    accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
-    type: "MJ"
-    sourceId: "ac5ca5dd-3afd-4654-a265-edfe32b9fa08"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    parentReferenceNo: ""
-    description: "G17 Pretty Cash (電池) (Item #1)"
-    dateTs: "1763274075466"
-  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
-    accountId: "ede59747-2a28-409c-be61-1e62547ad935"
-    type: "MJ"
-    sourceId: "92ca6b2e-f7e1-407a-9fd6-bc132c395d5b"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    parentReferenceNo: ""
-    description: "G17 Pretty Cash (電池) (Item #2)"
-    dateTs: "1763274075466"
 
 2025-11-16 * "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]" "Client Deposit D#CD20251116002"
   Assets:CurrentAssets:Cash:K11ShopCash  5800.000000 HKD
@@ -6548,26 +6548,6 @@
     accountId: "7504538f-c4ad-4b04-8599-32c4065a179e"
     contact: "852 65798624 (BonnyWang) [c8fc8421-1d8c-4248-b7f8-ce264f9ece55]"
 
-2025-11-30 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "NTEREST - BOC SAV 11/2025"
-  Income:OtherIncome:Interest-bank  -0.860000 HKD
-    accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
-    type: "MJ"
-    sourceId: "dc0d2f99-dca3-4e9a-8b8a-c69c7ab23c74"
-    orderId: "69e811c7-d170-4981-ba9e-bb87dc1fb76f"
-    referenceNo: "2348"
-    parentReferenceNo: ""
-    description: "NTEREST - BOC SAV 11/2025 (Item #1)"
-    dateTs: "1764483128136"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  0.860000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "5620a915-5496-4fee-8a76-ad65dde4c179"
-    orderId: "69e811c7-d170-4981-ba9e-bb87dc1fb76f"
-    referenceNo: "2348"
-    parentReferenceNo: ""
-    description: "NTEREST - BOC SAV 11/2025 (Item #2)"
-    dateTs: "1764483128136"
-
 2025-11-30 * "Assets:CurrentAssets:Bank:BOCForeignBANK" "NTEREST - BOC Foreign 11/2025"
   Assets:CurrentAssets:Bank:BOCForeignBANK  0.110000 USD {7.8 HKD}
     accountId: "cc702058-26ed-4ed3-94aa-fd7894eca231"
@@ -6586,6 +6566,26 @@
     referenceNo: "2349"
     parentReferenceNo: ""
     description: "NTEREST - BOC Foreign 11/2025 (Item #2)"
+    dateTs: "1764483128136"
+
+2025-11-30 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "NTEREST - BOC SAV 11/2025"
+  Income:OtherIncome:Interest-bank  -0.860000 HKD
+    accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
+    type: "MJ"
+    sourceId: "dc0d2f99-dca3-4e9a-8b8a-c69c7ab23c74"
+    orderId: "69e811c7-d170-4981-ba9e-bb87dc1fb76f"
+    referenceNo: "2348"
+    parentReferenceNo: ""
+    description: "NTEREST - BOC SAV 11/2025 (Item #1)"
+    dateTs: "1764483128136"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  0.860000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "5620a915-5496-4fee-8a76-ad65dde4c179"
+    orderId: "69e811c7-d170-4981-ba9e-bb87dc1fb76f"
+    referenceNo: "2348"
+    parentReferenceNo: ""
+    description: "NTEREST - BOC SAV 11/2025 (Item #2)"
     dateTs: "1764483128136"
 
 2025-11-30 * " Cash金料USD>USDT金料 Nov ID: 3ba4ddce-8ec9-4db9-b14e-3043038c008f"

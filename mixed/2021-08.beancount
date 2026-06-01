@@ -1,5 +1,26 @@
 ; Mixed transactions for 2021-08 (FY 2022)
 
+2021-08-02 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Milrich to Skyhigh"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  50000.000000 HKD
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
+    type: "MJ"
+    sourceId: "aa9759c9-138b-4946-bea5-04f9ed68c5cb"
+    orderId: "f05a823a-d9d9-4b41-9299-a1e10b00929d"
+    referenceNo: "1114"
+    parentReferenceNo: ""
+    description: "(Item #1)"
+    dateTs: "1627833600000"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -50000.000000 HKD
+    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
+    type: "MJ"
+    sourceId: "e41c21d1-ff2d-4846-a596-61c7263085a7"
+    orderId: "f05a823a-d9d9-4b41-9299-a1e10b00929d"
+    referenceNo: "1114"
+    parentReferenceNo: ""
+    description: "(Item #2)"
+    dateTs: "1627833600000"
+
 2021-08-02 * "Bill #104 EX00060 EX00059 29d4e5f3-9f2e-4eb8-a566-6c8c6af585fe"
   referenceNo: "104"
   parentReferenceNo: ""
@@ -39,27 +60,6 @@
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     type: "Bill"
     sourceId: "29d4e5f3-9f2e-4eb8-a566-6c8c6af585fe"
-
-2021-08-02 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd" "Milrich to Skyhigh"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  50000.000000 HKD
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
-    type: "MJ"
-    sourceId: "aa9759c9-138b-4946-bea5-04f9ed68c5cb"
-    orderId: "f05a823a-d9d9-4b41-9299-a1e10b00929d"
-    referenceNo: "1114"
-    parentReferenceNo: ""
-    description: "(Item #1)"
-    dateTs: "1627833600000"
-  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  -50000.000000 HKD
-    accountId: "3b56729f-d144-463f-a65a-42ac3febb526"
-    type: "MJ"
-    sourceId: "e41c21d1-ff2d-4846-a596-61c7263085a7"
-    orderId: "f05a823a-d9d9-4b41-9299-a1e10b00929d"
-    referenceNo: "1114"
-    parentReferenceNo: ""
-    description: "(Item #2)"
-    dateTs: "1627833600000"
 
 2021-08-06 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Elma to Milrich"
   Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd  500000.000000 HKD
