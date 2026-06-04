@@ -533,7 +533,7 @@
     type: "Bill"
     sourceId: "ba9ad9fc-31ea-424d-862c-8dacd4af5cfe"
 
-2026-05-07 * "Bill #1618 DKK K11 使用Wi-Fi蛋一年費用及按金 2952d1d2-4206-47ed-8689-676304c3a512"
+2026-05-07 * "Bill #1618 K11 使用Wi-Fi蛋一年費用及按金 2952d1d2-4206-47ed-8689-676304c3a512"
   referenceNo: "1618"
   parentReferenceNo: ""
   orderId: "2952d1d2-4206-47ed-8689-676304c3a512"
@@ -542,7 +542,7 @@
   type: "Bill"
   Expenses:GeneralExpense:TelephoneAndInternetAndAlarm  1680.000000 HKD
     qty: "1"
-    description: "DKK K11 使用Wi-Fi蛋一年費用"
+    description: "K11 使用Wi-Fi蛋一年費用"
     referenceNo: "1618"
     parentReferenceNo: ""
     orderId: "2952d1d2-4206-47ed-8689-676304c3a512"
@@ -1203,6 +1203,82 @@
     parentReferenceNo: ""
     description: "BANK TRANSFER from BOC -saving to DAVIS VISA (Item #2)"
     dateTs: "1779175198937"
+
+2026-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#1627 P#BP20260519069 dc06f9cd-46d3-482d-8279-b126000c7534"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  13548.390000 HKD
+    type: "Payment"
+    sourceId: "1310db6c-4c97-48ea-ab3b-b72f2e3a0b91"
+    referenceNo: "BP20260519069"
+    parentReferenceNo: 1627
+    orderId: "1310db6c-4c97-48ea-ab3b-b72f2e3a0b91"
+    parentId: "dc06f9cd-46d3-482d-8279-b126000c7534"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "K11 租金 1/6/26-30/6/26"
+    dateTs: "1779180870177"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -13548.390000 HKD
+    type: "Payment"
+    sourceId: "1310db6c-4c97-48ea-ab3b-b72f2e3a0b91"
+    referenceNo: "BP20260519069"
+    parentReferenceNo: 1627
+    orderId: "1310db6c-4c97-48ea-ab3b-b72f2e3a0b91"
+    parentId: "dc06f9cd-46d3-482d-8279-b126000c7534"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "K11 租金 1/6/26-30/6/26"
+    dateTs: "1779180870177"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2026-05-19 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#1627 P#BP20260519070 dc06f9cd-46d3-482d-8279-b126000c7534"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5.000000 HKD
+    type: "Payment"
+    sourceId: "8cc86f42-de04-4794-b721-b9657df211aa"
+    referenceNo: "BP20260519070"
+    parentReferenceNo: 1627
+    orderId: "8cc86f42-de04-4794-b721-b9657df211aa"
+    parentId: "dc06f9cd-46d3-482d-8279-b126000c7534"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1779180900594"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5.000000 HKD
+    type: "Payment"
+    sourceId: "8cc86f42-de04-4794-b721-b9657df211aa"
+    referenceNo: "BP20260519070"
+    parentReferenceNo: 1627
+    orderId: "8cc86f42-de04-4794-b721-b9657df211aa"
+    parentId: "dc06f9cd-46d3-482d-8279-b126000c7534"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1779180900594"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2026-05-19 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 324"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  2954.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "3cb68871-9a3a-49aa-a69d-2513b1cf112d"
+    orderId: "410e0902-6b31-4c9c-9eb7-30cbbbf81186"
+    referenceNo: "7586"
+    parentReferenceNo: ""
+    description: "kpay 324 (Item #1)"
+    dateTs: "1779181005067"
+  Assets:CurrentAssets:Bank:KPAYBank  -2954.000000 HKD
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    type: "MJ"
+    sourceId: "a7a493f4-a271-4648-a875-cdc1243fd9f9"
+    orderId: "410e0902-6b31-4c9c-9eb7-30cbbbf81186"
+    referenceNo: "7586"
+    parentReferenceNo: ""
+    description: "kpay 324 (Item #2)"
+    dateTs: "1779181005067"
 
 2026-05-22 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
   Assets:CurrentAssets:Cash:K11ShopCash  50000.000000 HKD
@@ -2132,6 +2208,34 @@
     description: ""
     dateTs: "1779780117180"
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2026-05-26 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#1628 P#BP20260526078 a274e0bd-c97e-4f58-9c45-0d062e710479"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  5.000000 HKD
+    type: "Payment"
+    sourceId: "be29b7a9-629a-43be-83b2-bf448a577a98"
+    referenceNo: "BP20260526078"
+    parentReferenceNo: 1628
+    orderId: "be29b7a9-629a-43be-83b2-bf448a577a98"
+    parentId: "a274e0bd-c97e-4f58-9c45-0d062e710479"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1779785992709"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -5.000000 HKD
+    type: "Payment"
+    sourceId: "be29b7a9-629a-43be-83b2-bf448a577a98"
+    referenceNo: "BP20260526078"
+    parentReferenceNo: 1628
+    orderId: "be29b7a9-629a-43be-83b2-bf448a577a98"
+    parentId: "a274e0bd-c97e-4f58-9c45-0d062e710479"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1779785992709"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
 2026-05-27 * "Expenses:GeneralExpense:WagesAndSalaries" "K11 入場人手及運輸費（Factory 代付）"
