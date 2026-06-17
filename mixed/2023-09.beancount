@@ -543,26 +543,6 @@
     accountId: "f15e0738-37ee-4562-9363-caa9806b4f14"
     contact: "998 12345815 (利達K.F.WORKSHOP) [c5a8a090-379c-45bb-abfd-2a3d30e7e419]"
 
-2023-09-07 * "Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK" "BANK TRANSFER : from BOC - saving to VISA"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  -670.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "b1997c2b-cc2f-45bd-8122-3ce063ebf05a"
-    orderId: "37d85f01-e0b0-4672-8343-329ed293a83d"
-    referenceNo: "600"
-    parentReferenceNo: ""
-    description: "(Item #1)"
-    dateTs: "1694016000000"
-  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  670.000000 HKD
-    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
-    type: "MJ"
-    sourceId: "abd990f9-d90f-492d-94ad-202f8ade0884"
-    orderId: "37d85f01-e0b0-4672-8343-329ed293a83d"
-    referenceNo: "600"
-    parentReferenceNo: ""
-    description: "(Item #2)"
-    dateTs: "1694016000000"
-
 2023-09-07 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay086"
   Assets:CurrentAssets:Bank:BOCSavingBANK  2864.200000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -581,6 +561,26 @@
     referenceNo: "617"
     parentReferenceNo: ""
     description: "KPAY to BOC Saving (Item #2)"
+    dateTs: "1694016000000"
+
+2023-09-07 * "Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK" "BANK TRANSFER : from BOC - saving to VISA"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -670.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "b1997c2b-cc2f-45bd-8122-3ce063ebf05a"
+    orderId: "37d85f01-e0b0-4672-8343-329ed293a83d"
+    referenceNo: "600"
+    parentReferenceNo: ""
+    description: "(Item #1)"
+    dateTs: "1694016000000"
+  Assets:CurrentAssets:Bank:BOCVISACard-DAVIDBANK  670.000000 HKD
+    accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
+    type: "MJ"
+    sourceId: "abd990f9-d90f-492d-94ad-202f8ade0884"
+    orderId: "37d85f01-e0b0-4672-8343-329ed293a83d"
+    referenceNo: "600"
+    parentReferenceNo: ""
+    description: "(Item #2)"
     dateTs: "1694016000000"
 
 2023-09-07 * "Bill #757 INV#378 鑲石改圈, NO.01557 c08c8d49-b4fa-4519-938c-469bcd555bdb"
@@ -2494,7 +2494,7 @@
   orderContact: "998 12345775 (VED-VENIDIAMLTD) [af11cd82-725d-4855-83d7-d2ed50d9fa56]"
   dateTs: "1694769785605"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond   209720.000000 HKD
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  209720.000000 HKD
     category: "Natural Diamond"
     sku: "Unknown"
     qty: "1"
@@ -4759,7 +4759,7 @@ MICROSOFT*MICROSOFT 365 F"
   orderContact: "998 12345775 (VED-VENIDIAMLTD) [af11cd82-725d-4855-83d7-d2ed50d9fa56]"
   dateTs: "1695630561723"
   type: "Bill"
-  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond   45158.400000 HKD
+  Expenses:CostOfSales:Purchase:PurchaseItem:BuyDiamond  45158.400000 HKD
     category: "Natural Diamond"
     sku: "Unknown"
     qty: "1"
