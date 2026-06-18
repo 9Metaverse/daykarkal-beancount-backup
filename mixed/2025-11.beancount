@@ -22,7 +22,7 @@
 
 2025-11-02 * "Reservation R#GR2025110200001B"
   rsv-ref: "GR2025110200001B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -42345.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -42345.000000 USD {7.8 HKD}
     dateTs: "1762048816299"
     type: "Reservation"
     referenceNo: "GR2025110200001B"
@@ -30,7 +30,7 @@
     sourceId: "65c96ea6-c55c-4684-91e9-630ae03b46b9"
     orderId: "65c96ea6-c55c-4684-91e9-630ae03b46b9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  42345.000000 USD {7.8 HKD}
     dateTs: "1762048816299"
     type: "Reservation"
@@ -44,7 +44,7 @@
 
 2025-11-02 * "Reservation R#GR2025110200002S"
   rsv-ref: "GR2025110200002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  42345.280000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  42345.280000 USDT {7.79 HKD}
     dateTs: "1762048850863"
     type: "Reservation"
     referenceNo: "GR2025110200002S"
@@ -52,7 +52,7 @@
     sourceId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
     orderId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -42345.280000 USDT {7.79 HKD}
     dateTs: "1762048850863"
     type: "Reservation"
@@ -67,7 +67,7 @@
 2025-11-02 * "Reservation Delivery R#GR2025110200002S D#D20251102001"
   rsv-ref: "GR2025110200002S"
   del-ref: "D20251102001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -42345.280000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -42345.280000 USDT {7.79 HKD}
     dateTs: "1762049134072"
     type: "Reservation Delivery"
     referenceNo: "D20251102001"
@@ -75,7 +75,7 @@
     sourceId: "4b023edc-3246-4ab3-ab64-6f2fcf9b37bf"
     orderId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  327.650000 XAU {1006.7747022737675 HKD}
     dateTs: "1762049134072"
     type: "Reservation Delivery"
@@ -84,7 +84,7 @@
     sourceId: "4b023edc-3246-4ab3-ab64-6f2fcf9b37bf"
     orderId: "9a9fba5d-9f8e-439e-ba3d-11d9740fb861"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-02 * "Reservation Delivery R#GR2025110200001B D#D20251102003"
   rsv-ref: "GR2025110200001B"
@@ -97,7 +97,7 @@
     sourceId: "925b5b8a-bc90-4dbb-948c-2c79bbeeb6e0"
     orderId: "65c96ea6-c55c-4684-91e9-630ae03b46b9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762050881407"
     type: "Reservation Delivery"
@@ -222,7 +222,7 @@
 
 2025-11-03 * "Reservation R#GR2025110300003S"
   rsv-ref: "GR2025110300003S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  44414.970000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  44414.970000 USDT {7.79 HKD}
     dateTs: "1762136929048"
     type: "Reservation"
     referenceNo: "GR2025110300003S"
@@ -230,7 +230,7 @@
     sourceId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
     orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -44414.970000 USDT {7.79 HKD}
     dateTs: "1762136929048"
     type: "Reservation"
@@ -244,7 +244,7 @@
 
 2025-11-03 * "Reservation R#GR2025110300004B"
   rsv-ref: "GR2025110300004B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -345682.000000 HKD
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -345682.000000 HKD
     dateTs: "1762136960991"
     type: "Reservation"
     referenceNo: "GR2025110300004B"
@@ -252,7 +252,7 @@
     sourceId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
     orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-FENGYANG楊峯68008505  345682.000000 HKD
     dateTs: "1762136960991"
     type: "Reservation"
@@ -267,7 +267,7 @@
 2025-11-03 * "Gold Order Fixed R#GR2025110300004B O#MFIX20251103005"
   rsv-ref: "GR2025110300004B"
   order-ref: "MFIX20251103005"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  345682.000000 HKD
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  345682.000000 HKD
     dateTs: "1762137227146"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251103005"
@@ -275,7 +275,7 @@
     sourceId: "78599d11-e6c6-4be3-8538-ff993ec1a667"
     orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -345682.000000 HKD
     dateTs: "1762137227146"
     type: "Gold Order Fixed"
@@ -289,7 +289,7 @@
 2025-11-03 * "Reservation Delivery R#GR2025110300003S D#D20251103001"
   rsv-ref: "GR2025110300003S"
   del-ref: "D20251103001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -44414.970000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -44414.970000 USDT {7.79 HKD}
     dateTs: "1762137751555"
     type: "Reservation Delivery"
     referenceNo: "D20251103001"
@@ -297,7 +297,7 @@
     sourceId: "58256eae-f111-48b9-92dd-9dee09b68346"
     orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  344.360000 XAU {1004.7410160878153 HKD}
     dateTs: "1762137751555"
     type: "Reservation Delivery"
@@ -306,7 +306,7 @@
     sourceId: "58256eae-f111-48b9-92dd-9dee09b68346"
     orderId: "09d6c667-5662-4e57-98ac-ef28a4d00556"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-03 * "Reservation Delivery R#GR2025110300004B D#D20251103002"
   rsv-ref: "GR2025110300004B"
@@ -319,7 +319,7 @@
     sourceId: "53508e8e-6c67-4347-aa67-77d032f0d478"
     orderId: "6ca7827e-13fe-48b6-8176-4fde6d3a68e1"
     orderContact: " 68008505 (FENGYANG楊峯) [213f6578-72be-47bc-9bc4-544fbb06f829]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762137766974"
     type: "Reservation Delivery"
@@ -389,7 +389,7 @@
 2025-11-03 * "Gold Order Fixed R#GR2025110200001B O#MFIX20251103009"
   rsv-ref: "GR2025110200001B"
   order-ref: "MFIX20251103009"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  42345.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  42345.000000 USD {7.8 HKD}
     dateTs: "1762140614462"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251103009"
@@ -397,7 +397,7 @@
     sourceId: "8bf15c3a-ded5-4032-a102-f2d4424a04d9"
     orderId: "65c96ea6-c55c-4684-91e9-630ae03b46b9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -330291.000000 HKD
     dateTs: "1762140614462"
     type: "Gold Order Fixed"
@@ -486,7 +486,7 @@
 
 2025-11-04 * "Reservation R#GR2025110400002S"
   rsv-ref: "GR2025110400002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38566.590000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  38566.590000 USDT {7.79 HKD}
     dateTs: "1762227842833"
     type: "Reservation"
     referenceNo: "GR2025110400002S"
@@ -494,7 +494,7 @@
     sourceId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
     orderId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -38566.590000 USDT {7.79 HKD}
     dateTs: "1762227842833"
     type: "Reservation"
@@ -508,7 +508,7 @@
 
 2025-11-04 * "Reservation R#GR2025110400003B"
   rsv-ref: "GR2025110400003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38567.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -38567.000000 USD {7.8 HKD}
     dateTs: "1762227908283"
     type: "Reservation"
     referenceNo: "GR2025110400003B"
@@ -516,7 +516,7 @@
     sourceId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  38567.000000 USD {7.8 HKD}
     dateTs: "1762227908283"
     type: "Reservation"
@@ -531,7 +531,7 @@
 2025-11-04 * "Gold Order Fixed R#GR2025110400003B O#MFIX20251104003"
   rsv-ref: "GR2025110400003B"
   order-ref: "MFIX20251104003"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38567.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  38567.000000 USD {7.8 HKD}
     dateTs: "1762227986669"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251104003"
@@ -539,7 +539,7 @@
     sourceId: "1e59f345-4826-4ca6-a2cf-2cffa7180387"
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -300822.600000 HKD
     dateTs: "1762227986669"
     type: "Gold Order Fixed"
@@ -553,7 +553,7 @@
 2025-11-04 * "Reservation Delivery R#GR2025110400002S D#D20251104002"
   rsv-ref: "GR2025110400002S"
   del-ref: "D20251104002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38566.590000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -38566.590000 USDT {7.79 HKD}
     dateTs: "1762227995634"
     type: "Reservation Delivery"
     referenceNo: "D20251104002"
@@ -561,7 +561,7 @@
     sourceId: "028db2a1-c2a6-4b11-ae4f-22439696f1f2"
     orderId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  300.430000 XAU {1000.0124358419597 HKD}
     dateTs: "1762227995634"
     type: "Reservation Delivery"
@@ -570,7 +570,7 @@
     sourceId: "028db2a1-c2a6-4b11-ae4f-22439696f1f2"
     orderId: "40d89dc1-e4dd-49d4-a0c0-70f8852d2f59"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-04 * "Reservation Delivery R#GR2025110400003B D#D20251104003"
   rsv-ref: "GR2025110400003B"
@@ -583,7 +583,7 @@
     sourceId: "f0c12532-f932-4605-b224-7fbdad0b94c4"
     orderId: "2405b39d-ecae-4427-b65a-e3ad338baa65"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762228005406"
     type: "Reservation Delivery"
@@ -808,7 +808,7 @@
 
 2025-11-06 * "Reservation R#GR2025110600011S"
   rsv-ref: "GR2025110600011S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  106278.240000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  106278.240000 USDT {7.79 HKD}
     dateTs: "1762394403710"
     type: "Reservation"
     referenceNo: "GR2025110600011S"
@@ -816,7 +816,7 @@
     sourceId: "ad48ac47-9d1a-465c-be80-4159367e4687"
     orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -106278.240000 USDT {7.79 HKD}
     dateTs: "1762394403710"
     type: "Reservation"
@@ -1041,7 +1041,7 @@
 2025-11-06 * "Gold Order Fixed R#GR2025110600012B O#MFIX20251106022"
   rsv-ref: "GR2025110600012B"
   order-ref: "MFIX20251106022"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  106278.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  106278.000000 USD {7.8 HKD}
     dateTs: "1762399560000"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251106022"
@@ -1049,7 +1049,7 @@
     sourceId: "c0e1ebad-e187-4824-9a2c-f2ce25a8d276"
     orderId: "0286ac16-7383-45ee-9c6c-a3de3a60d8d4"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -828968.400000 HKD
     dateTs: "1762399560000"
     type: "Gold Order Fixed"
@@ -1062,7 +1062,7 @@
 
 2025-11-06 * "Reservation R#GR2025110600012B"
   rsv-ref: "GR2025110600012B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -106278.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -106278.000000 USD {7.8 HKD}
     dateTs: "1762399560154"
     type: "Reservation"
     referenceNo: "GR2025110600012B"
@@ -1070,7 +1070,7 @@
     sourceId: "0286ac16-7383-45ee-9c6c-a3de3a60d8d4"
     orderId: "0286ac16-7383-45ee-9c6c-a3de3a60d8d4"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  106278.000000 USD {7.8 HKD}
     dateTs: "1762399560154"
     type: "Reservation"
@@ -1282,7 +1282,7 @@
 2025-11-06 * "Reservation Delivery R#GR2025110600011S D#D20251106003"
   rsv-ref: "GR2025110600011S"
   del-ref: "D20251106003"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -106278.240000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -106278.240000 USDT {7.79 HKD}
     dateTs: "1762410234939"
     type: "Reservation Delivery"
     referenceNo: "D20251106003"
@@ -1290,7 +1290,7 @@
     sourceId: "362f9d5f-449c-4919-974b-af66a12768ef"
     orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  824.780000 XAU {1003.7919076602248 HKD}
     dateTs: "1762410234939"
     type: "Reservation Delivery"
@@ -1299,7 +1299,7 @@
     sourceId: "362f9d5f-449c-4919-974b-af66a12768ef"
     orderId: "ad48ac47-9d1a-465c-be80-4159367e4687"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-06 * "Reservation Delivery R#GR2025110600012B D#D20251106004"
   rsv-ref: "GR2025110600012B"
@@ -1312,7 +1312,7 @@
     sourceId: "5634c021-520d-4ba3-a4f6-e4a559468a7e"
     orderId: "0286ac16-7383-45ee-9c6c-a3de3a60d8d4"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762414145271"
     type: "Reservation Delivery"
@@ -1513,7 +1513,7 @@
 
 2025-11-08 * "Reservation R#GR2025110800002S"
   rsv-ref: "GR2025110800002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  100232.620000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  100232.620000 USDT {7.79 HKD}
     dateTs: "1762570080233"
     type: "Reservation"
     referenceNo: "GR2025110800002S"
@@ -1521,7 +1521,7 @@
     sourceId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
     orderId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -100232.620000 USDT {7.79 HKD}
     dateTs: "1762570080233"
     type: "Reservation"
@@ -1536,7 +1536,7 @@
 2025-11-08 * "Reservation Delivery R#GR2025110800002S D#D20251108002"
   rsv-ref: "GR2025110800002S"
   del-ref: "D20251108002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -100232.620000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -100232.620000 USDT {7.79 HKD}
     dateTs: "1762570126489"
     type: "Reservation Delivery"
     referenceNo: "D20251108002"
@@ -1544,7 +1544,7 @@
     sourceId: "51a55c63-8a54-40d9-b227-a8234378c034"
     orderId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  750.620000 XAU {1040.2228954730756 HKD}
     dateTs: "1762570126489"
     type: "Reservation Delivery"
@@ -1553,11 +1553,11 @@
     sourceId: "51a55c63-8a54-40d9-b227-a8234378c034"
     orderId: "ccb0d749-9ec4-40fa-b75c-349d9cfab608"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-08 * "Reservation R#GR2025110800003B"
   rsv-ref: "GR2025110800003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -100233.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -100233.000000 USD {7.8 HKD}
     dateTs: "1762570134830"
     type: "Reservation"
     referenceNo: "GR2025110800003B"
@@ -1565,7 +1565,7 @@
     sourceId: "6be36256-aea6-4631-b440-0418b11d9825"
     orderId: "6be36256-aea6-4631-b440-0418b11d9825"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  100233.000000 USD {7.8 HKD}
     dateTs: "1762570134830"
     type: "Reservation"
@@ -1588,7 +1588,7 @@
     sourceId: "b0ad28c1-e9b7-4d39-870c-d666611403b3"
     orderId: "6be36256-aea6-4631-b440-0418b11d9825"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762570210536"
     type: "Reservation Delivery"
@@ -2046,7 +2046,7 @@
 2025-11-10 * "Gold Order Fixed R#GR2025112400004B O#MFIX20251124011"
   rsv-ref: "GR2025112400004B"
   order-ref: "MFIX20251124011"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  59217.000000 HKD
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  59217.000000 HKD
     dateTs: "1762762752545"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251124011"
@@ -2054,7 +2054,7 @@
     sourceId: "2bd327fc-a151-4dce-8e10-61fc15fa1c57"
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     orderContact: "852 64128618 (WINGHONGLEUNG梁永康) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -59217.000000 HKD
     dateTs: "1762762752545"
     type: "Gold Order Fixed"
@@ -2068,7 +2068,7 @@
 2025-11-11 * "Gold Order Fixed R#GR2025110800003B O#MFIX20251111004"
   rsv-ref: "GR2025110800003B"
   order-ref: "MFIX20251111004"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  100233.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  100233.000000 USD {7.8 HKD}
     dateTs: "1762829382006"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251111004"
@@ -2076,7 +2076,7 @@
     sourceId: "af9419a9-8ea5-4b83-bf5a-294abb766e01"
     orderId: "6be36256-aea6-4631-b440-0418b11d9825"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -781817.400000 HKD
     dateTs: "1762829382006"
     type: "Gold Order Fixed"
@@ -2089,7 +2089,7 @@
 
 2025-11-11 * "Reservation R#GR2025111100002S"
   rsv-ref: "GR2025111100002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  51370.140000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  51370.140000 USDT {7.79 HKD}
     dateTs: "1762829408782"
     type: "Reservation"
     referenceNo: "GR2025111100002S"
@@ -2097,7 +2097,7 @@
     sourceId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
     orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -51370.140000 USDT {7.79 HKD}
     dateTs: "1762829408782"
     type: "Reservation"
@@ -2111,7 +2111,7 @@
 
 2025-11-11 * "Reservation R#GR2025111100003B"
   rsv-ref: "GR2025111100003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -51370.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -51370.000000 USD {7.8 HKD}
     dateTs: "1762829464209"
     type: "Reservation"
     referenceNo: "GR2025111100003B"
@@ -2119,7 +2119,7 @@
     sourceId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
     orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  51370.000000 USD {7.8 HKD}
     dateTs: "1762829464209"
     type: "Reservation"
@@ -2134,7 +2134,7 @@
 2025-11-11 * "Gold Order Fixed R#GR2025111100003B O#MFIX20251111006"
   rsv-ref: "GR2025111100003B"
   order-ref: "MFIX20251111006"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  51370.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  51370.000000 USD {7.8 HKD}
     dateTs: "1762829464209"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251111006"
@@ -2142,7 +2142,7 @@
     sourceId: "be3fd16f-2d27-467a-8ba3-9f1eca314a16"
     orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -400686.000000 HKD
     dateTs: "1762829464209"
     type: "Gold Order Fixed"
@@ -2156,7 +2156,7 @@
 2025-11-11 * "Reservation Delivery R#GR2025111100002S D#D20251111002"
   rsv-ref: "GR2025111100002S"
   del-ref: "D20251111002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -51370.140000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -51370.140000 USDT {7.79 HKD}
     dateTs: "1762829514108"
     type: "Reservation Delivery"
     referenceNo: "D20251111002"
@@ -2164,7 +2164,7 @@
     sourceId: "7687672e-a966-4cce-b446-7d042eca0a3f"
     orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  385.220000 XAU {1038.817793987851 HKD}
     dateTs: "1762829514108"
     type: "Reservation Delivery"
@@ -2173,7 +2173,7 @@
     sourceId: "7687672e-a966-4cce-b446-7d042eca0a3f"
     orderId: "13ea0b7d-d9e4-4591-9e63-2f3fe2cf9a2b"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-11 * "Reservation Delivery R#GR2025111100003B D#D20251111003"
   rsv-ref: "GR2025111100003B"
@@ -2186,7 +2186,7 @@
     sourceId: "2ee17fe9-ba30-497a-8515-d11c91abd5ee"
     orderId: "a6900a84-6a92-4be4-98f9-efb46f4b9048"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1762829523071"
     type: "Reservation Delivery"
@@ -2515,7 +2515,7 @@
 
 2025-11-13 * "Reservation R#GR2025111300002S"
   rsv-ref: "GR2025111300002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  92651.940000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  92651.940000 USDT {7.79 HKD}
     dateTs: "1763003798383"
     type: "Reservation"
     referenceNo: "GR2025111300002S"
@@ -2523,7 +2523,7 @@
     sourceId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
     orderId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -92651.940000 USDT {7.79 HKD}
     dateTs: "1763003798383"
     type: "Reservation"
@@ -2537,7 +2537,7 @@
 
 2025-11-13 * "Reservation R#GR2025111300003B"
   rsv-ref: "GR2025111300003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -92652.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -92652.000000 USD {7.8 HKD}
     dateTs: "1763003823183"
     type: "Reservation"
     referenceNo: "GR2025111300003B"
@@ -2545,7 +2545,7 @@
     sourceId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
     orderId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  92652.000000 USD {7.8 HKD}
     dateTs: "1763003823183"
     type: "Reservation"
@@ -2560,7 +2560,7 @@
 2025-11-13 * "Reservation Delivery R#GR2025111300002S D#D20251113002"
   rsv-ref: "GR2025111300002S"
   del-ref: "D20251113002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -92651.940000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -92651.940000 USDT {7.79 HKD}
     dateTs: "1763004214894"
     type: "Reservation Delivery"
     referenceNo: "D20251113002"
@@ -2568,7 +2568,7 @@
     sourceId: "ba885440-07fb-48f1-829d-ed0a9d63a6d4"
     orderId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  683.280000 XAU {1056.3145600632247 HKD}
     dateTs: "1763004214894"
     type: "Reservation Delivery"
@@ -2577,7 +2577,7 @@
     sourceId: "ba885440-07fb-48f1-829d-ed0a9d63a6d4"
     orderId: "46fbe4fc-3f80-4cb3-b25a-3a0d09f02277"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-13 * "Reservation Delivery R#GR2025111300003B D#D20251113003"
   rsv-ref: "GR2025111300003B"
@@ -2590,7 +2590,7 @@
     sourceId: "722b7057-863e-4598-a2ce-e2a6122b8e8f"
     orderId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763004222952"
     type: "Reservation Delivery"
@@ -2716,7 +2716,7 @@
 2025-11-13 * "Gold Order Fixed R#GR2025111300003B O#MFIX20251113003"
   rsv-ref: "GR2025111300003B"
   order-ref: "MFIX20251113003"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  92652.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  92652.000000 USD {7.8 HKD}
     dateTs: "1763006274464"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251113003"
@@ -2724,7 +2724,7 @@
     sourceId: "b82f9047-edfc-4d23-b9a6-7f681a5d1695"
     orderId: "a3f811ce-1e38-47fa-bc09-5f7744eebb14"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -722685.600000 HKD
     dateTs: "1763006274464"
     type: "Gold Order Fixed"
@@ -2862,7 +2862,7 @@
 
 2025-11-16 * "Reservation R#GR2025111600001B"
   rsv-ref: "GR2025111600001B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -102699.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -102699.000000 USD {7.8 HKD}
     dateTs: "1763254845693"
     type: "Reservation"
     referenceNo: "GR2025111600001B"
@@ -2870,7 +2870,7 @@
     sourceId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  102699.000000 USD {7.8 HKD}
     dateTs: "1763254845693"
     type: "Reservation"
@@ -2884,7 +2884,7 @@
 
 2025-11-16 * "Reservation R#GR2025111600006S"
   rsv-ref: "GR2025111600006S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  102699.400000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  102699.400000 USDT {7.79 HKD}
     dateTs: "1763258436769"
     type: "Reservation"
     referenceNo: "GR2025111600006S"
@@ -2892,7 +2892,7 @@
     sourceId: "e5409ef2-a470-4fed-b936-62078a057ccc"
     orderId: "e5409ef2-a470-4fed-b936-62078a057ccc"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -102699.400000 USDT {7.79 HKD}
     dateTs: "1763258436769"
     type: "Reservation"
@@ -2907,7 +2907,7 @@
 2025-11-16 * "Reservation Delivery R#GR2025111600006S D#D20251116003"
   rsv-ref: "GR2025111600006S"
   del-ref: "D20251116003"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -102699.400000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -102699.400000 USDT {7.79 HKD}
     dateTs: "1763259011494"
     type: "Reservation Delivery"
     referenceNo: "D20251116003"
@@ -2915,7 +2915,7 @@
     sourceId: "5a133cd0-271c-42ad-83a9-ca7dd63963ae"
     orderId: "e5409ef2-a470-4fed-b936-62078a057ccc"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  778.220000 XAU {1028.023343013544 HKD}
     dateTs: "1763259011494"
     type: "Reservation Delivery"
@@ -2924,7 +2924,7 @@
     sourceId: "5a133cd0-271c-42ad-83a9-ca7dd63963ae"
     orderId: "e5409ef2-a470-4fed-b936-62078a057ccc"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-16 * "Reservation Delivery R#GR2025111600001B D#D20251116001"
   rsv-ref: "GR2025111600001B"
@@ -2937,7 +2937,7 @@
     sourceId: "e470bf24-3328-4337-bd1b-ab3714fc680f"
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763259329261"
     type: "Reservation Delivery"
@@ -3163,7 +3163,7 @@
 2025-11-17 * "Gold Order Fixed R#GR2025111600001B O#MFIX20251117001"
   rsv-ref: "GR2025111600001B"
   order-ref: "MFIX20251117001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  102699.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  102699.000000 USD {7.8 HKD}
     dateTs: "1763351550663"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251117001"
@@ -3171,7 +3171,7 @@
     sourceId: "baef7fe6-465c-406a-86c4-b2e96ad42150"
     orderId: "02e3b59e-f30e-44bd-9a31-e4ec97e4ddcd"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -801052.200000 HKD
     dateTs: "1763351550663"
     type: "Gold Order Fixed"
@@ -3335,7 +3335,7 @@
 
 2025-11-18 * "Reservation R#GR2025111800002S"
   rsv-ref: "GR2025111800002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  100794.780000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  100794.780000 USDT {7.79 HKD}
     dateTs: "1763434841747"
     type: "Reservation"
     referenceNo: "GR2025111800002S"
@@ -3343,7 +3343,7 @@
     sourceId: "476babd2-8857-4ff2-850e-d07698c11e94"
     orderId: "476babd2-8857-4ff2-850e-d07698c11e94"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -100794.780000 USDT {7.79 HKD}
     dateTs: "1763434841747"
     type: "Reservation"
@@ -3358,7 +3358,7 @@
 2025-11-18 * "Reservation Delivery R#GR2025111800002S D#D20251118004"
   rsv-ref: "GR2025111800002S"
   del-ref: "D20251118004"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -100794.780000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -100794.780000 USDT {7.79 HKD}
     dateTs: "1763435717465"
     type: "Reservation Delivery"
     referenceNo: "D20251118004"
@@ -3366,7 +3366,7 @@
     sourceId: "45501bf3-074c-4e1f-8f5b-a5e9ed656d4c"
     orderId: "476babd2-8857-4ff2-850e-d07698c11e94"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  778.260000 XAU {1008.906196129828 HKD}
     dateTs: "1763435717465"
     type: "Reservation Delivery"
@@ -3375,11 +3375,11 @@
     sourceId: "45501bf3-074c-4e1f-8f5b-a5e9ed656d4c"
     orderId: "476babd2-8857-4ff2-850e-d07698c11e94"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-18 * "Reservation R#GR2025111800003B"
   rsv-ref: "GR2025111800003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -100795.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -100795.000000 USD {7.8 HKD}
     dateTs: "1763436283043"
     type: "Reservation"
     referenceNo: "GR2025111800003B"
@@ -3387,7 +3387,7 @@
     sourceId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
     orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  100795.000000 USD {7.8 HKD}
     dateTs: "1763436283043"
     type: "Reservation"
@@ -3402,7 +3402,7 @@
 2025-11-18 * "Gold Order Fixed R#GR2025111800003B O#MFIX20251118002"
   rsv-ref: "GR2025111800003B"
   order-ref: "MFIX20251118002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  100795.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  100795.000000 USD {7.8 HKD}
     dateTs: "1763436283043"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251118002"
@@ -3410,7 +3410,7 @@
     sourceId: "deb49123-5255-40b2-b7c6-2c8eafa223da"
     orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -786201.000000 HKD
     dateTs: "1763436283043"
     type: "Gold Order Fixed"
@@ -3432,7 +3432,7 @@
     sourceId: "64729954-c25f-466c-aaa7-dd87e6247991"
     orderId: "0339ac96-91fc-450d-862d-2816c0f4c02b"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763436520754"
     type: "Reservation Delivery"
@@ -3637,7 +3637,7 @@
 
 2025-11-19 * "Reservation R#GR2025111900001S"
   rsv-ref: "GR2025111900001S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38138.100000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  38138.100000 USDT {7.79 HKD}
     dateTs: "1763521520500"
     type: "Reservation"
     referenceNo: "GR2025111900001S"
@@ -3645,7 +3645,7 @@
     sourceId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
     orderId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -38138.100000 USDT {7.79 HKD}
     dateTs: "1763521520500"
     type: "Reservation"
@@ -3659,7 +3659,7 @@
 
 2025-11-19 * "Reservation R#GR2025111900002B"
   rsv-ref: "GR2025111900002B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38138.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -38138.000000 USD {7.8 HKD}
     dateTs: "1763521571363"
     type: "Reservation"
     referenceNo: "GR2025111900002B"
@@ -3667,7 +3667,7 @@
     sourceId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
     orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  38138.000000 USD {7.8 HKD}
     dateTs: "1763521571363"
     type: "Reservation"
@@ -3682,7 +3682,7 @@
 2025-11-19 * "Reservation Delivery R#GR2025111900001S D#D20251119004"
   rsv-ref: "GR2025111900001S"
   del-ref: "D20251119004"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38138.100000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -38138.100000 USDT {7.79 HKD}
     dateTs: "1763521612048"
     type: "Reservation Delivery"
     referenceNo: "D20251119004"
@@ -3690,7 +3690,7 @@
     sourceId: "699763c4-86d3-4926-928e-24cac68ce12a"
     orderId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  290.600000 XAU {1022.3530591878871 HKD}
     dateTs: "1763521612048"
     type: "Reservation Delivery"
@@ -3699,7 +3699,7 @@
     sourceId: "699763c4-86d3-4926-928e-24cac68ce12a"
     orderId: "19a3e0cf-b6b0-459a-8698-8e35439c5cd1"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-19 * "Reservation Delivery R#GR2025111900002B D#D20251119005"
   rsv-ref: "GR2025111900002B"
@@ -3712,7 +3712,7 @@
     sourceId: "9df0a60d-250f-4faf-8fec-19e48ebacf5b"
     orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763521622692"
     type: "Reservation Delivery"
@@ -3782,7 +3782,7 @@
 2025-11-19 * "Gold Order Fixed R#GR2025111900002B O#MFIX20251119014"
   rsv-ref: "GR2025111900002B"
   order-ref: "MFIX20251119014"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38138.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  38138.000000 USD {7.8 HKD}
     dateTs: "1763522550385"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251119014"
@@ -3790,7 +3790,7 @@
     sourceId: "d26e1e7e-faeb-4ca8-8cb9-cd50d73f7e68"
     orderId: "0ebccabb-0288-45ce-8ff6-e371c335fa26"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -297476.400000 HKD
     dateTs: "1763522550385"
     type: "Gold Order Fixed"
@@ -3803,7 +3803,7 @@
 
 2025-11-20 * "Reservation R#GR2025112000002S"
   rsv-ref: "GR2025112000002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38064.650000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  38064.650000 USDT {7.79 HKD}
     dateTs: "1763605533897"
     type: "Reservation"
     referenceNo: "GR2025112000002S"
@@ -3811,7 +3811,7 @@
     sourceId: "10d7b486-f8c5-408b-a8de-b04136b15100"
     orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -38064.650000 USDT {7.79 HKD}
     dateTs: "1763605533897"
     type: "Reservation"
@@ -3825,7 +3825,7 @@
 
 2025-11-20 * "Reservation R#GR2025112000003B"
   rsv-ref: "GR2025112000003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38064.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -38064.000000 USD {7.8 HKD}
     dateTs: "1763607620679"
     type: "Reservation"
     referenceNo: "GR2025112000003B"
@@ -3833,7 +3833,7 @@
     sourceId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
     orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  38064.000000 USD {7.8 HKD}
     dateTs: "1763607620679"
     type: "Reservation"
@@ -3848,7 +3848,7 @@
 2025-11-20 * "Gold Order Fixed R#GR2025112000003B O#MFIX20251120003"
   rsv-ref: "GR2025112000003B"
   order-ref: "MFIX20251120003"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  38064.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  38064.000000 USD {7.8 HKD}
     dateTs: "1763607620679"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251120003"
@@ -3856,7 +3856,7 @@
     sourceId: "045e5347-3f15-477e-a6be-62c70714cd7d"
     orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -296899.200000 HKD
     dateTs: "1763607620679"
     type: "Gold Order Fixed"
@@ -3870,7 +3870,7 @@
 2025-11-20 * "Reservation Delivery R#GR2025112000002S D#D20251120002"
   rsv-ref: "GR2025112000002S"
   del-ref: "D20251120002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -38064.650000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -38064.650000 USDT {7.79 HKD}
     dateTs: "1763607643326"
     type: "Reservation Delivery"
     referenceNo: "D20251120002"
@@ -3878,7 +3878,7 @@
     sourceId: "b6f233b9-6e42-4492-8840-da4223d85372"
     orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  290.530000 XAU {1020.6299642033525 HKD}
     dateTs: "1763607643326"
     type: "Reservation Delivery"
@@ -3887,7 +3887,7 @@
     sourceId: "b6f233b9-6e42-4492-8840-da4223d85372"
     orderId: "10d7b486-f8c5-408b-a8de-b04136b15100"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-20 * "Reservation Delivery R#GR2025112000003B D#D20251120003"
   rsv-ref: "GR2025112000003B"
@@ -3900,7 +3900,7 @@
     sourceId: "d6be3a13-b445-4454-b5b2-b7186e38c2e9"
     orderId: "6f1e1714-2732-451c-bd3c-4993694fbba9"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763607658623"
     type: "Reservation Delivery"
@@ -4121,7 +4121,7 @@
 
 2025-11-22 * "Reservation R#GR2025112200002S"
   rsv-ref: "GR2025112200002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  41756.040000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  41756.040000 USDT {7.79 HKD}
     dateTs: "1763779343957"
     type: "Reservation"
     referenceNo: "GR2025112200002S"
@@ -4129,7 +4129,7 @@
     sourceId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
     orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -41756.040000 USDT {7.79 HKD}
     dateTs: "1763779343957"
     type: "Reservation"
@@ -4143,7 +4143,7 @@
 
 2025-11-22 * "Reservation R#GR2025112200003B"
   rsv-ref: "GR2025112200003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -41756.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -41756.000000 USD {7.8 HKD}
     dateTs: "1763779367078"
     type: "Reservation"
     referenceNo: "GR2025112200003B"
@@ -4151,7 +4151,7 @@
     sourceId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
     orderId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  41756.000000 USD {7.8 HKD}
     dateTs: "1763779367078"
     type: "Reservation"
@@ -4222,7 +4222,7 @@
 2025-11-22 * "Reservation Delivery R#GR2025112200002S D#D20251122002"
   rsv-ref: "GR2025112200002S"
   del-ref: "D20251122002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -41756.040000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -41756.040000 USDT {7.79 HKD}
     dateTs: "1763779448618"
     type: "Reservation Delivery"
     referenceNo: "D20251122002"
@@ -4230,7 +4230,7 @@
     sourceId: "a68fbcf1-a7d7-4078-9471-208b3483ee00"
     orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  319.890000 XAU {1016.8481402982275 HKD}
     dateTs: "1763779448618"
     type: "Reservation Delivery"
@@ -4239,7 +4239,7 @@
     sourceId: "a68fbcf1-a7d7-4078-9471-208b3483ee00"
     orderId: "c6c54f54-4f50-40d0-bf89-5b1714a2b6aa"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-22 * "Reservation Delivery R#GR2025112200003B D#D20251122003"
   rsv-ref: "GR2025112200003B"
@@ -4252,7 +4252,7 @@
     sourceId: "262ebebc-0712-4fcd-a90a-efe3eac43257"
     orderId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763779457655"
     type: "Reservation Delivery"
@@ -4401,7 +4401,7 @@
 
 2025-11-24 * "Reservation R#GR2025112400004B"
   rsv-ref: "GR2025112400004B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -59217.000000 HKD
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -59217.000000 HKD
     dateTs: "1763951572121"
     type: "Reservation"
     referenceNo: "GR2025112400004B"
@@ -4409,7 +4409,7 @@
     sourceId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     orderContact: "852 64128618 (WINGHONGLEUNG梁永康) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-WINGHONGLeung梁永康85264128618  59217.000000 HKD
     dateTs: "1763951572121"
     type: "Reservation"
@@ -4423,7 +4423,7 @@
 
 2025-11-24 * "Reservation R#GR2025112400002S"
   rsv-ref: "GR2025112400002S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  95798.120000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  95798.120000 USDT {7.79 HKD}
     dateTs: "1763953473198"
     type: "Reservation"
     referenceNo: "GR2025112400002S"
@@ -4431,7 +4431,7 @@
     sourceId: "da11983d-efad-445c-8bb2-0f734d035175"
     orderId: "da11983d-efad-445c-8bb2-0f734d035175"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -95798.120000 USDT {7.79 HKD}
     dateTs: "1763953473198"
     type: "Reservation"
@@ -4445,7 +4445,7 @@
 
 2025-11-24 * "Reservation R#GR2025112400003B"
   rsv-ref: "GR2025112400003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -95798.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -95798.000000 USD {7.8 HKD}
     dateTs: "1763953491633"
     type: "Reservation"
     referenceNo: "GR2025112400003B"
@@ -4453,7 +4453,7 @@
     sourceId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
     orderId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  95798.000000 USD {7.8 HKD}
     dateTs: "1763953491633"
     type: "Reservation"
@@ -4468,7 +4468,7 @@
 2025-11-24 * "Reservation Delivery R#GR2025112400002S D#D20251124002"
   rsv-ref: "GR2025112400002S"
   del-ref: "D20251124002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -95798.120000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -95798.120000 USDT {7.79 HKD}
     dateTs: "1763953513582"
     type: "Reservation Delivery"
     referenceNo: "D20251124002"
@@ -4476,7 +4476,7 @@
     sourceId: "397729f5-5b30-4414-9ac3-09e6e0234b81"
     orderId: "da11983d-efad-445c-8bb2-0f734d035175"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  733.720000 XAU {1017.101012375293 HKD}
     dateTs: "1763953513582"
     type: "Reservation Delivery"
@@ -4485,7 +4485,7 @@
     sourceId: "397729f5-5b30-4414-9ac3-09e6e0234b81"
     orderId: "da11983d-efad-445c-8bb2-0f734d035175"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-24 * "Reservation Delivery R#GR2025112400003B D#D20251124003"
   rsv-ref: "GR2025112400003B"
@@ -4498,7 +4498,7 @@
     sourceId: "98a042e4-00df-4f89-9057-a5da0bcebebd"
     orderId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763953585116"
     type: "Reservation Delivery"
@@ -4512,7 +4512,7 @@
 2025-11-24 * "Gold Order Fixed R#GR2025112200003B O#MFIX20251124004"
   rsv-ref: "GR2025112200003B"
   order-ref: "MFIX20251124004"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  41756.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  41756.000000 USD {7.8 HKD}
     dateTs: "1763953660593"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251124004"
@@ -4520,7 +4520,7 @@
     sourceId: "afafb234-2607-4dab-8692-b5ca299c95e0"
     orderId: "d15737ef-4256-41e7-b2a8-f9c2b9b0b1e6"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -325696.800000 HKD
     dateTs: "1763953660593"
     type: "Gold Order Fixed"
@@ -4534,7 +4534,7 @@
 2025-11-24 * "Gold Order Fixed R#GR2025112400003B O#MFIX20251124006"
   rsv-ref: "GR2025112400003B"
   order-ref: "MFIX20251124006"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  95798.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  95798.000000 USD {7.8 HKD}
     dateTs: "1763953675173"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251124006"
@@ -4542,7 +4542,7 @@
     sourceId: "6a8d8549-e178-4de0-81ec-8ecf52927334"
     orderId: "7ef47abd-410c-49e5-b995-365b0c8b8cb2"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -747224.400000 HKD
     dateTs: "1763953675173"
     type: "Gold Order Fixed"
@@ -4691,7 +4691,7 @@
 
 2025-11-24 * "Reservation R#GR2025112400008S"
   rsv-ref: "GR2025112400008S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  7631.090000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  7631.090000 USDT {7.79 HKD}
     dateTs: "1763967605892"
     type: "Reservation"
     referenceNo: "GR2025112400008S"
@@ -4699,7 +4699,7 @@
     sourceId: "3870e630-6330-498e-a42c-a008b8b54675"
     orderId: "3870e630-6330-498e-a42c-a008b8b54675"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -7631.090000 USDT {7.79 HKD}
     dateTs: "1763967605892"
     type: "Reservation"
@@ -4714,7 +4714,7 @@
 2025-11-24 * "Reservation Delivery R#GR2025112400008S D#D20251124006"
   rsv-ref: "GR2025112400008S"
   del-ref: "D20251124006"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -7631.090000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -7631.090000 USDT {7.79 HKD}
     dateTs: "1763969434468"
     type: "Reservation Delivery"
     referenceNo: "D20251124006"
@@ -4722,7 +4722,7 @@
     sourceId: "f80089e1-3bf5-4d8a-9e39-397fc5ddbbcc"
     orderId: "3870e630-6330-498e-a42c-a008b8b54675"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  58.470000 XAU {1016.6955891910382 HKD}
     dateTs: "1763969434468"
     type: "Reservation Delivery"
@@ -4731,7 +4731,7 @@
     sourceId: "f80089e1-3bf5-4d8a-9e39-397fc5ddbbcc"
     orderId: "3870e630-6330-498e-a42c-a008b8b54675"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-24 * "852 91928321 (鄭小姐) [e822d421-bf3c-4ff1-8034-d1fb120d4c2a]" "Client Deposit D#CD20251124001"
   Assets:CurrentAssets:Bank:KPAYBank  3900.000000 HKD
@@ -4800,7 +4800,7 @@
     sourceId: "29818d30-c88c-4714-affe-182731a1a360"
     orderId: "cea5d654-27c8-43d0-be18-89b81a02ff4d"
     orderContact: "852 64128618 (WINGHONGLEUNG梁永康) [8cd7c887-7451-43bf-a0bc-20821c04db24]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1763970032671"
     type: "Reservation Delivery"
@@ -5442,7 +5442,7 @@
 
 2025-11-26 * "Reservation R#GR2025112600001S"
   rsv-ref: "GR2025112600001S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  48629.810000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  48629.810000 USDT {7.79 HKD}
     dateTs: "1764123381414"
     type: "Reservation"
     referenceNo: "GR2025112600001S"
@@ -5450,7 +5450,7 @@
     sourceId: "fecfc68b-b380-4c45-af11-68e940a3516d"
     orderId: "fecfc68b-b380-4c45-af11-68e940a3516d"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -48629.810000 USDT {7.79 HKD}
     dateTs: "1764123381414"
     type: "Reservation"
@@ -5464,7 +5464,7 @@
 
 2025-11-26 * "Reservation R#GR2025112600003B"
   rsv-ref: "GR2025112600003B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -48630.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -48630.000000 USD {7.8 HKD}
     dateTs: "1764123412041"
     type: "Reservation"
     referenceNo: "GR2025112600003B"
@@ -5472,7 +5472,7 @@
     sourceId: "c8844d08-0ddc-46b4-91d2-3f6305805d08"
     orderId: "c8844d08-0ddc-46b4-91d2-3f6305805d08"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  48630.000000 USD {7.8 HKD}
     dateTs: "1764123412041"
     type: "Reservation"
@@ -5487,7 +5487,7 @@
 2025-11-26 * "Reservation Delivery R#GR2025112600001S D#D20251126001"
   rsv-ref: "GR2025112600001S"
   del-ref: "D20251126001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -48629.810000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -48629.810000 USDT {7.79 HKD}
     dateTs: "1764123460766"
     type: "Reservation Delivery"
     referenceNo: "D20251126001"
@@ -5495,7 +5495,7 @@
     sourceId: "bf6387ae-2341-47fa-a7a9-575b506fa0f9"
     orderId: "fecfc68b-b380-4c45-af11-68e940a3516d"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  363.120000 XAU {1043.2535247301169 HKD}
     dateTs: "1764123460766"
     type: "Reservation Delivery"
@@ -5504,12 +5504,12 @@
     sourceId: "bf6387ae-2341-47fa-a7a9-575b506fa0f9"
     orderId: "fecfc68b-b380-4c45-af11-68e940a3516d"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-26 * "Gold Order Fixed R#GR2025112600003B O#MFIX20251126001"
   rsv-ref: "GR2025112600003B"
   order-ref: "MFIX20251126001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  48630.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  48630.000000 USD {7.8 HKD}
     dateTs: "1764123466368"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251126001"
@@ -5517,7 +5517,7 @@
     sourceId: "94bcdc17-1f58-49af-9cfb-0e6289bf9971"
     orderId: "c8844d08-0ddc-46b4-91d2-3f6305805d08"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -379314.000000 HKD
     dateTs: "1764123466368"
     type: "Gold Order Fixed"
@@ -5539,7 +5539,7 @@
     sourceId: "16d9c853-c2d0-4c34-a782-bcee126a6927"
     orderId: "c8844d08-0ddc-46b4-91d2-3f6305805d08"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1764123654955"
     type: "Reservation Delivery"
@@ -5750,7 +5750,7 @@
 
 2025-11-27 * "Reservation R#GR2025112700003S"
   rsv-ref: "GR2025112700003S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  90271.000000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  90271.000000 USDT {7.79 HKD}
     dateTs: "1764212420940"
     type: "Reservation"
     referenceNo: "GR2025112700003S"
@@ -5758,7 +5758,7 @@
     sourceId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
     orderId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -90271.000000 USDT {7.79 HKD}
     dateTs: "1764212420940"
     type: "Reservation"
@@ -5772,7 +5772,7 @@
 
 2025-11-27 * "Reservation R#GR2025112700004B"
   rsv-ref: "GR2025112700004B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -90271.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -90271.000000 USD {7.8 HKD}
     dateTs: "1764214128570"
     type: "Reservation"
     referenceNo: "GR2025112700004B"
@@ -5780,7 +5780,7 @@
     sourceId: "99cc4886-2f6a-49ba-b8af-24833cc535f0"
     orderId: "99cc4886-2f6a-49ba-b8af-24833cc535f0"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  90271.000000 USD {7.8 HKD}
     dateTs: "1764214128570"
     type: "Reservation"
@@ -5795,7 +5795,7 @@
 2025-11-27 * "Gold Order Fixed R#GR2025112700004B O#MFIX20251127005"
   rsv-ref: "GR2025112700004B"
   order-ref: "MFIX20251127005"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  90271.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  90271.000000 USD {7.8 HKD}
     dateTs: "1764214340088"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251127005"
@@ -5803,7 +5803,7 @@
     sourceId: "783a90db-a638-4f30-a7dd-2c110e7654f4"
     orderId: "99cc4886-2f6a-49ba-b8af-24833cc535f0"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -704113.800000 HKD
     dateTs: "1764214340088"
     type: "Gold Order Fixed"
@@ -5817,7 +5817,7 @@
 2025-11-27 * "Reservation Delivery R#GR2025112700003S D#D20251127002"
   rsv-ref: "GR2025112700003S"
   del-ref: "D20251127002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -90271.000000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -90271.000000 USDT {7.79 HKD}
     dateTs: "1764214557894"
     type: "Reservation Delivery"
     referenceNo: "D20251127002"
@@ -5825,7 +5825,7 @@
     sourceId: "d278ffe5-c69b-4585-bc14-5474090905d0"
     orderId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  674.780000 XAU {1042.133865852574 HKD}
     dateTs: "1764214557894"
     type: "Reservation Delivery"
@@ -5834,7 +5834,7 @@
     sourceId: "d278ffe5-c69b-4585-bc14-5474090905d0"
     orderId: "efa96ded-c375-4c82-8882-13f6ce2eb7d7"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-27 * "Reservation Delivery R#GR2025112700004B D#D20251127003"
   rsv-ref: "GR2025112700004B"
@@ -5847,7 +5847,7 @@
     sourceId: "29b691c0-abf0-4ab4-b7f3-6a6840025278"
     orderId: "99cc4886-2f6a-49ba-b8af-24833cc535f0"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1764214811778"
     type: "Reservation Delivery"
@@ -6084,7 +6084,7 @@
 
 2025-11-28 * "Reservation R#GR2025112800003S"
   rsv-ref: "GR2025112800003S"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  21966.790000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  21966.790000 USDT {7.79 HKD}
     dateTs: "1764297224317"
     type: "Reservation"
     referenceNo: "GR2025112800003S"
@@ -6092,7 +6092,7 @@
     sourceId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-milwaysGoldLtd萬寶黄金有限公司85262244422  -21966.790000 USDT {7.79 HKD}
     dateTs: "1764297224317"
     type: "Reservation"
@@ -6106,7 +6106,7 @@
 
 2025-11-28 * "Reservation R#GR2025112800004B"
   rsv-ref: "GR2025112800004B"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -21967.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  -21967.000000 USD {7.8 HKD}
     dateTs: "1764297241074"
     type: "Reservation"
     referenceNo: "GR2025112800004B"
@@ -6114,7 +6114,7 @@
     sourceId: "df0c3860-b674-4003-b218-a9c8ff739972"
     orderId: "df0c3860-b674-4003-b218-a9c8ff739972"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-AuTifaCoLtd82220887071  21967.000000 USD {7.8 HKD}
     dateTs: "1764297241074"
     type: "Reservation"
@@ -6129,7 +6129,7 @@
 2025-11-28 * "Gold Order Fixed R#GR2025112800004B O#MFIX20251128002"
   rsv-ref: "GR2025112800004B"
   order-ref: "MFIX20251128002"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  21967.000000 USD {7.8 HKD}
+  Liabilities:CurrentLiabilities:UnfixedSales-gold  21967.000000 USD {7.8 HKD}
     dateTs: "1764298122536"
     type: "Gold Order Fixed"
     referenceNo: "MFIX20251128002"
@@ -6137,7 +6137,7 @@
     sourceId: "c752f969-ef1a-4618-90fc-4cc62e7670f2"
     orderId: "df0c3860-b674-4003-b218-a9c8ff739972"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "f8a0b6bb-ca76-4d82-8fcf-cd30e42bb509"
   Income:Sales:Sales-gold  -171342.600000 HKD
     dateTs: "1764298122536"
     type: "Gold Order Fixed"
@@ -6151,7 +6151,7 @@
 2025-11-28 * "Reservation Delivery R#GR2025112800003S D#D20251128001"
   rsv-ref: "GR2025112800003S"
   del-ref: "D20251128001"
-  Assets:CurrentAssets:Inventory:Gold:Gold-in-transit  -21966.790000 USDT {7.79 HKD}
+  Assets:CurrentAssets:Inventory:Gold:Gold-to-receive  -21966.790000 USDT {7.79 HKD}
     dateTs: "1764298321223"
     type: "Reservation Delivery"
     referenceNo: "D20251128001"
@@ -6159,7 +6159,7 @@
     sourceId: "501dfd16-1fc9-44a2-ad61-62335b1f1c78"
     orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "e3c9cd78-e3ab-46be-9903-46a695e0cb99"
   Assets:CurrentAssets:Inventory:Gold:Gold-in-stock  162.620000 XAU {1052.2770514081908 HKD}
     dateTs: "1764298321223"
     type: "Reservation Delivery"
@@ -6168,7 +6168,7 @@
     sourceId: "501dfd16-1fc9-44a2-ad61-62335b1f1c78"
     orderId: "871a3e7c-6b45-4a17-bb46-5dc106be3462"
     orderContact: "852 62244422 (MilwaysGoldLtd萬寶黄金有限公司) [2dcfeea3-ab5e-40a3-a0af-00101f3873fa]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
 
 2025-11-28 * "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]" "Client Deposit D#CD20251128023"
   Assets:CurrentAssets:Cash:Cash金料  35354.000000 USD {7.8 HKD}
@@ -6293,7 +6293,7 @@
     sourceId: "b9a9aee6-6bcc-44a4-926a-6dff0aff1cfe"
     orderId: "df0c3860-b674-4003-b218-a9c8ff739972"
     orderContact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
-    accountId: ""
+    accountId: "4a3aec52-939d-4b30-8d06-63a2c0065494"
   Expenses:Cogs:Cogs-gold
     dateTs: "1764298518679"
     type: "Reservation Delivery"
