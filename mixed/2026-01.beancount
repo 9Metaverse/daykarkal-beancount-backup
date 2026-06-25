@@ -3412,26 +3412,6 @@
     accountId: "c3c7693e-d6b8-4a1b-91ab-4007245053cf"
     contact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
 
-2026-01-14 * "Assets:CurrentAssets:Bank:BOCCurrentBANK" "Bank Transfer : BOC -saving to BOC - current"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  -250000.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "d7d32648-89ca-468e-815f-495f0312c452"
-    orderId: "fb5cd58a-f360-4b94-a074-00f639e47fcd"
-    referenceNo: "2574"
-    parentReferenceNo: ""
-    description: "Bank Transfer : BOC -saving to BOC - current (Item #1)"
-    dateTs: "1768381137736"
-  Assets:CurrentAssets:Bank:BOCCurrentBANK  250000.000000 HKD
-    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
-    type: "MJ"
-    sourceId: "f41cf169-e018-4073-b197-49339cb4dd32"
-    orderId: "fb5cd58a-f360-4b94-a074-00f639e47fcd"
-    referenceNo: "2574"
-    parentReferenceNo: ""
-    description: "Bank Transfer : BOC -saving to BOC - current (Item #2)"
-    dateTs: "1768381137736"
-
 2026-01-14 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay 305"
   Assets:CurrentAssets:Bank:BOCSavingBANK  423054.660000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
@@ -3450,6 +3430,26 @@
     referenceNo: "2573"
     parentReferenceNo: ""
     description: "kpay 305 (Item #2)"
+    dateTs: "1768381137736"
+
+2026-01-14 * "Assets:CurrentAssets:Bank:BOCCurrentBANK" "Bank Transfer : BOC -saving to BOC - current"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -250000.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "d7d32648-89ca-468e-815f-495f0312c452"
+    orderId: "fb5cd58a-f360-4b94-a074-00f639e47fcd"
+    referenceNo: "2574"
+    parentReferenceNo: ""
+    description: "Bank Transfer : BOC -saving to BOC - current (Item #1)"
+    dateTs: "1768381137736"
+  Assets:CurrentAssets:Bank:BOCCurrentBANK  250000.000000 HKD
+    accountId: "0936901d-ae98-4ff9-b7d3-229225b0581a"
+    type: "MJ"
+    sourceId: "f41cf169-e018-4073-b197-49339cb4dd32"
+    orderId: "fb5cd58a-f360-4b94-a074-00f639e47fcd"
+    referenceNo: "2574"
+    parentReferenceNo: ""
+    description: "Bank Transfer : BOC -saving to BOC - current (Item #2)"
     dateTs: "1768381137736"
 
 2026-01-14 * "Reservation R#GR2026011400004B"
@@ -4428,6 +4428,30 @@
     accountId: "741c2303-d5cc-4686-940a-de764eab8ac7"
     contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
 
+2026-01-18 * "Invoice #1193 Stock~ R24127 c0426e47-be3d-4bda-a193-5541909f02b9"
+  Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1193"
+    parentReferenceNo: ""
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    dateTs: "1768737566149"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "Invoice Item"
+    sourceId: "3bb19064-0e34-46b0-a036-c8fe2267dd2e"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  7000.000000 HKD
+    accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
+    referenceNo: "1193"
+    parentReferenceNo: ""
+    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    dateTs: "1768737566149"
+    type: "Invoice"
+    sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
 2026-01-18 * "Bill #1540 REF INV#1188 1.20CT 做托鑲石 c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
   referenceNo: "1540"
   parentReferenceNo: ""
@@ -4457,30 +4481,6 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "c3dbc9f3-a259-4eb5-8e09-36b1a8c235ce"
-
-2026-01-18 * "Invoice #1193 Stock~ R24127 c0426e47-be3d-4bda-a193-5541909f02b9"
-  Income:Sales:SalesItem:Sell18kJewelry  -7000.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1193"
-    parentReferenceNo: ""
-    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    dateTs: "1768737566149"
-    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
-    type: "Invoice Item"
-    sourceId: "3bb19064-0e34-46b0-a036-c8fe2267dd2e"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  7000.000000 HKD
-    accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
-    referenceNo: "1193"
-    parentReferenceNo: ""
-    orderId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    dateTs: "1768737566149"
-    type: "Invoice"
-    sourceId: "c0426e47-be3d-4bda-a193-5541909f02b9"
-    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
 2026-01-18 * "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]" "Client Deposit D#CD20260118002"
   Assets:CurrentAssets:Cash:K11ShopCash  7000.000000 HKD
@@ -6122,26 +6122,6 @@
     accountId: "f6803001-0e8b-4829-87eb-1a7cf57c9ea5"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
-2026-01-28 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:417CashInHand  -23000.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "ef0c5a05-43d4-47e3-a68d-ffd3dd0fcc94"
-    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    referenceNo: "2628"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #1)"
-    dateTs: "1769592278032"
-  Assets:CurrentAssets:Cash:K11ShopCash  23000.000000 HKD
-    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
-    type: "MJ"
-    sourceId: "702e5a81-dad6-410e-bb03-3d0ba51167b8"
-    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
-    referenceNo: "2628"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #2)"
-    dateTs: "1769592278032"
-
 2026-01-28 * "Invoice #1198 Stock BE2508 a98cf5b8-83af-4356-b3ae-a26bf36741df"
   Income:Sales:SalesItem:Sell18kJewelry  -3800.000000 HKD
     category: "Jewelry"
@@ -6165,6 +6145,26 @@
     type: "Invoice"
     sourceId: "a98cf5b8-83af-4356-b3ae-a26bf36741df"
     contact: "852 96221520 (IrisKwong) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
+
+2026-01-28 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:417CashInHand  -23000.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "ef0c5a05-43d4-47e3-a68d-ffd3dd0fcc94"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #1)"
+    dateTs: "1769592278032"
+  Assets:CurrentAssets:Cash:K11ShopCash  23000.000000 HKD
+    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
+    type: "MJ"
+    sourceId: "702e5a81-dad6-410e-bb03-3d0ba51167b8"
+    orderId: "65db5b12-864e-4ed0-a196-c02d1917727c"
+    referenceNo: "2628"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #2)"
+    dateTs: "1769592278032"
 
 2026-01-28 * "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]" "Trade Deposit D#CD20260128005"
   Assets:CurrentAssets:Cash:K11ShopCash  -22658.000000 HKD
