@@ -678,26 +678,6 @@
     accountId: "cbafbff7-6fc1-4c78-8d50-71eb73215318"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
-2025-11-05 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
-  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "1183fd09-a8d0-49f0-b252-91246012eb5a"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #1)"
-    dateTs: "1762328235744"
-  Assets:CurrentAssets:Cash:K11ShopCash  10000.000000 HKD
-    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
-    type: "MJ"
-    sourceId: "9fb4a1d8-5ff7-49a2-82e1-43c910546fde"
-    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
-    referenceNo: "1578"
-    parentReferenceNo: ""
-    description: "417 to G17 (Item #2)"
-    dateTs: "1762328235744"
-
 2025-11-05 * "Invoice #1160 Stock BR2524 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Income:Sales:SalesItem:Sell18kJewelry  -4900.000000 HKD
     category: "Jewelry"
@@ -721,6 +701,26 @@
     type: "Invoice"
     sourceId: "4e9bb109-8d05-4a8d-95af-3a28665c07bc"
     contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+
+2025-11-05 * "Assets:CurrentAssets:Cash:K11ShopCash" "417 to G17"
+  Assets:CurrentAssets:Cash:417CashInHand  -10000.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "1183fd09-a8d0-49f0-b252-91246012eb5a"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #1)"
+    dateTs: "1762328235744"
+  Assets:CurrentAssets:Cash:K11ShopCash  10000.000000 HKD
+    accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
+    type: "MJ"
+    sourceId: "9fb4a1d8-5ff7-49a2-82e1-43c910546fde"
+    orderId: "c36dfc83-0cff-4ef4-89c4-cf2ddc63864e"
+    referenceNo: "1578"
+    parentReferenceNo: ""
+    description: "417 to G17 (Item #2)"
+    dateTs: "1762328235744"
 
 2025-11-05 * "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]" "Invoice Payment for Invoice#1160 P#IP20251105001 4e9bb109-8d05-4a8d-95af-3a28665c07bc"
   Assets:CurrentAssets:Bank:BOCSavingBANK  4900.000000 HKD
@@ -2123,30 +2123,6 @@
     accountId: "5931258a-cb26-441b-94b9-518784cc076c"
     contact: "852 95567627 (MrsWong) [fe0f601c-7523-4171-8b90-acb77e898186]"
 
-2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
-  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
-    category: "Other"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "1167"
-    parentReferenceNo: ""
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-    dateTs: "1762915868122"
-    accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
-    type: "Invoice Item"
-    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
-    accountId: "fad727cc-f227-442a-ba62-2bc27cb450f6"
-    referenceNo: "1167"
-    parentReferenceNo: ""
-    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-    dateTs: "1762915868122"
-    type: "Invoice"
-    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
-    contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
-
 2025-11-12 * "Bill #1503 强哥改戒指手寸#14 Ref INV#1160(846) 179aa720-f99f-4b3a-baca-768f726f9208"
   referenceNo: "1503"
   parentReferenceNo: ""
@@ -2176,6 +2152,30 @@
     contact: "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]"
     type: "Bill"
     sourceId: "179aa720-f99f-4b3a-baca-768f726f9208"
+
+2025-11-12 * "Invoice #1167 INV ref#946 改手寸#14 52f45f12-e896-42a7-aba0-a66674c0d797"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1167"
+    parentReferenceNo: ""
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+    dateTs: "1762915868122"
+    accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
+    type: "Invoice Item"
+    sourceId: "dd7237b3-c2a0-4fb6-a0dc-a013185d9936"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-helenChan85297046812  0.000000 HKD
+    accountId: "fad727cc-f227-442a-ba62-2bc27cb450f6"
+    referenceNo: "1167"
+    parentReferenceNo: ""
+    orderId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    orderContact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
+    dateTs: "1762915868122"
+    type: "Invoice"
+    sourceId: "52f45f12-e896-42a7-aba0-a66674c0d797"
+    contact: "852 97046812 (HelenChan) [4b975878-9a69-4c53-aa26-74ac2c8cac25]"
 
 2025-11-12 * "852 96221974 (強哥首飾加工師傅) [cef6a8eb-0892-4a7c-bfdc-328752af4fd5]" "Bill Payment for Bill#1503 P#BP20251112004 179aa720-f99f-4b3a-baca-768f726f9208"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-強哥首飾加工師傅85296221974  250.000000 HKD
@@ -2724,6 +2724,26 @@
     accountId: "cbafbff7-6fc1-4c78-8d50-71eb73215318"
     contact: "82 220887071 (AuTifaCo.Ltd) [33b780b2-8816-4462-87a0-73152f99e7b4]"
 
+2025-11-16 * "Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses" "G17 Petty Cash"
+  Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses  21.000000 HKD
+    accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
+    type: "MJ"
+    sourceId: "549f3146-9622-478d-bf47-86175f31fa73"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    parentReferenceNo: ""
+    description: "G17 Petty Cash (電池) (Item #1)"
+    dateTs: "1763274075466"
+  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
+    accountId: "ede59747-2a28-409c-be61-1e62547ad935"
+    type: "MJ"
+    sourceId: "e7e0ef77-a172-4d7e-9e39-a0261133fd3a"
+    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
+    referenceNo: "1695"
+    parentReferenceNo: ""
+    description: "G17 Petty Cash (電池) (Item #2)"
+    dateTs: "1763274075466"
+
 2025-11-16 * "Invoice #1168 Stock BR2568 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Income:Sales:SalesItem:Sell18kJewelry  -5800.000000 HKD
     category: "Jewelry"
@@ -2747,26 +2767,6 @@
     type: "Invoice"
     sourceId: "b41b01b5-aa24-4567-b504-cd5b93272d8f"
     contact: "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]"
-
-2025-11-16 * "Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses" "G17 Petty Cash"
-  Expenses:GeneralExpense:ShopExpenses:G17ShopExpenses  21.000000 HKD
-    accountId: "71ca2ee9-184a-4523-a049-18ef77ffc60f"
-    type: "MJ"
-    sourceId: "549f3146-9622-478d-bf47-86175f31fa73"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    parentReferenceNo: ""
-    description: "G17 Petty Cash (電池) (Item #1)"
-    dateTs: "1763274075466"
-  Assets:CurrentAssets:Cash:PettyCash  -21.000000 HKD
-    accountId: "ede59747-2a28-409c-be61-1e62547ad935"
-    type: "MJ"
-    sourceId: "e7e0ef77-a172-4d7e-9e39-a0261133fd3a"
-    orderId: "886017bb-3b0f-4439-8c0c-52ed67cdde8c"
-    referenceNo: "1695"
-    parentReferenceNo: ""
-    description: "G17 Petty Cash (電池) (Item #2)"
-    dateTs: "1763274075466"
 
 2025-11-16 * "880 802 ((舊-DKK有數)Walkin) [42348712-7daa-4c29-93b7-756b472429a4]" "Invoice Payment for Invoice#1168 P#IP20251116002 b41b01b5-aa24-4567-b504-cd5b93272d8f"
   Assets:CurrentAssets:Cash:K11ShopCash  5800.000000 HKD
