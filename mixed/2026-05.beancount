@@ -2714,7 +2714,7 @@
     description: "K11 Petty Cash  (珠寶燈) (Item #4)"
     dateTs: "1780047949730"
 
-2026-05-30 * "Bill #1624 嚴丹鳳代鑲石 合併 946f8646-8f56-473b-86d3-f4e0eeb45cd4"
+2026-05-30 * "Bill #1624 嚴丹鳳代鑲石 合併 + PT熔金扣數 (INV#1234 out stock) 946f8646-8f56-473b-86d3-f4e0eeb45cd4"
   referenceNo: "1624"
   parentReferenceNo: ""
   orderId: "946f8646-8f56-473b-86d3-f4e0eeb45cd4"
@@ -2853,7 +2853,18 @@
     accountId: "d3d24466-3e9a-4991-ad91-86d4536da30e"
     type: "Bill Item"
     sourceId: "1181636d-a81b-4882-9b19-1508820079b4"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -15765.940000 CNY {1.1416 HKD}
+  Income:OtherIncome:RefiningRevenue  -4225.061600 HKD
+    qty: "1"
+    description: "PT熔金扣數"
+    referenceNo: "1624"
+    parentReferenceNo: ""
+    orderId: "946f8646-8f56-473b-86d3-f4e0eeb45cd4"
+    orderContact: "86 13502891558 (深圳市嘉寧珏珠寶股份有限公司) [0855f826-2f3a-4788-bfb1-5f09653c1ad0]"
+    dateTs: "1780113655000"
+    accountId: "9e4022e5-5334-4508-8eae-d576612cc831"
+    type: "Bill Item"
+    sourceId: "2dbe63b9-0051-4bbf-8681-bb6cf1bc3010"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-深圳市嘉寧珏珠寶股份有限公司8613502891558  -12064.940000 CNY {1.1416 HKD}
     accountId: "471de9ca-7282-451b-8bda-2eb7efeebcbb"
     referenceNo: "1624"
     parentReferenceNo: ""
