@@ -546,30 +546,6 @@
     sourceId: "914cc830-50aa-44dd-be72-23ea953c70d3"
     contact: "86 13771883351 (kelly) [0b521497-9eee-46f1-ae99-e7d9c90a3bd7]"
 
-2026-07-03 * "INVENTORY_INVOICE #II20260703002 ORD-1783058531659 c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
-  Income:Sales:SalesItem:Sell18kJewelry  -580.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "II20260703002"
-    parentReferenceNo: ""
-    orderId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    dateTs: "1783058531659"
-    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
-    type: "INVENTORY_INVOICE_ITEM"
-    sourceId: "4bbb9ea3-22b1-4bdd-a9d8-e7e7801efb87"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  580.000000 HKD
-    accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
-    referenceNo: "II20260703002"
-    parentReferenceNo: ""
-    orderId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
-    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-    dateTs: "1783058531659"
-    type: "INVENTORY_INVOICE"
-    sourceId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
-    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
-
 2026-07-03 * "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]" "INVENTORY_INVOICE_PAYMENT for Inventory Invoice#II20260703002 P#IIP20260703025 c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
   Assets:CurrentAssets:Bank:KPAYBank  580.000000 HKD
     type: "Payment"
@@ -596,6 +572,30 @@
     description: ""
     dateTs: "1783058531659"
     accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
+    contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+
+2026-07-03 * "INVENTORY_INVOICE #II20260703002 ORD-1783058531659 c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
+  Income:Sales:SalesItem:Sell18kJewelry  -580.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "II20260703002"
+    parentReferenceNo: ""
+    orderId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    dateTs: "1783058531659"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "INVENTORY_INVOICE_ITEM"
+    sourceId: "4bbb9ea3-22b1-4bdd-a9d8-e7e7801efb87"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  580.000000 HKD
+    accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
+    referenceNo: "II20260703002"
+    parentReferenceNo: ""
+    orderId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
+    orderContact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
+    dateTs: "1783058531659"
+    type: "INVENTORY_INVOICE"
+    sourceId: "c4c2c9a6-70ab-40b3-a32e-48b174e06f84"
     contact: "852 88888888 (WALKIN街客) [a6ecb1bc-1f5d-4652-a97a-77f0192a2e1c]"
 
 2026-07-04 * "INVENTORY_INVOICE #II20260704001 ORD-1783138757294 fb183e0e-1b36-4024-930c-9279ee427841"
@@ -3553,6 +3553,34 @@
     dateTs: "1783575063012"
     accountId: "407cd755-a336-4927-a11b-892628d569f8"
     contact: "86 13959976777 (施小姐) [0066a2c1-3dad-4d20-93b8-01d5c5b9702b]"
+
+2026-07-09 * "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]" "Bill Payment for Bill#1658 P#BP20260709066 30d31e11-b1b4-4b08-b40d-e8df19ccd17b"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-tvesaJEWELLERY85294146156  24398.000000 HKD
+    type: "Payment"
+    sourceId: "8d2bc1ad-5bd1-4951-ba6a-768b9756743c"
+    referenceNo: "BP20260709066"
+    parentReferenceNo: 1658
+    orderId: "8d2bc1ad-5bd1-4951-ba6a-768b9756743c"
+    parentId: "30d31e11-b1b4-4b08-b40d-e8df19ccd17b"
+    parentType: "Bill"
+    orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
+    description: ""
+    dateTs: "1783586704000"
+    accountId: "4a8674d8-9f5c-4a70-9761-4c96532966bc"
+    contact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -24398.000000 HKD
+    type: "Payment"
+    sourceId: "8d2bc1ad-5bd1-4951-ba6a-768b9756743c"
+    referenceNo: "BP20260709066"
+    parentReferenceNo: 1658
+    orderId: "8d2bc1ad-5bd1-4951-ba6a-768b9756743c"
+    parentId: "30d31e11-b1b4-4b08-b40d-e8df19ccd17b"
+    parentType: "Bill"
+    orderContact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
+    description: ""
+    dateTs: "1783586704000"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "852 94146156 (TVESAJEWELLERY) [8cc7c062-c5f9-4f33-a646-61a8bb519ca9]"
 
 2026-07-09 * "INVENTORY_INVOICE #II20260709004 ORD-1783601683827 6bbaa907-1043-40e2-a898-a7f38c98d8c3"
   Income:Sales:SalesItem:Sell18kJewelry  -4800.000000 HKD
