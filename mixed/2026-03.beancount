@@ -3770,6 +3770,58 @@
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
 
+2026-03-31 * "Invoice #1249 2022年送客 (漏out數) 2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -3000.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "30"
+    referenceNo: "1249"
+    parentReferenceNo: ""
+    orderId: "2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    dateTs: "1774942075962"
+    accountId: "c382847a-8b26-4fb7-842c-cf1054997d53"
+    type: "Invoice Item"
+    sourceId: "4b7fcfd3-2dc3-4cac-bca3-b2ff71e4de8f"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-expensesVendor880806  3000.000000 HKD
+    accountId: "82da2184-41a5-4941-bb53-067229cb3d1c"
+    referenceNo: "1249"
+    parentReferenceNo: ""
+    orderId: "2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    dateTs: "1774942075962"
+    type: "Invoice"
+    sourceId: "2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2026-03-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Invoice Payment for Invoice#1249 P#IP20260720020 2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+  Expenses:GeneralExpense:MarketingExpenses  3000.000000 HKD
+    type: "Payment"
+    sourceId: "bf94c1e1-6be5-4430-8992-27ff272b1034"
+    referenceNo: "IP20260720020"
+    parentReferenceNo: 1249
+    orderId: "bf94c1e1-6be5-4430-8992-27ff272b1034"
+    parentId: "2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+    parentType: "Invoice"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: ""
+    dateTs: "1774942611745"
+    accountId: "338be5d4-81ac-4e6b-9202-9d7689473ade"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-expensesVendor880806  -3000.000000 HKD
+    type: "Payment"
+    sourceId: "bf94c1e1-6be5-4430-8992-27ff272b1034"
+    referenceNo: "IP20260720020"
+    parentReferenceNo: 1249
+    orderId: "bf94c1e1-6be5-4430-8992-27ff272b1034"
+    parentId: "2f89685b-0ef5-45b2-ab0a-13110779dd7a"
+    parentType: "Invoice"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: ""
+    dateTs: "1774942611745"
+    accountId: "82da2184-41a5-4941-bb53-067229cb3d1c"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2026-03-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "INTEREST - BOC SAV 03/2026"
   Assets:CurrentAssets:Bank:BOCSavingBANK  0.180000 HKD
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
