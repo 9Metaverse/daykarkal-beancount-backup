@@ -1151,6 +1151,26 @@
     type: "Bill"
     sourceId: "aaf78235-ef38-4e93-abf6-fb0d80041527"
 
+2022-08-09 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay018"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  17729.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "47f999f3-862a-43ed-8e2f-e76d717fcd9f"
+    orderId: "d2954ca5-557f-42fd-8044-a38d069d3275"
+    referenceNo: "960"
+    parentReferenceNo: ""
+    description: "KPAY to BOC Saving (Item #1)"
+    dateTs: "1659974400000"
+  Assets:CurrentAssets:Bank:KPAYBank  -17729.000000 HKD
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    type: "MJ"
+    sourceId: "a6670564-6c47-40e3-ae99-f2d518e761f1"
+    orderId: "d2954ca5-557f-42fd-8044-a38d069d3275"
+    referenceNo: "960"
+    parentReferenceNo: ""
+    description: "KPAY to BOC Saving (Item #2)"
+    dateTs: "1659974400000"
+
 2022-08-09 * "Invoice #150 INV-0104 MR. LEUNG KAI PONG 195be38e-7fb0-407d-acb5-c5398669af49"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -200.000000 HKD
     category: "Other"
@@ -1174,26 +1194,6 @@
     type: "Invoice"
     sourceId: "195be38e-7fb0-407d-acb5-c5398669af49"
     contact: "852 95849817 (MR.LEUNGKAIPONG) [75db9950-ca1b-40d2-8561-c645a3b879f8]"
-
-2022-08-09 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay018"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  17729.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "47f999f3-862a-43ed-8e2f-e76d717fcd9f"
-    orderId: "d2954ca5-557f-42fd-8044-a38d069d3275"
-    referenceNo: "960"
-    parentReferenceNo: ""
-    description: "KPAY to BOC Saving (Item #1)"
-    dateTs: "1659974400000"
-  Assets:CurrentAssets:Bank:KPAYBank  -17729.000000 HKD
-    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
-    type: "MJ"
-    sourceId: "a6670564-6c47-40e3-ae99-f2d518e761f1"
-    orderId: "d2954ca5-557f-42fd-8044-a38d069d3275"
-    referenceNo: "960"
-    parentReferenceNo: ""
-    description: "KPAY to BOC Saving (Item #2)"
-    dateTs: "1659974400000"
 
 2022-08-09 * "852 54332298 (MR.CHAN) [e4099299-42b3-4b28-bad6-61f8faef9b06]" "Invoice Payment for Invoice#85 P#IP20220809004 c0c6f3ff-30b5-48dd-a02d-f934d42e977d"
   Assets:CurrentAssets:Bank:BOCSavingBANK  5400.000000 HKD
@@ -1412,34 +1412,6 @@
     type: "Bill"
     sourceId: "062d611c-44bb-49e3-92f2-de6eb7ecbd04"
 
-2022-08-10 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Bill Payment for Bill#358 P#BP20220810004 062d611c-44bb-49e3-92f2-de6eb7ecbd04"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  389.200000 HKD
-    type: "Payment"
-    sourceId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
-    referenceNo: "BP20220810004"
-    parentReferenceNo: 358
-    orderId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
-    parentId: "062d611c-44bb-49e3-92f2-de6eb7ecbd04"
-    parentType: "Bill"
-    orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    description: ""
-    dateTs: "1660060800001"
-    accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-  Assets:CurrentAssets:Bank:KPAYBank  -389.200000 HKD
-    type: "Payment"
-    sourceId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
-    referenceNo: "BP20220810004"
-    parentReferenceNo: 358
-    orderId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
-    parentId: "062d611c-44bb-49e3-92f2-de6eb7ecbd04"
-    parentType: "Bill"
-    orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-    description: ""
-    dateTs: "1660060800001"
-    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
-    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
-
 2022-08-10 * "852 93311629 (MR.KANKEN) [7dd734fa-c169-42a6-a1d3-4430b89b2817]" "Invoice Payment for Invoice#146 P#IP20220810002 adc8b842-81a9-48d3-a542-187b46a6b694"
   Assets:CurrentAssets:Cash:417CashInHand  17300.000000 HKD
     type: "Payment"
@@ -1524,6 +1496,34 @@
     accountId: "262c67e9-08ad-49b9-9a05-2a2c16b7f326"
     contact: "852 52903558 (MS.NGNAMBE) [0279af68-b140-4542-ba31-76157a649444]"
 
+2022-08-10 * "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]" "Bill Payment for Bill#358 P#BP20220810004 062d611c-44bb-49e3-92f2-de6eb7ecbd04"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-kpay99812345821  389.200000 HKD
+    type: "Payment"
+    sourceId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
+    referenceNo: "BP20220810004"
+    parentReferenceNo: 358
+    orderId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
+    parentId: "062d611c-44bb-49e3-92f2-de6eb7ecbd04"
+    parentType: "Bill"
+    orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    description: ""
+    dateTs: "1660060800001"
+    accountId: "7e26aaf9-14fe-46fb-8e15-eb9ad4426ab7"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+  Assets:CurrentAssets:Bank:KPAYBank  -389.200000 HKD
+    type: "Payment"
+    sourceId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
+    referenceNo: "BP20220810004"
+    parentReferenceNo: 358
+    orderId: "5cdcb1bd-cdfd-44d1-abcc-ce68e1ae6e7f"
+    parentId: "062d611c-44bb-49e3-92f2-de6eb7ecbd04"
+    parentType: "Bill"
+    orderContact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+    description: ""
+    dateTs: "1660060800001"
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
+
 2022-08-10 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#437 P#BP20220810005 e1f9dfff-59d8-4f72-b716-471482c05544"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1100.000000 HKD
     type: "Payment"
@@ -1601,34 +1601,6 @@
     description: "KPAY to BOC Saving (Item #2)"
     dateTs: "1660147200000"
 
-2022-08-11 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Bill Payment for Bill#653 P#BP20220811005 71cc1329-7d18-4867-bf5b-28a01677c930"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  500.000000 HKD
-    type: "Payment"
-    sourceId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
-    referenceNo: "BP20220811005"
-    parentReferenceNo: 653
-    orderId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
-    parentId: "71cc1329-7d18-4867-bf5b-28a01677c930"
-    parentType: "Bill"
-    orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    description: ""
-    dateTs: "1660147200001"
-    accountId: "6f800df8-2680-4bab-934e-8f614c309fdf"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -500.000000 HKD
-    type: "Payment"
-    sourceId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
-    referenceNo: "BP20220811005"
-    parentReferenceNo: 653
-    orderId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
-    parentId: "71cc1329-7d18-4867-bf5b-28a01677c930"
-    parentType: "Bill"
-    orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-    description: ""
-    dateTs: "1660147200001"
-    accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
-    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-
 2022-08-11 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Bill Payment for Bill#625 P#BP20220811003 72c72dd3-0925-41bb-8161-94e5423462f6"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  2364.000000 HKD
     type: "Payment"
@@ -1678,6 +1650,34 @@
     parentReferenceNo: 625
     orderId: "adc7a852-34e6-43dc-9aa4-38e2fe477887"
     parentId: "72c72dd3-0925-41bb-8161-94e5423462f6"
+    parentType: "Bill"
+    orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    description: ""
+    dateTs: "1660147200001"
+    accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+
+2022-08-11 * "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]" "Bill Payment for Bill#653 P#BP20220811005 71cc1329-7d18-4867-bf5b-28a01677c930"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-skyhighHoldingsGroupLtd99812345767  500.000000 HKD
+    type: "Payment"
+    sourceId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
+    referenceNo: "BP20220811005"
+    parentReferenceNo: 653
+    orderId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
+    parentId: "71cc1329-7d18-4867-bf5b-28a01677c930"
+    parentType: "Bill"
+    orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+    description: ""
+    dateTs: "1660147200001"
+    accountId: "6f800df8-2680-4bab-934e-8f614c309fdf"
+    contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-SkyhighHoldingsGroupLtd  -500.000000 HKD
+    type: "Payment"
+    sourceId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
+    referenceNo: "BP20220811005"
+    parentReferenceNo: 653
+    orderId: "f3fc9c92-c1b1-43ec-80ca-f7976291add2"
+    parentId: "71cc1329-7d18-4867-bf5b-28a01677c930"
     parentType: "Bill"
     orderContact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
     description: ""
@@ -1740,27 +1740,6 @@
     dateTs: "1660147200001"
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
-
-2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHKTradingLtd" "Cash to H&A HK TRADING (GIA DEPOSIT)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHKTradingLtd  36100.000000 HKD
-    contact: "998 12345714 (H&AHKTRADINGLIMITED) [cee8ba01-a560-4e9c-87eb-8a642c66248b]"
-    accountId: "3c81a72e-85ab-4def-8573-5374dce14e59"
-    type: "MJ"
-    sourceId: "26b20d0c-d4f5-4e8c-b251-7b2e020913b5"
-    orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
-    referenceNo: "951"
-    parentReferenceNo: ""
-    description: "GIA DEPOSIT 36100 (Item #1)"
-    dateTs: "1660233600000"
-  Assets:CurrentAssets:Cash:417CashInHand  -36100.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "4d00551b-c56c-4522-8142-dacd4fbdc1f9"
-    orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
-    referenceNo: "951"
-    parentReferenceNo: ""
-    description: "GIA DEPOSIT 36100 (Item #2)"
-    dateTs: "1660233600000"
 
 2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-VED-VeniDiamLtd" "Cash to VED - VENI DIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-VED-VeniDiamLtd  145400.000000 HKD
@@ -2069,6 +2048,27 @@
     referenceNo: "938"
     parentReferenceNo: ""
     description: "GIA DEPOSIT 202400 (Item #2)"
+    dateTs: "1660233600000"
+
+2022-08-12 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHKTradingLtd" "Cash to H&A HK TRADING (GIA DEPOSIT)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-HandaHKTradingLtd  36100.000000 HKD
+    contact: "998 12345714 (H&AHKTRADINGLIMITED) [cee8ba01-a560-4e9c-87eb-8a642c66248b]"
+    accountId: "3c81a72e-85ab-4def-8573-5374dce14e59"
+    type: "MJ"
+    sourceId: "26b20d0c-d4f5-4e8c-b251-7b2e020913b5"
+    orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
+    referenceNo: "951"
+    parentReferenceNo: ""
+    description: "GIA DEPOSIT 36100 (Item #1)"
+    dateTs: "1660233600000"
+  Assets:CurrentAssets:Cash:417CashInHand  -36100.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "4d00551b-c56c-4522-8142-dacd4fbdc1f9"
+    orderId: "e3fe7916-8ce0-459f-89e1-978dfb9e12d9"
+    referenceNo: "951"
+    parentReferenceNo: ""
+    description: "GIA DEPOSIT 36100 (Item #2)"
     dateTs: "1660233600000"
 
 2022-08-12 * "852 63457234 (MR.YIUFUNG) [90b44d9a-3c83-4d84-a449-14699ae0e85e]" "Invoice Payment for Invoice#140 P#IP20220812001 43a03b09-a684-4ff2-9b96-b121380bf7fb"
@@ -5196,27 +5196,6 @@
     accountId: "9b81105d-4564-45dc-b010-a33d9f4d8b4f"
     contact: "998 12345767 (SkyHighHoldingsGroupLtd) [efdca012-5d6e-4361-8ec7-f5566615d58a]"
 
-2022-08-30 * "Assets:CurrentAssets:Cash:417CashInHand" "DHARAM CREATIONS to Cash (DEPOSIT RETURN)"
-  Assets:CurrentAssets:Cash:417CashInHand  148050.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "7eb3f7b1-4d70-466e-a564-86edf812a143"
-    orderId: "f3037fd5-77ac-4f3d-b3fd-f8396c71011d"
-    referenceNo: "1035"
-    parentReferenceNo: ""
-    description: "DEPOSIT RETURN 148050 (Item #1)"
-    dateTs: "1661788800000"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHKLtd  -148050.000000 HKD
-    contact: "998 12345701 (DHARAMCREATIONS(HK)LTD.) [1261c65f-2da8-494c-acfb-6a4339644897]"
-    accountId: "6fc277a8-e28a-4826-9fc2-539a7c94702d"
-    type: "MJ"
-    sourceId: "f9a421cc-5656-4301-a373-3abd6e8e89c4"
-    orderId: "f3037fd5-77ac-4f3d-b3fd-f8396c71011d"
-    referenceNo: "1035"
-    parentReferenceNo: ""
-    description: "DEPOSIT RETURN 148050 (Item #2)"
-    dateTs: "1661788800000"
-
 2022-08-30 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd" "Cash to TWINKLEDIAM (GIA DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-TwinklediamHongKongLtd  76600.000000 HKD
     contact: "998 12345770 (TWINKLEDIAMHONGKONGLTD) [d2e73164-7688-4f4c-b342-12d5e1a440fc]"
@@ -5421,6 +5400,27 @@
     referenceNo: "926"
     parentReferenceNo: ""
     description: "DEPOSIT RETURN 64000 (Item #2)"
+    dateTs: "1661788800000"
+
+2022-08-30 * "Assets:CurrentAssets:Cash:417CashInHand" "DHARAM CREATIONS to Cash (DEPOSIT RETURN)"
+  Assets:CurrentAssets:Cash:417CashInHand  148050.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "7eb3f7b1-4d70-466e-a564-86edf812a143"
+    orderId: "f3037fd5-77ac-4f3d-b3fd-f8396c71011d"
+    referenceNo: "1035"
+    parentReferenceNo: ""
+    description: "DEPOSIT RETURN 148050 (Item #1)"
+    dateTs: "1661788800000"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-DharamCreationsHKLtd  -148050.000000 HKD
+    contact: "998 12345701 (DHARAMCREATIONS(HK)LTD.) [1261c65f-2da8-494c-acfb-6a4339644897]"
+    accountId: "6fc277a8-e28a-4826-9fc2-539a7c94702d"
+    type: "MJ"
+    sourceId: "f9a421cc-5656-4301-a373-3abd6e8e89c4"
+    orderId: "f3037fd5-77ac-4f3d-b3fd-f8396c71011d"
+    referenceNo: "1035"
+    parentReferenceNo: ""
+    description: "DEPOSIT RETURN 148050 (Item #2)"
     dateTs: "1661788800000"
 
 2022-08-30 * "Bill #229 BANK FEE e6d5276e-42ba-4980-8d72-24cf2a81f86f"
