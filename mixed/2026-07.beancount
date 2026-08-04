@@ -461,6 +461,34 @@
     description: "kpay342 (Item #4)"
     dateTs: "1783049403039"
 
+2026-07-03 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#1668 P#BP20260703080 18cbd586-5faa-4a96-acc1-388a1ad15fea"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1960.000000 HKD
+    type: "Payment"
+    sourceId: "95f53dcc-3368-4edc-be63-39bf29a0638a"
+    referenceNo: "BP20260703080"
+    parentReferenceNo: 1668
+    orderId: "95f53dcc-3368-4edc-be63-39bf29a0638a"
+    parentId: "18cbd586-5faa-4a96-acc1-388a1ad15fea"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "MILWAYS GOLD 代付  6月OT BY CASH"
+    dateTs: "1783051739400"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilwaysGoldLimited  -1960.000000 HKD
+    type: "Payment"
+    sourceId: "95f53dcc-3368-4edc-be63-39bf29a0638a"
+    referenceNo: "BP20260703080"
+    parentReferenceNo: 1668
+    orderId: "95f53dcc-3368-4edc-be63-39bf29a0638a"
+    parentId: "18cbd586-5faa-4a96-acc1-388a1ad15fea"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "MILWAYS GOLD 代付  6月OT BY CASH"
+    dateTs: "1783051739400"
+    accountId: "6078528f-8a72-4756-bd77-7b741e99beac"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
 2026-07-03 * "86 13771883351 (kelly) [0b521497-9eee-46f1-ae99-e7d9c90a3bd7]" "INVENTORY_INVOICE_PAYMENT for Inventory Invoice#II20260703001 P#IIP20260703020 914cc830-50aa-44dd-be72-23ea953c70d3"
   Assets:CurrentAssets:Bank:KPAYBank  5400.000000 HKD
     type: "Payment"
@@ -7943,30 +7971,6 @@
     description: "kpay353 (Item #2)"
     dateTs: "1784533301067"
 
-2026-07-20 * "INVENTORY_INVOICE #II20260720003 ORD-1784535203128 97649af2-b770-42cb-88cf-c5f331d87d76"
-  Income:Sales:SalesItem:Sell18kJewelry  -1900.000000 HKD
-    category: "Jewelry"
-    sku: "DD260612003"
-    qty: "1"
-    referenceNo: "II20260720003"
-    parentReferenceNo: ""
-    orderId: "97649af2-b770-42cb-88cf-c5f331d87d76"
-    orderContact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
-    dateTs: "1784535203128"
-    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
-    type: "INVENTORY_INVOICE_ITEM"
-    sourceId: "76c01f7f-56e5-4e0e-9939-5ae0d600c2b8"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-KIM85269059900  1900.000000 HKD
-    accountId: "118a9247-09db-4fde-938e-922e42b18731"
-    referenceNo: "II20260720003"
-    parentReferenceNo: ""
-    orderId: "97649af2-b770-42cb-88cf-c5f331d87d76"
-    orderContact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
-    dateTs: "1784535203128"
-    type: "INVENTORY_INVOICE"
-    sourceId: "97649af2-b770-42cb-88cf-c5f331d87d76"
-    contact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
-
 2026-07-20 * "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]" "INVENTORY_INVOICE_PAYMENT for Inventory Invoice#II20260720003 P#IIP20260720028 97649af2-b770-42cb-88cf-c5f331d87d76"
   Assets:CurrentAssets:Bank:KPAYBank  1900.000000 HKD
     type: "Payment"
@@ -7993,6 +7997,30 @@
     description: "MASTER · ****0815"
     dateTs: "1784535203128"
     accountId: "118a9247-09db-4fde-938e-922e42b18731"
+    contact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
+
+2026-07-20 * "INVENTORY_INVOICE #II20260720003 ORD-1784535203128 97649af2-b770-42cb-88cf-c5f331d87d76"
+  Income:Sales:SalesItem:Sell18kJewelry  -1900.000000 HKD
+    category: "Jewelry"
+    sku: "DD260612003"
+    qty: "1"
+    referenceNo: "II20260720003"
+    parentReferenceNo: ""
+    orderId: "97649af2-b770-42cb-88cf-c5f331d87d76"
+    orderContact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
+    dateTs: "1784535203128"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "INVENTORY_INVOICE_ITEM"
+    sourceId: "76c01f7f-56e5-4e0e-9939-5ae0d600c2b8"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-KIM85269059900  1900.000000 HKD
+    accountId: "118a9247-09db-4fde-938e-922e42b18731"
+    referenceNo: "II20260720003"
+    parentReferenceNo: ""
+    orderId: "97649af2-b770-42cb-88cf-c5f331d87d76"
+    orderContact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
+    dateTs: "1784535203128"
+    type: "INVENTORY_INVOICE"
+    sourceId: "97649af2-b770-42cb-88cf-c5f331d87d76"
     contact: "852 69059900 (KIM) [4a562d7b-549e-49d4-a86e-95188ca61bec]"
 
 2026-07-20 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Invoice Payment for Invoice#1250 P#IP20260720029 f6ace87b-9eb4-4181-9024-0488e5101d93"
