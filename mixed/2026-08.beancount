@@ -3884,7 +3884,19 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
     type: "Invoice Item"
     sourceId: "349c34b9-ec0d-46d4-b3ee-ecc9bcfde56f"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-elmaMa85252858388  4825.000000 HKD
+  Income:Sales:SalesItem:Sell18kJewelry  -663.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "1252"
+    parentReferenceNo: ""
+    orderId: "683a2929-2b2e-4e5c-a8b6-d699ed3cba42"
+    orderContact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
+    dateTs: "1786272251843"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "Invoice Item"
+    sourceId: "a078b4c0-2ec3-4757-9d8d-ac520ab342fc"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-elmaMa85252858388  5488.000000 HKD
     accountId: "741c2303-d5cc-4686-940a-de764eab8ac7"
     referenceNo: "1252"
     parentReferenceNo: ""
@@ -4663,3 +4675,31 @@
     parentReferenceNo: ""
     description: "10/8 Jean 件數獎 #10001 (Item #2)"
     dateTs: "1786598572513"
+
+2026-08-13 * "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]" "Invoice Payment for Invoice#1252 P#IP20260813037 683a2929-2b2e-4e5c-a8b6-d699ed3cba42"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  5488.000000 HKD
+    type: "Payment"
+    sourceId: "4dd7cc40-c4ac-4400-a08a-2999d66e1722"
+    referenceNo: "IP20260813037"
+    parentReferenceNo: 1252
+    orderId: "4dd7cc40-c4ac-4400-a08a-2999d66e1722"
+    parentId: "683a2929-2b2e-4e5c-a8b6-d699ed3cba42"
+    parentType: "Invoice"
+    orderContact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
+    description: ""
+    dateTs: "1786605979862"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-elmaMa85252858388  -5488.000000 HKD
+    type: "Payment"
+    sourceId: "4dd7cc40-c4ac-4400-a08a-2999d66e1722"
+    referenceNo: "IP20260813037"
+    parentReferenceNo: 1252
+    orderId: "4dd7cc40-c4ac-4400-a08a-2999d66e1722"
+    parentId: "683a2929-2b2e-4e5c-a8b6-d699ed3cba42"
+    parentType: "Invoice"
+    orderContact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
+    description: ""
+    dateTs: "1786605979862"
+    accountId: "741c2303-d5cc-4686-940a-de764eab8ac7"
+    contact: "852 52858388 (ElmaMa) [ef9273ef-4cec-43d5-bcd0-9f2b494c2962]"
