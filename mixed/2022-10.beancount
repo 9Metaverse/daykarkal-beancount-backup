@@ -1065,26 +1065,6 @@
     description: "deposit 61000 return (Item #2)"
     dateTs: "1664985600000"
 
-2022-10-06 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay035"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  35459.000000 HKD
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    type: "MJ"
-    sourceId: "fe1b9b90-5b7b-499a-adc9-25ebbef316a4"
-    orderId: "1a53687c-ddda-4605-840f-99dc04ef205e"
-    referenceNo: "179"
-    parentReferenceNo: ""
-    description: "KPAY to BOC Saving (Item #1)"
-    dateTs: "1664985600000"
-  Assets:CurrentAssets:Bank:KPAYBank  -35459.000000 HKD
-    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
-    type: "MJ"
-    sourceId: "fbee3107-2e52-4788-89a1-5467ec05737c"
-    orderId: "1a53687c-ddda-4605-840f-99dc04ef205e"
-    referenceNo: "179"
-    parentReferenceNo: ""
-    description: "KPAY to BOC Saving (Item #2)"
-    dateTs: "1664985600000"
-
 2022-10-06 * "Assets:CurrentAssets:Cash:417CashInHand" "DEPOSIT RETURN FROM RA GEM HKD 45000"
   Assets:CurrentAssets:Cash:417CashInHand  45000.000000 HKD
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -1104,6 +1084,26 @@
     referenceNo: "863"
     parentReferenceNo: ""
     description: "deposit 45000 return (Item #2)"
+    dateTs: "1664985600000"
+
+2022-10-06 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "kpay035"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  35459.000000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "fe1b9b90-5b7b-499a-adc9-25ebbef316a4"
+    orderId: "1a53687c-ddda-4605-840f-99dc04ef205e"
+    referenceNo: "179"
+    parentReferenceNo: ""
+    description: "KPAY to BOC Saving (Item #1)"
+    dateTs: "1664985600000"
+  Assets:CurrentAssets:Bank:KPAYBank  -35459.000000 HKD
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    type: "MJ"
+    sourceId: "fbee3107-2e52-4788-89a1-5467ec05737c"
+    orderId: "1a53687c-ddda-4605-840f-99dc04ef205e"
+    referenceNo: "179"
+    parentReferenceNo: ""
+    description: "KPAY to BOC Saving (Item #2)"
     dateTs: "1664985600000"
 
 2022-10-07 * "Liabilities:CurrentLiabilities:CurrentAccount:C-A-MilrichElectronicsHKCoLtd" "Cash to MILRICH (Paid Back USD 14175)"
@@ -1909,34 +1909,6 @@
     description: "(Item #2)"
     dateTs: "1665331200000"
 
-2022-10-10 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#205 P#BP20221010004 dce8c4d1-405c-4336-b8ab-2865a58379b6"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  25.000000 HKD
-    type: "Payment"
-    sourceId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
-    referenceNo: "BP20221010004"
-    parentReferenceNo: 205
-    orderId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
-    parentId: "dce8c4d1-405c-4336-b8ab-2865a58379b6"
-    parentType: "Bill"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    description: "BANK FEE"
-    dateTs: "1665331200001"
-    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  -25.000000 HKD
-    type: "Payment"
-    sourceId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
-    referenceNo: "BP20221010004"
-    parentReferenceNo: 205
-    orderId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
-    parentId: "dce8c4d1-405c-4336-b8ab-2865a58379b6"
-    parentType: "Bill"
-    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-    description: "BANK FEE"
-    dateTs: "1665331200001"
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
-
 2022-10-10 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#233 P#BP20221010005 ff63c312-7d01-4fed-a172-bbb25382056b"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  905.000000 HKD
     type: "Payment"
@@ -2014,6 +1986,34 @@
     parentReferenceNo: 204
     orderId: "046e7496-aa02-4c3f-a44e-fda14fe6216c"
     parentId: "5a87ea60-9ef4-4668-91cc-0ea642c9137e"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1665331200001"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+
+2022-10-10 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#205 P#BP20221010004 dce8c4d1-405c-4336-b8ab-2865a58379b6"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  25.000000 HKD
+    type: "Payment"
+    sourceId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
+    referenceNo: "BP20221010004"
+    parentReferenceNo: 205
+    orderId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
+    parentId: "dce8c4d1-405c-4336-b8ab-2865a58379b6"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: "BANK FEE"
+    dateTs: "1665331200001"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -25.000000 HKD
+    type: "Payment"
+    sourceId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
+    referenceNo: "BP20221010004"
+    parentReferenceNo: 205
+    orderId: "02cdcb16-847c-4b3c-889a-7cdffaec0d98"
+    parentId: "dce8c4d1-405c-4336-b8ab-2865a58379b6"
     parentType: "Bill"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     description: "BANK FEE"
@@ -4438,30 +4438,6 @@
     description: "(Item #3)"
     dateTs: "1666281600000"
 
-2022-10-21 * "Invoice #184 INV-0138 MR. TANG cf486714-f132-4702-9530-90269ebcbe9f"
-  Income:Sales:SalesItem:Sell18kJewelry  -3400.000000 HKD
-    category: "Jewelry"
-    sku: "Unknown"
-    qty: "1"
-    referenceNo: "184"
-    parentReferenceNo: ""
-    orderId: "cf486714-f132-4702-9530-90269ebcbe9f"
-    orderContact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
-    dateTs: "1666281600000"
-    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
-    type: "Invoice Item"
-    sourceId: "adbf0f52-5772-4991-84be-820119e8a4c0"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTANG85262843074  3400.000000 HKD
-    accountId: "8e1a48bc-9285-4aab-b35e-13d7e31c8c51"
-    referenceNo: "184"
-    parentReferenceNo: ""
-    orderId: "cf486714-f132-4702-9530-90269ebcbe9f"
-    orderContact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
-    dateTs: "1666281600000"
-    type: "Invoice"
-    sourceId: "cf486714-f132-4702-9530-90269ebcbe9f"
-    contact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
-
 2022-10-21 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-JB-JBBrothersHKLtd" "Cash to JB - J.B. BROTHERS (DEPOSIT)"
   Assets:CurrentAssets:TradeDeposit:TradeDeposit-JB-JBBrothersHKLtd  50000.000000 HKD
     contact: "998 12345720 (JB-J.B.BROTHERS(HK)LTD.) [1dc24330-a419-40a4-b2e6-46d2f297ba61]"
@@ -4573,6 +4549,30 @@
     parentReferenceNo: ""
     description: "(Item #2)"
     dateTs: "1666281600000"
+
+2022-10-21 * "Invoice #184 INV-0138 MR. TANG cf486714-f132-4702-9530-90269ebcbe9f"
+  Income:Sales:SalesItem:Sell18kJewelry  -3400.000000 HKD
+    category: "Jewelry"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "184"
+    parentReferenceNo: ""
+    orderId: "cf486714-f132-4702-9530-90269ebcbe9f"
+    orderContact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
+    dateTs: "1666281600000"
+    accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
+    type: "Invoice Item"
+    sourceId: "adbf0f52-5772-4991-84be-820119e8a4c0"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-mrTANG85262843074  3400.000000 HKD
+    accountId: "8e1a48bc-9285-4aab-b35e-13d7e31c8c51"
+    referenceNo: "184"
+    parentReferenceNo: ""
+    orderId: "cf486714-f132-4702-9530-90269ebcbe9f"
+    orderContact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
+    dateTs: "1666281600000"
+    type: "Invoice"
+    sourceId: "cf486714-f132-4702-9530-90269ebcbe9f"
+    contact: "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]"
 
 2022-10-21 * "852 62843074 (MR.TANG) [7b696acb-eb7a-484a-a955-ce5422e9ecaf]" "Invoice Payment for Invoice#184 P#IP20221021001 cf486714-f132-4702-9530-90269ebcbe9f"
   Assets:CurrentAssets:Bank:KPAYBank  2600.000000 HKD
@@ -4715,6 +4715,26 @@
     accountId: "a2a83e5d-2a43-4884-a9a7-dbca23dda9f4"
     contact: "998 12345835 (boc(bankofchina)) [82f385a7-d238-4826-9a12-e06648f93cdb]"
 
+2022-10-23 * "Assets:CurrentAssets:Bank:KPAYBank" "KPAY - Inv#78 payment overage"
+  Assets:CurrentAssets:Bank:KPAYBank  0.240000 HKD
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    type: "MJ"
+    sourceId: "ef7729dc-81bc-4222-9456-cb2c1de63ded"
+    orderId: "9d66ec1f-306f-4fb8-b6f1-1a5ba6b6f6f3"
+    referenceNo: "484"
+    parentReferenceNo: ""
+    description: "Invoice#78 overage $0.24 ($24,099.76>$25,000) (Item #1)"
+    dateTs: "1666454400000"
+  Income:OtherIncome:MiscellaneousIncome  -0.240000 HKD
+    accountId: "974681e1-dbb1-49f4-acd5-3a69239244b5"
+    type: "MJ"
+    sourceId: "a6500133-958f-4c61-b0cc-49ff7c5c18b2"
+    orderId: "9d66ec1f-306f-4fb8-b6f1-1a5ba6b6f6f3"
+    referenceNo: "484"
+    parentReferenceNo: ""
+    description: "Invoice#78 overage $0.24 ($24,099.76>$25,000) (Item #2)"
+    dateTs: "1666454400000"
+
 2022-10-23 * "Bill #345 kpay037 e19b4373-a709-4fb9-9264-70d77c437762"
   referenceNo: "345"
   parentReferenceNo: ""
@@ -4743,54 +4763,6 @@
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
     type: "Bill"
     sourceId: "e19b4373-a709-4fb9-9264-70d77c437762"
-
-2022-10-23 * "Assets:CurrentAssets:Bank:KPAYBank" "KPAY - Inv#78 payment overage"
-  Assets:CurrentAssets:Bank:KPAYBank  0.240000 HKD
-    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
-    type: "MJ"
-    sourceId: "ef7729dc-81bc-4222-9456-cb2c1de63ded"
-    orderId: "9d66ec1f-306f-4fb8-b6f1-1a5ba6b6f6f3"
-    referenceNo: "484"
-    parentReferenceNo: ""
-    description: "Invoice#78 overage $0.24 ($24,099.76>$25,000) (Item #1)"
-    dateTs: "1666454400000"
-  Income:OtherIncome:MiscellaneousIncome  -0.240000 HKD
-    accountId: "974681e1-dbb1-49f4-acd5-3a69239244b5"
-    type: "MJ"
-    sourceId: "a6500133-958f-4c61-b0cc-49ff7c5c18b2"
-    orderId: "9d66ec1f-306f-4fb8-b6f1-1a5ba6b6f6f3"
-    referenceNo: "484"
-    parentReferenceNo: ""
-    description: "Invoice#78 overage $0.24 ($24,099.76>$25,000) (Item #2)"
-    dateTs: "1666454400000"
-
-2022-10-23 * "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]" "Invoice Payment for Invoice#119 P#IP20221023002 0a1f3bff-02b3-4add-b923-6bf281bbd8df"
-  Assets:CurrentAssets:Bank:KPAYBank  24099.760000 HKD
-    type: "Payment"
-    sourceId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
-    referenceNo: "IP20221023002"
-    parentReferenceNo: 119
-    orderId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
-    parentId: "0a1f3bff-02b3-4add-b923-6bf281bbd8df"
-    parentType: "Invoice"
-    orderContact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
-    description: "MAC# 102332931831"
-    dateTs: "1666454400001"
-    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
-    contact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msTSANGVIVIEN85296886258  -24099.760000 HKD
-    type: "Payment"
-    sourceId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
-    referenceNo: "IP20221023002"
-    parentReferenceNo: 119
-    orderId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
-    parentId: "0a1f3bff-02b3-4add-b923-6bf281bbd8df"
-    parentType: "Invoice"
-    orderContact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
-    description: "MAC# 102332931831"
-    dateTs: "1666454400001"
-    accountId: "04819c85-96dd-4140-80c4-ffcc90a6b7a9"
-    contact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
 
 2022-10-23 * "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]" "Invoice Payment for Invoice#119 P#IP20221023001 0a1f3bff-02b3-4add-b923-6bf281bbd8df"
   Assets:CurrentAssets:Bank:KPAYBank  5000.000000 HKD
@@ -4900,6 +4872,34 @@
     parentType: "Invoice"
     orderContact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
     description: "WE# 000005"
+    dateTs: "1666454400001"
+    accountId: "04819c85-96dd-4140-80c4-ffcc90a6b7a9"
+    contact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
+
+2022-10-23 * "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]" "Invoice Payment for Invoice#119 P#IP20221023002 0a1f3bff-02b3-4add-b923-6bf281bbd8df"
+  Assets:CurrentAssets:Bank:KPAYBank  24099.760000 HKD
+    type: "Payment"
+    sourceId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
+    referenceNo: "IP20221023002"
+    parentReferenceNo: 119
+    orderId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
+    parentId: "0a1f3bff-02b3-4add-b923-6bf281bbd8df"
+    parentType: "Invoice"
+    orderContact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
+    description: "MAC# 102332931831"
+    dateTs: "1666454400001"
+    accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
+    contact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-msTSANGVIVIEN85296886258  -24099.760000 HKD
+    type: "Payment"
+    sourceId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
+    referenceNo: "IP20221023002"
+    parentReferenceNo: 119
+    orderId: "81734cc8-0b4b-40fc-8f81-cded8a05d64d"
+    parentId: "0a1f3bff-02b3-4add-b923-6bf281bbd8df"
+    parentType: "Invoice"
+    orderContact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
+    description: "MAC# 102332931831"
     dateTs: "1666454400001"
     accountId: "04819c85-96dd-4140-80c4-ffcc90a6b7a9"
     contact: "852 96886258 (MS.TSANGVIVIEN) [0d15c5d9-d2aa-486a-af2f-ccbded919750]"
@@ -6250,34 +6250,6 @@
     accountId: "6bae40f6-e579-4681-8d7b-98394eb68eca"
     contact: "998 12345821 (KPAY) [5a706f32-7edc-48d8-ae47-62fee1e8bba1]"
 
-2022-10-28 * "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]" "Invoice Payment for Invoice#188 P#IP20221028001 c5017639-5d48-4441-8f10-5a97d1cc25c5"
-  Assets:CurrentAssets:Cash:417CashInHand  235.000000 USD {7.85 HKD}
-    type: "Payment"
-    sourceId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
-    referenceNo: "IP20221028001"
-    parentReferenceNo: 188
-    orderId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
-    parentId: "c5017639-5d48-4441-8f10-5a97d1cc25c5"
-    parentType: "Invoice"
-    orderContact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
-    description: ""
-    dateTs: "1666886400001"
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    contact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-舊-dkk有數未有登記名字-walkIn85295537786  -235.000000 USD {7.85 HKD}
-    type: "Payment"
-    sourceId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
-    referenceNo: "IP20221028001"
-    parentReferenceNo: 188
-    orderId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
-    parentId: "c5017639-5d48-4441-8f10-5a97d1cc25c5"
-    parentType: "Invoice"
-    orderContact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
-    description: ""
-    dateTs: "1666886400001"
-    accountId: "6799f553-d95c-4e9b-a615-7f741b9a1ac5"
-    contact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
-
 2022-10-28 * "63 9175088682 (MS.KWANWINNIE) [559fadd6-98c8-4f39-98d5-8d0ed255ecab]" "Invoice Payment for Invoice#160 P#IP20221028002 6964925a-601e-49bd-9702-4bab519304e1"
   Assets:CurrentAssets:Cash:417CashInHand  1426.000000 HKD
     type: "Payment"
@@ -6305,6 +6277,34 @@
     dateTs: "1666886400001"
     accountId: "fdc58b3d-4ca2-4021-a98f-f1db04e1e450"
     contact: "63 9175088682 (MS.KWANWINNIE) [559fadd6-98c8-4f39-98d5-8d0ed255ecab]"
+
+2022-10-28 * "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]" "Invoice Payment for Invoice#188 P#IP20221028001 c5017639-5d48-4441-8f10-5a97d1cc25c5"
+  Assets:CurrentAssets:Cash:417CashInHand  235.000000 USD {7.85 HKD}
+    type: "Payment"
+    sourceId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
+    referenceNo: "IP20221028001"
+    parentReferenceNo: 188
+    orderId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
+    parentId: "c5017639-5d48-4441-8f10-5a97d1cc25c5"
+    parentType: "Invoice"
+    orderContact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
+    description: ""
+    dateTs: "1666886400001"
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    contact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-舊-dkk有數未有登記名字-walkIn85295537786  -235.000000 USD {7.85 HKD}
+    type: "Payment"
+    sourceId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
+    referenceNo: "IP20221028001"
+    parentReferenceNo: 188
+    orderId: "a908e3e9-1884-4da4-b17e-6e8c78b647c5"
+    parentId: "c5017639-5d48-4441-8f10-5a97d1cc25c5"
+    parentType: "Invoice"
+    orderContact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
+    description: ""
+    dateTs: "1666886400001"
+    accountId: "6799f553-d95c-4e9b-a615-7f741b9a1ac5"
+    contact: "852 95537786 ((舊-DKK有數)未有登記名字-Walkin) [9d471f44-a57f-44a3-a356-cb8b6845cfb0]"
 
 2022-10-29 * "Bill #360 kpay041 002c4b19-499a-425e-9434-238dcc10a401"
   referenceNo: "360"
@@ -6666,27 +6666,6 @@
     accountId: "8809b496-552c-4583-85f3-317f5a817dd4"
     contact: "852 95159883 (MR.CHANKEN) [f0c9794b-f5ec-4f8b-8a95-b5fc69907e9d]"
 
-2022-10-31 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-NIR-NirgemHKLtd" "Cash to NIR - NIRGEM HK (DEPOSIT RETURN)"
-  Assets:CurrentAssets:TradeDeposit:TradeDeposit-NIR-NirgemHKLtd  46000.000000 HKD
-    contact: "998 12345736 (NIR-NIRGEMHKLTD) [8979a6d1-c679-4c44-b653-d7c38424809b]"
-    accountId: "05512d12-98b5-46e8-9ffb-80cad5ae7265"
-    type: "MJ"
-    sourceId: "17db375d-b80e-486b-a993-990195c17fa0"
-    orderId: "ac5c31de-923a-42a8-bb61-611286f8175d"
-    referenceNo: "795"
-    parentReferenceNo: ""
-    description: "DEPOSIT RETURN 46000 (Item #1)"
-    dateTs: "1667145600000"
-  Assets:CurrentAssets:Cash:417CashInHand  -46000.000000 HKD
-    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
-    type: "MJ"
-    sourceId: "203048b7-9ab9-4586-b729-cb3312251011"
-    orderId: "ac5c31de-923a-42a8-bb61-611286f8175d"
-    referenceNo: "795"
-    parentReferenceNo: ""
-    description: "DEPOSIT RETURN 46000 (Item #2)"
-    dateTs: "1667145600000"
-
 2022-10-31 * "Assets:CurrentAssets:Cash:417CashInHand" "AS - African Star to Cash (DEPOSIT RETURN)"
   Assets:CurrentAssets:Cash:417CashInHand  207300.000000 HKD
     accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
@@ -6916,33 +6895,26 @@
     description: "(Item #3)"
     dateTs: "1667145600000"
 
-2022-10-31 * "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]" "Bill Payment for Bill#133 P#BP20221031004 3b8f522b-f558-4d3e-801f-083a6e0a0369"
-  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pg-PromisingGEMS99812345739  53111.260000 HKD
-    type: "Payment"
-    sourceId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
-    referenceNo: "BP20221031004"
-    parentReferenceNo: 133
-    orderId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
-    parentId: "3b8f522b-f558-4d3e-801f-083a6e0a0369"
-    parentType: "Bill"
-    orderContact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
-    description: "#01245284563"
-    dateTs: "1667145600001"
-    accountId: "7f543761-c6c2-494f-bae8-0fbf05196a47"
-    contact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
-  Assets:CurrentAssets:Bank:BOCSavingBANK  -53111.260000 HKD
-    type: "Payment"
-    sourceId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
-    referenceNo: "BP20221031004"
-    parentReferenceNo: 133
-    orderId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
-    parentId: "3b8f522b-f558-4d3e-801f-083a6e0a0369"
-    parentType: "Bill"
-    orderContact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
-    description: "#01245284563"
-    dateTs: "1667145600001"
-    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
-    contact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
+2022-10-31 * "Assets:CurrentAssets:TradeDeposit:TradeDeposit-NIR-NirgemHKLtd" "Cash to NIR - NIRGEM HK (DEPOSIT RETURN)"
+  Assets:CurrentAssets:TradeDeposit:TradeDeposit-NIR-NirgemHKLtd  46000.000000 HKD
+    contact: "998 12345736 (NIR-NIRGEMHKLTD) [8979a6d1-c679-4c44-b653-d7c38424809b]"
+    accountId: "05512d12-98b5-46e8-9ffb-80cad5ae7265"
+    type: "MJ"
+    sourceId: "17db375d-b80e-486b-a993-990195c17fa0"
+    orderId: "ac5c31de-923a-42a8-bb61-611286f8175d"
+    referenceNo: "795"
+    parentReferenceNo: ""
+    description: "DEPOSIT RETURN 46000 (Item #1)"
+    dateTs: "1667145600000"
+  Assets:CurrentAssets:Cash:417CashInHand  -46000.000000 HKD
+    accountId: "28b458b5-f168-475a-8dcb-90a7c60322c9"
+    type: "MJ"
+    sourceId: "203048b7-9ab9-4586-b729-cb3312251011"
+    orderId: "ac5c31de-923a-42a8-bb61-611286f8175d"
+    referenceNo: "795"
+    parentReferenceNo: ""
+    description: "DEPOSIT RETURN 46000 (Item #2)"
+    dateTs: "1667145600000"
 
 2022-10-31 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#139 P#BP20221031008 dbdf6736-fe15-489a-9e26-01a24818e009"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  55.000000 HKD
@@ -7027,6 +6999,34 @@
     dateTs: "1667145600001"
     accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
     contact: "998 12345715 (H.K.IMPEXPVT.LTD.) [7c8590e3-d40d-4e75-b083-cf41a9d75755]"
+
+2022-10-31 * "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]" "Bill Payment for Bill#133 P#BP20221031004 3b8f522b-f558-4d3e-801f-083a6e0a0369"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-pg-PromisingGEMS99812345739  53111.260000 HKD
+    type: "Payment"
+    sourceId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
+    referenceNo: "BP20221031004"
+    parentReferenceNo: 133
+    orderId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
+    parentId: "3b8f522b-f558-4d3e-801f-083a6e0a0369"
+    parentType: "Bill"
+    orderContact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
+    description: "#01245284563"
+    dateTs: "1667145600001"
+    accountId: "7f543761-c6c2-494f-bae8-0fbf05196a47"
+    contact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  -53111.260000 HKD
+    type: "Payment"
+    sourceId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
+    referenceNo: "BP20221031004"
+    parentReferenceNo: 133
+    orderId: "6c3630cf-86ba-4206-9a86-64380bc0cfde"
+    parentId: "3b8f522b-f558-4d3e-801f-083a6e0a0369"
+    parentType: "Bill"
+    orderContact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
+    description: "#01245284563"
+    dateTs: "1667145600001"
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    contact: "998 12345739 (PG-PromisingGEMS) [3e4df9c1-50e9-4eb7-850e-5384f0c7affd]"
 
 2022-10-31 * "998 12345699 (DDL-DARSHDIAMLIMITED) [034cfca4-684f-4283-a068-b29549f5cbf8]" "Bill Payment for Bill#136 P#BP20221031006 d577d68c-2121-4cc3-ae95-55534dbf74c7"
   Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-ddl-DARSHDIAMLIMITED99812345699  41031.050000 HKD
