@@ -1,0 +1,49 @@
+; Mixed transactions for 2026-09 (FY 2027)
+
+2026-09-01 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "INTEREST - BOC SAV 8/2026"
+  Assets:CurrentAssets:Bank:BOCSavingBANK  0.310000 HKD
+    accountId: "7e81a25d-2dc1-4524-a250-aa116ea38fdf"
+    type: "MJ"
+    sourceId: "7ed14aed-c9e3-415e-9cb0-8cab5a072d4c"
+    orderId: "2a5b01c5-7982-4119-a88a-ff0182d17e1e"
+    referenceNo: "16300"
+    parentReferenceNo: ""
+    description: "INTEREST - BOC SAV 8/2026 (Item #1)"
+    dateTs: "1788232689587"
+  Income:OtherIncome:Interest-bank  -0.310000 HKD
+    accountId: "fdc28ebe-823b-48f4-a18c-29b91d5d3d17"
+    type: "MJ"
+    sourceId: "1660160a-772d-4e91-9d22-cd8ee25ebd11"
+    orderId: "2a5b01c5-7982-4119-a88a-ff0182d17e1e"
+    referenceNo: "16300"
+    parentReferenceNo: ""
+    description: "INTEREST - BOC SAV 8/2026 (Item #2)"
+    dateTs: "1788232689587"
+
+2026-09-01 * "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]" "Bill Payment for Bill#1695 P#BP20260901002 28fa0764-22d5-4c3b-8cb4-24006ac0aed0"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  1590.000000 HKD
+    type: "Payment"
+    sourceId: "d15f556e-0549-47bf-8b96-95325a28454f"
+    referenceNo: "BP20260901002"
+    parentReferenceNo: 1695
+    orderId: "d15f556e-0549-47bf-8b96-95325a28454f"
+    parentId: "28fa0764-22d5-4c3b-8cb4-24006ac0aed0"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: ""
+    dateTs: "1788233116811"
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  Assets:CurrentAssets:Cash:AdminPettyCash  -1590.000000 HKD
+    type: "Payment"
+    sourceId: "d15f556e-0549-47bf-8b96-95325a28454f"
+    referenceNo: "BP20260901002"
+    parentReferenceNo: 1695
+    orderId: "d15f556e-0549-47bf-8b96-95325a28454f"
+    parentId: "28fa0764-22d5-4c3b-8cb4-24006ac0aed0"
+    parentType: "Bill"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    description: ""
+    dateTs: "1788233116811"
+    accountId: "9a961f31-91c7-4f44-a892-5042c94a1906"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
