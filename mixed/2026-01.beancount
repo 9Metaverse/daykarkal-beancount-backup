@@ -1,5 +1,52 @@
 ; Mixed transactions for 2026-01 (FY 2026)
 
+2026-01-01 * "Expenses:CostOfSales:OpeningInventoryBalance" " Inventory Balance 1/1/2026"
+  Expenses:CostOfSales:OpeningInventoryBalance  4476517.800000 HKD
+    accountId: "5b97cd10-2707-4f58-8555-b3c312d86801"
+    type: "MJ"
+    sourceId: "83589bd0-aca0-4f2b-be80-dca5d9cf2911"
+    orderId: "7dcd4bd6-4275-418f-acec-c3af40b357f8"
+    referenceNo: "16320"
+    parentReferenceNo: ""
+    description: "Opening inventory 1/1/2026 (Item #1)"
+    dateTs: "1767196881214"
+  Assets:CurrentAssets:ShopInventory:Gemstones  -252403.780000 HKD
+    accountId: "c5e13e86-59d7-4fea-a34f-a6e346aeeaeb"
+    type: "MJ"
+    sourceId: "043c39a3-b5a1-4472-812f-f8b22343e99c"
+    orderId: "7dcd4bd6-4275-418f-acec-c3af40b357f8"
+    referenceNo: "16320"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/12/2025 (Item #2)"
+    dateTs: "1767196881214"
+  Assets:CurrentAssets:ShopInventory:GoldJewelry  -5134.120000 HKD
+    accountId: "2629167e-82dd-4b1a-a362-d184489ff32d"
+    type: "MJ"
+    sourceId: "154f1d2d-8483-465b-a416-6e0bb1169a25"
+    orderId: "7dcd4bd6-4275-418f-acec-c3af40b357f8"
+    referenceNo: "16320"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/12/2025 (Item #3)"
+    dateTs: "1767196881214"
+  Assets:CurrentAssets:ShopInventory:NaturalDiamond  -941909.700000 HKD
+    accountId: "64916631-69ba-4f6b-bad3-212b2b7f8b84"
+    type: "MJ"
+    sourceId: "4d0ea089-cdfc-4f5b-8846-c2e85ef172d4"
+    orderId: "7dcd4bd6-4275-418f-acec-c3af40b357f8"
+    referenceNo: "16320"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/12/2025 (Item #4)"
+    dateTs: "1767196881214"
+  Assets:CurrentAssets:ShopInventory:Jewelry  -3277070.200000 HKD
+    accountId: "c382847a-8b26-4fb7-842c-cf1054997d53"
+    type: "MJ"
+    sourceId: "5ade813b-53de-45fd-b907-14178d2bcc60"
+    orderId: "7dcd4bd6-4275-418f-acec-c3af40b357f8"
+    referenceNo: "16320"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/12/2025 (Item #5)"
+    dateTs: "1767196881214"
+
 2026-01-01 * "Expenses:GeneralExpense:Rent" "G17 1月2026 租金 (refer Bill#1296) (9/12)"
   Expenses:GeneralExpense:Rent  45000.000000 HKD
     accountId: "2765f3d6-8b22-47a2-9cf0-0dadc140e12f"
