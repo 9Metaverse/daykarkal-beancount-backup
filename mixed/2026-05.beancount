@@ -98,6 +98,26 @@
     accountId: "aa3658c8-bfbe-40a2-95df-b40c058d805f"
     contact: "852 98622472 (LEGLAMI) [b034b3ac-bb2a-4ca1-9845-26a8a77e470d]"
 
+2026-05-01 * "Expenses:GeneralExpense:Rent" "K11 25 May 26 - 24 Jun 2026 租金 (ref. bill#1562)"
+  Expenses:GeneralExpense:Rent  60000.000000 HKD
+    accountId: "2765f3d6-8b22-47a2-9cf0-0dadc140e12f"
+    type: "MJ"
+    sourceId: "40aba851-d0e4-473e-8865-c1bb73e23710"
+    orderId: "376ed10b-7d89-4c0a-8e2e-70bb27e0bfbe"
+    referenceNo: "16324"
+    parentReferenceNo: ""
+    description: "K11  25 May 26 - 24 Jun 2026 租金 (Item #1)"
+    dateTs: "1777632801559"
+  Assets:OtherAssets:Prepayments  -60000.000000 HKD
+    accountId: "fa4d3224-2959-4935-afc2-0eea3e0042db"
+    type: "MJ"
+    sourceId: "2c2f2323-ef54-4f1a-8057-20a0772ff427"
+    orderId: "376ed10b-7d89-4c0a-8e2e-70bb27e0bfbe"
+    referenceNo: "16324"
+    parentReferenceNo: ""
+    description: "K11  25 May 26 - 24 Jun 2026 租金 (Item #2)"
+    dateTs: "1777632801559"
+
 2026-05-04 * "Invoice #1230 STAFF~ 興哥 BR2648 d26a6061-a2ff-4f64-81db-e7e2d3d5b488"
   Income:Sales:SalesItem:Sell18kJewelry  -4700.000000 HKD
     category: "Jewelry"
