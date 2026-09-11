@@ -4936,7 +4936,7 @@
     dateTs: "1769420914308"
 
 2026-01-27 * "Invoice #1208 屈臣氏水樽退費支票(係之前Milrich 217) 80d47b55-d869-42fb-b07b-cbcffa23731b"
-  Expenses:GeneralExpense:OfficeExpenses  -120.000000 HKD
+  Income:OtherIncome:Refund  -120.000000 HKD
     description: "屈臣氏水樽退費支票(係之前Milrich 217)"
     qty: "1"
     referenceNo: "1208"
@@ -4944,7 +4944,7 @@
     orderId: "80d47b55-d869-42fb-b07b-cbcffa23731b"
     orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
     dateTs: "1769472034831"
-    accountId: "3a84606a-74b7-4edc-b827-92e9d0fb820f"
+    accountId: "45f8f542-65b2-4964-a11a-51de57cef1ff"
     type: "Invoice Item"
     sourceId: "b835db75-8faa-4f75-a012-f1db398c7984"
   Assets:CurrentAssets:AccountReceivable:AccountReceivable-expensesVendor880806  120.000000 HKD
@@ -5794,6 +5794,35 @@
     dateTs: "1769772409088"
     accountId: "6e258528-05f0-43c0-8d1e-08a69dc1985a"
     contact: "852 96221520 (IrisKwong) [9ff13fe8-6cbb-4550-b1b1-c49af545fb80]"
+
+2026-01-31 * "Bill #1563 1月2026年MPF 918745a4-9c14-488d-ace2-a3acf4fd550e"
+  referenceNo: "1563"
+  parentReferenceNo: ""
+  orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+  orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+  dateTs: "1769817634831"
+  type: "Bill"
+  Expenses:GeneralExpense:MPF  7500.000000 HKD
+    qty: "1"
+    description: "1月2026年MPF"
+    referenceNo: "1563"
+    parentReferenceNo: ""
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    dateTs: "1769817634831"
+    accountId: "8634d5ab-02ec-4f10-8301-0db9acb8167c"
+    type: "Bill Item"
+    sourceId: "fa9a520b-7084-40ac-a083-a672d2d98aa5"
+  Liabilities:CurrentLiabilities:AccountPayable:AccountPayable-expensesVendor880806  -7500.000000 HKD
+    accountId: "89d78a2e-deba-4c46-9725-9f2b9e46f6cd"
+    referenceNo: "1563"
+    parentReferenceNo: ""
+    orderId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
+    orderContact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    dateTs: "1769817634831"
+    contact: "880 806 (ExpensesVendor) [53b8789a-4451-4a1f-84f7-a9c5da7ada1a]"
+    type: "Bill"
+    sourceId: "918745a4-9c14-488d-ace2-a3acf4fd550e"
 
 2026-01-31 * "Assets:CurrentAssets:Bank:BOCSavingBANK" "INTEREST - BOC SAV 01/2026"
   Income:OtherIncome:Interest-bank  -0.260000 HKD
