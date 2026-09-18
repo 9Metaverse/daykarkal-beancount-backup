@@ -552,11 +552,11 @@
     description: "G17  釐印費 (Item #2)"
     dateTs: "1743436800000"
 
-2025-04-01 * "Expenses:CostOfSales:OpeningInventoryBalance" "Inventory Balance 1/4/2025"
+2025-04-01 * "Expenses:CostOfSales:ClosingInventoryBalance" "Inventory Balance 1/4/2025"
   Expenses:CostOfSales:OpeningInventoryBalance  5190293.300000 HKD
     accountId: "5b97cd10-2707-4f58-8555-b3c312d86801"
     type: "MJ"
-    sourceId: "aeb0b7ae-9937-457c-b811-2dd690f087e4"
+    sourceId: "9b56ee35-4778-4466-b3fc-de6b3d3d4462"
     orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
     referenceNo: "2342"
     parentReferenceNo: ""
@@ -565,7 +565,7 @@
   Assets:CurrentAssets:ShopInventory:Gemstones  -211479.200000 HKD
     accountId: "c5e13e86-59d7-4fea-a34f-a6e346aeeaeb"
     type: "MJ"
-    sourceId: "cecf25d3-db07-49a6-9764-72634db4c75e"
+    sourceId: "ed8e7b46-ec0d-4506-8bd2-08f817d51ea1"
     orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
     referenceNo: "2342"
     parentReferenceNo: ""
@@ -574,7 +574,7 @@
   Assets:CurrentAssets:ShopInventory:GoldJewelry  -910805.650000 HKD
     accountId: "2629167e-82dd-4b1a-a362-d184489ff32d"
     type: "MJ"
-    sourceId: "09ac83c8-077c-41dd-b8b1-10c2a60ce555"
+    sourceId: "abe1b86c-4bc1-45dc-ba24-2e5c3f087851"
     orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
     referenceNo: "2342"
     parentReferenceNo: ""
@@ -583,7 +583,7 @@
   Assets:CurrentAssets:ShopInventory:NaturalDiamond  -933485.500000 HKD
     accountId: "64916631-69ba-4f6b-bad3-212b2b7f8b84"
     type: "MJ"
-    sourceId: "0c82185e-224d-4798-be4a-84e283149193"
+    sourceId: "b7e269af-c178-4cd0-b69d-b42cd6d71b2a"
     orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
     referenceNo: "2342"
     parentReferenceNo: ""
@@ -592,11 +592,29 @@
   Assets:CurrentAssets:ShopInventory:Jewelry  -3134522.950000 HKD
     accountId: "c382847a-8b26-4fb7-842c-cf1054997d53"
     type: "MJ"
-    sourceId: "d71a19b6-0bff-4a32-9652-e65ddbdff93c"
+    sourceId: "03f71d2a-5f0b-4043-8414-d03945c7f0f2"
     orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
     referenceNo: "2342"
     parentReferenceNo: ""
     description: "Closing inventory 31/3/2025 (Item #5)"
+    dateTs: "1743436846818"
+  Expenses:CostOfSales:ClosingInventoryBalance  16926457.020000 HKD
+    accountId: "b39bc522-2f03-4032-bc23-f19c54964fa3"
+    type: "MJ"
+    sourceId: "fbcf814b-a601-41cb-af5e-54750ae95892"
+    orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
+    referenceNo: "2342"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/3/2025 (Item #6)"
+    dateTs: "1743436846818"
+  Assets:CurrentAssets:InventoryAdjustment  -16926457.020000 HKD
+    accountId: "3e65e83a-776e-4a4c-b936-73037a05a1ef"
+    type: "MJ"
+    sourceId: "d1d966ab-8ad4-48c5-b8f7-0a503cdc53e3"
+    orderId: "c846f40f-6844-467f-b29d-f2ace9862008"
+    referenceNo: "2342"
+    parentReferenceNo: ""
+    description: "Closing inventory 31/3/2025 (Item #7)"
     dateTs: "1743436846818"
 
 2025-04-01 * "Liabilities:CurrentLiabilities:AccruedExpenses" "Opening 1/4/2025 - USD"
