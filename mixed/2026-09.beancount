@@ -4344,7 +4344,8 @@
 
 2026-09-12 * "Invoice #1254 null 28f56cd6-1fee-48e3-a292-b90b554a5efe"
   Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -300.000000 HKD
-    description: "Ring change size"
+    category: "Other"
+    sku: "Unknown"
     qty: "1"
     referenceNo: "1254"
     parentReferenceNo: ""
@@ -4453,6 +4454,30 @@
     type: "INVENTORY_INVOICE"
     sourceId: "8e366c60-a592-4a95-8271-7f2f5fa2b6d9"
     contact: "852 64381924 (MS.Chak) [2e995a61-2bbd-4bd7-a73b-d8ee42d2f1be]"
+
+2026-09-12 * "INVENTORY_INVOICE #II20260912003 406dccee-1bb8-4b70-b819-998019580746"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  0.000000 HKD
+    category: "Other"
+    sku: "Unknown"
+    qty: "1"
+    referenceNo: "II20260912003"
+    parentReferenceNo: ""
+    orderId: "406dccee-1bb8-4b70-b819-998019580746"
+    orderContact: "852 91086887 (MS.RitaChan) [e7d896ae-f0a2-4b27-80e9-210467798300]"
+    dateTs: "1789207570206"
+    accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
+    type: "INVENTORY_INVOICE_ITEM"
+    sourceId: "2a9db699-0bc8-4e24-a2c3-6e70d38de951"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-MSRitaChan85291086887  0.000000 HKD
+    accountId: "c9b52c77-f4f8-4a4d-9f7e-cef397d44e75"
+    referenceNo: "II20260912003"
+    parentReferenceNo: ""
+    orderId: "406dccee-1bb8-4b70-b819-998019580746"
+    orderContact: "852 91086887 (MS.RitaChan) [e7d896ae-f0a2-4b27-80e9-210467798300]"
+    dateTs: "1789207570206"
+    type: "INVENTORY_INVOICE"
+    sourceId: "406dccee-1bb8-4b70-b819-998019580746"
+    contact: "852 91086887 (MS.RitaChan) [e7d896ae-f0a2-4b27-80e9-210467798300]"
 
 2026-09-12 * "852 96861343 (MsNg) [15b71921-7d6d-4682-b0a9-1864235605ca]" "INVENTORY_INVOICE_PAYMENT for Inventory Invoice#II20260912002 P#IIP20260912012 3f26d41d-2c7c-467f-911d-8ed468567c4b"
   Assets:CurrentAssets:Bank:KPAYBank  2790.000000 HKD
@@ -8855,7 +8880,7 @@
     accountId: "a428b3dc-ae68-4480-967a-e1828452fda4"
     type: "INVENTORY_INVOICE_ITEM"
     sourceId: "98794ed0-44a3-430c-a42c-72e3c60b21a3"
-  Income:Sales:SalesDiscount  1000.000000 HKD
+  Income:Sales:SalesDiscount  1800.000000 HKD
     referenceNo: "II20260926004"
     parentReferenceNo: ""
     orderId: "7609cbca-292c-46ac-983a-cc7ef14ca1e1"
@@ -8864,7 +8889,7 @@
     accountId: "525d4f9e-dc5b-4a35-96c7-af87646b99b4"
     type: "INVENTORY_INVOICE"
     sourceId: "7609cbca-292c-46ac-983a-cc7ef14ca1e1"
-  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  18800.000000 HKD
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-walkIN街客85288888888  18000.000000 HKD
     accountId: "7e2f0670-0dc9-4bfa-b139-aee14b8dfac7"
     referenceNo: "II20260926004"
     parentReferenceNo: ""
@@ -8947,3 +8972,26 @@
     dateTs: "1790428531510"
     accountId: "e4463412-96d9-458b-a7d0-683bd4d15d1c"
     contact: "852 62881837 (MsLai) [287e1074-304b-4df2-b81b-588a0bd02a11]"
+
+2026-09-27 * "Invoice #1255 REF #992 R24125落石維修 75b42c57-a8df-43a1-9dd1-2194a908fede"
+  Income:Sales:SalesItem:Sell-ForProcess交外廠加工  -300.000000 HKD
+    description: "Sapphire ring setting for one sapphire"
+    qty: "1"
+    referenceNo: "1255"
+    parentReferenceNo: ""
+    orderId: "75b42c57-a8df-43a1-9dd1-2194a908fede"
+    orderContact: "852 91866387 (MissFong) [869d5710-fed8-40c7-8023-19190d29f2e9]"
+    dateTs: "1790502740850"
+    accountId: "b63cad92-f7a5-4b23-80ad-65f097c33975"
+    type: "Invoice Item"
+    sourceId: "646e53df-bb8e-41bc-8356-7e3d4ddacb87"
+  Assets:CurrentAssets:AccountReceivable:AccountReceivable-missFong85291866387  300.000000 HKD
+    accountId: "f6d4a652-aa97-4244-8cd3-80b4f529c1ce"
+    referenceNo: "1255"
+    parentReferenceNo: ""
+    orderId: "75b42c57-a8df-43a1-9dd1-2194a908fede"
+    orderContact: "852 91866387 (MissFong) [869d5710-fed8-40c7-8023-19190d29f2e9]"
+    dateTs: "1790502740850"
+    type: "Invoice"
+    sourceId: "75b42c57-a8df-43a1-9dd1-2194a908fede"
+    contact: "852 91866387 (MissFong) [869d5710-fed8-40c7-8023-19190d29f2e9]"
