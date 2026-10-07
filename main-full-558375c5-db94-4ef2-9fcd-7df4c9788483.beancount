@@ -1,3 +1,6 @@
+; FULL ledger (archive view) - includes the frozen archive instead of the opening snapshot.
+; AUTO-GENERATED - do not edit by hand.
+
 option "inferred_tolerance_default" "*:0.001"
 option "inferred_tolerance_default" "USDT:0.000001"
 option "inferred_tolerance_default" "HKD:0.01"
@@ -40,7 +43,10 @@ option "title" "Day Karkal Limited"
 
 include "accounts.beancount"
 
-; Frozen archive (loaded directly; opening snapshot not in use)
+; Manual journal entries (for accountants)
+include "manual-journal.beancount"
+
+; Frozen archive (at/before the archival cutoff)
 include "archive/2021-02.beancount"
 include "archive/2021-03.beancount"
 include "archive/2021-04.beancount"
@@ -104,10 +110,7 @@ include "archive/2026-01.beancount"
 include "archive/2026-02.beancount"
 include "archive/2026-03.beancount"
 
-; Manual journal entries (for accountants)
-include "manual-journal.beancount"
-
-; Mixed transactions by month
+; Mixed transactions by month (all months)
 include "mixed/2026-04.beancount"
 include "mixed/2026-05.beancount"
 include "mixed/2026-06.beancount"
